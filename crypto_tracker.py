@@ -260,6 +260,7 @@ def main():
     test_mode = "--test" in sys.argv
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     log.info(f"{'='*55}")
+    log.info(">>> VERSION CHECK: v3 with Reddit fallbacks <<<")
     log.info(f"\U0001f680 SCAN STARTED \u2014 {ts}{'  [TEST MODE]' if test_mode else ''}")
     log.info(f"{'='*55}")
     if not CLAUDE_API_KEY: log.error("\u274c CLAUDE_API_KEY not set"); sys.exit(1)
