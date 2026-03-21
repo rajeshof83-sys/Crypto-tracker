@@ -4,6 +4,15 @@ on:
   schedule:
     - cron: '0 8 * * *'
     - cron: '0 20 * * *'
+  push:
+    branches: ['*']
+  workflow_dispatch:
+    inputs:
+      test_mode:
+        description: 'Test mode (disables filters, sends 1 alert)'
+        required: false
+        type: boolean
+        default: false
   workflow_dispatch:
     inputs:
       test_mode:
