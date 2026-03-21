@@ -1,0 +1,42 @@
+name: Viral Meme Coin Tracker
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+    - cron: '0 20 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: crypto-tracker
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install "requests>=2.28,<3"
+
+      - name: Restore alert history
+        uses: actions/cache@v4
+        with:
+          path: alerted_tokens.json
+          key: alerted-tokens-${{ github.run_id }}
+          restore-keys: alerted-tokens-
+
+      - name: Run tracker
+        env:
+          CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GOOGLE_SHEET_WEBHOOK: ${{ secrets.GOOGLE_SHEET_WEBHOOK }}
+        run: python crypto_tracker.py
