@@ -23,10 +23,10 @@ CONFIG = {
     "min_upvotes": 1500,
     "min_comments": 200,
     "max_token_age_hours": 48,
-    "min_liquidity_usd": 10000,
+    "min_liquidity_usd": 100,
     "min_volume_24h": 5000,
     "min_transactions_24h": 20,
-    "min_safety_score": 5,
+    "min_safety_score": 1,
     "dex_pairs_to_scan": 10,       # Check top N results, not just the first
     "claude_model": "claude-haiku-4-5-20251001",
     "dedup_file": "alerted_tokens.json",  # Stored as GitHub Actions artifact
