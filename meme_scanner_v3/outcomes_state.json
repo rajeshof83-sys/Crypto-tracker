@@ -83,6 +83,19 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "ethereum:0xfdBA0f39B11E46497Ce89a121950EEF2477B447b": {
+      "chain": "ethereum",
+      "pair_address": "0xfdBA0f39B11E46497Ce89a121950EEF2477B447b",
+      "symbol": "GOAT",
+      "tier": "T1",
+      "detection_time": "2026-04-25T14:46:57.326473+00:00",
+      "detection_price": 2.937e-07,
+      "detection_liq": 32823.56,
+      "peak_price": 2.937e-07,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
