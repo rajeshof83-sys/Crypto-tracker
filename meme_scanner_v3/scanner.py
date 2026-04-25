@@ -351,7 +351,7 @@ def log_to_sheets(metrics, tier, reason, safety, narratives, conviction):
             json.loads(base64.b64decode(creds_b64)),
             scopes=["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"]
         )
-       ws = gspread.authorize(creds).open_by_key(sheet_id).worksheet("Scanner v3")
+        ws = gspread.authorize(creds).open_by_key(sheet_id).worksheet("Scanner v3")
         ws.append_row([
             metrics["timestamp"], tier, reason, metrics["symbol"], metrics["name"],
             metrics["chain"], metrics["pair_address"], metrics["liquidity"],
