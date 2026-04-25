@@ -156,6 +156,13 @@
           "volume_24h": 742454.08,
           "captured_at": "2026-04-25T17:41:13.401354+00:00",
           "hours_elapsed": 1.6
+        },
+        "price_6h": {
+          "price": 2.38e-06,
+          "liquidity": 4081.71,
+          "volume_24h": 817312.02,
+          "captured_at": "2026-04-25T22:41:31.482435+00:00",
+          "hours_elapsed": 6.6
         }
       },
       "outcome_label": null,
@@ -232,7 +239,28 @@
       "detection_time": "2026-04-25T21:40:14.241701+00:00",
       "detection_price": 0.0001406,
       "detection_liq": 34985.32,
-      "peak_price": 0.0001406,
+      "peak_price": 0.0001617,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001617,
+          "liquidity": 37485.78,
+          "volume_24h": 366850.05,
+          "captured_at": "2026-04-25T22:41:31.482435+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9XKYyZRhA1kDGeCgezR38b5hPEbCKeNvEmnPYGyQYYFJ": {
+      "chain": "solana",
+      "pair_address": "9XKYyZRhA1kDGeCgezR38b5hPEbCKeNvEmnPYGyQYYFJ",
+      "symbol": "MILF",
+      "tier": "T1",
+      "detection_time": "2026-04-25T22:41:27.712786+00:00",
+      "detection_price": 6.739e-05,
+      "detection_liq": 20987.14,
+      "peak_price": 6.739e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
