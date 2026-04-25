@@ -9,7 +9,15 @@
       "detection_price": 6.479e-05,
       "detection_liq": 20321.44,
       "peak_price": 6.479e-05,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 5.246e-05,
+          "liquidity": 18296.16,
+          "volume_24h": 260244.62,
+          "captured_at": "2026-04-25T13:12:54.999533+00:00",
+          "hours_elapsed": 2.0
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -21,7 +29,41 @@
       "detection_time": "2026-04-25T11:41:22.533427+00:00",
       "detection_price": 0.0001266,
       "detection_liq": 28591.51,
-      "peak_price": 0.0001266,
+      "peak_price": 0.0001528,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001528,
+          "liquidity": 31796.4,
+          "volume_24h": 625020.74,
+          "captured_at": "2026-04-25T13:12:54.999533+00:00",
+          "hours_elapsed": 1.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FK9wyqoStTPLU7WKx7Zmq2zUwZJqyMKR2p2V2ezNt3GC": {
+      "chain": "solana",
+      "pair_address": "FK9wyqoStTPLU7WKx7Zmq2zUwZJqyMKR2p2V2ezNt3GC",
+      "symbol": "Sotashi",
+      "tier": "T1",
+      "detection_time": "2026-04-25T13:12:50.558023+00:00",
+      "detection_price": 9.269e-05,
+      "detection_liq": 24549.68,
+      "peak_price": 9.269e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GS81oTB5HbndcWiG87NJi7FQ3UP4DrVGuFzuDK596L93": {
+      "chain": "solana",
+      "pair_address": "GS81oTB5HbndcWiG87NJi7FQ3UP4DrVGuFzuDK596L93",
+      "symbol": "ASSHOLES",
+      "tier": "T1",
+      "detection_time": "2026-04-25T13:12:51.153111+00:00",
+      "detection_price": 0.0001818,
+      "detection_liq": 34544.45,
+      "peak_price": 0.0001818,
       "captures": {},
       "outcome_label": null,
       "completed": false
