@@ -38,6 +38,9 @@ DEXSCREENER_BOOST_URL = "https://api.dexscreener.com/token-boosts/latest/v1"
 SUPPORTED_CHAINS = ["solana", "bsc", "base", "ethereum"]
 STATE_FILE = "scanner_state.json"
 
+# Google Sheets target tab name. Change here if you rename the tab.
+SHEET_TAB_NAME = "Scanner v3"
+
 # Tier 1: Fresh Signal
 T1_LIQ_MIN, T1_LIQ_MAX = 20_000, 75_000
 T1_VOL_LIQ_MIN, T1_VOL_LIQ_MAX = 8, 30
@@ -384,7 +387,9 @@ def format_batch_summary(batch_data, alerts, exit_alerts, cluster_warnings, stat
 def log_to_sheets(metrics, tier, reason, safety, narratives, conviction):
     creds_b64 = os.environ.get("GSHEET_CREDS_JSON")
     sheet_id = os.environ.get("GSHEET_SHEET_ID")
-    if not creds_b64 or not sheet_id: return
+    if not creds_b64 or not sheet_id:
+        print("[WARN] Sheets: GSHEET_CREDS_JSON or GSHEET_SHEET_ID env var not set — skipping log")
+        return
     try:
         import base64, gspread
         from google.oauth2.service_account import Credentials
@@ -392,7 +397,17 @@ def log_to_sheets(metrics, tier, reason, safety, narratives, conviction):
             json.loads(base64.b64decode(creds_b64)),
             scopes=["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"]
         )
-        ws = gspread.authorize(creds).open_by_key(sheet_id).sheet1
+        # Target the named tab explicitly. Using .sheet1 always picks the first
+        # tab regardless of name, which silently writes to the wrong place if
+        # "Scanner v3" is not the first tab in the sheet.
+        spreadsheet = gspread.authorize(creds).open_by_key(sheet_id)
+        try:
+            ws = spreadsheet.worksheet(SHEET_TAB_NAME)
+        except gspread.exceptions.WorksheetNotFound:
+            print(f"[ERROR] Sheets: tab '{SHEET_TAB_NAME}' not found in spreadsheet. "
+                  f"Create the tab and add column headers, or update SHEET_TAB_NAME at top of scanner.py.")
+            return
+
         ws.append_row([
             metrics["timestamp"], tier, reason, metrics["symbol"], metrics["name"],
             metrics["chain"], metrics["pair_address"], metrics["liquidity"],
@@ -401,6 +416,7 @@ def log_to_sheets(metrics, tier, reason, safety, narratives, conviction):
             metrics["buys_24h"], metrics["sells_24h"], metrics["dex_url"],
             " | ".join(narratives), "", "", "", "", "",
         ], value_input_option="RAW")
+        print(f"[SHEETS] Logged {metrics['symbol']} ({tier}) to '{SHEET_TAB_NAME}'")
     except Exception as e:
         print(f"[ERROR] Sheets: {e}")
 
