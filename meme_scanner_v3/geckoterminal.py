@@ -38,9 +38,10 @@ CHAIN_MAP = {
     "polygon":  "polygon_pos",
 }
 
-# Rate limit guard: free tier is 30/min. We sleep this long between calls
-# to leave headroom even on bursty hourly scans.
-MIN_INTERVAL_SECONDS = 2.2
+# Rate limit guard: free tier is 30/min, but on shared GitHub Actions IPs
+# the effective limit is much lower. 4.0s = ~15 calls/min, conservative.
+# If you still hit 429s, raise to 6.0.
+MIN_INTERVAL_SECONDS = 4.0
 
 # Conservative default timeout. GeckoTerminal occasionally hangs.
 HTTP_TIMEOUT = 15
@@ -76,11 +77,11 @@ def _get(path: str, params: Optional[dict] = None, retries: int = 3) -> Optional
         try:
             resp = requests.get(url, params=params, headers=HEADERS, timeout=HTTP_TIMEOUT)
             if resp.status_code == 429:
-                # Hit rate limit — back off harder
-                wait = (attempt + 1) * 5
-                log.warning("GeckoTerminal 429, waiting %ds", wait)
-                time.sleep(wait)
-                continue
+                # Hit rate limit — don't retry, just skip this token.
+                # Retrying on shared IPs makes the problem worse, not better.
+                # The token just gets gt_enriched=False and the scanner moves on.
+                log.warning("GeckoTerminal 429 — skipping enrichment (rate limited)")
+                return None
             if resp.status_code == 404:
                 # Pool/token genuinely doesn't exist on GT — don't retry
                 log.debug("GeckoTerminal 404: %s", url)
