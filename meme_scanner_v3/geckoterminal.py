@@ -12,6 +12,7 @@ Rate limit: 30 calls/min on free tier (no auth required).
 Beta API — version is pinned to v2 in URLs to avoid surprises.
 """
 
+import os
 import time
 import logging
 from typing import Optional
@@ -24,7 +25,26 @@ log = logging.getLogger(__name__)
 # Constants
 # ---------------------------------------------------------------------------
 
-BASE_URL = "https://api.geckoterminal.com/api/v2"
+# Two API hosts:
+#   - GeckoTerminal Public:    https://api.geckoterminal.com/api/v2
+#   - CoinGecko Demo (with key): https://api.coingecko.com/api/v3/onchain
+#
+# When COINGECKO_API_KEY env var is set we use the Demo endpoint, which gives
+# a stable 30 calls/min keyed to the account (not the shared IP). On GitHub
+# Actions runners, the unauthenticated public API is effectively unusable
+# because the IP pool is saturated by other users — this is the real fix
+# for persistent 429 errors.
+_API_KEY = os.environ.get("COINGECKO_API_KEY", "").strip()
+
+if _API_KEY:
+    BASE_URL = "https://api.coingecko.com/api/v3/onchain"
+    log.info("Using CoinGecko Demo API (authenticated, 30/min)")
+else:
+    BASE_URL = "https://api.geckoterminal.com/api/v2"
+    log.warning(
+        "No COINGECKO_API_KEY set — falling back to public endpoint. "
+        "Expect 429 errors on shared CI IPs."
+    )
 
 # Map our internal chain IDs (matching DexScreener's chainId field) to
 # GeckoTerminal network IDs. Add chains as needed.
@@ -38,10 +58,11 @@ CHAIN_MAP = {
     "polygon":  "polygon_pos",
 }
 
-# Rate limit guard: free tier is 30/min, but on shared GitHub Actions IPs
-# the effective limit is much lower. 4.0s = ~15 calls/min, conservative.
-# If you still hit 429s, raise to 6.0.
-MIN_INTERVAL_SECONDS = 4.0
+# Rate limit guard: 30/min when authenticated (Demo key), 5-15/min unauthenticated.
+# 2.2s = ~27 calls/min, safe under the authenticated ceiling with headroom.
+# If unauthenticated and still seeing 429s, the only real fix is to set
+# COINGECKO_API_KEY — local throttling can't fix shared-IP rate limits.
+MIN_INTERVAL_SECONDS = 2.2 if _API_KEY else 4.0
 
 # Conservative default timeout. GeckoTerminal occasionally hangs.
 HTTP_TIMEOUT = 15
@@ -72,15 +93,22 @@ def _throttle() -> None:
 def _get(path: str, params: Optional[dict] = None, retries: int = 3) -> Optional[dict]:
     """Throttled GET with exponential backoff. Returns parsed JSON or None on failure."""
     url = f"{BASE_URL}{path}"
+
+    # When using the Demo API, the key is passed as a query parameter.
+    # Public GeckoTerminal endpoint takes no auth — this branch is a no-op there.
+    if _API_KEY:
+        params = dict(params or {})
+        params["x_cg_demo_api_key"] = _API_KEY
+
     for attempt in range(retries):
         _throttle()
         try:
             resp = requests.get(url, params=params, headers=HEADERS, timeout=HTTP_TIMEOUT)
             if resp.status_code == 429:
                 # Hit rate limit — don't retry, just skip this token.
-                # Retrying on shared IPs makes the problem worse, not better.
-                # The token just gets gt_enriched=False and the scanner moves on.
-                log.warning("GeckoTerminal 429 — skipping enrichment (rate limited)")
+                # If this happens with COINGECKO_API_KEY set, you're scanning too
+                # aggressively (>30/min). Without a key, the IP pool is saturated.
+                log.warning("API 429 — skipping enrichment (rate limited)")
                 return None
             if resp.status_code == 404:
                 # Pool/token genuinely doesn't exist on GT — don't retry
