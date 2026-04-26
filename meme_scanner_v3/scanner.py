@@ -33,6 +33,15 @@ from analytics import (
 )
 from digest import get_digest_type, generate_digest, should_send_digest, mark_digest_sent
 
+# GeckoTerminal enrichment (Phase 2 integration)
+# Falls back gracefully if the module is missing or the API is down.
+try:
+    import geckoterminal
+    GT_AVAILABLE = True
+except ImportError:
+    print("[WARN] geckoterminal module not found — running without enrichment")
+    GT_AVAILABLE = False
+
 # ============================================================
 # CONFIGURATION
 # ============================================================
@@ -281,6 +290,14 @@ def format_token_alert(metrics, tier, reason, safety, narratives, conviction, br
         f"🏷 {' | '.join(narratives)}",
     ])
 
+    # ── GeckoTerminal: unique buyer/seller info (Phase 2) ──
+    ratio = metrics.get("gt_buyer_seller_ratio_h1")
+    if ratio is not None:
+        b = metrics.get("gt_buyers_h1") or 0
+        s = metrics.get("gt_sellers_h1") or 0
+        ratio_emoji = "🟢" if ratio >= 1.2 else "🟡" if ratio >= 0.8 else "🔴"
+        lines.append(f"{ratio_emoji} Unique 1h: {b}B / {s}S (ratio {ratio:.2f})")
+
     history = state.get("seen_tokens", {}).get(token_key, [])
     if len(history) >= 2:
         lines.append(f"\n{format_velocity(history)}")
@@ -411,6 +428,13 @@ def log_alert_to_sheets(metrics, tier, reason, safety, narratives, conviction):
         metrics["price_usd"], metrics["buys_1h"], metrics["sells_1h"],
         metrics["buys_24h"], metrics["sells_24h"], metrics["dex_url"],
         " | ".join(narratives), "", "", "", "", "",
+        # ── GeckoTerminal enrichment columns (Phase 2) ──
+        "TRUE" if metrics.get("gt_enriched") else "FALSE",
+        metrics.get("gt_buyers_h1") if metrics.get("gt_buyers_h1") is not None else "",
+        metrics.get("gt_sellers_h1") if metrics.get("gt_sellers_h1") is not None else "",
+        round(metrics["gt_buyer_seller_ratio_h1"], 3) if metrics.get("gt_buyer_seller_ratio_h1") is not None else "",
+        round(metrics["gt_liquidity_usd"], 0) if metrics.get("gt_liquidity_usd") is not None else "",
+        round(metrics["gt_volume_h1"], 0) if metrics.get("gt_volume_h1") is not None else "",
     ]
     _post_to_webhook(SHEET_TAB_ALERTS, [row])
 
@@ -450,6 +474,16 @@ def log_all_tokens_to_sheets(token_rows):
             " | ".join(r["narratives"]),
             "TRUE" if r["catalyst_detected"] else "FALSE",
             r["dex_url"],
+            # ── GeckoTerminal enrichment columns (Phase 2) ──
+            "TRUE" if r.get("gt_enriched") else "FALSE",
+            r.get("gt_buyers_h1") if r.get("gt_buyers_h1") is not None else "",
+            r.get("gt_sellers_h1") if r.get("gt_sellers_h1") is not None else "",
+            round(r["gt_buyer_seller_ratio_h1"], 3) if r.get("gt_buyer_seller_ratio_h1") is not None else "",
+            round(r["gt_liquidity_usd"], 0) if r.get("gt_liquidity_usd") is not None else "",
+            round(r["gt_volume_h1"], 0) if r.get("gt_volume_h1") is not None else "",
+            round(r["gt_volume_h6"], 0) if r.get("gt_volume_h6") is not None else "",
+            r.get("gt_price_change_h1") if r.get("gt_price_change_h1") is not None else "",
+            r.get("gt_price_change_h6") if r.get("gt_price_change_h6") is not None else "",
         ])
     _post_to_webhook(SHEET_TAB_ALL, rows)
 
@@ -530,6 +564,19 @@ def run_scan():
         metrics["is_returning"] = token_key in state["seen_tokens"]
         metrics["token_key"] = token_key
 
+        # ── GeckoTerminal enrichment (Phase 2) ──
+        # Adds gt_buyers_h1, gt_sellers_h1, gt_buyer_seller_ratio_h1,
+        # gt_volume_h1/h6/h24, gt_price_change_h1/h6/h24, gt_fdv_usd, etc.
+        # Never raises — sets gt_enriched=False on any failure.
+        if GT_AVAILABLE:
+            try:
+                metrics = geckoterminal.enrich_token(metrics)
+            except Exception as e:
+                print(f"[WARN] GT enrichment failed for {metrics['symbol']}: {e}")
+                metrics["gt_enriched"] = False
+        else:
+            metrics["gt_enriched"] = False
+
         batch_data.append(metrics)
 
         # ── Classify ──
@@ -577,6 +624,16 @@ def run_scan():
             "narratives": narratives,
             "catalyst_detected": is_catalyst,
             "dex_url": metrics["dex_url"],
+            # ── GeckoTerminal enrichment fields (Phase 2) ──
+            "gt_enriched": metrics.get("gt_enriched", False),
+            "gt_buyers_h1": metrics.get("gt_buyers_h1"),
+            "gt_sellers_h1": metrics.get("gt_sellers_h1"),
+            "gt_buyer_seller_ratio_h1": metrics.get("gt_buyer_seller_ratio_h1"),
+            "gt_liquidity_usd": metrics.get("gt_liquidity_usd"),
+            "gt_volume_h1": metrics.get("gt_volume_h1"),
+            "gt_volume_h6": metrics.get("gt_volume_h6"),
+            "gt_price_change_h1": metrics.get("gt_price_change_h1"),
+            "gt_price_change_h6": metrics.get("gt_price_change_h6"),
         })
 
         # ── Action paths ──
@@ -660,8 +717,13 @@ def run_scan():
     state["last_scan"] = datetime.now(timezone.utc).isoformat()
     save_state(state)
 
+    # ── Enrichment quality stats (Phase 2 monitoring) ──
+    gt_success = sum(1 for d in batch_data if d.get("gt_enriched"))
+    gt_pct = (100 * gt_success / len(batch_data)) if batch_data else 0
+
     print(f"\nDONE: {len(batch_data)} processed, {len(alerts)} alerts, "
           f"{len(exit_alerts)} exits, {skipped} skipped")
+    print(f"      GT enrichment: {gt_success}/{len(batch_data)} ({gt_pct:.0f}%)")
 
 
 if __name__ == "__main__":
