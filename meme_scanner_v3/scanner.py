@@ -89,7 +89,8 @@ def should_run_hourly_scan(state, min_minutes=MIN_MINUTES_BETWEEN_SCANS):
     successful scan, so no new state field is needed.
 
     Returns True if last_scan is missing, malformed, or older than min_minutes.
-    Digest runs bypass this check (handled in run_scan, not here).
+    Manual runs (workflow_dispatch) bypass this — handled in run_scan().
+    Digest runs also bypass this — handled in run_scan().
     """
     last_scan_iso = state.get("last_scan")
     if not last_scan_iso:
@@ -104,6 +105,15 @@ def should_run_hourly_scan(state, min_minutes=MIN_MINUTES_BETWEEN_SCANS):
     except (ValueError, TypeError) as e:
         print(f"[WARN] Could not parse last_scan timestamp: {e} — running anyway")
         return True, None
+
+
+def is_manual_dispatch():
+    """
+    True when the workflow was triggered by clicking 'Run workflow' in the
+    Actions UI (workflow_dispatch event). False for scheduled cron runs.
+    Used to bypass the dedup guard during debugging/manual testing.
+    """
+    return os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch"
 
 
 # ============================================================
@@ -402,35 +412,36 @@ def log_to_sheets(metrics, tier, reason, safety, narratives, conviction):
 def run_scan():
     print(f"\n{'='*60}")
     print(f"SCAN v3: {datetime.now(timezone.utc).isoformat()}")
+    print(f"Trigger: {os.environ.get('GITHUB_EVENT_NAME', 'unknown')}")
     print(f"{'='*60}")
 
     state = load_state()
 
     # ── Check if digest is due (digests bypass dedup guard) ──
     digest_type = get_digest_type()
-    digest_was_sent = False
     if digest_type and should_send_digest(digest_type):
         print(f"[DIGEST] Generating {digest_type} digest")
         digest_msg = generate_digest(digest_type)
         if digest_msg:
             send_telegram(digest_msg)
             mark_digest_sent(digest_type)
-            digest_was_sent = True
 
     # ── Dedup guard for staggered hourly crons ──
     # The workflow fires 4x/hour for reliability against GitHub cron jitter.
     # Only the first one within each hour-window should run a full scan.
-    # If a digest just sent, we still skip the scan portion to avoid
-    # double-running (digest already informed the user).
-    should_run, minutes_since = should_run_hourly_scan(state)
-    if not should_run:
-        if minutes_since is not None:
-            print(f"⏭ Skipping scan — last scan was {minutes_since:.1f} min ago "
-                  f"(threshold: {MIN_MINUTES_BETWEEN_SCANS} min)")
-        else:
-            print(f"⏭ Skipping scan — within dedup window")
-        # Don't save state here — we made no changes
-        return
+    # Manual runs (workflow_dispatch) bypass this so debugging works.
+    if is_manual_dispatch():
+        print("▶ Manual run (workflow_dispatch) — bypassing dedup guard")
+    else:
+        should_run, minutes_since = should_run_hourly_scan(state)
+        if not should_run:
+            if minutes_since is not None:
+                print(f"⏭ Skipping scan — last scan was {minutes_since:.1f} min ago "
+                      f"(threshold: {MIN_MINUTES_BETWEEN_SCANS} min)")
+            else:
+                print(f"⏭ Skipping scan — within dedup window")
+            # Don't save state here — we made no changes
+            return
 
     # ── Fetch and process tokens ──
     boosted = fetch_boosted_tokens()
