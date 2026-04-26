@@ -11,7 +11,7 @@ Full-featured hourly scanner with:
 - Social catalyst detection
 - Smart digest system (4x daily)
 - Win rate self-diagnostics
-- Dual-tab Sheets logging:
+- Dual-tab Sheets logging via Google Apps Script webhook:
     * "Scanner v3" tab: T1/T2 alerts only (trading signals)
     * "All Tokens"  tab: every processed token (analytics dataset)
 """
@@ -41,7 +41,7 @@ DEXSCREENER_BOOST_URL = "https://api.dexscreener.com/token-boosts/latest/v1"
 SUPPORTED_CHAINS = ["solana", "bsc", "base", "ethereum"]
 STATE_FILE = "scanner_state.json"
 
-# Google Sheets target tabs
+# Google Sheets target tabs (must match exactly the tab names in the spreadsheet)
 SHEET_TAB_ALERTS = "Scanner v3"   # T1/T2 alerts only — trading signals
 SHEET_TAB_ALL = "All Tokens"      # every processed token — analytics dataset
 
@@ -86,13 +86,7 @@ def get_token_key(chain, pair_address):
 
 
 def should_run_hourly_scan(state, min_minutes=MIN_MINUTES_BETWEEN_SCANS):
-    """
-    Returns (should_run: bool, minutes_since_last: float|None).
-
-    Prevents the 4 staggered hourly crons from each running a full scan.
-    Manual runs (workflow_dispatch) bypass this — handled in run_scan().
-    Digest runs also bypass this — handled in run_scan().
-    """
+    """Returns (should_run, minutes_since_last). Manual & digest runs bypass."""
     last_scan_iso = state.get("last_scan")
     if not last_scan_iso:
         return True, None
@@ -199,7 +193,6 @@ def compute_safety(pair_data):
 # ============================================================
 
 def classify(metrics, safety, state, token_key):
-    # Anti-filter
     if safety <= ANTI_SAFETY_MAX: return "SKIP", "safety"
     if metrics["vol_liq_ratio"] > ANTI_VOL_LIQ_MAX: return "SKIP", "vol_extreme"
     if metrics["liquidity"] < ANTI_LIQ_MIN: return "SKIP", "liq_low"
@@ -229,16 +222,10 @@ def classify(metrics, safety, state, token_key):
 
 
 def safe_compute_conviction(metrics, safety, narratives, state, token_key, batch_data):
-    """
-    Compute conviction score for ANY token, including skipped/unclassified ones.
-    Wraps compute_conviction_score with exception handling so we never crash
-    the scan if conviction logic assumes the token passed the filter.
-    Returns (conviction: float|None, breakdown: dict|None).
-    """
+    """Compute conviction for ANY token; safe to call on skipped tokens."""
     try:
-        conviction, breakdown = compute_conviction_score(
+        return compute_conviction_score(
             metrics, safety, narratives, state, token_key, batch_data)
-        return conviction, breakdown
     except Exception as e:
         print(f"[WARN] Conviction calc failed for {metrics.get('symbol', '?')}: {e}")
         return None, None
@@ -378,116 +365,93 @@ def format_batch_summary(batch_data, alerts, exit_alerts, cluster_warnings, stat
 
 
 # ============================================================
-# SHEETS LOGGING
+# SHEETS LOGGING (via Google Apps Script webhook)
 # ============================================================
 
-def _get_worksheet(tab_name):
+def _post_to_webhook(tab_name, rows):
     """
-    Helper: authenticate and return a worksheet handle for the given tab.
-    Returns None and logs a clear error if auth/tab access fails.
+    POST a batch of rows to the Google Apps Script webhook.
+    rows: list of lists. Each inner list is one sheet row in column order.
+    Returns True on success, False on failure.
     """
-    creds_b64 = os.environ.get("GSHEET_CREDS_JSON")
-    sheet_id = os.environ.get("GSHEET_SHEET_ID")
-    if not creds_b64 or not sheet_id:
-        print("[WARN] Sheets: GSHEET_CREDS_JSON or GSHEET_SHEET_ID env var not set — skipping log")
-        return None
+    webhook_url = os.environ.get("GOOGLE_SHEET_WEBHOOK")
+    if not webhook_url:
+        print("[WARN] Sheets: GOOGLE_SHEET_WEBHOOK env var not set — skipping log")
+        return False
+
+    if not rows:
+        return True
+
+    payload = {"tab": tab_name, "rows": rows}
     try:
-        import base64, gspread
-        from google.oauth2.service_account import Credentials
-        creds = Credentials.from_service_account_info(
-            json.loads(base64.b64decode(creds_b64)),
-            scopes=["https://www.googleapis.com/auth/spreadsheets",
-                    "https://www.googleapis.com/auth/drive"]
-        )
-        spreadsheet = gspread.authorize(creds).open_by_key(sheet_id)
+        resp = requests.post(webhook_url, json=payload, timeout=30)
+        resp.raise_for_status()
+        # Apps Script v2 returns JSON {"ok": bool, ...}; older versions return "OK".
         try:
-            return spreadsheet.worksheet(tab_name)
-        except gspread.exceptions.WorksheetNotFound:
-            print(f"[ERROR] Sheets: tab '{tab_name}' not found. "
-                  f"Create it in the spreadsheet with the expected column headers.")
-            return None
+            result = resp.json()
+            if isinstance(result, dict) and not result.get("ok", True):
+                print(f"[ERROR] Sheets webhook ({tab_name}): {result.get('error', 'unknown')}")
+                return False
+        except ValueError:
+            pass  # plain "OK" text response — treat 200 as success
+        print(f"[SHEETS] Logged {len(rows)} row(s) → '{tab_name}'")
+        return True
     except Exception as e:
-        print(f"[ERROR] Sheets auth: {e}")
-        return None
+        print(f"[ERROR] Sheets webhook POST ({tab_name}): {e}")
+        return False
 
 
 def log_alert_to_sheets(metrics, tier, reason, safety, narratives, conviction):
-    """
-    Log T1/T2 alerts to the 'Scanner v3' tab. This is the trading-signals tab —
-    only tokens you would actually act on.
-    """
-    ws = _get_worksheet(SHEET_TAB_ALERTS)
-    if not ws:
-        return
-    try:
-        ws.append_row([
-            metrics["timestamp"], tier, reason, metrics["symbol"], metrics["name"],
-            metrics["chain"], metrics["pair_address"], metrics["liquidity"],
-            metrics["volume_24h"], metrics["vol_liq_ratio"], metrics["price_change_6h"],
-            safety, conviction, metrics["price_usd"], metrics["buys_1h"], metrics["sells_1h"],
-            metrics["buys_24h"], metrics["sells_24h"], metrics["dex_url"],
-            " | ".join(narratives), "", "", "", "", "",
-        ], value_input_option="RAW")
-        print(f"[SHEETS] Alert logged: {metrics['symbol']} ({tier}) → '{SHEET_TAB_ALERTS}'")
-    except Exception as e:
-        print(f"[ERROR] Sheets alert append: {e}")
+    """Log a single T1/T2 alert to the 'Scanner v3' tab."""
+    row = [
+        metrics["timestamp"], tier, reason, metrics["symbol"], metrics["name"],
+        metrics["chain"], metrics["pair_address"], metrics["liquidity"],
+        metrics["volume_24h"], round(metrics["vol_liq_ratio"], 2), metrics["price_change_6h"],
+        safety, conviction if conviction is not None else "",
+        metrics["price_usd"], metrics["buys_1h"], metrics["sells_1h"],
+        metrics["buys_24h"], metrics["sells_24h"], metrics["dex_url"],
+        " | ".join(narratives), "", "", "", "", "",
+    ]
+    _post_to_webhook(SHEET_TAB_ALERTS, [row])
 
 
 def log_all_tokens_to_sheets(token_rows):
-    """
-    Batch-log every processed token to the 'All Tokens' tab. This is the
-    analytics dataset — used later to tune filter thresholds.
-
-    token_rows: list of dicts, one per processed token. Each must contain
-    all 28 fields matching the column schema below.
-
-    Uses a single batch append_rows call instead of N append_row calls,
-    so we hit the Sheets API once per scan instead of N times.
-    """
+    """Batch-log every processed token to 'All Tokens' tab in one POST."""
     if not token_rows:
         return
-    ws = _get_worksheet(SHEET_TAB_ALL)
-    if not ws:
-        return
-
     rows = []
     for r in token_rows:
         rows.append([
-            r["timestamp"],                 # A: Timestamp
-            r["token_key"],                 # B: Token Key
-            r["symbol"],                    # C: Symbol
-            r["name"],                      # D: Name
-            r["chain"],                     # E: Chain
-            r["pair_address"],              # F: Pair Address
-            r["tier"] or "",                # G: Tier (T1/T2/SKIP/blank)
-            r["skip_reason"] or "",         # H: Skip Reason
-            "TRUE" if r["would_alert"] else "FALSE",  # I: Would Alert
-            r["conviction"] if r["conviction"] is not None else "",  # J: Conviction
-            r["liquidity"],                 # K: Liquidity USD
-            r["volume_24h"],                # L: Volume 24h
-            round(r["vol_liq_ratio"], 2),   # M: Vol/Liq Ratio
-            r["price_change_6h"],           # N: Price Change 6h
-            r["safety_score"],              # O: Safety Score
-            r["price_usd"],                 # P: Price USD
-            r["buys_1h"],                   # Q: Buys 1h
-            r["sells_1h"],                  # R: Sells 1h
-            r["buys_24h"],                  # S: Buys 24h
-            r["sells_24h"],                 # T: Sells 24h
-            r["fdv"],                       # U: FDV
-            "TRUE" if r["is_returning"] else "FALSE",  # V: Is Returning
-            r["appearance_number"],         # W: Appearance Number
-            r["first_liq"] if r["first_liq"] is not None else "",  # X: First Liq
-            round(r["liq_multiple"], 2) if r["liq_multiple"] is not None else "",  # Y: Liq Multiple
-            " | ".join(r["narratives"]),    # Z: Narratives
-            "TRUE" if r["catalyst_detected"] else "FALSE",  # AA: Catalyst Detected
-            r["dex_url"],                   # AB: DexScreener URL
+            r["timestamp"],
+            r["token_key"],
+            r["symbol"],
+            r["name"],
+            r["chain"],
+            r["pair_address"],
+            r["tier"] or "",
+            r["skip_reason"] or "",
+            "TRUE" if r["would_alert"] else "FALSE",
+            r["conviction"] if r["conviction"] is not None else "",
+            r["liquidity"],
+            r["volume_24h"],
+            round(r["vol_liq_ratio"], 2),
+            r["price_change_6h"],
+            r["safety_score"],
+            r["price_usd"],
+            r["buys_1h"],
+            r["sells_1h"],
+            r["buys_24h"],
+            r["sells_24h"],
+            r["fdv"],
+            "TRUE" if r["is_returning"] else "FALSE",
+            r["appearance_number"],
+            r["first_liq"] if r["first_liq"] is not None else "",
+            round(r["liq_multiple"], 2) if r["liq_multiple"] is not None else "",
+            " | ".join(r["narratives"]),
+            "TRUE" if r["catalyst_detected"] else "FALSE",
+            r["dex_url"],
         ])
-
-    try:
-        ws.append_rows(rows, value_input_option="RAW")
-        print(f"[SHEETS] Batch logged {len(rows)} tokens → '{SHEET_TAB_ALL}'")
-    except Exception as e:
-        print(f"[ERROR] Sheets batch append: {e}")
+    _post_to_webhook(SHEET_TAB_ALL, rows)
 
 
 # ============================================================
@@ -536,9 +500,9 @@ def run_scan():
         return
 
     batch_data = []
-    alerts = []         # (metrics, tier, reason, safety, narratives, conviction, breakdown)
-    exit_alerts = []    # (symbol, signals)
-    all_tokens_rows = []  # full analytics log — every processed token
+    alerts = []
+    exit_alerts = []
+    all_tokens_rows = []
     skipped = 0
 
     for boost in boosted:
@@ -571,22 +535,19 @@ def run_scan():
         # ── Classify ──
         tier, reason = classify(metrics, safety, state, token_key)
 
-        # ── Compute conviction for EVERY token (including skips) ──
-        # This is what enables tuning analysis later. We wrap in try/except
-        # because the conviction calc may assume the token passed the filter.
+        # ── Compute conviction for EVERY token (analytics) ──
         conviction, breakdown = safe_compute_conviction(
             metrics, safety, narratives, state, token_key, batch_data)
 
-        # ── Catalyst detection (cheap, do for everything) ──
         is_catalyst, _ = check_social_catalyst(metrics["symbol"], metrics["name"])
 
-        # ── Compute appearance metadata for analytics row ──
+        # ── Appearance metadata ──
         history = state.get("seen_tokens", {}).get(token_key, [])
-        appearance_number = len(history) + 1  # this scan will be appearance N
+        appearance_number = len(history) + 1
         first_liq = history[0]["liquidity"] if history else None
         liq_multiple = (metrics["liquidity"] / first_liq) if first_liq and first_liq > 0 else None
 
-        # ── Build the All Tokens analytics row ──
+        # ── Build All Tokens analytics row ──
         all_tokens_rows.append({
             "timestamp": metrics["timestamp"],
             "token_key": token_key,
