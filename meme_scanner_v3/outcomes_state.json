@@ -204,7 +204,7 @@
       "detection_time": "2026-04-25T18:58:59.922414+00:00",
       "detection_price": 0.0002256,
       "detection_liq": 40086.38,
-      "peak_price": 0.0002409,
+      "peak_price": 0.0003742,
       "captures": {
         "price_1h": {
           "price": 0.0002409,
@@ -212,6 +212,13 @@
           "volume_24h": 609501.63,
           "captured_at": "2026-04-25T20:43:58.797091+00:00",
           "hours_elapsed": 1.7
+        },
+        "price_6h": {
+          "price": 0.0003742,
+          "liquidity": 52305.91,
+          "volume_24h": 488057.05,
+          "captured_at": "2026-04-26T03:23:18.055225+00:00",
+          "hours_elapsed": 8.4
         }
       },
       "outcome_label": null,
@@ -233,6 +240,13 @@
           "volume_24h": 423888.57,
           "captured_at": "2026-04-25T21:40:16.483599+00:00",
           "hours_elapsed": 1.9
+        },
+        "price_6h": {
+          "price": 1.874e-06,
+          "liquidity": 3525.99,
+          "volume_24h": 423991.55,
+          "captured_at": "2026-04-26T03:23:18.055225+00:00",
+          "hours_elapsed": 7.6
         }
       },
       "outcome_label": null,
@@ -289,6 +303,79 @@
       "detection_price": 0.000104,
       "detection_liq": 25648.57,
       "peak_price": 0.000104,
+      "captures": {
+        "price_1h": {
+          "price": 4.676e-05,
+          "liquidity": 17481.03,
+          "volume_24h": 468527.86,
+          "captured_at": "2026-04-26T03:23:18.055225+00:00",
+          "hours_elapsed": 3.7
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:53gNcNkq6ZoHbRZcSsiKutniDpkWu3cD93wvspUrhH1e": {
+      "chain": "solana",
+      "pair_address": "53gNcNkq6ZoHbRZcSsiKutniDpkWu3cD93wvspUrhH1e",
+      "symbol": "Trump",
+      "tier": "T1",
+      "detection_time": "2026-04-26T03:23:14.237947+00:00",
+      "detection_price": 0.0001824,
+      "detection_liq": 34794.44,
+      "peak_price": 0.0001824,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9RsMYhhRzSxhtMkUvXX9DTCYoZLJNWx9mPXNqd8FCMQ5": {
+      "chain": "solana",
+      "pair_address": "9RsMYhhRzSxhtMkUvXX9DTCYoZLJNWx9mPXNqd8FCMQ5",
+      "symbol": "Iwunka",
+      "tier": "T1",
+      "detection_time": "2026-04-26T03:23:14.765865+00:00",
+      "detection_price": 9.582e-05,
+      "detection_liq": 25298.56,
+      "peak_price": 9.582e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2zryZRtZZ9JCdwPf1FmxXKD9aCVT1efwnX6RBLTHPqnB": {
+      "chain": "solana",
+      "pair_address": "2zryZRtZZ9JCdwPf1FmxXKD9aCVT1efwnX6RBLTHPqnB",
+      "symbol": "LASTWOMAN",
+      "tier": "T1",
+      "detection_time": "2026-04-26T03:23:15.289692+00:00",
+      "detection_price": 0.0001899,
+      "detection_liq": 36199.98,
+      "peak_price": 0.0001899,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Dikcx7xDPLkGCK8vipDAUGMfDd5QASUYEHNVN82QfimU": {
+      "chain": "solana",
+      "pair_address": "Dikcx7xDPLkGCK8vipDAUGMfDd5QASUYEHNVN82QfimU",
+      "symbol": "Nuketa",
+      "tier": "T1",
+      "detection_time": "2026-04-26T03:23:15.813559+00:00",
+      "detection_price": 0.0001439,
+      "detection_liq": 31267.64,
+      "peak_price": 0.0001439,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "ethereum:0x49cE2efe9F6487b9A1c018e04F0CDB6A2BcE287E": {
+      "chain": "ethereum",
+      "pair_address": "0x49cE2efe9F6487b9A1c018e04F0CDB6A2BcE287E",
+      "symbol": "USA",
+      "tier": "T1",
+      "detection_time": "2026-04-26T03:23:16.328341+00:00",
+      "detection_price": 0.2081,
+      "detection_liq": 43477.4,
+      "peak_price": 0.2081,
       "captures": {},
       "outcome_label": null,
       "completed": false
