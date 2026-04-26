@@ -268,6 +268,13 @@
           "volume_24h": 366850.05,
           "captured_at": "2026-04-25T22:41:31.482435+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 8.751e-05,
+          "liquidity": 27577.67,
+          "volume_24h": 390989.66,
+          "captured_at": "2026-04-26T04:01:05.011031+00:00",
+          "hours_elapsed": 6.3
         }
       },
       "outcome_label": null,
@@ -376,6 +383,19 @@
       "detection_price": 0.2081,
       "detection_liq": 43477.4,
       "peak_price": 0.2081,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6i8SqQr39qFhck1Gx231YUNkyv1ntRmnTkEQNZzpSRqr": {
+      "chain": "solana",
+      "pair_address": "6i8SqQr39qFhck1Gx231YUNkyv1ntRmnTkEQNZzpSRqr",
+      "symbol": "MEOWJESTY",
+      "tier": "T2",
+      "detection_time": "2026-04-26T04:01:01.073919+00:00",
+      "detection_price": 0.0007112,
+      "detection_liq": 68094.64,
+      "peak_price": 0.0007112,
       "captures": {},
       "outcome_label": null,
       "completed": false
