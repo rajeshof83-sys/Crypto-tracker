@@ -3,6 +3,20 @@ Conviction Scoring Engine
 =========================
 Computes a composite 1-10 conviction score for each token alert
 based on all data-driven factors discovered from tracker analysis.
+
+Factors (max points):
+  1. Liquidity zone        +1.5
+  2. Vol/Liq sweet spot    +2.0
+  3. Safety score          +2.0
+  4. Freshness/compound    +1.0
+  5. Day/time quality      +1.0
+  6. Name characteristics  +0.5
+  7. Narrative quality     +1.0
+  8. Batch sentiment       +1.0
+  9. Buyer/seller ratio    ±0.5  (Phase 2: GeckoTerminal enrichment)
+
+  Theoretical max: 10.5 (clamped to 10.0)
+  Theoretical min: -0.5 (clamped to 1.0)
 """
 
 from datetime import datetime, timezone
@@ -132,6 +146,26 @@ def compute_conviction_score(metrics, safety_score, narratives, state, token_key
         breakdown["batch"] = 0.5
     score += breakdown["batch"]
 
+    # ── 9. BUYER/SELLER RATIO (Phase 2 GT enrichment, max ±0.5 pts) ──
+    # Unique buyers vs sellers in last hour. Heavy accumulation = bonus,
+    # heavy distribution = penalty. Treated as confirmation signal until
+    # outcome data validates predictive power.
+    # Skipped silently when GT data is unavailable (ratio is None).
+    ratio = metrics.get("gt_buyer_seller_ratio_h1")
+    if ratio is not None:
+        if ratio >= 1.5:
+            breakdown["buyer_ratio"] = 0.5    # heavy accumulation
+        elif ratio >= 1.2:
+            breakdown["buyer_ratio"] = 0.3
+        elif ratio >= 0.8:
+            breakdown["buyer_ratio"] = 0.0    # balanced — neutral
+        elif ratio >= 0.5:
+            breakdown["buyer_ratio"] = -0.3   # mild distribution warning
+        else:
+            breakdown["buyer_ratio"] = -0.5   # heavy distribution
+        score += breakdown["buyer_ratio"]
+    # else: factor not applied — no key added to breakdown
+
     # Clamp to 1-10
     final_score = max(1.0, min(10.0, score))
 
@@ -167,10 +201,16 @@ def format_conviction_breakdown(breakdown):
         "name": "📝 Name characteristics",
         "narrative": "🏷 Narrative quality",
         "batch": "📦 Batch sentiment",
+        "buyer_ratio": "🔄 Buyer/seller ratio",
     }
     lines = []
     for key, label in labels.items():
-        val = breakdown.get(key, 0)
+        if key not in breakdown:
+            continue
+        val = breakdown[key]
         if val > 0:
             lines.append(f"  {label}: +{val:.1f}")
+        elif val < 0:
+            lines.append(f"  {label}: {val:.1f}")  # already has minus sign
+        # val == 0 is silent (neutral factor not worth showing)
     return "\n".join(lines)
