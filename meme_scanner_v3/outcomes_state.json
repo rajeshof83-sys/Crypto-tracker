@@ -692,6 +692,45 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "ethereum:0x8b595172F4043e75D2Ff1B7473F2650fd6807d82": {
+      "chain": "ethereum",
+      "pair_address": "0x8b595172F4043e75D2Ff1B7473F2650fd6807d82",
+      "symbol": "p",
+      "tier": "T1",
+      "detection_time": "2026-04-26T19:29:10.486025+00:00",
+      "detection_price": 9.367e-10,
+      "detection_liq": 54541.77,
+      "peak_price": 9.367e-10,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Cv36K9PToTziUABJfskskUxv8mcE2QH6yTwRTBbBFW9t": {
+      "chain": "solana",
+      "pair_address": "Cv36K9PToTziUABJfskskUxv8mcE2QH6yTwRTBbBFW9t",
+      "symbol": "TRUMP",
+      "tier": "T1",
+      "detection_time": "2026-04-26T19:29:13.255268+00:00",
+      "detection_price": 9.359e-05,
+      "detection_liq": 24673.59,
+      "peak_price": 9.359e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HKHTb839AyuYCFLhQRoxJqMKTyAQBc3GQtwxpFfpu7jD": {
+      "chain": "solana",
+      "pair_address": "HKHTb839AyuYCFLhQRoxJqMKTyAQBc3GQtwxpFfpu7jD",
+      "symbol": "TIMETRUMP",
+      "tier": "T1",
+      "detection_time": "2026-04-26T19:29:15.905986+00:00",
+      "detection_price": 9.24e-05,
+      "detection_liq": 24852.68,
+      "peak_price": 9.24e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
