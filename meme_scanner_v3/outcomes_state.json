@@ -597,6 +597,27 @@
       "detection_price": 7.29e-05,
       "detection_liq": 21569.79,
       "peak_price": 7.29e-05,
+      "captures": {
+        "price_1h": {
+          "price": 1.919e-06,
+          "liquidity": 3545.66,
+          "volume_24h": 377130.56,
+          "captured_at": "2026-04-26T15:31:06.223794+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Be6eB49QAE8nV5ruTQjoGZsxKJVN4KriUx6y3K1eVCHo": {
+      "chain": "solana",
+      "pair_address": "Be6eB49QAE8nV5ruTQjoGZsxKJVN4KriUx6y3K1eVCHo",
+      "symbol": "Monchhichi",
+      "tier": "T1",
+      "detection_time": "2026-04-26T15:30:57.893612+00:00",
+      "detection_price": 9.936e-05,
+      "detection_liq": 25913.16,
+      "peak_price": 9.936e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
