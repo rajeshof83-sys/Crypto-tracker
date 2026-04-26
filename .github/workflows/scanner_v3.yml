@@ -2,13 +2,20 @@ name: Meme Coin Scanner v3
 
 on:
   schedule:
-    # Hourly scan at minute 5
+    # ── Hourly scan: 4 staggered triggers per hour ──
+    # GitHub Actions free-tier cron is unreliable (15-60 min jitter, occasional skips).
+    # Firing 4x/hour gives ~99.7% probability that at least one fires on time.
+    # scanner.py has a 50-minute dedup guard so only ONE actually executes the scan;
+    # the other 3 exit in ~10 seconds with a skip message.
     - cron: '5 * * * *'
-    # Smart Digests (IST → UTC):
-    #   6:00 AM IST = 00:30 UTC
-    #   11:00 AM IST = 05:30 UTC
-    #   4:00 PM IST = 10:30 UTC
-    #   9:00 PM IST = 15:30 UTC
+    - cron: '20 * * * *'
+    - cron: '35 * * * *'
+    - cron: '50 * * * *'
+    # ── Smart Digests (IST → UTC) ──
+    #   6:00 AM IST = 00:30 UTC  (Morning Brief)
+    #  11:00 AM IST = 05:30 UTC  (Midday Pulse)
+    #   4:00 PM IST = 10:30 UTC  (Afternoon Intel)
+    #   9:00 PM IST = 15:30 UTC  (Evening Wrap)
     - cron: '30 0 * * *'
     - cron: '30 5 * * *'
     - cron: '30 10 * * *'
@@ -44,7 +51,7 @@ jobs:
           GSHEET_SHEET_ID: ${{ secrets.GSHEET_SHEET_ID }}
           TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
         run: |
-          cd meme_scanner_v3
+          cd meme_scanner
           python scanner.py
 
       - name: Run outcome tracker
@@ -52,13 +59,13 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          cd meme_scanner_v3
+          cd meme_scanner
           python outcome_tracker.py
 
       - name: Commit state
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add meme_scanner_v3/*.json
+          git add meme_scanner/*.json
           git diff --cached --quiet || git commit -m "state $(date -u +%Y-%m-%dT%H:%M)"
           git push
