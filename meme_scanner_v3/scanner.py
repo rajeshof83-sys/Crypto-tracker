@@ -11,6 +11,9 @@ Full-featured hourly scanner with:
 - Social catalyst detection
 - Smart digest system (4x daily)
 - Win rate self-diagnostics
+- Dual-tab Sheets logging:
+    * "Scanner v3" tab: T1/T2 alerts only (trading signals)
+    * "All Tokens"  tab: every processed token (analytics dataset)
 """
 
 import os
@@ -38,8 +41,9 @@ DEXSCREENER_BOOST_URL = "https://api.dexscreener.com/token-boosts/latest/v1"
 SUPPORTED_CHAINS = ["solana", "bsc", "base", "ethereum"]
 STATE_FILE = "scanner_state.json"
 
-# Google Sheets target tab name. Change here if you rename the tab.
-SHEET_TAB_NAME = "Scanner v3"
+# Google Sheets target tabs
+SHEET_TAB_ALERTS = "Scanner v3"   # T1/T2 alerts only — trading signals
+SHEET_TAB_ALL = "All Tokens"      # every processed token — analytics dataset
 
 # Tier 1: Fresh Signal
 T1_LIQ_MIN, T1_LIQ_MAX = 20_000, 75_000
@@ -60,8 +64,6 @@ ANTI_PRICE_DUMP = -30
 ANTI_LIQ_DECLINE = 0.7
 
 # Dedup guard: minimum minutes between hourly scans.
-# Set to 50 so 4 staggered crons (15 min apart) only let ONE run per hour,
-# while still tolerating ~5 min of GitHub Actions cron jitter.
 MIN_MINUTES_BETWEEN_SCANS = 50
 
 
@@ -88,10 +90,6 @@ def should_run_hourly_scan(state, min_minutes=MIN_MINUTES_BETWEEN_SCANS):
     Returns (should_run: bool, minutes_since_last: float|None).
 
     Prevents the 4 staggered hourly crons from each running a full scan.
-    Uses state['last_scan'] which is already set at the end of every
-    successful scan, so no new state field is needed.
-
-    Returns True if last_scan is missing, malformed, or older than min_minutes.
     Manual runs (workflow_dispatch) bypass this — handled in run_scan().
     Digest runs also bypass this — handled in run_scan().
     """
@@ -100,7 +98,6 @@ def should_run_hourly_scan(state, min_minutes=MIN_MINUTES_BETWEEN_SCANS):
         return True, None
     try:
         last_scan = datetime.fromisoformat(last_scan_iso)
-        # Tolerate naive datetimes from older state files
         if last_scan.tzinfo is None:
             last_scan = last_scan.replace(tzinfo=timezone.utc)
         minutes_since = (datetime.now(timezone.utc) - last_scan).total_seconds() / 60
@@ -111,11 +108,7 @@ def should_run_hourly_scan(state, min_minutes=MIN_MINUTES_BETWEEN_SCANS):
 
 
 def is_manual_dispatch():
-    """
-    True when the workflow was triggered by clicking 'Run workflow' in the
-    Actions UI (workflow_dispatch event). False for scheduled cron runs.
-    Used to bypass the dedup guard during debugging/manual testing.
-    """
+    """True when triggered by 'Run workflow' button. Bypasses dedup guard."""
     return os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch"
 
 
@@ -235,6 +228,22 @@ def classify(metrics, safety, state, token_key):
     return None, None
 
 
+def safe_compute_conviction(metrics, safety, narratives, state, token_key, batch_data):
+    """
+    Compute conviction score for ANY token, including skipped/unclassified ones.
+    Wraps compute_conviction_score with exception handling so we never crash
+    the scan if conviction logic assumes the token passed the filter.
+    Returns (conviction: float|None, breakdown: dict|None).
+    """
+    try:
+        conviction, breakdown = compute_conviction_score(
+            metrics, safety, narratives, state, token_key, batch_data)
+        return conviction, breakdown
+    except Exception as e:
+        print(f"[WARN] Conviction calc failed for {metrics.get('symbol', '?')}: {e}")
+        return None, None
+
+
 # ============================================================
 # TELEGRAM
 # ============================================================
@@ -263,8 +272,6 @@ def send_telegram(text):
 def format_token_alert(metrics, tier, reason, safety, narratives, conviction, breakdown, state, token_key):
     emoji = "🟢" if tier == "T1" else "🔵"
     label = "FRESH SIGNAL" if tier == "T1" else "COMPOUNDER"
-
-    # Catalyst check
     is_catalyst, catalyst_note = check_social_catalyst(metrics["symbol"], metrics["name"])
 
     lines = [
@@ -273,7 +280,6 @@ def format_token_alert(metrics, tier, reason, safety, narratives, conviction, br
         f"",
         format_conviction_bar(conviction),
     ]
-
     if is_catalyst:
         lines.append(catalyst_note)
 
@@ -288,12 +294,10 @@ def format_token_alert(metrics, tier, reason, safety, narratives, conviction, br
         f"🏷 {' | '.join(narratives)}",
     ])
 
-    # Velocity for returning tokens
     history = state.get("seen_tokens", {}).get(token_key, [])
     if len(history) >= 2:
         lines.append(f"\n{format_velocity(history)}")
 
-    # Compounder details
     if tier == "T2" and history:
         first = history[0]
         lm = metrics['liquidity'] / first["liquidity"] if first["liquidity"] > 0 else 0
@@ -304,13 +308,11 @@ def format_token_alert(metrics, tier, reason, safety, narratives, conviction, br
             f"   Safety: {sp}",
         ])
 
-    # Score breakdown
     lines.extend([
         f"\n<b>Score breakdown:</b>",
         format_conviction_breakdown(breakdown),
         f"\n<a href='{metrics['dex_url']}'>DexScreener</a>",
     ])
-
     return "\n".join(lines)
 
 
@@ -345,30 +347,25 @@ def format_batch_summary(batch_data, alerts, exit_alerts, cluster_warnings, stat
         f"💡 {mood_note}",
     ]
 
-    # Alerts
     if alerts:
         lines.append(f"\n<b>ALERTS:</b>")
         for m, t, r, s, n, c, _ in alerts:
             e = "🟢" if t == "T1" else "🔵"
             lines.append(f"  {e} {m['symbol']} — 🎯{c}/10 | ${m['liquidity']:,.0f} | {m['price_change_6h']:+.0f}%")
 
-    # Exit signals
     if exit_alerts:
         lines.append(f"\n<b>EXIT SIGNALS:</b>")
         for symbol, signals in exit_alerts:
             worst = max(signals, key=lambda s: 1 if "CRITICAL" in s[1] else 0)
             lines.append(f"  {worst[1]} {symbol}: {worst[2][:60]}")
 
-    # Cluster warnings
     if cluster_warnings:
         lines.append(f"\n{cluster_warnings[:200]}")
 
-    # Narratives
     top_narr = narr_counts.most_common(4)
     if top_narr:
         lines.append(f"\n<b>NARRATIVES:</b> {' | '.join(f'{n}({c})' for n,c in top_narr)}")
 
-    # Top movers
     sorted_batch = sorted(batch_data, key=lambda d: d.get("price_change_6h", 0), reverse=True)
     if sorted_batch:
         best = sorted_batch[0]
@@ -384,30 +381,45 @@ def format_batch_summary(batch_data, alerts, exit_alerts, cluster_warnings, stat
 # SHEETS LOGGING
 # ============================================================
 
-def log_to_sheets(metrics, tier, reason, safety, narratives, conviction):
+def _get_worksheet(tab_name):
+    """
+    Helper: authenticate and return a worksheet handle for the given tab.
+    Returns None and logs a clear error if auth/tab access fails.
+    """
     creds_b64 = os.environ.get("GSHEET_CREDS_JSON")
     sheet_id = os.environ.get("GSHEET_SHEET_ID")
     if not creds_b64 or not sheet_id:
         print("[WARN] Sheets: GSHEET_CREDS_JSON or GSHEET_SHEET_ID env var not set — skipping log")
-        return
+        return None
     try:
         import base64, gspread
         from google.oauth2.service_account import Credentials
         creds = Credentials.from_service_account_info(
             json.loads(base64.b64decode(creds_b64)),
-            scopes=["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"]
+            scopes=["https://www.googleapis.com/auth/spreadsheets",
+                    "https://www.googleapis.com/auth/drive"]
         )
-        # Target the named tab explicitly. Using .sheet1 always picks the first
-        # tab regardless of name, which silently writes to the wrong place if
-        # "Scanner v3" is not the first tab in the sheet.
         spreadsheet = gspread.authorize(creds).open_by_key(sheet_id)
         try:
-            ws = spreadsheet.worksheet(SHEET_TAB_NAME)
+            return spreadsheet.worksheet(tab_name)
         except gspread.exceptions.WorksheetNotFound:
-            print(f"[ERROR] Sheets: tab '{SHEET_TAB_NAME}' not found in spreadsheet. "
-                  f"Create the tab and add column headers, or update SHEET_TAB_NAME at top of scanner.py.")
-            return
+            print(f"[ERROR] Sheets: tab '{tab_name}' not found. "
+                  f"Create it in the spreadsheet with the expected column headers.")
+            return None
+    except Exception as e:
+        print(f"[ERROR] Sheets auth: {e}")
+        return None
 
+
+def log_alert_to_sheets(metrics, tier, reason, safety, narratives, conviction):
+    """
+    Log T1/T2 alerts to the 'Scanner v3' tab. This is the trading-signals tab —
+    only tokens you would actually act on.
+    """
+    ws = _get_worksheet(SHEET_TAB_ALERTS)
+    if not ws:
+        return
+    try:
         ws.append_row([
             metrics["timestamp"], tier, reason, metrics["symbol"], metrics["name"],
             metrics["chain"], metrics["pair_address"], metrics["liquidity"],
@@ -416,9 +428,66 @@ def log_to_sheets(metrics, tier, reason, safety, narratives, conviction):
             metrics["buys_24h"], metrics["sells_24h"], metrics["dex_url"],
             " | ".join(narratives), "", "", "", "", "",
         ], value_input_option="RAW")
-        print(f"[SHEETS] Logged {metrics['symbol']} ({tier}) to '{SHEET_TAB_NAME}'")
+        print(f"[SHEETS] Alert logged: {metrics['symbol']} ({tier}) → '{SHEET_TAB_ALERTS}'")
     except Exception as e:
-        print(f"[ERROR] Sheets: {e}")
+        print(f"[ERROR] Sheets alert append: {e}")
+
+
+def log_all_tokens_to_sheets(token_rows):
+    """
+    Batch-log every processed token to the 'All Tokens' tab. This is the
+    analytics dataset — used later to tune filter thresholds.
+
+    token_rows: list of dicts, one per processed token. Each must contain
+    all 28 fields matching the column schema below.
+
+    Uses a single batch append_rows call instead of N append_row calls,
+    so we hit the Sheets API once per scan instead of N times.
+    """
+    if not token_rows:
+        return
+    ws = _get_worksheet(SHEET_TAB_ALL)
+    if not ws:
+        return
+
+    rows = []
+    for r in token_rows:
+        rows.append([
+            r["timestamp"],                 # A: Timestamp
+            r["token_key"],                 # B: Token Key
+            r["symbol"],                    # C: Symbol
+            r["name"],                      # D: Name
+            r["chain"],                     # E: Chain
+            r["pair_address"],              # F: Pair Address
+            r["tier"] or "",                # G: Tier (T1/T2/SKIP/blank)
+            r["skip_reason"] or "",         # H: Skip Reason
+            "TRUE" if r["would_alert"] else "FALSE",  # I: Would Alert
+            r["conviction"] if r["conviction"] is not None else "",  # J: Conviction
+            r["liquidity"],                 # K: Liquidity USD
+            r["volume_24h"],                # L: Volume 24h
+            round(r["vol_liq_ratio"], 2),   # M: Vol/Liq Ratio
+            r["price_change_6h"],           # N: Price Change 6h
+            r["safety_score"],              # O: Safety Score
+            r["price_usd"],                 # P: Price USD
+            r["buys_1h"],                   # Q: Buys 1h
+            r["sells_1h"],                  # R: Sells 1h
+            r["buys_24h"],                  # S: Buys 24h
+            r["sells_24h"],                 # T: Sells 24h
+            r["fdv"],                       # U: FDV
+            "TRUE" if r["is_returning"] else "FALSE",  # V: Is Returning
+            r["appearance_number"],         # W: Appearance Number
+            r["first_liq"] if r["first_liq"] is not None else "",  # X: First Liq
+            round(r["liq_multiple"], 2) if r["liq_multiple"] is not None else "",  # Y: Liq Multiple
+            " | ".join(r["narratives"]),    # Z: Narratives
+            "TRUE" if r["catalyst_detected"] else "FALSE",  # AA: Catalyst Detected
+            r["dex_url"],                   # AB: DexScreener URL
+        ])
+
+    try:
+        ws.append_rows(rows, value_input_option="RAW")
+        print(f"[SHEETS] Batch logged {len(rows)} tokens → '{SHEET_TAB_ALL}'")
+    except Exception as e:
+        print(f"[ERROR] Sheets batch append: {e}")
 
 
 # ============================================================
@@ -443,9 +512,6 @@ def run_scan():
             mark_digest_sent(digest_type)
 
     # ── Dedup guard for staggered hourly crons ──
-    # The workflow fires 4x/hour for reliability against GitHub cron jitter.
-    # Only the first one within each hour-window should run a full scan.
-    # Manual runs (workflow_dispatch) bypass this so debugging works.
     if is_manual_dispatch():
         print("▶ Manual run (workflow_dispatch) — bypassing dedup guard")
     else:
@@ -456,7 +522,6 @@ def run_scan():
                       f"(threshold: {MIN_MINUTES_BETWEEN_SCANS} min)")
             else:
                 print(f"⏭ Skipping scan — within dedup window")
-            # Don't save state here — we made no changes
             return
 
     # ── Fetch and process tokens ──
@@ -471,8 +536,9 @@ def run_scan():
         return
 
     batch_data = []
-    alerts = []       # (metrics, tier, reason, safety, narratives, conviction, breakdown)
-    exit_alerts = []   # (symbol, signals)
+    alerts = []         # (metrics, tier, reason, safety, narratives, conviction, breakdown)
+    exit_alerts = []    # (symbol, signals)
+    all_tokens_rows = []  # full analytics log — every processed token
     skipped = 0
 
     for boost in boosted:
@@ -505,11 +571,57 @@ def run_scan():
         # ── Classify ──
         tier, reason = classify(metrics, safety, state, token_key)
 
+        # ── Compute conviction for EVERY token (including skips) ──
+        # This is what enables tuning analysis later. We wrap in try/except
+        # because the conviction calc may assume the token passed the filter.
+        conviction, breakdown = safe_compute_conviction(
+            metrics, safety, narratives, state, token_key, batch_data)
+
+        # ── Catalyst detection (cheap, do for everything) ──
+        is_catalyst, _ = check_social_catalyst(metrics["symbol"], metrics["name"])
+
+        # ── Compute appearance metadata for analytics row ──
+        history = state.get("seen_tokens", {}).get(token_key, [])
+        appearance_number = len(history) + 1  # this scan will be appearance N
+        first_liq = history[0]["liquidity"] if history else None
+        liq_multiple = (metrics["liquidity"] / first_liq) if first_liq and first_liq > 0 else None
+
+        # ── Build the All Tokens analytics row ──
+        all_tokens_rows.append({
+            "timestamp": metrics["timestamp"],
+            "token_key": token_key,
+            "symbol": metrics["symbol"],
+            "name": metrics["name"],
+            "chain": metrics["chain"],
+            "pair_address": metrics["pair_address"],
+            "tier": tier if tier else "",
+            "skip_reason": reason if tier == "SKIP" else (reason if tier is None else ""),
+            "would_alert": tier in ("T1", "T2"),
+            "conviction": round(conviction, 2) if conviction is not None else None,
+            "liquidity": metrics["liquidity"],
+            "volume_24h": metrics["volume_24h"],
+            "vol_liq_ratio": metrics["vol_liq_ratio"],
+            "price_change_6h": metrics["price_change_6h"],
+            "safety_score": safety,
+            "price_usd": metrics["price_usd"],
+            "buys_1h": metrics["buys_1h"],
+            "sells_1h": metrics["sells_1h"],
+            "buys_24h": metrics["buys_24h"],
+            "sells_24h": metrics["sells_24h"],
+            "fdv": metrics["fdv"],
+            "is_returning": metrics["is_returning"],
+            "appearance_number": appearance_number,
+            "first_liq": first_liq,
+            "liq_multiple": liq_multiple,
+            "narratives": narratives,
+            "catalyst_detected": is_catalyst,
+            "dex_url": metrics["dex_url"],
+        })
+
+        # ── Action paths ──
         if tier == "SKIP":
             skipped += 1
         elif tier in ("T1", "T2"):
-            conviction, breakdown = compute_conviction_score(
-                metrics, safety, narratives, state, token_key, batch_data)
             alerts.append((metrics, tier, reason, safety, narratives, conviction, breakdown))
             print(f"  ALERT [{tier}] {metrics['symbol']} — conviction {conviction}/10")
 
@@ -555,13 +667,13 @@ def run_scan():
     correlations = detect_correlations(batch_data, state)
     cluster_warnings = format_correlation_warnings(correlations)
 
-    # ── Send individual token alerts ──
+    # ── Send individual token alerts + log to Scanner v3 tab ──
     for metrics, tier, reason, safety, narratives, conviction, breakdown in alerts:
         token_key = metrics["token_key"]
         alert_text = format_token_alert(
             metrics, tier, reason, safety, narratives, conviction, breakdown, state, token_key)
         send_telegram(alert_text)
-        log_to_sheets(metrics, tier, reason, safety, narratives, conviction)
+        log_alert_to_sheets(metrics, tier, reason, safety, narratives, conviction)
 
         try:
             from outcome_tracker import register_alert
@@ -572,11 +684,13 @@ def run_scan():
 
     # ── Send exit alerts ──
     for symbol, signals in exit_alerts:
-        # Find matching metrics
         matching = [d for d in batch_data if d["symbol"] == symbol]
         if matching:
             exit_text = format_exit_alert(matching[0]["token_key"], matching[0], signals, state)
             send_telegram(exit_text)
+
+    # ── Batch-log all processed tokens to All Tokens tab (single API call) ──
+    log_all_tokens_to_sheets(all_tokens_rows)
 
     # ── Send batch summary ──
     summary = format_batch_summary(batch_data, alerts, exit_alerts, cluster_warnings, state)
