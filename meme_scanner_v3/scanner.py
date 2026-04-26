@@ -56,6 +56,11 @@ ANTI_LIQ_MIN = 15_000
 ANTI_PRICE_DUMP = -30
 ANTI_LIQ_DECLINE = 0.7
 
+# Dedup guard: minimum minutes between hourly scans.
+# Set to 50 so 4 staggered crons (15 min apart) only let ONE run per hour,
+# while still tolerating ~5 min of GitHub Actions cron jitter.
+MIN_MINUTES_BETWEEN_SCANS = 50
+
 
 # ============================================================
 # STATE
@@ -73,6 +78,32 @@ def save_state(state):
 
 def get_token_key(chain, pair_address):
     return f"{chain}:{pair_address}"
+
+
+def should_run_hourly_scan(state, min_minutes=MIN_MINUTES_BETWEEN_SCANS):
+    """
+    Returns (should_run: bool, minutes_since_last: float|None).
+
+    Prevents the 4 staggered hourly crons from each running a full scan.
+    Uses state['last_scan'] which is already set at the end of every
+    successful scan, so no new state field is needed.
+
+    Returns True if last_scan is missing, malformed, or older than min_minutes.
+    Digest runs bypass this check (handled in run_scan, not here).
+    """
+    last_scan_iso = state.get("last_scan")
+    if not last_scan_iso:
+        return True, None
+    try:
+        last_scan = datetime.fromisoformat(last_scan_iso)
+        # Tolerate naive datetimes from older state files
+        if last_scan.tzinfo is None:
+            last_scan = last_scan.replace(tzinfo=timezone.utc)
+        minutes_since = (datetime.now(timezone.utc) - last_scan).total_seconds() / 60
+        return (minutes_since >= min_minutes), minutes_since
+    except (ValueError, TypeError) as e:
+        print(f"[WARN] Could not parse last_scan timestamp: {e} — running anyway")
+        return True, None
 
 
 # ============================================================
@@ -351,7 +382,7 @@ def log_to_sheets(metrics, tier, reason, safety, narratives, conviction):
             json.loads(base64.b64decode(creds_b64)),
             scopes=["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"]
         )
-        ws = gspread.authorize(creds).open_by_key(sheet_id).worksheet("Scanner v3")
+        ws = gspread.authorize(creds).open_by_key(sheet_id).sheet1
         ws.append_row([
             metrics["timestamp"], tier, reason, metrics["symbol"], metrics["name"],
             metrics["chain"], metrics["pair_address"], metrics["liquidity"],
@@ -375,14 +406,31 @@ def run_scan():
 
     state = load_state()
 
-    # ── Check if digest is due ──
+    # ── Check if digest is due (digests bypass dedup guard) ──
     digest_type = get_digest_type()
+    digest_was_sent = False
     if digest_type and should_send_digest(digest_type):
         print(f"[DIGEST] Generating {digest_type} digest")
         digest_msg = generate_digest(digest_type)
         if digest_msg:
             send_telegram(digest_msg)
             mark_digest_sent(digest_type)
+            digest_was_sent = True
+
+    # ── Dedup guard for staggered hourly crons ──
+    # The workflow fires 4x/hour for reliability against GitHub cron jitter.
+    # Only the first one within each hour-window should run a full scan.
+    # If a digest just sent, we still skip the scan portion to avoid
+    # double-running (digest already informed the user).
+    should_run, minutes_since = should_run_hourly_scan(state)
+    if not should_run:
+        if minutes_since is not None:
+            print(f"⏭ Skipping scan — last scan was {minutes_since:.1f} min ago "
+                  f"(threshold: {MIN_MINUTES_BETWEEN_SCANS} min)")
+        else:
+            print(f"⏭ Skipping scan — within dedup window")
+        # Don't save state here — we made no changes
+        return
 
     # ── Fetch and process tokens ──
     boosted = fetch_boosted_tokens()
@@ -516,3 +564,4 @@ def run_scan():
 
 if __name__ == "__main__":
     run_scan()
+  
