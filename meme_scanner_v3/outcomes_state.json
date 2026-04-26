@@ -636,6 +636,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "ethereum:0x0A4BCD9075e2AFddbBa69A01F209412b5d8BbE38": {
+      "chain": "ethereum",
+      "pair_address": "0x0A4BCD9075e2AFddbBa69A01F209412b5d8BbE38",
+      "symbol": "ALIENS",
+      "tier": "T2",
+      "detection_time": "2026-04-26T17:27:32.365327+00:00",
+      "detection_price": 0.0001264,
+      "detection_liq": 113032.54,
+      "peak_price": 0.0001264,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:D58XR9QWxif6NDhyD7mwQDaaJY7p33LGZZnhoWchgxst": {
+      "chain": "solana",
+      "pair_address": "D58XR9QWxif6NDhyD7mwQDaaJY7p33LGZZnhoWchgxst",
+      "symbol": "TROLLP",
+      "tier": "T1",
+      "detection_time": "2026-04-26T17:27:34.898039+00:00",
+      "detection_price": 0.0002242,
+      "detection_liq": 39243.52,
+      "peak_price": 0.0002242,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
