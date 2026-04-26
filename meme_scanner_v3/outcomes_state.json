@@ -827,7 +827,28 @@
       "detection_time": "2026-04-26T22:23:13.086366+00:00",
       "detection_price": 0.0002131,
       "detection_liq": 37693.7,
-      "peak_price": 0.0002131,
+      "peak_price": 0.0002246,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002246,
+          "liquidity": 38673.7,
+          "volume_24h": 922388.79,
+          "captured_at": "2026-04-26T23:26:35.677745+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EAmtoFwQ2R2iiTSH8gyvNXWRpSXKeJL7qtYXsesGyMhM": {
+      "chain": "solana",
+      "pair_address": "EAmtoFwQ2R2iiTSH8gyvNXWRpSXKeJL7qtYXsesGyMhM",
+      "symbol": "pluto",
+      "tier": "T2",
+      "detection_time": "2026-04-26T23:26:26.420925+00:00",
+      "detection_price": 0.0001098,
+      "detection_liq": 26349.62,
+      "peak_price": 0.0001098,
       "captures": {},
       "outcome_label": null,
       "completed": false
