@@ -538,6 +538,7 @@ def run_scan():
     exit_alerts = []
     all_tokens_rows = []
     skipped = 0
+    gt_attempted = 0  # Phase 2: track tokens we tried to enrich
 
     for boost in boosted:
         chain_id = boost.get("chainId", "")
@@ -563,26 +564,36 @@ def run_scan():
         metrics["narratives"] = narratives
         metrics["is_returning"] = token_key in state["seen_tokens"]
         metrics["token_key"] = token_key
+        metrics["gt_enriched"] = False  # default; flipped to True if enrichment succeeds
+
+        batch_data.append(metrics)
+
+        # ── Classify FIRST (before enrichment to save API calls) ──
+        tier, reason = classify(metrics, safety, state, token_key)
 
         # ── GeckoTerminal enrichment (Phase 2) ──
+        # Only enrich tokens worth alerting on or already-tracked tokens that
+        # need exit-signal evaluation. Skipping enrichment for auto-rejected
+        # tokens cuts API calls by ~60-70% and avoids 429 rate limits on
+        # shared GitHub Actions IPs.
         # Adds gt_buyers_h1, gt_sellers_h1, gt_buyer_seller_ratio_h1,
         # gt_volume_h1/h6/h24, gt_price_change_h1/h6/h24, gt_fdv_usd, etc.
-        # Never raises — sets gt_enriched=False on any failure.
-        if GT_AVAILABLE:
+        # Never raises — leaves gt_enriched=False on any failure.
+        should_enrich = (
+            GT_AVAILABLE
+            and (tier in ("T1", "T2") or metrics["is_returning"])
+        )
+        if should_enrich:
+            gt_attempted += 1
             try:
                 metrics = geckoterminal.enrich_token(metrics)
             except Exception as e:
                 print(f"[WARN] GT enrichment failed for {metrics['symbol']}: {e}")
                 metrics["gt_enriched"] = False
-        else:
-            metrics["gt_enriched"] = False
-
-        batch_data.append(metrics)
-
-        # ── Classify ──
-        tier, reason = classify(metrics, safety, state, token_key)
 
         # ── Compute conviction for EVERY token (analytics) ──
+        # Runs after enrichment so the buyer/seller ratio factor is included
+        # for T1/T2 alerts and returning tokens.
         conviction, breakdown = safe_compute_conviction(
             metrics, safety, narratives, state, token_key, batch_data)
 
@@ -718,12 +729,14 @@ def run_scan():
     save_state(state)
 
     # ── Enrichment quality stats (Phase 2 monitoring) ──
+    # Phase 2 update: we only attempt enrichment on alerts + returning tokens,
+    # so denominator is "tokens we tried" not "all tokens".
     gt_success = sum(1 for d in batch_data if d.get("gt_enriched"))
-    gt_pct = (100 * gt_success / len(batch_data)) if batch_data else 0
+    gt_pct = (100 * gt_success / gt_attempted) if gt_attempted else 0
 
     print(f"\nDONE: {len(batch_data)} processed, {len(alerts)} alerts, "
           f"{len(exit_alerts)} exits, {skipped} skipped")
-    print(f"      GT enrichment: {gt_success}/{len(batch_data)} ({gt_pct:.0f}%)")
+    print(f"      GT enrichment: {gt_success}/{gt_attempted} attempted ({gt_pct:.0f}% success)")
 
 
 if __name__ == "__main__":
