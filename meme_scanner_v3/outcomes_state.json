@@ -1493,7 +1493,15 @@
       "detection_price": 0.0008602,
       "detection_liq": 74109.09,
       "peak_price": 0.0008602,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0005842,
+          "liquidity": 64003.75,
+          "volume_24h": 2378906.25,
+          "captured_at": "2026-04-27T21:07:32.865479+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -1506,6 +1514,53 @@
       "detection_price": 0.0003659,
       "detection_liq": 48173.02,
       "peak_price": 0.0003659,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002059,
+          "liquidity": 36747.85,
+          "volume_24h": 921063.11,
+          "captured_at": "2026-04-27T21:07:32.865479+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:72ZsEx9MeVpVGA4HeKzj7wPdVRWj9TMTCvLrmRWQf4xH": {
+      "chain": "solana",
+      "pair_address": "72ZsEx9MeVpVGA4HeKzj7wPdVRWj9TMTCvLrmRWQf4xH",
+      "symbol": "SCAMMURZ",
+      "tier": "T1",
+      "detection_time": "2026-04-27T21:07:18.319253+00:00",
+      "detection_price": 7.621e-05,
+      "detection_liq": 21804.87,
+      "peak_price": 7.621e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:58xvayxZEuUSmENvRVgDdkSsUe6yFnevXBQBRppGatgj": {
+      "chain": "solana",
+      "pair_address": "58xvayxZEuUSmENvRVgDdkSsUe6yFnevXBQBRppGatgj",
+      "symbol": "ClosedAI",
+      "tier": "T1",
+      "detection_time": "2026-04-27T21:07:21.188300+00:00",
+      "detection_price": 0.0002532,
+      "detection_liq": 40955.39,
+      "peak_price": 0.0002532,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "ethereum:0x855f02967Ee16E9F18D388b07b4c75211e73E8c2": {
+      "chain": "ethereum",
+      "pair_address": "0x855f02967Ee16E9F18D388b07b4c75211e73E8c2",
+      "symbol": "ELON",
+      "tier": "T2",
+      "detection_time": "2026-04-27T21:07:24.747856+00:00",
+      "detection_price": 0.01845,
+      "detection_liq": 38860.94,
+      "peak_price": 0.01845,
       "captures": {},
       "outcome_label": null,
       "completed": false
