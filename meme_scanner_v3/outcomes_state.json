@@ -1462,6 +1462,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:5vPLCiW2NVvoGyrNv7rXEPXEu2rXM1U5NJXcCSvpmV2J": {
+      "chain": "solana",
+      "pair_address": "5vPLCiW2NVvoGyrNv7rXEPXEu2rXM1U5NJXcCSvpmV2J",
+      "symbol": "SCAMTRUMP",
+      "tier": "T1",
+      "detection_time": "2026-04-27T19:55:33.655618+00:00",
+      "detection_price": 0.0008602,
+      "detection_liq": 74109.09,
+      "peak_price": 0.0008602,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HT8ZEh6PdSkB6HTXjqiKMQhNwZY6mqjmW57mF3r9wHfW": {
+      "chain": "solana",
+      "pair_address": "HT8ZEh6PdSkB6HTXjqiKMQhNwZY6mqjmW57mF3r9wHfW",
+      "symbol": "SCAM",
+      "tier": "T1",
+      "detection_time": "2026-04-27T19:55:36.622077+00:00",
+      "detection_price": 0.0003659,
+      "detection_liq": 48173.02,
+      "peak_price": 0.0003659,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
