@@ -1329,6 +1329,45 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:85DBxeGRK3swm9Mm93gGLscaq8GTNFTYqr2dbvRjnZaW": {
+      "chain": "solana",
+      "pair_address": "85DBxeGRK3swm9Mm93gGLscaq8GTNFTYqr2dbvRjnZaW",
+      "symbol": "ElunCoin",
+      "tier": "T1",
+      "detection_time": "2026-04-27T16:57:15.228961+00:00",
+      "detection_price": 0.0001114,
+      "detection_liq": 26985.3,
+      "peak_price": 0.0001114,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CLKehquDtqF8fW8Ti5go2KM5dMp1p1oF3GZRPttcM6AX": {
+      "chain": "solana",
+      "pair_address": "CLKehquDtqF8fW8Ti5go2KM5dMp1p1oF3GZRPttcM6AX",
+      "symbol": "Coule",
+      "tier": "T1",
+      "detection_time": "2026-04-27T16:57:20.632482+00:00",
+      "detection_price": 0.0002621,
+      "detection_liq": 41230.87,
+      "peak_price": 0.0002621,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5KekXEFytdbrkvERNNNGxVFovevYJxukKc7iGUwy873K": {
+      "chain": "solana",
+      "pair_address": "5KekXEFytdbrkvERNNNGxVFovevYJxukKc7iGUwy873K",
+      "symbol": "NICE",
+      "tier": "T1",
+      "detection_time": "2026-04-27T16:57:23.939625+00:00",
+      "detection_price": 7.072e-05,
+      "detection_liq": 22727.72,
+      "peak_price": 7.072e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
