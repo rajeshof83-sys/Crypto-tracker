@@ -1122,7 +1122,15 @@
       "detection_price": 0.000208,
       "detection_liq": 37577.11,
       "peak_price": 0.000208,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 2.575e-06,
+          "liquidity": 4260.06,
+          "volume_24h": 1178883.57,
+          "captured_at": "2026-04-27T09:23:09.129661+00:00",
+          "hours_elapsed": 1.5
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -1134,7 +1142,28 @@
       "detection_time": "2026-04-27T07:54:31.084956+00:00",
       "detection_price": 0.0002139,
       "detection_liq": 36656.11,
-      "peak_price": 0.0002139,
+      "peak_price": 0.0003142,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003142,
+          "liquidity": 45170.57,
+          "volume_24h": 663611.31,
+          "captured_at": "2026-04-27T09:23:09.129661+00:00",
+          "hours_elapsed": 1.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2i1CtveDHPVVyrdyZT26vSAVD17H6Ctqs9EQ9xoYXFMR": {
+      "chain": "solana",
+      "pair_address": "2i1CtveDHPVVyrdyZT26vSAVD17H6Ctqs9EQ9xoYXFMR",
+      "symbol": "IMOUT",
+      "tier": "T2",
+      "detection_time": "2026-04-27T09:22:58.905077+00:00",
+      "detection_price": 0.0002589,
+      "detection_liq": 54250.67,
+      "peak_price": 0.0002589,
       "captures": {},
       "outcome_label": null,
       "completed": false
