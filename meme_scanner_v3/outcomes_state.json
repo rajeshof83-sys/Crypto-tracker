@@ -1073,6 +1073,13 @@
           "volume_24h": 911820.46,
           "captured_at": "2026-04-27T06:31:56.138071+00:00",
           "hours_elapsed": 1.6
+        },
+        "price_6h": {
+          "price": 3.12e-06,
+          "liquidity": 4613.78,
+          "volume_24h": 917236.96,
+          "captured_at": "2026-04-27T11:48:40.621503+00:00",
+          "hours_elapsed": 6.9
         }
       },
       "outcome_label": null,
@@ -1094,6 +1101,13 @@
           "volume_24h": 455723.59,
           "captured_at": "2026-04-27T06:31:56.138071+00:00",
           "hours_elapsed": 1.6
+        },
+        "price_6h": {
+          "price": 1.808e-06,
+          "liquidity": 3445.65,
+          "volume_24h": 455905.68,
+          "captured_at": "2026-04-27T11:48:40.621503+00:00",
+          "hours_elapsed": 6.9
         }
       },
       "outcome_label": null,
@@ -1180,6 +1194,32 @@
           "hours_elapsed": 1.5
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CSzzYVzQWEh2WLeqo3qyqdkXi3Xx8G4f35dxmLdGbKhW": {
+      "chain": "solana",
+      "pair_address": "CSzzYVzQWEh2WLeqo3qyqdkXi3Xx8G4f35dxmLdGbKhW",
+      "symbol": "COWBOY",
+      "tier": "T1",
+      "detection_time": "2026-04-27T11:48:27.785298+00:00",
+      "detection_price": 0.0001665,
+      "detection_liq": 32395.34,
+      "peak_price": 0.0001665,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:KuoYG4VCZHkvwuhWX2rQaVM7xE9Ho4HsL4pUSqfHjrF": {
+      "chain": "solana",
+      "pair_address": "KuoYG4VCZHkvwuhWX2rQaVM7xE9Ho4HsL4pUSqfHjrF",
+      "symbol": "ODAI",
+      "tier": "T1",
+      "detection_time": "2026-04-27T11:48:30.792559+00:00",
+      "detection_price": 0.0003473,
+      "detection_liq": 49350.0,
+      "peak_price": 0.0003473,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
