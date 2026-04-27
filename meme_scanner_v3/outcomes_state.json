@@ -954,6 +954,13 @@
           "volume_24h": 352816.56,
           "captured_at": "2026-04-27T01:17:36.379371+00:00",
           "hours_elapsed": 1.9
+        },
+        "price_6h": {
+          "price": 8.095e-05,
+          "liquidity": 22951.4,
+          "volume_24h": 485555.0,
+          "captured_at": "2026-04-27T06:31:56.138071+00:00",
+          "hours_elapsed": 7.1
         }
       },
       "outcome_label": null,
@@ -1031,7 +1038,15 @@
       "detection_price": 0.0001627,
       "detection_liq": 32778.46,
       "peak_price": 0.0001627,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 6.789e-06,
+          "liquidity": 6833.52,
+          "volume_24h": 911820.46,
+          "captured_at": "2026-04-27T06:31:56.138071+00:00",
+          "hours_elapsed": 1.6
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -1044,6 +1059,27 @@
       "detection_price": 7.773e-05,
       "detection_liq": 22759.08,
       "peak_price": 7.773e-05,
+      "captures": {
+        "price_1h": {
+          "price": 1.956e-06,
+          "liquidity": 3598.51,
+          "volume_24h": 455723.59,
+          "captured_at": "2026-04-27T06:31:56.138071+00:00",
+          "hours_elapsed": 1.6
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:61qsSVjW14ZwAtVr3tDj4aRSQuGeB4j8vXLBuSaEvLrE": {
+      "chain": "solana",
+      "pair_address": "61qsSVjW14ZwAtVr3tDj4aRSQuGeB4j8vXLBuSaEvLrE",
+      "symbol": "Elon",
+      "tier": "T1",
+      "detection_time": "2026-04-27T06:31:49.760778+00:00",
+      "detection_price": 9.955e-05,
+      "detection_liq": 25495.16,
+      "peak_price": 9.955e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
