@@ -870,6 +870,40 @@
       "detection_price": 0.0001098,
       "detection_liq": 26349.62,
       "peak_price": 0.0001098,
+      "captures": {
+        "price_1h": {
+          "price": 7.59e-05,
+          "liquidity": 22132.73,
+          "volume_24h": 352816.56,
+          "captured_at": "2026-04-27T01:17:36.379371+00:00",
+          "hours_elapsed": 1.9
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GTHGGn1U2CtrLfaVuH7aceS3zbam2uVwmgUcA4m3UDzD": {
+      "chain": "solana",
+      "pair_address": "GTHGGn1U2CtrLfaVuH7aceS3zbam2uVwmgUcA4m3UDzD",
+      "symbol": "UTC",
+      "tier": "T1",
+      "detection_time": "2026-04-27T01:17:28.023916+00:00",
+      "detection_price": 0.0002331,
+      "detection_liq": 38945.11,
+      "peak_price": 0.0002331,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GX36cCh8ze12oXh8hwrJxzZeXwwx7qe9kqiTVKHnWX9C": {
+      "chain": "solana",
+      "pair_address": "GX36cCh8ze12oXh8hwrJxzZeXwwx7qe9kqiTVKHnWX9C",
+      "symbol": "FRENS",
+      "tier": "T1",
+      "detection_time": "2026-04-27T01:17:30.783975+00:00",
+      "detection_price": 0.0001084,
+      "detection_liq": 27132.36,
+      "peak_price": 0.0001084,
       "captures": {},
       "outcome_label": null,
       "completed": false
