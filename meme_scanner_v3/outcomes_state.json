@@ -1969,6 +1969,13 @@
           "volume_24h": 487114.07,
           "captured_at": "2026-04-28T12:02:39.847096+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 1.823e-06,
+          "liquidity": 3411.33,
+          "volume_24h": 487532.08,
+          "captured_at": "2026-04-28T16:56:51.927019+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -1990,6 +1997,13 @@
           "volume_24h": 686178.33,
           "captured_at": "2026-04-28T12:02:39.847096+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 0.000171,
+          "liquidity": 34572.94,
+          "volume_24h": 1530562.5,
+          "captured_at": "2026-04-28T16:56:51.927019+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -2011,6 +2025,13 @@
           "volume_24h": 982919.73,
           "captured_at": "2026-04-28T12:02:39.847096+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 2.26e-06,
+          "liquidity": 4214.39,
+          "volume_24h": 1803982.25,
+          "captured_at": "2026-04-28T16:56:51.927019+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -2101,6 +2122,32 @@
       "detection_price": 0.000116,
       "detection_liq": 26663.04,
       "peak_price": 0.000116,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GiiZYdijN6BFu4JMiRnjpGc6y2goqpPuBp1EdEKx8pPQ": {
+      "chain": "solana",
+      "pair_address": "GiiZYdijN6BFu4JMiRnjpGc6y2goqpPuBp1EdEKx8pPQ",
+      "symbol": "67SCAM",
+      "tier": "T1",
+      "detection_time": "2026-04-28T16:56:41.138385+00:00",
+      "detection_price": 0.0001527,
+      "detection_liq": 30698.38,
+      "peak_price": 0.0001527,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9o6mVow7J435cCS6FsYGuqFAfjdictEVtATnyhUs79Yn": {
+      "chain": "solana",
+      "pair_address": "9o6mVow7J435cCS6FsYGuqFAfjdictEVtATnyhUs79Yn",
+      "symbol": "SCAMDEX",
+      "tier": "T1",
+      "detection_time": "2026-04-28T16:56:44.174068+00:00",
+      "detection_price": 0.0003229,
+      "detection_liq": 45893.35,
+      "peak_price": 0.0003229,
       "captures": {},
       "outcome_label": null,
       "completed": false
