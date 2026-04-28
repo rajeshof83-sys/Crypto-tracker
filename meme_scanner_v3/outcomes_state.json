@@ -1338,7 +1338,7 @@
       "detection_time": "2026-04-27T09:22:58.905077+00:00",
       "detection_price": 0.0002589,
       "detection_liq": 54250.67,
-      "peak_price": 0.0003208,
+      "peak_price": 0.0003319,
       "captures": {
         "price_1h": {
           "price": 0.0002615,
@@ -1353,6 +1353,13 @@
           "volume_24h": 280418.73,
           "captured_at": "2026-04-27T15:55:53.590515+00:00",
           "hours_elapsed": 6.5
+        },
+        "price_24h": {
+          "price": 0.0003319,
+          "liquidity": 72583.44,
+          "volume_24h": 116743.25,
+          "captured_at": "2026-04-28T09:26:51.111814+00:00",
+          "hours_elapsed": 24.1
         }
       },
       "outcome_label": null,
@@ -1836,6 +1843,40 @@
       "detection_price": 0.0001027,
       "detection_liq": 25277.68,
       "peak_price": 0.0001027,
+      "captures": {
+        "price_1h": {
+          "price": 7.781e-05,
+          "liquidity": 22024.13,
+          "volume_24h": 303527.15,
+          "captured_at": "2026-04-28T09:26:51.111814+00:00",
+          "hours_elapsed": 1.7
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3up7bHLPQWYNF6iwWHEhFoZ1sXpwSVEZnTiQnZSPEzLy": {
+      "chain": "solana",
+      "pair_address": "3up7bHLPQWYNF6iwWHEhFoZ1sXpwSVEZnTiQnZSPEzLy",
+      "symbol": "CREPE",
+      "tier": "T1",
+      "detection_time": "2026-04-28T09:26:39.100934+00:00",
+      "detection_price": 0.0001644,
+      "detection_liq": 32013.2,
+      "peak_price": 0.0001644,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9mX1QGsckxev4iiRb8m98SEbTywVMpLHaXt3YbTXj9jc": {
+      "chain": "solana",
+      "pair_address": "9mX1QGsckxev4iiRb8m98SEbTywVMpLHaXt3YbTXj9jc",
+      "symbol": "OPENLIE",
+      "tier": "T1",
+      "detection_time": "2026-04-28T09:26:42.535086+00:00",
+      "detection_price": 0.0001462,
+      "detection_liq": 32844.27,
+      "peak_price": 0.0001462,
       "captures": {},
       "outcome_label": null,
       "completed": false
