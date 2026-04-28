@@ -1633,10 +1633,17 @@
           "volume_24h": 1551092.59,
           "captured_at": "2026-04-27T23:56:37.550757+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 2.105e-06,
+          "liquidity": 3835.11,
+          "volume_24h": 532561.85,
+          "captured_at": "2026-04-28T18:11:37.916866+00:00",
+          "hours_elapsed": 24.4
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:5vPLCiW2NVvoGyrNv7rXEPXEu2rXM1U5NJXcCSvpmV2J": {
       "chain": "solana",
@@ -2172,7 +2179,15 @@
       "detection_price": 0.0001527,
       "detection_liq": 30698.38,
       "peak_price": 0.0001527,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 1.904e-06,
+          "liquidity": 3483.1,
+          "volume_24h": 579093.54,
+          "captured_at": "2026-04-28T18:11:37.916866+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -2184,7 +2199,41 @@
       "detection_time": "2026-04-28T16:56:44.174068+00:00",
       "detection_price": 0.0003229,
       "detection_liq": 45893.35,
-      "peak_price": 0.0003229,
+      "peak_price": 0.0009127,
+      "captures": {
+        "price_1h": {
+          "price": 0.0009127,
+          "liquidity": 81361.47,
+          "volume_24h": 2488941.61,
+          "captured_at": "2026-04-28T18:11:37.916866+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HDD6UtntCzZsC6FVBg1wVbHmuUwhdwdZ3tMh4R3DkLUx": {
+      "chain": "solana",
+      "pair_address": "HDD6UtntCzZsC6FVBg1wVbHmuUwhdwdZ3tMh4R3DkLUx",
+      "symbol": "KILLGPT",
+      "tier": "T1",
+      "detection_time": "2026-04-28T18:11:22.171504+00:00",
+      "detection_price": 0.0004561,
+      "detection_liq": 54186.73,
+      "peak_price": 0.0004561,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4vzwoGqPKsDKgGAYcQ75dALLZcx1Pv4TWsSCDr8Nd5R9": {
+      "chain": "solana",
+      "pair_address": "4vzwoGqPKsDKgGAYcQ75dALLZcx1Pv4TWsSCDr8Nd5R9",
+      "symbol": "GFYS",
+      "tier": "T2",
+      "detection_time": "2026-04-28T18:11:27.560927+00:00",
+      "detection_price": 0.0002106,
+      "detection_liq": 36460.64,
+      "peak_price": 0.0002106,
       "captures": {},
       "outcome_label": null,
       "completed": false
