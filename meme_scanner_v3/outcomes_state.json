@@ -2399,6 +2399,32 @@
       "captures": {},
       "outcome_label": null,
       "completed": false
+    },
+    "solana:5vt9xh8TrsbzQw2h1RSoPRxoRZDyU721yukzuoVoGv1Z": {
+      "chain": "solana",
+      "pair_address": "5vt9xh8TrsbzQw2h1RSoPRxoRZDyU721yukzuoVoGv1Z",
+      "symbol": "Nigslop",
+      "tier": "T2",
+      "detection_time": "2026-04-28T22:42:46.617539+00:00",
+      "detection_price": 3.818e-05,
+      "detection_liq": 15438.65,
+      "peak_price": 3.818e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2Ccsn6S7SuCsYLZ4DUS2mDKbLPYGnSCgQLtQRaPiT1ph": {
+      "chain": "solana",
+      "pair_address": "2Ccsn6S7SuCsYLZ4DUS2mDKbLPYGnSCgQLtQRaPiT1ph",
+      "symbol": "Kylo",
+      "tier": "T1",
+      "detection_time": "2026-04-28T22:42:49.778735+00:00",
+      "detection_price": 8.632e-05,
+      "detection_liq": 23616.92,
+      "peak_price": 8.632e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
