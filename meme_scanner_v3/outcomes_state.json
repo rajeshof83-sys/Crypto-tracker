@@ -1864,7 +1864,15 @@
       "detection_price": 0.0001644,
       "detection_liq": 32013.2,
       "peak_price": 0.0001644,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 2.288e-06,
+          "liquidity": 3778.49,
+          "volume_24h": 334866.05,
+          "captured_at": "2026-04-28T10:51:51.496619+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -1876,7 +1884,54 @@
       "detection_time": "2026-04-28T09:26:42.535086+00:00",
       "detection_price": 0.0001462,
       "detection_liq": 32844.27,
-      "peak_price": 0.0001462,
+      "peak_price": 0.0001991,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001991,
+          "liquidity": 38421.12,
+          "volume_24h": 989918.76,
+          "captured_at": "2026-04-28T10:51:51.496619+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DJFBWXRDzFpn5aBDQ19x6YfGSr62b9BZ67a2e4kcEM12": {
+      "chain": "solana",
+      "pair_address": "DJFBWXRDzFpn5aBDQ19x6YfGSr62b9BZ67a2e4kcEM12",
+      "symbol": "MSGA",
+      "tier": "T1",
+      "detection_time": "2026-04-28T10:51:39.701723+00:00",
+      "detection_price": 9.194e-05,
+      "detection_liq": 24261.76,
+      "peak_price": 9.194e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5wJyTTwqvoMzDh57tmRsGVQtcS1scyY1TktBDyRFiHuy": {
+      "chain": "solana",
+      "pair_address": "5wJyTTwqvoMzDh57tmRsGVQtcS1scyY1TktBDyRFiHuy",
+      "symbol": "musk",
+      "tier": "T1",
+      "detection_time": "2026-04-28T10:51:42.562473+00:00",
+      "detection_price": 0.0001884,
+      "detection_liq": 34507.16,
+      "peak_price": 0.0001884,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HfGCShkq7jjAXfxdtbcUnLwVa3CUMDtYmpzMTVRg22bA": {
+      "chain": "solana",
+      "pair_address": "HfGCShkq7jjAXfxdtbcUnLwVa3CUMDtYmpzMTVRg22bA",
+      "symbol": "SuicideGPT",
+      "tier": "T1",
+      "detection_time": "2026-04-28T10:51:45.286242+00:00",
+      "detection_price": 7.924e-05,
+      "detection_liq": 22601.17,
+      "peak_price": 7.924e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
