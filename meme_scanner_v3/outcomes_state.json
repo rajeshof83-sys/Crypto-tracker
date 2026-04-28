@@ -1913,6 +1913,13 @@
           "volume_24h": 334866.05,
           "captured_at": "2026-04-28T10:51:51.496619+00:00",
           "hours_elapsed": 1.4
+        },
+        "price_6h": {
+          "price": 2.022e-06,
+          "liquidity": 3544.27,
+          "volume_24h": 335050.06,
+          "captured_at": "2026-04-28T16:03:22.540693+00:00",
+          "hours_elapsed": 6.6
         }
       },
       "outcome_label": null,
@@ -1934,6 +1941,13 @@
           "volume_24h": 989918.76,
           "captured_at": "2026-04-28T10:51:51.496619+00:00",
           "hours_elapsed": 1.4
+        },
+        "price_6h": {
+          "price": 9.77e-05,
+          "liquidity": 27139.93,
+          "volume_24h": 1151503.42,
+          "captured_at": "2026-04-28T16:03:22.540693+00:00",
+          "hours_elapsed": 6.6
         }
       },
       "outcome_label": null,
@@ -2052,7 +2066,41 @@
       "detection_time": "2026-04-28T14:21:48.843156+00:00",
       "detection_price": 7.856e-05,
       "detection_liq": 22371.1,
-      "peak_price": 7.856e-05,
+      "peak_price": 0.0004434,
+      "captures": {
+        "price_1h": {
+          "price": 0.0004434,
+          "liquidity": 56611.53,
+          "volume_24h": 1802871.3,
+          "captured_at": "2026-04-28T16:03:22.540693+00:00",
+          "hours_elapsed": 1.7
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DGJJQmF8ntVKszHv9LVkjiqpNNbaFPduDBQKZGaZ3UNt": {
+      "chain": "solana",
+      "pair_address": "DGJJQmF8ntVKszHv9LVkjiqpNNbaFPduDBQKZGaZ3UNt",
+      "symbol": "SCAMODEI",
+      "tier": "T1",
+      "detection_time": "2026-04-28T16:03:11.083086+00:00",
+      "detection_price": 0.0004177,
+      "detection_liq": 51155.66,
+      "peak_price": 0.0004177,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Baop9WxQ2bwh63dE4vxgCxzxdxk57N4ty1aVo1KbAXmk": {
+      "chain": "solana",
+      "pair_address": "Baop9WxQ2bwh63dE4vxgCxzxdxk57N4ty1aVo1KbAXmk",
+      "symbol": "YOLO",
+      "tier": "T1",
+      "detection_time": "2026-04-28T16:03:13.895952+00:00",
+      "detection_price": 0.000116,
+      "detection_liq": 26663.04,
+      "peak_price": 0.000116,
       "captures": {},
       "outcome_label": null,
       "completed": false
