@@ -2298,10 +2298,17 @@
           "volume_24h": 837973.13,
           "captured_at": "2026-04-28T22:11:28.098154+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 2.597e-06,
+          "liquidity": 4092.84,
+          "volume_24h": 204843.11,
+          "captured_at": "2026-04-29T16:45:29.294811+00:00",
+          "hours_elapsed": 24.7
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:Baop9WxQ2bwh63dE4vxgCxzxdxk57N4ty1aVo1KbAXmk": {
       "chain": "solana",
@@ -2326,6 +2333,13 @@
           "volume_24h": 186978.93,
           "captured_at": "2026-04-28T22:11:28.098154+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 0.0001325,
+          "liquidity": 28507.78,
+          "volume_24h": 30858.51,
+          "captured_at": "2026-04-29T16:45:29.294811+00:00",
+          "hours_elapsed": 24.7
         }
       },
       "outcome_label": null,
@@ -3019,6 +3033,13 @@
           "volume_24h": 398912.92,
           "captured_at": "2026-04-29T10:26:32.171018+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 2.148e-06,
+          "liquidity": 3691.76,
+          "volume_24h": 724645.73,
+          "captured_at": "2026-04-29T16:45:29.294811+00:00",
+          "hours_elapsed": 7.5
         }
       },
       "outcome_label": null,
@@ -3040,6 +3061,13 @@
           "volume_24h": 504005.65,
           "captured_at": "2026-04-29T11:42:09.946988+00:00",
           "hours_elapsed": 1.3
+        },
+        "price_6h": {
+          "price": 1.96e-06,
+          "liquidity": 3606.44,
+          "volume_24h": 894266.57,
+          "captured_at": "2026-04-29T16:45:29.294811+00:00",
+          "hours_elapsed": 6.3
         }
       },
       "outcome_label": null,
@@ -3075,6 +3103,27 @@
       "detection_price": 6.947e-05,
       "detection_liq": 25606.55,
       "peak_price": 6.947e-05,
+      "captures": {
+        "price_1h": {
+          "price": 5.678e-05,
+          "liquidity": 23070.64,
+          "volume_24h": 223503.75,
+          "captured_at": "2026-04-29T16:45:29.294811+00:00",
+          "hours_elapsed": 2.6
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:BzurFPkaFWj3fpRd8ZXPAicoAxjAtBh71ARuWaV9LP8W": {
+      "chain": "solana",
+      "pair_address": "BzurFPkaFWj3fpRd8ZXPAicoAxjAtBh71ARuWaV9LP8W",
+      "symbol": "WarTrump",
+      "tier": "T1",
+      "detection_time": "2026-04-29T16:45:21.624429+00:00",
+      "detection_price": 0.0004678,
+      "detection_liq": 55192.94,
+      "peak_price": 0.0004678,
       "captures": {},
       "outcome_label": null,
       "completed": false
