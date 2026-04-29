@@ -2508,6 +2508,13 @@
           "volume_24h": 192135.37,
           "captured_at": "2026-04-29T03:33:15.502528+00:00",
           "hours_elapsed": 7.4
+        },
+        "price_24h": {
+          "price": 5.272e-05,
+          "liquidity": 24366.07,
+          "volume_24h": 68917.18,
+          "captured_at": "2026-04-29T20:13:45.371992+00:00",
+          "hours_elapsed": 24.1
         }
       },
       "outcome_label": null,
@@ -2536,10 +2543,17 @@
           "volume_24h": 745131.45,
           "captured_at": "2026-04-29T03:33:15.502528+00:00",
           "hours_elapsed": 7.4
+        },
+        "price_24h": {
+          "price": 1.756e-06,
+          "liquidity": 3392.63,
+          "volume_24h": 209236.26,
+          "captured_at": "2026-04-29T20:13:45.371992+00:00",
+          "hours_elapsed": 24.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "ethereum:0x303b3470ce069309a17fb857537c0296f364945b09291a78e18dac93321d463a": {
       "chain": "ethereum",
@@ -2564,10 +2578,17 @@
           "volume_24h": 635336.98,
           "captured_at": "2026-04-29T03:33:15.502528+00:00",
           "hours_elapsed": 7.4
+        },
+        "price_24h": {
+          "price": 5.54e-06,
+          "liquidity": 5311.01,
+          "volume_24h": 218776.23,
+          "captured_at": "2026-04-29T20:13:45.371992+00:00",
+          "hours_elapsed": 24.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:43Ms8qvD3Bb5JqQvz6oUETdFAsoVSMGGUWdNQKMsa7qD": {
       "chain": "solana",
@@ -3145,6 +3166,13 @@
           "volume_24h": 223503.75,
           "captured_at": "2026-04-29T16:45:29.294811+00:00",
           "hours_elapsed": 2.6
+        },
+        "price_6h": {
+          "price": 3.381e-05,
+          "liquidity": 17745.3,
+          "volume_24h": 178734.05,
+          "captured_at": "2026-04-29T20:13:45.371992+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -3168,6 +3196,19 @@
           "hours_elapsed": 1.5
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AcXrfTRQVxn4PsHogWnMWsxuetLUufD3urZvBELoUyko": {
+      "chain": "solana",
+      "pair_address": "AcXrfTRQVxn4PsHogWnMWsxuetLUufD3urZvBELoUyko",
+      "symbol": "MAGABRUZ",
+      "tier": "T1",
+      "detection_time": "2026-04-29T20:13:34.138668+00:00",
+      "detection_price": 0.0001568,
+      "detection_liq": 31537.72,
+      "peak_price": 0.0001568,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
