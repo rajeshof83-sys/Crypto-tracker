@@ -2389,6 +2389,13 @@
           "volume_24h": 235539.03,
           "captured_at": "2026-04-28T21:46:17.411737+00:00",
           "hours_elapsed": 1.6
+        },
+        "price_6h": {
+          "price": 6.713e-05,
+          "liquidity": 27812.48,
+          "volume_24h": 192135.37,
+          "captured_at": "2026-04-29T03:33:15.502528+00:00",
+          "hours_elapsed": 7.4
         }
       },
       "outcome_label": null,
@@ -2410,6 +2417,13 @@
           "volume_24h": 745038.04,
           "captured_at": "2026-04-28T21:46:17.411737+00:00",
           "hours_elapsed": 1.6
+        },
+        "price_6h": {
+          "price": 1.802e-06,
+          "liquidity": 3481.3,
+          "volume_24h": 745131.45,
+          "captured_at": "2026-04-29T03:33:15.502528+00:00",
+          "hours_elapsed": 7.4
         }
       },
       "outcome_label": null,
@@ -2431,6 +2445,13 @@
           "volume_24h": 552458.61,
           "captured_at": "2026-04-28T21:46:17.411737+00:00",
           "hours_elapsed": 1.6
+        },
+        "price_6h": {
+          "price": 4.322e-05,
+          "liquidity": 19873.51,
+          "volume_24h": 635336.98,
+          "captured_at": "2026-04-29T03:33:15.502528+00:00",
+          "hours_elapsed": 7.4
         }
       },
       "outcome_label": null,
@@ -2570,7 +2591,41 @@
       "detection_time": "2026-04-29T01:17:53.024359+00:00",
       "detection_price": 0.0001146,
       "detection_liq": 27247.31,
-      "peak_price": 0.0001146,
+      "peak_price": 0.0001638,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001638,
+          "liquidity": 32914.68,
+          "volume_24h": 733865.25,
+          "captured_at": "2026-04-29T03:33:15.502528+00:00",
+          "hours_elapsed": 2.3
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3ionh9ecQaVHt63jveQYv5zzGjRfb7HXpD3s76EAGxq5": {
+      "chain": "solana",
+      "pair_address": "3ionh9ecQaVHt63jveQYv5zzGjRfb7HXpD3s76EAGxq5",
+      "symbol": "LEGIT",
+      "tier": "T1",
+      "detection_time": "2026-04-29T03:33:04.734699+00:00",
+      "detection_price": 0.0001015,
+      "detection_liq": 25435.7,
+      "peak_price": 0.0001015,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CMyhA1DaeL4S8vMa2cWixWVYMihPuayniepBj9EE1jE": {
+      "chain": "solana",
+      "pair_address": "CMyhA1DaeL4S8vMa2cWixWVYMihPuayniepBj9EE1jE",
+      "symbol": "SUTOSHI",
+      "tier": "T1",
+      "detection_time": "2026-04-29T03:33:06.849680+00:00",
+      "detection_price": 0.0003201,
+      "detection_liq": 46181.04,
+      "peak_price": 0.0003201,
       "captures": {},
       "outcome_label": null,
       "completed": false
