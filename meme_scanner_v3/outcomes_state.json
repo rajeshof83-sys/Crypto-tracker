@@ -3625,6 +3625,45 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:6CuyrM4n2PvzT3H3e8gteU3rZRAuJpGhPjhL5Htojg7b": {
+      "chain": "solana",
+      "pair_address": "6CuyrM4n2PvzT3H3e8gteU3rZRAuJpGhPjhL5Htojg7b",
+      "symbol": "MARU",
+      "tier": "T1",
+      "detection_time": "2026-04-30T17:06:02.412871+00:00",
+      "detection_price": 0.0001595,
+      "detection_liq": 31173.59,
+      "peak_price": 0.0001595,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:53MsYG5jwVgrzDteUCasiN7i3koS6YuNoWY72zfyxLro": {
+      "chain": "solana",
+      "pair_address": "53MsYG5jwVgrzDteUCasiN7i3koS6YuNoWY72zfyxLro",
+      "symbol": "BOOBIO",
+      "tier": "T2",
+      "detection_time": "2026-04-30T17:06:06.166534+00:00",
+      "detection_price": 0.0001076,
+      "detection_liq": 26260.68,
+      "peak_price": 0.0001076,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FcVHRxeYsvVW45VVU4LYzHUrRnScWtmCJ6ZeaQyF6gDW": {
+      "chain": "solana",
+      "pair_address": "FcVHRxeYsvVW45VVU4LYzHUrRnScWtmCJ6ZeaQyF6gDW",
+      "symbol": "winner",
+      "tier": "T1",
+      "detection_time": "2026-04-30T17:06:09.253532+00:00",
+      "detection_price": 0.0001106,
+      "detection_liq": 26064.06,
+      "peak_price": 0.0001106,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
