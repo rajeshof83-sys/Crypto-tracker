@@ -3208,10 +3208,17 @@
           "volume_24h": 724645.73,
           "captured_at": "2026-04-29T16:45:29.294811+00:00",
           "hours_elapsed": 7.5
+        },
+        "price_24h": {
+          "price": 2.255e-06,
+          "liquidity": 3777.87,
+          "volume_24h": 426893.71,
+          "captured_at": "2026-04-30T09:16:37.353589+00:00",
+          "hours_elapsed": 24.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:Hmfai94d9AohiXWSLXU7QE6yLUq9jbDrniqGZhkzFwJe": {
       "chain": "solana",
@@ -3469,6 +3476,19 @@
           "hours_elapsed": 1.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DooDukeL3tHdexvKbNLKtsBXcSSXUhTom49ripzSsTbp": {
+      "chain": "solana",
+      "pair_address": "DooDukeL3tHdexvKbNLKtsBXcSSXUhTom49ripzSsTbp",
+      "symbol": "KIND",
+      "tier": "T1",
+      "detection_time": "2026-04-30T09:16:29.836870+00:00",
+      "detection_price": 9.189e-05,
+      "detection_liq": 24128.76,
+      "peak_price": 9.189e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
