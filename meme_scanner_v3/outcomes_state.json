@@ -3634,8 +3634,16 @@
       "detection_time": "2026-04-30T17:06:02.412871+00:00",
       "detection_price": 0.0001595,
       "detection_liq": 31173.59,
-      "peak_price": 0.0001595,
-      "captures": {},
+      "peak_price": 0.0001893,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001893,
+          "liquidity": 34559.03,
+          "volume_24h": 587562.64,
+          "captured_at": "2026-04-30T18:13:53.992934+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -3648,7 +3656,15 @@
       "detection_price": 0.0001076,
       "detection_liq": 26260.68,
       "peak_price": 0.0001076,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 9.58e-05,
+          "liquidity": 24971.66,
+          "volume_24h": 305926.02,
+          "captured_at": "2026-04-30T18:13:53.992934+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -3661,6 +3677,40 @@
       "detection_price": 0.0001106,
       "detection_liq": 26064.06,
       "peak_price": 0.0001106,
+      "captures": {
+        "price_1h": {
+          "price": 2.5e-06,
+          "liquidity": 3938.7,
+          "volume_24h": 315225.34,
+          "captured_at": "2026-04-30T18:13:53.992934+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:38SMNksJTUuJPJRx22NTVwL7vGUxBThAdyoUmbGb62DA": {
+      "chain": "solana",
+      "pair_address": "38SMNksJTUuJPJRx22NTVwL7vGUxBThAdyoUmbGb62DA",
+      "symbol": "Children",
+      "tier": "T1",
+      "detection_time": "2026-04-30T18:13:36.266180+00:00",
+      "detection_price": 0.0004656,
+      "detection_liq": 54655.04,
+      "peak_price": 0.0004656,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:H85jBx4y5X7FGRSUC9HD94GjsBzM4e9rzWb67cssjkaE": {
+      "chain": "solana",
+      "pair_address": "H85jBx4y5X7FGRSUC9HD94GjsBzM4e9rzWb67cssjkaE",
+      "symbol": "BEAST",
+      "tier": "T1",
+      "detection_time": "2026-04-30T18:13:39.436993+00:00",
+      "detection_price": 9.324e-05,
+      "detection_liq": 23788.24,
+      "peak_price": 9.324e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
