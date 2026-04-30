@@ -2928,10 +2928,17 @@
           "volume_24h": 2062439.75,
           "captured_at": "2026-04-29T11:42:09.946988+00:00",
           "hours_elapsed": 6.8
+        },
+        "price_24h": {
+          "price": 4.019e-06,
+          "liquidity": 5481.52,
+          "volume_24h": 1599796.6,
+          "captured_at": "2026-04-30T04:58:46.156264+00:00",
+          "hours_elapsed": 24.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:7VQdzSYAP1mw92uxvWnpK2FDBxDZ3Ww54YjP46vtA45Q": {
       "chain": "solana",
@@ -2956,10 +2963,17 @@
           "volume_24h": 614566.88,
           "captured_at": "2026-04-29T11:42:09.946988+00:00",
           "hours_elapsed": 6.8
+        },
+        "price_24h": {
+          "price": 1.847e-06,
+          "liquidity": 3496.38,
+          "volume_24h": 505.85,
+          "captured_at": "2026-04-30T04:58:46.156264+00:00",
+          "hours_elapsed": 24.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:gcuVk6YH2VW7CP6DzKoAnsVUM23x6xAsyPrMxaYFQBq": {
       "chain": "solana",
@@ -2969,7 +2983,7 @@
       "detection_time": "2026-04-29T04:55:16.883639+00:00",
       "detection_price": 0.0002393,
       "detection_liq": 38904.39,
-      "peak_price": 0.0004794,
+      "peak_price": 0.001051,
       "captures": {
         "price_1h": {
           "price": 0.000321,
@@ -2984,6 +2998,13 @@
           "volume_24h": 971936.4,
           "captured_at": "2026-04-29T11:42:09.946988+00:00",
           "hours_elapsed": 6.8
+        },
+        "price_24h": {
+          "price": 0.001051,
+          "liquidity": 85033.17,
+          "volume_24h": 1650552.71,
+          "captured_at": "2026-04-30T04:58:46.156264+00:00",
+          "hours_elapsed": 24.1
         }
       },
       "outcome_label": null,
@@ -3313,6 +3334,13 @@
           "volume_24h": 1997152.2,
           "captured_at": "2026-04-30T00:03:06.179433+00:00",
           "hours_elapsed": 1.3
+        },
+        "price_6h": {
+          "price": 4e-06,
+          "liquidity": 5668.02,
+          "volume_24h": 3721219.05,
+          "captured_at": "2026-04-30T04:58:46.156264+00:00",
+          "hours_elapsed": 6.3
         }
       },
       "outcome_label": null,
@@ -3326,7 +3354,7 @@
       "detection_time": "2026-04-29T22:42:17.189834+00:00",
       "detection_price": 0.0001638,
       "detection_liq": 31771.2,
-      "peak_price": 0.0001638,
+      "peak_price": 0.0003606,
       "captures": {
         "price_1h": {
           "price": 0.0001605,
@@ -3334,6 +3362,13 @@
           "volume_24h": 602801.12,
           "captured_at": "2026-04-30T00:03:06.179433+00:00",
           "hours_elapsed": 1.3
+        },
+        "price_6h": {
+          "price": 0.0003606,
+          "liquidity": 49175.47,
+          "volume_24h": 1279198.91,
+          "captured_at": "2026-04-30T04:58:46.156264+00:00",
+          "hours_elapsed": 6.3
         }
       },
       "outcome_label": null,
@@ -3347,7 +3382,28 @@
       "detection_time": "2026-04-30T03:57:26.744087+00:00",
       "detection_price": 0.0002158,
       "detection_liq": 37957.63,
-      "peak_price": 0.0002158,
+      "peak_price": 0.000322,
+      "captures": {
+        "price_1h": {
+          "price": 0.000322,
+          "liquidity": 46535.52,
+          "volume_24h": 1159156.45,
+          "captured_at": "2026-04-30T04:58:46.156264+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GZcH7JUtpnUr3StHWw3y6JuxFmWNko3gzE81HWkYhb8D": {
+      "chain": "solana",
+      "pair_address": "GZcH7JUtpnUr3StHWw3y6JuxFmWNko3gzE81HWkYhb8D",
+      "symbol": "WATER",
+      "tier": "T2",
+      "detection_time": "2026-04-30T04:58:34.474001+00:00",
+      "detection_price": 0.0001223,
+      "detection_liq": 27258.7,
+      "peak_price": 0.0001223,
       "captures": {},
       "outcome_label": null,
       "completed": false
