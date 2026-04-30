@@ -3502,6 +3502,13 @@
           "volume_24h": 2150416.85,
           "captured_at": "2026-04-30T07:42:41.287685+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 0.0006295,
+          "liquidity": 68289.57,
+          "volume_24h": 3133397.74,
+          "captured_at": "2026-04-30T14:06:26.329156+00:00",
+          "hours_elapsed": 7.6
         }
       },
       "outcome_label": null,
@@ -3546,6 +3553,32 @@
           "hours_elapsed": 1.3
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DKj13Gv2kiVC4ncMyH4CixtgAAgXQ8xnzPdvo9Z6AJSS": {
+      "chain": "solana",
+      "pair_address": "DKj13Gv2kiVC4ncMyH4CixtgAAgXQ8xnzPdvo9Z6AJSS",
+      "symbol": "TOGO",
+      "tier": "T1",
+      "detection_time": "2026-04-30T14:06:14.741507+00:00",
+      "detection_price": 0.0001808,
+      "detection_liq": 33366.38,
+      "peak_price": 0.0001808,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7gbKHmQ4E1xqmeErg3wuLiwms238EqUMhYZbyTJnGxnL": {
+      "chain": "solana",
+      "pair_address": "7gbKHmQ4E1xqmeErg3wuLiwms238EqUMhYZbyTJnGxnL",
+      "symbol": "DEBT",
+      "tier": "T1",
+      "detection_time": "2026-04-30T14:06:18.223320+00:00",
+      "detection_price": 0.0001308,
+      "detection_liq": 28932.37,
+      "peak_price": 0.0001308,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
