@@ -3593,6 +3593,13 @@
           "volume_24h": 762366.23,
           "captured_at": "2026-04-30T16:07:18.897275+00:00",
           "hours_elapsed": 6.8
+        },
+        "price_24h": {
+          "price": 4.01e-06,
+          "liquidity": 5171.68,
+          "volume_24h": 33760.48,
+          "captured_at": "2026-05-01T10:07:24.145053+00:00",
+          "hours_elapsed": 24.8
         }
       },
       "outcome_label": null,
@@ -4055,7 +4062,15 @@
       "detection_price": 0.0002259,
       "detection_liq": 38594.95,
       "peak_price": 0.0002259,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 4.256e-06,
+          "liquidity": 5424.57,
+          "volume_24h": 1172722.28,
+          "captured_at": "2026-05-01T10:07:24.145053+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -4067,7 +4082,54 @@
       "detection_time": "2026-05-01T09:04:37.229843+00:00",
       "detection_price": 9.985e-05,
       "detection_liq": 25319.58,
-      "peak_price": 9.985e-05,
+      "peak_price": 0.0001603,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001603,
+          "liquidity": 33971.7,
+          "volume_24h": 1356454.27,
+          "captured_at": "2026-05-01T10:07:24.145053+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9kcyBfCcDrvPpJcpuzJXFND66ZJceLsZ5XADeBaewBsS": {
+      "chain": "solana",
+      "pair_address": "9kcyBfCcDrvPpJcpuzJXFND66ZJceLsZ5XADeBaewBsS",
+      "symbol": "gobble",
+      "tier": "T1",
+      "detection_time": "2026-05-01T10:07:07.335646+00:00",
+      "detection_price": 0.0001626,
+      "detection_liq": 31806.96,
+      "peak_price": 0.0001626,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5EwUpAnCX1Dv6YAZtzQu7L3e248p4trp9tFc7EncqgQ2": {
+      "chain": "solana",
+      "pair_address": "5EwUpAnCX1Dv6YAZtzQu7L3e248p4trp9tFc7EncqgQ2",
+      "symbol": "Octopus",
+      "tier": "T1",
+      "detection_time": "2026-05-01T10:07:10.726672+00:00",
+      "detection_price": 0.000196,
+      "detection_liq": 35507.02,
+      "peak_price": 0.000196,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DMrNkBMovFtZ96pE347cZ8oMFLYD971BrVB5nNHMVyki": {
+      "chain": "solana",
+      "pair_address": "DMrNkBMovFtZ96pE347cZ8oMFLYD971BrVB5nNHMVyki",
+      "symbol": "USMONEY",
+      "tier": "T1",
+      "detection_time": "2026-05-01T10:07:13.473871+00:00",
+      "detection_price": 0.0001123,
+      "detection_liq": 26437.06,
+      "peak_price": 0.0001123,
       "captures": {},
       "outcome_label": null,
       "completed": false
