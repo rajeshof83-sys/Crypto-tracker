@@ -3558,10 +3558,17 @@
           "volume_24h": 3133397.74,
           "captured_at": "2026-04-30T14:06:26.329156+00:00",
           "hours_elapsed": 7.6
+        },
+        "price_24h": {
+          "price": 3.058e-06,
+          "liquidity": 5095.91,
+          "volume_24h": 3026358.29,
+          "captured_at": "2026-05-01T06:40:27.427403+00:00",
+          "hours_elapsed": 24.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:DooDukeL3tHdexvKbNLKtsBXcSSXUhTom49ripzSsTbp": {
       "chain": "solana",
@@ -3950,6 +3957,27 @@
       "detection_price": 0.0001016,
       "detection_liq": 24641.96,
       "peak_price": 0.0001016,
+      "captures": {
+        "price_1h": {
+          "price": 2.373e-05,
+          "liquidity": 12041.82,
+          "volume_24h": 218450.86,
+          "captured_at": "2026-05-01T06:40:27.427403+00:00",
+          "hours_elapsed": 2.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4prwF2THukSaQwfMmZ53MTatqtC18GZBRdDW9EMpwsNp": {
+      "chain": "solana",
+      "pair_address": "4prwF2THukSaQwfMmZ53MTatqtC18GZBRdDW9EMpwsNp",
+      "symbol": "AALIEN",
+      "tier": "T2",
+      "detection_time": "2026-05-01T06:40:17.972355+00:00",
+      "detection_price": 0.0001574,
+      "detection_liq": 31170.54,
+      "peak_price": 0.0001574,
       "captures": {},
       "outcome_label": null,
       "completed": false
