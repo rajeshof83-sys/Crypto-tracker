@@ -4335,7 +4335,15 @@
       "detection_price": 8.052e-05,
       "detection_liq": 22335.26,
       "peak_price": 8.052e-05,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 2.309e-06,
+          "liquidity": 3901.91,
+          "volume_24h": 663108.56,
+          "captured_at": "2026-05-01T20:29:26.330592+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -4348,6 +4356,27 @@
       "detection_price": 0.0002108,
       "detection_liq": 28866.31,
       "peak_price": 0.0002108,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001524,
+          "liquidity": 24527.33,
+          "volume_24h": 259868.02,
+          "captured_at": "2026-05-01T20:29:26.330592+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:B1RiWniF4cSCycDgUkur9YkdNRZZEPYwut3msa6ypFow": {
+      "chain": "solana",
+      "pair_address": "B1RiWniF4cSCycDgUkur9YkdNRZZEPYwut3msa6ypFow",
+      "symbol": "scribpoop",
+      "tier": "T1",
+      "detection_time": "2026-05-01T20:29:16.055197+00:00",
+      "detection_price": 0.0001197,
+      "detection_liq": 27743.95,
+      "peak_price": 0.0001197,
       "captures": {},
       "outcome_label": null,
       "completed": false
