@@ -4012,7 +4012,7 @@
       "detection_time": "2026-05-01T06:40:17.972355+00:00",
       "detection_price": 0.0001574,
       "detection_liq": 31170.54,
-      "peak_price": 0.0001574,
+      "peak_price": 0.0001809,
       "captures": {
         "price_1h": {
           "price": 0.0001406,
@@ -4020,6 +4020,13 @@
           "volume_24h": 266442.45,
           "captured_at": "2026-05-01T07:42:11.857122+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 0.0001809,
+          "liquidity": 33818.34,
+          "volume_24h": 401386.65,
+          "captured_at": "2026-05-01T12:45:43.205570+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -4169,6 +4176,19 @@
           "hours_elapsed": 1.5
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "bsc:0x605EeAF01bd74133F982793F09fA557fE4c3B226": {
+      "chain": "bsc",
+      "pair_address": "0x605EeAF01bd74133F982793F09fA557fE4c3B226",
+      "symbol": "agentic",
+      "tier": "T2",
+      "detection_time": "2026-05-01T12:45:31.070621+00:00",
+      "detection_price": 0.0005939,
+      "detection_liq": 75130.49,
+      "peak_price": 0.0005939,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
