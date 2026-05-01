@@ -3978,10 +3978,17 @@
           "volume_24h": 922781.24,
           "captured_at": "2026-05-01T05:30:02.028320+00:00",
           "hours_elapsed": 6.3
+        },
+        "price_24h": {
+          "price": 1.731e-06,
+          "liquidity": 3409.08,
+          "volume_24h": 418324.87,
+          "captured_at": "2026-05-01T23:28:59.166268+00:00",
+          "hours_elapsed": 24.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:3SemBoDDDymW666Tt5nGmRV2VMMxMrkYTPXxf8iMMR7s": {
       "chain": "solana",
@@ -4432,6 +4439,32 @@
       "detection_price": 0.0001817,
       "detection_liq": 37362.21,
       "peak_price": 0.0001817,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FMFmJHbsM3eKG5vXwF4JAHJ97e5RcgDdsidPUg47F8A4": {
+      "chain": "solana",
+      "pair_address": "FMFmJHbsM3eKG5vXwF4JAHJ97e5RcgDdsidPUg47F8A4",
+      "symbol": "SCRIBBELON",
+      "tier": "T1",
+      "detection_time": "2026-05-01T23:28:48.171830+00:00",
+      "detection_price": 0.0008173,
+      "detection_liq": 74386.74,
+      "peak_price": 0.0008173,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HXGMvjriDQLYQYTFEHgPqH6A4vfvnpbYmKsRhP5WLNTA": {
+      "chain": "solana",
+      "pair_address": "HXGMvjriDQLYQYTFEHgPqH6A4vfvnpbYmKsRhP5WLNTA",
+      "symbol": "GRUMP",
+      "tier": "T1",
+      "detection_time": "2026-05-01T23:28:51.086843+00:00",
+      "detection_price": 0.0005492,
+      "detection_liq": 59335.35,
+      "peak_price": 0.0005492,
       "captures": {},
       "outcome_label": null,
       "completed": false
