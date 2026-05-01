@@ -4013,7 +4013,15 @@
       "detection_price": 0.0001289,
       "detection_liq": 28423.78,
       "peak_price": 0.0001289,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 2.3e-06,
+          "liquidity": 3873.23,
+          "volume_24h": 578938.06,
+          "captured_at": "2026-05-01T09:04:48.127738+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -4025,7 +4033,41 @@
       "detection_time": "2026-05-01T07:42:00.844957+00:00",
       "detection_price": 0.0001547,
       "detection_liq": 30903.26,
-      "peak_price": 0.0001547,
+      "peak_price": 0.0001585,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001585,
+          "liquidity": 32223.49,
+          "volume_24h": 746627.74,
+          "captured_at": "2026-05-01T09:04:48.127738+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HzZR915K9yaF1KPkmWCBEQW2dPXNSXKh2qhnL1nPZLUD": {
+      "chain": "solana",
+      "pair_address": "HzZR915K9yaF1KPkmWCBEQW2dPXNSXKh2qhnL1nPZLUD",
+      "symbol": "PAINTWHALE",
+      "tier": "T1",
+      "detection_time": "2026-05-01T09:04:33.885724+00:00",
+      "detection_price": 0.0002259,
+      "detection_liq": 38594.95,
+      "peak_price": 0.0002259,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7nKVDCqqXgMqTXu69xaugrdSocW5qbnnjgnHT5kBYqRD": {
+      "chain": "solana",
+      "pair_address": "7nKVDCqqXgMqTXu69xaugrdSocW5qbnnjgnHT5kBYqRD",
+      "symbol": "DERP",
+      "tier": "T1",
+      "detection_time": "2026-05-01T09:04:37.229843+00:00",
+      "detection_price": 9.985e-05,
+      "detection_liq": 25319.58,
+      "peak_price": 9.985e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
