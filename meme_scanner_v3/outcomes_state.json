@@ -4223,10 +4223,17 @@
           "volume_24h": 1174894.48,
           "captured_at": "2026-05-01T15:16:20.974389+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 1.959e-06,
+          "liquidity": 3685.35,
+          "volume_24h": 3026.26,
+          "captured_at": "2026-05-02T10:01:14.494888+00:00",
+          "hours_elapsed": 24.9
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:7nKVDCqqXgMqTXu69xaugrdSocW5qbnnjgnHT5kBYqRD": {
       "chain": "solana",
@@ -4251,10 +4258,17 @@
           "volume_24h": 2160295.15,
           "captured_at": "2026-05-01T15:16:20.974389+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 3.206e-06,
+          "liquidity": 5009.76,
+          "volume_24h": 884485.91,
+          "captured_at": "2026-05-02T10:01:14.494888+00:00",
+          "hours_elapsed": 24.9
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:9kcyBfCcDrvPpJcpuzJXFND66ZJceLsZ5XADeBaewBsS": {
       "chain": "solana",
@@ -4664,6 +4678,13 @@
           "volume_24h": 649592.6,
           "captured_at": "2026-05-02T04:43:09.302373+00:00",
           "hours_elapsed": 1.4
+        },
+        "price_6h": {
+          "price": 1.276e-05,
+          "liquidity": 9190.39,
+          "volume_24h": 704235.25,
+          "captured_at": "2026-05-02T10:01:14.494888+00:00",
+          "hours_elapsed": 6.7
         }
       },
       "outcome_label": null,
@@ -4685,6 +4706,13 @@
           "volume_24h": 452564.57,
           "captured_at": "2026-05-02T04:43:09.302373+00:00",
           "hours_elapsed": 1.4
+        },
+        "price_6h": {
+          "price": 0.0001058,
+          "liquidity": 26401.47,
+          "volume_24h": 756464.97,
+          "captured_at": "2026-05-02T10:01:14.494888+00:00",
+          "hours_elapsed": 6.7
         }
       },
       "outcome_label": null,
@@ -4740,7 +4768,67 @@
       "detection_time": "2026-05-02T08:22:54.873629+00:00",
       "detection_price": 0.0001292,
       "detection_liq": 28218.5,
-      "peak_price": 0.0001292,
+      "peak_price": 0.0002724,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002724,
+          "liquidity": 42400.23,
+          "volume_24h": 852278.96,
+          "captured_at": "2026-05-02T10:01:14.494888+00:00",
+          "hours_elapsed": 1.6
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CWE1Mi1wwyEHSTtMStpnbD4iz7nPLXsZKwtCg5iv5qew": {
+      "chain": "solana",
+      "pair_address": "CWE1Mi1wwyEHSTtMStpnbD4iz7nPLXsZKwtCg5iv5qew",
+      "symbol": "67GOBLIN",
+      "tier": "T1",
+      "detection_time": "2026-05-02T10:00:57.097070+00:00",
+      "detection_price": 7.714e-05,
+      "detection_liq": 22024.02,
+      "peak_price": 7.714e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7urHXfALAE8MdE63iwAw6g23C3L8LSUKtvnvYxcKYpzH": {
+      "chain": "solana",
+      "pair_address": "7urHXfALAE8MdE63iwAw6g23C3L8LSUKtvnvYxcKYpzH",
+      "symbol": "HANK",
+      "tier": "T1",
+      "detection_time": "2026-05-02T10:00:59.736284+00:00",
+      "detection_price": 6.547e-05,
+      "detection_liq": 20532.21,
+      "peak_price": 6.547e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4PuhV7FzjYXVMeyfgdaKhbaybwgSuRSiiR9enRu4Lmv2": {
+      "chain": "solana",
+      "pair_address": "4PuhV7FzjYXVMeyfgdaKhbaybwgSuRSiiR9enRu4Lmv2",
+      "symbol": "MSPEPE",
+      "tier": "T1",
+      "detection_time": "2026-05-02T10:01:02.289571+00:00",
+      "detection_price": 0.0001247,
+      "detection_liq": 28128.29,
+      "peak_price": 0.0001247,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "bsc:0x8554Cc01507DAf4cbBBC1051d10EADF8F6D27c75": {
+      "chain": "bsc",
+      "pair_address": "0x8554Cc01507DAf4cbBBC1051d10EADF8F6D27c75",
+      "symbol": "Scribbli",
+      "tier": "T2",
+      "detection_time": "2026-05-02T10:01:04.733175+00:00",
+      "detection_price": 3.889e-07,
+      "detection_liq": 16071.58,
+      "peak_price": 3.889e-07,
       "captures": {},
       "outcome_label": null,
       "completed": false
