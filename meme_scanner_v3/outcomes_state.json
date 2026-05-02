@@ -5007,7 +5007,15 @@
       "detection_price": 0.0001634,
       "detection_liq": 32495.42,
       "peak_price": 0.0001634,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 3.146e-06,
+          "liquidity": 4608.88,
+          "volume_24h": 933686.02,
+          "captured_at": "2026-05-02T16:55:10.916278+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -5019,7 +5027,41 @@
       "detection_time": "2026-05-02T15:52:39.119063+00:00",
       "detection_price": 6.376e-05,
       "detection_liq": 20451.46,
-      "peak_price": 6.376e-05,
+      "peak_price": 0.0001554,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001554,
+          "liquidity": 32430.83,
+          "volume_24h": 763118.41,
+          "captured_at": "2026-05-02T16:55:10.916278+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9LcD9bDZuUHvBbRrtLShdBoNFUND3V2pcRHUxjjGTmfN": {
+      "chain": "solana",
+      "pair_address": "9LcD9bDZuUHvBbRrtLShdBoNFUND3V2pcRHUxjjGTmfN",
+      "symbol": "WOLVERINE",
+      "tier": "T2",
+      "detection_time": "2026-05-02T16:54:59.528817+00:00",
+      "detection_price": 0.0002149,
+      "detection_liq": 37936.9,
+      "peak_price": 0.0002149,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5nL3rqqG837WBhGGq8f12fQBCPKMCF4mzgzsrS2UkhMN": {
+      "chain": "solana",
+      "pair_address": "5nL3rqqG837WBhGGq8f12fQBCPKMCF4mzgzsrS2UkhMN",
+      "symbol": "VIGIL",
+      "tier": "T2",
+      "detection_time": "2026-05-02T16:55:02.412857+00:00",
+      "detection_price": 0.0001112,
+      "detection_liq": 26071.02,
+      "peak_price": 0.0001112,
       "captures": {},
       "outcome_label": null,
       "completed": false
