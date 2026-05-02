@@ -4755,6 +4755,13 @@
           "volume_24h": 1062524.28,
           "captured_at": "2026-05-02T06:10:31.966188+00:00",
           "hours_elapsed": 1.5
+        },
+        "price_6h": {
+          "price": 7.618e-05,
+          "liquidity": 23357.58,
+          "volume_24h": 1615120.8,
+          "captured_at": "2026-05-02T10:56:48.968216+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -4850,6 +4857,19 @@
       "detection_price": 3.889e-07,
       "detection_liq": 16071.58,
       "peak_price": 3.889e-07,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:uKw3gt7f78LhHeKAwAJRZpDVVMELMkikvLokbTT1z5P": {
+      "chain": "solana",
+      "pair_address": "uKw3gt7f78LhHeKAwAJRZpDVVMELMkikvLokbTT1z5P",
+      "symbol": "GOBLIEN",
+      "tier": "T1",
+      "detection_time": "2026-05-02T10:56:37.679439+00:00",
+      "detection_price": 0.0001059,
+      "detection_liq": 25683.89,
+      "peak_price": 0.0001059,
       "captures": {},
       "outcome_label": null,
       "completed": false
