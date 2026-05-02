@@ -4467,8 +4467,16 @@
       "detection_time": "2026-05-01T23:28:48.171830+00:00",
       "detection_price": 0.0008173,
       "detection_liq": 74386.74,
-      "peak_price": 0.0008173,
-      "captures": {},
+      "peak_price": 0.001626,
+      "captures": {
+        "price_1h": {
+          "price": 0.001626,
+          "liquidity": 108419.58,
+          "volume_24h": 3366049.4,
+          "captured_at": "2026-05-02T01:12:10.298376+00:00",
+          "hours_elapsed": 1.7
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -4480,7 +4488,41 @@
       "detection_time": "2026-05-01T23:28:51.086843+00:00",
       "detection_price": 0.0005492,
       "detection_liq": 59335.35,
-      "peak_price": 0.0005492,
+      "peak_price": 0.0008445,
+      "captures": {
+        "price_1h": {
+          "price": 0.0008445,
+          "liquidity": 75037.29,
+          "volume_24h": 1526826.49,
+          "captured_at": "2026-05-02T01:12:10.298376+00:00",
+          "hours_elapsed": 1.7
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4ZgRWiMnTPN4TBbrWpHzdazntZurJ5aB9ZmUNKVsqyaU": {
+      "chain": "solana",
+      "pair_address": "4ZgRWiMnTPN4TBbrWpHzdazntZurJ5aB9ZmUNKVsqyaU",
+      "symbol": "freetrump",
+      "tier": "T1",
+      "detection_time": "2026-05-02T01:12:00.060587+00:00",
+      "detection_price": 0.0001583,
+      "detection_liq": 31583.06,
+      "peak_price": 0.0001583,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AD2MxyiCeuBj3m6MeZajudgicQKcfgc6cP8wzDbA71uX": {
+      "chain": "solana",
+      "pair_address": "AD2MxyiCeuBj3m6MeZajudgicQKcfgc6cP8wzDbA71uX",
+      "symbol": "GMEBAY",
+      "tier": "T1",
+      "detection_time": "2026-05-02T01:12:02.881975+00:00",
+      "detection_price": 0.0001556,
+      "detection_liq": 32104.71,
+      "peak_price": 0.0001556,
       "captures": {},
       "outcome_label": null,
       "completed": false
