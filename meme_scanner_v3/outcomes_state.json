@@ -289,10 +289,17 @@
           "volume_24h": 525142.93,
           "captured_at": "2026-04-26T19:00:45.124814+00:00",
           "hours_elapsed": 24.0
+        },
+        "price_7d": {
+          "price": 0.0001337,
+          "liquidity": 34734.01,
+          "volume_24h": 87576.22,
+          "captured_at": "2026-05-02T19:06:21.317020+00:00",
+          "hours_elapsed": 168.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "winner",
+      "completed": true
     },
     "solana:4eqJ6conmsJVMDpPWLophNQAh83Yd4hcDzxuj7Do3eZr": {
       "chain": "solana",
@@ -5093,6 +5100,19 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EaKBWosvRxuNpVBdSzbEYMXDBFxuxajq6SNXQp2eZHt1": {
+      "chain": "solana",
+      "pair_address": "EaKBWosvRxuNpVBdSzbEYMXDBFxuxajq6SNXQp2eZHt1",
+      "symbol": "MSTRUMP",
+      "tier": "T1",
+      "detection_time": "2026-05-02T19:06:08.200358+00:00",
+      "detection_price": 0.0002249,
+      "detection_liq": 37823.76,
+      "peak_price": 0.0002249,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
