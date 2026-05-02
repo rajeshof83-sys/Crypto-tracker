@@ -4531,6 +4531,13 @@
           "volume_24h": 3366049.4,
           "captured_at": "2026-05-02T01:12:10.298376+00:00",
           "hours_elapsed": 1.7
+        },
+        "price_6h": {
+          "price": 0.0001212,
+          "liquidity": 31944.3,
+          "volume_24h": 5604493.63,
+          "captured_at": "2026-05-02T06:10:31.966188+00:00",
+          "hours_elapsed": 6.7
         }
       },
       "outcome_label": null,
@@ -4544,7 +4551,7 @@
       "detection_time": "2026-05-01T23:28:51.086843+00:00",
       "detection_price": 0.0005492,
       "detection_liq": 59335.35,
-      "peak_price": 0.0008445,
+      "peak_price": 0.0009823,
       "captures": {
         "price_1h": {
           "price": 0.0008445,
@@ -4552,6 +4559,13 @@
           "volume_24h": 1526826.49,
           "captured_at": "2026-05-02T01:12:10.298376+00:00",
           "hours_elapsed": 1.7
+        },
+        "price_6h": {
+          "price": 0.0009823,
+          "liquidity": 84535.1,
+          "volume_24h": 3225691.97,
+          "captured_at": "2026-05-02T06:10:31.966188+00:00",
+          "hours_elapsed": 6.7
         }
       },
       "outcome_label": null,
@@ -4649,7 +4663,28 @@
       "detection_time": "2026-05-02T04:43:02.951171+00:00",
       "detection_price": 0.0003009,
       "detection_liq": 43430.6,
-      "peak_price": 0.0003009,
+      "peak_price": 0.0003517,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003517,
+          "liquidity": 48526.21,
+          "volume_24h": 1062524.28,
+          "captured_at": "2026-05-02T06:10:31.966188+00:00",
+          "hours_elapsed": 1.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GjJxdHcyd5NyMWryA7MfJwZyuYCwN19AUzQtmPnDSXWo": {
+      "chain": "solana",
+      "pair_address": "GjJxdHcyd5NyMWryA7MfJwZyuYCwN19AUzQtmPnDSXWo",
+      "symbol": "goblintown",
+      "tier": "T1",
+      "detection_time": "2026-05-02T06:10:20.719469+00:00",
+      "detection_price": 0.0001978,
+      "detection_liq": 35823.2,
+      "peak_price": 0.0001978,
       "captures": {},
       "outcome_label": null,
       "completed": false
