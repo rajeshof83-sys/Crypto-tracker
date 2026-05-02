@@ -4390,7 +4390,7 @@
       "detection_time": "2026-05-01T12:45:31.070621+00:00",
       "detection_price": 0.0005939,
       "detection_liq": 75130.49,
-      "peak_price": 0.0005939,
+      "peak_price": 0.0006169,
       "captures": {
         "price_1h": {
           "price": 0.0005773,
@@ -4405,6 +4405,13 @@
           "volume_24h": 249913.25,
           "captured_at": "2026-05-01T18:48:17.299741+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 0.0006169,
+          "liquidity": 76461.18,
+          "volume_24h": 144590.0,
+          "captured_at": "2026-05-02T13:21:07.169576+00:00",
+          "hours_elapsed": 24.6
         }
       },
       "outcome_label": null,
@@ -4925,6 +4932,19 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3MUDwvgMPi62yzTWdhqHAiB1BeRxepcNMs1rgm45Kumq": {
+      "chain": "solana",
+      "pair_address": "3MUDwvgMPi62yzTWdhqHAiB1BeRxepcNMs1rgm45Kumq",
+      "symbol": "Cancer",
+      "tier": "T1",
+      "detection_time": "2026-05-02T13:21:02.095693+00:00",
+      "detection_price": 9.031e-05,
+      "detection_liq": 24153.91,
+      "peak_price": 9.031e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
