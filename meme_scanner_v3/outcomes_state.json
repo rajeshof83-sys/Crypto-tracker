@@ -5221,6 +5221,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:2aFVFLJ3mNABkCfsEfwAxaDQmG3p9fELDHkRqRNGCska": {
+      "chain": "solana",
+      "pair_address": "2aFVFLJ3mNABkCfsEfwAxaDQmG3p9fELDHkRqRNGCska",
+      "symbol": "Butt",
+      "tier": "T1",
+      "detection_time": "2026-05-03T00:02:17.728510+00:00",
+      "detection_price": 0.0002094,
+      "detection_liq": 36357.87,
+      "peak_price": 0.0002094,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GfmJGqqY8jMJNJkLAdMDvFTuZ6pq8cWjDG18CrFaZfrv": {
+      "chain": "solana",
+      "pair_address": "GfmJGqqY8jMJNJkLAdMDvFTuZ6pq8cWjDG18CrFaZfrv",
+      "symbol": "MOGRUMP",
+      "tier": "T1",
+      "detection_time": "2026-05-03T00:02:22.274995+00:00",
+      "detection_price": 0.0004302,
+      "detection_liq": 53665.9,
+      "peak_price": 0.0004302,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
