@@ -1920,10 +1920,17 @@
           "volume_24h": 1107337.13,
           "captured_at": "2026-04-28T21:46:17.411737+00:00",
           "hours_elapsed": 24.6
+        },
+        "price_7d": {
+          "price": 1.723e-05,
+          "liquidity": 11628.44,
+          "volume_24h": 7864.9,
+          "captured_at": "2026-05-04T21:21:13.063235+00:00",
+          "hours_elapsed": 168.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "ethereum:0x855f02967Ee16E9F18D388b07b4c75211e73E8c2": {
       "chain": "ethereum",
@@ -1955,10 +1962,17 @@
           "volume_24h": 68723.5,
           "captured_at": "2026-04-28T21:46:17.411737+00:00",
           "hours_elapsed": 24.6
+        },
+        "price_7d": {
+          "price": 0.007994,
+          "liquidity": 26299.31,
+          "volume_24h": 4486.59,
+          "captured_at": "2026-05-04T21:21:13.063235+00:00",
+          "hours_elapsed": 168.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:beyQARrCP76pJXqDhNiVNKoChP2qmrCCebcEXjeQBzn": {
       "chain": "solana",
@@ -6227,6 +6241,19 @@
           "hours_elapsed": 1.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2a7QycWHRMtYNiw9VEhFnYTEPKfZEZc1tZAB1bfmgZnY": {
+      "chain": "solana",
+      "pair_address": "2a7QycWHRMtYNiw9VEhFnYTEPKfZEZc1tZAB1bfmgZnY",
+      "symbol": "SWGROGU",
+      "tier": "T1",
+      "detection_time": "2026-05-04T21:21:05.840730+00:00",
+      "detection_price": 0.0001275,
+      "detection_liq": 28035.71,
+      "peak_price": 0.0001275,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
