@@ -5791,7 +5791,15 @@
       "detection_price": 0.0002314,
       "detection_liq": 38446.54,
       "peak_price": 0.0002314,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0001842,
+          "liquidity": 35123.08,
+          "volume_24h": 955034.65,
+          "captured_at": "2026-05-04T06:43:23.164691+00:00",
+          "hours_elapsed": 2.3
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -5804,7 +5812,15 @@
       "detection_price": 0.0001325,
       "detection_liq": 28861.53,
       "peak_price": 0.0001325,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 5.219e-05,
+          "liquidity": 18346.74,
+          "volume_24h": 459618.23,
+          "captured_at": "2026-05-04T06:43:23.164691+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -5817,6 +5833,40 @@
       "detection_price": 0.0001533,
       "detection_liq": 30993.39,
       "peak_price": 0.0001533,
+      "captures": {
+        "price_1h": {
+          "price": 2.074e-06,
+          "liquidity": 3674.4,
+          "volume_24h": 624283.23,
+          "captured_at": "2026-05-04T06:43:23.164691+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DqbwV7CmAon8EU17AMawK2bQqWWJpNUHHLQMBqWWxRpG": {
+      "chain": "solana",
+      "pair_address": "DqbwV7CmAon8EU17AMawK2bQqWWJpNUHHLQMBqWWxRpG",
+      "symbol": "GLOO",
+      "tier": "T1",
+      "detection_time": "2026-05-04T06:43:12.763520+00:00",
+      "detection_price": 0.000196,
+      "detection_liq": 35038.32,
+      "peak_price": 0.000196,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AhTJcJmi4rywKEo4DdFP18YM3wbcDYm85uAHXag9rDvU": {
+      "chain": "solana",
+      "pair_address": "AhTJcJmi4rywKEo4DdFP18YM3wbcDYm85uAHXag9rDvU",
+      "symbol": "May4th",
+      "tier": "T2",
+      "detection_time": "2026-05-04T06:43:16.348801+00:00",
+      "detection_price": 0.0002406,
+      "detection_liq": 39126.56,
+      "peak_price": 0.0002406,
       "captures": {},
       "outcome_label": null,
       "completed": false
