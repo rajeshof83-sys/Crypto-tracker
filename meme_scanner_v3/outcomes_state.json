@@ -5791,10 +5791,17 @@
           "volume_24h": 1376743.89,
           "captured_at": "2026-05-03T23:53:08.999977+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 2.28e-06,
+          "liquidity": 4226.4,
+          "volume_24h": 1072046.31,
+          "captured_at": "2026-05-04T17:52:45.680043+00:00",
+          "hours_elapsed": 24.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:CyGhgZxnDUq3uWj9Lnv7cjLCUjEt4p5qq3rcCuK8fdtS": {
       "chain": "solana",
@@ -6178,6 +6185,19 @@
           "hours_elapsed": 1.5
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4AKhvqWzJ2B4eWdFxyiYPGbfoCkLkkHMVbea18YpLLuM": {
+      "chain": "solana",
+      "pair_address": "4AKhvqWzJ2B4eWdFxyiYPGbfoCkLkkHMVbea18YpLLuM",
+      "symbol": "Apple",
+      "tier": "T1",
+      "detection_time": "2026-05-04T17:52:33.643528+00:00",
+      "detection_price": 0.0001884,
+      "detection_liq": 35662.39,
+      "peak_price": 0.0001884,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
