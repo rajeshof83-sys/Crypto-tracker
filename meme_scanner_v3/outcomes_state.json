@@ -2711,10 +2711,17 @@
           "volume_24h": 68917.18,
           "captured_at": "2026-04-29T20:13:45.371992+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 5.338e-05,
+          "liquidity": 25404.02,
+          "volume_24h": 19806.01,
+          "captured_at": "2026-05-05T20:18:50.469936+00:00",
+          "hours_elapsed": 168.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:5i3AjFNG2QEWpg72wTpWyS7S8UGeqahv8WhS3wP9YxCE": {
       "chain": "solana",
@@ -6980,7 +6987,28 @@
       "detection_time": "2026-05-05T18:48:06.963731+00:00",
       "detection_price": 7.382e-05,
       "detection_liq": 21379.59,
-      "peak_price": 7.382e-05,
+      "peak_price": 7.445e-05,
+      "captures": {
+        "price_1h": {
+          "price": 7.445e-05,
+          "liquidity": 21602.12,
+          "volume_24h": 148930.99,
+          "captured_at": "2026-05-05T20:18:50.469936+00:00",
+          "hours_elapsed": 1.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:ErSSHdCR9CDgKfnhB5wcbDWds2X1ptgTL8t9k2qkngzc": {
+      "chain": "solana",
+      "pair_address": "ErSSHdCR9CDgKfnhB5wcbDWds2X1ptgTL8t9k2qkngzc",
+      "symbol": "Normie",
+      "tier": "T1",
+      "detection_time": "2026-05-05T20:18:39.169974+00:00",
+      "detection_price": 8.101e-05,
+      "detection_liq": 22631.23,
+      "peak_price": 8.101e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
