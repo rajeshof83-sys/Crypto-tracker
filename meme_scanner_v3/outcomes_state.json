@@ -2151,10 +2151,17 @@
           "volume_24h": 220858.17,
           "captured_at": "2026-04-29T07:52:29.671431+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 4.629e-06,
+          "liquidity": 5637.6,
+          "volume_24h": 1304.7,
+          "captured_at": "2026-05-05T09:10:36.906921+00:00",
+          "hours_elapsed": 169.4
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:3up7bHLPQWYNF6iwWHEhFoZ1sXpwSVEZnTiQnZSPEzLy": {
       "chain": "solana",
@@ -6099,6 +6106,13 @@
           "volume_24h": 773905.29,
           "captured_at": "2026-05-04T14:10:59.646188+00:00",
           "hours_elapsed": 6.6
+        },
+        "price_24h": {
+          "price": 5.491e-05,
+          "liquidity": 20024.47,
+          "volume_24h": 589183.27,
+          "captured_at": "2026-05-05T09:10:36.906921+00:00",
+          "hours_elapsed": 25.6
         }
       },
       "outcome_label": null,
@@ -6624,6 +6638,40 @@
       "detection_price": 0.0007275,
       "detection_liq": 59142.45,
       "peak_price": 0.0007275,
+      "captures": {
+        "price_1h": {
+          "price": 0.0006663,
+          "liquidity": 56646.86,
+          "volume_24h": 249830.91,
+          "captured_at": "2026-05-05T09:10:36.906921+00:00",
+          "hours_elapsed": 1.7
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5HEx33MivzbCoKjb9zahBF1FTgteMqhxoT8uSYGEDwzj": {
+      "chain": "solana",
+      "pair_address": "5HEx33MivzbCoKjb9zahBF1FTgteMqhxoT8uSYGEDwzj",
+      "symbol": "TROLLUDI",
+      "tier": "T1",
+      "detection_time": "2026-05-05T09:10:05.284780+00:00",
+      "detection_price": 0.0002911,
+      "detection_liq": 44190.31,
+      "peak_price": 0.0002911,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:sbpupDiGX7ULc2H9GACWD1by7XKsSCvnh8zK8VSyypR": {
+      "chain": "solana",
+      "pair_address": "sbpupDiGX7ULc2H9GACWD1by7XKsSCvnh8zK8VSyypR",
+      "symbol": "MOMO",
+      "tier": "T1",
+      "detection_time": "2026-05-05T09:10:08.237751+00:00",
+      "detection_price": 8.353e-05,
+      "detection_liq": 23060.8,
+      "peak_price": 8.353e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
