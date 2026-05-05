@@ -6351,6 +6351,27 @@
       "detection_price": 0.0001821,
       "detection_liq": 34593.05,
       "peak_price": 0.0001821,
+      "captures": {
+        "price_1h": {
+          "price": 0.000174,
+          "liquidity": 35956.99,
+          "volume_24h": 1855770.09,
+          "captured_at": "2026-05-05T01:12:17.915978+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "ethereum:0xd53C4aB0ce82845601bf8C4650C0891bEbdd3EE1": {
+      "chain": "ethereum",
+      "pair_address": "0xd53C4aB0ce82845601bf8C4650C0891bEbdd3EE1",
+      "symbol": "ASTERFLOKI",
+      "tier": "T2",
+      "detection_time": "2026-05-05T01:12:07.489492+00:00",
+      "detection_price": 0.0001787,
+      "detection_liq": 29083.32,
+      "peak_price": 0.0001787,
       "captures": {},
       "outcome_label": null,
       "completed": false
