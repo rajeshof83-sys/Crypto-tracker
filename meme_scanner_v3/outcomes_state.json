@@ -6498,10 +6498,17 @@
           "volume_24h": 2620792.81,
           "captured_at": "2026-05-05T04:43:58.123159+00:00",
           "hours_elapsed": 6.4
+        },
+        "price_24h": {
+          "price": 2.031e-06,
+          "liquidity": 3922.11,
+          "volume_24h": 1252406.31,
+          "captured_at": "2026-05-05T22:30:53.130052+00:00",
+          "hours_elapsed": 24.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:GgTZVQ5r6Nndyw3EacnJ44v6xo9aVfu5uRLyaHGErjxd": {
       "chain": "solana",
@@ -6526,10 +6533,17 @@
           "volume_24h": 1099172.1,
           "captured_at": "2026-05-05T04:43:58.123159+00:00",
           "hours_elapsed": 6.4
+        },
+        "price_24h": {
+          "price": 2.64e-06,
+          "liquidity": 4331.69,
+          "volume_24h": 226367.75,
+          "captured_at": "2026-05-05T22:30:53.130052+00:00",
+          "hours_elapsed": 24.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:66E6szcvbx5Wos78gNpbm53SQJN9NdxNqKfdAkbKH4Xq": {
       "chain": "solana",
@@ -7050,8 +7064,16 @@
       "detection_time": "2026-05-05T21:16:55.594625+00:00",
       "detection_price": 6.961e-05,
       "detection_liq": 21155.57,
-      "peak_price": 6.961e-05,
-      "captures": {},
+      "peak_price": 0.0001008,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001008,
+          "liquidity": 25623.61,
+          "volume_24h": 391548.62,
+          "captured_at": "2026-05-05T22:30:53.130052+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -7063,8 +7085,16 @@
       "detection_time": "2026-05-05T21:16:58.675910+00:00",
       "detection_price": 0.0004097,
       "detection_liq": 51840.65,
-      "peak_price": 0.0004097,
-      "captures": {},
+      "peak_price": 0.000432,
+      "captures": {
+        "price_1h": {
+          "price": 0.000432,
+          "liquidity": 53424.52,
+          "volume_24h": 918972.6,
+          "captured_at": "2026-05-05T22:30:53.130052+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
