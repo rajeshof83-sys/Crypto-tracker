@@ -5924,10 +5924,17 @@
           "volume_24h": 1655502.96,
           "captured_at": "2026-05-04T10:51:06.910797+00:00",
           "hours_elapsed": 6.4
+        },
+        "price_24h": {
+          "price": 3.867e-06,
+          "liquidity": 5292.56,
+          "volume_24h": 1126134.72,
+          "captured_at": "2026-05-05T04:43:58.123159+00:00",
+          "hours_elapsed": 24.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:5ahUazf3yijLqEs3GtseWMGYSahui2KzWGcLrENNCJEL": {
       "chain": "solana",
@@ -6337,6 +6344,13 @@
           "volume_24h": 1779588.0,
           "captured_at": "2026-05-04T23:29:14.020314+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 4.164e-06,
+          "liquidity": 5552.54,
+          "volume_24h": 2620792.81,
+          "captured_at": "2026-05-05T04:43:58.123159+00:00",
+          "hours_elapsed": 6.4
         }
       },
       "outcome_label": null,
@@ -6358,6 +6372,13 @@
           "volume_24h": 1098502.2,
           "captured_at": "2026-05-04T23:29:14.020314+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 2.875e-06,
+          "liquidity": 4476.33,
+          "volume_24h": 1099172.1,
+          "captured_at": "2026-05-05T04:43:58.123159+00:00",
+          "hours_elapsed": 6.4
         }
       },
       "outcome_label": null,
@@ -6414,6 +6435,27 @@
       "detection_price": 7.819e-05,
       "detection_liq": 22170.19,
       "peak_price": 7.819e-05,
+      "captures": {
+        "price_1h": {
+          "price": 2.409e-06,
+          "liquidity": 3937.29,
+          "volume_24h": 407637.87,
+          "captured_at": "2026-05-05T04:43:58.123159+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Hj5ypw3J5wQQ3joWF2GcXnU5ravUie2Y2rdcjbCjUYkm": {
+      "chain": "solana",
+      "pair_address": "Hj5ypw3J5wQQ3joWF2GcXnU5ravUie2Y2rdcjbCjUYkm",
+      "symbol": "DODO",
+      "tier": "T1",
+      "detection_time": "2026-05-05T04:43:47.508913+00:00",
+      "detection_price": 9.607e-05,
+      "detection_liq": 24471.27,
+      "peak_price": 9.607e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
