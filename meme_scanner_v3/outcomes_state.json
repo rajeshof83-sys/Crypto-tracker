@@ -2529,10 +2529,17 @@
           "volume_24h": 30858.51,
           "captured_at": "2026-04-29T16:45:29.294811+00:00",
           "hours_elapsed": 24.7
+        },
+        "price_7d": {
+          "price": 0.0001014,
+          "liquidity": 25294.93,
+          "volume_24h": 1413.82,
+          "captured_at": "2026-05-05T16:56:11.536743+00:00",
+          "hours_elapsed": 168.9
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:GiiZYdijN6BFu4JMiRnjpGc6y2goqpPuBp1EdEKx8pPQ": {
       "chain": "solana",
@@ -6904,6 +6911,19 @@
       "detection_price": 6.106e-05,
       "detection_liq": 20088.97,
       "peak_price": 6.106e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:ENbiEGL4uae5mrSt1YPzMnJ38mbRhnWQJWRFmWExgpSL": {
+      "chain": "solana",
+      "pair_address": "ENbiEGL4uae5mrSt1YPzMnJ38mbRhnWQJWRFmWExgpSL",
+      "symbol": "MUMU",
+      "tier": "T1",
+      "detection_time": "2026-05-05T16:56:01.267052+00:00",
+      "detection_price": 9.191e-05,
+      "detection_liq": 24045.8,
+      "peak_price": 9.191e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
