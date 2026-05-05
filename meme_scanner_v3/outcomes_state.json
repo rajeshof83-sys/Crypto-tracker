@@ -2823,10 +2823,17 @@
           "volume_24h": 72972.85,
           "captured_at": "2026-04-29T21:46:59.331359+00:00",
           "hours_elapsed": 24.0
+        },
+        "price_7d": {
+          "price": 1.581e-05,
+          "liquidity": 10614.41,
+          "volume_24h": 10280.91,
+          "captured_at": "2026-05-05T22:14:00.288227+00:00",
+          "hours_elapsed": 168.5
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:5vt9xh8TrsbzQw2h1RSoPRxoRZDyU721yukzuoVoGv1Z": {
       "chain": "solana",
@@ -6960,6 +6967,13 @@
           "volume_24h": 624682.36,
           "captured_at": "2026-05-05T17:03:39.337095+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 2.644e-05,
+          "liquidity": 13483.27,
+          "volume_24h": 787519.37,
+          "captured_at": "2026-05-05T22:14:00.288227+00:00",
+          "hours_elapsed": 6.3
         }
       },
       "outcome_label": null,
@@ -7050,6 +7064,19 @@
       "detection_price": 0.0004097,
       "detection_liq": 51840.65,
       "peak_price": 0.0004097,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GTe7RdLgrrPPfUST5YV6jtUKN6Gpcc4T1SaGmt4oHNC5": {
+      "chain": "solana",
+      "pair_address": "GTe7RdLgrrPPfUST5YV6jtUKN6Gpcc4T1SaGmt4oHNC5",
+      "symbol": "GOBALIEN",
+      "tier": "T1",
+      "detection_time": "2026-05-05T22:13:52.235140+00:00",
+      "detection_price": 0.0003023,
+      "detection_liq": 44742.96,
+      "peak_price": 0.0003023,
       "captures": {},
       "outcome_label": null,
       "completed": false
