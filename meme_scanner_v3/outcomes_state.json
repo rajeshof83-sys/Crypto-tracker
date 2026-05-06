@@ -7734,6 +7734,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:4EiA7PWpY2vPF7nPiAdmqLa8qkVNtiPHVeYYFBwHexmV": {
+      "chain": "solana",
+      "pair_address": "4EiA7PWpY2vPF7nPiAdmqLa8qkVNtiPHVeYYFBwHexmV",
+      "symbol": "ELMO",
+      "tier": "T1",
+      "detection_time": "2026-05-06T18:09:19.584984+00:00",
+      "detection_price": 9.46e-05,
+      "detection_liq": 25564.79,
+      "peak_price": 9.46e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3DY9obgTJJCBSa5KXEgqXvzZJZztR9g7bCiYEh8dbMcK": {
+      "chain": "solana",
+      "pair_address": "3DY9obgTJJCBSa5KXEgqXvzZJZztR9g7bCiYEh8dbMcK",
+      "symbol": "USM",
+      "tier": "T1",
+      "detection_time": "2026-05-06T18:09:22.242875+00:00",
+      "detection_price": 0.0001054,
+      "detection_liq": 26105.78,
+      "peak_price": 0.0001054,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
