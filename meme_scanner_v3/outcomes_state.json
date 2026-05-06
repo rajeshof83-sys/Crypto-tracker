@@ -7783,6 +7783,45 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:F26Kb3JdwHUZi6sBWBp9y1YzGNzgLN5yRYwAwGtJA1gf": {
+      "chain": "solana",
+      "pair_address": "F26Kb3JdwHUZi6sBWBp9y1YzGNzgLN5yRYwAwGtJA1gf",
+      "symbol": "MUSK",
+      "tier": "T1",
+      "detection_time": "2026-05-06T20:14:26.390495+00:00",
+      "detection_price": 7.215e-05,
+      "detection_liq": 21764.0,
+      "peak_price": 7.215e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4TAkWA5Z5s6WyJVzBoB9hiLRG2PMDrf6PeSqgCCvmTXy": {
+      "chain": "solana",
+      "pair_address": "4TAkWA5Z5s6WyJVzBoB9hiLRG2PMDrf6PeSqgCCvmTXy",
+      "symbol": "SPCX",
+      "tier": "T1",
+      "detection_time": "2026-05-06T20:14:31.490257+00:00",
+      "detection_price": 5.776e-05,
+      "detection_liq": 20194.06,
+      "peak_price": 5.776e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CPELEVMvvGxvcZnKgG3Um2Y6cBkHRhsT1pYnAux3K4X4": {
+      "chain": "solana",
+      "pair_address": "CPELEVMvvGxvcZnKgG3Um2Y6cBkHRhsT1pYnAux3K4X4",
+      "symbol": "LAIKA",
+      "tier": "T1",
+      "detection_time": "2026-05-06T20:14:36.414887+00:00",
+      "detection_price": 0.000145,
+      "detection_liq": 32911.53,
+      "peak_price": 0.000145,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
