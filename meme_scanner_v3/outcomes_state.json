@@ -6659,10 +6659,17 @@
           "volume_24h": 407746.83,
           "captured_at": "2026-05-05T09:29:15.932526+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 2.158e-06,
+          "liquidity": 3766.3,
+          "volume_24h": 28748.78,
+          "captured_at": "2026-05-06T03:32:25.245794+00:00",
+          "hours_elapsed": 24.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:Hj5ypw3J5wQQ3joWF2GcXnU5ravUie2Y2rdcjbCjUYkm": {
       "chain": "solana",
@@ -7100,6 +7107,13 @@
           "volume_24h": 376776.62,
           "captured_at": "2026-05-05T21:45:44.746492+00:00",
           "hours_elapsed": 1.5
+        },
+        "price_6h": {
+          "price": 1.823e-06,
+          "liquidity": 3455.46,
+          "volume_24h": 392089.42,
+          "captured_at": "2026-05-06T03:32:25.245794+00:00",
+          "hours_elapsed": 7.2
         }
       },
       "outcome_label": null,
@@ -7121,6 +7135,13 @@
           "volume_24h": 391548.62,
           "captured_at": "2026-05-05T22:30:53.130052+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 7.808e-06,
+          "liquidity": 7182.52,
+          "volume_24h": 475929.33,
+          "captured_at": "2026-05-06T03:32:25.245794+00:00",
+          "hours_elapsed": 6.3
         }
       },
       "outcome_label": null,
@@ -7142,6 +7163,13 @@
           "volume_24h": 918972.6,
           "captured_at": "2026-05-05T22:30:53.130052+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 2.2e-06,
+          "liquidity": 3844.93,
+          "volume_24h": 1061222.22,
+          "captured_at": "2026-05-06T03:32:25.245794+00:00",
+          "hours_elapsed": 6.3
         }
       },
       "outcome_label": null,
@@ -7197,7 +7225,80 @@
       "detection_time": "2026-05-06T01:19:58.832685+00:00",
       "detection_price": 0.0001161,
       "detection_liq": 27149.66,
-      "peak_price": 0.0001161,
+      "peak_price": 0.0001856,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001856,
+          "liquidity": 35625.82,
+          "volume_24h": 851327.26,
+          "captured_at": "2026-05-06T03:32:25.245794+00:00",
+          "hours_elapsed": 2.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GyqM8Pe9FUbkk5hCw7ffpeUt6F6WcHnc8pPdMYcnShiS": {
+      "chain": "solana",
+      "pair_address": "GyqM8Pe9FUbkk5hCw7ffpeUt6F6WcHnc8pPdMYcnShiS",
+      "symbol": "CHUD",
+      "tier": "T2",
+      "detection_time": "2026-05-06T03:32:01.579816+00:00",
+      "detection_price": 0.00126,
+      "detection_liq": 108656.1,
+      "peak_price": 0.00126,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3HtYFeaG7pPuDUqibYvnCG2nYdSi8tfUWx3q7ZM16wam": {
+      "chain": "solana",
+      "pair_address": "3HtYFeaG7pPuDUqibYvnCG2nYdSi8tfUWx3q7ZM16wam",
+      "symbol": "Alzheimers",
+      "tier": "T1",
+      "detection_time": "2026-05-06T03:32:04.321547+00:00",
+      "detection_price": 0.0001923,
+      "detection_liq": 35675.41,
+      "peak_price": 0.0001923,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:E4HTjWa2J6xErx9eKkraEiCFZqZqgRoxjr9eb5XRPi6D": {
+      "chain": "solana",
+      "pair_address": "E4HTjWa2J6xErx9eKkraEiCFZqZqgRoxjr9eb5XRPi6D",
+      "symbol": "CROCS",
+      "tier": "T1",
+      "detection_time": "2026-05-06T03:32:06.896740+00:00",
+      "detection_price": 0.0001018,
+      "detection_liq": 26281.96,
+      "peak_price": 0.0001018,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:BRpq2oyxiqf1j8xo9dmhX4bp4sS1ae5oQz7J1jdgNzR8": {
+      "chain": "solana",
+      "pair_address": "BRpq2oyxiqf1j8xo9dmhX4bp4sS1ae5oQz7J1jdgNzR8",
+      "symbol": "MILF",
+      "tier": "T1",
+      "detection_time": "2026-05-06T03:32:10.313309+00:00",
+      "detection_price": 0.0001024,
+      "detection_liq": 26350.56,
+      "peak_price": 0.0001024,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "ethereum:0x474635D5661935D4ABbF2F755E15892A9eb35210": {
+      "chain": "ethereum",
+      "pair_address": "0x474635D5661935D4ABbF2F755E15892A9eb35210",
+      "symbol": "SELLOR",
+      "tier": "T2",
+      "detection_time": "2026-05-06T03:32:18.099769+00:00",
+      "detection_price": 0.0005734,
+      "detection_liq": 54172.64,
+      "peak_price": 0.0005734,
       "captures": {},
       "outcome_label": null,
       "completed": false
