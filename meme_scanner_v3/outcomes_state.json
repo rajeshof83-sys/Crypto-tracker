@@ -6967,10 +6967,17 @@
           "volume_24h": 6239429.19,
           "captured_at": "2026-05-05T15:58:57.724621+00:00",
           "hours_elapsed": 6.8
+        },
+        "price_24h": {
+          "price": 3.757e-06,
+          "liquidity": 6092.8,
+          "volume_24h": 4978744.17,
+          "captured_at": "2026-05-06T09:27:12.976754+00:00",
+          "hours_elapsed": 24.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:sbpupDiGX7ULc2H9GACWD1by7XKsSCvnh8zK8VSyypR": {
       "chain": "solana",
@@ -6995,6 +7002,13 @@
           "volume_24h": 474544.61,
           "captured_at": "2026-05-05T15:58:57.724621+00:00",
           "hours_elapsed": 6.8
+        },
+        "price_24h": {
+          "price": 7.087e-06,
+          "liquidity": 6956.65,
+          "volume_24h": 134983.01,
+          "captured_at": "2026-05-06T09:27:12.976754+00:00",
+          "hours_elapsed": 24.3
         }
       },
       "outcome_label": null,
@@ -7492,6 +7506,40 @@
       "detection_price": 7.661e-05,
       "detection_liq": 22711.92,
       "peak_price": 7.661e-05,
+      "captures": {
+        "price_1h": {
+          "price": 5.851e-05,
+          "liquidity": 20043.18,
+          "volume_24h": 585759.48,
+          "captured_at": "2026-05-06T09:27:12.976754+00:00",
+          "hours_elapsed": 1.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:1S6c2Ju3P4RCx7qsiAmpgY4tm2nSueq3zhdbAq81fzJ": {
+      "chain": "solana",
+      "pair_address": "1S6c2Ju3P4RCx7qsiAmpgY4tm2nSueq3zhdbAq81fzJ",
+      "symbol": "Moon",
+      "tier": "T1",
+      "detection_time": "2026-05-06T09:26:59.510145+00:00",
+      "detection_price": 0.0001717,
+      "detection_liq": 34148.27,
+      "peak_price": 0.0001717,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5rQCu9bd9FdPAGjAN9fkkCLybnf3ne92PtSJhJA1sCuf": {
+      "chain": "solana",
+      "pair_address": "5rQCu9bd9FdPAGjAN9fkkCLybnf3ne92PtSJhJA1sCuf",
+      "symbol": "TROLLIEN",
+      "tier": "T1",
+      "detection_time": "2026-05-06T09:27:02.680759+00:00",
+      "detection_price": 0.0001423,
+      "detection_liq": 30550.96,
+      "peak_price": 0.0001423,
       "captures": {},
       "outcome_label": null,
       "completed": false
