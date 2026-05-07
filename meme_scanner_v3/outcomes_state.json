@@ -4230,10 +4230,17 @@
           "volume_24h": 2307876.08,
           "captured_at": "2026-05-01T21:26:59.193236+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 2.527e-06,
+          "liquidity": 4990.77,
+          "volume_24h": 5.32,
+          "captured_at": "2026-05-07T21:42:34.069354+00:00",
+          "hours_elapsed": 168.4
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:FTyGFKvNsDcoEgMnzGe3cLQoeXnpukomviodLKSEimh4": {
       "chain": "solana",
@@ -8549,6 +8556,53 @@
       "detection_price": 0.0001264,
       "detection_liq": 28951.34,
       "peak_price": 0.0001264,
+      "captures": {
+        "price_1h": {
+          "price": 9.328e-05,
+          "liquidity": 24960.41,
+          "volume_24h": 469478.31,
+          "captured_at": "2026-05-07T21:42:34.069354+00:00",
+          "hours_elapsed": 1.6
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6wgSaJRFy9FXGxkZrfNS3RnT2YRgmHrs1XAfpMKr8yKd": {
+      "chain": "solana",
+      "pair_address": "6wgSaJRFy9FXGxkZrfNS3RnT2YRgmHrs1XAfpMKr8yKd",
+      "symbol": "OGDOGE",
+      "tier": "T1",
+      "detection_time": "2026-05-07T21:42:20.199482+00:00",
+      "detection_price": 0.0001949,
+      "detection_liq": 35610.8,
+      "peak_price": 0.0001949,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:BXzbjJsr7EwzeEZ2rmjnYLjp6LhaFmneUrrbmeyCkb19": {
+      "chain": "solana",
+      "pair_address": "BXzbjJsr7EwzeEZ2rmjnYLjp6LhaFmneUrrbmeyCkb19",
+      "symbol": "HFRS",
+      "tier": "T1",
+      "detection_time": "2026-05-07T21:42:23.812459+00:00",
+      "detection_price": 0.0001711,
+      "detection_liq": 34185.92,
+      "peak_price": 0.0001711,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2UYWng1PmhTcWXuhGfu51pNsfxSvp7Z8MLnva6m4rYCS": {
+      "chain": "solana",
+      "pair_address": "2UYWng1PmhTcWXuhGfu51pNsfxSvp7Z8MLnva6m4rYCS",
+      "symbol": "ROAF",
+      "tier": "T2",
+      "detection_time": "2026-05-07T21:42:27.183682+00:00",
+      "detection_price": 0.01067,
+      "detection_liq": 277463.0,
+      "peak_price": 0.01067,
       "captures": {},
       "outcome_label": null,
       "completed": false
