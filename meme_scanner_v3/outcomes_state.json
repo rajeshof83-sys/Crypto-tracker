@@ -8387,7 +8387,7 @@
       "detection_time": "2026-05-07T13:21:38.346793+00:00",
       "detection_price": 0.0001664,
       "detection_liq": 26074.1,
-      "peak_price": 0.0001664,
+      "peak_price": 0.0002251,
       "captures": {
         "price_1h": {
           "price": 0.0001199,
@@ -8395,6 +8395,13 @@
           "volume_24h": 431454.75,
           "captured_at": "2026-05-07T14:23:52.296117+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 0.0002251,
+          "liquidity": 30727.7,
+          "volume_24h": 634087.31,
+          "captured_at": "2026-05-07T20:07:59.318517+00:00",
+          "hours_elapsed": 6.8
         }
       },
       "outcome_label": null,
@@ -8502,6 +8509,19 @@
           "hours_elapsed": 1.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:92KA9E9X6j5eEF4YLzpAUGAWEKyYde4RHrkRk4r4tyiq": {
+      "chain": "solana",
+      "pair_address": "92KA9E9X6j5eEF4YLzpAUGAWEKyYde4RHrkRk4r4tyiq",
+      "symbol": "WHO",
+      "tier": "T1",
+      "detection_time": "2026-05-07T20:07:53.657532+00:00",
+      "detection_price": 0.0001264,
+      "detection_liq": 28951.34,
+      "peak_price": 0.0001264,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
