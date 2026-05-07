@@ -7730,6 +7730,13 @@
           "volume_24h": 668010.73,
           "captured_at": "2026-05-06T14:24:16.173690+00:00",
           "hours_elapsed": 6.5
+        },
+        "price_24h": {
+          "price": 7.545e-06,
+          "liquidity": 7295.81,
+          "volume_24h": 150894.83,
+          "captured_at": "2026-05-07T08:04:30.207269+00:00",
+          "hours_elapsed": 24.2
         }
       },
       "outcome_label": null,
@@ -8059,6 +8066,13 @@
           "volume_24h": 687484.12,
           "captured_at": "2026-05-07T03:32:35.427979+00:00",
           "hours_elapsed": 2.1
+        },
+        "price_6h": {
+          "price": 1.901e-06,
+          "liquidity": 3636.51,
+          "volume_24h": 687555.38,
+          "captured_at": "2026-05-07T08:04:30.207269+00:00",
+          "hours_elapsed": 6.6
         }
       },
       "outcome_label": null,
@@ -8103,6 +8117,19 @@
           "hours_elapsed": 1.8
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5LLefNFq55Pkr1TrXBJT2oyZT5FZjF8PA7LyGu4yzhbj": {
+      "chain": "solana",
+      "pair_address": "5LLefNFq55Pkr1TrXBJT2oyZT5FZjF8PA7LyGu4yzhbj",
+      "symbol": "1sol1lambo",
+      "tier": "T1",
+      "detection_time": "2026-05-07T08:04:17.506296+00:00",
+      "detection_price": 0.0001732,
+      "detection_liq": 34643.31,
+      "peak_price": 0.0001732,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
