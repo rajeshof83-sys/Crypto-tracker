@@ -8668,6 +8668,27 @@
       "detection_price": 0.0001654,
       "detection_liq": 33126.94,
       "peak_price": 0.0001654,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001322,
+          "liquidity": 29921.98,
+          "volume_24h": 586302.61,
+          "captured_at": "2026-05-07T23:38:58.842449+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DShTRUvSnnwYxCaLxoz252J1fneQC6M8vJ9WmGsUkWLs": {
+      "chain": "solana",
+      "pair_address": "DShTRUvSnnwYxCaLxoz252J1fneQC6M8vJ9WmGsUkWLs",
+      "symbol": "RATLON",
+      "tier": "T1",
+      "detection_time": "2026-05-07T23:38:51.906296+00:00",
+      "detection_price": 0.0002936,
+      "detection_liq": 46285.26,
+      "peak_price": 0.0002936,
       "captures": {},
       "outcome_label": null,
       "completed": false
