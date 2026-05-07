@@ -3929,10 +3929,17 @@
           "volume_24h": 3392998.44,
           "captured_at": "2026-05-01T10:40:45.687857+00:00",
           "hours_elapsed": 24.2
+        },
+        "price_7d": {
+          "price": 2.245e-05,
+          "liquidity": 14567.0,
+          "volume_24h": 79337.91,
+          "captured_at": "2026-05-07T10:56:01.945599+00:00",
+          "hours_elapsed": 168.5
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "winner",
+      "completed": true
     },
     "solana:DKj13Gv2kiVC4ncMyH4CixtgAAgXQ8xnzPdvo9Z6AJSS": {
       "chain": "solana",
@@ -8185,7 +8192,15 @@
       "detection_price": 0.0001307,
       "detection_liq": 29523.58,
       "peak_price": 0.0001307,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0001061,
+          "liquidity": 26922.08,
+          "volume_24h": 559110.07,
+          "captured_at": "2026-05-07T10:56:01.945599+00:00",
+          "hours_elapsed": 1.3
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -8197,8 +8212,16 @@
       "detection_time": "2026-05-07T09:37:19.826982+00:00",
       "detection_price": 0.0002034,
       "detection_liq": 37577.19,
-      "peak_price": 0.0002034,
-      "captures": {},
+      "peak_price": 0.0002531,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002531,
+          "liquidity": 42206.68,
+          "volume_24h": 707922.63,
+          "captured_at": "2026-05-07T10:56:01.945599+00:00",
+          "hours_elapsed": 1.3
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -8211,6 +8234,27 @@
       "detection_price": 0.0001206,
       "detection_liq": 28531.72,
       "peak_price": 0.0001206,
+      "captures": {
+        "price_1h": {
+          "price": 2.019e-06,
+          "liquidity": 3724.56,
+          "volume_24h": 699759.36,
+          "captured_at": "2026-05-07T10:56:01.945599+00:00",
+          "hours_elapsed": 1.3
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:eKShgykXZxNrJ9yRQRP8RhcLRs7TeM2LpjPdPN8pE1e": {
+      "chain": "solana",
+      "pair_address": "eKShgykXZxNrJ9yRQRP8RhcLRs7TeM2LpjPdPN8pE1e",
+      "symbol": "mask",
+      "tier": "T1",
+      "detection_time": "2026-05-07T10:55:54.335547+00:00",
+      "detection_price": 0.0003349,
+      "detection_liq": 48937.06,
+      "peak_price": 0.0003349,
       "captures": {},
       "outcome_label": null,
       "completed": false
