@@ -7436,10 +7436,17 @@
           "volume_24h": 881789.05,
           "captured_at": "2026-05-06T07:55:38.827925+00:00",
           "hours_elapsed": 6.6
+        },
+        "price_24h": {
+          "price": 1.844e-06,
+          "liquidity": 3595.23,
+          "volume_24h": 580027.13,
+          "captured_at": "2026-05-07T01:26:03.773733+00:00",
+          "hours_elapsed": 24.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:GyqM8Pe9FUbkk5hCw7ffpeUt6F6WcHnc8pPdMYcnShiS": {
       "chain": "solana",
@@ -7942,6 +7949,19 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CkYA14uq8vn75JRqAPU6uuHWGSU71zbJ42KEfprqMbRp": {
+      "chain": "solana",
+      "pair_address": "CkYA14uq8vn75JRqAPU6uuHWGSU71zbJ42KEfprqMbRp",
+      "symbol": "USTRL",
+      "tier": "T1",
+      "detection_time": "2026-05-07T01:25:55.590733+00:00",
+      "detection_price": 0.0001501,
+      "detection_liq": 32012.22,
+      "peak_price": 0.0001501,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
