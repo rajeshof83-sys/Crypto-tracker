@@ -9291,7 +9291,15 @@
       "detection_price": 9.57e-05,
       "detection_liq": 25620.77,
       "peak_price": 9.57e-05,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 4.951e-05,
+          "liquidity": 18820.98,
+          "volume_24h": 582388.79,
+          "captured_at": "2026-05-08T22:13:01.621674+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     }
