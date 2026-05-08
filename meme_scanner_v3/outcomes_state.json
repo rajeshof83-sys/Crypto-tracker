@@ -8927,6 +8927,13 @@
           "volume_24h": 440290.33,
           "captured_at": "2026-05-08T10:10:28.121660+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 1.766e-05,
+          "liquidity": 11037.62,
+          "volume_24h": 877000.89,
+          "captured_at": "2026-05-08T15:09:21.616682+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -8948,6 +8955,13 @@
           "volume_24h": 240778.23,
           "captured_at": "2026-05-08T10:10:28.121660+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 1.671e-06,
+          "liquidity": 3298.66,
+          "volume_24h": 240879.06,
+          "captured_at": "2026-05-08T15:09:21.616682+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -9066,7 +9080,28 @@
       "detection_time": "2026-05-08T13:59:26.978235+00:00",
       "detection_price": 0.0003249,
       "detection_liq": 46668.42,
-      "peak_price": 0.0003249,
+      "peak_price": 0.001215,
+      "captures": {
+        "price_1h": {
+          "price": 0.001215,
+          "liquidity": 94941.03,
+          "volume_24h": 2409990.74,
+          "captured_at": "2026-05-08T15:09:21.616682+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EK4syJXm8sHo2AGvDgNQUmL1fNhdTH44q5AQbu91saQt": {
+      "chain": "solana",
+      "pair_address": "EK4syJXm8sHo2AGvDgNQUmL1fNhdTH44q5AQbu91saQt",
+      "symbol": "ANTIHANTA",
+      "tier": "T1",
+      "detection_time": "2026-05-08T15:09:09.443418+00:00",
+      "detection_price": 0.0004349,
+      "detection_liq": 53951.13,
+      "peak_price": 0.0004349,
       "captures": {},
       "outcome_label": null,
       "completed": false
