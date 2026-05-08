@@ -4748,10 +4748,17 @@
           "volume_24h": 144590.0,
           "captured_at": "2026-05-02T13:21:07.169576+00:00",
           "hours_elapsed": 24.6
+        },
+        "price_7d": {
+          "price": 1.204e-05,
+          "liquidity": 11271.59,
+          "volume_24h": 3060.41,
+          "captured_at": "2026-05-08T12:54:36.553047+00:00",
+          "hours_elapsed": 168.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:4KMKLHuiQLb4AtYEXGXMWXw7hwgtYnDjiGCFU6iWch5h": {
       "chain": "solana",
@@ -8992,6 +8999,32 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DrHhahAqhDBjvEbMqFeVR6kikqCecLaqxVWUW9kQJvpB": {
+      "chain": "solana",
+      "pair_address": "DrHhahAqhDBjvEbMqFeVR6kikqCecLaqxVWUW9kQJvpB",
+      "symbol": "RATJAK",
+      "tier": "T1",
+      "detection_time": "2026-05-08T12:54:19.711768+00:00",
+      "detection_price": 0.0001299,
+      "detection_liq": 29304.85,
+      "peak_price": 0.0001299,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7nVP4qykvMpEuhobyrzCn1TQiz7K8PMK5UXQeeBrZyh": {
+      "chain": "solana",
+      "pair_address": "7nVP4qykvMpEuhobyrzCn1TQiz7K8PMK5UXQeeBrZyh",
+      "symbol": "Aliens",
+      "tier": "T2",
+      "detection_time": "2026-05-08T12:54:23.282112+00:00",
+      "detection_price": 0.004905,
+      "detection_liq": 342227.81,
+      "peak_price": 0.004905,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
