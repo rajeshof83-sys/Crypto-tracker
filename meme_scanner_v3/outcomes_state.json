@@ -8703,6 +8703,13 @@
           "volume_24h": 106426.25,
           "captured_at": "2026-05-08T01:17:59.870055+00:00",
           "hours_elapsed": 7.0
+        },
+        "price_24h": {
+          "price": 3.647e-06,
+          "liquidity": 4890.44,
+          "volume_24h": 21680.17,
+          "captured_at": "2026-05-08T18:53:17.520409+00:00",
+          "hours_elapsed": 24.6
         }
       },
       "outcome_label": null,
@@ -9153,6 +9160,32 @@
           "hours_elapsed": 1.7
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EL4e8bzgeo4PwgHPx8WxSEHFPKKJtXkswafAksARNXsP": {
+      "chain": "solana",
+      "pair_address": "EL4e8bzgeo4PwgHPx8WxSEHFPKKJtXkswafAksARNXsP",
+      "symbol": "UVO",
+      "tier": "T1",
+      "detection_time": "2026-05-08T18:53:07.299681+00:00",
+      "detection_price": 0.0001866,
+      "detection_liq": 36374.85,
+      "peak_price": 0.0001866,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Bk7LaZV9G4wDP5Pf3fyFK6ufPFooTJHHzHZ5Sr977hnf": {
+      "chain": "solana",
+      "pair_address": "Bk7LaZV9G4wDP5Pf3fyFK6ufPFooTJHHzHZ5Sr977hnf",
+      "symbol": "ELIEN",
+      "tier": "T2",
+      "detection_time": "2026-05-08T18:53:11.046789+00:00",
+      "detection_price": 0.0005259,
+      "detection_liq": 76648.37,
+      "peak_price": 0.0005259,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
