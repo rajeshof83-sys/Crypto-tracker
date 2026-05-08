@@ -8833,6 +8833,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:mSyw81ZhLtY5XmRsStCgbhB9YeUtaQ1a2aBrCfk9D1W": {
+      "chain": "solana",
+      "pair_address": "mSyw81ZhLtY5XmRsStCgbhB9YeUtaQ1a2aBrCfk9D1W",
+      "symbol": "FILES",
+      "tier": "T2",
+      "detection_time": "2026-05-08T08:57:16.973213+00:00",
+      "detection_price": 0.0003659,
+      "detection_liq": 48516.58,
+      "peak_price": 0.0003659,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CdDRHa66xTcF5yCtSZ9hFFWnKtgpc2ifrcVA6xHc594a": {
+      "chain": "solana",
+      "pair_address": "CdDRHa66xTcF5yCtSZ9hFFWnKtgpc2ifrcVA6xHc594a",
+      "symbol": "SUMMERVIBE",
+      "tier": "T1",
+      "detection_time": "2026-05-08T08:57:20.907884+00:00",
+      "detection_price": 8.471e-05,
+      "detection_liq": 23400.76,
+      "peak_price": 8.471e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
