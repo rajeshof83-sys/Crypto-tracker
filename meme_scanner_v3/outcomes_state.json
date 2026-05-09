@@ -9336,6 +9336,32 @@
       "captures": {},
       "outcome_label": null,
       "completed": false
+    },
+    "solana:AETNSFFm3e8yBRQSCnMZBhyPcjLvQHmyZgQGhWn6MCTr": {
+      "chain": "solana",
+      "pair_address": "AETNSFFm3e8yBRQSCnMZBhyPcjLvQHmyZgQGhWn6MCTr",
+      "symbol": "Norovirus",
+      "tier": "T1",
+      "detection_time": "2026-05-09T00:11:07.893640+00:00",
+      "detection_price": 0.0001413,
+      "detection_liq": 32436.47,
+      "peak_price": 0.0001413,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8ZsYcYTATsM3qK5Vg1ePdkqbnRY4ULgTURS1mdAAnqsS": {
+      "chain": "solana",
+      "pair_address": "8ZsYcYTATsM3qK5Vg1ePdkqbnRY4ULgTURS1mdAAnqsS",
+      "symbol": "BRAINWORM",
+      "tier": "T1",
+      "detection_time": "2026-05-09T00:11:10.947682+00:00",
+      "detection_price": 6.694e-05,
+      "detection_liq": 21159.21,
+      "peak_price": 6.694e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
