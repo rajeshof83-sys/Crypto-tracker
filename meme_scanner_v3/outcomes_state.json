@@ -9018,6 +9018,13 @@
           "volume_24h": 452516.72,
           "captured_at": "2026-05-08T10:54:32.421261+00:00",
           "hours_elapsed": 6.3
+        },
+        "price_24h": {
+          "price": 0.0001924,
+          "liquidity": 42383.81,
+          "volume_24h": 432324.27,
+          "captured_at": "2026-05-09T04:51:08.659252+00:00",
+          "hours_elapsed": 24.2
         }
       },
       "outcome_label": null,
@@ -9447,6 +9454,58 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HdXa16PsVZVFWKxfPw4GszCbFRnFf3crUxtLj8CNPYmF": {
+      "chain": "solana",
+      "pair_address": "HdXa16PsVZVFWKxfPw4GszCbFRnFf3crUxtLj8CNPYmF",
+      "symbol": "ALIEN BOY",
+      "tier": "T1",
+      "detection_time": "2026-05-09T04:50:53.144522+00:00",
+      "detection_price": 0.0001443,
+      "detection_liq": 31508.3,
+      "peak_price": 0.0001443,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AJNxgSABqtb2GFTfqMwBLa9TpgBtib5h5W44RDSQqFSi": {
+      "chain": "solana",
+      "pair_address": "AJNxgSABqtb2GFTfqMwBLa9TpgBtib5h5W44RDSQqFSi",
+      "symbol": "ALIUN",
+      "tier": "T1",
+      "detection_time": "2026-05-09T04:50:56.098364+00:00",
+      "detection_price": 0.0002832,
+      "detection_liq": 44904.9,
+      "peak_price": 0.0002832,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2G66GTUqpHg1hKJkjs8RdEQZc515BXnkpDntmMs7CJNC": {
+      "chain": "solana",
+      "pair_address": "2G66GTUqpHg1hKJkjs8RdEQZc515BXnkpDntmMs7CJNC",
+      "symbol": "elonmaxxing",
+      "tier": "T1",
+      "detection_time": "2026-05-09T04:50:58.613841+00:00",
+      "detection_price": 0.0005324,
+      "detection_liq": 61653.45,
+      "peak_price": 0.0005324,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:BLfvQCGTovES523qVSovstkqajT6SDvgvAswjgV65vQ3": {
+      "chain": "solana",
+      "pair_address": "BLfvQCGTovES523qVSovstkqajT6SDvgvAswjgV65vQ3",
+      "symbol": "Aliun",
+      "tier": "T1",
+      "detection_time": "2026-05-09T04:51:01.818118+00:00",
+      "detection_price": 6.929e-05,
+      "detection_liq": 21745.93,
+      "peak_price": 6.929e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
