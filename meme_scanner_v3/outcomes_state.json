@@ -5861,10 +5861,17 @@
           "volume_24h": 2435364.31,
           "captured_at": "2026-05-04T04:09:22.098424+00:00",
           "hours_elapsed": 24.5
+        },
+        "price_7d": {
+          "price": 8.642e-06,
+          "liquidity": 9358.84,
+          "volume_24h": 1296.91,
+          "captured_at": "2026-05-10T03:39:26.762352+00:00",
+          "hours_elapsed": 168.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "moon",
+      "completed": true
     },
     "solana:3pMKRwFvnihYVGjXcjdX7NmWebcGX2VpBDuEKJvRsDKR": {
       "chain": "solana",
@@ -9921,7 +9928,15 @@
       "detection_price": 0.0001359,
       "detection_liq": 30769.6,
       "peak_price": 0.0001359,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 2.737e-06,
+          "liquidity": 4550.8,
+          "volume_24h": 957064.06,
+          "captured_at": "2026-05-10T03:39:26.762352+00:00",
+          "hours_elapsed": 2.2
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -9933,7 +9948,28 @@
       "detection_time": "2026-05-10T01:27:40.507778+00:00",
       "detection_price": 6.169e-05,
       "detection_liq": 20727.92,
-      "peak_price": 6.169e-05,
+      "peak_price": 8.521e-05,
+      "captures": {
+        "price_1h": {
+          "price": 8.521e-05,
+          "liquidity": 24489.98,
+          "volume_24h": 307823.55,
+          "captured_at": "2026-05-10T03:39:26.762352+00:00",
+          "hours_elapsed": 2.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Cihe9HYqSQ7KkYFKFQmB7RmeAtkhSZ6Mfq9y2vLiiSfc": {
+      "chain": "solana",
+      "pair_address": "Cihe9HYqSQ7KkYFKFQmB7RmeAtkhSZ6Mfq9y2vLiiSfc",
+      "symbol": "solaura",
+      "tier": "T1",
+      "detection_time": "2026-05-10T03:39:17.050808+00:00",
+      "detection_price": 0.0004622,
+      "detection_liq": 57975.37,
+      "peak_price": 0.0004622,
       "captures": {},
       "outcome_label": null,
       "completed": false
