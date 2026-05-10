@@ -9977,6 +9977,13 @@
           "volume_24h": 357600.25,
           "captured_at": "2026-05-10T06:36:58.230465+00:00",
           "hours_elapsed": 7.2
+        },
+        "price_24h": {
+          "price": 2.926e-06,
+          "liquidity": 4579.88,
+          "volume_24h": 167529.99,
+          "captured_at": "2026-05-10T23:28:31.402550+00:00",
+          "hours_elapsed": 24.0
         }
       },
       "outcome_label": null,
@@ -9990,7 +9997,7 @@
       "detection_time": "2026-05-09T23:26:10.213770+00:00",
       "detection_price": 0.0001439,
       "detection_liq": 31433.04,
-      "peak_price": 0.0001439,
+      "peak_price": 0.0002094,
       "captures": {
         "price_1h": {
           "price": 0.000136,
@@ -10005,6 +10012,13 @@
           "volume_24h": 585779.39,
           "captured_at": "2026-05-10T06:36:58.230465+00:00",
           "hours_elapsed": 7.2
+        },
+        "price_24h": {
+          "price": 0.0002094,
+          "liquidity": 39606.15,
+          "volume_24h": 442639.19,
+          "captured_at": "2026-05-10T23:28:31.402550+00:00",
+          "hours_elapsed": 24.0
         }
       },
       "outcome_label": null,
@@ -10329,6 +10343,19 @@
           "hours_elapsed": 1.4
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DrJHg9pYpJYwAQ2PYvnGQc63LVYeVURbab6hTmE4gVKz": {
+      "chain": "solana",
+      "pair_address": "DrJHg9pYpJYwAQ2PYvnGQc63LVYeVURbab6hTmE4gVKz",
+      "symbol": "GoblinTroll",
+      "tier": "T1",
+      "detection_time": "2026-05-10T23:28:16.345029+00:00",
+      "detection_price": 0.0006553,
+      "detection_liq": 69208.56,
+      "peak_price": 0.0006553,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
