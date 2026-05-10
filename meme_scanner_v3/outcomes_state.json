@@ -9879,7 +9879,15 @@
       "detection_price": 6.541e-05,
       "detection_liq": 21051.75,
       "peak_price": 6.541e-05,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 3.749e-05,
+          "liquidity": 16049.92,
+          "volume_24h": 327549.42,
+          "captured_at": "2026-05-10T01:27:54.997137+00:00",
+          "hours_elapsed": 2.0
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -9892,6 +9900,40 @@
       "detection_price": 0.0001439,
       "detection_liq": 31433.04,
       "peak_price": 0.0001439,
+      "captures": {
+        "price_1h": {
+          "price": 0.000136,
+          "liquidity": 30811.52,
+          "volume_24h": 386897.54,
+          "captured_at": "2026-05-10T01:27:54.997137+00:00",
+          "hours_elapsed": 2.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EnJffxhHyskbs4voy4YCNaNUwJT7niHLJx7eeaeqg7pb": {
+      "chain": "solana",
+      "pair_address": "EnJffxhHyskbs4voy4YCNaNUwJT7niHLJx7eeaeqg7pb",
+      "symbol": "ACTAURA",
+      "tier": "T1",
+      "detection_time": "2026-05-10T01:27:37.753119+00:00",
+      "detection_price": 0.0001359,
+      "detection_liq": 30769.6,
+      "peak_price": 0.0001359,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:A6dYciEvGusaDfNebuUfv9kzL17ptm9edwhpZAv2MhA4": {
+      "chain": "solana",
+      "pair_address": "A6dYciEvGusaDfNebuUfv9kzL17ptm9edwhpZAv2MhA4",
+      "symbol": "POTATO",
+      "tier": "T1",
+      "detection_time": "2026-05-10T01:27:40.507778+00:00",
+      "detection_price": 6.169e-05,
+      "detection_liq": 20727.92,
+      "peak_price": 6.169e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
