@@ -10177,6 +10177,45 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "bsc:0xD367E7Ea6D26F408b1cCdAafDb251DDa6dCEd821": {
+      "chain": "bsc",
+      "pair_address": "0xD367E7Ea6D26F408b1cCdAafDb251DDa6dCEd821",
+      "symbol": "ZSWAP",
+      "tier": "T2",
+      "detection_time": "2026-05-10T15:58:37.203392+00:00",
+      "detection_price": 0.002767,
+      "detection_liq": 184672.21,
+      "peak_price": 0.002767,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8rSUFjiN8jABwmBK6KdV3PCMYddnKTs2EqEUtJioLsb6": {
+      "chain": "solana",
+      "pair_address": "8rSUFjiN8jABwmBK6KdV3PCMYddnKTs2EqEUtJioLsb6",
+      "symbol": "TRETARD",
+      "tier": "T1",
+      "detection_time": "2026-05-10T15:58:41.238574+00:00",
+      "detection_price": 0.0005012,
+      "detection_liq": 60839.14,
+      "peak_price": 0.0005012,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "ethereum:0x8E0Aee5A53926DcAbE922f6A97C85E6FeA7f8333": {
+      "chain": "ethereum",
+      "pair_address": "0x8E0Aee5A53926DcAbE922f6A97C85E6FeA7f8333",
+      "symbol": "PENIS",
+      "tier": "T2",
+      "detection_time": "2026-05-10T15:58:44.301896+00:00",
+      "detection_price": 0.001652,
+      "detection_liq": 134649.8,
+      "peak_price": 0.001652,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
