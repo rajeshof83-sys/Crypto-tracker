@@ -9921,6 +9921,13 @@
           "volume_24h": 327549.42,
           "captured_at": "2026-05-10T01:27:54.997137+00:00",
           "hours_elapsed": 2.0
+        },
+        "price_6h": {
+          "price": 9.858e-06,
+          "liquidity": 8265.99,
+          "volume_24h": 357600.25,
+          "captured_at": "2026-05-10T06:36:58.230465+00:00",
+          "hours_elapsed": 7.2
         }
       },
       "outcome_label": null,
@@ -9942,6 +9949,13 @@
           "volume_24h": 386897.54,
           "captured_at": "2026-05-10T01:27:54.997137+00:00",
           "hours_elapsed": 2.0
+        },
+        "price_6h": {
+          "price": 0.0001355,
+          "liquidity": 31266.63,
+          "volume_24h": 585779.39,
+          "captured_at": "2026-05-10T06:36:58.230465+00:00",
+          "hours_elapsed": 7.2
         }
       },
       "outcome_label": null,
@@ -10007,6 +10021,19 @@
           "hours_elapsed": 1.8
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6DNmWXHCRBUiXE5m3CLQkiCGo1XvuWKfjh3S9Utvh3mx": {
+      "chain": "solana",
+      "pair_address": "6DNmWXHCRBUiXE5m3CLQkiCGo1XvuWKfjh3S9Utvh3mx",
+      "symbol": "AINL",
+      "tier": "T2",
+      "detection_time": "2026-05-10T06:36:47.921836+00:00",
+      "detection_price": 0.004985,
+      "detection_liq": 197303.21,
+      "peak_price": 0.004985,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
