@@ -9935,6 +9935,13 @@
           "volume_24h": 97535.94,
           "captured_at": "2026-05-10T00:04:33.741673+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 4.11e-05,
+          "liquidity": 17667.54,
+          "volume_24h": 69874.7,
+          "captured_at": "2026-05-10T17:54:58.585754+00:00",
+          "hours_elapsed": 24.0
         }
       },
       "outcome_label": null,
@@ -10245,6 +10252,19 @@
           "hours_elapsed": 1.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "ethereum:0xbe25178c8a944fe20bca4c648745d5b189a6d1912f6d283471d9517a7f39be56": {
+      "chain": "ethereum",
+      "pair_address": "0xbe25178c8a944fe20bca4c648745d5b189a6d1912f6d283471d9517a7f39be56",
+      "symbol": "GEODE",
+      "tier": "T1",
+      "detection_time": "2026-05-10T17:54:54.133069+00:00",
+      "detection_price": 0.5174,
+      "detection_liq": 22128.18,
+      "peak_price": 0.5174,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
