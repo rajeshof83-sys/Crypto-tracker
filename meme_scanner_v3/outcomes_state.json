@@ -9801,7 +9801,7 @@
       "detection_time": "2026-05-09T07:25:32.189206+00:00",
       "detection_price": 7.215e-05,
       "detection_liq": 22395.79,
-      "peak_price": 9.544e-05,
+      "peak_price": 0.0002277,
       "captures": {
         "price_1h": {
           "price": 6.113e-05,
@@ -9816,6 +9816,13 @@
           "volume_24h": 367305.55,
           "captured_at": "2026-05-09T13:52:44.361185+00:00",
           "hours_elapsed": 6.5
+        },
+        "price_24h": {
+          "price": 0.0002277,
+          "liquidity": 40548.63,
+          "volume_24h": 299447.96,
+          "captured_at": "2026-05-10T07:39:42.440537+00:00",
+          "hours_elapsed": 24.2
         }
       },
       "outcome_label": null,
@@ -9977,6 +9984,13 @@
           "volume_24h": 957064.06,
           "captured_at": "2026-05-10T03:39:26.762352+00:00",
           "hours_elapsed": 2.2
+        },
+        "price_6h": {
+          "price": 2.225e-06,
+          "liquidity": 4111.75,
+          "volume_24h": 957379.96,
+          "captured_at": "2026-05-10T07:39:42.440537+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -9998,6 +10012,13 @@
           "volume_24h": 307823.55,
           "captured_at": "2026-05-10T03:39:26.762352+00:00",
           "hours_elapsed": 2.2
+        },
+        "price_6h": {
+          "price": 6.881e-05,
+          "liquidity": 22091.83,
+          "volume_24h": 326545.79,
+          "captured_at": "2026-05-10T07:39:42.440537+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -10033,7 +10054,15 @@
       "detection_price": 0.004985,
       "detection_liq": 197303.21,
       "peak_price": 0.004985,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.004627,
+          "liquidity": 190397.68,
+          "volume_24h": 1094332.68,
+          "captured_at": "2026-05-10T07:39:42.440537+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
       "outcome_label": null,
       "completed": false
     }
