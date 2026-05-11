@@ -10117,10 +10117,17 @@
           "volume_24h": 2976181.88,
           "captured_at": "2026-05-10T10:19:22.965619+00:00",
           "hours_elapsed": 6.7
+        },
+        "price_24h": {
+          "price": 2.816e-06,
+          "liquidity": 4786.74,
+          "volume_24h": 1376142.99,
+          "captured_at": "2026-05-11T03:53:30.622424+00:00",
+          "hours_elapsed": 24.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:6DNmWXHCRBUiXE5m3CLQkiCGo1XvuWKfjh3S9Utvh3mx": {
       "chain": "solana",
@@ -10392,6 +10399,32 @@
           "hours_elapsed": 1.9
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DRkHAKH4eb7nCRS5oDcowbVJCRaSUAzbTxVeDEzAAXKm": {
+      "chain": "solana",
+      "pair_address": "DRkHAKH4eb7nCRS5oDcowbVJCRaSUAzbTxVeDEzAAXKm",
+      "symbol": "OBC",
+      "tier": "T2",
+      "detection_time": "2026-05-11T03:53:18.560423+00:00",
+      "detection_price": 0.005789,
+      "detection_liq": 114855.0,
+      "peak_price": 0.005789,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:BpTFBmaFXAL6mDBxCC3FuL4hbozSFXtz6SAdbLF9LHWP": {
+      "chain": "solana",
+      "pair_address": "BpTFBmaFXAL6mDBxCC3FuL4hbozSFXtz6SAdbLF9LHWP",
+      "symbol": "PROG",
+      "tier": "T1",
+      "detection_time": "2026-05-11T03:53:21.135920+00:00",
+      "detection_price": 0.0002435,
+      "detection_liq": 42852.86,
+      "peak_price": 0.0002435,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
