@@ -10635,6 +10635,13 @@
           "volume_24h": 440758.61,
           "captured_at": "2026-05-11T17:33:16.807789+00:00",
           "hours_elapsed": 2.2
+        },
+        "price_6h": {
+          "price": 0.0001514,
+          "liquidity": 33838.32,
+          "volume_24h": 688163.28,
+          "captured_at": "2026-05-11T21:21:36.659765+00:00",
+          "hours_elapsed": 6.0
         }
       },
       "outcome_label": null,
@@ -10656,6 +10663,13 @@
           "volume_24h": 210515.52,
           "captured_at": "2026-05-11T17:33:16.807789+00:00",
           "hours_elapsed": 2.2
+        },
+        "price_6h": {
+          "price": 0.000236,
+          "liquidity": 55503.08,
+          "volume_24h": 187875.86,
+          "captured_at": "2026-05-11T21:21:36.659765+00:00",
+          "hours_elapsed": 6.0
         }
       },
       "outcome_label": null,
@@ -10679,6 +10693,19 @@
           "hours_elapsed": 1.7
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Bjs8DJhi5D9AfRwmU9bFu1U4AtuHV9P4EJEfbErTmHS6": {
+      "chain": "solana",
+      "pair_address": "Bjs8DJhi5D9AfRwmU9bFu1U4AtuHV9P4EJEfbErTmHS6",
+      "symbol": "ARTIONYX",
+      "tier": "T1",
+      "detection_time": "2026-05-11T21:21:20.034119+00:00",
+      "detection_price": 0.0007349,
+      "detection_liq": 73536.06,
+      "peak_price": 0.0007349,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
