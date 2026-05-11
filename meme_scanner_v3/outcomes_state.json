@@ -10397,6 +10397,13 @@
           "volume_24h": 2245532.15,
           "captured_at": "2026-05-11T01:24:03.917922+00:00",
           "hours_elapsed": 1.9
+        },
+        "price_6h": {
+          "price": 5.605e-05,
+          "liquidity": 21245.5,
+          "volume_24h": 2391034.3,
+          "captured_at": "2026-05-11T05:35:38.884242+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -10411,7 +10418,15 @@
       "detection_price": 0.005789,
       "detection_liq": 114855.0,
       "peak_price": 0.005789,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0006853,
+          "liquidity": 39214.54,
+          "volume_24h": 730860.45,
+          "captured_at": "2026-05-11T05:35:38.884242+00:00",
+          "hours_elapsed": 1.7
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -10424,6 +10439,27 @@
       "detection_price": 0.0002435,
       "detection_liq": 42852.86,
       "peak_price": 0.0002435,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002435,
+          "liquidity": 44869.4,
+          "volume_24h": 781740.58,
+          "captured_at": "2026-05-11T05:35:38.884242+00:00",
+          "hours_elapsed": 1.7
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CPgzdb3FG5nn56GfvHeuSkCVUqFrrwDq6MdbCTJijNPX": {
+      "chain": "solana",
+      "pair_address": "CPgzdb3FG5nn56GfvHeuSkCVUqFrrwDq6MdbCTJijNPX",
+      "symbol": "Whisker",
+      "tier": "T1",
+      "detection_time": "2026-05-11T05:35:29.204714+00:00",
+      "detection_price": 0.000179,
+      "detection_liq": 36614.23,
+      "peak_price": 0.000179,
       "captures": {},
       "outcome_label": null,
       "completed": false
