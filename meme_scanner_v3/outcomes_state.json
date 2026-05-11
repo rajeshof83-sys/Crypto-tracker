@@ -10732,7 +10732,28 @@
       "detection_time": "2026-05-11T22:42:37.104299+00:00",
       "detection_price": 0.0001913,
       "detection_liq": 37301.48,
-      "peak_price": 0.0001913,
+      "peak_price": 0.0002171,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002171,
+          "liquidity": 41765.31,
+          "volume_24h": 1391619.21,
+          "captured_at": "2026-05-11T23:43:44.872880+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AxVCxaLwG9oyRxqnFAo8FomNBbNzqZtQZETF4yqrasJZ": {
+      "chain": "solana",
+      "pair_address": "AxVCxaLwG9oyRxqnFAo8FomNBbNzqZtQZETF4yqrasJZ",
+      "symbol": "RKT",
+      "tier": "T1",
+      "detection_time": "2026-05-11T23:43:37.047306+00:00",
+      "detection_price": 9.876e-05,
+      "detection_liq": 30805.09,
+      "peak_price": 9.876e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
