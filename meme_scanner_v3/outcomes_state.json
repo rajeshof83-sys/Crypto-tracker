@@ -10704,7 +10704,28 @@
       "detection_time": "2026-05-11T21:21:20.034119+00:00",
       "detection_price": 0.0007349,
       "detection_liq": 73536.06,
-      "peak_price": 0.0007349,
+      "peak_price": 0.0007881,
+      "captures": {
+        "price_1h": {
+          "price": 0.0007881,
+          "liquidity": 76633.55,
+          "volume_24h": 1026092.29,
+          "captured_at": "2026-05-11T22:42:49.740201+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:44GJhJvGyz3oKzLF9LzN2XF7a8yrQM9ecikcjLVCUEZv": {
+      "chain": "solana",
+      "pair_address": "44GJhJvGyz3oKzLF9LzN2XF7a8yrQM9ecikcjLVCUEZv",
+      "symbol": "GKC",
+      "tier": "T1",
+      "detection_time": "2026-05-11T22:42:37.104299+00:00",
+      "detection_price": 0.0001913,
+      "detection_liq": 37301.48,
+      "peak_price": 0.0001913,
       "captures": {},
       "outcome_label": null,
       "completed": false
