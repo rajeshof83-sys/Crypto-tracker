@@ -10534,6 +10534,19 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "ethereum:0x3E82a79FF8e069DBDc6C69C6A614c952e322BaBf": {
+      "chain": "ethereum",
+      "pair_address": "0x3E82a79FF8e069DBDc6C69C6A614c952e322BaBf",
+      "symbol": "FWC",
+      "tier": "T2",
+      "detection_time": "2026-05-11T13:24:15.822020+00:00",
+      "detection_price": 6.439e-11,
+      "detection_liq": 24943.09,
+      "peak_price": 6.439e-11,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
