@@ -10467,10 +10467,17 @@
           "volume_24h": 651076.72,
           "captured_at": "2026-05-11T01:24:03.917922+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 2.185e-06,
+          "liquidity": 4038.86,
+          "volume_24h": 308926.82,
+          "captured_at": "2026-05-11T19:22:28.952424+00:00",
+          "hours_elapsed": 24.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:DrJHg9pYpJYwAQ2PYvnGQc63LVYeVURbab6hTmE4gVKz": {
       "chain": "solana",
@@ -10644,6 +10651,19 @@
           "hours_elapsed": 2.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6fNWjfFN6kDKybWK5PFLWqZnpTmoBAswUWvxiG3g5D2D": {
+      "chain": "solana",
+      "pair_address": "6fNWjfFN6kDKybWK5PFLWqZnpTmoBAswUWvxiG3g5D2D",
+      "symbol": "CATCOIN",
+      "tier": "T2",
+      "detection_time": "2026-05-11T19:22:22.939887+00:00",
+      "detection_price": 0.0007734,
+      "detection_liq": 94686.68,
+      "peak_price": 0.0007734,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
