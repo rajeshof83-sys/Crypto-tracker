@@ -7492,10 +7492,17 @@
           "volume_24h": 123048.19,
           "captured_at": "2026-05-06T18:59:26.090217+00:00",
           "hours_elapsed": 24.2
+        },
+        "price_7d": {
+          "price": 2.483e-05,
+          "liquidity": 13467.35,
+          "volume_24h": 28850.36,
+          "captured_at": "2026-05-12T19:58:57.264346+00:00",
+          "hours_elapsed": 169.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "winner",
+      "completed": true
     },
     "solana:ErSSHdCR9CDgKfnhB5wcbDWds2X1ptgTL8t9k2qkngzc": {
       "chain": "solana",
@@ -10760,7 +10767,7 @@
       "detection_time": "2026-05-11T19:22:22.939887+00:00",
       "detection_price": 0.0007734,
       "detection_liq": 94686.68,
-      "peak_price": 0.0007734,
+      "peak_price": 0.001195,
       "captures": {
         "price_1h": {
           "price": 0.0006766,
@@ -10775,6 +10782,13 @@
           "volume_24h": 407637.27,
           "captured_at": "2026-05-12T01:26:24.181472+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 0.001195,
+          "liquidity": 117777.9,
+          "volume_24h": 844287.23,
+          "captured_at": "2026-05-12T19:58:57.264346+00:00",
+          "hours_elapsed": 24.6
         }
       },
       "outcome_label": null,
@@ -11264,7 +11278,41 @@
       "detection_time": "2026-05-12T18:23:01.156887+00:00",
       "detection_price": 0.0004806,
       "detection_liq": 68514.03,
-      "peak_price": 0.0004806,
+      "peak_price": 0.0005213,
+      "captures": {
+        "price_1h": {
+          "price": 0.0005213,
+          "liquidity": 71714.96,
+          "volume_24h": 466380.91,
+          "captured_at": "2026-05-12T19:58:57.264346+00:00",
+          "hours_elapsed": 1.6
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8bxEM9XNgBiLu6zs4iyagUVjewXQjA5kjyDLcLeEuCPc": {
+      "chain": "solana",
+      "pair_address": "8bxEM9XNgBiLu6zs4iyagUVjewXQjA5kjyDLcLeEuCPc",
+      "symbol": "KEVUN",
+      "tier": "T1",
+      "detection_time": "2026-05-12T19:58:33.177895+00:00",
+      "detection_price": 0.0001029,
+      "detection_liq": 27545.62,
+      "peak_price": 0.0001029,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "ethereum:0x69b37CC8559a5A96B51F5E15f985101c7a85c56c": {
+      "chain": "ethereum",
+      "pair_address": "0x69b37CC8559a5A96B51F5E15f985101c7a85c56c",
+      "symbol": "TAIKI",
+      "tier": "T2",
+      "detection_time": "2026-05-12T19:58:39.911665+00:00",
+      "detection_price": 0.0003033,
+      "detection_liq": 37382.22,
+      "peak_price": 0.0003033,
       "captures": {},
       "outcome_label": null,
       "completed": false
