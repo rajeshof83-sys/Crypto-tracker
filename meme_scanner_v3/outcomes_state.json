@@ -10718,7 +10718,7 @@
       "detection_time": "2026-05-11T21:21:20.034119+00:00",
       "detection_price": 0.0007349,
       "detection_liq": 73536.06,
-      "peak_price": 0.0007881,
+      "peak_price": 0.0009749,
       "captures": {
         "price_1h": {
           "price": 0.0007881,
@@ -10726,6 +10726,13 @@
           "volume_24h": 1026092.29,
           "captured_at": "2026-05-11T22:42:49.740201+00:00",
           "hours_elapsed": 1.4
+        },
+        "price_6h": {
+          "price": 0.0009749,
+          "liquidity": 86048.09,
+          "volume_24h": 1744064.28,
+          "captured_at": "2026-05-12T03:47:48.924085+00:00",
+          "hours_elapsed": 6.4
         }
       },
       "outcome_label": null,
@@ -10770,6 +10777,32 @@
           "hours_elapsed": 1.6
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:J8BUsUdPqZeFpbmof5eKCGbTnbHkYSPyp9QkWc1K9D1S": {
+      "chain": "solana",
+      "pair_address": "J8BUsUdPqZeFpbmof5eKCGbTnbHkYSPyp9QkWc1K9D1S",
+      "symbol": "DBALLS",
+      "tier": "T1",
+      "detection_time": "2026-05-12T03:47:30.634730+00:00",
+      "detection_price": 0.000289,
+      "detection_liq": 45793.62,
+      "peak_price": 0.000289,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Gszx4H1b3PHMBCi4opYew58cLGhV6cfYsUdQ5qhts5fi": {
+      "chain": "solana",
+      "pair_address": "Gszx4H1b3PHMBCi4opYew58cLGhV6cfYsUdQ5qhts5fi",
+      "symbol": "Tendies",
+      "tier": "T1",
+      "detection_time": "2026-05-12T03:47:37.705597+00:00",
+      "detection_price": 0.0001338,
+      "detection_liq": 31218.31,
+      "peak_price": 0.0001338,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
