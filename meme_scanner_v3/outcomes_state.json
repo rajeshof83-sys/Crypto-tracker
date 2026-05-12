@@ -7261,10 +7261,17 @@
           "volume_24h": 134983.01,
           "captured_at": "2026-05-06T09:27:12.976754+00:00",
           "hours_elapsed": 24.3
+        },
+        "price_7d": {
+          "price": 2.305e-06,
+          "liquidity": 4162.99,
+          "volume_24h": 112.02,
+          "captured_at": "2026-05-12T09:44:38.501490+00:00",
+          "hours_elapsed": 168.6
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:9ZxcjeKK9dtP7Qagisz8Pi39TZsUGJGKQRh6Y4B5EQut": {
       "chain": "solana",
@@ -10936,6 +10943,27 @@
       "detection_price": 0.000249,
       "detection_liq": 43476.66,
       "peak_price": 0.000249,
+      "captures": {
+        "price_1h": {
+          "price": 2.451e-06,
+          "liquidity": 4452.95,
+          "volume_24h": 1708453.08,
+          "captured_at": "2026-05-12T09:44:38.501490+00:00",
+          "hours_elapsed": 1.6
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "ethereum:0x843A9563B206b892E8d138CEae16E6A0A0A309e8": {
+      "chain": "ethereum",
+      "pair_address": "0x843A9563B206b892E8d138CEae16E6A0A0A309e8",
+      "symbol": "AWF",
+      "tier": "T1",
+      "detection_time": "2026-05-12T09:44:25.665614+00:00",
+      "detection_price": 0.0002867,
+      "detection_liq": 53123.41,
+      "peak_price": 0.0002867,
       "captures": {},
       "outcome_label": null,
       "completed": false
