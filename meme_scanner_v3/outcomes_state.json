@@ -10978,6 +10978,40 @@
       "detection_price": 0.0002867,
       "detection_liq": 53123.41,
       "peak_price": 0.0002867,
+      "captures": {
+        "price_1h": {
+          "price": 6.275e-10,
+          "liquidity": 0.07,
+          "volume_24h": 739418.27,
+          "captured_at": "2026-05-12T11:00:10.410441+00:00",
+          "hours_elapsed": 1.3
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9T7FJMjGBrJKFcesdUZmc3z9N3318dK52wjBWPZRvGzQ": {
+      "chain": "solana",
+      "pair_address": "9T7FJMjGBrJKFcesdUZmc3z9N3318dK52wjBWPZRvGzQ",
+      "symbol": "VACCINE",
+      "tier": "T1",
+      "detection_time": "2026-05-12T10:59:57.754914+00:00",
+      "detection_price": 7.908e-05,
+      "detection_liq": 23646.67,
+      "peak_price": 7.908e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "ethereum:0x714B422Ca7033c6eC1C9E2A75212AE5EE47f3f29": {
+      "chain": "ethereum",
+      "pair_address": "0x714B422Ca7033c6eC1C9E2A75212AE5EE47f3f29",
+      "symbol": "AWF",
+      "tier": "T2",
+      "detection_time": "2026-05-12T11:00:01.003970+00:00",
+      "detection_price": 0.001048,
+      "detection_liq": 69678.53,
+      "peak_price": 0.001048,
       "captures": {},
       "outcome_label": null,
       "completed": false
