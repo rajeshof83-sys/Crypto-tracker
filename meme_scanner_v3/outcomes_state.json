@@ -10915,6 +10915,27 @@
       "detection_price": 0.0001167,
       "detection_liq": 28711.32,
       "peak_price": 0.0001167,
+      "captures": {
+        "price_1h": {
+          "price": 8.568e-05,
+          "liquidity": 24577.78,
+          "volume_24h": 270218.96,
+          "captured_at": "2026-05-12T08:09:11.315949+00:00",
+          "hours_elapsed": 1.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5LPe6Diqp5yEYQatfueciZGveirgqaDDxeAyK6AVMV4j": {
+      "chain": "solana",
+      "pair_address": "5LPe6Diqp5yEYQatfueciZGveirgqaDDxeAyK6AVMV4j",
+      "symbol": "USDRC",
+      "tier": "T1",
+      "detection_time": "2026-05-12T08:08:59.591084+00:00",
+      "detection_price": 0.000249,
+      "detection_liq": 43476.66,
+      "peak_price": 0.000249,
       "captures": {},
       "outcome_label": null,
       "completed": false
