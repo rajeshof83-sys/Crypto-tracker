@@ -11076,6 +11076,13 @@
           "volume_24h": 412762.16,
           "captured_at": "2026-05-12T12:00:58.087377+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 2.194e-06,
+          "liquidity": 3934.95,
+          "volume_24h": 414279.31,
+          "captured_at": "2026-05-12T17:14:49.793428+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -11097,6 +11104,13 @@
           "volume_24h": 357221.43,
           "captured_at": "2026-05-12T12:00:58.087377+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 1.292e-06,
+          "liquidity": 2464.85,
+          "volume_24h": 365507.29,
+          "captured_at": "2026-05-12T17:14:49.793428+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -11153,7 +11167,15 @@
       "detection_price": 0.0007132,
       "detection_liq": 72507.1,
       "peak_price": 0.0007132,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0006615,
+          "liquidity": 70069.41,
+          "volume_24h": 1057619.7,
+          "captured_at": "2026-05-12T17:14:49.793428+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -11166,6 +11188,40 @@
       "detection_price": 0.0006244,
       "detection_liq": 66102.76,
       "peak_price": 0.0006244,
+      "captures": {
+        "price_1h": {
+          "price": 0.000611,
+          "liquidity": 65592.87,
+          "volume_24h": 556008.82,
+          "captured_at": "2026-05-12T17:14:49.793428+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:F46zu5mJaZ5gudz1QVXJvMcxttD5QrgDiUr9f7xYRHDm": {
+      "chain": "solana",
+      "pair_address": "F46zu5mJaZ5gudz1QVXJvMcxttD5QrgDiUr9f7xYRHDm",
+      "symbol": "SNIPER",
+      "tier": "T1",
+      "detection_time": "2026-05-12T17:14:33.838084+00:00",
+      "detection_price": 8.159e-05,
+      "detection_liq": 23910.5,
+      "peak_price": 8.159e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3e4HhWaa6fT9Kitx1mJUfLSA9wSyJP2WL6cubeUXPEFj": {
+      "chain": "solana",
+      "pair_address": "3e4HhWaa6fT9Kitx1mJUfLSA9wSyJP2WL6cubeUXPEFj",
+      "symbol": "YENJI",
+      "tier": "T1",
+      "detection_time": "2026-05-12T17:14:38.587974+00:00",
+      "detection_price": 0.0002659,
+      "detection_liq": 44436.77,
+      "peak_price": 0.0002659,
       "captures": {},
       "outcome_label": null,
       "completed": false
