@@ -1041,8 +1041,8 @@
       "peak_safety": 9
     },
     "solana:E9Pq8h8CN2cK3uZxsQ6LhkwGbyaAnLgAh4YwczNqdU3f": {
-      "peak_liq": 146092.19,
-      "peak_vol": 1238641.38,
+      "peak_liq": 153651.02,
+      "peak_vol": 1611484.5,
       "peak_safety": 10
     },
     "solana:YB8NetRaRj1wcT3bLPnhmHhkoPvBfEXyxTYW6bfjb5D": {
@@ -2846,7 +2846,7 @@
       "peak_safety": 10
     },
     "solana:rSyt64cs33cvfqXQ2KvnY13A7isRkkE3DBMUc8T9PL8": {
-      "peak_liq": 65118.25,
+      "peak_liq": 126377.1,
       "peak_vol": 1525769.68,
       "peak_safety": 10
     },
@@ -6816,8 +6816,8 @@
       "peak_safety": 10
     },
     "solana:2eANFKpX8TLDjCk8fFwf77UjBCt7XFpBQEjFqDpjrfXp": {
-      "peak_liq": 74130.05,
-      "peak_vol": 226031.61,
+      "peak_liq": 93791.99,
+      "peak_vol": 389866.37,
       "peak_safety": 10
     },
     "ethereum:0x4fdaE80Ba5385CAc020B4aD0539873a534cdf224": {
@@ -7252,7 +7252,7 @@
     },
     "solana:4oLLAFbwJ8RYXmkUao9hmY6asRzkmPhmtm1EugnohxHJ": {
       "peak_liq": 8674.6,
-      "peak_vol": 296815.71,
+      "peak_vol": 323477.53,
       "peak_safety": 9
     },
     "solana:6Cmbd7qs5ypjJjBMLAh4ZAW8XAac8nCMeKZgZJhM8fT4": {
@@ -7387,7 +7387,17 @@
     },
     "solana:Fw1on3k1YoN6qK1eZEoU4ub2gnBwTYiPn9EMDmizieHH": {
       "peak_liq": 25463.06,
-      "peak_vol": 80665.8,
+      "peak_vol": 212698.48,
+      "peak_safety": 8
+    },
+    "solana:HM1RjkmowDB8HzyTd7uGLH18pieXayh1xPCFMAjG77ea": {
+      "peak_liq": 6587.83,
+      "peak_vol": 32498.43,
+      "peak_safety": 8
+    },
+    "solana:BphLxMGttqH5bhuv8uRMz8QQH47sG8jqbtDfFLvX3qc2": {
+      "peak_liq": 0.0,
+      "peak_vol": 33066.32,
       "peak_safety": 8
     }
   },
@@ -7397,7 +7407,7 @@
     "solana:4kNK7MsufgqiLEVzymEU6xi8NynQpEhWtatGRhzKQ7R5": 2,
     "solana:fS7dgKeV6vTb7jAYjL5HyN89igXrB2m2NaJ2NoQKNzb": 3,
     "solana:6rkqAYzXZeEboZu1gHG6Te21C7HAM6Q7krayzycvrtZr": 0,
-    "solana:6fNWjfFN6kDKybWK5PFLWqZnpTmoBAswUWvxiG3g5D2D": 1,
+    "solana:6fNWjfFN6kDKybWK5PFLWqZnpTmoBAswUWvxiG3g5D2D": 2,
     "solana:4tTgS5qCCVobM86pku9GenRUsJkzpxHXNS2w952xKC1j": 0,
     "solana:Fygf83df4BmFHPAQzhPiPXBDJLZuqjb7h4mHAV1zH1zd": 2,
     "solana:55kcmUzV47QDZdLh2SV3dPkRSyGzianRFYvEXgJdBWh6": 2,
@@ -7461,7 +7471,7 @@
     "solana:2JBXEbEfzMNZGmP8fRhsUjJQqZUDLhJzwBjvh7vBw7Df": 0,
     "solana:7iK1hum1qH7oQ54bfkE2dLAkA5T7Dw5BZhvFwWhcEP8C": 2,
     "solana:7N4zLdQcnKaEDwsnFyNFeJGnepEiAeRcK2HfD4qGtMqk": 0,
-    "solana:D2g8AAUqBzLpX7mxp6yg8v3Psau6hVc2dRLqjuaQXZyP": 8,
+    "solana:D2g8AAUqBzLpX7mxp6yg8v3Psau6hVc2dRLqjuaQXZyP": 0,
     "solana:6cPt8PUuyEBgGALg6Zu3rHvmVAYwbWmWkfYv2vah2Eoh": 1,
     "solana:4y27gTkyVF1WHioRR2PGfD5nRMxQAePU18c5vzWMeVdv": 1,
     "solana:6ZMasc48GJ4v622aca64mtJyM7oWFtDgtw6t93ZZeXSE": 0,
@@ -7600,7 +7610,7 @@
     "solana:ALCUn4TRB1FPTPbjkqvgNco7B3X53753NybxVW8eWbEF": 0,
     "solana:H9aiVc1YvsMLDE81cv2iAnjZdFVaHQHQJx5LSzMvZUpV": 1,
     "solana:CKiHaPcJo5NdMPT2sBjAYTSfAduY6cL1xyqM92sgMyXq": 0,
-    "solana:E9Pq8h8CN2cK3uZxsQ6LhkwGbyaAnLgAh4YwczNqdU3f": 3,
+    "solana:E9Pq8h8CN2cK3uZxsQ6LhkwGbyaAnLgAh4YwczNqdU3f": 0,
     "solana:YB8NetRaRj1wcT3bLPnhmHhkoPvBfEXyxTYW6bfjb5D": 0,
     "solana:F94SszMshGMPk1YWtLbrVGcnqJXsRmesdYPk3e9Sx4wT": 0,
     "solana:BNnMaHRZGgCnfAruGbqWHpco8RdrSRFGqYsviwzmcJXp": 0,
@@ -7961,7 +7971,7 @@
     "solana:Cyr9kHSVSrSepVKFMRJQWyri3XicS5VskjBzEhbEE3fJ": 2,
     "solana:5TWYpzZAhYTHaLiSCosJNLzsiDvmcPQzpqPB7KNMVZqU": 1,
     "solana:DveKmBAqzYmqMKTcSSaioVkr3oiCAWt8fJ5sjLphUhbA": 5,
-    "solana:rSyt64cs33cvfqXQ2KvnY13A7isRkkE3DBMUc8T9PL8": 1,
+    "solana:rSyt64cs33cvfqXQ2KvnY13A7isRkkE3DBMUc8T9PL8": 0,
     "solana:7nKVDCqqXgMqTXu69xaugrdSocW5qbnnjgnHT5kBYqRD": 7,
     "solana:95FRLVFi46x7cf5kGVvKouNXaktofZwB9J8seDNoa6qg": 3,
     "solana:FK88hon6N8jnZf5A4gsAxLzty43iMqKoUGarsdScJubB": 2,
@@ -8236,7 +8246,7 @@
     "solana:CoFpiwGotVhvnYMZVec3kSwsMLKjuTFQDQnnE6YCYC4L": 3,
     "solana:DpBKmAhDtdE27imBDxBuiTCV1SsNsHkaysW3VNQy4Ayz": 0,
     "solana:8cQconZFHxEnwwpS9y3os9d7fYHepRMYzZremxsWAKqW": 1,
-    "solana:4fH7PjkHi6LAazSCvhW8pxW8mpUcb92kFvpKvSp8feEq": 0,
+    "solana:4fH7PjkHi6LAazSCvhW8pxW8mpUcb92kFvpKvSp8feEq": 1,
     "solana:DHywpnh4zfdK7Q6UDhEWxoMzExHYq3HSQzVwLYXRa2qo": 1,
     "solana:83GL2g2UhGY2koyyzZUXGSbCyWDa1FNTXZKUHmStU4ZU": 1,
     "solana:G8T5Pcv91Q82n9nHvuspiq1GjCUZaYUCfieBmVWQozxx": 0,
@@ -8419,7 +8429,7 @@
     "solana:F3bP8pe11LB9Cnf3FPd7M8SEVVeiV5nddWm6JsPnRe3d": 0,
     "solana:DmQ3f9M73pWg7TTZGK34YryzS2C8XiNc1FQkMtg5iDM2": 1,
     "solana:33KztCVcrw8EuwTfQ1SNCNiSky2SuFwpxLEwLXzbFih5": 1,
-    "solana:9ZedpMs8Cf1qdkd1PDYks5XTHYR3BCZVqSQh9YoDfHVV": 0,
+    "solana:9ZedpMs8Cf1qdkd1PDYks5XTHYR3BCZVqSQh9YoDfHVV": 1,
     "solana:CkYA14uq8vn75JRqAPU6uuHWGSU71zbJ42KEfprqMbRp": 2,
     "ethereum:0x70694781a3cc3af97851EfBE2E6ADd2021e90A88": 2,
     "solana:EswyQZ6Xe2aCkb7DfCBSmPzj6gerHxLKvmvQthaW1ixm": 0,
@@ -8755,7 +8765,7 @@
     "solana:4bTtMfDuo8aCgsiZJtWFUwUHkoHCdzhXpHvR1CFvDm39": 0,
     "solana:9as1Ls48FuEmLBfKdMgLvW3vUpgZRjTrumwLFPUJwFaJ": 0,
     "solana:8fB6ooiTFHw5HT7rWRpZknVW8Fu5GmsWqqPX9yhmjDwK": 0,
-    "solana:2eANFKpX8TLDjCk8fFwf77UjBCt7XFpBQEjFqDpjrfXp": 0,
+    "solana:2eANFKpX8TLDjCk8fFwf77UjBCt7XFpBQEjFqDpjrfXp": 1,
     "ethereum:0x4fdaE80Ba5385CAc020B4aD0539873a534cdf224": 0,
     "solana:4isbX7edsTZpcmFTiSM9QCTueU59PbUAiGTND7Nn3B9g": 1,
     "solana:39jCreDffTfuvDv9kHEnq8nATEKfRVtBsuLrZPUL3KJr": 1,
@@ -8776,7 +8786,7 @@
     "solana:9vNZ3J49xpZbZJQRKdC8kkTLNzsxxDACSc5na6EuyXA3": 1,
     "solana:BbcHmH4DNq7FaU5kfcYNyU9gV5jjNnhMLqiVaXjp82re": 0,
     "solana:7nCXmdJgJenxzh3nMXckMBgoT9duNDxfeGiYR8WxKb2W": 0,
-    "solana:Bjs8DJhi5D9AfRwmU9bFu1U4AtuHV9P4EJEfbErTmHS6": 2,
+    "solana:Bjs8DJhi5D9AfRwmU9bFu1U4AtuHV9P4EJEfbErTmHS6": 0,
     "solana:HZEN6B1kP124eUG2PrWHKPUpyKsBD61z4WQAK7tATqsG": 0,
     "solana:44GJhJvGyz3oKzLF9LzN2XF7a8yrQM9ecikcjLVCUEZv": 0,
     "solana:2UmcmoiqxPDayvNKpkEX82mk2UDVAbisLbmzqrJdxqYy": 2,
@@ -8842,7 +8852,7 @@
     "solana:Esh9Xc5Df2qnbTYwjrdHzDyESvo1CJBdhbpbNhSSJX72": 0,
     "solana:8Nba1kizSXeDsH8F5nKhwLfFxjt1jkHn2hiqjgz2c8VN": 0,
     "solana:GGCqJHPWQwctBAQEHLuTrjNngwFZnyP6sAE5nM1xB9pT": 0,
-    "solana:4oLLAFbwJ8RYXmkUao9hmY6asRzkmPhmtm1EugnohxHJ": 2,
+    "solana:4oLLAFbwJ8RYXmkUao9hmY6asRzkmPhmtm1EugnohxHJ": 0,
     "solana:6Cmbd7qs5ypjJjBMLAh4ZAW8XAac8nCMeKZgZJhM8fT4": 2,
     "solana:BZ24oRW27D2CAxsAgp2SzZixhwVSRJp2d1SsrYpsHWQ7": 0,
     "solana:87tFpLA9Wi4eEo4hJei3qq1U71cd7rjmZPHcbuNc6Wq6": 0,
@@ -8869,7 +8879,9 @@
     "ethereum:0x0D2065Ccc1459798bb5B85E17a4aD68e4b167CC8": 0,
     "solana:Fcmv1n6NG3meYtvGyiA8WTomB2YDmx4yXEbvk5atpVt8": 1,
     "solana:Dd2p7iJTAczKWEK39jMDGo5ikSoL7XzoFNxfZUqBNVkM": 1,
-    "solana:Fw1on3k1YoN6qK1eZEoU4ub2gnBwTYiPn9EMDmizieHH": 1
+    "solana:Fw1on3k1YoN6qK1eZEoU4ub2gnBwTYiPn9EMDmizieHH": 2,
+    "solana:HM1RjkmowDB8HzyTd7uGLH18pieXayh1xPCFMAjG77ea": 2,
+    "solana:BphLxMGttqH5bhuv8uRMz8QQH47sG8jqbtDfFLvX3qc2": 0
   },
   "exit_alerts_sent": {}
 }
