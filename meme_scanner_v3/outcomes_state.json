@@ -11951,7 +11951,15 @@
       "detection_price": 0.0002361,
       "detection_liq": 39637.8,
       "peak_price": 0.0002361,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0001831,
+          "liquidity": 35006.18,
+          "volume_24h": 458856.2,
+          "captured_at": "2026-05-13T22:17:21.323577+00:00",
+          "hours_elapsed": 1.5
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -11963,7 +11971,28 @@
       "detection_time": "2026-05-13T20:48:17.982956+00:00",
       "detection_price": 9.03e-05,
       "detection_liq": 24460.69,
-      "peak_price": 9.03e-05,
+      "peak_price": 9.346e-05,
+      "captures": {
+        "price_1h": {
+          "price": 9.346e-05,
+          "liquidity": 24905.75,
+          "volume_24h": 289939.54,
+          "captured_at": "2026-05-13T22:17:21.323577+00:00",
+          "hours_elapsed": 1.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3JUWkJY5JPDAw8uVWj2KN4PLrWJoNcqq5tQdN179Vonh": {
+      "chain": "solana",
+      "pair_address": "3JUWkJY5JPDAw8uVWj2KN4PLrWJoNcqq5tQdN179Vonh",
+      "symbol": "USDC",
+      "tier": "T1",
+      "detection_time": "2026-05-13T22:17:13.164362+00:00",
+      "detection_price": 9.646e-05,
+      "detection_liq": 25314.1,
+      "peak_price": 9.646e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
