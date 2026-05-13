@@ -11524,6 +11524,13 @@
           "volume_24h": 1016463.69,
           "captured_at": "2026-05-13T05:37:20.382752+00:00",
           "hours_elapsed": 1.4
+        },
+        "price_6h": {
+          "price": 0.0001049,
+          "liquidity": 28681.05,
+          "volume_24h": 1207847.83,
+          "captured_at": "2026-05-13T10:33:32.137258+00:00",
+          "hours_elapsed": 6.3
         }
       },
       "outcome_label": null,
@@ -11547,6 +11554,32 @@
           "hours_elapsed": 1.8
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6CSP7f6nxstHuzPqfH3VHHWGrRESdBMbj2wFo7f4SgUS": {
+      "chain": "solana",
+      "pair_address": "6CSP7f6nxstHuzPqfH3VHHWGrRESdBMbj2wFo7f4SgUS",
+      "symbol": "MBAPEPE",
+      "tier": "T1",
+      "detection_time": "2026-05-13T10:33:12.527385+00:00",
+      "detection_price": 0.0001512,
+      "detection_liq": 32755.01,
+      "peak_price": 0.0001512,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:69vfYvsbZcgfbKiqQwSXmUHaqT2A1zuXYvWZAvzpQHVM": {
+      "chain": "solana",
+      "pair_address": "69vfYvsbZcgfbKiqQwSXmUHaqT2A1zuXYvWZAvzpQHVM",
+      "symbol": "GAYTES",
+      "tier": "T2",
+      "detection_time": "2026-05-13T10:33:20.105851+00:00",
+      "detection_price": 0.0003939,
+      "detection_liq": 76919.01,
+      "peak_price": 0.0003939,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
