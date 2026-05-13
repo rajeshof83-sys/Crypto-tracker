@@ -11643,7 +11643,15 @@
       "detection_price": 0.0003194,
       "detection_liq": 47161.27,
       "peak_price": 0.0003194,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0003114,
+          "liquidity": 46715.88,
+          "volume_24h": 631631.31,
+          "captured_at": "2026-05-13T13:30:20.922726+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -11656,7 +11664,15 @@
       "detection_price": 0.0001959,
       "detection_liq": 37685.59,
       "peak_price": 0.0001959,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 2.354e-06,
+          "liquidity": 4233.6,
+          "volume_24h": 1278630.08,
+          "captured_at": "2026-05-13T13:30:20.922726+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -11669,7 +11685,15 @@
       "detection_price": 0.0002064,
       "detection_liq": 38591.09,
       "peak_price": 0.0002064,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 7.483e-05,
+          "liquidity": 23251.48,
+          "volume_24h": 714022.34,
+          "captured_at": "2026-05-13T13:30:20.922726+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -11682,7 +11706,15 @@
       "detection_price": 0.0009451,
       "detection_liq": 93791.99,
       "peak_price": 0.0009451,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0008616,
+          "liquidity": 89118.31,
+          "volume_24h": 395169.13,
+          "captured_at": "2026-05-13T13:30:20.922726+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -11695,7 +11727,15 @@
       "detection_price": 0.0005172,
       "detection_liq": 61818.87,
       "peak_price": 0.0005172,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0003327,
+          "liquidity": 50107.67,
+          "volume_24h": 1502521.0,
+          "captured_at": "2026-05-13T13:30:20.922726+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -11707,7 +11747,28 @@
       "detection_time": "2026-05-13T12:28:29.470833+00:00",
       "detection_price": 0.000141,
       "detection_liq": 31637.44,
-      "peak_price": 0.000141,
+      "peak_price": 0.0001437,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001437,
+          "liquidity": 32119.35,
+          "volume_24h": 582398.67,
+          "captured_at": "2026-05-13T13:30:20.922726+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Be5bsntQbbQpVo4V4e2hdNRMLp2MgRdfAVZ7iwYTY5qK": {
+      "chain": "solana",
+      "pair_address": "Be5bsntQbbQpVo4V4e2hdNRMLp2MgRdfAVZ7iwYTY5qK",
+      "symbol": "CHYNA",
+      "tier": "T2",
+      "detection_time": "2026-05-13T13:29:55.853471+00:00",
+      "detection_price": 0.0001227,
+      "detection_liq": 28790.34,
+      "peak_price": 0.0001227,
       "captures": {},
       "outcome_label": null,
       "completed": false
