@@ -11992,7 +11992,28 @@
       "detection_time": "2026-05-13T22:17:13.164362+00:00",
       "detection_price": 9.646e-05,
       "detection_liq": 25314.1,
-      "peak_price": 9.646e-05,
+      "peak_price": 0.0001159,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001159,
+          "liquidity": 28600.55,
+          "volume_24h": 760070.03,
+          "captured_at": "2026-05-14T00:05:00.502625+00:00",
+          "hours_elapsed": 1.8
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6wsfW3E6WR6VxDkwm6ejmKf6s9ek8sLsSfeE5oTqAG7H": {
+      "chain": "solana",
+      "pair_address": "6wsfW3E6WR6VxDkwm6ejmKf6s9ek8sLsSfeE5oTqAG7H",
+      "symbol": "genz",
+      "tier": "T1",
+      "detection_time": "2026-05-14T00:04:52.790335+00:00",
+      "detection_price": 0.0001808,
+      "detection_liq": 37764.59,
+      "peak_price": 0.0001808,
       "captures": {},
       "outcome_label": null,
       "completed": false
