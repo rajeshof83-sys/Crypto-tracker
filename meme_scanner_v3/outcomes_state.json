@@ -12077,10 +12077,17 @@
           "volume_24h": 2186733.45,
           "captured_at": "2026-05-14T01:27:16.012367+00:00",
           "hours_elapsed": 6.5
+        },
+        "price_24h": {
+          "price": 2.42e-06,
+          "liquidity": 4488.14,
+          "volume_24h": 797561.38,
+          "captured_at": "2026-05-14T19:54:59.205254+00:00",
+          "hours_elapsed": 24.9
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:6EPEWHodabeCiLZ7boVuNY2JzDEDJoJpZ2Ck2t6mD9oU": {
       "chain": "solana",
@@ -12371,6 +12378,27 @@
       "detection_price": 9.018e-05,
       "detection_liq": 25489.45,
       "peak_price": 9.018e-05,
+      "captures": {
+        "price_1h": {
+          "price": 5.501e-05,
+          "liquidity": 20294.47,
+          "volume_24h": 872181.71,
+          "captured_at": "2026-05-14T19:54:59.205254+00:00",
+          "hours_elapsed": 1.6
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:qPkF2ZXi1AKtWZyKJMx5rXTudpQ2XDZ4znUbTvkVoLQ": {
+      "chain": "solana",
+      "pair_address": "qPkF2ZXi1AKtWZyKJMx5rXTudpQ2XDZ4znUbTvkVoLQ",
+      "symbol": "Toly",
+      "tier": "T1",
+      "detection_time": "2026-05-14T19:54:46.582176+00:00",
+      "detection_price": 0.0001678,
+      "detection_liq": 33952.9,
+      "peak_price": 0.0001678,
       "captures": {},
       "outcome_label": null,
       "completed": false
