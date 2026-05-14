@@ -12116,6 +12116,58 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:BPsUADnQtsFnKDbTvthdKfChve3PU5XFB2FGvLsoztWo": {
+      "chain": "solana",
+      "pair_address": "BPsUADnQtsFnKDbTvthdKfChve3PU5XFB2FGvLsoztWo",
+      "symbol": "YILONG",
+      "tier": "T1",
+      "detection_time": "2026-05-14T10:23:17.381112+00:00",
+      "detection_price": 0.0002097,
+      "detection_liq": 38351.69,
+      "peak_price": 0.0002097,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FTnJM33eECP6KskjVuWSHLwG6JYneAzQpj1sfm3u4ze4": {
+      "chain": "solana",
+      "pair_address": "FTnJM33eECP6KskjVuWSHLwG6JYneAzQpj1sfm3u4ze4",
+      "symbol": "MEMEART",
+      "tier": "T1",
+      "detection_time": "2026-05-14T10:23:20.443350+00:00",
+      "detection_price": 0.0001313,
+      "detection_liq": 29749.17,
+      "peak_price": 0.0001313,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2Rmf6TbwavWniQMmg4F7XWMWc5QX42ydehRy2H4yo7NP": {
+      "chain": "solana",
+      "pair_address": "2Rmf6TbwavWniQMmg4F7XWMWc5QX42ydehRy2H4yo7NP",
+      "symbol": "Rcc",
+      "tier": "T1",
+      "detection_time": "2026-05-14T10:23:23.070336+00:00",
+      "detection_price": 0.000224,
+      "detection_liq": 39790.84,
+      "peak_price": 0.000224,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2rspwqSkc7p5nnzGts7W24phFBXvtY9FUtXJZCRSrtPX": {
+      "chain": "solana",
+      "pair_address": "2rspwqSkc7p5nnzGts7W24phFBXvtY9FUtXJZCRSrtPX",
+      "symbol": "GNOCCHI",
+      "tier": "T2",
+      "detection_time": "2026-05-14T10:23:28.770894+00:00",
+      "detection_price": 0.0009115,
+      "detection_liq": 127793.39,
+      "peak_price": 0.0009115,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
