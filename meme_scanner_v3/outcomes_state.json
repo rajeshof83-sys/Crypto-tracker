@@ -8766,10 +8766,17 @@
           "volume_24h": 1917451.86,
           "captured_at": "2026-05-08T11:59:39.574134+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 8.054e-06,
+          "liquidity": 8289.14,
+          "volume_24h": 1978.72,
+          "captured_at": "2026-05-14T12:11:59.869382+00:00",
+          "hours_elapsed": 168.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "winner",
+      "completed": true
     },
     "ethereum:0x33153c9aCE1bA7A7dD077948044C3DD189B27892": {
       "chain": "ethereum",
@@ -12147,7 +12154,15 @@
       "detection_price": 0.0002097,
       "detection_liq": 38351.69,
       "peak_price": 0.0002097,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0001642,
+          "liquidity": 34322.67,
+          "volume_24h": 861642.87,
+          "captured_at": "2026-05-14T12:11:59.869382+00:00",
+          "hours_elapsed": 1.8
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -12159,8 +12174,16 @@
       "detection_time": "2026-05-14T10:23:20.443350+00:00",
       "detection_price": 0.0001313,
       "detection_liq": 29749.17,
-      "peak_price": 0.0001313,
-      "captures": {},
+      "peak_price": 0.0001732,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001732,
+          "liquidity": 34310.6,
+          "volume_24h": 372161.21,
+          "captured_at": "2026-05-14T12:11:59.869382+00:00",
+          "hours_elapsed": 1.8
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -12173,7 +12196,15 @@
       "detection_price": 0.000224,
       "detection_liq": 39790.84,
       "peak_price": 0.000224,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0001326,
+          "liquidity": 31105.23,
+          "volume_24h": 1129449.42,
+          "captured_at": "2026-05-14T12:11:59.869382+00:00",
+          "hours_elapsed": 1.8
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -12186,6 +12217,27 @@
       "detection_price": 0.0009115,
       "detection_liq": 127793.39,
       "peak_price": 0.0009115,
+      "captures": {
+        "price_1h": {
+          "price": 3.434e-05,
+          "liquidity": 25075.4,
+          "volume_24h": 785921.62,
+          "captured_at": "2026-05-14T12:11:59.869382+00:00",
+          "hours_elapsed": 1.8
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:34UtPx3zyYfC5GVqDXWJqLf77BU5Ebb6o3C2XynpKtzL": {
+      "chain": "solana",
+      "pair_address": "34UtPx3zyYfC5GVqDXWJqLf77BU5Ebb6o3C2XynpKtzL",
+      "symbol": "BABYTROLL",
+      "tier": "T2",
+      "detection_time": "2026-05-14T12:11:48.433229+00:00",
+      "detection_price": 0.0008895,
+      "detection_liq": 93166.67,
+      "peak_price": 0.0008895,
       "captures": {},
       "outcome_label": null,
       "completed": false
