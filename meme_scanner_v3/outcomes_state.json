@@ -9515,10 +9515,17 @@
           "volume_24h": 2507342.48,
           "captured_at": "2026-05-09T11:13:23.935815+00:00",
           "hours_elapsed": 24.3
+        },
+        "price_7d": {
+          "price": 6.645e-06,
+          "liquidity": 7973.37,
+          "volume_24h": 1031.88,
+          "captured_at": "2026-05-15T11:00:24.208196+00:00",
+          "hours_elapsed": 168.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:DrHhahAqhDBjvEbMqFeVR6kikqCecLaqxVWUW9kQJvpB": {
       "chain": "solana",
@@ -12692,8 +12699,16 @@
       "detection_time": "2026-05-15T09:50:40.604098+00:00",
       "detection_price": 0.0002281,
       "detection_liq": 39620.38,
-      "peak_price": 0.0002281,
-      "captures": {},
+      "peak_price": 0.0004023,
+      "captures": {
+        "price_1h": {
+          "price": 0.0004023,
+          "liquidity": 53095.4,
+          "volume_24h": 656363.15,
+          "captured_at": "2026-05-15T11:00:24.208196+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -12705,7 +12720,41 @@
       "detection_time": "2026-05-15T09:50:43.489936+00:00",
       "detection_price": 0.0001315,
       "detection_liq": 29748.38,
-      "peak_price": 0.0001315,
+      "peak_price": 0.0001812,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001812,
+          "liquidity": 35178.84,
+          "volume_24h": 392030.21,
+          "captured_at": "2026-05-15T11:00:24.208196+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DyQr36mqCpTJVhsiQ2CNFqH9GGiRFJ7MRcNBkRLWxk9D": {
+      "chain": "solana",
+      "pair_address": "DyQr36mqCpTJVhsiQ2CNFqH9GGiRFJ7MRcNBkRLWxk9D",
+      "symbol": "USEC",
+      "tier": "T1",
+      "detection_time": "2026-05-15T11:00:09.859267+00:00",
+      "detection_price": 0.0003026,
+      "detection_liq": 46702.55,
+      "peak_price": 0.0003026,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:WALfcgckUtMxeBwdtnbEBf9Rns5YngCUcajXQE37TLB": {
+      "chain": "solana",
+      "pair_address": "WALfcgckUtMxeBwdtnbEBf9Rns5YngCUcajXQE37TLB",
+      "symbol": "RABBIT",
+      "tier": "T1",
+      "detection_time": "2026-05-15T11:00:14.985726+00:00",
+      "detection_price": 0.0001507,
+      "detection_liq": 31910.01,
+      "peak_price": 0.0001507,
       "captures": {},
       "outcome_label": null,
       "completed": false
