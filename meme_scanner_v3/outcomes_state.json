@@ -9879,10 +9879,17 @@
           "volume_24h": 131157.86,
           "captured_at": "2026-05-09T23:26:19.290534+00:00",
           "hours_elapsed": 24.2
+        },
+        "price_7d": {
+          "price": 0.000301,
+          "liquidity": 50697.51,
+          "volume_24h": 68277.29,
+          "captured_at": "2026-05-15T23:13:11.614952+00:00",
+          "hours_elapsed": 168.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:AETNSFFm3e8yBRQSCnMZBhyPcjLvQHmyZgQGhWn6MCTr": {
       "chain": "solana",
@@ -13141,6 +13148,19 @@
       "detection_price": 6.968e-05,
       "detection_liq": 21988.9,
       "peak_price": 6.968e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8zgAtnhnitUDx4Y4HSpyBTFgPYto6hpnNTDcpnvHFFSa": {
+      "chain": "solana",
+      "pair_address": "8zgAtnhnitUDx4Y4HSpyBTFgPYto6hpnNTDcpnvHFFSa",
+      "symbol": "BABYWOJAK",
+      "tier": "T1",
+      "detection_time": "2026-05-15T23:12:58.269496+00:00",
+      "detection_price": 0.000139,
+      "detection_liq": 30302.88,
+      "peak_price": 0.000139,
       "captures": {},
       "outcome_label": null,
       "completed": false
