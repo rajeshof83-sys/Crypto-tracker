@@ -9634,10 +9634,17 @@
           "volume_24h": 7965837.65,
           "captured_at": "2026-05-09T14:08:56.977631+00:00",
           "hours_elapsed": 24.2
+        },
+        "price_7d": {
+          "price": 3.998e-05,
+          "liquidity": 21087.77,
+          "volume_24h": 33977.7,
+          "captured_at": "2026-05-15T14:15:13.986742+00:00",
+          "hours_elapsed": 168.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "moon",
+      "completed": true
     },
     "solana:EK4syJXm8sHo2AGvDgNQUmL1fNhdTH44q5AQbu91saQt": {
       "chain": "solana",
@@ -12812,7 +12819,15 @@
       "detection_price": 0.0002611,
       "detection_liq": 41809.33,
       "peak_price": 0.0002611,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0001886,
+          "liquidity": 35625.47,
+          "volume_24h": 633678.07,
+          "captured_at": "2026-05-15T14:15:13.986742+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -12825,6 +12840,27 @@
       "detection_price": 0.0002739,
       "detection_liq": 43871.17,
       "peak_price": 0.0002739,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001819,
+          "liquidity": 35786.19,
+          "volume_24h": 711797.3,
+          "captured_at": "2026-05-15T14:15:13.986742+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:BMz2ifgF5sGoMi7wX1wdCJtFnVnmWaexGHnkVcgJQvgS": {
+      "chain": "solana",
+      "pair_address": "BMz2ifgF5sGoMi7wX1wdCJtFnVnmWaexGHnkVcgJQvgS",
+      "symbol": "HUANG",
+      "tier": "T1",
+      "detection_time": "2026-05-15T14:15:03.515231+00:00",
+      "detection_price": 0.0007323,
+      "detection_liq": 74046.32,
+      "peak_price": 0.0007323,
       "captures": {},
       "outcome_label": null,
       "completed": false
