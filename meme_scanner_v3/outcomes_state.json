@@ -9368,10 +9368,17 @@
           "volume_24h": 669616.31,
           "captured_at": "2026-05-09T08:59:03.833199+00:00",
           "hours_elapsed": 24.0
+        },
+        "price_7d": {
+          "price": 7.624e-06,
+          "liquidity": 7386.99,
+          "volume_24h": 1704.53,
+          "captured_at": "2026-05-15T09:50:51.508414+00:00",
+          "hours_elapsed": 168.9
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:CdDRHa66xTcF5yCtSZ9hFFWnKtgpc2ifrcVA6xHc594a": {
       "chain": "solana",
@@ -12630,6 +12637,40 @@
       "detection_price": 6.14e-05,
       "detection_liq": 20021.24,
       "peak_price": 6.14e-05,
+      "captures": {
+        "price_1h": {
+          "price": 3.921e-05,
+          "liquidity": 15994.56,
+          "volume_24h": 106841.79,
+          "captured_at": "2026-05-15T09:50:51.508414+00:00",
+          "hours_elapsed": 1.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Dt1carJXP7PZwHmABAYPvpgw1NkM76vZwHjBBjdPkPQC": {
+      "chain": "solana",
+      "pair_address": "Dt1carJXP7PZwHmABAYPvpgw1NkM76vZwHjBBjdPkPQC",
+      "symbol": "Ebola",
+      "tier": "T1",
+      "detection_time": "2026-05-15T09:50:40.604098+00:00",
+      "detection_price": 0.0002281,
+      "detection_liq": 39620.38,
+      "peak_price": 0.0002281,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EhjBqq4oyGg5RToNNWR4z8ntwvTGLkogWHEbX8pBcPP7": {
+      "chain": "solana",
+      "pair_address": "EhjBqq4oyGg5RToNNWR4z8ntwvTGLkogWHEbX8pBcPP7",
+      "symbol": "MAZE",
+      "tier": "T1",
+      "detection_time": "2026-05-15T09:50:43.489936+00:00",
+      "detection_price": 0.0001315,
+      "detection_liq": 29748.38,
+      "peak_price": 0.0001315,
       "captures": {},
       "outcome_label": null,
       "completed": false
