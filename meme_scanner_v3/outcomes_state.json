@@ -9592,10 +9592,17 @@
           "volume_24h": 4489803.86,
           "captured_at": "2026-05-09T13:25:24.521464+00:00",
           "hours_elapsed": 24.5
+        },
+        "price_7d": {
+          "price": 0.0007829,
+          "liquidity": 147934.43,
+          "volume_24h": 69417.86,
+          "captured_at": "2026-05-15T13:05:52.421190+00:00",
+          "hours_elapsed": 168.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:J6hybSEsywufv8frkQiwU3hKDU9fb3pwynCFSA14sxTu": {
       "chain": "solana",
@@ -12679,6 +12686,13 @@
           "volume_24h": 1003366.83,
           "captured_at": "2026-05-15T08:22:16.398912+00:00",
           "hours_elapsed": 1.4
+        },
+        "price_6h": {
+          "price": 4.733e-06,
+          "liquidity": 6076.35,
+          "volume_24h": 1527616.03,
+          "captured_at": "2026-05-15T13:05:52.421190+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -12786,6 +12800,32 @@
           "hours_elapsed": 1.3
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:BDYB8wTm4BhJputgmt4tPLYqt2KpSD23deTop3S5EsCe": {
+      "chain": "solana",
+      "pair_address": "BDYB8wTm4BhJputgmt4tPLYqt2KpSD23deTop3S5EsCe",
+      "symbol": "Marvin",
+      "tier": "T1",
+      "detection_time": "2026-05-15T13:05:27.268907+00:00",
+      "detection_price": 0.0002611,
+      "detection_liq": 41809.33,
+      "peak_price": 0.0002611,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2fvgdpF9wbU1ikYNtCkpU4HFNwpBGeZ9XWDsD94SbVjG": {
+      "chain": "solana",
+      "pair_address": "2fvgdpF9wbU1ikYNtCkpU4HFNwpBGeZ9XWDsD94SbVjG",
+      "symbol": "MICHAEL",
+      "tier": "T2",
+      "detection_time": "2026-05-15T13:05:34.578987+00:00",
+      "detection_price": 0.0002739,
+      "detection_liq": 43871.17,
+      "peak_price": 0.0002739,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
