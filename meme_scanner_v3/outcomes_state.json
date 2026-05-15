@@ -12580,7 +12580,28 @@
       "detection_time": "2026-05-15T05:30:51.084409+00:00",
       "detection_price": 6.315e-05,
       "detection_liq": 21026.47,
-      "peak_price": 6.315e-05,
+      "peak_price": 9.226e-05,
+      "captures": {
+        "price_1h": {
+          "price": 9.226e-05,
+          "liquidity": 25932.04,
+          "volume_24h": 727268.72,
+          "captured_at": "2026-05-15T06:59:21.678076+00:00",
+          "hours_elapsed": 1.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:12md7aS1QVrWWbXPwSDvEPeX2AvNAPEdbG1AdbCiKB4j": {
+      "chain": "solana",
+      "pair_address": "12md7aS1QVrWWbXPwSDvEPeX2AvNAPEdbG1AdbCiKB4j",
+      "symbol": "LastDance",
+      "tier": "T1",
+      "detection_time": "2026-05-15T06:59:10.328610+00:00",
+      "detection_price": 0.0001399,
+      "detection_liq": 30664.6,
+      "peak_price": 0.0001399,
       "captures": {},
       "outcome_label": null,
       "completed": false
