@@ -12608,7 +12608,28 @@
       "detection_time": "2026-05-15T06:59:10.328610+00:00",
       "detection_price": 0.0001399,
       "detection_liq": 30664.6,
-      "peak_price": 0.0001399,
+      "peak_price": 0.0001894,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001894,
+          "liquidity": 37353.58,
+          "volume_24h": 1003366.83,
+          "captured_at": "2026-05-15T08:22:16.398912+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:BR8NbWrDM3u82esa7wiJXZRX6z7FtCttLkoyKq4B7fK9": {
+      "chain": "solana",
+      "pair_address": "BR8NbWrDM3u82esa7wiJXZRX6z7FtCttLkoyKq4B7fK9",
+      "symbol": "YUNO",
+      "tier": "T2",
+      "detection_time": "2026-05-15T08:22:03.101103+00:00",
+      "detection_price": 6.14e-05,
+      "detection_liq": 20021.24,
+      "peak_price": 6.14e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
