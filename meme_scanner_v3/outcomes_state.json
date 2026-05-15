@@ -12433,7 +12433,7 @@
       "detection_time": "2026-05-14T18:17:54.543062+00:00",
       "detection_price": 9.018e-05,
       "detection_liq": 25489.45,
-      "peak_price": 9.018e-05,
+      "peak_price": 0.000131,
       "captures": {
         "price_1h": {
           "price": 5.501e-05,
@@ -12441,6 +12441,13 @@
           "volume_24h": 872181.71,
           "captured_at": "2026-05-14T19:54:59.205254+00:00",
           "hours_elapsed": 1.6
+        },
+        "price_6h": {
+          "price": 0.000131,
+          "liquidity": 31700.88,
+          "volume_24h": 1072347.33,
+          "captured_at": "2026-05-15T01:22:20.185167+00:00",
+          "hours_elapsed": 7.1
         }
       },
       "outcome_label": null,
@@ -12485,6 +12492,19 @@
           "hours_elapsed": 1.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HsGQtF2rLi7GmiiP4pQJFitVped3Mzbf2ubaqDVX77Pj": {
+      "chain": "solana",
+      "pair_address": "HsGQtF2rLi7GmiiP4pQJFitVped3Mzbf2ubaqDVX77Pj",
+      "symbol": "Investment",
+      "tier": "T1",
+      "detection_time": "2026-05-15T01:22:08.544669+00:00",
+      "detection_price": 6.984e-05,
+      "detection_liq": 22012.4,
+      "peak_price": 6.984e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
