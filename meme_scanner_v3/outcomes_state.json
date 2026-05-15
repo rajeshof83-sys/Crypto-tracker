@@ -9304,7 +9304,7 @@
       "detection_time": "2026-05-08T04:38:43.260788+00:00",
       "detection_price": 0.0001659,
       "detection_liq": 37394.56,
-      "peak_price": 0.0002695,
+      "peak_price": 0.0003393,
       "captures": {
         "price_1h": {
           "price": 0.0002695,
@@ -9326,10 +9326,17 @@
           "volume_24h": 432324.27,
           "captured_at": "2026-05-09T04:51:08.659252+00:00",
           "hours_elapsed": 24.2
+        },
+        "price_7d": {
+          "price": 0.0003393,
+          "liquidity": 58985.49,
+          "volume_24h": 326881.36,
+          "captured_at": "2026-05-15T05:31:03.050341+00:00",
+          "hours_elapsed": 168.9
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "winner",
+      "completed": true
     },
     "solana:mSyw81ZhLtY5XmRsStCgbhB9YeUtaQ1a2aBrCfk9D1W": {
       "chain": "solana",
@@ -12511,6 +12518,13 @@
           "volume_24h": 231484.06,
           "captured_at": "2026-05-15T00:01:40.516791+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 0.0003102,
+          "liquidity": 38705.86,
+          "volume_24h": 201511.23,
+          "captured_at": "2026-05-15T05:31:03.050341+00:00",
+          "hours_elapsed": 6.5
         }
       },
       "outcome_label": null,
@@ -12545,7 +12559,28 @@
       "detection_time": "2026-05-15T03:51:02.392314+00:00",
       "detection_price": 6.108e-05,
       "detection_liq": 20485.0,
-      "peak_price": 6.108e-05,
+      "peak_price": 7.599e-05,
+      "captures": {
+        "price_1h": {
+          "price": 7.599e-05,
+          "liquidity": 23086.6,
+          "volume_24h": 496048.17,
+          "captured_at": "2026-05-15T05:31:03.050341+00:00",
+          "hours_elapsed": 1.7
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CXLnKtCzbdgtdH94LUwgiNkdB6esa6ry2Vqrdi1DVfhm": {
+      "chain": "solana",
+      "pair_address": "CXLnKtCzbdgtdH94LUwgiNkdB6esa6ry2Vqrdi1DVfhm",
+      "symbol": "Dust",
+      "tier": "T1",
+      "detection_time": "2026-05-15T05:30:51.084409+00:00",
+      "detection_price": 6.315e-05,
+      "detection_liq": 21026.47,
+      "peak_price": 6.315e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
