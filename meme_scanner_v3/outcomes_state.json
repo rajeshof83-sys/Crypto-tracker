@@ -10137,7 +10137,7 @@
       "detection_time": "2026-05-09T07:25:32.189206+00:00",
       "detection_price": 7.215e-05,
       "detection_liq": 22395.79,
-      "peak_price": 0.0002277,
+      "peak_price": 0.0002438,
       "captures": {
         "price_1h": {
           "price": 6.113e-05,
@@ -10159,10 +10159,17 @@
           "volume_24h": 299447.96,
           "captured_at": "2026-05-10T07:39:42.440537+00:00",
           "hours_elapsed": 24.2
+        },
+        "price_7d": {
+          "price": 0.0002438,
+          "liquidity": 43104.64,
+          "volume_24h": 166821.85,
+          "captured_at": "2026-05-16T07:31:49.970903+00:00",
+          "hours_elapsed": 168.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "moon",
+      "completed": true
     },
     "solana:8kvj8Zyrbm4QZaXdjQQREEkHFJ7CcwEHR2FpoQ5j3SCp": {
       "chain": "solana",
@@ -12812,10 +12819,17 @@
           "volume_24h": 1527616.03,
           "captured_at": "2026-05-15T13:05:52.421190+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 3.265e-06,
+          "liquidity": 4962.69,
+          "volume_24h": 1018088.01,
+          "captured_at": "2026-05-16T07:31:49.970903+00:00",
+          "hours_elapsed": 24.5
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:BR8NbWrDM3u82esa7wiJXZRX6z7FtCttLkoyKq4B7fK9": {
       "chain": "solana",
@@ -13325,6 +13339,19 @@
           "hours_elapsed": 1.5
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "base:0xef9d90806b051a68d8ffbdfdceb6acdd7491180562651dd2bcaf0c4d2fe550da": {
+      "chain": "base",
+      "pair_address": "0xef9d90806b051a68d8ffbdfdceb6acdd7491180562651dd2bcaf0c4d2fe550da",
+      "symbol": "VVVKernel",
+      "tier": "T2",
+      "detection_time": "2026-05-16T07:31:37.185707+00:00",
+      "detection_price": 2.504e-06,
+      "detection_liq": 135185.03,
+      "peak_price": 2.504e-06,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
