@@ -13106,10 +13106,17 @@
           "volume_24h": 3282555.54,
           "captured_at": "2026-05-15T20:18:07.129059+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 3.608e-06,
+          "liquidity": 5673.76,
+          "volume_24h": 3489610.67,
+          "captured_at": "2026-05-16T14:41:25.922170+00:00",
+          "hours_elapsed": 24.4
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:4xEiGE2t6rDRotRn27vE4Z97vtBo9wXdyphwaooNBpPV": {
       "chain": "solana",
@@ -13486,6 +13493,19 @@
           "hours_elapsed": 1.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:E5NJ6DHtf5r48AaYAbZcQMHJuaHM1fby4fQKbdhrdqiq": {
+      "chain": "solana",
+      "pair_address": "E5NJ6DHtf5r48AaYAbZcQMHJuaHM1fby4fQKbdhrdqiq",
+      "symbol": "Schr\u00f6dinger",
+      "tier": "T1",
+      "detection_time": "2026-05-16T14:41:13.405954+00:00",
+      "detection_price": 0.0001243,
+      "detection_liq": 29347.32,
+      "peak_price": 0.0001243,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
