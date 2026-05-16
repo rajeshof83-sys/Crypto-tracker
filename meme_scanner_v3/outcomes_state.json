@@ -13512,6 +13512,27 @@
       "detection_price": 0.0001243,
       "detection_liq": 29347.32,
       "peak_price": 0.0001243,
+      "captures": {
+        "price_1h": {
+          "price": 2.411e-05,
+          "liquidity": 13116.39,
+          "volume_24h": 1029451.15,
+          "captured_at": "2026-05-16T15:43:44.749570+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "ethereum:0xfBa131a9066ACc291b0e5E24D2e99614bf73799a": {
+      "chain": "ethereum",
+      "pair_address": "0xfBa131a9066ACc291b0e5E24D2e99614bf73799a",
+      "symbol": "Schr\u00f6dinger",
+      "tier": "T1",
+      "detection_time": "2026-05-16T15:43:33.718347+00:00",
+      "detection_price": 1.318e-07,
+      "detection_liq": 26816.8,
+      "peak_price": 1.318e-07,
       "captures": {},
       "outcome_label": null,
       "completed": false
