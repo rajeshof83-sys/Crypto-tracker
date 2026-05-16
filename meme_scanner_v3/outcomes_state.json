@@ -13658,7 +13658,7 @@
       "detection_time": "2026-05-16T17:43:03.544238+00:00",
       "detection_price": 0.0001169,
       "detection_liq": 27162.03,
-      "peak_price": 0.0001169,
+      "peak_price": 0.0001377,
       "captures": {
         "price_1h": {
           "price": 0.0001075,
@@ -13666,6 +13666,13 @@
           "volume_24h": 357214.47,
           "captured_at": "2026-05-16T18:43:42.771316+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 0.0001377,
+          "liquidity": 30309.97,
+          "volume_24h": 643032.73,
+          "captured_at": "2026-05-16T23:57:45.883486+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -13722,6 +13729,27 @@
       "detection_price": 0.0004821,
       "detection_liq": 49977.22,
       "peak_price": 0.0004821,
+      "captures": {
+        "price_1h": {
+          "price": 0.0004487,
+          "liquidity": 48212.85,
+          "volume_24h": 268666.49,
+          "captured_at": "2026-05-16T23:57:45.883486+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:ETMhxtENfkMK85TAcveEbZdBv9htziWzDSddmShRP2wB": {
+      "chain": "solana",
+      "pair_address": "ETMhxtENfkMK85TAcveEbZdBv9htziWzDSddmShRP2wB",
+      "symbol": "WORLDCUP",
+      "tier": "T2",
+      "detection_time": "2026-05-16T23:57:29.932286+00:00",
+      "detection_price": 0.002407,
+      "detection_liq": 153391.94,
+      "peak_price": 0.002407,
       "captures": {},
       "outcome_label": null,
       "completed": false
