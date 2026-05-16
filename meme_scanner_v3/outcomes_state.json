@@ -13610,6 +13610,13 @@
           "volume_24h": 252572.65,
           "captured_at": "2026-05-16T17:03:16.713107+00:00",
           "hours_elapsed": 1.3
+        },
+        "price_6h": {
+          "price": 7.594e-08,
+          "liquidity": 20449.29,
+          "volume_24h": 269744.76,
+          "captured_at": "2026-05-16T21:55:01.132950+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -13645,6 +13652,27 @@
       "detection_price": 0.000126,
       "detection_liq": 28744.56,
       "peak_price": 0.000126,
+      "captures": {
+        "price_1h": {
+          "price": 8.869e-05,
+          "liquidity": 24151.98,
+          "volume_24h": 526172.75,
+          "captured_at": "2026-05-16T21:55:01.132950+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:bc4zfsbEt8wwRUKw8ZtbiGYpuHFKA36fzvULqvFLTRC": {
+      "chain": "solana",
+      "pair_address": "bc4zfsbEt8wwRUKw8ZtbiGYpuHFKA36fzvULqvFLTRC",
+      "symbol": "PizzaHut",
+      "tier": "T1",
+      "detection_time": "2026-05-16T21:54:47.506943+00:00",
+      "detection_price": 0.0001521,
+      "detection_liq": 31911.88,
+      "peak_price": 0.0001521,
       "captures": {},
       "outcome_label": null,
       "completed": false
