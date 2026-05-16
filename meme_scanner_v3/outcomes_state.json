@@ -13141,6 +13141,13 @@
           "volume_24h": 150697.94,
           "captured_at": "2026-05-15T21:19:58.848359+00:00",
           "hours_elapsed": 1.4
+        },
+        "price_6h": {
+          "price": 8.061e-05,
+          "liquidity": 23570.04,
+          "volume_24h": 154286.71,
+          "captured_at": "2026-05-16T03:35:30.621068+00:00",
+          "hours_elapsed": 7.7
         }
       },
       "outcome_label": null,
@@ -13162,6 +13169,13 @@
           "volume_24h": 574900.61,
           "captured_at": "2026-05-15T21:19:58.848359+00:00",
           "hours_elapsed": 1.4
+        },
+        "price_6h": {
+          "price": 0.0002281,
+          "liquidity": 43133.17,
+          "volume_24h": 697973.35,
+          "captured_at": "2026-05-16T03:35:30.621068+00:00",
+          "hours_elapsed": 7.7
         }
       },
       "outcome_label": null,
@@ -13206,6 +13220,32 @@
           "hours_elapsed": 2.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9xbKoYQdyR5tAhgh3EoSP55gi8nhd14GX2kfW8tjGCcK": {
+      "chain": "solana",
+      "pair_address": "9xbKoYQdyR5tAhgh3EoSP55gi8nhd14GX2kfW8tjGCcK",
+      "symbol": "WANTED",
+      "tier": "T1",
+      "detection_time": "2026-05-16T03:35:18.825241+00:00",
+      "detection_price": 0.0002652,
+      "detection_liq": 42864.99,
+      "peak_price": 0.0002652,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HYsykp4xYvQpewPFEuTJxLn5jJehRsEjk7aMprUGtMLH": {
+      "chain": "solana",
+      "pair_address": "HYsykp4xYvQpewPFEuTJxLn5jJehRsEjk7aMprUGtMLH",
+      "symbol": "Twerk",
+      "tier": "T1",
+      "detection_time": "2026-05-16T03:35:21.578203+00:00",
+      "detection_price": 0.0001421,
+      "detection_liq": 30475.49,
+      "peak_price": 0.0001421,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
