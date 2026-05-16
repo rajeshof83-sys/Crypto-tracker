@@ -13295,6 +13295,13 @@
           "volume_24h": 154286.71,
           "captured_at": "2026-05-16T03:35:30.621068+00:00",
           "hours_elapsed": 7.7
+        },
+        "price_24h": {
+          "price": 6.154e-05,
+          "liquidity": 20359.47,
+          "volume_24h": 51692.83,
+          "captured_at": "2026-05-16T20:54:48.695682+00:00",
+          "hours_elapsed": 25.0
         }
       },
       "outcome_label": null,
@@ -13323,6 +13330,13 @@
           "volume_24h": 697973.35,
           "captured_at": "2026-05-16T03:35:30.621068+00:00",
           "hours_elapsed": 7.7
+        },
+        "price_24h": {
+          "price": 0.0002166,
+          "liquidity": 41797.6,
+          "volume_24h": 296521.92,
+          "captured_at": "2026-05-16T20:54:48.695682+00:00",
+          "hours_elapsed": 25.0
         }
       },
       "outcome_label": null,
@@ -13568,6 +13582,13 @@
           "volume_24h": 1029451.15,
           "captured_at": "2026-05-16T15:43:44.749570+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 1.531e-05,
+          "liquidity": 10472.12,
+          "volume_24h": 1071312.11,
+          "captured_at": "2026-05-16T20:54:48.695682+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -13612,6 +13633,19 @@
           "hours_elapsed": 1.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Dk2QeqDaGTdvLzFECXyPA6rj79L3MLadSUW3AvKNjY7D": {
+      "chain": "solana",
+      "pair_address": "Dk2QeqDaGTdvLzFECXyPA6rj79L3MLadSUW3AvKNjY7D",
+      "symbol": "Tiles",
+      "tier": "T1",
+      "detection_time": "2026-05-16T20:54:38.219070+00:00",
+      "detection_price": 0.000126,
+      "detection_liq": 28744.56,
+      "peak_price": 0.000126,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
