@@ -13750,6 +13750,40 @@
       "detection_price": 0.002407,
       "detection_liq": 153391.94,
       "peak_price": 0.002407,
+      "captures": {
+        "price_1h": {
+          "price": 0.002252,
+          "liquidity": 147998.06,
+          "volume_24h": 577906.06,
+          "captured_at": "2026-05-17T01:25:18.747219+00:00",
+          "hours_elapsed": 1.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6RQTgY3yHCWARVAnPVrCGbWavoo4RRHWWbBs2snawNSw": {
+      "chain": "solana",
+      "pair_address": "6RQTgY3yHCWARVAnPVrCGbWavoo4RRHWWbBs2snawNSw",
+      "symbol": "\u8c46\u8c46",
+      "tier": "T1",
+      "detection_time": "2026-05-17T01:25:01.126933+00:00",
+      "detection_price": 9.678e-05,
+      "detection_liq": 24653.49,
+      "peak_price": 9.678e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8h6UGggBSyJyk3CBbJMrj22NHxLCvuU2fdYivrK2wRwy": {
+      "chain": "solana",
+      "pair_address": "8h6UGggBSyJyk3CBbJMrj22NHxLCvuU2fdYivrK2wRwy",
+      "symbol": "SIDNEETITS",
+      "tier": "T1",
+      "detection_time": "2026-05-17T01:25:04.126895+00:00",
+      "detection_price": 0.0001508,
+      "detection_liq": 30839.22,
+      "peak_price": 0.0001508,
       "captures": {},
       "outcome_label": null,
       "completed": false
