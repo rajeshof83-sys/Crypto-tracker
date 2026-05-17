@@ -14190,7 +14190,41 @@
       "detection_time": "2026-05-17T22:27:49.747133+00:00",
       "detection_price": 6.858e-05,
       "detection_liq": 20946.79,
-      "peak_price": 6.858e-05,
+      "peak_price": 8.575e-05,
+      "captures": {
+        "price_1h": {
+          "price": 8.575e-05,
+          "liquidity": 23891.99,
+          "volume_24h": 626566.52,
+          "captured_at": "2026-05-17T23:31:28.817162+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GEF9WdZj9UzsMnNViGiRFqMYtxzHNQF5kwts9eMYHh6d": {
+      "chain": "solana",
+      "pair_address": "GEF9WdZj9UzsMnNViGiRFqMYtxzHNQF5kwts9eMYHh6d",
+      "symbol": "TINY",
+      "tier": "T2",
+      "detection_time": "2026-05-17T23:31:10.564945+00:00",
+      "detection_price": 7.43e-05,
+      "detection_liq": 22548.34,
+      "peak_price": 7.43e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9d2TqWXFZ9qK2swFQW2jHGsKw83uyXsEVcAj7Ls2ru4P": {
+      "chain": "solana",
+      "pair_address": "9d2TqWXFZ9qK2swFQW2jHGsKw83uyXsEVcAj7Ls2ru4P",
+      "symbol": "MeaslesVirus",
+      "tier": "T1",
+      "detection_time": "2026-05-17T23:31:14.158315+00:00",
+      "detection_price": 0.0005882,
+      "detection_liq": 62280.13,
+      "peak_price": 0.0005882,
       "captures": {},
       "outcome_label": null,
       "completed": false
