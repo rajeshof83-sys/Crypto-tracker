@@ -14114,6 +14114,27 @@
       "detection_price": 3.362e-06,
       "detection_liq": 159420.98,
       "peak_price": 3.362e-06,
+      "captures": {
+        "price_1h": {
+          "price": 2.418e-06,
+          "liquidity": 133242.79,
+          "volume_24h": 487995.76,
+          "captured_at": "2026-05-17T21:29:02.610173+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8rmLaMKzV5LQV6WbXY3Z46KyzChmHttXr7KpwNTDVYPk": {
+      "chain": "solana",
+      "pair_address": "8rmLaMKzV5LQV6WbXY3Z46KyzChmHttXr7KpwNTDVYPk",
+      "symbol": "BOZZY",
+      "tier": "T1",
+      "detection_time": "2026-05-17T21:28:45.149520+00:00",
+      "detection_price": 6.53e-05,
+      "detection_liq": 20559.65,
+      "peak_price": 6.53e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
