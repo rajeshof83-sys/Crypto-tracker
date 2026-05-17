@@ -10803,10 +10803,17 @@
           "volume_24h": 50621.33,
           "captured_at": "2026-05-11T17:58:05.148756+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 0.02125,
+          "liquidity": 4317.51,
+          "volume_24h": 147.58,
+          "captured_at": "2026-05-17T18:05:00.066722+00:00",
+          "hours_elapsed": 168.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:7o7o53CKazgm6PbxAokGHVxJmdSFPUAtapxEDT5ysrb8": {
       "chain": "solana",
@@ -14016,7 +14023,15 @@
       "detection_price": 0.0004457,
       "detection_liq": 81469.39,
       "peak_price": 0.0004457,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0004058,
+          "liquidity": 77857.87,
+          "volume_24h": 392875.33,
+          "captured_at": "2026-05-17T18:05:00.066722+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -14029,7 +14044,15 @@
       "detection_price": 8.652e-05,
       "detection_liq": 23448.89,
       "peak_price": 8.652e-05,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 7.836e-05,
+          "liquidity": 22354.66,
+          "volume_24h": 245434.46,
+          "captured_at": "2026-05-17T18:05:00.066722+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -14041,8 +14064,16 @@
       "detection_time": "2026-05-17T17:04:15.199041+00:00",
       "detection_price": 0.002498,
       "detection_liq": 167915.14,
-      "peak_price": 0.002498,
-      "captures": {},
+      "peak_price": 0.002963,
+      "captures": {
+        "price_1h": {
+          "price": 0.002963,
+          "liquidity": 183504.28,
+          "volume_24h": 2201798.83,
+          "captured_at": "2026-05-17T18:05:00.066722+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
       "outcome_label": null,
       "completed": false
     }
