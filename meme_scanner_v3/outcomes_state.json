@@ -14086,6 +14086,27 @@
       "detection_price": 0.0001306,
       "detection_liq": 32088.73,
       "peak_price": 0.0001306,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001007,
+          "liquidity": 28233.2,
+          "volume_24h": 399249.73,
+          "captured_at": "2026-05-17T20:26:49.431594+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "base:0x38a1afb277d550485111311281a28cdfd04142d4b9df8e63e6f13c90b51af8fa": {
+      "chain": "base",
+      "pair_address": "0x38a1afb277d550485111311281a28cdfd04142d4b9df8e63e6f13c90b51af8fa",
+      "symbol": "USDP",
+      "tier": "T2",
+      "detection_time": "2026-05-17T20:26:36.631101+00:00",
+      "detection_price": 3.362e-06,
+      "detection_liq": 159420.98,
+      "peak_price": 3.362e-06,
       "captures": {},
       "outcome_label": null,
       "completed": false
