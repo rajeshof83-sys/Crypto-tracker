@@ -14352,8 +14352,28 @@
           "volume_24h": 930977.38,
           "captured_at": "2026-05-18T08:09:44.057291+00:00",
           "hours_elapsed": 2.4
+        },
+        "price_6h": {
+          "price": 2.167e-06,
+          "liquidity": 3922.23,
+          "volume_24h": 1231010.38,
+          "captured_at": "2026-05-18T12:37:09.002067+00:00",
+          "hours_elapsed": 6.8
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:D6xt7Zg2oSsDpfyzkhgQC8qvyeHssUEZJ6XWe5udUyPp": {
+      "chain": "solana",
+      "pair_address": "D6xt7Zg2oSsDpfyzkhgQC8qvyeHssUEZJ6XWe5udUyPp",
+      "symbol": "CLUTCH",
+      "tier": "T1",
+      "detection_time": "2026-05-18T12:36:52.870561+00:00",
+      "detection_price": 0.0002421,
+      "detection_liq": 39279.57,
+      "peak_price": 0.0002421,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
