@@ -11363,10 +11363,17 @@
           "volume_24h": 964490.33,
           "captured_at": "2026-05-13T04:13:58.581736+00:00",
           "hours_elapsed": 24.4
+        },
+        "price_7d": {
+          "price": 5.481e-06,
+          "liquidity": 6381.0,
+          "volume_24h": 1787.41,
+          "captured_at": "2026-05-19T04:37:07.463211+00:00",
+          "hours_elapsed": 168.8
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:FSLhbwNDTpPsR5hqFKfkDZcUqWLDjcqKhh8ujo7qC2V2": {
       "chain": "solana",
@@ -14576,6 +14583,13 @@
           "volume_24h": 422665.09,
           "captured_at": "2026-05-18T21:47:54.766091+00:00",
           "hours_elapsed": 1.6
+        },
+        "price_6h": {
+          "price": 1.046e-05,
+          "liquidity": 8202.82,
+          "volume_24h": 435338.99,
+          "captured_at": "2026-05-19T04:37:07.463211+00:00",
+          "hours_elapsed": 8.4
         }
       },
       "outcome_label": null,
@@ -14590,6 +14604,40 @@
       "detection_price": 0.0002051,
       "detection_liq": 37868.94,
       "peak_price": 0.0002051,
+      "captures": {
+        "price_1h": {
+          "price": 8.561e-05,
+          "liquidity": 24551.23,
+          "volume_24h": 1073250.31,
+          "captured_at": "2026-05-19T04:37:07.463211+00:00",
+          "hours_elapsed": 2.7
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:vjjRN75JeiuPaVGy3pNSAmKcuwcY1nGUgcLaPnWeiPs": {
+      "chain": "solana",
+      "pair_address": "vjjRN75JeiuPaVGy3pNSAmKcuwcY1nGUgcLaPnWeiPs",
+      "symbol": "INVESTOR",
+      "tier": "T1",
+      "detection_time": "2026-05-19T04:36:48.725410+00:00",
+      "detection_price": 9.671e-05,
+      "detection_liq": 24493.32,
+      "peak_price": 9.671e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:F8iUfob18Zs2PgWZQsTJ1qKcyJTfrCZoaJMToGbZyDyv": {
+      "chain": "solana",
+      "pair_address": "F8iUfob18Zs2PgWZQsTJ1qKcyJTfrCZoaJMToGbZyDyv",
+      "symbol": "GOOOOAL",
+      "tier": "T1",
+      "detection_time": "2026-05-19T04:36:51.776352+00:00",
+      "detection_price": 0.0007456,
+      "detection_liq": 70220.63,
+      "peak_price": 0.0007456,
       "captures": {},
       "outcome_label": null,
       "completed": false
