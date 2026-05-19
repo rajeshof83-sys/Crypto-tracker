@@ -14694,8 +14694,16 @@
       "detection_time": "2026-05-19T08:37:41.370513+00:00",
       "detection_price": 0.0001095,
       "detection_liq": 26220.74,
-      "peak_price": 0.0001095,
-      "captures": {},
+      "peak_price": 0.000149,
+      "captures": {
+        "price_1h": {
+          "price": 0.000149,
+          "liquidity": 31247.02,
+          "volume_24h": 623417.58,
+          "captured_at": "2026-05-19T10:28:52.561788+00:00",
+          "hours_elapsed": 1.9
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -14707,7 +14715,41 @@
       "detection_time": "2026-05-19T08:37:48.239804+00:00",
       "detection_price": 0.0001523,
       "detection_liq": 31762.71,
-      "peak_price": 0.0001523,
+      "peak_price": 0.0003044,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003044,
+          "liquidity": 45812.48,
+          "volume_24h": 999211.72,
+          "captured_at": "2026-05-19T10:28:52.561788+00:00",
+          "hours_elapsed": 1.9
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "base:0x3492F311DAF51C5085EA388CEfEe563E587f423d": {
+      "chain": "base",
+      "pair_address": "0x3492F311DAF51C5085EA388CEfEe563E587f423d",
+      "symbol": "BASESZN",
+      "tier": "T1",
+      "detection_time": "2026-05-19T10:28:37.760832+00:00",
+      "detection_price": 0.0001092,
+      "detection_liq": 27255.62,
+      "peak_price": 0.0001092,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3SFCBTXPGLxWUEWTvhF4NyKTpWUS57qaPfpEcfVheqSW": {
+      "chain": "solana",
+      "pair_address": "3SFCBTXPGLxWUEWTvhF4NyKTpWUS57qaPfpEcfVheqSW",
+      "symbol": "CRUMBS",
+      "tier": "T2",
+      "detection_time": "2026-05-19T10:28:41.173556+00:00",
+      "detection_price": 0.0001921,
+      "detection_liq": 34776.92,
+      "peak_price": 0.0001921,
       "captures": {},
       "outcome_label": null,
       "completed": false
