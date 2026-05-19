@@ -11460,7 +11460,7 @@
       "detection_time": "2026-05-12T06:41:03.343549+00:00",
       "detection_price": 0.0001167,
       "detection_liq": 28711.32,
-      "peak_price": 0.0001636,
+      "peak_price": 0.0007067,
       "captures": {
         "price_1h": {
           "price": 8.568e-05,
@@ -11482,10 +11482,17 @@
           "volume_24h": 287594.65,
           "captured_at": "2026-05-13T07:28:06.010460+00:00",
           "hours_elapsed": 24.8
+        },
+        "price_7d": {
+          "price": 0.0007067,
+          "liquidity": 71798.36,
+          "volume_24h": 321329.29,
+          "captured_at": "2026-05-19T08:38:18.451153+00:00",
+          "hours_elapsed": 170.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "moon",
+      "completed": true
     },
     "solana:5LPe6Diqp5yEYQatfueciZGveirgqaDDxeAyK6AVMV4j": {
       "chain": "solana",
@@ -14625,6 +14632,13 @@
           "volume_24h": 1073250.31,
           "captured_at": "2026-05-19T04:37:07.463211+00:00",
           "hours_elapsed": 2.7
+        },
+        "price_6h": {
+          "price": 0.0001352,
+          "liquidity": 31139.16,
+          "volume_24h": 1170717.64,
+          "captured_at": "2026-05-19T08:38:18.451153+00:00",
+          "hours_elapsed": 6.8
         }
       },
       "outcome_label": null,
@@ -14669,6 +14683,32 @@
           "hours_elapsed": 2.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AvEQy4vGHhgKZY6QR7rBbN8dupXz9HiCbar5taizetRN": {
+      "chain": "solana",
+      "pair_address": "AvEQy4vGHhgKZY6QR7rBbN8dupXz9HiCbar5taizetRN",
+      "symbol": "TROLBEY",
+      "tier": "T1",
+      "detection_time": "2026-05-19T08:37:41.370513+00:00",
+      "detection_price": 0.0001095,
+      "detection_liq": 26220.74,
+      "peak_price": 0.0001095,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:44ZSSik1nU297AdqeR2NdPnHwBcB4fHeEPaRPqMrptuE": {
+      "chain": "solana",
+      "pair_address": "44ZSSik1nU297AdqeR2NdPnHwBcB4fHeEPaRPqMrptuE",
+      "symbol": "MC",
+      "tier": "T1",
+      "detection_time": "2026-05-19T08:37:48.239804+00:00",
+      "detection_price": 0.0001523,
+      "detection_liq": 31762.71,
+      "peak_price": 0.0001523,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
