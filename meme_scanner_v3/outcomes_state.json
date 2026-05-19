@@ -14541,10 +14541,17 @@
           "volume_24h": 635126.02,
           "captured_at": "2026-05-18T18:55:06.866207+00:00",
           "hours_elapsed": 6.3
+        },
+        "price_24h": {
+          "price": 1.893e-06,
+          "liquidity": 3507.32,
+          "volume_24h": 173776.4,
+          "captured_at": "2026-05-19T13:40:51.257585+00:00",
+          "hours_elapsed": 25.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:D7qow7UTf4Qogm5kESFLW47xnw9M9pQP4TQxyuxXtU12": {
       "chain": "solana",
@@ -14795,6 +14802,19 @@
           "hours_elapsed": 1.8
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GxSKnD931QjxoHf36TrWDk8eDGoT6GaRY5kVrgTcRCiH": {
+      "chain": "solana",
+      "pair_address": "GxSKnD931QjxoHf36TrWDk8eDGoT6GaRY5kVrgTcRCiH",
+      "symbol": "LLORT",
+      "tier": "T1",
+      "detection_time": "2026-05-19T13:40:35.160280+00:00",
+      "detection_price": 0.0006544,
+      "detection_liq": 65308.5,
+      "peak_price": 0.0006544,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
