@@ -12105,10 +12105,17 @@
           "volume_24h": 285646.57,
           "captured_at": "2026-05-14T07:23:02.443270+00:00",
           "hours_elapsed": 25.8
+        },
+        "price_7d": {
+          "price": 4.708e-06,
+          "liquidity": 5545.66,
+          "volume_24h": 3374.73,
+          "captured_at": "2026-05-20T06:37:23.656788+00:00",
+          "hours_elapsed": 169.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:6CSP7f6nxstHuzPqfH3VHHWGrRESdBMbj2wFo7f4SgUS": {
       "chain": "solana",
@@ -15059,6 +15066,66 @@
       "detection_price": 0.0001093,
       "detection_liq": 26460.89,
       "peak_price": 0.0001093,
+      "captures": {
+        "price_1h": {
+          "price": 0.000105,
+          "liquidity": 26069.05,
+          "volume_24h": 266769.86,
+          "captured_at": "2026-05-20T06:37:23.656788+00:00",
+          "hours_elapsed": 2.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2muauQTab4AH7vpFwNfJbMUMGdBCN32sZurm3JSTC92C": {
+      "chain": "solana",
+      "pair_address": "2muauQTab4AH7vpFwNfJbMUMGdBCN32sZurm3JSTC92C",
+      "symbol": "NITYA",
+      "tier": "T1",
+      "detection_time": "2026-05-20T06:36:59.420261+00:00",
+      "detection_price": 7.848e-05,
+      "detection_liq": 22405.21,
+      "peak_price": 7.848e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Cs5P9h4G3TCjeqNPqvUEDCApaZ74c7z9ZfMpcHHFN55t": {
+      "chain": "solana",
+      "pair_address": "Cs5P9h4G3TCjeqNPqvUEDCApaZ74c7z9ZfMpcHHFN55t",
+      "symbol": "WORLDJACK",
+      "tier": "T1",
+      "detection_time": "2026-05-20T06:37:03.391460+00:00",
+      "detection_price": 0.0001141,
+      "detection_liq": 26811.43,
+      "peak_price": 0.0001141,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:26Gq7gJWrmrskZn649EpmyExiUNGLGp3p24vSwPntVnz": {
+      "chain": "solana",
+      "pair_address": "26Gq7gJWrmrskZn649EpmyExiUNGLGp3p24vSwPntVnz",
+      "symbol": "DONALDBOT",
+      "tier": "T1",
+      "detection_time": "2026-05-20T06:37:06.320414+00:00",
+      "detection_price": 0.0005734,
+      "detection_liq": 61148.4,
+      "peak_price": 0.0005734,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2gTdqvVAx44BytcSbGFhTUdu1Uj82mJAjT2byjj1QVfv": {
+      "chain": "solana",
+      "pair_address": "2gTdqvVAx44BytcSbGFhTUdu1Uj82mJAjT2byjj1QVfv",
+      "symbol": "promptonym",
+      "tier": "T1",
+      "detection_time": "2026-05-20T06:37:09.374864+00:00",
+      "detection_price": 0.0001715,
+      "detection_liq": 33721.76,
+      "peak_price": 0.0001715,
       "captures": {},
       "outcome_label": null,
       "completed": false
