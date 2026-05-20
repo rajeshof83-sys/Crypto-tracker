@@ -15465,6 +15465,27 @@
       "detection_price": 0.004475,
       "detection_liq": 205202.69,
       "peak_price": 0.004475,
+      "captures": {
+        "price_1h": {
+          "price": 0.004187,
+          "liquidity": 198280.35,
+          "volume_24h": 2767956.28,
+          "captured_at": "2026-05-20T19:11:21.559763+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5eZLJDUBw7LnonkGvVgbng2GjoqWDBT6foBmgURsnkho": {
+      "chain": "solana",
+      "pair_address": "5eZLJDUBw7LnonkGvVgbng2GjoqWDBT6foBmgURsnkho",
+      "symbol": "COMRADES",
+      "tier": "T2",
+      "detection_time": "2026-05-20T19:10:55.593379+00:00",
+      "detection_price": 8.531e-05,
+      "detection_liq": 23599.9,
+      "peak_price": 8.531e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
