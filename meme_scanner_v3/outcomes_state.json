@@ -15317,8 +15317,16 @@
       "detection_time": "2026-05-20T12:04:35.312727+00:00",
       "detection_price": 0.0001893,
       "detection_liq": 35136.99,
-      "peak_price": 0.0001893,
-      "captures": {},
+      "peak_price": 0.0002788,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002788,
+          "liquidity": 45820.61,
+          "volume_24h": 1994656.53,
+          "captured_at": "2026-05-20T13:28:02.076163+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -15330,7 +15338,28 @@
       "detection_time": "2026-05-20T12:04:57.194960+00:00",
       "detection_price": 0.0001185,
       "detection_liq": 27422.56,
-      "peak_price": 0.0001185,
+      "peak_price": 0.000134,
+      "captures": {
+        "price_1h": {
+          "price": 0.000134,
+          "liquidity": 29369.73,
+          "volume_24h": 461964.8,
+          "captured_at": "2026-05-20T13:28:02.076163+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5qKYxnzYi6hoKzZsjHqqJgBSDDK9ZFfo6VXZ8C6vvj6h": {
+      "chain": "solana",
+      "pair_address": "5qKYxnzYi6hoKzZsjHqqJgBSDDK9ZFfo6VXZ8C6vvj6h",
+      "symbol": "HENRY",
+      "tier": "T1",
+      "detection_time": "2026-05-20T13:27:46.476058+00:00",
+      "detection_price": 0.0001152,
+      "detection_liq": 27009.51,
+      "peak_price": 0.0001152,
       "captures": {},
       "outcome_label": null,
       "completed": false
