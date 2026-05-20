@@ -15122,6 +15122,13 @@
           "volume_24h": 536617.3,
           "captured_at": "2026-05-19T23:47:44.672983+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 5.992e-05,
+          "liquidity": 19996.52,
+          "volume_24h": 59938.2,
+          "captured_at": "2026-05-20T18:04:28.855037+00:00",
+          "hours_elapsed": 24.3
         }
       },
       "outcome_label": null,
@@ -15422,7 +15429,28 @@
       "detection_time": "2026-05-20T15:57:24.162385+00:00",
       "detection_price": 0.0001251,
       "detection_liq": 28567.49,
-      "peak_price": 0.0001251,
+      "peak_price": 0.0001672,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001672,
+          "liquidity": 33438.57,
+          "volume_24h": 673302.69,
+          "captured_at": "2026-05-20T18:04:28.855037+00:00",
+          "hours_elapsed": 2.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8PX97NP5WY871SmsZwHqYL9z97k3vzHGjvKFvAT7cARz": {
+      "chain": "solana",
+      "pair_address": "8PX97NP5WY871SmsZwHqYL9z97k3vzHGjvKFvAT7cARz",
+      "symbol": "VIRL",
+      "tier": "T2",
+      "detection_time": "2026-05-20T18:04:16.176256+00:00",
+      "detection_price": 0.004475,
+      "detection_liq": 205202.69,
+      "peak_price": 0.004475,
       "captures": {},
       "outcome_label": null,
       "completed": false
