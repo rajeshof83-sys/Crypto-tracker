@@ -15192,6 +15192,27 @@
       "detection_price": 0.0001669,
       "detection_liq": 34285.31,
       "peak_price": 0.0001669,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001108,
+          "liquidity": 27981.23,
+          "volume_24h": 320082.52,
+          "captured_at": "2026-05-20T09:42:14.209321+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:25K4YmyRwBQ1UA3RJ37kgRLEPMm7iBEY5aNiNj92nbn2": {
+      "chain": "solana",
+      "pair_address": "25K4YmyRwBQ1UA3RJ37kgRLEPMm7iBEY5aNiNj92nbn2",
+      "symbol": "HEDGY",
+      "tier": "T1",
+      "detection_time": "2026-05-20T09:42:00.328288+00:00",
+      "detection_price": 0.0001456,
+      "detection_liq": 30488.49,
+      "peak_price": 0.0001456,
       "captures": {},
       "outcome_label": null,
       "completed": false
