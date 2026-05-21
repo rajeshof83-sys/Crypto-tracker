@@ -15703,7 +15703,15 @@
       "detection_price": 0.0007496,
       "detection_liq": 71127.55,
       "peak_price": 0.0007496,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0001126,
+          "liquidity": 28020.99,
+          "volume_24h": 1981312.72,
+          "captured_at": "2026-05-21T05:50:27.981478+00:00",
+          "hours_elapsed": 1.8
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -15716,6 +15724,27 @@
       "detection_price": 0.0001903,
       "detection_liq": 35523.84,
       "peak_price": 0.0001903,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001116,
+          "liquidity": 27740.59,
+          "volume_24h": 820002.81,
+          "captured_at": "2026-05-21T05:50:27.981478+00:00",
+          "hours_elapsed": 1.8
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2udsBHkUGTXUftERqq78Np9XgYZiWnttp7AV4JwwobW7": {
+      "chain": "solana",
+      "pair_address": "2udsBHkUGTXUftERqq78Np9XgYZiWnttp7AV4JwwobW7",
+      "symbol": "Embrace",
+      "tier": "T1",
+      "detection_time": "2026-05-21T05:50:18.540045+00:00",
+      "detection_price": 0.0001262,
+      "detection_liq": 34747.25,
+      "peak_price": 0.0001262,
       "captures": {},
       "outcome_label": null,
       "completed": false
