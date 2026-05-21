@@ -15877,7 +15877,7 @@
       "detection_time": "2026-05-21T08:01:41.298760+00:00",
       "detection_price": 0.0001449,
       "detection_liq": 30357.91,
-      "peak_price": 0.0001644,
+      "peak_price": 0.0003286,
       "captures": {
         "price_1h": {
           "price": 0.0001644,
@@ -15885,6 +15885,13 @@
           "volume_24h": 427820.29,
           "captured_at": "2026-05-21T10:11:02.154178+00:00",
           "hours_elapsed": 2.2
+        },
+        "price_6h": {
+          "price": 0.0003286,
+          "liquidity": 47056.0,
+          "volume_24h": 805638.75,
+          "captured_at": "2026-05-21T15:36:51.011449+00:00",
+          "hours_elapsed": 7.6
         }
       },
       "outcome_label": null,
@@ -15929,6 +15936,32 @@
           "hours_elapsed": 2.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7wNxWDR4LxNvC4u8zzKD4MhSRkd16pH8dBQaZJhNkUA9": {
+      "chain": "solana",
+      "pair_address": "7wNxWDR4LxNvC4u8zzKD4MhSRkd16pH8dBQaZJhNkUA9",
+      "symbol": "MEMEWC",
+      "tier": "T1",
+      "detection_time": "2026-05-21T15:36:39.769553+00:00",
+      "detection_price": 0.0007067,
+      "detection_liq": 69130.23,
+      "peak_price": 0.0007067,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EKALmxf1JWVJ5LL3fp4KeUrQXeirHjeLomBLCNBTZbSZ": {
+      "chain": "solana",
+      "pair_address": "EKALmxf1JWVJ5LL3fp4KeUrQXeirHjeLomBLCNBTZbSZ",
+      "symbol": "HONTER",
+      "tier": "T2",
+      "detection_time": "2026-05-21T15:36:43.774788+00:00",
+      "detection_price": 0.0001945,
+      "detection_liq": 38366.64,
+      "peak_price": 0.0001945,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
