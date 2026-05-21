@@ -15854,6 +15854,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:4REoZMfVjhreWFQ9y1pgDRWXYV2RU7PxNucZ13tH9SVm": {
+      "chain": "solana",
+      "pair_address": "4REoZMfVjhreWFQ9y1pgDRWXYV2RU7PxNucZ13tH9SVm",
+      "symbol": "KEVIN",
+      "tier": "T1",
+      "detection_time": "2026-05-21T11:31:39.657669+00:00",
+      "detection_price": 0.0003818,
+      "detection_liq": 50641.99,
+      "peak_price": 0.0003818,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AYjwFh8RAFmDQDaCMhv8GK9FBfNTbWoMSpn146puwsDa": {
+      "chain": "solana",
+      "pair_address": "AYjwFh8RAFmDQDaCMhv8GK9FBfNTbWoMSpn146puwsDa",
+      "symbol": "SPCXCUP",
+      "tier": "T1",
+      "detection_time": "2026-05-21T11:31:42.835614+00:00",
+      "detection_price": 0.0007192,
+      "detection_liq": 68461.38,
+      "peak_price": 0.0007192,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
