@@ -12973,10 +12973,17 @@
           "volume_24h": 660100.3,
           "captured_at": "2026-05-15T19:55:30.993858+00:00",
           "hours_elapsed": 24.0
+        },
+        "price_7d": {
+          "price": 3.816e-06,
+          "liquidity": 5183.89,
+          "volume_24h": 388.53,
+          "captured_at": "2026-05-21T20:05:03.858522+00:00",
+          "hours_elapsed": 168.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "ethereum:0x893189Ed3C82753Da683fd302a4156FeCdc1F79A": {
       "chain": "ethereum",
@@ -16053,7 +16060,15 @@
       "detection_price": 0.0001322,
       "detection_liq": 29671.82,
       "peak_price": 0.0001322,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 6.55e-05,
+          "liquidity": 21347.2,
+          "volume_24h": 755569.02,
+          "captured_at": "2026-05-21T20:05:03.858522+00:00",
+          "hours_elapsed": 1.6
+        }
+      },
       "outcome_label": null,
       "completed": false
     }
