@@ -16697,7 +16697,15 @@
       "detection_price": 9.466e-05,
       "detection_liq": 24362.15,
       "peak_price": 9.466e-05,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 1.982e-06,
+          "liquidity": 3667.18,
+          "volume_24h": 704328.0,
+          "captured_at": "2026-05-22T21:36:55.753692+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -16710,7 +16718,15 @@
       "detection_price": 6.982e-05,
       "detection_liq": 21156.11,
       "peak_price": 6.982e-05,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 2.038e-06,
+          "liquidity": 3767.68,
+          "volume_24h": 785151.54,
+          "captured_at": "2026-05-22T21:36:55.753692+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -16723,6 +16739,27 @@
       "detection_price": 4.251e-05,
       "detection_liq": 16236.5,
       "peak_price": 4.251e-05,
+      "captures": {
+        "price_1h": {
+          "price": 4.246e-05,
+          "liquidity": 16256.19,
+          "volume_24h": 70200.41,
+          "captured_at": "2026-05-22T21:36:55.753692+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CGH49JQDQSh7U8nQrDhutEV4QB3h1NxsJoe7ho7UtSH3": {
+      "chain": "solana",
+      "pair_address": "CGH49JQDQSh7U8nQrDhutEV4QB3h1NxsJoe7ho7UtSH3",
+      "symbol": "HATCHER",
+      "tier": "T2",
+      "detection_time": "2026-05-22T21:36:45.405546+00:00",
+      "detection_price": 0.0004396,
+      "detection_liq": 54440.56,
+      "peak_price": 0.0004396,
       "captures": {},
       "outcome_label": null,
       "completed": false
