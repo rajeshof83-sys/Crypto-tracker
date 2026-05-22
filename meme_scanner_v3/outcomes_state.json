@@ -13260,10 +13260,17 @@
           "volume_24h": 1156028.92,
           "captured_at": "2026-05-16T10:20:13.973920+00:00",
           "hours_elapsed": 24.5
+        },
+        "price_7d": {
+          "price": 0.0003547,
+          "liquidity": 58369.21,
+          "volume_24h": 349205.75,
+          "captured_at": "2026-05-22T09:57:53.229355+00:00",
+          "hours_elapsed": 168.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "winner",
+      "completed": true
     },
     "solana:EhjBqq4oyGg5RToNNWR4z8ntwvTGLkogWHEbX8pBcPP7": {
       "chain": "solana",
@@ -16377,6 +16384,45 @@
           "hours_elapsed": 1.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EeP4WFuHNfifwWzjHBnMCZgEqXmzGHKid1Db2hj7EjRi": {
+      "chain": "solana",
+      "pair_address": "EeP4WFuHNfifwWzjHBnMCZgEqXmzGHKid1Db2hj7EjRi",
+      "symbol": "26",
+      "tier": "T1",
+      "detection_time": "2026-05-22T09:57:37.953746+00:00",
+      "detection_price": 8.397e-05,
+      "detection_liq": 23097.92,
+      "peak_price": 8.397e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:H2qrm7W7GTgrWCxnjnKPedJnYptDy1Wi1Mthyz4Lpvqu": {
+      "chain": "solana",
+      "pair_address": "H2qrm7W7GTgrWCxnjnKPedJnYptDy1Wi1Mthyz4Lpvqu",
+      "symbol": "\u30e2\u30e2\u592a",
+      "tier": "T1",
+      "detection_time": "2026-05-22T09:57:41.295846+00:00",
+      "detection_price": 7.136e-05,
+      "detection_liq": 21302.05,
+      "peak_price": 7.136e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HW1PukRmfJUUWUssMUnmJZ4ZzNCb7YYZ621pve8K6XWW": {
+      "chain": "solana",
+      "pair_address": "HW1PukRmfJUUWUssMUnmJZ4ZzNCb7YYZ621pve8K6XWW",
+      "symbol": "FC",
+      "tier": "T1",
+      "detection_time": "2026-05-22T09:57:43.700832+00:00",
+      "detection_price": 0.0001894,
+      "detection_liq": 34998.05,
+      "peak_price": 0.0001894,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
