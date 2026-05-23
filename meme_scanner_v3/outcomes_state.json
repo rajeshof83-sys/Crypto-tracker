@@ -14079,10 +14079,17 @@
           "volume_24h": 134436.15,
           "captured_at": "2026-05-17T15:00:47.707974+00:00",
           "hours_elapsed": 24.3
+        },
+        "price_7d": {
+          "price": 2.85e-06,
+          "liquidity": 4436.76,
+          "volume_24h": 57.54,
+          "captured_at": "2026-05-23T15:05:14.496526+00:00",
+          "hours_elapsed": 168.4
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "ethereum:0xfBa131a9066ACc291b0e5E24D2e99614bf73799a": {
       "chain": "ethereum",
@@ -17070,6 +17077,19 @@
           "hours_elapsed": 1.5
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8EJtTWmgX3JpsP6DvBj1ghPRGdZJYHCGXECa1b1Rztgb": {
+      "chain": "solana",
+      "pair_address": "8EJtTWmgX3JpsP6DvBj1ghPRGdZJYHCGXECa1b1Rztgb",
+      "symbol": "TRUMPBANK",
+      "tier": "T1",
+      "detection_time": "2026-05-23T15:05:04.185422+00:00",
+      "detection_price": 0.0002351,
+      "detection_liq": 38602.57,
+      "peak_price": 0.0002351,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
