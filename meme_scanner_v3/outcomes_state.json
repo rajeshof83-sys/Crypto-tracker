@@ -16935,7 +16935,15 @@
       "detection_price": 0.0001653,
       "detection_liq": 31919.93,
       "peak_price": 0.0001653,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.000147,
+          "liquidity": 30359.9,
+          "volume_24h": 864808.45,
+          "captured_at": "2026-05-23T09:14:55.977928+00:00",
+          "hours_elapsed": 1.3
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -16947,7 +16955,41 @@
       "detection_time": "2026-05-23T07:55:07.735066+00:00",
       "detection_price": 0.000114,
       "detection_liq": 26593.72,
-      "peak_price": 0.000114,
+      "peak_price": 0.0001183,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001183,
+          "liquidity": 27273.84,
+          "volume_24h": 559365.42,
+          "captured_at": "2026-05-23T09:14:55.977928+00:00",
+          "hours_elapsed": 1.3
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:G5BkYyQevMGbkxVRu11w9VEymt2hRLVa61gM99GAt1xF": {
+      "chain": "solana",
+      "pair_address": "G5BkYyQevMGbkxVRu11w9VEymt2hRLVa61gM99GAt1xF",
+      "symbol": "silversurfer",
+      "tier": "T1",
+      "detection_time": "2026-05-23T09:14:43.602332+00:00",
+      "detection_price": 9.492e-05,
+      "detection_liq": 24494.87,
+      "peak_price": 9.492e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EVjr6r5kW14CgRKZjVoCS7hUy2BsiJPMqsTXst9SkeCP": {
+      "chain": "solana",
+      "pair_address": "EVjr6r5kW14CgRKZjVoCS7hUy2BsiJPMqsTXst9SkeCP",
+      "symbol": "SPERMBANK",
+      "tier": "T1",
+      "detection_time": "2026-05-23T09:14:46.847668+00:00",
+      "detection_price": 0.0001144,
+      "detection_liq": 26316.59,
+      "peak_price": 0.0001144,
       "captures": {},
       "outcome_label": null,
       "completed": false
