@@ -13883,10 +13883,17 @@
           "volume_24h": 1764927.27,
           "captured_at": "2026-05-17T03:48:38.524462+00:00",
           "hours_elapsed": 24.2
+        },
+        "price_7d": {
+          "price": 3.991e-06,
+          "liquidity": 5827.75,
+          "volume_24h": 503.71,
+          "captured_at": "2026-05-23T04:09:43.025735+00:00",
+          "hours_elapsed": 168.6
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:Ch2B9z8N1W4wZgPsKSkVZas7fGsGE2hi6pdUjmxc5ytU": {
       "chain": "solana",
@@ -16396,10 +16403,17 @@
           "volume_24h": 1137881.75,
           "captured_at": "2026-05-22T10:01:47.933184+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 2.232e-06,
+          "liquidity": 3902.71,
+          "volume_24h": 301899.81,
+          "captured_at": "2026-05-23T04:09:43.025735+00:00",
+          "hours_elapsed": 24.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:39LnBKbfMEsDsVbudDQEdw5ZA43PpbnbeU2dydtAEcbL": {
       "chain": "solana",
@@ -16424,6 +16438,13 @@
           "volume_24h": 528463.46,
           "captured_at": "2026-05-22T10:01:47.933184+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 5.86e-05,
+          "liquidity": 19909.1,
+          "volume_24h": 427795.79,
+          "captured_at": "2026-05-23T04:09:43.025735+00:00",
+          "hours_elapsed": 24.2
         }
       },
       "outcome_label": null,
@@ -16452,10 +16473,17 @@
           "volume_24h": 3368597.91,
           "captured_at": "2026-05-22T10:01:47.933184+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 3.187e-06,
+          "liquidity": 5471.97,
+          "volume_24h": 2761345.43,
+          "captured_at": "2026-05-23T04:09:43.025735+00:00",
+          "hours_elapsed": 24.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:8etD928XPHWJqBFCi3Kbz7J39wQS1BJu88Vkv9cNNabt": {
       "chain": "solana",
@@ -16480,10 +16508,17 @@
           "volume_24h": 865323.3,
           "captured_at": "2026-05-22T10:01:47.933184+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 6.233e-06,
+          "liquidity": 6571.12,
+          "volume_24h": 750072.87,
+          "captured_at": "2026-05-23T04:09:43.025735+00:00",
+          "hours_elapsed": 24.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:D9qTX1MUk3jevtgpmGYPxstq5DGM6KUD5Ae2uYBTLDjo": {
       "chain": "solana",
@@ -16725,6 +16760,13 @@
           "volume_24h": 704328.0,
           "captured_at": "2026-05-22T21:36:55.753692+00:00",
           "hours_elapsed": 1.4
+        },
+        "price_6h": {
+          "price": 1.834e-06,
+          "liquidity": 3517.43,
+          "volume_24h": 704469.38,
+          "captured_at": "2026-05-23T04:09:43.025735+00:00",
+          "hours_elapsed": 8.0
         }
       },
       "outcome_label": null,
@@ -16746,6 +16788,13 @@
           "volume_24h": 785151.54,
           "captured_at": "2026-05-22T21:36:55.753692+00:00",
           "hours_elapsed": 1.4
+        },
+        "price_6h": {
+          "price": 1.994e-06,
+          "liquidity": 3712.7,
+          "volume_24h": 785167.32,
+          "captured_at": "2026-05-23T04:09:43.025735+00:00",
+          "hours_elapsed": 8.0
         }
       },
       "outcome_label": null,
@@ -16767,6 +16816,13 @@
           "volume_24h": 70200.41,
           "captured_at": "2026-05-22T21:36:55.753692+00:00",
           "hours_elapsed": 1.4
+        },
+        "price_6h": {
+          "price": 4.244e-05,
+          "liquidity": 16199.06,
+          "volume_24h": 32220.23,
+          "captured_at": "2026-05-23T04:09:43.025735+00:00",
+          "hours_elapsed": 8.0
         }
       },
       "outcome_label": null,
@@ -16788,6 +16844,13 @@
           "volume_24h": 170866.47,
           "captured_at": "2026-05-22T23:20:23.186646+00:00",
           "hours_elapsed": 1.7
+        },
+        "price_6h": {
+          "price": 0.0004131,
+          "liquidity": 52612.25,
+          "volume_24h": 167583.44,
+          "captured_at": "2026-05-23T04:09:43.025735+00:00",
+          "hours_elapsed": 6.5
         }
       },
       "outcome_label": null,
@@ -16801,7 +16864,28 @@
       "detection_time": "2026-05-22T23:20:08.909526+00:00",
       "detection_price": 6.062e-05,
       "detection_liq": 25498.04,
-      "peak_price": 6.062e-05,
+      "peak_price": 9.236e-05,
+      "captures": {
+        "price_1h": {
+          "price": 9.236e-05,
+          "liquidity": 31614.46,
+          "volume_24h": 662677.87,
+          "captured_at": "2026-05-23T04:09:43.025735+00:00",
+          "hours_elapsed": 4.8
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DCTNcpFHNQpNdLungyHRac7xZp3sDmAM2sWnafXaftma": {
+      "chain": "solana",
+      "pair_address": "DCTNcpFHNQpNdLungyHRac7xZp3sDmAM2sWnafXaftma",
+      "symbol": "RICHTRUMP",
+      "tier": "T1",
+      "detection_time": "2026-05-23T04:09:36.124984+00:00",
+      "detection_price": 0.0004678,
+      "detection_liq": 55252.38,
+      "peak_price": 0.0004678,
       "captures": {},
       "outcome_label": null,
       "completed": false
