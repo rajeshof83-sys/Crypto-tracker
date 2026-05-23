@@ -17110,6 +17110,27 @@
       "detection_price": 0.0002351,
       "detection_liq": 38602.57,
       "peak_price": 0.0002351,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002028,
+          "liquidity": 36060.49,
+          "volume_24h": 906541.46,
+          "captured_at": "2026-05-23T16:10:04.025693+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:142ov8LfFb129pCtJz868HvPC2s3CnaRY15UwKvvRmis": {
+      "chain": "solana",
+      "pair_address": "142ov8LfFb129pCtJz868HvPC2s3CnaRY15UwKvvRmis",
+      "symbol": "PTROLL",
+      "tier": "T2",
+      "detection_time": "2026-05-23T16:09:55.459688+00:00",
+      "detection_price": 8.523e-05,
+      "detection_liq": 23018.53,
+      "peak_price": 8.523e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
