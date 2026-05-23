@@ -17130,7 +17130,28 @@
       "detection_time": "2026-05-23T16:09:55.459688+00:00",
       "detection_price": 8.523e-05,
       "detection_liq": 23018.53,
-      "peak_price": 8.523e-05,
+      "peak_price": 8.804e-05,
+      "captures": {
+        "price_1h": {
+          "price": 8.804e-05,
+          "liquidity": 23425.42,
+          "volume_24h": 85767.3,
+          "captured_at": "2026-05-23T17:18:32.419302+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:JADhb4hLquHuwwksptRJthNLP4bQ1tk2ii5e7xJYirgt": {
+      "chain": "solana",
+      "pair_address": "JADhb4hLquHuwwksptRJthNLP4bQ1tk2ii5e7xJYirgt",
+      "symbol": "POKE",
+      "tier": "T2",
+      "detection_time": "2026-05-23T17:18:15.192865+00:00",
+      "detection_price": 0.0006252,
+      "detection_liq": 65404.89,
+      "peak_price": 0.0006252,
       "captures": {},
       "outcome_label": null,
       "completed": false
