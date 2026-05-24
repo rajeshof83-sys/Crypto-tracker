@@ -17425,6 +17425,27 @@
       "detection_price": 9.34e-05,
       "detection_liq": 24424.48,
       "peak_price": 9.34e-05,
+      "captures": {
+        "price_1h": {
+          "price": 6.31e-05,
+          "liquidity": 20235.37,
+          "volume_24h": 430907.63,
+          "captured_at": "2026-05-24T07:24:42.963788+00:00",
+          "hours_elapsed": 1.8
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FiJ41tYbujeoQfkSxYYmZh6Es3FmJh6Pzo1At4uuQph2": {
+      "chain": "solana",
+      "pair_address": "FiJ41tYbujeoQfkSxYYmZh6Es3FmJh6Pzo1At4uuQph2",
+      "symbol": "Nicki",
+      "tier": "T1",
+      "detection_time": "2026-05-24T07:24:23.587317+00:00",
+      "detection_price": 0.0002344,
+      "detection_liq": 38933.12,
+      "peak_price": 0.0002344,
       "captures": {},
       "outcome_label": null,
       "completed": false
