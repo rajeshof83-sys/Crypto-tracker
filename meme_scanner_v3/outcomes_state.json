@@ -14660,10 +14660,17 @@
           "volume_24h": 437209.17,
           "captured_at": "2026-05-18T20:14:43.137455+00:00",
           "hours_elapsed": 24.9
+        },
+        "price_7d": {
+          "price": 5.938e-05,
+          "liquidity": 22755.49,
+          "volume_24h": 37235.03,
+          "captured_at": "2026-05-24T19:41:55.304147+00:00",
+          "hours_elapsed": 168.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "winner",
+      "completed": true
     },
     "base:0x38a1afb277d550485111311281a28cdfd04142d4b9df8e63e6f13c90b51af8fa": {
       "chain": "base",
