@@ -17383,6 +17383,13 @@
           "volume_24h": 318953.13,
           "captured_at": "2026-05-24T01:30:53.415900+00:00",
           "hours_elapsed": 7.3
+        },
+        "price_24h": {
+          "price": 0.0001874,
+          "liquidity": 34918.7,
+          "volume_24h": 298551.77,
+          "captured_at": "2026-05-24T18:42:36.917301+00:00",
+          "hours_elapsed": 24.5
         }
       },
       "outcome_label": null,
@@ -17411,6 +17418,13 @@
           "volume_24h": 593141.32,
           "captured_at": "2026-05-24T01:30:53.415900+00:00",
           "hours_elapsed": 7.3
+        },
+        "price_24h": {
+          "price": 0.0001596,
+          "liquidity": 32871.38,
+          "volume_24h": 493483.93,
+          "captured_at": "2026-05-24T18:42:36.917301+00:00",
+          "hours_elapsed": 24.5
         }
       },
       "outcome_label": null,
@@ -17607,6 +17621,19 @@
       "detection_price": 0.0001967,
       "detection_liq": 35627.28,
       "peak_price": 0.0001967,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CGf27oqEnqix6URjof4GhiU1xsAYH4M1TPguNL67q5o4": {
+      "chain": "solana",
+      "pair_address": "CGf27oqEnqix6URjof4GhiU1xsAYH4M1TPguNL67q5o4",
+      "symbol": "AGS",
+      "tier": "T2",
+      "detection_time": "2026-05-24T18:42:28.131971+00:00",
+      "detection_price": 0.0001188,
+      "detection_liq": 27930.56,
+      "peak_price": 0.0001188,
       "captures": {},
       "outcome_label": null,
       "completed": false
