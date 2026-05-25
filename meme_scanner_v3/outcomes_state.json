@@ -18020,6 +18020,40 @@
       "detection_price": 0.0003707,
       "detection_liq": 48394.62,
       "peak_price": 0.0003707,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003159,
+          "liquidity": 46040.12,
+          "volume_24h": 1034806.46,
+          "captured_at": "2026-05-25T22:36:24.356324+00:00",
+          "hours_elapsed": 1.7
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DHucV7ErABoHChWUUiP1B3bzspjmxSVz3WH6jQS9HMb4": {
+      "chain": "solana",
+      "pair_address": "DHucV7ErABoHChWUUiP1B3bzspjmxSVz3WH6jQS9HMb4",
+      "symbol": "MILKIT",
+      "tier": "T1",
+      "detection_time": "2026-05-25T22:36:13.188133+00:00",
+      "detection_price": 9.826e-05,
+      "detection_liq": 24689.32,
+      "peak_price": 9.826e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:q7h3MdHPydkY1VcnTgDzEmR6JGBG1mAr6c3iCJWA9Dy": {
+      "chain": "solana",
+      "pair_address": "q7h3MdHPydkY1VcnTgDzEmR6JGBG1mAr6c3iCJWA9Dy",
+      "symbol": "SQUIDWARD",
+      "tier": "T2",
+      "detection_time": "2026-05-25T22:36:15.818006+00:00",
+      "detection_price": 8.764e-05,
+      "detection_liq": 23605.64,
+      "peak_price": 8.764e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
