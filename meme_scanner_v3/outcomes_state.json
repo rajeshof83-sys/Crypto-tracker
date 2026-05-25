@@ -17947,6 +17947,45 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:3mJRibfFjHLCzqPBS4mp1bDe8Qtn4YsqrPZTxzYgpMwW": {
+      "chain": "solana",
+      "pair_address": "3mJRibfFjHLCzqPBS4mp1bDe8Qtn4YsqrPZTxzYgpMwW",
+      "symbol": "HARAMBEX",
+      "tier": "T1",
+      "detection_time": "2026-05-25T19:59:45.304726+00:00",
+      "detection_price": 8.298e-05,
+      "detection_liq": 22803.05,
+      "peak_price": 8.298e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AnsYFKSvrHNESLHSP43tqw8aQEXfXdnY4YadqdzsgcSx": {
+      "chain": "solana",
+      "pair_address": "AnsYFKSvrHNESLHSP43tqw8aQEXfXdnY4YadqdzsgcSx",
+      "symbol": "TRUNP",
+      "tier": "T1",
+      "detection_time": "2026-05-25T19:59:48.070854+00:00",
+      "detection_price": 0.0001067,
+      "detection_liq": 26673.93,
+      "peak_price": 0.0001067,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EbSA7KKUks4U2SJcjzQk7pALDELCsJFtHNYUmyi6CWky": {
+      "chain": "solana",
+      "pair_address": "EbSA7KKUks4U2SJcjzQk7pALDELCsJFtHNYUmyi6CWky",
+      "symbol": "USWC",
+      "tier": "T1",
+      "detection_time": "2026-05-25T19:59:50.781784+00:00",
+      "detection_price": 0.0002633,
+      "detection_liq": 41051.21,
+      "peak_price": 0.0002633,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
