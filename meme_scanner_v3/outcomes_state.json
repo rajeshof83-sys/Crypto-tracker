@@ -17621,10 +17621,17 @@
           "volume_24h": 817089.48,
           "captured_at": "2026-05-24T13:43:28.311976+00:00",
           "hours_elapsed": 6.3
+        },
+        "price_24h": {
+          "price": 1.876e-06,
+          "liquidity": 3484.09,
+          "volume_24h": 510.18,
+          "captured_at": "2026-05-25T09:00:15.336582+00:00",
+          "hours_elapsed": 25.6
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:4L29chFWwQ2HC6ZBB7Zr5otKaCQ85rme9tsQ9tioAimm": {
       "chain": "solana",
@@ -17782,6 +17789,13 @@
           "volume_24h": 720786.58,
           "captured_at": "2026-05-25T04:46:22.531398+00:00",
           "hours_elapsed": 3.2
+        },
+        "price_6h": {
+          "price": 5.251e-06,
+          "liquidity": 5952.82,
+          "volume_24h": 725916.6,
+          "captured_at": "2026-05-25T09:00:15.336582+00:00",
+          "hours_elapsed": 7.4
         }
       },
       "outcome_label": null,
@@ -17817,6 +17831,40 @@
       "detection_price": 0.0001753,
       "detection_liq": 34339.33,
       "peak_price": 0.0001753,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001679,
+          "liquidity": 33975.84,
+          "volume_24h": 859825.71,
+          "captured_at": "2026-05-25T09:00:15.336582+00:00",
+          "hours_elapsed": 2.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:E1PrYBHsiNhZny7W1ZLpCTWrBpkc2VA84PoJeJyuAyvn": {
+      "chain": "solana",
+      "pair_address": "E1PrYBHsiNhZny7W1ZLpCTWrBpkc2VA84PoJeJyuAyvn",
+      "symbol": "Froggies",
+      "tier": "T1",
+      "detection_time": "2026-05-25T08:59:53.795862+00:00",
+      "detection_price": 0.0001053,
+      "detection_liq": 26124.21,
+      "peak_price": 0.0001053,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9yCPiNtHP1b8YaePCnRNZtSezZAra88XX4jKfDhfGutz": {
+      "chain": "solana",
+      "pair_address": "9yCPiNtHP1b8YaePCnRNZtSezZAra88XX4jKfDhfGutz",
+      "symbol": "TROLL CUP",
+      "tier": "T1",
+      "detection_time": "2026-05-25T08:59:56.827318+00:00",
+      "detection_price": 0.0001151,
+      "detection_liq": 27091.43,
+      "peak_price": 0.0001151,
       "captures": {},
       "outcome_label": null,
       "completed": false
