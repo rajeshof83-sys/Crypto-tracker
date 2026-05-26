@@ -18244,6 +18244,27 @@
       "detection_price": 0.0001113,
       "detection_liq": 26825.34,
       "peak_price": 0.0001113,
+      "captures": {
+        "price_1h": {
+          "price": 7.736e-05,
+          "liquidity": 22825.54,
+          "volume_24h": 741933.92,
+          "captured_at": "2026-05-26T13:27:49.890204+00:00",
+          "hours_elapsed": 2.9
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3WEvPu2jm2TCBaePAGBkedGgjWUm4LxYsur8J25BimYi": {
+      "chain": "solana",
+      "pair_address": "3WEvPu2jm2TCBaePAGBkedGgjWUm4LxYsur8J25BimYi",
+      "symbol": "WCLUCE",
+      "tier": "T1",
+      "detection_time": "2026-05-26T13:27:32.858705+00:00",
+      "detection_price": 0.0001099,
+      "detection_liq": 26126.18,
+      "peak_price": 0.0001099,
       "captures": {},
       "outcome_label": null,
       "completed": false
