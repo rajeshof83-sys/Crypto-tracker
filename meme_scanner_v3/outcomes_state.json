@@ -18580,10 +18580,17 @@
           "volume_24h": 955754.78,
           "captured_at": "2026-05-26T22:56:57.075504+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 1.937e-06,
+          "liquidity": 3596.45,
+          "volume_24h": 251917.16,
+          "captured_at": "2026-05-27T17:47:41.451966+00:00",
+          "hours_elapsed": 24.9
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "base:0xb0d7ea797f552b4871eb3c82208ab14b1755e663c374d030d5d000a3291d80d1": {
       "chain": "base",
@@ -18860,7 +18867,15 @@
       "detection_price": 0.0001022,
       "detection_liq": 25915.83,
       "peak_price": 0.0001022,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0001009,
+          "liquidity": 26456.55,
+          "volume_24h": 1022342.16,
+          "captured_at": "2026-05-27T17:47:41.451966+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -18873,7 +18888,15 @@
       "detection_price": 8.541e-05,
       "detection_liq": 22807.48,
       "peak_price": 8.541e-05,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 5.904e-05,
+          "liquidity": 18922.77,
+          "volume_24h": 177916.63,
+          "captured_at": "2026-05-27T17:47:41.451966+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -18886,7 +18909,15 @@
       "detection_price": 0.0004451,
       "detection_liq": 55199.5,
       "peak_price": 0.0004451,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0003971,
+          "liquidity": 52350.46,
+          "volume_24h": 727587.63,
+          "captured_at": "2026-05-27T17:47:41.451966+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     }
