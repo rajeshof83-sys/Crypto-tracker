@@ -16039,10 +16039,17 @@
           "volume_24h": 51276.43,
           "captured_at": "2026-05-21T19:17:25.671230+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 2.868e-05,
+          "liquidity": 13743.69,
+          "volume_24h": 5347.84,
+          "captured_at": "2026-05-27T19:28:40.801496+00:00",
+          "hours_elapsed": 168.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:EwWZfZuxp652B6Qgbb8VmZp4BXgL5h9Ldup5nWN1EWAm": {
       "chain": "solana",
@@ -18607,7 +18614,7 @@
       "detection_time": "2026-05-26T19:11:14.046538+00:00",
       "detection_price": 2.442e-06,
       "detection_liq": 131096.72,
-      "peak_price": 3.237e-06,
+      "peak_price": 3.28e-06,
       "captures": {
         "price_1h": {
           "price": 1.567e-06,
@@ -18622,6 +18629,13 @@
           "volume_24h": 1383990.03,
           "captured_at": "2026-05-27T01:55:01.937830+00:00",
           "hours_elapsed": 6.7
+        },
+        "price_24h": {
+          "price": 3.28e-06,
+          "liquidity": 161384.55,
+          "volume_24h": 669464.58,
+          "captured_at": "2026-05-27T19:28:40.801496+00:00",
+          "hours_elapsed": 24.3
         }
       },
       "outcome_label": null,
@@ -18839,6 +18853,13 @@
           "volume_24h": 501655.94,
           "captured_at": "2026-05-27T13:58:29.296581+00:00",
           "hours_elapsed": 1.4
+        },
+        "price_6h": {
+          "price": 2.291e-06,
+          "liquidity": 3825.4,
+          "volume_24h": 631729.4,
+          "captured_at": "2026-05-27T19:28:40.801496+00:00",
+          "hours_elapsed": 6.9
         }
       },
       "outcome_label": null,
@@ -18925,6 +18946,19 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4dWjZtRxMMsu32mpZyZM7dtuvCztwfUV7b1N5FvoTaD6": {
+      "chain": "solana",
+      "pair_address": "4dWjZtRxMMsu32mpZyZM7dtuvCztwfUV7b1N5FvoTaD6",
+      "symbol": "TROLLWHLE",
+      "tier": "T1",
+      "detection_time": "2026-05-27T19:28:29.306242+00:00",
+      "detection_price": 0.000123,
+      "detection_liq": 28395.53,
+      "peak_price": 0.000123,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
