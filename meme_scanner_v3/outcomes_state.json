@@ -18664,10 +18664,17 @@
           "volume_24h": 629362.86,
           "captured_at": "2026-05-27T04:49:59.701848+00:00",
           "hours_elapsed": 8.3
+        },
+        "price_24h": {
+          "price": 9.712e-07,
+          "liquidity": 2618.25,
+          "volume_24h": 4768.96,
+          "captured_at": "2026-05-27T21:59:40.992614+00:00",
+          "hours_elapsed": 25.5
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:AQWRB1MsfHEChz2dWfh6TxhixxXyCeSCAgxX4XF8kqhg": {
       "chain": "solana",
@@ -18881,6 +18888,13 @@
           "volume_24h": 524271.23,
           "captured_at": "2026-05-27T16:40:37.621376+00:00",
           "hours_elapsed": 2.7
+        },
+        "price_6h": {
+          "price": 6.163e-05,
+          "liquidity": 19802.74,
+          "volume_24h": 544913.27,
+          "captured_at": "2026-05-27T21:59:40.992614+00:00",
+          "hours_elapsed": 8.0
         }
       },
       "outcome_label": null,
@@ -18958,6 +18972,40 @@
       "detection_price": 0.000123,
       "detection_liq": 28395.53,
       "peak_price": 0.000123,
+      "captures": {
+        "price_1h": {
+          "price": 4.722e-05,
+          "liquidity": 17524.13,
+          "volume_24h": 696653.35,
+          "captured_at": "2026-05-27T21:59:40.992614+00:00",
+          "hours_elapsed": 2.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GEEVqBYJc81GBhEjEsTUEvsNXSofjH4JmgTPiu57GKFi": {
+      "chain": "solana",
+      "pair_address": "GEEVqBYJc81GBhEjEsTUEvsNXSofjH4JmgTPiu57GKFi",
+      "symbol": "BUFFDON",
+      "tier": "T2",
+      "detection_time": "2026-05-27T21:59:25.899323+00:00",
+      "detection_price": 0.0006269,
+      "detection_liq": 71661.77,
+      "peak_price": 0.0006269,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:BgudaVv1M3D1dbjYs36FhHY1kYqfbPh5LsrtL9YNKpUw": {
+      "chain": "solana",
+      "pair_address": "BgudaVv1M3D1dbjYs36FhHY1kYqfbPh5LsrtL9YNKpUw",
+      "symbol": "$CVNT",
+      "tier": "T1",
+      "detection_time": "2026-05-27T21:59:30.211935+00:00",
+      "detection_price": 0.0001362,
+      "detection_liq": 28958.66,
+      "peak_price": 0.0001362,
       "captures": {},
       "outcome_label": null,
       "completed": false
