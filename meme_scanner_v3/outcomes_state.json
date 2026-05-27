@@ -15556,10 +15556,17 @@
           "volume_24h": 708601.7,
           "captured_at": "2026-05-21T04:47:20.786149+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 1.805e-05,
+          "liquidity": 11621.73,
+          "volume_24h": 17370.92,
+          "captured_at": "2026-05-27T04:49:59.701848+00:00",
+          "hours_elapsed": 168.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "winner",
+      "completed": true
     },
     "solana:2muauQTab4AH7vpFwNfJbMUMGdBCN32sZurm3JSTC92C": {
       "chain": "solana",
@@ -18531,6 +18538,13 @@
           "volume_24h": 624231.63,
           "captured_at": "2026-05-26T21:58:04.846762+00:00",
           "hours_elapsed": 1.4
+        },
+        "price_6h": {
+          "price": 1.935e-06,
+          "liquidity": 3483.62,
+          "volume_24h": 629362.86,
+          "captured_at": "2026-05-27T04:49:59.701848+00:00",
+          "hours_elapsed": 8.3
         }
       },
       "outcome_label": null,
@@ -18545,7 +18559,15 @@
       "detection_price": 0.0001106,
       "detection_liq": 26722.08,
       "peak_price": 0.0001106,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 1.705e-06,
+          "liquidity": 3325.76,
+          "volume_24h": 625518.21,
+          "captured_at": "2026-05-27T04:49:59.701848+00:00",
+          "hours_elapsed": 2.9
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -18558,6 +18580,27 @@
       "detection_price": 0.0001243,
       "detection_liq": 27842.45,
       "peak_price": 0.0001243,
+      "captures": {
+        "price_1h": {
+          "price": 0.000105,
+          "liquidity": 25483.53,
+          "volume_24h": 293582.11,
+          "captured_at": "2026-05-27T04:49:59.701848+00:00",
+          "hours_elapsed": 2.9
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EWXiHuBM1MqTuARqMwXJsHkpBUzUQHN7RFe4aS1Fjjmm": {
+      "chain": "solana",
+      "pair_address": "EWXiHuBM1MqTuARqMwXJsHkpBUzUQHN7RFe4aS1Fjjmm",
+      "symbol": "RICHGUY",
+      "tier": "T2",
+      "detection_time": "2026-05-27T04:49:48.635079+00:00",
+      "detection_price": 0.0002085,
+      "detection_liq": 36020.92,
+      "peak_price": 0.0002085,
       "captures": {},
       "outcome_label": null,
       "completed": false
