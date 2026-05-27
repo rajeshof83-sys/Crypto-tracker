@@ -15514,10 +15514,17 @@
           "volume_24h": 133706.53,
           "captured_at": "2026-05-21T04:05:02.032632+00:00",
           "hours_elapsed": 26.2
+        },
+        "price_7d": {
+          "price": 3.677e-06,
+          "liquidity": 4837.32,
+          "volume_24h": 10238.25,
+          "captured_at": "2026-05-27T01:55:01.937830+00:00",
+          "hours_elapsed": 168.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:9ixHJhanTtAaXyjUyHUcTnzX8VK55PmHQsT6E2vmAHjB": {
       "chain": "solana",
@@ -18272,6 +18279,13 @@
           "volume_24h": 169888.83,
           "captured_at": "2026-05-26T07:54:55.799271+00:00",
           "hours_elapsed": 6.5
+        },
+        "price_24h": {
+          "price": 9.37e-05,
+          "liquidity": 24002.34,
+          "volume_24h": 59442.28,
+          "captured_at": "2026-05-27T01:55:01.937830+00:00",
+          "hours_elapsed": 24.5
         }
       },
       "outcome_label": null,
@@ -18481,7 +18495,7 @@
       "detection_time": "2026-05-26T19:11:14.046538+00:00",
       "detection_price": 2.442e-06,
       "detection_liq": 131096.72,
-      "peak_price": 2.442e-06,
+      "peak_price": 3.237e-06,
       "captures": {
         "price_1h": {
           "price": 1.567e-06,
@@ -18489,6 +18503,13 @@
           "volume_24h": 1111567.01,
           "captured_at": "2026-05-26T20:31:28.789214+00:00",
           "hours_elapsed": 1.3
+        },
+        "price_6h": {
+          "price": 3.237e-06,
+          "liquidity": 158229.89,
+          "volume_24h": 1383990.03,
+          "captured_at": "2026-05-27T01:55:01.937830+00:00",
+          "hours_elapsed": 6.7
         }
       },
       "outcome_label": null,
@@ -18512,6 +18533,32 @@
           "hours_elapsed": 1.4
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AQWRB1MsfHEChz2dWfh6TxhixxXyCeSCAgxX4XF8kqhg": {
+      "chain": "solana",
+      "pair_address": "AQWRB1MsfHEChz2dWfh6TxhixxXyCeSCAgxX4XF8kqhg",
+      "symbol": "CHUBBY",
+      "tier": "T1",
+      "detection_time": "2026-05-27T01:54:50.340225+00:00",
+      "detection_price": 0.0001106,
+      "detection_liq": 26722.08,
+      "peak_price": 0.0001106,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8SzqqM3thHdsUiU3GJfudah9B16qL5tXT3Fyrj4DoVGE": {
+      "chain": "solana",
+      "pair_address": "8SzqqM3thHdsUiU3GJfudah9B16qL5tXT3Fyrj4DoVGE",
+      "symbol": "SPEC",
+      "tier": "T1",
+      "detection_time": "2026-05-27T01:54:54.291244+00:00",
+      "detection_price": 0.0001243,
+      "detection_liq": 27842.45,
+      "peak_price": 0.0001243,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
