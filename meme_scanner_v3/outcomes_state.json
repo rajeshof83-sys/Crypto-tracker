@@ -18944,10 +18944,17 @@
           "volume_24h": 631729.4,
           "captured_at": "2026-05-27T19:28:40.801496+00:00",
           "hours_elapsed": 6.9
+        },
+        "price_24h": {
+          "price": 2.144e-06,
+          "liquidity": 3644.87,
+          "volume_24h": 278786.23,
+          "captured_at": "2026-05-28T12:46:31.399255+00:00",
+          "hours_elapsed": 24.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:H2JYvxJG2gLhPs92wjY9zMDMv5bhTzafchAFffL3Tu8h": {
       "chain": "solana",
@@ -19301,6 +19308,13 @@
           "volume_24h": 382287.75,
           "captured_at": "2026-05-28T08:05:39.090418+00:00",
           "hours_elapsed": 2.1
+        },
+        "price_6h": {
+          "price": 4.035e-06,
+          "liquidity": 4968.47,
+          "volume_24h": 392263.9,
+          "captured_at": "2026-05-28T12:46:31.399255+00:00",
+          "hours_elapsed": 6.8
         }
       },
       "outcome_label": null,
@@ -19345,6 +19359,19 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Ez8G8oaQtWr7YBSodYAD4Gwa5yuVoKG82V6yLGYptoPR": {
+      "chain": "solana",
+      "pair_address": "Ez8G8oaQtWr7YBSodYAD4Gwa5yuVoKG82V6yLGYptoPR",
+      "symbol": "SHROOMIE",
+      "tier": "T1",
+      "detection_time": "2026-05-28T12:46:20.708230+00:00",
+      "detection_price": 0.000134,
+      "detection_liq": 28353.17,
+      "peak_price": 0.000134,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
