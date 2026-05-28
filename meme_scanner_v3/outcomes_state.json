@@ -16578,10 +16578,17 @@
           "volume_24h": 504766.6,
           "captured_at": "2026-05-22T18:04:55.743454+00:00",
           "hours_elapsed": 24.5
+        },
+        "price_7d": {
+          "price": 1.979e-05,
+          "liquidity": 15599.39,
+          "volume_24h": 10745.69,
+          "captured_at": "2026-05-28T17:52:33.713067+00:00",
+          "hours_elapsed": 168.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:BYFbAJ6guYkyc1fnPYjKkFZ7MK4hg11BjHPLPSh5b5H3": {
       "chain": "solana",
@@ -19462,7 +19469,15 @@
       "detection_price": 0.0006247,
       "detection_liq": 62420.74,
       "peak_price": 0.0006247,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 3.521e-05,
+          "liquidity": 15124.19,
+          "volume_24h": 1168415.68,
+          "captured_at": "2026-05-28T17:52:33.713067+00:00",
+          "hours_elapsed": 1.8
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -19475,7 +19490,15 @@
       "detection_price": 0.0004723,
       "detection_liq": 57158.88,
       "peak_price": 0.0004723,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.000388,
+          "liquidity": 52351.92,
+          "volume_24h": 522684.66,
+          "captured_at": "2026-05-28T17:52:33.713067+00:00",
+          "hours_elapsed": 1.8
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -19487,8 +19510,16 @@
       "detection_time": "2026-05-28T16:07:29.642029+00:00",
       "detection_price": 8.837e-05,
       "detection_liq": 23158.12,
-      "peak_price": 8.837e-05,
-      "captures": {},
+      "peak_price": 0.0001457,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001457,
+          "liquidity": 30083.16,
+          "volume_24h": 373761.37,
+          "captured_at": "2026-05-28T17:52:33.713067+00:00",
+          "hours_elapsed": 1.8
+        }
+      },
       "outcome_label": null,
       "completed": false
     }
