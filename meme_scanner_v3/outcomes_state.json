@@ -16536,10 +16536,17 @@
           "volume_24h": 491795.55,
           "captured_at": "2026-05-22T16:01:46.091786+00:00",
           "hours_elapsed": 24.4
+        },
+        "price_7d": {
+          "price": 1.527e-05,
+          "liquidity": 10823.45,
+          "volume_24h": 8753.62,
+          "captured_at": "2026-05-28T16:07:38.303867+00:00",
+          "hours_elapsed": 168.5
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:2KmDJfvUATJUEVVaKD3JvQj8a9ADYrzjsnZHJXHbHpza": {
       "chain": "solana",
@@ -19394,6 +19401,58 @@
           "hours_elapsed": 1.4
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FfZdGQutooM8PBorJn51Bexpn3Fgzb4TC51Mdx7vinyC": {
+      "chain": "solana",
+      "pair_address": "FfZdGQutooM8PBorJn51Bexpn3Fgzb4TC51Mdx7vinyC",
+      "symbol": "250",
+      "tier": "T1",
+      "detection_time": "2026-05-28T16:07:20.239845+00:00",
+      "detection_price": 0.0001185,
+      "detection_liq": 27081.15,
+      "peak_price": 0.0001185,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9TABMmveFJ2YeCwK5Zxg9AgB1Xga6WnU5cQEhYWUXgw1": {
+      "chain": "solana",
+      "pair_address": "9TABMmveFJ2YeCwK5Zxg9AgB1Xga6WnU5cQEhYWUXgw1",
+      "symbol": "ZachDuke",
+      "tier": "T1",
+      "detection_time": "2026-05-28T16:07:23.646102+00:00",
+      "detection_price": 0.0006247,
+      "detection_liq": 62420.74,
+      "peak_price": 0.0006247,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HXFDxwervt35vNJq91y57P8vzfpocK3Qm8dC8kmBLwiH": {
+      "chain": "solana",
+      "pair_address": "HXFDxwervt35vNJq91y57P8vzfpocK3Qm8dC8kmBLwiH",
+      "symbol": "TinyWorld",
+      "tier": "T1",
+      "detection_time": "2026-05-28T16:07:26.654970+00:00",
+      "detection_price": 0.0004723,
+      "detection_liq": 57158.88,
+      "peak_price": 0.0004723,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8KcKzMD8L1deZjSyt6k7fiFPYYSqyQ5VJ2peFqQpHF9D": {
+      "chain": "solana",
+      "pair_address": "8KcKzMD8L1deZjSyt6k7fiFPYYSqyQ5VJ2peFqQpHF9D",
+      "symbol": "UFC250",
+      "tier": "T1",
+      "detection_time": "2026-05-28T16:07:29.642029+00:00",
+      "detection_price": 8.837e-05,
+      "detection_liq": 23158.12,
+      "peak_price": 8.837e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
