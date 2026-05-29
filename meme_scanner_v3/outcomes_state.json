@@ -20106,6 +20106,40 @@
       "detection_price": 7.052e-05,
       "detection_liq": 21029.17,
       "peak_price": 7.052e-05,
+      "captures": {
+        "price_1h": {
+          "price": 3.887e-05,
+          "liquidity": 16002.95,
+          "volume_24h": 744294.86,
+          "captured_at": "2026-05-29T23:17:29.473840+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HQERiCZ5F3tXNkvhBox5VCphuUEZkzqVPoRqevMzqiyv": {
+      "chain": "solana",
+      "pair_address": "HQERiCZ5F3tXNkvhBox5VCphuUEZkzqVPoRqevMzqiyv",
+      "symbol": "Novae",
+      "tier": "T1",
+      "detection_time": "2026-05-29T23:17:14.171646+00:00",
+      "detection_price": 0.0002421,
+      "detection_liq": 39491.7,
+      "peak_price": 0.0002421,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CCGwD5ubXP81xrgJtvTKo9JvwjSZB5ps7UBRYDiGkiFY": {
+      "chain": "solana",
+      "pair_address": "CCGwD5ubXP81xrgJtvTKo9JvwjSZB5ps7UBRYDiGkiFY",
+      "symbol": "pruk",
+      "tier": "T1",
+      "detection_time": "2026-05-29T23:17:17.409426+00:00",
+      "detection_price": 7.288e-05,
+      "detection_liq": 20925.94,
+      "peak_price": 7.288e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
