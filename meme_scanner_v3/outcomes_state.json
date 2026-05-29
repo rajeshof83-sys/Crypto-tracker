@@ -17292,10 +17292,17 @@
           "volume_24h": 11099.37,
           "captured_at": "2026-05-23T20:27:33.752208+00:00",
           "hours_elapsed": 24.3
+        },
+        "price_7d": {
+          "price": 5.624e-05,
+          "liquidity": 18547.89,
+          "volume_24h": 13195.1,
+          "captured_at": "2026-05-29T21:10:52.561965+00:00",
+          "hours_elapsed": 169.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:CGH49JQDQSh7U8nQrDhutEV4QB3h1NxsJoe7ho7UtSH3": {
       "chain": "solana",
@@ -19770,6 +19777,13 @@
           "volume_24h": 909383.76,
           "captured_at": "2026-05-29T03:59:24.304858+00:00",
           "hours_elapsed": 7.0
+        },
+        "price_24h": {
+          "price": 3.235e-05,
+          "liquidity": 15910.63,
+          "volume_24h": 770108.44,
+          "captured_at": "2026-05-29T21:10:52.561965+00:00",
+          "hours_elapsed": 24.1
         }
       },
       "outcome_label": null,
@@ -19798,10 +19812,17 @@
           "volume_24h": 2731886.43,
           "captured_at": "2026-05-29T03:59:24.304858+00:00",
           "hours_elapsed": 7.0
+        },
+        "price_24h": {
+          "price": 3.804e-06,
+          "liquidity": 5763.9,
+          "volume_24h": 2167013.59,
+          "captured_at": "2026-05-29T21:10:52.561965+00:00",
+          "hours_elapsed": 24.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:DG7TJLwqCXM2Rc1kKdjRUWutbdBCyxpt5EEqBUo9vcbb": {
       "chain": "solana",
@@ -19826,10 +19847,17 @@
           "volume_24h": 3238517.49,
           "captured_at": "2026-05-29T03:59:24.304858+00:00",
           "hours_elapsed": 7.0
+        },
+        "price_24h": {
+          "price": 2.647e-06,
+          "liquidity": 4623.6,
+          "volume_24h": 1102417.95,
+          "captured_at": "2026-05-29T21:10:52.561965+00:00",
+          "hours_elapsed": 24.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:BNtB79oJJTbXgY6iiDn4o1PhjE9nTyqJ41PST6z9Bh81": {
       "chain": "solana",
