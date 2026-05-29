@@ -19952,8 +19952,41 @@
           "volume_24h": 1597760.5,
           "captured_at": "2026-05-29T10:36:36.753920+00:00",
           "hours_elapsed": 2.6
+        },
+        "price_6h": {
+          "price": 5.421e-05,
+          "liquidity": 20444.67,
+          "volume_24h": 2020545.91,
+          "captured_at": "2026-05-29T15:45:56.733236+00:00",
+          "hours_elapsed": 7.7
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:D6QWD4ybnMByDweu1px76UDGoxUkc9KuZbcuFqbQk83F": {
+      "chain": "solana",
+      "pair_address": "D6QWD4ybnMByDweu1px76UDGoxUkc9KuZbcuFqbQk83F",
+      "symbol": "MOMO",
+      "tier": "T1",
+      "detection_time": "2026-05-29T15:45:42.128909+00:00",
+      "detection_price": 0.0001338,
+      "detection_liq": 29575.21,
+      "peak_price": 0.0001338,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EnYMBPWxnVJ7EBaV3D9sTtiCmiDtM658LorfqVLwvSCF": {
+      "chain": "solana",
+      "pair_address": "EnYMBPWxnVJ7EBaV3D9sTtiCmiDtM658LorfqVLwvSCF",
+      "symbol": "LOA",
+      "tier": "T2",
+      "detection_time": "2026-05-29T15:45:45.869616+00:00",
+      "detection_price": 0.0006239,
+      "detection_liq": 61315.25,
+      "peak_price": 0.0006239,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
