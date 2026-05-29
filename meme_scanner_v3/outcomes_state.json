@@ -19364,10 +19364,17 @@
           "volume_24h": 1865734.05,
           "captured_at": "2026-05-28T08:05:39.090418+00:00",
           "hours_elapsed": 6.6
+        },
+        "price_24h": {
+          "price": 1.886e-06,
+          "liquidity": 3548.09,
+          "volume_24h": 796562.61,
+          "captured_at": "2026-05-29T01:49:21.333980+00:00",
+          "hours_elapsed": 24.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:CMxVCvDgLyXTJDFaCwk4L4KtcNWosr4nWV6L1EQYcSBZ": {
       "chain": "solana",
@@ -19702,6 +19709,19 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DZSdEaR6Wm59jUNy2SJfiZ6TGSaKbHDHUAwEQY5yJpac": {
+      "chain": "solana",
+      "pair_address": "DZSdEaR6Wm59jUNy2SJfiZ6TGSaKbHDHUAwEQY5yJpac",
+      "symbol": "TRUMP",
+      "tier": "T2",
+      "detection_time": "2026-05-29T01:49:12.938772+00:00",
+      "detection_price": 0.0002569,
+      "detection_liq": 39728.7,
+      "peak_price": 0.0002569,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
