@@ -17627,7 +17627,7 @@
       "detection_time": "2026-05-23T16:09:55.459688+00:00",
       "detection_price": 8.523e-05,
       "detection_liq": 23018.53,
-      "peak_price": 8.804e-05,
+      "peak_price": 0.0001024,
       "captures": {
         "price_1h": {
           "price": 8.804e-05,
@@ -17649,10 +17649,17 @@
           "volume_24h": 69981.0,
           "captured_at": "2026-05-24T16:32:19.772201+00:00",
           "hours_elapsed": 24.4
+        },
+        "price_7d": {
+          "price": 0.0001024,
+          "liquidity": 25970.03,
+          "volume_24h": 43198.95,
+          "captured_at": "2026-05-30T16:34:18.070876+00:00",
+          "hours_elapsed": 168.4
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:JADhb4hLquHuwwksptRJthNLP4bQ1tk2ii5e7xJYirgt": {
       "chain": "solana",
@@ -20332,6 +20339,19 @@
           "hours_elapsed": 1.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:KvvMdZRkAASG4UNv1oayGGqCrFFmSquynxgsFUfsosB": {
+      "chain": "solana",
+      "pair_address": "KvvMdZRkAASG4UNv1oayGGqCrFFmSquynxgsFUfsosB",
+      "symbol": "GLOOBZ",
+      "tier": "T1",
+      "detection_time": "2026-05-30T16:34:04.271536+00:00",
+      "detection_price": 0.0002503,
+      "detection_liq": 40593.63,
+      "peak_price": 0.0002503,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
