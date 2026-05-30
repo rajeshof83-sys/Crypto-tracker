@@ -20358,6 +20358,27 @@
       "detection_price": 0.0002503,
       "detection_liq": 40593.63,
       "peak_price": 0.0002503,
+      "captures": {
+        "price_1h": {
+          "price": 3.733e-06,
+          "liquidity": 5193.16,
+          "volume_24h": 1784324.14,
+          "captured_at": "2026-05-30T17:37:17.376033+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6tKKMFCMEhBxntYMU5vGKHfuLaV5aG4ZTfFTSzRHPoR7": {
+      "chain": "solana",
+      "pair_address": "6tKKMFCMEhBxntYMU5vGKHfuLaV5aG4ZTfFTSzRHPoR7",
+      "symbol": "CRAFT",
+      "tier": "T1",
+      "detection_time": "2026-05-30T17:37:05.287039+00:00",
+      "detection_price": 7.964e-05,
+      "detection_liq": 22119.41,
+      "peak_price": 7.964e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
