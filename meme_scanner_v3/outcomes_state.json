@@ -20610,6 +20610,27 @@
       "detection_price": 6.69e-05,
       "detection_liq": 20006.74,
       "peak_price": 6.69e-05,
+      "captures": {
+        "price_1h": {
+          "price": 1.055e-05,
+          "liquidity": 7941.4,
+          "volume_24h": 222694.65,
+          "captured_at": "2026-05-31T15:50:47.149714+00:00",
+          "hours_elapsed": 1.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:34DG8LQMFXS9DnDnxkUGpqcMTYW9W19NGMfhyo8kR45F": {
+      "chain": "solana",
+      "pair_address": "34DG8LQMFXS9DnDnxkUGpqcMTYW9W19NGMfhyo8kR45F",
+      "symbol": "bowie",
+      "tier": "T2",
+      "detection_time": "2026-05-31T15:50:37.134566+00:00",
+      "detection_price": 0.0001252,
+      "detection_liq": 29301.14,
+      "peak_price": 0.0001252,
       "captures": {},
       "outcome_label": null,
       "completed": false
