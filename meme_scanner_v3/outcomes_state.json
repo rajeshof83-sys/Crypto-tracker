@@ -20771,10 +20771,17 @@
           "volume_24h": 3188351.25,
           "captured_at": "2026-06-01T02:05:54.417271+00:00",
           "hours_elapsed": 7.1
+        },
+        "price_24h": {
+          "price": 4.914e-06,
+          "liquidity": 6265.7,
+          "volume_24h": 3884874.48,
+          "captured_at": "2026-06-01T19:14:29.679279+00:00",
+          "hours_elapsed": 24.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:UvN1ZVZJom7D4CPuhjJrbD6y82k5TSefRQMZHHXjjfM": {
       "chain": "solana",
@@ -20924,7 +20931,41 @@
       "detection_time": "2026-06-01T16:21:03.548202+00:00",
       "detection_price": 0.0001117,
       "detection_liq": 25847.17,
-      "peak_price": 0.0001117,
+      "peak_price": 0.0001388,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001388,
+          "liquidity": 29643.03,
+          "volume_24h": 638664.76,
+          "captured_at": "2026-06-01T19:14:29.679279+00:00",
+          "hours_elapsed": 2.9
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:J61Wu5tBRBSg9BKEdpjyUCP5po49sjchvveqiF5U6MMb": {
+      "chain": "solana",
+      "pair_address": "J61Wu5tBRBSg9BKEdpjyUCP5po49sjchvveqiF5U6MMb",
+      "symbol": "GOLEM",
+      "tier": "T1",
+      "detection_time": "2026-06-01T19:14:19.281810+00:00",
+      "detection_price": 7.359e-05,
+      "detection_liq": 21504.97,
+      "peak_price": 7.359e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:94EZS2pRdjZ6wH8BAMJvgvRBXonnESBosySXtU7Kuqsb": {
+      "chain": "solana",
+      "pair_address": "94EZS2pRdjZ6wH8BAMJvgvRBXonnESBosySXtU7Kuqsb",
+      "symbol": "SPYBOX",
+      "tier": "T1",
+      "detection_time": "2026-06-01T19:14:22.315495+00:00",
+      "detection_price": 0.0003602,
+      "detection_liq": 47367.35,
+      "peak_price": 0.0003602,
       "captures": {},
       "outcome_label": null,
       "completed": false
