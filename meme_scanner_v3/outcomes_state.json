@@ -20701,10 +20701,17 @@
           "volume_24h": 231965.24,
           "captured_at": "2026-05-31T20:44:04.444243+00:00",
           "hours_elapsed": 6.4
+        },
+        "price_24h": {
+          "price": 2.742e-06,
+          "liquidity": 3989.95,
+          "volume_24h": 8877.16,
+          "captured_at": "2026-06-01T16:21:13.184362+00:00",
+          "hours_elapsed": 26.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:34DG8LQMFXS9DnDnxkUGpqcMTYW9W19NGMfhyo8kR45F": {
       "chain": "solana",
@@ -20729,6 +20736,13 @@
           "volume_24h": 116921.12,
           "captured_at": "2026-05-31T22:02:35.396090+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 0.0001057,
+          "liquidity": 26785.0,
+          "volume_24h": 140028.61,
+          "captured_at": "2026-06-01T16:21:13.184362+00:00",
+          "hours_elapsed": 24.5
         }
       },
       "outcome_label": null,
@@ -20862,6 +20876,13 @@
           "volume_24h": 1004701.38,
           "captured_at": "2026-06-01T10:23:47.822083+00:00",
           "hours_elapsed": 2.8
+        },
+        "price_6h": {
+          "price": 9.007e-05,
+          "liquidity": 24478.99,
+          "volume_24h": 1420528.94,
+          "captured_at": "2026-06-01T16:21:13.184362+00:00",
+          "hours_elapsed": 8.8
         }
       },
       "outcome_label": null,
@@ -20883,8 +20904,28 @@
           "volume_24h": 404389.29,
           "captured_at": "2026-06-01T10:23:47.822083+00:00",
           "hours_elapsed": 2.8
+        },
+        "price_6h": {
+          "price": 2.36,
+          "liquidity": 113821.73,
+          "volume_24h": 457605.76,
+          "captured_at": "2026-06-01T16:21:13.184362+00:00",
+          "hours_elapsed": 8.8
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8pR2C1CdWU1mQxxEKStzLZdJBE2v41n3mb3xGvmcQ3Xg": {
+      "chain": "solana",
+      "pair_address": "8pR2C1CdWU1mQxxEKStzLZdJBE2v41n3mb3xGvmcQ3Xg",
+      "symbol": "SolanaLife",
+      "tier": "T1",
+      "detection_time": "2026-06-01T16:21:03.548202+00:00",
+      "detection_price": 0.0001117,
+      "detection_liq": 25847.17,
+      "peak_price": 0.0001117,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
