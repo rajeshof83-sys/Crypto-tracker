@@ -18279,10 +18279,17 @@
           "volume_24h": 741791.44,
           "captured_at": "2026-05-26T07:54:55.799271+00:00",
           "hours_elapsed": 24.9
+        },
+        "price_7d": {
+          "price": 1.644e-05,
+          "liquidity": 10872.84,
+          "volume_24h": 10648.48,
+          "captured_at": "2026-06-01T07:34:23.080939+00:00",
+          "hours_elapsed": 168.6
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:E1PrYBHsiNhZny7W1ZLpCTWrBpkc2VA84PoJeJyuAyvn": {
       "chain": "solana",
@@ -20799,6 +20806,40 @@
       "detection_price": 0.0001103,
       "detection_liq": 26561.68,
       "peak_price": 0.0001103,
+      "captures": {
+        "price_1h": {
+          "price": 4.181e-05,
+          "liquidity": 16619.02,
+          "volume_24h": 963244.9,
+          "captured_at": "2026-06-01T07:34:23.080939+00:00",
+          "hours_elapsed": 3.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9ZMuy8RsLo4PjTCmnVcCAg5M2ADfNNWLSGaqzKvqHpDZ": {
+      "chain": "solana",
+      "pair_address": "9ZMuy8RsLo4PjTCmnVcCAg5M2ADfNNWLSGaqzKvqHpDZ",
+      "symbol": "MCDOGE",
+      "tier": "T1",
+      "detection_time": "2026-06-01T07:33:58.655503+00:00",
+      "detection_price": 0.0002732,
+      "detection_liq": 40935.61,
+      "peak_price": 0.0002732,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:H1HkFYy8ga3oYBkxK4hTieZFPBSdh8ot5BsbRjJqj79V": {
+      "chain": "solana",
+      "pair_address": "H1HkFYy8ga3oYBkxK4hTieZFPBSdh8ot5BsbRjJqj79V",
+      "symbol": "PIE",
+      "tier": "T2",
+      "detection_time": "2026-06-01T07:34:02.791235+00:00",
+      "detection_price": 2.82,
+      "detection_liq": 124556.47,
+      "peak_price": 2.82,
       "captures": {},
       "outcome_label": null,
       "completed": false
