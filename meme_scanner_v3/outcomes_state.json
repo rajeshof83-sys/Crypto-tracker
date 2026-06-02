@@ -18720,10 +18720,17 @@
           "volume_24h": 1576201.38,
           "captured_at": "2026-05-27T10:43:23.085010+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 0.000164,
+          "liquidity": 37485.39,
+          "volume_24h": 114230.37,
+          "captured_at": "2026-06-02T10:43:46.380166+00:00",
+          "hours_elapsed": 168.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "winner",
+      "completed": true
     },
     "solana:3WEvPu2jm2TCBaePAGBkedGgjWUm4LxYsur8J25BimYi": {
       "chain": "solana",
@@ -21256,6 +21263,19 @@
           "hours_elapsed": 2.8
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8FzyeHqAYBp6C4oKkzupQiqsz3MeX1oBbv8iCe4KT9Ns": {
+      "chain": "solana",
+      "pair_address": "8FzyeHqAYBp6C4oKkzupQiqsz3MeX1oBbv8iCe4KT9Ns",
+      "symbol": "POKEMART",
+      "tier": "T1",
+      "detection_time": "2026-06-02T10:43:32.860923+00:00",
+      "detection_price": 0.0001036,
+      "detection_liq": 24619.13,
+      "peak_price": 0.0001036,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
