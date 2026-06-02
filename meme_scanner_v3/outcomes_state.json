@@ -18636,10 +18636,17 @@
           "volume_24h": 59442.28,
           "captured_at": "2026-05-27T01:55:01.937830+00:00",
           "hours_elapsed": 24.5
+        },
+        "price_7d": {
+          "price": 0.000163,
+          "liquidity": 31330.78,
+          "volume_24h": 8089.2,
+          "captured_at": "2026-06-02T01:37:42.250516+00:00",
+          "hours_elapsed": 168.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:AamRgdrgWVT6gGxK4tUV4b9f6g3TSJpisGZ49uahV8vK": {
       "chain": "solana",
@@ -21002,6 +21009,13 @@
           "volume_24h": 809088.74,
           "captured_at": "2026-06-01T20:57:33.710026+00:00",
           "hours_elapsed": 1.7
+        },
+        "price_6h": {
+          "price": 1.573e-05,
+          "liquidity": 10156.15,
+          "volume_24h": 917813.85,
+          "captured_at": "2026-06-02T01:37:42.250516+00:00",
+          "hours_elapsed": 6.4
         }
       },
       "outcome_label": null,
@@ -21023,6 +21037,13 @@
           "volume_24h": 1121443.7,
           "captured_at": "2026-06-01T20:57:33.710026+00:00",
           "hours_elapsed": 1.7
+        },
+        "price_6h": {
+          "price": 4.387e-05,
+          "liquidity": 16728.65,
+          "volume_24h": 1263008.14,
+          "captured_at": "2026-06-02T01:37:42.250516+00:00",
+          "hours_elapsed": 6.4
         }
       },
       "outcome_label": null,
@@ -21078,7 +21099,28 @@
       "detection_time": "2026-06-02T00:01:16.266399+00:00",
       "detection_price": 9.52e-05,
       "detection_liq": 24028.31,
-      "peak_price": 9.52e-05,
+      "peak_price": 0.0001334,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001334,
+          "liquidity": 28362.34,
+          "volume_24h": 423519.77,
+          "captured_at": "2026-06-02T01:37:42.250516+00:00",
+          "hours_elapsed": 1.6
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AkFoHpWLXN7fJ7D4wZ42njtpMz3uozEJnTR43R29yyXT": {
+      "chain": "solana",
+      "pair_address": "AkFoHpWLXN7fJ7D4wZ42njtpMz3uozEJnTR43R29yyXT",
+      "symbol": "PARIS",
+      "tier": "T1",
+      "detection_time": "2026-06-02T01:37:25.952314+00:00",
+      "detection_price": 0.0008009,
+      "detection_liq": 73672.43,
+      "peak_price": 0.0008009,
       "captures": {},
       "outcome_label": null,
       "completed": false
