@@ -21135,6 +21135,13 @@
           "volume_24h": 423519.77,
           "captured_at": "2026-06-02T01:37:42.250516+00:00",
           "hours_elapsed": 1.6
+        },
+        "price_6h": {
+          "price": 9.234e-05,
+          "liquidity": 23518.73,
+          "volume_24h": 463380.39,
+          "captured_at": "2026-06-02T06:59:03.667521+00:00",
+          "hours_elapsed": 7.0
         }
       },
       "outcome_label": null,
@@ -21169,7 +21176,41 @@
       "detection_time": "2026-06-02T05:09:26.611472+00:00",
       "detection_price": 0.0001802,
       "detection_liq": 33645.39,
-      "peak_price": 0.0001802,
+      "peak_price": 0.001003,
+      "captures": {
+        "price_1h": {
+          "price": 0.001003,
+          "liquidity": 81634.17,
+          "volume_24h": 1990601.58,
+          "captured_at": "2026-06-02T06:59:03.667521+00:00",
+          "hours_elapsed": 1.8
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9RCdsD2m3GzXEEgxLfqWbqDFFzGpoubTrXbKzom3NcgJ": {
+      "chain": "solana",
+      "pair_address": "9RCdsD2m3GzXEEgxLfqWbqDFFzGpoubTrXbKzom3NcgJ",
+      "symbol": "BEARYS",
+      "tier": "T1",
+      "detection_time": "2026-06-02T06:58:50.835125+00:00",
+      "detection_price": 0.0002821,
+      "detection_liq": 40905.26,
+      "peak_price": 0.0002821,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2mQYy3LfJCnauyfufYnLGtLCXmb6M2shXQGV2mHx7Mpy": {
+      "chain": "solana",
+      "pair_address": "2mQYy3LfJCnauyfufYnLGtLCXmb6M2shXQGV2mHx7Mpy",
+      "symbol": "drooling",
+      "tier": "T2",
+      "detection_time": "2026-06-02T06:58:54.838214+00:00",
+      "detection_price": 7.272e-05,
+      "detection_liq": 20604.94,
+      "peak_price": 7.272e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
