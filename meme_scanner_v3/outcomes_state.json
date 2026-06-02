@@ -21435,7 +21435,28 @@
       "detection_time": "2026-06-02T21:38:00.095335+00:00",
       "detection_price": 0.0001326,
       "detection_liq": 28311.01,
-      "peak_price": 0.0001326,
+      "peak_price": 0.0001505,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001505,
+          "liquidity": 30587.66,
+          "volume_24h": 1166473.5,
+          "captured_at": "2026-06-02T23:24:09.674510+00:00",
+          "hours_elapsed": 1.8
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7tvfaFUWc15z3kVkJTKuazNzkHn9g1Xdr8bPCBrcgNtZ": {
+      "chain": "solana",
+      "pair_address": "7tvfaFUWc15z3kVkJTKuazNzkHn9g1Xdr8bPCBrcgNtZ",
+      "symbol": "Willow",
+      "tier": "T1",
+      "detection_time": "2026-06-02T23:23:57.618340+00:00",
+      "detection_price": 0.0001381,
+      "detection_liq": 38068.29,
+      "peak_price": 0.0001381,
       "captures": {},
       "outcome_label": null,
       "completed": false
