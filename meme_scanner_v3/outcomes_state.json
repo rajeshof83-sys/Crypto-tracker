@@ -21037,7 +21037,15 @@
       "detection_price": 8.586e-05,
       "detection_liq": 23592.94,
       "peak_price": 8.586e-05,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 1.669e-05,
+          "liquidity": 10529.61,
+          "volume_24h": 832350.9,
+          "captured_at": "2026-06-02T00:01:28.369357+00:00",
+          "hours_elapsed": 1.6
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -21050,6 +21058,27 @@
       "detection_price": 8.703e-05,
       "detection_liq": 22463.89,
       "peak_price": 8.703e-05,
+      "captures": {
+        "price_1h": {
+          "price": 5.512e-05,
+          "liquidity": 17921.92,
+          "volume_24h": 116293.48,
+          "captured_at": "2026-06-02T00:01:28.369357+00:00",
+          "hours_elapsed": 1.6
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DrcVpDdXGVBHMCr4Vn9kbcypZwchh3zHkMaRasvcSnLf": {
+      "chain": "solana",
+      "pair_address": "DrcVpDdXGVBHMCr4Vn9kbcypZwchh3zHkMaRasvcSnLf",
+      "symbol": "DEPLOYER",
+      "tier": "T1",
+      "detection_time": "2026-06-02T00:01:16.266399+00:00",
+      "detection_price": 9.52e-05,
+      "detection_liq": 24028.31,
+      "peak_price": 9.52e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
