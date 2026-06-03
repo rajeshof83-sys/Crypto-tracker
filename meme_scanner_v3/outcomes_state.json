@@ -21338,10 +21338,17 @@
           "volume_24h": 1085951.06,
           "captured_at": "2026-06-02T14:36:37.627097+00:00",
           "hours_elapsed": 7.6
+        },
+        "price_24h": {
+          "price": 2.444e-06,
+          "liquidity": 3889.77,
+          "volume_24h": 570487.94,
+          "captured_at": "2026-06-03T07:14:12.071737+00:00",
+          "hours_elapsed": 24.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:2mQYy3LfJCnauyfufYnLGtLCXmb6M2shXQGV2mHx7Mpy": {
       "chain": "solana",
@@ -21351,7 +21358,7 @@
       "detection_time": "2026-06-02T06:58:54.838214+00:00",
       "detection_price": 7.272e-05,
       "detection_liq": 20604.94,
-      "peak_price": 7.272e-05,
+      "peak_price": 0.0001354,
       "captures": {
         "price_1h": {
           "price": 6.197e-05,
@@ -21366,6 +21373,13 @@
           "volume_24h": 381290.48,
           "captured_at": "2026-06-02T14:36:37.627097+00:00",
           "hours_elapsed": 7.6
+        },
+        "price_24h": {
+          "price": 0.0001354,
+          "liquidity": 28198.14,
+          "volume_24h": 344164.9,
+          "captured_at": "2026-06-03T07:14:12.071737+00:00",
+          "hours_elapsed": 24.3
         }
       },
       "outcome_label": null,
@@ -21547,7 +21561,41 @@
       "detection_time": "2026-06-03T04:28:12.768376+00:00",
       "detection_price": 0.0002308,
       "detection_liq": 38642.41,
-      "peak_price": 0.0002308,
+      "peak_price": 0.0003279,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003279,
+          "liquidity": 46671.66,
+          "volume_24h": 648811.2,
+          "captured_at": "2026-06-03T07:14:12.071737+00:00",
+          "hours_elapsed": 2.8
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:BKzUFUV7xSAf9k6y7ubNxvDqFUz4r1Z6Pb33oosCG23m": {
+      "chain": "solana",
+      "pair_address": "BKzUFUV7xSAf9k6y7ubNxvDqFUz4r1Z6Pb33oosCG23m",
+      "symbol": "MEMEBUCKS",
+      "tier": "T1",
+      "detection_time": "2026-06-03T07:13:56.620656+00:00",
+      "detection_price": 0.0001491,
+      "detection_liq": 28714.41,
+      "peak_price": 0.0001491,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EQRMhWmtjhfmdoocPjaH7n1k6jbEpvsQnymFy3NyaZKE": {
+      "chain": "solana",
+      "pair_address": "EQRMhWmtjhfmdoocPjaH7n1k6jbEpvsQnymFy3NyaZKE",
+      "symbol": "PROPHECY",
+      "tier": "T1",
+      "detection_time": "2026-06-03T07:14:00.400831+00:00",
+      "detection_price": 0.0001024,
+      "detection_liq": 23799.18,
+      "peak_price": 0.0001024,
       "captures": {},
       "outcome_label": null,
       "completed": false
