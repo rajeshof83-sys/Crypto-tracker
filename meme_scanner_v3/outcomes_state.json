@@ -19210,10 +19210,17 @@
           "volume_24h": 1461587.79,
           "captured_at": "2026-05-28T08:53:10.493550+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 4.736e-06,
+          "liquidity": 5840.08,
+          "volume_24h": 781.69,
+          "captured_at": "2026-06-03T09:55:08.718929+00:00",
+          "hours_elapsed": 169.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:DaqGaxaetSyL23UTwCwThGDMNPpiLQ9SxgpVm2E2yrj4": {
       "chain": "solana",
@@ -21583,7 +21590,15 @@
       "detection_price": 0.0001491,
       "detection_liq": 28714.41,
       "peak_price": 0.0001491,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 1.598e-06,
+          "liquidity": 2994.59,
+          "volume_24h": 343566.92,
+          "captured_at": "2026-06-03T09:55:08.718929+00:00",
+          "hours_elapsed": 2.7
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -21595,7 +21610,41 @@
       "detection_time": "2026-06-03T07:14:00.400831+00:00",
       "detection_price": 0.0001024,
       "detection_liq": 23799.18,
-      "peak_price": 0.0001024,
+      "peak_price": 0.0001976,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001976,
+          "liquidity": 34456.54,
+          "volume_24h": 807970.38,
+          "captured_at": "2026-06-03T09:55:08.718929+00:00",
+          "hours_elapsed": 2.7
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FejecJXdHthpoDDwDzStniJ2iUwCLnyw5hnFoCFJSC4B": {
+      "chain": "solana",
+      "pair_address": "FejecJXdHthpoDDwDzStniJ2iUwCLnyw5hnFoCFJSC4B",
+      "symbol": "JOMO",
+      "tier": "T1",
+      "detection_time": "2026-06-03T09:54:53.451272+00:00",
+      "detection_price": 7.536e-05,
+      "detection_liq": 20340.56,
+      "peak_price": 7.536e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Hdh5jVfUktswc5cZwR7ZDcATCQLpXKUnXqeb4eKxkSxq": {
+      "chain": "solana",
+      "pair_address": "Hdh5jVfUktswc5cZwR7ZDcATCQLpXKUnXqeb4eKxkSxq",
+      "symbol": "NEAN",
+      "tier": "T1",
+      "detection_time": "2026-06-03T09:54:57.062191+00:00",
+      "detection_price": 0.0003943,
+      "detection_liq": 66030.75,
+      "peak_price": 0.0003943,
       "captures": {},
       "outcome_label": null,
       "completed": false
