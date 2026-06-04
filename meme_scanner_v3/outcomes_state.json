@@ -21891,6 +21891,40 @@
       "detection_price": 0.0001394,
       "detection_liq": 27707.25,
       "peak_price": 0.0001394,
+      "captures": {
+        "price_1h": {
+          "price": 6.909e-05,
+          "liquidity": 19551.0,
+          "volume_24h": 473705.8,
+          "captured_at": "2026-06-04T00:15:14.473725+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HXmUVCxsVvCnpyM86a4xtsjXVegVqqbuXopusWR13S6X": {
+      "chain": "solana",
+      "pair_address": "HXmUVCxsVvCnpyM86a4xtsjXVegVqqbuXopusWR13S6X",
+      "symbol": "HUNTER",
+      "tier": "T1",
+      "detection_time": "2026-06-04T00:14:54.260749+00:00",
+      "detection_price": 0.0003006,
+      "detection_liq": 42798.21,
+      "peak_price": 0.0003006,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:B5pFNPiwdfbD7Pb3LtXktFamsASwWLdZcZYf5PHhJrmw": {
+      "chain": "solana",
+      "pair_address": "B5pFNPiwdfbD7Pb3LtXktFamsASwWLdZcZYf5PHhJrmw",
+      "symbol": "SHIBEUS",
+      "tier": "T2",
+      "detection_time": "2026-06-04T00:15:02.570872+00:00",
+      "detection_price": 0.0002133,
+      "detection_liq": 35517.24,
+      "peak_price": 0.0002133,
       "captures": {},
       "outcome_label": null,
       "completed": false
