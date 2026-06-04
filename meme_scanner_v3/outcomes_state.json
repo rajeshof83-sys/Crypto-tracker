@@ -22045,6 +22045,13 @@
           "volume_24h": 177100.81,
           "captured_at": "2026-06-04T05:20:46.160403+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 6.177e-05,
+          "liquidity": 18229.84,
+          "volume_24h": 82173.17,
+          "captured_at": "2026-06-04T23:47:17.662352+00:00",
+          "hours_elapsed": 24.5
         }
       },
       "outcome_label": null,
@@ -22313,6 +22320,19 @@
           "hours_elapsed": 1.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9t5zw3cRkLXGRz3xUqZvXtUNZedb8D7Kt2YhbRqEfyQo": {
+      "chain": "solana",
+      "pair_address": "9t5zw3cRkLXGRz3xUqZvXtUNZedb8D7Kt2YhbRqEfyQo",
+      "symbol": "LOKI",
+      "tier": "T2",
+      "detection_time": "2026-06-04T23:47:08.738587+00:00",
+      "detection_price": 0.0002158,
+      "detection_liq": 33226.12,
+      "peak_price": 0.0002158,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
