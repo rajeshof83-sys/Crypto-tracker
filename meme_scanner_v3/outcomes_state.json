@@ -22059,6 +22059,13 @@
           "volume_24h": 1125869.42,
           "captured_at": "2026-06-04T08:53:21.439732+00:00",
           "hours_elapsed": 1.9
+        },
+        "price_6h": {
+          "price": 2.662e-05,
+          "liquidity": 12827.0,
+          "volume_24h": 1489604.46,
+          "captured_at": "2026-06-04T13:39:03.684188+00:00",
+          "hours_elapsed": 6.7
         }
       },
       "outcome_label": null,
@@ -22115,6 +22122,27 @@
       "detection_price": 0.0001758,
       "detection_liq": 32571.44,
       "peak_price": 0.0001758,
+      "captures": {
+        "price_1h": {
+          "price": 9.83e-05,
+          "liquidity": 24817.96,
+          "volume_24h": 257054.82,
+          "captured_at": "2026-06-04T13:39:03.684188+00:00",
+          "hours_elapsed": 1.7
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CHit3VLJndHLRrAQbFkmJHfjFruGtfD7XbwjGYPQoqyq": {
+      "chain": "solana",
+      "pair_address": "CHit3VLJndHLRrAQbFkmJHfjFruGtfD7XbwjGYPQoqyq",
+      "symbol": "NEOW",
+      "tier": "T1",
+      "detection_time": "2026-06-04T13:38:54.426356+00:00",
+      "detection_price": 0.0002308,
+      "detection_liq": 35369.62,
+      "peak_price": 0.0002308,
       "captures": {},
       "outcome_label": null,
       "completed": false
