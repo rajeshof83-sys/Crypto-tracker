@@ -19798,10 +19798,17 @@
           "volume_24h": 807425.53,
           "captured_at": "2026-05-29T08:51:37.043582+00:00",
           "hours_elapsed": 24.8
+        },
+        "price_7d": {
+          "price": 7.706e-06,
+          "liquidity": 6686.93,
+          "volume_24h": 1223.19,
+          "captured_at": "2026-06-04T08:53:21.439732+00:00",
+          "hours_elapsed": 168.8
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:B5sFNgme3LaqqkwDeYvT9XCdeuMmtWzj6prWysNwSijq": {
       "chain": "solana",
@@ -21716,10 +21723,17 @@
           "volume_24h": 343627.17,
           "captured_at": "2026-06-03T14:46:11.691426+00:00",
           "hours_elapsed": 7.5
+        },
+        "price_24h": {
+          "price": 1.459e-06,
+          "liquidity": 2773.19,
+          "volume_24h": 113.46,
+          "captured_at": "2026-06-04T08:53:21.439732+00:00",
+          "hours_elapsed": 25.7
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:EQRMhWmtjhfmdoocPjaH7n1k6jbEpvsQnymFy3NyaZKE": {
       "chain": "solana",
@@ -21744,10 +21758,17 @@
           "volume_24h": 1206398.69,
           "captured_at": "2026-06-03T14:46:11.691426+00:00",
           "hours_elapsed": 7.5
+        },
+        "price_24h": {
+          "price": 1.554e-06,
+          "liquidity": 3007.76,
+          "volume_24h": 626728.14,
+          "captured_at": "2026-06-04T08:53:21.439732+00:00",
+          "hours_elapsed": 25.7
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:FejecJXdHthpoDDwDzStniJ2iUwCLnyw5hnFoCFJSC4B": {
       "chain": "solana",
@@ -22010,6 +22031,27 @@
       "detection_price": 8.478e-05,
       "detection_liq": 20972.31,
       "peak_price": 8.478e-05,
+      "captures": {
+        "price_1h": {
+          "price": 8.37e-05,
+          "liquidity": 21847.6,
+          "volume_24h": 1125869.42,
+          "captured_at": "2026-06-04T08:53:21.439732+00:00",
+          "hours_elapsed": 1.9
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:ALbxxJw9r9UUQcVnct6M9f9zJ2twd4AgR1MTavohNi6r": {
+      "chain": "solana",
+      "pair_address": "ALbxxJw9r9UUQcVnct6M9f9zJ2twd4AgR1MTavohNi6r",
+      "symbol": "ewok",
+      "tier": "T1",
+      "detection_time": "2026-06-04T08:53:02.969810+00:00",
+      "detection_price": 7.512e-05,
+      "detection_liq": 20115.94,
+      "peak_price": 7.512e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
