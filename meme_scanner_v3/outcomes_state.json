@@ -21961,6 +21961,13 @@
           "volume_24h": 553798.8,
           "captured_at": "2026-06-04T01:49:20.851076+00:00",
           "hours_elapsed": 1.6
+        },
+        "price_6h": {
+          "price": 0.0002926,
+          "liquidity": 42360.13,
+          "volume_24h": 755808.16,
+          "captured_at": "2026-06-04T06:57:39.755094+00:00",
+          "hours_elapsed": 6.7
         }
       },
       "outcome_label": null,
@@ -21982,8 +21989,28 @@
           "volume_24h": 526306.22,
           "captured_at": "2026-06-04T01:49:20.851076+00:00",
           "hours_elapsed": 1.6
+        },
+        "price_6h": {
+          "price": 0.0001653,
+          "liquidity": 31153.37,
+          "volume_24h": 514309.34,
+          "captured_at": "2026-06-04T06:57:39.755094+00:00",
+          "hours_elapsed": 6.7
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HDkrQS7btxQWPMPTNWFmLMTQZZPbbsLtyvCjdMDqz5uo": {
+      "chain": "solana",
+      "pair_address": "HDkrQS7btxQWPMPTNWFmLMTQZZPbbsLtyvCjdMDqz5uo",
+      "symbol": "Heart-Chan",
+      "tier": "T1",
+      "detection_time": "2026-06-04T06:57:20.929343+00:00",
+      "detection_price": 8.478e-05,
+      "detection_liq": 20972.31,
+      "peak_price": 8.478e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
