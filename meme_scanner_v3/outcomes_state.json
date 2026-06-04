@@ -22094,6 +22094,27 @@
       "detection_price": 0.0002557,
       "detection_liq": 36075.18,
       "peak_price": 0.0002557,
+      "captures": {
+        "price_1h": {
+          "price": 4.322e-06,
+          "liquidity": 4886.66,
+          "volume_24h": 1130935.91,
+          "captured_at": "2026-06-04T11:58:59.862447+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2afqZ7GYszDTM1FiMc6vfCus5VwJs55M6q2PaDxWYzZs": {
+      "chain": "solana",
+      "pair_address": "2afqZ7GYszDTM1FiMc6vfCus5VwJs55M6q2PaDxWYzZs",
+      "symbol": "STARMAN",
+      "tier": "T2",
+      "detection_time": "2026-06-04T11:58:43.078846+00:00",
+      "detection_price": 0.0001758,
+      "detection_liq": 32571.44,
+      "peak_price": 0.0001758,
       "captures": {},
       "outcome_label": null,
       "completed": false
