@@ -20386,10 +20386,17 @@
           "volume_24h": 1166602.7,
           "captured_at": "2026-05-30T08:03:24.418292+00:00",
           "hours_elapsed": 24.0
+        },
+        "price_7d": {
+          "price": 0.0001501,
+          "liquidity": 33495.82,
+          "volume_24h": 806095.82,
+          "captured_at": "2026-06-05T08:56:23.720804+00:00",
+          "hours_elapsed": 168.9
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:D6QWD4ybnMByDweu1px76UDGoxUkc9KuZbcuFqbQk83F": {
       "chain": "solana",
@@ -22164,6 +22171,13 @@
           "volume_24h": 1489604.46,
           "captured_at": "2026-06-04T13:39:03.684188+00:00",
           "hours_elapsed": 6.7
+        },
+        "price_24h": {
+          "price": 1.486e-05,
+          "liquidity": 9313.6,
+          "volume_24h": 464262.83,
+          "captured_at": "2026-06-05T08:56:23.720804+00:00",
+          "hours_elapsed": 26.0
         }
       },
       "outcome_label": null,
@@ -22192,6 +22206,13 @@
           "volume_24h": 680969.02,
           "captured_at": "2026-06-04T15:23:44.763600+00:00",
           "hours_elapsed": 6.5
+        },
+        "price_24h": {
+          "price": 7.389e-06,
+          "liquidity": 6274.32,
+          "volume_24h": 264808.53,
+          "captured_at": "2026-06-05T08:56:23.720804+00:00",
+          "hours_elapsed": 24.1
         }
       },
       "outcome_label": null,
@@ -22401,8 +22422,16 @@
       "detection_time": "2026-06-05T06:55:32.106607+00:00",
       "detection_price": 0.0003685,
       "detection_liq": 41901.54,
-      "peak_price": 0.0003685,
-      "captures": {},
+      "peak_price": 0.0006935,
+      "captures": {
+        "price_1h": {
+          "price": 0.0006935,
+          "liquidity": 59047.92,
+          "volume_24h": 930089.5,
+          "captured_at": "2026-06-05T08:56:23.720804+00:00",
+          "hours_elapsed": 2.0
+        }
+      },
       "outcome_label": null,
       "completed": false
     }
