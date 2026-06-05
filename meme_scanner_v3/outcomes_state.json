@@ -20512,10 +20512,17 @@
           "volume_24h": 276779.31,
           "captured_at": "2026-05-30T22:09:00.627200+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 1.699e-06,
+          "liquidity": 2947.94,
+          "volume_24h": 34.86,
+          "captured_at": "2026-06-05T22:36:07.497073+00:00",
+          "hours_elapsed": 168.5
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:HQERiCZ5F3tXNkvhBox5VCphuUEZkzqVPoRqevMzqiyv": {
       "chain": "solana",
@@ -22600,6 +22607,32 @@
           "hours_elapsed": 1.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:91SHUzpeuFqsWGvKBk6wndGECEbeY87A25WJKXG68nzZ": {
+      "chain": "solana",
+      "pair_address": "91SHUzpeuFqsWGvKBk6wndGECEbeY87A25WJKXG68nzZ",
+      "symbol": "Gorilla",
+      "tier": "T1",
+      "detection_time": "2026-06-05T22:35:57.350494+00:00",
+      "detection_price": 0.0001375,
+      "detection_liq": 26409.85,
+      "peak_price": 0.0001375,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8bP68DscyFsqLDZBZgPVFzMrmg3hFU5UMDA3pAV6feHA": {
+      "chain": "solana",
+      "pair_address": "8bP68DscyFsqLDZBZgPVFzMrmg3hFU5UMDA3pAV6feHA",
+      "symbol": "HUNTERBANK",
+      "tier": "T1",
+      "detection_time": "2026-06-05T22:36:00.483913+00:00",
+      "detection_price": 0.0001582,
+      "detection_liq": 28417.28,
+      "peak_price": 0.0001582,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
