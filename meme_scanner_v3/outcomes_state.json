@@ -20232,10 +20232,17 @@
           "volume_24h": 374374.7,
           "captured_at": "2026-05-30T03:44:42.884977+00:00",
           "hours_elapsed": 25.9
+        },
+        "price_7d": {
+          "price": 2.013e-05,
+          "liquidity": 10864.61,
+          "volume_24h": 37442.34,
+          "captured_at": "2026-06-05T01:56:28.435830+00:00",
+          "hours_elapsed": 168.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:7LdhcdMUgRBpmydgbjmzJ9YoQrRwmifrEwqNDtCwxPS1": {
       "chain": "solana",
@@ -22311,6 +22318,13 @@
           "volume_24h": 1635105.26,
           "captured_at": "2026-06-04T21:00:07.150523+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 3.467e-06,
+          "liquidity": 5147.78,
+          "volume_24h": 4995729.02,
+          "captured_at": "2026-06-05T01:56:28.435830+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -22332,6 +22346,13 @@
           "volume_24h": 86552.5,
           "captured_at": "2026-06-04T21:00:07.150523+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 5.245e-05,
+          "liquidity": 16054.32,
+          "volume_24h": 104141.49,
+          "captured_at": "2026-06-05T01:56:28.435830+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -22345,8 +22366,16 @@
       "detection_time": "2026-06-04T23:47:08.738587+00:00",
       "detection_price": 0.0002158,
       "detection_liq": 33226.12,
-      "peak_price": 0.0002158,
-      "captures": {},
+      "peak_price": 0.000238,
+      "captures": {
+        "price_1h": {
+          "price": 0.000238,
+          "liquidity": 34845.84,
+          "volume_24h": 149375.67,
+          "captured_at": "2026-06-05T01:56:28.435830+00:00",
+          "hours_elapsed": 2.2
+        }
+      },
       "outcome_label": null,
       "completed": false
     }
