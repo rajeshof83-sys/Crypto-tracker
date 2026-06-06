@@ -22682,6 +22682,27 @@
       "detection_price": 0.0003441,
       "detection_liq": 42677.7,
       "peak_price": 0.0003441,
+      "captures": {
+        "price_1h": {
+          "price": 3.808e-06,
+          "liquidity": 4709.65,
+          "volume_24h": 2000524.12,
+          "captured_at": "2026-06-06T01:29:55.815116+00:00",
+          "hours_elapsed": 1.6
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6PkwGk2nNjU98XmmbD69gjQ2VnY1yZx8apwdnPfruDoT": {
+      "chain": "solana",
+      "pair_address": "6PkwGk2nNjU98XmmbD69gjQ2VnY1yZx8apwdnPfruDoT",
+      "symbol": "CWAB",
+      "tier": "T1",
+      "detection_time": "2026-06-06T01:29:45.966618+00:00",
+      "detection_price": 0.0001911,
+      "detection_liq": 30858.61,
+      "peak_price": 0.0001911,
       "captures": {},
       "outcome_label": null,
       "completed": false
