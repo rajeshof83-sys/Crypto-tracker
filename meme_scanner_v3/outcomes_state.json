@@ -22702,7 +22702,28 @@
       "detection_time": "2026-06-06T01:29:45.966618+00:00",
       "detection_price": 0.0001911,
       "detection_liq": 30858.61,
-      "peak_price": 0.0001911,
+      "peak_price": 0.0002092,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002092,
+          "liquidity": 32463.93,
+          "volume_24h": 920122.51,
+          "captured_at": "2026-06-06T03:51:05.379420+00:00",
+          "hours_elapsed": 2.4
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CqPrdaT2P8kA74HEqnPQwHyCzRKJ8L8vqJK2miJK6xNC": {
+      "chain": "solana",
+      "pair_address": "CqPrdaT2P8kA74HEqnPQwHyCzRKJ8L8vqJK2miJK6xNC",
+      "symbol": "TRUMP2028",
+      "tier": "T1",
+      "detection_time": "2026-06-06T03:50:54.275038+00:00",
+      "detection_price": 0.00014,
+      "detection_liq": 25479.15,
+      "peak_price": 0.00014,
       "captures": {},
       "outcome_label": null,
       "completed": false
