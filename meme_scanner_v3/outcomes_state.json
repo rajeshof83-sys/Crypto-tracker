@@ -23179,8 +23179,28 @@
           "volume_24h": 592761.23,
           "captured_at": "2026-06-07T08:26:38.524335+00:00",
           "hours_elapsed": 4.2
+        },
+        "price_6h": {
+          "price": 4.889e-05,
+          "liquidity": 16048.59,
+          "volume_24h": 618244.48,
+          "captured_at": "2026-06-07T10:58:01.323181+00:00",
+          "hours_elapsed": 6.7
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:77tvWRRKv5i2PzRQcvj6pXmTFHWzTbj2k1Dimrdzrpc3": {
+      "chain": "solana",
+      "pair_address": "77tvWRRKv5i2PzRQcvj6pXmTFHWzTbj2k1Dimrdzrpc3",
+      "symbol": "YETZY",
+      "tier": "T2",
+      "detection_time": "2026-06-07T10:57:50.165540+00:00",
+      "detection_price": 0.01106,
+      "detection_liq": 237496.14,
+      "peak_price": 0.01106,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
