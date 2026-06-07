@@ -23102,10 +23102,17 @@
           "volume_24h": 197650.26,
           "captured_at": "2026-06-07T04:16:29.657715+00:00",
           "hours_elapsed": 8.4
+        },
+        "price_24h": {
+          "price": 1.983e-06,
+          "liquidity": 3043.27,
+          "volume_24h": 3799.31,
+          "captured_at": "2026-06-07T20:47:04.946150+00:00",
+          "hours_elapsed": 24.9
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:F9R6CnNMDAkDoAmZWgvHB686ZhnKwCDYyZFrQHG61evK": {
       "chain": "solana",
@@ -23130,6 +23137,13 @@
           "volume_24h": 347495.75,
           "captured_at": "2026-06-07T04:16:29.657715+00:00",
           "hours_elapsed": 8.4
+        },
+        "price_24h": {
+          "price": 0.0001022,
+          "liquidity": 22635.63,
+          "volume_24h": 153115.76,
+          "captured_at": "2026-06-07T20:47:04.946150+00:00",
+          "hours_elapsed": 24.9
         }
       },
       "outcome_label": null,
@@ -23293,6 +23307,19 @@
           "hours_elapsed": 1.3
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GwoJ89j58vM69JajJHSAWsTsBfEDuw8MLS47pmAXDQZv": {
+      "chain": "solana",
+      "pair_address": "GwoJ89j58vM69JajJHSAWsTsBfEDuw8MLS47pmAXDQZv",
+      "symbol": "BOUNTYHOUSE",
+      "tier": "T1",
+      "detection_time": "2026-06-07T20:46:55.377962+00:00",
+      "detection_price": 0.0004598,
+      "detection_liq": 48687.99,
+      "peak_price": 0.0004598,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
