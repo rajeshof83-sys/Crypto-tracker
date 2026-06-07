@@ -23207,6 +23207,27 @@
       "detection_price": 0.01106,
       "detection_liq": 237496.14,
       "peak_price": 0.01106,
+      "captures": {
+        "price_1h": {
+          "price": 0.007221,
+          "liquidity": 192797.2,
+          "volume_24h": 3560451.57,
+          "captured_at": "2026-06-07T12:07:55.346139+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DVTNtiW265189eMw7oG8q75a4oCsbyX5cbFgGzVJf13Q": {
+      "chain": "solana",
+      "pair_address": "DVTNtiW265189eMw7oG8q75a4oCsbyX5cbFgGzVJf13Q",
+      "symbol": "acron ",
+      "tier": "T2",
+      "detection_time": "2026-06-07T12:07:45.665110+00:00",
+      "detection_price": 5.309e-05,
+      "detection_liq": 16391.08,
+      "peak_price": 5.309e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
