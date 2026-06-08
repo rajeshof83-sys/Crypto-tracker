@@ -23389,6 +23389,13 @@
           "volume_24h": 142583.9,
           "captured_at": "2026-06-08T01:36:54.200097+00:00",
           "hours_elapsed": 7.3
+        },
+        "price_24h": {
+          "price": 3.233e-05,
+          "liquidity": 15353.27,
+          "volume_24h": 35862.36,
+          "captured_at": "2026-06-08T18:39:06.413639+00:00",
+          "hours_elapsed": 24.3
         }
       },
       "outcome_label": null,
@@ -23587,6 +23594,32 @@
           "hours_elapsed": 6.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:C2aKjzNCeeMLkyf11q5MFWNvjy89RLLWepwrQF8z3BCc": {
+      "chain": "solana",
+      "pair_address": "C2aKjzNCeeMLkyf11q5MFWNvjy89RLLWepwrQF8z3BCc",
+      "symbol": "48TEAMS",
+      "tier": "T1",
+      "detection_time": "2026-06-08T18:38:48.816386+00:00",
+      "detection_price": 0.0001408,
+      "detection_liq": 27204.75,
+      "peak_price": 0.0001408,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6H7hHFGjgaS8qPanunbAB87X7NJfrgHXmfngfUcyuv3s": {
+      "chain": "solana",
+      "pair_address": "6H7hHFGjgaS8qPanunbAB87X7NJfrgHXmfngfUcyuv3s",
+      "symbol": "BEAR",
+      "tier": "T1",
+      "detection_time": "2026-06-08T18:38:52.741817+00:00",
+      "detection_price": 9.784e-05,
+      "detection_liq": 22253.88,
+      "peak_price": 9.784e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
