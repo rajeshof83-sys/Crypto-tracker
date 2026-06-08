@@ -23452,6 +23452,40 @@
       "detection_price": 9.378e-05,
       "detection_liq": 31161.02,
       "peak_price": 9.378e-05,
+      "captures": {
+        "price_1h": {
+          "price": 9.171e-05,
+          "liquidity": 30827.4,
+          "volume_24h": 270910.46,
+          "captured_at": "2026-06-08T05:21:28.735106+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CA3ZJTWsqBuPHBmawDExFt6qhNSLJwpkgGeNEZdvACCM": {
+      "chain": "solana",
+      "pair_address": "CA3ZJTWsqBuPHBmawDExFt6qhNSLJwpkgGeNEZdvACCM",
+      "symbol": "OPX",
+      "tier": "T1",
+      "detection_time": "2026-06-08T05:21:16.317288+00:00",
+      "detection_price": 0.0001148,
+      "detection_liq": 23882.46,
+      "peak_price": 0.0001148,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:95pxVYnyPNFzJDHwDQtmMxeQbCJxKMNviXNtgx82B88u": {
+      "chain": "solana",
+      "pair_address": "95pxVYnyPNFzJDHwDQtmMxeQbCJxKMNviXNtgx82B88u",
+      "symbol": "XRPS",
+      "tier": "T2",
+      "detection_time": "2026-06-08T05:21:19.669731+00:00",
+      "detection_price": 0.0003377,
+      "detection_liq": 41973.95,
+      "peak_price": 0.0003377,
       "captures": {},
       "outcome_label": null,
       "completed": false
