@@ -23718,10 +23718,17 @@
           "volume_24h": 1408198.57,
           "captured_at": "2026-06-09T01:28:45.348763+00:00",
           "hours_elapsed": 6.8
+        },
+        "price_24h": {
+          "price": 1.456e-06,
+          "liquidity": 2867.39,
+          "volume_24h": 383398.51,
+          "captured_at": "2026-06-09T19:51:13.363063+00:00",
+          "hours_elapsed": 25.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:6H7hHFGjgaS8qPanunbAB87X7NJfrgHXmfngfUcyuv3s": {
       "chain": "solana",
@@ -23746,10 +23753,17 @@
           "volume_24h": 404069.02,
           "captured_at": "2026-06-09T01:28:45.348763+00:00",
           "hours_elapsed": 6.8
+        },
+        "price_24h": {
+          "price": 1.789e-06,
+          "liquidity": 2995.15,
+          "volume_24h": 79800.28,
+          "captured_at": "2026-06-09T19:51:13.363063+00:00",
+          "hours_elapsed": 25.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:E1GzHAEEXLYaYQnWbJWmwe4AMBZowNAYNotStXyYfHJE": {
       "chain": "solana",
@@ -23991,6 +24005,27 @@
       "detection_price": 0.0002846,
       "detection_liq": 38287.27,
       "peak_price": 0.0002846,
+      "captures": {
+        "price_1h": {
+          "price": 2.135e-06,
+          "liquidity": 3436.65,
+          "volume_24h": 1479008.22,
+          "captured_at": "2026-06-09T19:51:13.363063+00:00",
+          "hours_elapsed": 2.3
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HRvdqaf9SKwWFMpMUrZre7Jrp5waiRmWpy4wNi7bGeJ6": {
+      "chain": "solana",
+      "pair_address": "HRvdqaf9SKwWFMpMUrZre7Jrp5waiRmWpy4wNi7bGeJ6",
+      "symbol": "POKE",
+      "tier": "T1",
+      "detection_time": "2026-06-09T19:51:01.667061+00:00",
+      "detection_price": 0.0001325,
+      "detection_liq": 25590.97,
+      "peak_price": 0.0001325,
       "captures": {},
       "outcome_label": null,
       "completed": false
