@@ -23809,6 +23809,13 @@
           "volume_24h": 1442002.1,
           "captured_at": "2026-06-09T09:53:41.684733+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 0.0001154,
+          "liquidity": 25730.89,
+          "volume_24h": 1980184.98,
+          "captured_at": "2026-06-09T15:28:39.910428+00:00",
+          "hours_elapsed": 6.8
         }
       },
       "outcome_label": null,
@@ -23830,6 +23837,13 @@
           "volume_24h": 526818.48,
           "captured_at": "2026-06-09T09:53:41.684733+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 3.789e-05,
+          "liquidity": 14196.28,
+          "volume_24h": 719210.15,
+          "captured_at": "2026-06-09T15:28:39.910428+00:00",
+          "hours_elapsed": 6.8
         }
       },
       "outcome_label": null,
@@ -23874,6 +23888,45 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:BAkNrvFydNH2qimVhUuhmnf5Jd2CDYujAfEHyG4v5VZo": {
+      "chain": "solana",
+      "pair_address": "BAkNrvFydNH2qimVhUuhmnf5Jd2CDYujAfEHyG4v5VZo",
+      "symbol": "JOTCHUAS",
+      "tier": "T1",
+      "detection_time": "2026-06-09T15:28:20.381978+00:00",
+      "detection_price": 0.0001669,
+      "detection_liq": 28571.13,
+      "peak_price": 0.0001669,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DkG6tErnFkmEeLmxcvXwobZzZQi7vtPkCo6GQvUkf33c": {
+      "chain": "solana",
+      "pair_address": "DkG6tErnFkmEeLmxcvXwobZzZQi7vtPkCo6GQvUkf33c",
+      "symbol": "\u6e05\u6b63",
+      "tier": "T2",
+      "detection_time": "2026-06-09T15:28:23.992797+00:00",
+      "detection_price": 0.0002249,
+      "detection_liq": 33914.35,
+      "peak_price": 0.0002249,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8fRVYs3Fun7YCW9oEXjtd6HEA4jug41Kvfh5TLBbmPh6": {
+      "chain": "solana",
+      "pair_address": "8fRVYs3Fun7YCW9oEXjtd6HEA4jug41Kvfh5TLBbmPh6",
+      "symbol": "Mythos",
+      "tier": "T2",
+      "detection_time": "2026-06-09T15:28:26.543134+00:00",
+      "detection_price": 0.0003552,
+      "detection_liq": 50691.67,
+      "peak_price": 0.0003552,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
