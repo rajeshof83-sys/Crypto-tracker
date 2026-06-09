@@ -23794,8 +23794,16 @@
       "detection_time": "2026-06-09T08:42:00.448943+00:00",
       "detection_price": 0.0003829,
       "detection_liq": 45913.35,
-      "peak_price": 0.0003829,
-      "captures": {},
+      "peak_price": 0.0005638,
+      "captures": {
+        "price_1h": {
+          "price": 0.0005638,
+          "liquidity": 55977.02,
+          "volume_24h": 1442002.1,
+          "captured_at": "2026-06-09T09:53:41.684733+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -23808,6 +23816,27 @@
       "detection_price": 0.0001799,
       "detection_liq": 30063.12,
       "peak_price": 0.0001799,
+      "captures": {
+        "price_1h": {
+          "price": 3.292e-05,
+          "liquidity": 13081.9,
+          "volume_24h": 526818.48,
+          "captured_at": "2026-06-09T09:53:41.684733+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:56GARmqsYEkY6oyNuyGoCuizvcVDdQsiBUBe1Q7eYLfH": {
+      "chain": "solana",
+      "pair_address": "56GARmqsYEkY6oyNuyGoCuizvcVDdQsiBUBe1Q7eYLfH",
+      "symbol": "UFC250",
+      "tier": "T2",
+      "detection_time": "2026-06-09T09:53:25.937831+00:00",
+      "detection_price": 9.612e-05,
+      "detection_liq": 21437.98,
+      "peak_price": 9.612e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
