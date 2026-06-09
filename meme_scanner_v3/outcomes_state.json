@@ -23669,6 +23669,13 @@
           "volume_24h": 479092.72,
           "captured_at": "2026-06-08T18:10:49.560851+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 3.365e-05,
+          "liquidity": 15092.12,
+          "volume_24h": 399665.82,
+          "captured_at": "2026-06-09T12:16:26.795689+00:00",
+          "hours_elapsed": 24.1
         }
       },
       "outcome_label": null,
@@ -23837,6 +23844,27 @@
       "detection_price": 9.612e-05,
       "detection_liq": 21437.98,
       "peak_price": 9.612e-05,
+      "captures": {
+        "price_1h": {
+          "price": 9.25e-05,
+          "liquidity": 21074.76,
+          "volume_24h": 97778.08,
+          "captured_at": "2026-06-09T12:16:26.795689+00:00",
+          "hours_elapsed": 2.4
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CbmJhM7VCBKXKCeXU95XcXsHMSD7K8cN9PZb3K4vWTat": {
+      "chain": "solana",
+      "pair_address": "CbmJhM7VCBKXKCeXU95XcXsHMSD7K8cN9PZb3K4vWTat",
+      "symbol": "TRILLION",
+      "tier": "T1",
+      "detection_time": "2026-06-09T12:16:14.705964+00:00",
+      "detection_price": 0.0003063,
+      "detection_liq": 39217.53,
+      "peak_price": 0.0003063,
       "captures": {},
       "outcome_label": null,
       "completed": false
