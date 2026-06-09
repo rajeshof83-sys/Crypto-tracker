@@ -23662,6 +23662,13 @@
           "volume_24h": 1043933.66,
           "captured_at": "2026-06-08T19:54:46.016172+00:00",
           "hours_elapsed": 1.3
+        },
+        "price_6h": {
+          "price": 1.51e-06,
+          "liquidity": 2940.16,
+          "volume_24h": 1408198.57,
+          "captured_at": "2026-06-09T01:28:45.348763+00:00",
+          "hours_elapsed": 6.8
         }
       },
       "outcome_label": null,
@@ -23683,6 +23690,13 @@
           "volume_24h": 349012.05,
           "captured_at": "2026-06-08T19:54:46.016172+00:00",
           "hours_elapsed": 1.3
+        },
+        "price_6h": {
+          "price": 2.281e-06,
+          "liquidity": 3394.17,
+          "volume_24h": 404069.02,
+          "captured_at": "2026-06-09T01:28:45.348763+00:00",
+          "hours_elapsed": 6.8
         }
       },
       "outcome_label": null,
@@ -23706,6 +23720,19 @@
           "hours_elapsed": 1.6
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DmqSPkcZsvMPWiSyHzygDzzNJmmD8DdeFppdoPJABHr3": {
+      "chain": "solana",
+      "pair_address": "DmqSPkcZsvMPWiSyHzygDzzNJmmD8DdeFppdoPJABHr3",
+      "symbol": "YVO3D",
+      "tier": "T1",
+      "detection_time": "2026-06-09T01:28:32.441302+00:00",
+      "detection_price": 0.0002152,
+      "detection_liq": 33436.71,
+      "peak_price": 0.0002152,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
