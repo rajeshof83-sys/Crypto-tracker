@@ -23907,7 +23907,15 @@
       "detection_price": 0.0001669,
       "detection_liq": 28571.13,
       "peak_price": 0.0001669,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0001242,
+          "liquidity": 25232.05,
+          "volume_24h": 566165.71,
+          "captured_at": "2026-06-09T17:33:49.742372+00:00",
+          "hours_elapsed": 2.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -23919,8 +23927,16 @@
       "detection_time": "2026-06-09T15:28:23.992797+00:00",
       "detection_price": 0.0002249,
       "detection_liq": 33914.35,
-      "peak_price": 0.0002249,
-      "captures": {},
+      "peak_price": 0.0003579,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003579,
+          "liquidity": 43243.05,
+          "volume_24h": 449346.1,
+          "captured_at": "2026-06-09T17:33:49.742372+00:00",
+          "hours_elapsed": 2.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -23933,6 +23949,27 @@
       "detection_price": 0.0003552,
       "detection_liq": 50691.67,
       "peak_price": 0.0003552,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001931,
+          "liquidity": 37545.5,
+          "volume_24h": 454127.82,
+          "captured_at": "2026-06-09T17:33:49.742372+00:00",
+          "hours_elapsed": 2.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6NC9BHUMveig4scxgF62Uzhm8H2XaSL4Zj2svk9fC5a2": {
+      "chain": "solana",
+      "pair_address": "6NC9BHUMveig4scxgF62Uzhm8H2XaSL4Zj2svk9fC5a2",
+      "symbol": "STEPPA",
+      "tier": "T1",
+      "detection_time": "2026-06-09T17:33:43.503628+00:00",
+      "detection_price": 0.0002846,
+      "detection_liq": 38287.27,
+      "peak_price": 0.0002846,
       "captures": {},
       "outcome_label": null,
       "completed": false
