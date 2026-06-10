@@ -23991,6 +23991,13 @@
           "volume_24h": 853943.34,
           "captured_at": "2026-06-09T18:20:51.492609+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 0.0001372,
+          "liquidity": 27000.12,
+          "volume_24h": 722247.99,
+          "captured_at": "2026-06-10T12:44:57.512027+00:00",
+          "hours_elapsed": 24.5
         }
       },
       "outcome_label": null,
@@ -24264,8 +24271,28 @@
           "volume_24h": 1673652.13,
           "captured_at": "2026-06-10T09:05:21.668306+00:00",
           "hours_elapsed": 2.4
+        },
+        "price_6h": {
+          "price": 0.0002659,
+          "liquidity": 38825.0,
+          "volume_24h": 2322734.45,
+          "captured_at": "2026-06-10T12:44:57.512027+00:00",
+          "hours_elapsed": 6.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:74hJkM2dqyvJ9koQtW4Jbs1ujK7uzKhxYTJMBxKfcjLk": {
+      "chain": "solana",
+      "pair_address": "74hJkM2dqyvJ9koQtW4Jbs1ujK7uzKhxYTJMBxKfcjLk",
+      "symbol": "Br\u00f6tchen",
+      "tier": "T1",
+      "detection_time": "2026-06-10T12:44:39.142745+00:00",
+      "detection_price": 0.0001339,
+      "detection_liq": 37383.77,
+      "peak_price": 0.0001339,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
