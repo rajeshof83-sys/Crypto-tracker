@@ -23879,6 +23879,13 @@
           "volume_24h": 1980184.98,
           "captured_at": "2026-06-09T15:28:39.910428+00:00",
           "hours_elapsed": 6.8
+        },
+        "price_24h": {
+          "price": 9.238e-05,
+          "liquidity": 23559.43,
+          "volume_24h": 1213314.04,
+          "captured_at": "2026-06-10T09:05:21.668306+00:00",
+          "hours_elapsed": 24.4
         }
       },
       "outcome_label": null,
@@ -23907,6 +23914,13 @@
           "volume_24h": 719210.15,
           "captured_at": "2026-06-09T15:28:39.910428+00:00",
           "hours_elapsed": 6.8
+        },
+        "price_24h": {
+          "price": 1.671e-05,
+          "liquidity": 9458.5,
+          "volume_24h": 390833.87,
+          "captured_at": "2026-06-10T09:05:21.668306+00:00",
+          "hours_elapsed": 24.4
         }
       },
       "outcome_label": null,
@@ -24124,6 +24138,13 @@
           "volume_24h": 814258.55,
           "captured_at": "2026-06-10T04:56:54.395783+00:00",
           "hours_elapsed": 3.4
+        },
+        "price_6h": {
+          "price": 0.0001086,
+          "liquidity": 23680.55,
+          "volume_24h": 1008611.21,
+          "captured_at": "2026-06-10T09:05:21.668306+00:00",
+          "hours_elapsed": 7.6
         }
       },
       "outcome_label": null,
@@ -24145,6 +24166,13 @@
           "volume_24h": 415563.0,
           "captured_at": "2026-06-10T04:56:54.395783+00:00",
           "hours_elapsed": 3.4
+        },
+        "price_6h": {
+          "price": 1.07e-05,
+          "liquidity": 10611.36,
+          "volume_24h": 432252.74,
+          "captured_at": "2026-06-10T09:05:21.668306+00:00",
+          "hours_elapsed": 7.6
         }
       },
       "outcome_label": null,
@@ -24200,8 +24228,16 @@
       "detection_time": "2026-06-10T06:43:09.653546+00:00",
       "detection_price": 0.0004092,
       "detection_liq": 45069.08,
-      "peak_price": 0.0004092,
-      "captures": {},
+      "peak_price": 0.0006449,
+      "captures": {
+        "price_1h": {
+          "price": 0.0006449,
+          "liquidity": 58564.58,
+          "volume_24h": 1673652.13,
+          "captured_at": "2026-06-10T09:05:21.668306+00:00",
+          "hours_elapsed": 2.4
+        }
+      },
       "outcome_label": null,
       "completed": false
     }
