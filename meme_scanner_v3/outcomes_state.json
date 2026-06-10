@@ -24159,7 +24159,15 @@
       "detection_price": 0.0001161,
       "detection_liq": 25843.72,
       "peak_price": 0.0001161,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0001088,
+          "liquidity": 25079.87,
+          "volume_24h": 317901.19,
+          "captured_at": "2026-06-10T06:43:21.119155+00:00",
+          "hours_elapsed": 1.8
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -24172,6 +24180,27 @@
       "detection_price": 7.184e-05,
       "detection_liq": 22062.28,
       "peak_price": 7.184e-05,
+      "captures": {
+        "price_1h": {
+          "price": 6.437e-05,
+          "liquidity": 20902.58,
+          "volume_24h": 166743.48,
+          "captured_at": "2026-06-10T06:43:21.119155+00:00",
+          "hours_elapsed": 1.8
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9WR8ikCm5Y6JSu6zwkYjrDLhEofaEzcW3Kqbid4HgbuG": {
+      "chain": "solana",
+      "pair_address": "9WR8ikCm5Y6JSu6zwkYjrDLhEofaEzcW3Kqbid4HgbuG",
+      "symbol": "ABEL",
+      "tier": "T1",
+      "detection_time": "2026-06-10T06:43:09.653546+00:00",
+      "detection_price": 0.0004092,
+      "detection_liq": 45069.08,
+      "peak_price": 0.0004092,
       "captures": {},
       "outcome_label": null,
       "completed": false
