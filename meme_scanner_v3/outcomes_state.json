@@ -23837,10 +23837,17 @@
           "volume_24h": 1813976.15,
           "captured_at": "2026-06-09T08:42:08.448815+00:00",
           "hours_elapsed": 7.2
+        },
+        "price_24h": {
+          "price": 4.137e-06,
+          "liquidity": 5094.19,
+          "volume_24h": 1523260.29,
+          "captured_at": "2026-06-10T01:31:56.539315+00:00",
+          "hours_elapsed": 24.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:EeLWcKb5EQc58TDJ7LyiqACsJQfY8DA5ysuBfR59e3y6": {
       "chain": "solana",
@@ -24084,6 +24091,32 @@
           "hours_elapsed": 1.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9bNZ3UcDet7Wjrnts9GBxJyj8Dop5EXdEdpqGHMd5bEi": {
+      "chain": "solana",
+      "pair_address": "9bNZ3UcDet7Wjrnts9GBxJyj8Dop5EXdEdpqGHMd5bEi",
+      "symbol": "STEPHEN",
+      "tier": "T1",
+      "detection_time": "2026-06-10T01:31:44.409518+00:00",
+      "detection_price": 0.0002951,
+      "detection_liq": 38498.57,
+      "peak_price": 0.0002951,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EyXUEohVhoqndTivZSsLZ5qDGQwZSch8sXFhwYCYrrw6": {
+      "chain": "solana",
+      "pair_address": "EyXUEohVhoqndTivZSsLZ5qDGQwZSch8sXFhwYCYrrw6",
+      "symbol": "LIZARD",
+      "tier": "T1",
+      "detection_time": "2026-06-10T01:31:48.141241+00:00",
+      "detection_price": 7.712e-05,
+      "detection_liq": 28254.43,
+      "peak_price": 7.712e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
