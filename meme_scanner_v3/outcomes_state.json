@@ -24138,10 +24138,17 @@
           "volume_24h": 1479241.45,
           "captured_at": "2026-06-09T23:51:52.258732+00:00",
           "hours_elapsed": 6.3
+        },
+        "price_24h": {
+          "price": 1.931e-06,
+          "liquidity": 3247.7,
+          "volume_24h": 496711.67,
+          "captured_at": "2026-06-10T17:47:48.348591+00:00",
+          "hours_elapsed": 24.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:HRvdqaf9SKwWFMpMUrZre7Jrp5waiRmWpy4wNi7bGeJ6": {
       "chain": "solana",
@@ -24350,6 +24357,45 @@
           "hours_elapsed": 2.9
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Fyc7RRqYrm8KgpawYn2LJssqWJbHiB1zg6GDq64JAfet": {
+      "chain": "solana",
+      "pair_address": "Fyc7RRqYrm8KgpawYn2LJssqWJbHiB1zg6GDq64JAfet",
+      "symbol": "Gaejook",
+      "tier": "T1",
+      "detection_time": "2026-06-10T17:47:33.789932+00:00",
+      "detection_price": 0.000271,
+      "detection_liq": 36295.12,
+      "peak_price": 0.000271,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9vW19msR7Trj9s1Yid19yoXVjCNgxdRE9JhZgJ6ruBhU": {
+      "chain": "solana",
+      "pair_address": "9vW19msR7Trj9s1Yid19yoXVjCNgxdRE9JhZgJ6ruBhU",
+      "symbol": "GutGenug",
+      "tier": "T1",
+      "detection_time": "2026-06-10T17:47:38.769487+00:00",
+      "detection_price": 0.0002731,
+      "detection_liq": 36951.91,
+      "peak_price": 0.0002731,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Fvp8J9ngexYKccCoNYciJMzyzEmUNR2xL8fcWtUZUQnh": {
+      "chain": "solana",
+      "pair_address": "Fvp8J9ngexYKccCoNYciJMzyzEmUNR2xL8fcWtUZUQnh",
+      "symbol": "SOLFC",
+      "tier": "T2",
+      "detection_time": "2026-06-10T17:47:41.496255+00:00",
+      "detection_price": 0.0001567,
+      "detection_liq": 26770.88,
+      "peak_price": 0.0001567,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
