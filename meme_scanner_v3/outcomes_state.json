@@ -22150,10 +22150,17 @@
           "volume_24h": 215297.13,
           "captured_at": "2026-06-04T19:50:42.640534+00:00",
           "hours_elapsed": 25.0
+        },
+        "price_7d": {
+          "price": 2.222e-05,
+          "liquidity": 10715.19,
+          "volume_24h": 10093.89,
+          "captured_at": "2026-06-10T19:55:05.313666+00:00",
+          "hours_elapsed": 169.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:9vp5T5XV8tSaKg9esdqFbY2MTTBEmTNCPEDPVznhAr2q": {
       "chain": "solana",
@@ -22185,10 +22192,17 @@
           "volume_24h": 457458.76,
           "captured_at": "2026-06-04T19:50:42.640534+00:00",
           "hours_elapsed": 25.0
+        },
+        "price_7d": {
+          "price": 3.362e-06,
+          "liquidity": 4515.21,
+          "volume_24h": 207.91,
+          "captured_at": "2026-06-10T19:55:05.313666+00:00",
+          "hours_elapsed": 169.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "winner",
+      "completed": true
     },
     "solana:9cFaDeZLmMynkK3GhmFsvm9QSG6jpBhwnDR6Q7N6g44C": {
       "chain": "solana",
@@ -24173,6 +24187,13 @@
           "volume_24h": 645186.74,
           "captured_at": "2026-06-10T01:54:26.550234+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 3.569e-05,
+          "liquidity": 13794.29,
+          "volume_24h": 431952.23,
+          "captured_at": "2026-06-10T19:55:05.313666+00:00",
+          "hours_elapsed": 24.1
         }
       },
       "outcome_label": null,
@@ -24334,6 +24355,13 @@
           "volume_24h": 417015.57,
           "captured_at": "2026-06-10T13:54:58.272892+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 5.496e-05,
+          "liquidity": 24561.21,
+          "volume_24h": 839126.5,
+          "captured_at": "2026-06-10T19:55:05.313666+00:00",
+          "hours_elapsed": 7.2
         }
       },
       "outcome_label": null,
@@ -24355,6 +24383,13 @@
           "volume_24h": 997304.63,
           "captured_at": "2026-06-10T16:48:00.633603+00:00",
           "hours_elapsed": 2.9
+        },
+        "price_6h": {
+          "price": 1.459e-06,
+          "liquidity": 2772.71,
+          "volume_24h": 1163834.61,
+          "captured_at": "2026-06-10T19:55:05.313666+00:00",
+          "hours_elapsed": 6.0
         }
       },
       "outcome_label": null,
@@ -24368,8 +24403,16 @@
       "detection_time": "2026-06-10T17:47:33.789932+00:00",
       "detection_price": 0.000271,
       "detection_liq": 36295.12,
-      "peak_price": 0.000271,
-      "captures": {},
+      "peak_price": 0.0002879,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002879,
+          "liquidity": 38463.7,
+          "volume_24h": 1128711.29,
+          "captured_at": "2026-06-10T19:55:05.313666+00:00",
+          "hours_elapsed": 2.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -24381,8 +24424,16 @@
       "detection_time": "2026-06-10T17:47:38.769487+00:00",
       "detection_price": 0.0002731,
       "detection_liq": 36951.91,
-      "peak_price": 0.0002731,
-      "captures": {},
+      "peak_price": 0.0003468,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003468,
+          "liquidity": 41813.63,
+          "volume_24h": 836242.93,
+          "captured_at": "2026-06-10T19:55:05.313666+00:00",
+          "hours_elapsed": 2.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -24394,8 +24445,16 @@
       "detection_time": "2026-06-10T17:47:41.496255+00:00",
       "detection_price": 0.0001567,
       "detection_liq": 26770.88,
-      "peak_price": 0.0001567,
-      "captures": {},
+      "peak_price": 0.0001832,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001832,
+          "liquidity": 28936.0,
+          "volume_24h": 114950.81,
+          "captured_at": "2026-06-10T19:55:05.313666+00:00",
+          "hours_elapsed": 2.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     }
