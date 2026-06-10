@@ -21919,10 +21919,17 @@
           "volume_24h": 349847.79,
           "captured_at": "2026-06-04T05:20:46.160403+00:00",
           "hours_elapsed": 24.9
+        },
+        "price_7d": {
+          "price": 0.0002061,
+          "liquidity": 36098.74,
+          "volume_24h": 58154.8,
+          "captured_at": "2026-06-10T04:56:54.395783+00:00",
+          "hours_elapsed": 168.5
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:BKzUFUV7xSAf9k6y7ubNxvDqFUz4r1Z6Pb33oosCG23m": {
       "chain": "solana",
@@ -24110,7 +24117,15 @@
       "detection_price": 0.0002951,
       "detection_liq": 38498.57,
       "peak_price": 0.0002951,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0001438,
+          "liquidity": 26935.06,
+          "volume_24h": 814258.55,
+          "captured_at": "2026-06-10T04:56:54.395783+00:00",
+          "hours_elapsed": 3.4
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -24123,6 +24138,40 @@
       "detection_price": 7.712e-05,
       "detection_liq": 28254.43,
       "peak_price": 7.712e-05,
+      "captures": {
+        "price_1h": {
+          "price": 1.795e-05,
+          "liquidity": 13738.24,
+          "volume_24h": 415563.0,
+          "captured_at": "2026-06-10T04:56:54.395783+00:00",
+          "hours_elapsed": 3.4
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2XiGg4tmCD6j5YRx5YwBDxSquyJR5S6JWBVskVyA4zsu": {
+      "chain": "solana",
+      "pair_address": "2XiGg4tmCD6j5YRx5YwBDxSquyJR5S6JWBVskVyA4zsu",
+      "symbol": "BRICKS",
+      "tier": "T1",
+      "detection_time": "2026-06-10T04:56:42.837723+00:00",
+      "detection_price": 0.0001161,
+      "detection_liq": 25843.72,
+      "peak_price": 0.0001161,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3gmr8edXkYN7undyCV7L3J9u33QPfFCoR2eDHseF494y": {
+      "chain": "solana",
+      "pair_address": "3gmr8edXkYN7undyCV7L3J9u33QPfFCoR2eDHseF494y",
+      "symbol": "ZOO",
+      "tier": "T2",
+      "detection_time": "2026-06-10T04:56:45.969316+00:00",
+      "detection_price": 7.184e-05,
+      "detection_liq": 22062.28,
+      "peak_price": 7.184e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
