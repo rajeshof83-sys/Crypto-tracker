@@ -22437,10 +22437,17 @@
           "volume_24h": 264808.53,
           "captured_at": "2026-06-05T08:56:23.720804+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 1.699e-06,
+          "liquidity": 3002.54,
+          "volume_24h": 14.91,
+          "captured_at": "2026-06-11T09:50:25.097261+00:00",
+          "hours_elapsed": 169.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:GY1xCvXB7pj142r2siiobkLZHJqeVQfuEfCFQ16vnaii": {
       "chain": "solana",
@@ -24593,6 +24600,27 @@
       "detection_price": 0.0001506,
       "detection_liq": 37392.62,
       "peak_price": 0.0001506,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001432,
+          "liquidity": 36604.3,
+          "volume_24h": 448875.53,
+          "captured_at": "2026-06-11T09:50:25.097261+00:00",
+          "hours_elapsed": 2.7
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CxkrTqNUJLjqMG4cYrrtg2f9RVDGRKT8xrz3D1oCnPk7": {
+      "chain": "solana",
+      "pair_address": "CxkrTqNUJLjqMG4cYrrtg2f9RVDGRKT8xrz3D1oCnPk7",
+      "symbol": "DragonWorm",
+      "tier": "T1",
+      "detection_time": "2026-06-11T09:50:18.109471+00:00",
+      "detection_price": 0.000293,
+      "detection_liq": 37826.18,
+      "peak_price": 0.000293,
       "captures": {},
       "outcome_label": null,
       "completed": false
