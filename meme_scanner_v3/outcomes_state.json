@@ -24509,6 +24509,13 @@
           "volume_24h": 1788519.31,
           "captured_at": "2026-06-10T23:57:41.145754+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 6.631e-06,
+          "liquidity": 7468.98,
+          "volume_24h": 3863549.56,
+          "captured_at": "2026-06-11T17:51:34.936306+00:00",
+          "hours_elapsed": 24.1
         }
       },
       "outcome_label": null,
@@ -24537,6 +24544,13 @@
           "volume_24h": 818076.82,
           "captured_at": "2026-06-10T23:57:41.145754+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 0.0003354,
+          "liquidity": 43144.9,
+          "volume_24h": 497965.98,
+          "captured_at": "2026-06-11T17:51:34.936306+00:00",
+          "hours_elapsed": 24.1
         }
       },
       "outcome_label": null,
@@ -24565,6 +24579,13 @@
           "volume_24h": 127802.14,
           "captured_at": "2026-06-10T23:57:41.145754+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 8.493e-05,
+          "liquidity": 20361.68,
+          "volume_24h": 92912.83,
+          "captured_at": "2026-06-11T17:51:34.936306+00:00",
+          "hours_elapsed": 24.1
         }
       },
       "outcome_label": null,
@@ -24698,6 +24719,13 @@
           "volume_24h": 500056.47,
           "captured_at": "2026-06-11T11:49:31.836558+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 0.0001352,
+          "liquidity": 27703.49,
+          "volume_24h": 1520136.31,
+          "captured_at": "2026-06-11T17:51:34.936306+00:00",
+          "hours_elapsed": 7.1
         }
       },
       "outcome_label": null,
@@ -24721,6 +24749,19 @@
           "hours_elapsed": 2.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FMwjCYNWh61RjHd8yQXrCxPatNmXx7BaVHM5Uz385bXp": {
+      "chain": "solana",
+      "pair_address": "FMwjCYNWh61RjHd8yQXrCxPatNmXx7BaVHM5Uz385bXp",
+      "symbol": "SPC",
+      "tier": "T2",
+      "detection_time": "2026-06-11T17:51:22.005727+00:00",
+      "detection_price": 5.015e-05,
+      "detection_liq": 15559.57,
+      "peak_price": 5.015e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
