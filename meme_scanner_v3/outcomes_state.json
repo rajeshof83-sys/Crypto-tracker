@@ -24761,6 +24761,53 @@
       "detection_price": 5.015e-05,
       "detection_liq": 15559.57,
       "peak_price": 5.015e-05,
+      "captures": {
+        "price_1h": {
+          "price": 1.51e-05,
+          "liquidity": 8593.83,
+          "volume_24h": 211142.09,
+          "captured_at": "2026-06-11T19:46:16.985915+00:00",
+          "hours_elapsed": 1.9
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8yFRmZe7oBSh1RNst3QsAfq4jFEnUm2SB6YbxtoTVwgN": {
+      "chain": "solana",
+      "pair_address": "8yFRmZe7oBSh1RNst3QsAfq4jFEnUm2SB6YbxtoTVwgN",
+      "symbol": "CUPC",
+      "tier": "T1",
+      "detection_time": "2026-06-11T19:46:00.072863+00:00",
+      "detection_price": 0.0001064,
+      "detection_liq": 23360.38,
+      "peak_price": 0.0001064,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3npNack2UQcdm5arGjrEjoqWcoTCDPtVLniLZ2BuKh5N": {
+      "chain": "solana",
+      "pair_address": "3npNack2UQcdm5arGjrEjoqWcoTCDPtVLniLZ2BuKh5N",
+      "symbol": "Hobbit",
+      "tier": "T1",
+      "detection_time": "2026-06-11T19:46:03.818573+00:00",
+      "detection_price": 9.395e-05,
+      "detection_liq": 21947.42,
+      "peak_price": 9.395e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Hrd48eR1AqkfMKoRvZd4bWztfQmAV84meDfWg3FfVqsK": {
+      "chain": "solana",
+      "pair_address": "Hrd48eR1AqkfMKoRvZd4bWztfQmAV84meDfWg3FfVqsK",
+      "symbol": "Peace",
+      "tier": "T1",
+      "detection_time": "2026-06-11T19:46:07.587509+00:00",
+      "detection_price": 7.91e-05,
+      "detection_liq": 20018.96,
+      "peak_price": 7.91e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
