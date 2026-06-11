@@ -14161,7 +14161,7 @@
       "peak_safety": 8
     },
     "solana:95pxVYnyPNFzJDHwDQtmMxeQbCJxKMNviXNtgx82B88u": {
-      "peak_liq": 82468.4,
+      "peak_liq": 95548.68,
       "peak_vol": 471773.45,
       "peak_safety": 10
     },
@@ -16137,13 +16137,23 @@
     },
     "solana:FGckFqZELuyPzZgsgSjPoXSBvjMKmA3DCvhVx4c29Q9z": {
       "peak_liq": 3090.57,
-      "peak_vol": 43483.69,
+      "peak_vol": 44496.6,
       "peak_safety": 8
     },
     "solana:5BCqBrtv6GBYC3ja2CzyZWboPYPp74754AEm6X1jFVEK": {
       "peak_liq": 4612.45,
-      "peak_vol": 276757.26,
+      "peak_vol": 279267.42,
       "peak_safety": 8
+    },
+    "solana:C8vr68WqryJsjRmYKgczvLbJFwcsGzGiaSYSJFreL4jP": {
+      "peak_liq": 30063.12,
+      "peak_vol": 526534.39,
+      "peak_safety": 9
+    },
+    "solana:2qzpDehLddfQAzskffsetk78QEQWpaUg5dz38k2wETWq": {
+      "peak_liq": 0.0,
+      "peak_vol": 140387.18,
+      "peak_safety": 7
     }
   },
   "consecutive_negative": {
@@ -19298,7 +19308,7 @@
     "solana:2GPcY5skX8V25mXiufRBu9iyMiXZinkxL5JR7Bn2ed1j": 3,
     "solana:9uGEPezftYMYvp5egZeDnWwW8347gKk1t92Gd3kBZtnE": 1,
     "solana:3gmr8edXkYN7undyCV7L3J9u33QPfFCoR2eDHseF494y": 0,
-    "ethereum:0x0658e07851952970dC4049C7D84aFE439991555A": 0,
+    "ethereum:0x0658e07851952970dC4049C7D84aFE439991555A": 1,
     "solana:6NwMJe9zNTiB6fprZDwLKR9QT16E3hPHHPdaTQ15vByX": 3,
     "solana:86H2pm8TtNWXX5mwpDcbM4aQnsNbzcoLkDv11Sp8L5SV": 3,
     "solana:GUWLGxw9guDyeaUjLN7xuQYhvXxPhyVtjQYWzEkMxeqX": 2,
@@ -19374,8 +19384,10 @@
     "solana:63BbTbh2jdYLE4DXZVAKn7aDoyPYRVjwtcRsc35ka5vG": 0,
     "solana:FpJrmTY7B2hNoNfBFpf6iMjEHexNpLcjR4UDCAKenLkq": 0,
     "solana:Gf8hLqYro7DXLDXD3m6XDcKtTMxzneYdb9HgmH6EBAph": 0,
-    "solana:FGckFqZELuyPzZgsgSjPoXSBvjMKmA3DCvhVx4c29Q9z": 4,
-    "solana:5BCqBrtv6GBYC3ja2CzyZWboPYPp74754AEm6X1jFVEK": 2
+    "solana:FGckFqZELuyPzZgsgSjPoXSBvjMKmA3DCvhVx4c29Q9z": 10,
+    "solana:5BCqBrtv6GBYC3ja2CzyZWboPYPp74754AEm6X1jFVEK": 6,
+    "solana:C8vr68WqryJsjRmYKgczvLbJFwcsGzGiaSYSJFreL4jP": 0,
+    "solana:2qzpDehLddfQAzskffsetk78QEQWpaUg5dz38k2wETWq": 0
   },
   "exit_alerts_sent": {}
 }
