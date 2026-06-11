@@ -24313,6 +24313,13 @@
           "volume_24h": 345669.72,
           "captured_at": "2026-06-10T11:05:03.291945+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 9.958e-05,
+          "liquidity": 24466.84,
+          "volume_24h": 195774.72,
+          "captured_at": "2026-06-11T05:08:30.027953+00:00",
+          "hours_elapsed": 24.2
         }
       },
       "outcome_label": null,
@@ -24341,6 +24348,13 @@
           "volume_24h": 134874.62,
           "captured_at": "2026-06-10T11:05:03.291945+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 4.416e-05,
+          "liquidity": 17534.0,
+          "volume_24h": 61299.14,
+          "captured_at": "2026-06-11T05:08:30.027953+00:00",
+          "hours_elapsed": 24.2
         }
       },
       "outcome_label": null,
@@ -24511,6 +24525,32 @@
           "hours_elapsed": 6.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:BYBKGb6eStRmogueYmruek2hkerLtWnkfEoiuHZLqMF6": {
+      "chain": "solana",
+      "pair_address": "BYBKGb6eStRmogueYmruek2hkerLtWnkfEoiuHZLqMF6",
+      "symbol": "Hachi",
+      "tier": "T2",
+      "detection_time": "2026-06-11T05:08:14.117775+00:00",
+      "detection_price": 0.0001014,
+      "detection_liq": 32265.66,
+      "peak_price": 0.0001014,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:63BbTbh2jdYLE4DXZVAKn7aDoyPYRVjwtcRsc35ka5vG": {
+      "chain": "solana",
+      "pair_address": "63BbTbh2jdYLE4DXZVAKn7aDoyPYRVjwtcRsc35ka5vG",
+      "symbol": "1B",
+      "tier": "T1",
+      "detection_time": "2026-06-11T05:08:17.015116+00:00",
+      "detection_price": 0.0001349,
+      "detection_liq": 37888.95,
+      "peak_price": 0.0001349,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
