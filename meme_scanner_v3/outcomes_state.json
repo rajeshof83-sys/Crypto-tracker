@@ -22822,10 +22822,17 @@
           "volume_24h": 772463.69,
           "captured_at": "2026-06-06T10:23:01.323014+00:00",
           "hours_elapsed": 24.4
+        },
+        "price_7d": {
+          "price": 6.732e-06,
+          "liquidity": 6644.11,
+          "volume_24h": 943.53,
+          "captured_at": "2026-06-12T11:14:03.884837+00:00",
+          "hours_elapsed": 169.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:HnJ5Ny2mxxwAodk7w7MHGTRkzodkKTfrVCKFDpS3SWd8": {
       "chain": "solana",
@@ -24725,7 +24732,7 @@
       "detection_time": "2026-06-11T09:50:18.109471+00:00",
       "detection_price": 0.000293,
       "detection_liq": 37826.18,
-      "peak_price": 0.001115,
+      "peak_price": 0.00142,
       "captures": {
         "price_1h": {
           "price": 0.001092,
@@ -24740,6 +24747,13 @@
           "volume_24h": 2888137.39,
           "captured_at": "2026-06-11T16:21:44.670517+00:00",
           "hours_elapsed": 6.5
+        },
+        "price_24h": {
+          "price": 0.00142,
+          "liquidity": 94289.89,
+          "volume_24h": 5110753.18,
+          "captured_at": "2026-06-12T11:14:03.884837+00:00",
+          "hours_elapsed": 25.4
         }
       },
       "outcome_label": null,
@@ -24753,7 +24767,7 @@
       "detection_time": "2026-06-11T10:43:17.789840+00:00",
       "detection_price": 0.0002294,
       "detection_liq": 33332.91,
-      "peak_price": 0.0002641,
+      "peak_price": 0.002308,
       "captures": {
         "price_1h": {
           "price": 0.0002641,
@@ -24768,6 +24782,13 @@
           "volume_24h": 1520136.31,
           "captured_at": "2026-06-11T17:51:34.936306+00:00",
           "hours_elapsed": 7.1
+        },
+        "price_24h": {
+          "price": 0.002308,
+          "liquidity": 122454.86,
+          "volume_24h": 3942465.43,
+          "captured_at": "2026-06-12T11:14:03.884837+00:00",
+          "hours_elapsed": 24.5
         }
       },
       "outcome_label": null,
