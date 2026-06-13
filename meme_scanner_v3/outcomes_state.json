@@ -23424,10 +23424,17 @@
           "volume_24h": 153115.76,
           "captured_at": "2026-06-07T20:47:04.946150+00:00",
           "hours_elapsed": 24.9
+        },
+        "price_7d": {
+          "price": 1.445e-05,
+          "liquidity": 9154.87,
+          "volume_24h": 22092.32,
+          "captured_at": "2026-06-13T20:19:14.481827+00:00",
+          "hours_elapsed": 168.4
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:ATY3oQHWU5X8zA6YAHY1GkgRBXmDFt9ETpu1J4n5z9kk": {
       "chain": "solana",
@@ -25202,10 +25209,17 @@
           "volume_24h": 607420.65,
           "captured_at": "2026-06-13T01:39:04.234844+00:00",
           "hours_elapsed": 6.5
+        },
+        "price_24h": {
+          "price": 1.482e-06,
+          "liquidity": 2804.48,
+          "volume_24h": 371.55,
+          "captured_at": "2026-06-13T20:19:14.481827+00:00",
+          "hours_elapsed": 25.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:5KzNAEMdcRRJhCuTH9Jxekw6kfY5DjR3jLG1hNsPhgCC": {
       "chain": "solana",
@@ -25391,8 +25405,41 @@
           "volume_24h": 829628.53,
           "captured_at": "2026-06-13T15:23:21.963131+00:00",
           "hours_elapsed": 1.3
+        },
+        "price_6h": {
+          "price": 7.521e-06,
+          "liquidity": 6620.63,
+          "volume_24h": 979367.23,
+          "captured_at": "2026-06-13T20:19:14.481827+00:00",
+          "hours_elapsed": 6.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:E98EyyBMtmBKXWYCNRDbCDKj6hFAS3hzxG2Lkdq1Htd": {
+      "chain": "solana",
+      "pair_address": "E98EyyBMtmBKXWYCNRDbCDKj6hFAS3hzxG2Lkdq1Htd",
+      "symbol": "USBC",
+      "tier": "T2",
+      "detection_time": "2026-06-13T20:18:59.856477+00:00",
+      "detection_price": 0.0002858,
+      "detection_liq": 56008.1,
+      "peak_price": 0.0002858,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5uRC49tVXXpWZk8Po76osgbgS1gUc1oTw3LiUJVBAdMi": {
+      "chain": "solana",
+      "pair_address": "5uRC49tVXXpWZk8Po76osgbgS1gUc1oTw3LiUJVBAdMi",
+      "symbol": "AIELON",
+      "tier": "T1",
+      "detection_time": "2026-06-13T20:19:03.881742+00:00",
+      "detection_price": 0.0003014,
+      "detection_liq": 41093.58,
+      "peak_price": 0.0003014,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
