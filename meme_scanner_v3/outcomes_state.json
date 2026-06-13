@@ -25243,7 +25243,28 @@
       "detection_time": "2026-06-13T04:08:11.288177+00:00",
       "detection_price": 8.132e-05,
       "detection_liq": 20643.17,
-      "peak_price": 8.132e-05,
+      "peak_price": 0.0001496,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001496,
+          "liquidity": 28918.42,
+          "volume_24h": 895392.8,
+          "captured_at": "2026-06-13T06:39:17.140353+00:00",
+          "hours_elapsed": 2.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5wE9YJzPeQxCYL4jN9KhjTSR48Xzyh47xTAR9kg3wy1p": {
+      "chain": "solana",
+      "pair_address": "5wE9YJzPeQxCYL4jN9KhjTSR48Xzyh47xTAR9kg3wy1p",
+      "symbol": "WOC",
+      "tier": "T1",
+      "detection_time": "2026-06-13T06:39:06.160674+00:00",
+      "detection_price": 0.0001055,
+      "detection_liq": 23108.9,
+      "peak_price": 0.0001055,
       "captures": {},
       "outcome_label": null,
       "completed": false
