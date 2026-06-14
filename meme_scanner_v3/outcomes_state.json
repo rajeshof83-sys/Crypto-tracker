@@ -25678,6 +25678,27 @@
       "detection_price": 0.0001139,
       "detection_liq": 26290.65,
       "peak_price": 0.0001139,
+      "captures": {
+        "price_1h": {
+          "price": 8.756e-05,
+          "liquidity": 23051.06,
+          "volume_24h": 312159.56,
+          "captured_at": "2026-06-14T18:17:11.380698+00:00",
+          "hours_elapsed": 1.9
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5QPHhqpAw3CZ5aNbnHQGzjXjM7eNnrkA6hwtzhmXJ2dR": {
+      "chain": "solana",
+      "pair_address": "5QPHhqpAw3CZ5aNbnHQGzjXjM7eNnrkA6hwtzhmXJ2dR",
+      "symbol": "SPCX69",
+      "tier": "T2",
+      "detection_time": "2026-06-14T18:16:56.941563+00:00",
+      "detection_price": 0.001538,
+      "detection_liq": 95400.73,
+      "peak_price": 0.001538,
       "captures": {},
       "outcome_label": null,
       "completed": false
