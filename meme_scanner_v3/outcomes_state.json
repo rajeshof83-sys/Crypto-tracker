@@ -25433,6 +25433,13 @@
           "volume_24h": 692877.39,
           "captured_at": "2026-06-13T16:17:21.253495+00:00",
           "hours_elapsed": 6.5
+        },
+        "price_24h": {
+          "price": 1.1e-05,
+          "liquidity": 7814.91,
+          "volume_24h": 282829.01,
+          "captured_at": "2026-06-14T10:38:43.923681+00:00",
+          "hours_elapsed": 24.8
         }
       },
       "outcome_label": null,
@@ -25561,6 +25568,19 @@
           "hours_elapsed": 1.7
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:85cdqC5qjrxsXyEo3J9sAfAPXjLALWcU5fgircK89tDE": {
+      "chain": "solana",
+      "pair_address": "85cdqC5qjrxsXyEo3J9sAfAPXjLALWcU5fgircK89tDE",
+      "symbol": "scar",
+      "tier": "T1",
+      "detection_time": "2026-06-14T10:38:30.959798+00:00",
+      "detection_price": 8.969e-05,
+      "detection_liq": 21362.69,
+      "peak_price": 8.969e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
