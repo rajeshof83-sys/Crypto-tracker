@@ -25692,6 +25692,13 @@
           "volume_24h": 576415.05,
           "captured_at": "2026-06-14T16:46:17.253035+00:00",
           "hours_elapsed": 1.3
+        },
+        "price_6h": {
+          "price": 7.234e-05,
+          "liquidity": 22789.1,
+          "volume_24h": 869422.56,
+          "captured_at": "2026-06-14T22:16:23.391046+00:00",
+          "hours_elapsed": 6.8
         }
       },
       "outcome_label": null,
@@ -25736,6 +25743,19 @@
           "hours_elapsed": 2.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CBbT2x4ft3t8BA5DKUVU7EFtwnxmTWDoyhWewn5Q4qNs": {
+      "chain": "solana",
+      "pair_address": "CBbT2x4ft3t8BA5DKUVU7EFtwnxmTWDoyhWewn5Q4qNs",
+      "symbol": "EMBER",
+      "tier": "T2",
+      "detection_time": "2026-06-14T22:16:14.797565+00:00",
+      "detection_price": 6.731e-05,
+      "detection_liq": 18562.84,
+      "peak_price": 6.731e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
