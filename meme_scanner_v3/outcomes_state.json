@@ -25383,7 +25383,7 @@
       "detection_time": "2026-06-13T06:39:06.160674+00:00",
       "detection_price": 0.0001055,
       "detection_liq": 23108.9,
-      "peak_price": 0.0001427,
+      "peak_price": 0.0007126,
       "captures": {
         "price_1h": {
           "price": 0.0001025,
@@ -25398,6 +25398,13 @@
           "volume_24h": 287333.63,
           "captured_at": "2026-06-13T13:14:58.050408+00:00",
           "hours_elapsed": 6.6
+        },
+        "price_24h": {
+          "price": 0.0007126,
+          "liquidity": 63313.39,
+          "volume_24h": 963758.28,
+          "captured_at": "2026-06-14T07:07:18.626688+00:00",
+          "hours_elapsed": 24.5
         }
       },
       "outcome_label": null,
@@ -25524,6 +25531,27 @@
       "detection_price": 0.0001638,
       "detection_liq": 41532.34,
       "peak_price": 0.0001638,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001625,
+          "liquidity": 41531.47,
+          "volume_24h": 520175.75,
+          "captured_at": "2026-06-14T07:07:18.626688+00:00",
+          "hours_elapsed": 2.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FwWudhys4PtVc9ZjSHHu3eMbofnRA6tFBG2cY7gZy3LW": {
+      "chain": "solana",
+      "pair_address": "FwWudhys4PtVc9ZjSHHu3eMbofnRA6tFBG2cY7gZy3LW",
+      "symbol": "BLX",
+      "tier": "T1",
+      "detection_time": "2026-06-14T07:07:10.966181+00:00",
+      "detection_price": 0.0002187,
+      "detection_liq": 34370.65,
+      "peak_price": 0.0002187,
       "captures": {},
       "outcome_label": null,
       "completed": false
