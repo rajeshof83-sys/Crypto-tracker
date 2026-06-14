@@ -23543,10 +23543,17 @@
           "volume_24h": 231565.26,
           "captured_at": "2026-06-08T04:21:27.668216+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 4.779e-05,
+          "liquidity": 16862.94,
+          "volume_24h": 28205.47,
+          "captured_at": "2026-06-14T05:08:07.510165+00:00",
+          "hours_elapsed": 168.9
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:77tvWRRKv5i2PzRQcvj6pXmTFHWzTbj2k1Dimrdzrpc3": {
       "chain": "solana",
@@ -25356,6 +25363,13 @@
           "volume_24h": 1259644.18,
           "captured_at": "2026-06-13T10:12:12.221499+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 5.737e-05,
+          "liquidity": 19263.52,
+          "volume_24h": 1238880.97,
+          "captured_at": "2026-06-14T05:08:07.510165+00:00",
+          "hours_elapsed": 25.0
         }
       },
       "outcome_label": null,
@@ -25461,6 +25475,13 @@
           "volume_24h": 685685.8,
           "captured_at": "2026-06-13T22:08:12.475171+00:00",
           "hours_elapsed": 1.8
+        },
+        "price_6h": {
+          "price": 0.0002595,
+          "liquidity": 53955.96,
+          "volume_24h": 782708.46,
+          "captured_at": "2026-06-14T05:08:07.510165+00:00",
+          "hours_elapsed": 8.8
         }
       },
       "outcome_label": null,
@@ -25482,8 +25503,28 @@
           "volume_24h": 1537707.72,
           "captured_at": "2026-06-13T22:08:12.475171+00:00",
           "hours_elapsed": 1.8
+        },
+        "price_6h": {
+          "price": 2.166e-05,
+          "liquidity": 11959.24,
+          "volume_24h": 3198154.02,
+          "captured_at": "2026-06-14T05:08:07.510165+00:00",
+          "hours_elapsed": 8.8
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:H8cesmFp2Ac3f9XsWeNFUsRc8hEF844EumYRAk4advzP": {
+      "chain": "solana",
+      "pair_address": "H8cesmFp2Ac3f9XsWeNFUsRc8hEF844EumYRAk4advzP",
+      "symbol": "BOB",
+      "tier": "T1",
+      "detection_time": "2026-06-14T05:07:57.850669+00:00",
+      "detection_price": 0.0001638,
+      "detection_liq": 41532.34,
+      "peak_price": 0.0001638,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
