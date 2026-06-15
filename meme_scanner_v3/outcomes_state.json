@@ -24061,10 +24061,17 @@
           "volume_24h": 89644.77,
           "captured_at": "2026-06-09T22:26:43.376786+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 2.724e-06,
+          "liquidity": 3842.42,
+          "volume_24h": 280.17,
+          "captured_at": "2026-06-15T23:49:43.303709+00:00",
+          "hours_elapsed": 169.5
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:DmqSPkcZsvMPWiSyHzygDzzNJmmD8DdeFppdoPJABHr3": {
       "chain": "solana",
@@ -25874,6 +25881,13 @@
           "volume_24h": 61192.24,
           "captured_at": "2026-06-15T05:35:39.580931+00:00",
           "hours_elapsed": 7.3
+        },
+        "price_24h": {
+          "price": 3.957e-05,
+          "liquidity": 14646.8,
+          "volume_24h": 24332.45,
+          "captured_at": "2026-06-15T23:49:43.303709+00:00",
+          "hours_elapsed": 25.6
         }
       },
       "outcome_label": null,
@@ -26086,6 +26100,32 @@
           "hours_elapsed": 3.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8aSVeHLnk3JK7ik4maPGzjVZRsq4Z2TZMgrbkPA7A4Xi": {
+      "chain": "solana",
+      "pair_address": "8aSVeHLnk3JK7ik4maPGzjVZRsq4Z2TZMgrbkPA7A4Xi",
+      "symbol": "HIM",
+      "tier": "T1",
+      "detection_time": "2026-06-15T23:49:21.642786+00:00",
+      "detection_price": 0.0001106,
+      "detection_liq": 24532.35,
+      "peak_price": 0.0001106,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Cjw78NMhpdzyTbgmrdU12jdiojFdrBdvKKVvujN17mCT": {
+      "chain": "solana",
+      "pair_address": "Cjw78NMhpdzyTbgmrdU12jdiojFdrBdvKKVvujN17mCT",
+      "symbol": "SIN",
+      "tier": "T1",
+      "detection_time": "2026-06-15T23:49:27.656754+00:00",
+      "detection_price": 9.713e-05,
+      "detection_liq": 23067.83,
+      "peak_price": 9.713e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
