@@ -25657,6 +25657,13 @@
           "volume_24h": 870580.24,
           "captured_at": "2026-06-14T13:15:28.088395+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 7.869e-05,
+          "liquidity": 21928.88,
+          "volume_24h": 537547.24,
+          "captured_at": "2026-06-15T07:40:14.152203+00:00",
+          "hours_elapsed": 24.6
         }
       },
       "outcome_label": null,
@@ -25860,7 +25867,15 @@
       "detection_price": 0.0001795,
       "detection_liq": 38065.73,
       "peak_price": 0.0001795,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.000159,
+          "liquidity": 35795.07,
+          "volume_24h": 397227.78,
+          "captured_at": "2026-06-15T07:40:14.152203+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -25873,6 +25888,27 @@
       "detection_price": 0.0001268,
       "detection_liq": 26052.95,
       "peak_price": 0.0001268,
+      "captures": {
+        "price_1h": {
+          "price": 1.71e-06,
+          "liquidity": 3053.73,
+          "volume_24h": 486278.98,
+          "captured_at": "2026-06-15T07:40:14.152203+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4zBjVLjGqjt8PKzJdPhsET2C2rvNZ1Ws76tBc4kVAXwT": {
+      "chain": "solana",
+      "pair_address": "4zBjVLjGqjt8PKzJdPhsET2C2rvNZ1Ws76tBc4kVAXwT",
+      "symbol": "SPCX",
+      "tier": "T2",
+      "detection_time": "2026-06-15T07:39:53.390629+00:00",
+      "detection_price": 0.000119,
+      "detection_liq": 33892.6,
+      "peak_price": 0.000119,
       "captures": {},
       "outcome_label": null,
       "completed": false
