@@ -23949,10 +23949,17 @@
           "volume_24h": 399665.82,
           "captured_at": "2026-06-09T12:16:26.795689+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 9.312e-06,
+          "liquidity": 8336.55,
+          "volume_24h": 1777.31,
+          "captured_at": "2026-06-15T13:20:00.433219+00:00",
+          "hours_elapsed": 169.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:C2aKjzNCeeMLkyf11q5MFWNvjy89RLLWepwrQF8z3BCc": {
       "chain": "solana",
@@ -25727,6 +25734,13 @@
           "volume_24h": 451465.12,
           "captured_at": "2026-06-14T20:21:53.377178+00:00",
           "hours_elapsed": 7.1
+        },
+        "price_24h": {
+          "price": 0.0002024,
+          "liquidity": 34241.3,
+          "volume_24h": 398418.29,
+          "captured_at": "2026-06-15T13:20:00.433219+00:00",
+          "hours_elapsed": 24.1
         }
       },
       "outcome_label": null,
@@ -25880,7 +25894,7 @@
       "detection_time": "2026-06-15T06:29:32.526608+00:00",
       "detection_price": 0.0001795,
       "detection_liq": 38065.73,
-      "peak_price": 0.0001795,
+      "peak_price": 0.0001967,
       "captures": {
         "price_1h": {
           "price": 0.000159,
@@ -25888,6 +25902,13 @@
           "volume_24h": 397227.78,
           "captured_at": "2026-06-15T07:40:14.152203+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 0.0001967,
+          "liquidity": 40642.34,
+          "volume_24h": 422929.99,
+          "captured_at": "2026-06-15T13:20:00.433219+00:00",
+          "hours_elapsed": 6.8
         }
       },
       "outcome_label": null,
@@ -25909,6 +25930,13 @@
           "volume_24h": 486278.98,
           "captured_at": "2026-06-15T07:40:14.152203+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 1.501e-06,
+          "liquidity": 2890.02,
+          "volume_24h": 486481.69,
+          "captured_at": "2026-06-15T13:20:00.433219+00:00",
+          "hours_elapsed": 6.8
         }
       },
       "outcome_label": null,
@@ -25932,6 +25960,19 @@
           "hours_elapsed": 1.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "bsc:0xe640Ca36a535F22EF021ccC62a5110012351BedF": {
+      "chain": "bsc",
+      "pair_address": "0xe640Ca36a535F22EF021ccC62a5110012351BedF",
+      "symbol": "UPO",
+      "tier": "T1",
+      "detection_time": "2026-06-15T13:19:46.426770+00:00",
+      "detection_price": 0.6727,
+      "detection_liq": 25439.89,
+      "peak_price": 0.6727,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
