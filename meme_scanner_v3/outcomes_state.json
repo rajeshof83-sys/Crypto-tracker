@@ -25850,6 +25850,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:AJjzxiC3gxotLKQFNYK4qmGD4k2dBpiNPzb7GF5FHX2x": {
+      "chain": "solana",
+      "pair_address": "AJjzxiC3gxotLKQFNYK4qmGD4k2dBpiNPzb7GF5FHX2x",
+      "symbol": "Pomni",
+      "tier": "T2",
+      "detection_time": "2026-06-15T06:29:32.526608+00:00",
+      "detection_price": 0.0001795,
+      "detection_liq": 38065.73,
+      "peak_price": 0.0001795,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6Gb6qXrWbHmx1BCVKn7jGnbMJnX6KT8tTQ1nPM9pSfVX": {
+      "chain": "solana",
+      "pair_address": "6Gb6qXrWbHmx1BCVKn7jGnbMJnX6KT8tTQ1nPM9pSfVX",
+      "symbol": "TrumpPeace",
+      "tier": "T1",
+      "detection_time": "2026-06-15T06:29:35.873122+00:00",
+      "detection_price": 0.0001268,
+      "detection_liq": 26052.95,
+      "peak_price": 0.0001268,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
