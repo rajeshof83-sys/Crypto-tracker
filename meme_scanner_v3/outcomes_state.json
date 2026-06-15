@@ -25950,7 +25950,7 @@
       "detection_time": "2026-06-15T07:39:53.390629+00:00",
       "detection_price": 0.000119,
       "detection_liq": 33892.6,
-      "peak_price": 0.000119,
+      "peak_price": 0.0001248,
       "captures": {
         "price_1h": {
           "price": 0.0001175,
@@ -25958,6 +25958,13 @@
           "volume_24h": 333480.66,
           "captured_at": "2026-06-15T08:42:16.594340+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 0.0001248,
+          "liquidity": 35561.94,
+          "volume_24h": 367101.57,
+          "captured_at": "2026-06-15T14:36:05.378612+00:00",
+          "hours_elapsed": 6.9
         }
       },
       "outcome_label": null,
@@ -25971,7 +25978,28 @@
       "detection_time": "2026-06-15T13:19:46.426770+00:00",
       "detection_price": 0.6727,
       "detection_liq": 25439.89,
-      "peak_price": 0.6727,
+      "peak_price": 0.906,
+      "captures": {
+        "price_1h": {
+          "price": 0.906,
+          "liquidity": 29572.43,
+          "volume_24h": 349634.01,
+          "captured_at": "2026-06-15T14:36:05.378612+00:00",
+          "hours_elapsed": 1.3
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:UPfeRWCL3F5q59wPxKQP2zMeb2paM5np4UbqEY2DyCi": {
+      "chain": "solana",
+      "pair_address": "UPfeRWCL3F5q59wPxKQP2zMeb2paM5np4UbqEY2DyCi",
+      "symbol": "BATTLE",
+      "tier": "T1",
+      "detection_time": "2026-06-15T14:35:46.365195+00:00",
+      "detection_price": 0.0001267,
+      "detection_liq": 26293.33,
+      "peak_price": 0.0001267,
       "captures": {},
       "outcome_label": null,
       "completed": false
