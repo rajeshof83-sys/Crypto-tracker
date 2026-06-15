@@ -25754,7 +25754,7 @@
       "detection_time": "2026-06-14T18:16:56.941563+00:00",
       "detection_price": 0.001538,
       "detection_liq": 95400.73,
-      "peak_price": 0.001647,
+      "peak_price": 0.00221,
       "captures": {
         "price_1h": {
           "price": 0.001647,
@@ -25762,6 +25762,13 @@
           "volume_24h": 1006460.66,
           "captured_at": "2026-06-14T20:21:53.377178+00:00",
           "hours_elapsed": 2.1
+        },
+        "price_6h": {
+          "price": 0.00221,
+          "liquidity": 118706.96,
+          "volume_24h": 1312696.59,
+          "captured_at": "2026-06-15T01:41:50.159294+00:00",
+          "hours_elapsed": 7.4
         }
       },
       "outcome_label": null,
@@ -25785,6 +25792,19 @@
           "hours_elapsed": 2.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:44q5iE1AngW2h5arMJBzCMsVmmHBsPVW4WaN9V5zmEVF": {
+      "chain": "solana",
+      "pair_address": "44q5iE1AngW2h5arMJBzCMsVmmHBsPVW4WaN9V5zmEVF",
+      "symbol": "TRUAMP",
+      "tier": "T1",
+      "detection_time": "2026-06-15T01:41:37.681785+00:00",
+      "detection_price": 0.0003701,
+      "detection_liq": 45455.04,
+      "peak_price": 0.0003701,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
