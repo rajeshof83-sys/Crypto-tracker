@@ -26441,6 +26441,13 @@
           "volume_24h": 389675.64,
           "captured_at": "2026-06-16T11:35:18.390256+00:00",
           "hours_elapsed": 1.4
+        },
+        "price_6h": {
+          "price": 7.248e-05,
+          "liquidity": 27618.15,
+          "volume_24h": 413343.83,
+          "captured_at": "2026-06-16T17:21:47.756440+00:00",
+          "hours_elapsed": 7.2
         }
       },
       "outcome_label": null,
@@ -26476,7 +26483,15 @@
       "detection_price": 0.0002175,
       "detection_liq": 35886.79,
       "peak_price": 0.0002175,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0001118,
+          "liquidity": 25951.83,
+          "volume_24h": 870286.07,
+          "captured_at": "2026-06-16T17:21:47.756440+00:00",
+          "hours_elapsed": 1.9
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -26489,7 +26504,15 @@
       "detection_price": 0.0003807,
       "detection_liq": 45610.19,
       "peak_price": 0.0003807,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0002301,
+          "liquidity": 35635.76,
+          "volume_24h": 400974.03,
+          "captured_at": "2026-06-16T17:21:47.756440+00:00",
+          "hours_elapsed": 1.9
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -26501,7 +26524,28 @@
       "detection_time": "2026-06-16T15:27:39.790181+00:00",
       "detection_price": 8.477e-05,
       "detection_liq": 21315.78,
-      "peak_price": 8.477e-05,
+      "peak_price": 8.682e-05,
+      "captures": {
+        "price_1h": {
+          "price": 8.682e-05,
+          "liquidity": 21684.12,
+          "volume_24h": 236311.61,
+          "captured_at": "2026-06-16T17:21:47.756440+00:00",
+          "hours_elapsed": 1.9
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5TDFRhM1a83SDTSNpbkFgoz8qprxpT1NAoHzfbs8eSYr": {
+      "chain": "solana",
+      "pair_address": "5TDFRhM1a83SDTSNpbkFgoz8qprxpT1NAoHzfbs8eSYr",
+      "symbol": "Vozinha",
+      "tier": "T1",
+      "detection_time": "2026-06-16T17:21:33.537359+00:00",
+      "detection_price": 0.0002015,
+      "detection_liq": 34956.47,
+      "peak_price": 0.0002015,
       "captures": {},
       "outcome_label": null,
       "completed": false
