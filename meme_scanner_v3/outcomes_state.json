@@ -26553,6 +26553,13 @@
           "volume_24h": 413343.83,
           "captured_at": "2026-06-16T17:21:47.756440+00:00",
           "hours_elapsed": 7.2
+        },
+        "price_24h": {
+          "price": 8.595e-05,
+          "liquidity": 30191.64,
+          "volume_24h": 107670.12,
+          "captured_at": "2026-06-17T10:14:54.495364+00:00",
+          "hours_elapsed": 24.0
         }
       },
       "outcome_label": null,
@@ -26877,6 +26884,45 @@
           "hours_elapsed": 2.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HX7Dm1fSLF2vEvB6b3SzGvVxS5vBH48pqN9SByZNypSu": {
+      "chain": "solana",
+      "pair_address": "HX7Dm1fSLF2vEvB6b3SzGvVxS5vBH48pqN9SByZNypSu",
+      "symbol": "SNDK69",
+      "tier": "T1",
+      "detection_time": "2026-06-17T10:14:42.745938+00:00",
+      "detection_price": 0.0001999,
+      "detection_liq": 32741.33,
+      "peak_price": 0.0001999,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EMq2eYzj8LmjxssFKEiLx7jsFZbWGLiyh6TytXS43m7k": {
+      "chain": "solana",
+      "pair_address": "EMq2eYzj8LmjxssFKEiLx7jsFZbWGLiyh6TytXS43m7k",
+      "symbol": "BOTC",
+      "tier": "T1",
+      "detection_time": "2026-06-17T10:14:45.791850+00:00",
+      "detection_price": 0.0001122,
+      "detection_liq": 24433.94,
+      "peak_price": 0.0001122,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:BzWUDbEaEVWj5yKGq2ctVvVQURj1HV2zRZyFjKc64cyg": {
+      "chain": "solana",
+      "pair_address": "BzWUDbEaEVWj5yKGq2ctVvVQURj1HV2zRZyFjKc64cyg",
+      "symbol": "NET",
+      "tier": "T1",
+      "detection_time": "2026-06-17T10:14:48.581491+00:00",
+      "detection_price": 0.0001914,
+      "detection_liq": 32552.76,
+      "peak_price": 0.0001914,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
