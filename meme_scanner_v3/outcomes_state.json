@@ -27190,6 +27190,27 @@
       "detection_price": 0.0003807,
       "detection_liq": 47865.9,
       "peak_price": 0.0003807,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003268,
+          "liquidity": 44767.29,
+          "volume_24h": 1736067.8,
+          "captured_at": "2026-06-17T22:15:14.101890+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6uxFMb2Kwy5JGj4r6wW57U9kuuuC3HzFEWXyqziqagEF": {
+      "chain": "solana",
+      "pair_address": "6uxFMb2Kwy5JGj4r6wW57U9kuuuC3HzFEWXyqziqagEF",
+      "symbol": "TRUMPGOAT",
+      "tier": "T1",
+      "detection_time": "2026-06-17T22:15:03.025345+00:00",
+      "detection_price": 0.0003554,
+      "detection_liq": 44975.55,
+      "peak_price": 0.0003554,
       "captures": {},
       "outcome_label": null,
       "completed": false
