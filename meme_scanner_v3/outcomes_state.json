@@ -26742,6 +26742,13 @@
           "volume_24h": 2297537.11,
           "captured_at": "2026-06-17T01:42:50.320769+00:00",
           "hours_elapsed": 1.4
+        },
+        "price_6h": {
+          "price": 3.802e-06,
+          "liquidity": 5440.0,
+          "volume_24h": 4220474.81,
+          "captured_at": "2026-06-17T07:28:52.408983+00:00",
+          "hours_elapsed": 7.1
         }
       },
       "outcome_label": null,
@@ -26763,6 +26770,13 @@
           "volume_24h": 444102.37,
           "captured_at": "2026-06-17T01:42:50.320769+00:00",
           "hours_elapsed": 1.4
+        },
+        "price_6h": {
+          "price": 1.736e-06,
+          "liquidity": 3200.58,
+          "volume_24h": 882098.86,
+          "captured_at": "2026-06-17T07:28:52.408983+00:00",
+          "hours_elapsed": 7.1
         }
       },
       "outcome_label": null,
@@ -26819,7 +26833,15 @@
       "detection_price": 7.855e-05,
       "detection_liq": 20728.25,
       "peak_price": 7.855e-05,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 3.758e-05,
+          "liquidity": 14396.32,
+          "volume_24h": 337905.07,
+          "captured_at": "2026-06-17T07:28:52.408983+00:00",
+          "hours_elapsed": 2.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -26831,8 +26853,16 @@
       "detection_time": "2026-06-17T05:23:41.879821+00:00",
       "detection_price": 0.0002235,
       "detection_liq": 36129.04,
-      "peak_price": 0.0002235,
-      "captures": {},
+      "peak_price": 0.000334,
+      "captures": {
+        "price_1h": {
+          "price": 0.000334,
+          "liquidity": 44306.26,
+          "volume_24h": 1018521.91,
+          "captured_at": "2026-06-17T07:28:52.408983+00:00",
+          "hours_elapsed": 2.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     }
