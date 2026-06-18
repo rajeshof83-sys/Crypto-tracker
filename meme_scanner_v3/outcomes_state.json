@@ -27763,7 +27763,28 @@
       "detection_time": "2026-06-18T19:32:44.862120+00:00",
       "detection_price": 0.001229,
       "detection_liq": 85182.97,
-      "peak_price": 0.001229,
+      "peak_price": 0.001396,
+      "captures": {
+        "price_1h": {
+          "price": 0.001396,
+          "liquidity": 91481.1,
+          "volume_24h": 750087.44,
+          "captured_at": "2026-06-18T20:40:06.435209+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:C7f5AwRWx6K9MfHJeABtXkzoiEnLTJqAfXM5WME55WnL": {
+      "chain": "solana",
+      "pair_address": "C7f5AwRWx6K9MfHJeABtXkzoiEnLTJqAfXM5WME55WnL",
+      "symbol": "CookingTrump",
+      "tier": "T1",
+      "detection_time": "2026-06-18T20:39:48.654049+00:00",
+      "detection_price": 0.0002822,
+      "detection_liq": 40080.14,
+      "peak_price": 0.0002822,
       "captures": {},
       "outcome_label": null,
       "completed": false
