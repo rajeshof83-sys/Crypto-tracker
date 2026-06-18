@@ -27218,6 +27218,13 @@
           "volume_24h": 506099.05,
           "captured_at": "2026-06-17T23:11:34.962762+00:00",
           "hours_elapsed": 6.5
+        },
+        "price_24h": {
+          "price": 0.0001017,
+          "liquidity": 23578.5,
+          "volume_24h": 566410.14,
+          "captured_at": "2026-06-18T17:30:50.613532+00:00",
+          "hours_elapsed": 24.8
         }
       },
       "outcome_label": null,
@@ -27246,6 +27253,13 @@
           "volume_24h": 667579.12,
           "captured_at": "2026-06-17T23:11:34.962762+00:00",
           "hours_elapsed": 6.5
+        },
+        "price_24h": {
+          "price": 0.0001393,
+          "liquidity": 29500.51,
+          "volume_24h": 1412444.63,
+          "captured_at": "2026-06-18T17:30:50.613532+00:00",
+          "hours_elapsed": 24.8
         }
       },
       "outcome_label": null,
@@ -27654,6 +27668,19 @@
           "hours_elapsed": 1.3
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7MKJB7pN3obkAU7QDYA4rcEZS2nyhNH93Sa3LNF6kDYL": {
+      "chain": "solana",
+      "pair_address": "7MKJB7pN3obkAU7QDYA4rcEZS2nyhNH93Sa3LNF6kDYL",
+      "symbol": "CRASH",
+      "tier": "T1",
+      "detection_time": "2026-06-18T17:30:29.707585+00:00",
+      "detection_price": 0.0001117,
+      "detection_liq": 23745.21,
+      "peak_price": 0.0001117,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
