@@ -24908,10 +24908,17 @@
           "volume_24h": 81898.58,
           "captured_at": "2026-06-12T05:13:52.810254+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 3.457e-06,
+          "liquidity": 6010.96,
+          "volume_24h": 15.6,
+          "captured_at": "2026-06-18T05:15:06.416764+00:00",
+          "hours_elapsed": 168.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:63BbTbh2jdYLE4DXZVAKn7aDoyPYRVjwtcRsc35ka5vG": {
       "chain": "solana",
@@ -24943,10 +24950,17 @@
           "volume_24h": 4019281.43,
           "captured_at": "2026-06-12T05:13:52.810254+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 1.806e-05,
+          "liquidity": 15607.83,
+          "volume_24h": 6462.4,
+          "captured_at": "2026-06-18T05:15:06.416764+00:00",
+          "hours_elapsed": 168.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "moon",
+      "completed": true
     },
     "solana:6UrpjYjee3u5DjD83brPY7G5v2GCbkvcqViw1wrN5HwB": {
       "chain": "solana",
@@ -27323,6 +27337,13 @@
           "volume_24h": 797102.01,
           "captured_at": "2026-06-18T02:05:56.436157+00:00",
           "hours_elapsed": 2.9
+        },
+        "price_6h": {
+          "price": 1.697e-06,
+          "liquidity": 3104.89,
+          "volume_24h": 797149.31,
+          "captured_at": "2026-06-18T05:15:06.416764+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -27405,6 +27426,19 @@
       "detection_price": 0.0005228,
       "detection_liq": 54290.36,
       "peak_price": 0.0005228,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HFSywti5xPHqKNUW4xYsGiyPqLrTB2nbxgBy4Go1x7cK": {
+      "chain": "solana",
+      "pair_address": "HFSywti5xPHqKNUW4xYsGiyPqLrTB2nbxgBy4Go1x7cK",
+      "symbol": "JAMESON",
+      "tier": "T2",
+      "detection_time": "2026-06-18T05:14:54.200118+00:00",
+      "detection_price": 0.0002002,
+      "detection_liq": 36094.51,
+      "peak_price": 0.0002002,
       "captures": {},
       "outcome_label": null,
       "completed": false
