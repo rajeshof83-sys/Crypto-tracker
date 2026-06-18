@@ -27386,6 +27386,13 @@
           "volume_24h": 839091.95,
           "captured_at": "2026-06-18T04:19:33.082944+00:00",
           "hours_elapsed": 2.2
+        },
+        "price_6h": {
+          "price": 1.801e-06,
+          "liquidity": 3270.63,
+          "volume_24h": 1077706.62,
+          "captured_at": "2026-06-18T09:18:54.909438+00:00",
+          "hours_elapsed": 7.2
         }
       },
       "outcome_label": null,
@@ -27407,6 +27414,13 @@
           "volume_24h": 90782.91,
           "captured_at": "2026-06-18T04:19:33.082944+00:00",
           "hours_elapsed": 2.2
+        },
+        "price_6h": {
+          "price": 3.528e-05,
+          "liquidity": 14812.67,
+          "volume_24h": 89955.0,
+          "captured_at": "2026-06-18T09:18:54.909438+00:00",
+          "hours_elapsed": 7.2
         }
       },
       "outcome_label": null,
@@ -27493,6 +27507,19 @@
           "hours_elapsed": 2.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8dRpKoihx9ybrmAw7nTTPiXViFsZ3BnJv9gUzb8FbASy": {
+      "chain": "solana",
+      "pair_address": "8dRpKoihx9ybrmAw7nTTPiXViFsZ3BnJv9gUzb8FbASy",
+      "symbol": "OGFLOKI",
+      "tier": "T1",
+      "detection_time": "2026-06-18T09:18:34.492649+00:00",
+      "detection_price": 0.0002406,
+      "detection_liq": 40751.63,
+      "peak_price": 0.0002406,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
