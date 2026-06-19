@@ -27743,6 +27743,13 @@
           "volume_24h": 371567.64,
           "captured_at": "2026-06-18T16:37:15.928192+00:00",
           "hours_elapsed": 7.3
+        },
+        "price_24h": {
+          "price": 8.707e-05,
+          "liquidity": 24217.86,
+          "volume_24h": 198690.28,
+          "captured_at": "2026-06-19T09:58:52.624574+00:00",
+          "hours_elapsed": 24.7
         }
       },
       "outcome_label": null,
@@ -27906,6 +27913,19 @@
           "hours_elapsed": 1.7
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4Tr8T9U4MHqngATWQJ868xf7XR9sdRBD5m9V7jzHHpbL": {
+      "chain": "solana",
+      "pair_address": "4Tr8T9U4MHqngATWQJ868xf7XR9sdRBD5m9V7jzHHpbL",
+      "symbol": "HLI",
+      "tier": "T1",
+      "detection_time": "2026-06-19T09:58:44.338869+00:00",
+      "detection_price": 0.0001026,
+      "detection_liq": 23038.07,
+      "peak_price": 0.0001026,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
