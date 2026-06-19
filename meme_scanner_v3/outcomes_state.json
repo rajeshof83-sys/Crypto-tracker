@@ -27848,10 +27848,17 @@
           "volume_24h": 616043.62,
           "captured_at": "2026-06-19T00:17:14.904689+00:00",
           "hours_elapsed": 6.8
+        },
+        "price_24h": {
+          "price": 3.019e-06,
+          "liquidity": 4065.7,
+          "volume_24h": 236394.38,
+          "captured_at": "2026-06-19T18:07:22.419337+00:00",
+          "hours_elapsed": 24.6
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:BRbvi3YR1RRKoRBk5xCAG1E5urLdyJgRmJixVzD6GfFc": {
       "chain": "solana",
@@ -27983,6 +27990,32 @@
           "hours_elapsed": 1.8
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:ACvdA6HU6ZCqDu7RaBhU5T8vhH5HWUfjGH6rxyA8wGq": {
+      "chain": "solana",
+      "pair_address": "ACvdA6HU6ZCqDu7RaBhU5T8vhH5HWUfjGH6rxyA8wGq",
+      "symbol": "CHIKI",
+      "tier": "T1",
+      "detection_time": "2026-06-19T18:07:12.582420+00:00",
+      "detection_price": 0.00012,
+      "detection_liq": 35589.09,
+      "peak_price": 0.00012,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:ENNqCmuUfobVEgCgQXLp8u12d2TiJ4oHVkDdD2mzvEDh": {
+      "chain": "solana",
+      "pair_address": "ENNqCmuUfobVEgCgQXLp8u12d2TiJ4oHVkDdD2mzvEDh",
+      "symbol": "WASABICRAFT",
+      "tier": "T1",
+      "detection_time": "2026-06-19T18:07:15.363229+00:00",
+      "detection_price": 0.0003257,
+      "detection_liq": 41528.13,
+      "peak_price": 0.0003257,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
