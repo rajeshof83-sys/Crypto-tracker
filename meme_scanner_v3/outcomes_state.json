@@ -25720,10 +25720,17 @@
           "volume_24h": 282829.01,
           "captured_at": "2026-06-14T10:38:43.923681+00:00",
           "hours_elapsed": 24.8
+        },
+        "price_7d": {
+          "price": 3.155e-06,
+          "liquidity": 4287.93,
+          "volume_24h": 1238.19,
+          "captured_at": "2026-06-20T11:01:12.907842+00:00",
+          "hours_elapsed": 169.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:F7JxpBnEMEXPhBB6f5fT9i7mV2nVNY8w2KdZAorGzuuR": {
       "chain": "solana",
@@ -28023,6 +28030,13 @@
           "volume_24h": 533952.8,
           "captured_at": "2026-06-19T16:07:44.391903+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 9.197e-05,
+          "liquidity": 22889.79,
+          "volume_24h": 310439.41,
+          "captured_at": "2026-06-20T11:01:12.907842+00:00",
+          "hours_elapsed": 25.0
         }
       },
       "outcome_label": null,
@@ -28148,8 +28162,16 @@
       "detection_time": "2026-06-20T08:29:04.140418+00:00",
       "detection_price": 0.0001358,
       "detection_liq": 31560.66,
-      "peak_price": 0.0001358,
-      "captures": {},
+      "peak_price": 0.0002345,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002345,
+          "liquidity": 41742.43,
+          "volume_24h": 383193.03,
+          "captured_at": "2026-06-20T11:01:12.907842+00:00",
+          "hours_elapsed": 2.5
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -28162,7 +28184,15 @@
       "detection_price": 0.0001039,
       "detection_liq": 23523.87,
       "peak_price": 0.0001039,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 8.459e-05,
+          "liquidity": 21287.51,
+          "volume_24h": 310861.06,
+          "captured_at": "2026-06-20T11:01:12.907842+00:00",
+          "hours_elapsed": 2.5
+        }
+      },
       "outcome_label": null,
       "completed": false
     }
