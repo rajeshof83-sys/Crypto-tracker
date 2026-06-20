@@ -28321,6 +28321,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:4hi1yBTFhQoPYZn1PStGKmMQJPg22HWhMM8mbzNetH3U": {
+      "chain": "solana",
+      "pair_address": "4hi1yBTFhQoPYZn1PStGKmMQJPg22HWhMM8mbzNetH3U",
+      "symbol": "STIMMY",
+      "tier": "T1",
+      "detection_time": "2026-06-20T22:13:02.143479+00:00",
+      "detection_price": 8.824e-05,
+      "detection_liq": 21716.2,
+      "peak_price": 8.824e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DptN7yq3XWjzeFHppzSrC7BctdyXyAz6KWgExzKWKJcF": {
+      "chain": "solana",
+      "pair_address": "DptN7yq3XWjzeFHppzSrC7BctdyXyAz6KWgExzKWKJcF",
+      "symbol": "Cambria",
+      "tier": "T1",
+      "detection_time": "2026-06-20T22:13:04.737430+00:00",
+      "detection_price": 0.0002688,
+      "detection_liq": 38369.91,
+      "peak_price": 0.0002688,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
