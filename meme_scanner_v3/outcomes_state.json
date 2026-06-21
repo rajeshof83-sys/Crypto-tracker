@@ -25881,10 +25881,17 @@
           "volume_24h": 705259.3,
           "captured_at": "2026-06-15T05:35:39.580931+00:00",
           "hours_elapsed": 24.5
+        },
+        "price_7d": {
+          "price": 8.543e-05,
+          "liquidity": 32001.59,
+          "volume_24h": 72295.77,
+          "captured_at": "2026-06-21T05:25:11.125161+00:00",
+          "hours_elapsed": 168.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:FwWudhys4PtVc9ZjSHHu3eMbofnRA6tFBG2cY7gZy3LW": {
       "chain": "solana",
@@ -28352,6 +28359,13 @@
           "volume_24h": 473233.55,
           "captured_at": "2026-06-21T00:12:15.103216+00:00",
           "hours_elapsed": 2.0
+        },
+        "price_6h": {
+          "price": 1.1e-05,
+          "liquidity": 7877.94,
+          "volume_24h": 514903.38,
+          "captured_at": "2026-06-21T05:25:11.125161+00:00",
+          "hours_elapsed": 7.2
         }
       },
       "outcome_label": null,
@@ -28373,6 +28387,13 @@
           "volume_24h": 780203.91,
           "captured_at": "2026-06-21T00:12:15.103216+00:00",
           "hours_elapsed": 2.0
+        },
+        "price_6h": {
+          "price": 0.0002377,
+          "liquidity": 37528.38,
+          "volume_24h": 1205188.25,
+          "captured_at": "2026-06-21T05:25:11.125161+00:00",
+          "hours_elapsed": 7.2
         }
       },
       "outcome_label": null,
@@ -28387,6 +28408,27 @@
       "detection_price": 0.0001667,
       "detection_liq": 30095.35,
       "peak_price": 0.0001667,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001227,
+          "liquidity": 25959.59,
+          "volume_24h": 346338.79,
+          "captured_at": "2026-06-21T05:25:11.125161+00:00",
+          "hours_elapsed": 3.7
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:57Utc3eZYnzCig6iLLcikU9u2ptJc2qGsVS4WtVHafeJ": {
+      "chain": "solana",
+      "pair_address": "57Utc3eZYnzCig6iLLcikU9u2ptJc2qGsVS4WtVHafeJ",
+      "symbol": "PANGUY",
+      "tier": "T1",
+      "detection_time": "2026-06-21T05:25:00.211218+00:00",
+      "detection_price": 0.0002405,
+      "detection_liq": 36505.19,
+      "peak_price": 0.0002405,
       "captures": {},
       "outcome_label": null,
       "completed": false
