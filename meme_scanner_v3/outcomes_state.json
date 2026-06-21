@@ -28296,6 +28296,13 @@
           "volume_24h": 435452.83,
           "captured_at": "2026-06-20T20:18:33.364595+00:00",
           "hours_elapsed": 2.0
+        },
+        "price_6h": {
+          "price": 4.278e-05,
+          "liquidity": 21110.26,
+          "volume_24h": 508850.94,
+          "captured_at": "2026-06-21T01:40:44.447236+00:00",
+          "hours_elapsed": 7.4
         }
       },
       "outcome_label": null,
@@ -28317,6 +28324,13 @@
           "volume_24h": 761246.17,
           "captured_at": "2026-06-20T20:18:33.364595+00:00",
           "hours_elapsed": 2.0
+        },
+        "price_6h": {
+          "price": 7.259e-05,
+          "liquidity": 21202.45,
+          "volume_24h": 1132892.71,
+          "captured_at": "2026-06-21T01:40:44.447236+00:00",
+          "hours_elapsed": 7.4
         }
       },
       "outcome_label": null,
@@ -28361,6 +28375,19 @@
           "hours_elapsed": 2.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9gjREyvDR2KviDPEd78yMGi2NrhyXRY4gk9S9NSz9Pyc": {
+      "chain": "solana",
+      "pair_address": "9gjREyvDR2KviDPEd78yMGi2NrhyXRY4gk9S9NSz9Pyc",
+      "symbol": "SOLINI",
+      "tier": "T2",
+      "detection_time": "2026-06-21T01:40:34.202876+00:00",
+      "detection_price": 0.0001667,
+      "detection_liq": 30095.35,
+      "peak_price": 0.0001667,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
