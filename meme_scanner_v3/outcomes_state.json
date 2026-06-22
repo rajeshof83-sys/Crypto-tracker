@@ -28820,8 +28820,16 @@
       "detection_time": "2026-06-22T21:15:47.553351+00:00",
       "detection_price": 0.0003718,
       "detection_liq": 45681.05,
-      "peak_price": 0.0003718,
-      "captures": {},
+      "peak_price": 0.0005114,
+      "captures": {
+        "price_1h": {
+          "price": 0.0005114,
+          "liquidity": 53862.4,
+          "volume_24h": 1026378.0,
+          "captured_at": "2026-06-22T22:55:49.170407+00:00",
+          "hours_elapsed": 1.7
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -28833,8 +28841,16 @@
       "detection_time": "2026-06-22T21:15:50.668483+00:00",
       "detection_price": 0.0001095,
       "detection_liq": 24795.63,
-      "peak_price": 0.0001095,
-      "captures": {},
+      "peak_price": 0.0001635,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001635,
+          "liquidity": 30206.95,
+          "volume_24h": 277691.88,
+          "captured_at": "2026-06-22T22:55:49.170407+00:00",
+          "hours_elapsed": 1.7
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -28847,6 +28863,40 @@
       "detection_price": 0.0002008,
       "detection_liq": 33725.07,
       "peak_price": 0.0002008,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001985,
+          "liquidity": 33754.94,
+          "volume_24h": 927080.4,
+          "captured_at": "2026-06-22T22:55:49.170407+00:00",
+          "hours_elapsed": 1.7
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3kSqqP9eCUBxF7VmeUTu1SZEYgs8pkPdpDBggsjroymR": {
+      "chain": "solana",
+      "pair_address": "3kSqqP9eCUBxF7VmeUTu1SZEYgs8pkPdpDBggsjroymR",
+      "symbol": "GOAT",
+      "tier": "T2",
+      "detection_time": "2026-06-22T22:55:36.313116+00:00",
+      "detection_price": 0.0002142,
+      "detection_liq": 35807.11,
+      "peak_price": 0.0002142,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:869eyE6ocrjAuXRPqgBzLJDGMWFbaaBd1o6Zc2GjS5X5": {
+      "chain": "solana",
+      "pair_address": "869eyE6ocrjAuXRPqgBzLJDGMWFbaaBd1o6Zc2GjS5X5",
+      "symbol": "USAGIRL",
+      "tier": "T2",
+      "detection_time": "2026-06-22T22:55:41.395563+00:00",
+      "detection_price": 0.0001059,
+      "detection_liq": 23399.4,
+      "peak_price": 0.0001059,
       "captures": {},
       "outcome_label": null,
       "completed": false
