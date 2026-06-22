@@ -28659,7 +28659,28 @@
       "detection_time": "2026-06-22T08:39:43.355282+00:00",
       "detection_price": 0.0005466,
       "detection_liq": 54684.6,
-      "peak_price": 0.0005466,
+      "peak_price": 0.00129,
+      "captures": {
+        "price_1h": {
+          "price": 0.00129,
+          "liquidity": 84706.98,
+          "volume_24h": 678250.75,
+          "captured_at": "2026-06-22T10:43:14.843151+00:00",
+          "hours_elapsed": 2.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HszeWWei4yRHxqa1zBKb1zB6UaHsQYy7U8hkQwtUGNLR": {
+      "chain": "solana",
+      "pair_address": "HszeWWei4yRHxqa1zBKb1zB6UaHsQYy7U8hkQwtUGNLR",
+      "symbol": "WBW",
+      "tier": "T1",
+      "detection_time": "2026-06-22T10:42:56.387442+00:00",
+      "detection_price": 0.0001036,
+      "detection_liq": 23910.33,
+      "peak_price": 0.0001036,
       "captures": {},
       "outcome_label": null,
       "completed": false
