@@ -28611,10 +28611,17 @@
           "volume_24h": 1353879.1,
           "captured_at": "2026-06-21T23:18:02.798161+00:00",
           "hours_elapsed": 6.4
+        },
+        "price_24h": {
+          "price": 2.018e-06,
+          "liquidity": 3522.61,
+          "volume_24h": 768622.28,
+          "captured_at": "2026-06-22T18:18:42.147420+00:00",
+          "hours_elapsed": 25.4
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:3jTCvdJp9Cszn9mjGXwLw37M48AUbSrY5eS6wFCZnQLm": {
       "chain": "solana",
@@ -28716,6 +28723,13 @@
           "volume_24h": 567172.67,
           "captured_at": "2026-06-22T13:44:49.726313+00:00",
           "hours_elapsed": 3.0
+        },
+        "price_6h": {
+          "price": 8.141e-06,
+          "liquidity": 6848.7,
+          "volume_24h": 568291.99,
+          "captured_at": "2026-06-22T18:18:42.147420+00:00",
+          "hours_elapsed": 7.6
         }
       },
       "outcome_label": null,
@@ -28739,6 +28753,19 @@
           "hours_elapsed": 1.4
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AxJ9BNPYHQ3MC1FRScN2e7XENgAtBUAJVbYdMpztXLSF": {
+      "chain": "solana",
+      "pair_address": "AxJ9BNPYHQ3MC1FRScN2e7XENgAtBUAJVbYdMpztXLSF",
+      "symbol": "UPPY",
+      "tier": "T1",
+      "detection_time": "2026-06-22T18:18:22.146787+00:00",
+      "detection_price": 0.0001987,
+      "detection_liq": 32871.29,
+      "peak_price": 0.0001987,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
