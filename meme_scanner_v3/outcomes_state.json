@@ -26245,10 +26245,17 @@
           "volume_24h": 258404.73,
           "captured_at": "2026-06-16T10:12:37.953562+00:00",
           "hours_elapsed": 27.7
+        },
+        "price_7d": {
+          "price": 3.341e-05,
+          "liquidity": 17714.58,
+          "volume_24h": 44178.05,
+          "captured_at": "2026-06-22T07:42:16.333855+00:00",
+          "hours_elapsed": 169.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:6Gb6qXrWbHmx1BCVKn7jGnbMJnX6KT8tTQ1nPM9pSfVX": {
       "chain": "solana",
@@ -26315,10 +26322,17 @@
           "volume_24h": 348647.12,
           "captured_at": "2026-06-16T10:12:37.953562+00:00",
           "hours_elapsed": 26.5
+        },
+        "price_7d": {
+          "price": 7.388e-05,
+          "liquidity": 29158.45,
+          "volume_24h": 67726.5,
+          "captured_at": "2026-06-22T07:42:16.333855+00:00",
+          "hours_elapsed": 168.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "winner",
+      "completed": true
     },
     "bsc:0xe640Ca36a535F22EF021ccC62a5110012351BedF": {
       "chain": "bsc",
@@ -28596,7 +28610,7 @@
       "detection_time": "2026-06-22T01:41:43.347138+00:00",
       "detection_price": 0.001239,
       "detection_liq": 107276.35,
-      "peak_price": 0.0013,
+      "peak_price": 0.001458,
       "captures": {
         "price_1h": {
           "price": 0.0013,
@@ -28604,8 +28618,28 @@
           "volume_24h": 659090.3,
           "captured_at": "2026-06-22T04:48:41.994947+00:00",
           "hours_elapsed": 3.1
+        },
+        "price_6h": {
+          "price": 0.001458,
+          "liquidity": 116679.46,
+          "volume_24h": 712986.75,
+          "captured_at": "2026-06-22T07:42:16.333855+00:00",
+          "hours_elapsed": 6.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:BpucMA34XNy2Z5321JwFLdKpn4biCBbqRDr8YNsvEqWX": {
+      "chain": "solana",
+      "pair_address": "BpucMA34XNy2Z5321JwFLdKpn4biCBbqRDr8YNsvEqWX",
+      "symbol": "MYLOO",
+      "tier": "T1",
+      "detection_time": "2026-06-22T07:42:06.069826+00:00",
+      "detection_price": 0.0004194,
+      "detection_liq": 48773.18,
+      "peak_price": 0.0004194,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
