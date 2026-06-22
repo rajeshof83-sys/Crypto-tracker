@@ -28513,6 +28513,13 @@
           "volume_24h": 361027.01,
           "captured_at": "2026-06-21T09:08:17.508667+00:00",
           "hours_elapsed": 7.5
+        },
+        "price_24h": {
+          "price": 8.591e-05,
+          "liquidity": 21858.25,
+          "volume_24h": 87318.18,
+          "captured_at": "2026-06-22T01:41:53.282553+00:00",
+          "hours_elapsed": 24.0
         }
       },
       "outcome_label": null,
@@ -28571,6 +28578,19 @@
           "hours_elapsed": 6.4
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3jTCvdJp9Cszn9mjGXwLw37M48AUbSrY5eS6wFCZnQLm": {
+      "chain": "solana",
+      "pair_address": "3jTCvdJp9Cszn9mjGXwLw37M48AUbSrY5eS6wFCZnQLm",
+      "symbol": "GTAVI",
+      "tier": "T2",
+      "detection_time": "2026-06-22T01:41:43.347138+00:00",
+      "detection_price": 0.001239,
+      "detection_liq": 107276.35,
+      "peak_price": 0.001239,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
