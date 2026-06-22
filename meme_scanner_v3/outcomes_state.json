@@ -26525,10 +26525,17 @@
           "volume_24h": 882217.0,
           "captured_at": "2026-06-16T23:56:29.212503+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 3.68e-06,
+          "liquidity": 4863.91,
+          "volume_24h": 1079.68,
+          "captured_at": "2026-06-22T23:52:10.487045+00:00",
+          "hours_elapsed": 168.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:Cjw78NMhpdzyTbgmrdU12jdiojFdrBdvKKVvujN17mCT": {
       "chain": "solana",
@@ -26560,10 +26567,17 @@
           "volume_24h": 294696.15,
           "captured_at": "2026-06-16T23:56:29.212503+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 2.331e-06,
+          "liquidity": 3649.24,
+          "volume_24h": 81.76,
+          "captured_at": "2026-06-22T23:52:10.487045+00:00",
+          "hours_elapsed": 168.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:DLw5n85w8TnboPMdyk1eo2FfRQv4KfN9AtHHS7PTiGqn": {
       "chain": "solana",
@@ -28897,6 +28911,32 @@
       "detection_price": 0.0001059,
       "detection_liq": 23399.4,
       "peak_price": 0.0001059,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:734cXh3z55ZPPCremJMYk6wDqDBJT4EQ5rHmq9w7v5jt": {
+      "chain": "solana",
+      "pair_address": "734cXh3z55ZPPCremJMYk6wDqDBJT4EQ5rHmq9w7v5jt",
+      "symbol": "DAISY",
+      "tier": "T1",
+      "detection_time": "2026-06-22T23:51:49.935453+00:00",
+      "detection_price": 9.235e-05,
+      "detection_liq": 23254.32,
+      "peak_price": 9.235e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HecPTUb59Ziu8XvXiwREgU71R3MruU3oC5YYpwy4kELi": {
+      "chain": "solana",
+      "pair_address": "HecPTUb59Ziu8XvXiwREgU71R3MruU3oC5YYpwy4kELi",
+      "symbol": "Schr\u00f6dinger",
+      "tier": "T1",
+      "detection_time": "2026-06-22T23:51:53.028284+00:00",
+      "detection_price": 0.0001099,
+      "detection_liq": 24856.59,
+      "peak_price": 0.0001099,
       "captures": {},
       "outcome_label": null,
       "completed": false
