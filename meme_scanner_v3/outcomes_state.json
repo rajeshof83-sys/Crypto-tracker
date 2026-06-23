@@ -28800,6 +28800,13 @@
           "volume_24h": 425359.1,
           "captured_at": "2026-06-22T19:33:49.349364+00:00",
           "hours_elapsed": 1.3
+        },
+        "price_6h": {
+          "price": 2.071e-06,
+          "liquidity": 3344.2,
+          "volume_24h": 427979.38,
+          "captured_at": "2026-06-23T01:24:29.734206+00:00",
+          "hours_elapsed": 7.1
         }
       },
       "outcome_label": null,
@@ -28940,7 +28947,15 @@
       "detection_price": 9.235e-05,
       "detection_liq": 23254.32,
       "peak_price": 9.235e-05,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 2.866e-05,
+          "liquidity": 13176.67,
+          "volume_24h": 845579.52,
+          "captured_at": "2026-06-23T01:24:29.734206+00:00",
+          "hours_elapsed": 1.5
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -28953,6 +28968,27 @@
       "detection_price": 0.0001099,
       "detection_liq": 24856.59,
       "peak_price": 0.0001099,
+      "captures": {
+        "price_1h": {
+          "price": 6.395e-05,
+          "liquidity": 19053.15,
+          "volume_24h": 698939.38,
+          "captured_at": "2026-06-23T01:24:29.734206+00:00",
+          "hours_elapsed": 1.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3zzw6dLDCqkR2CMfXyQ58siNYdu16VmmBM1t58xRvBcP": {
+      "chain": "solana",
+      "pair_address": "3zzw6dLDCqkR2CMfXyQ58siNYdu16VmmBM1t58xRvBcP",
+      "symbol": "UMG",
+      "tier": "T2",
+      "detection_time": "2026-06-23T01:24:21.356467+00:00",
+      "detection_price": 5.312e-05,
+      "detection_liq": 16592.23,
+      "peak_price": 5.312e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
