@@ -28898,10 +28898,17 @@
           "volume_24h": 427979.38,
           "captured_at": "2026-06-23T01:24:29.734206+00:00",
           "hours_elapsed": 7.1
+        },
+        "price_24h": {
+          "price": 1.767e-06,
+          "liquidity": 3020.01,
+          "volume_24h": 71044.52,
+          "captured_at": "2026-06-23T18:56:14.755171+00:00",
+          "hours_elapsed": 24.6
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:7ogYLiLjzUqrqojYrLFRZV8oBDGdpuXZYdktS61cdFKp": {
       "chain": "solana",
@@ -29247,7 +29254,28 @@
       "detection_time": "2026-06-23T17:25:34.870745+00:00",
       "detection_price": 0.0003166,
       "detection_liq": 40848.27,
-      "peak_price": 0.0003166,
+      "peak_price": 0.0003645,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003645,
+          "liquidity": 44147.65,
+          "volume_24h": 808491.58,
+          "captured_at": "2026-06-23T18:56:14.755171+00:00",
+          "hours_elapsed": 1.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Gco3hdv3WMTYahtoHdJv39Ps1FJ2X1PbPkX4NuW31eqt": {
+      "chain": "solana",
+      "pair_address": "Gco3hdv3WMTYahtoHdJv39Ps1FJ2X1PbPkX4NuW31eqt",
+      "symbol": "Soccerbro",
+      "tier": "T1",
+      "detection_time": "2026-06-23T18:56:02.111690+00:00",
+      "detection_price": 9.746e-05,
+      "detection_liq": 22681.16,
+      "peak_price": 9.746e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
