@@ -29017,6 +29017,13 @@
           "volume_24h": 845579.52,
           "captured_at": "2026-06-23T01:24:29.734206+00:00",
           "hours_elapsed": 1.5
+        },
+        "price_6h": {
+          "price": 2.82e-05,
+          "liquidity": 13034.36,
+          "volume_24h": 908966.02,
+          "captured_at": "2026-06-23T05:56:28.050287+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -29030,7 +29037,7 @@
       "detection_time": "2026-06-22T23:51:53.028284+00:00",
       "detection_price": 0.0001099,
       "detection_liq": 24856.59,
-      "peak_price": 0.0001099,
+      "peak_price": 0.000126,
       "captures": {
         "price_1h": {
           "price": 6.395e-05,
@@ -29038,6 +29045,13 @@
           "volume_24h": 698939.38,
           "captured_at": "2026-06-23T01:24:29.734206+00:00",
           "hours_elapsed": 1.5
+        },
+        "price_6h": {
+          "price": 0.000126,
+          "liquidity": 26782.49,
+          "volume_24h": 784838.96,
+          "captured_at": "2026-06-23T05:56:28.050287+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -29061,6 +29075,19 @@
           "hours_elapsed": 3.3
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:46twLjonFPq7yKLoFMsudDCN2Pdmh5XrGvyDnZ7Ctoc3": {
+      "chain": "solana",
+      "pair_address": "46twLjonFPq7yKLoFMsudDCN2Pdmh5XrGvyDnZ7Ctoc3",
+      "symbol": "BRAIN",
+      "tier": "T2",
+      "detection_time": "2026-06-23T05:56:14.921622+00:00",
+      "detection_price": 0.000119,
+      "detection_liq": 25134.54,
+      "peak_price": 0.000119,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
