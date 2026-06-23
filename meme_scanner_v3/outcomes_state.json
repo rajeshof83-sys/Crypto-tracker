@@ -27043,10 +27043,17 @@
           "volume_24h": 513622.33,
           "captured_at": "2026-06-17T17:28:54.312629+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 2.279e-05,
+          "liquidity": 12696.73,
+          "volume_24h": 9775.41,
+          "captured_at": "2026-06-23T17:25:43.920272+00:00",
+          "hours_elapsed": 168.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:8b6CMNMDfJzMn5cSoCU8VGajtuCNeQtuQKAdQ6Z3ZziJ": {
       "chain": "solana",
@@ -29222,6 +29229,19 @@
           "hours_elapsed": 1.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EzgReytET17nRzxPuWSVkfVmb5btbxFcoZqu5DAiy7tZ": {
+      "chain": "solana",
+      "pair_address": "EzgReytET17nRzxPuWSVkfVmb5btbxFcoZqu5DAiy7tZ",
+      "symbol": "QDOG",
+      "tier": "T1",
+      "detection_time": "2026-06-23T17:25:34.870745+00:00",
+      "detection_price": 0.0003166,
+      "detection_liq": 40848.27,
+      "peak_price": 0.0003166,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
