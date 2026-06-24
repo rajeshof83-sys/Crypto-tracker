@@ -29541,7 +29541,7 @@
       "detection_time": "2026-06-24T09:58:28.690244+00:00",
       "detection_price": 0.0002205,
       "detection_liq": 34224.21,
-      "peak_price": 0.0003362,
+      "peak_price": 0.0003855,
       "captures": {
         "price_1h": {
           "price": 0.0003362,
@@ -29549,6 +29549,13 @@
           "volume_24h": 902821.72,
           "captured_at": "2026-06-24T11:48:00.570262+00:00",
           "hours_elapsed": 1.8
+        },
+        "price_6h": {
+          "price": 0.0003855,
+          "liquidity": 47540.28,
+          "volume_24h": 1933681.91,
+          "captured_at": "2026-06-24T16:04:33.406761+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -29583,7 +29590,28 @@
       "detection_time": "2026-06-24T14:38:54.030465+00:00",
       "detection_price": 0.0003439,
       "detection_liq": 42313.78,
-      "peak_price": 0.0003439,
+      "peak_price": 0.0004877,
+      "captures": {
+        "price_1h": {
+          "price": 0.0004877,
+          "liquidity": 50277.3,
+          "volume_24h": 838725.6,
+          "captured_at": "2026-06-24T16:04:33.406761+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:ApzDirX3ee11c5PpaPNY5ecz29cDhGua76YoC1s7Bs3e": {
+      "chain": "solana",
+      "pair_address": "ApzDirX3ee11c5PpaPNY5ecz29cDhGua76YoC1s7Bs3e",
+      "symbol": "WBET",
+      "tier": "T2",
+      "detection_time": "2026-06-24T16:04:17.677758+00:00",
+      "detection_price": 0.0003069,
+      "detection_liq": 39173.98,
+      "peak_price": 0.0003069,
       "captures": {},
       "outcome_label": null,
       "completed": false
