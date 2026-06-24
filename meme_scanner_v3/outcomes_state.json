@@ -29521,6 +29521,13 @@
           "volume_24h": 761247.66,
           "captured_at": "2026-06-24T09:58:44.662817+00:00",
           "hours_elapsed": 1.6
+        },
+        "price_6h": {
+          "price": 1.872e-06,
+          "liquidity": 3298.79,
+          "volume_24h": 1340623.29,
+          "captured_at": "2026-06-24T14:39:07.694109+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -29555,7 +29562,28 @@
       "detection_time": "2026-06-24T13:08:33.354655+00:00",
       "detection_price": 0.0001031,
       "detection_liq": 32766.2,
-      "peak_price": 0.0001031,
+      "peak_price": 0.000153,
+      "captures": {
+        "price_1h": {
+          "price": 0.000153,
+          "liquidity": 40089.52,
+          "volume_24h": 356722.47,
+          "captured_at": "2026-06-24T14:39:07.694109+00:00",
+          "hours_elapsed": 1.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9SJarcKcVsStwei27PDxgGH8jpYSeAFrruzGYgs4wZdh": {
+      "chain": "solana",
+      "pair_address": "9SJarcKcVsStwei27PDxgGH8jpYSeAFrruzGYgs4wZdh",
+      "symbol": "Starbase",
+      "tier": "T1",
+      "detection_time": "2026-06-24T14:38:54.030465+00:00",
+      "detection_price": 0.0003439,
+      "detection_liq": 42313.78,
+      "peak_price": 0.0003439,
       "captures": {},
       "outcome_label": null,
       "completed": false
