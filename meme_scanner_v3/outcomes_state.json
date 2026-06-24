@@ -29492,7 +29492,28 @@
       "detection_time": "2026-06-24T08:24:56.440509+00:00",
       "detection_price": 0.0001568,
       "detection_liq": 28649.53,
-      "peak_price": 0.0001568,
+      "peak_price": 0.0001578,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001578,
+          "liquidity": 29311.75,
+          "volume_24h": 761247.66,
+          "captured_at": "2026-06-24T09:58:44.662817+00:00",
+          "hours_elapsed": 1.6
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AAWfsorcywroE5k28Ah3f5onzz5cbydWqM97BaQdzSoh": {
+      "chain": "solana",
+      "pair_address": "AAWfsorcywroE5k28Ah3f5onzz5cbydWqM97BaQdzSoh",
+      "symbol": "WEN",
+      "tier": "T1",
+      "detection_time": "2026-06-24T09:58:28.690244+00:00",
+      "detection_price": 0.0002205,
+      "detection_liq": 34224.21,
+      "peak_price": 0.0002205,
       "captures": {},
       "outcome_label": null,
       "completed": false
