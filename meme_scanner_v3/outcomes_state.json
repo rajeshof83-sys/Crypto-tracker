@@ -29976,6 +29976,40 @@
       "detection_price": 0.0001729,
       "detection_liq": 29344.19,
       "peak_price": 0.0001729,
+      "captures": {
+        "price_1h": {
+          "price": 1.699e-06,
+          "liquidity": 2999.39,
+          "volume_24h": 842218.52,
+          "captured_at": "2026-06-25T17:00:14.454231+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7AeowDHefqotCDwRydN8bxjUsNdvLCaG3Xmc6nczsVBm": {
+      "chain": "solana",
+      "pair_address": "7AeowDHefqotCDwRydN8bxjUsNdvLCaG3Xmc6nczsVBm",
+      "symbol": "POK\u00c9FIGHT",
+      "tier": "T2",
+      "detection_time": "2026-06-25T16:59:55.412281+00:00",
+      "detection_price": 6.549e-05,
+      "detection_liq": 20389.89,
+      "peak_price": 6.549e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AHSv77gGwH4C22cRG9v9d6NaAZ8hAsAtbaZnMYBRXfqe": {
+      "chain": "solana",
+      "pair_address": "AHSv77gGwH4C22cRG9v9d6NaAZ8hAsAtbaZnMYBRXfqe",
+      "symbol": "YUNO",
+      "tier": "T1",
+      "detection_time": "2026-06-25T17:00:01.181058+00:00",
+      "detection_price": 0.0001145,
+      "detection_liq": 23830.73,
+      "peak_price": 0.0001145,
       "captures": {},
       "outcome_label": null,
       "completed": false
