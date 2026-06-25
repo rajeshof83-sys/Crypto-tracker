@@ -29521,6 +29521,13 @@
           "volume_24h": 614573.82,
           "captured_at": "2026-06-24T08:25:12.640967+00:00",
           "hours_elapsed": 8.4
+        },
+        "price_24h": {
+          "price": 0.0001696,
+          "liquidity": 30182.22,
+          "volume_24h": 419446.42,
+          "captured_at": "2026-06-25T01:27:27.297365+00:00",
+          "hours_elapsed": 25.4
         }
       },
       "outcome_label": null,
@@ -29703,6 +29710,27 @@
       "detection_price": 0.0001421,
       "detection_liq": 26773.91,
       "peak_price": 0.0001421,
+      "captures": {
+        "price_1h": {
+          "price": 5.014e-05,
+          "liquidity": 16278.2,
+          "volume_24h": 562905.18,
+          "captured_at": "2026-06-25T01:27:27.297365+00:00",
+          "hours_elapsed": 2.3
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:J7AKAAUZiwDP7Rbt27Myr3YwapnFdogkrLYwpPBv9s7b": {
+      "chain": "solana",
+      "pair_address": "J7AKAAUZiwDP7Rbt27Myr3YwapnFdogkrLYwpPBv9s7b",
+      "symbol": "GTA",
+      "tier": "T1",
+      "detection_time": "2026-06-25T01:27:18.765864+00:00",
+      "detection_price": 0.0002366,
+      "detection_liq": 35667.01,
+      "peak_price": 0.0002366,
       "captures": {},
       "outcome_label": null,
       "completed": false
