@@ -28205,10 +28205,17 @@
           "volume_24h": 478418.31,
           "captured_at": "2026-06-19T20:04:12.944914+00:00",
           "hours_elapsed": 24.5
+        },
+        "price_7d": {
+          "price": 0.0006063,
+          "liquidity": 61088.85,
+          "volume_24h": 172183.48,
+          "captured_at": "2026-06-25T20:33:56.879683+00:00",
+          "hours_elapsed": 169.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:C7f5AwRWx6K9MfHJeABtXkzoiEnLTJqAfXM5WME55WnL": {
       "chain": "solana",
@@ -30104,6 +30111,19 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CQCiNRqQohijwKxxHvTzbpFvpKNFWtxeshCWqEJrgbEB": {
+      "chain": "solana",
+      "pair_address": "CQCiNRqQohijwKxxHvTzbpFvpKNFWtxeshCWqEJrgbEB",
+      "symbol": "Merlin",
+      "tier": "T2",
+      "detection_time": "2026-06-25T20:33:40.426313+00:00",
+      "detection_price": 0.000342,
+      "detection_liq": 60940.44,
+      "peak_price": 0.000342,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
