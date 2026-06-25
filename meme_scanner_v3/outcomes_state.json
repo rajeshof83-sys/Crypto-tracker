@@ -29997,7 +29997,15 @@
       "detection_price": 6.549e-05,
       "detection_liq": 20389.89,
       "peak_price": 6.549e-05,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 5.997e-05,
+          "liquidity": 19581.94,
+          "volume_24h": 122624.32,
+          "captured_at": "2026-06-25T18:27:16.896761+00:00",
+          "hours_elapsed": 1.5
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -30009,7 +30017,54 @@
       "detection_time": "2026-06-25T17:00:01.181058+00:00",
       "detection_price": 0.0001145,
       "detection_liq": 23830.73,
-      "peak_price": 0.0001145,
+      "peak_price": 0.0001924,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001924,
+          "liquidity": 31736.52,
+          "volume_24h": 664630.94,
+          "captured_at": "2026-06-25T18:27:16.896761+00:00",
+          "hours_elapsed": 1.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8w1TrBUPPi6APtyrzhfSdDLQz15jWnG32xmPzYfe25Ca": {
+      "chain": "solana",
+      "pair_address": "8w1TrBUPPi6APtyrzhfSdDLQz15jWnG32xmPzYfe25Ca",
+      "symbol": "AYAI",
+      "tier": "T1",
+      "detection_time": "2026-06-25T18:26:54.184584+00:00",
+      "detection_price": 0.0001813,
+      "detection_liq": 30387.32,
+      "peak_price": 0.0001813,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EHVHeZG15sztMpcBB2azMtvSFH1HUh8YbPRJ5Zetehbi": {
+      "chain": "solana",
+      "pair_address": "EHVHeZG15sztMpcBB2azMtvSFH1HUh8YbPRJ5Zetehbi",
+      "symbol": "DUMPSTR",
+      "tier": "T1",
+      "detection_time": "2026-06-25T18:26:57.474074+00:00",
+      "detection_price": 0.0002979,
+      "detection_liq": 39319.59,
+      "peak_price": 0.0002979,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:145oMsfrPcfPv3BR6HYfvbCB8jwn3z6Fo4LSprRho71W": {
+      "chain": "solana",
+      "pair_address": "145oMsfrPcfPv3BR6HYfvbCB8jwn3z6Fo4LSprRho71W",
+      "symbol": "Chameleon",
+      "tier": "T2",
+      "detection_time": "2026-06-25T18:27:02.894524+00:00",
+      "detection_price": 0.0003305,
+      "detection_liq": 45038.54,
+      "peak_price": 0.0003305,
       "captures": {},
       "outcome_label": null,
       "completed": false
