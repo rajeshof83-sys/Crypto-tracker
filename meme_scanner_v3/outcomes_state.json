@@ -30515,6 +30515,13 @@
           "volume_24h": 270764.8,
           "captured_at": "2026-06-26T18:18:57.084440+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 0.0003851,
+          "liquidity": 45807.52,
+          "volume_24h": 673095.71,
+          "captured_at": "2026-06-26T23:49:02.801593+00:00",
+          "hours_elapsed": 6.5
         }
       },
       "outcome_label": null,
@@ -30622,6 +30629,19 @@
           "hours_elapsed": 1.5
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7QV8SyY4z5w1irKzExWZGYL7qiEXLBDUUarXwgRyQrry": {
+      "chain": "solana",
+      "pair_address": "7QV8SyY4z5w1irKzExWZGYL7qiEXLBDUUarXwgRyQrry",
+      "symbol": "liquititty",
+      "tier": "T1",
+      "detection_time": "2026-06-26T23:48:49.859378+00:00",
+      "detection_price": 0.000194,
+      "detection_liq": 46055.02,
+      "peak_price": 0.000194,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
