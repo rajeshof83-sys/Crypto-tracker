@@ -30074,10 +30074,17 @@
           "volume_24h": 842583.77,
           "captured_at": "2026-06-25T21:47:40.955779+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 1.501e-06,
+          "liquidity": 2933.84,
+          "volume_24h": 254905.84,
+          "captured_at": "2026-06-26T16:03:28.420494+00:00",
+          "hours_elapsed": 24.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:7AeowDHefqotCDwRydN8bxjUsNdvLCaG3Xmc6nczsVBm": {
       "chain": "solana",
@@ -30382,6 +30389,19 @@
       "detection_price": 0.0004074,
       "detection_liq": 47026.31,
       "peak_price": 0.0004074,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:BrpNJoEj8T2S5znH1r7KNzaChF987paoojSzZPXuR7zy": {
+      "chain": "solana",
+      "pair_address": "BrpNJoEj8T2S5znH1r7KNzaChF987paoojSzZPXuR7zy",
+      "symbol": "Banana",
+      "tier": "T1",
+      "detection_time": "2026-06-26T16:03:14.610387+00:00",
+      "detection_price": 0.0001702,
+      "detection_liq": 30658.55,
+      "peak_price": 0.0001702,
       "captures": {},
       "outcome_label": null,
       "completed": false
