@@ -30507,7 +30507,28 @@
       "detection_time": "2026-06-26T18:18:41.842624+00:00",
       "detection_price": 0.0002072,
       "detection_liq": 33496.39,
-      "peak_price": 0.0002072,
+      "peak_price": 0.0002629,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002629,
+          "liquidity": 38723.0,
+          "volume_24h": 782690.89,
+          "captured_at": "2026-06-26T19:20:10.258132+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AyopYm9QPGWJ7jy7GvQwZbehw6ovfRkwMYJaAUKK5voe": {
+      "chain": "solana",
+      "pair_address": "AyopYm9QPGWJ7jy7GvQwZbehw6ovfRkwMYJaAUKK5voe",
+      "symbol": "werld",
+      "tier": "T2",
+      "detection_time": "2026-06-26T19:20:00.259215+00:00",
+      "detection_price": 7.237e-05,
+      "detection_liq": 19499.66,
+      "peak_price": 7.237e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
