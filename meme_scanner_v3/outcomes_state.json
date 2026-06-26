@@ -28317,10 +28317,17 @@
           "volume_24h": 310439.41,
           "captured_at": "2026-06-20T11:01:12.907842+00:00",
           "hours_elapsed": 25.0
+        },
+        "price_7d": {
+          "price": 1.08e-05,
+          "liquidity": 7877.24,
+          "volume_24h": 1595.81,
+          "captured_at": "2026-06-26T10:03:09.824479+00:00",
+          "hours_elapsed": 168.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "winner",
+      "completed": true
     },
     "solana:DgkNjKwAaF1VuKkU7X93NgqmVM6CRrEEi1ynBV4Tk3mE": {
       "chain": "solana",
@@ -29905,7 +29912,7 @@
       "detection_time": "2026-06-25T09:46:51.661577+00:00",
       "detection_price": 0.0001439,
       "detection_liq": 27060.04,
-      "peak_price": 0.0001878,
+      "peak_price": 0.0003293,
       "captures": {
         "price_1h": {
           "price": 0.0001878,
@@ -29920,6 +29927,13 @@
           "volume_24h": 1089566.54,
           "captured_at": "2026-06-25T16:02:15.498668+00:00",
           "hours_elapsed": 6.3
+        },
+        "price_24h": {
+          "price": 0.0003293,
+          "liquidity": 44867.94,
+          "volume_24h": 1382446.25,
+          "captured_at": "2026-06-26T10:03:09.824479+00:00",
+          "hours_elapsed": 24.3
         }
       },
       "outcome_label": null,
@@ -29933,7 +29947,7 @@
       "detection_time": "2026-06-25T09:46:55.996235+00:00",
       "detection_price": 4.401e-05,
       "detection_liq": 16202.61,
-      "peak_price": 5.323e-05,
+      "peak_price": 0.0001815,
       "captures": {
         "price_1h": {
           "price": 4.998e-05,
@@ -29948,6 +29962,13 @@
           "volume_24h": 151830.27,
           "captured_at": "2026-06-25T16:02:15.498668+00:00",
           "hours_elapsed": 6.3
+        },
+        "price_24h": {
+          "price": 0.0001815,
+          "liquidity": 34067.8,
+          "volume_24h": 457700.17,
+          "captured_at": "2026-06-26T10:03:09.824479+00:00",
+          "hours_elapsed": 24.3
         }
       },
       "outcome_label": null,
