@@ -28401,10 +28401,17 @@
           "volume_24h": 323253.96,
           "captured_at": "2026-06-20T18:16:43.180568+00:00",
           "hours_elapsed": 24.2
+        },
+        "price_7d": {
+          "price": 1.237e-05,
+          "liquidity": 11728.13,
+          "volume_24h": 14612.62,
+          "captured_at": "2026-06-26T18:18:57.084440+00:00",
+          "hours_elapsed": 168.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:ENNqCmuUfobVEgCgQXLp8u12d2TiJ4oHVkDdD2mzvEDh": {
       "chain": "solana",
@@ -30451,7 +30458,28 @@
       "detection_time": "2026-06-26T17:16:08.280363+00:00",
       "detection_price": 0.0002722,
       "detection_liq": 37919.71,
-      "peak_price": 0.0002722,
+      "peak_price": 0.000406,
+      "captures": {
+        "price_1h": {
+          "price": 0.000406,
+          "liquidity": 46461.11,
+          "volume_24h": 270764.8,
+          "captured_at": "2026-06-26T18:18:57.084440+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HPGkQ2TbfAERwBBd63E99UBoDz5oLqoTS2eT3KWP6raK": {
+      "chain": "solana",
+      "pair_address": "HPGkQ2TbfAERwBBd63E99UBoDz5oLqoTS2eT3KWP6raK",
+      "symbol": "Terra",
+      "tier": "T1",
+      "detection_time": "2026-06-26T18:18:41.842624+00:00",
+      "detection_price": 0.0002072,
+      "detection_liq": 33496.39,
+      "peak_price": 0.0002072,
       "captures": {},
       "outcome_label": null,
       "completed": false
