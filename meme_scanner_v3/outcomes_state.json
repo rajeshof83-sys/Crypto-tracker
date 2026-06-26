@@ -30109,6 +30109,13 @@
           "volume_24h": 94601.67,
           "captured_at": "2026-06-25T23:02:53.279557+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 5.484e-05,
+          "liquidity": 19716.92,
+          "volume_24h": 68705.38,
+          "captured_at": "2026-06-26T17:16:17.048184+00:00",
+          "hours_elapsed": 24.3
         }
       },
       "outcome_label": null,
@@ -30137,10 +30144,17 @@
           "volume_24h": 1103188.63,
           "captured_at": "2026-06-25T23:02:53.279557+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 1.945e-06,
+          "liquidity": 3434.26,
+          "volume_24h": 684369.7,
+          "captured_at": "2026-06-26T17:16:17.048184+00:00",
+          "hours_elapsed": 24.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:8w1TrBUPPi6APtyrzhfSdDLQz15jWnG32xmPzYfe25Ca": {
       "chain": "solana",
@@ -30354,6 +30368,13 @@
           "volume_24h": 520030.58,
           "captured_at": "2026-06-26T11:59:57.278169+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 1.351e-05,
+          "liquidity": 8963.52,
+          "volume_24h": 768430.71,
+          "captured_at": "2026-06-26T17:16:17.048184+00:00",
+          "hours_elapsed": 6.4
         }
       },
       "outcome_label": null,
@@ -30409,7 +30430,28 @@
       "detection_time": "2026-06-26T16:03:14.610387+00:00",
       "detection_price": 0.0001702,
       "detection_liq": 30658.55,
-      "peak_price": 0.0001702,
+      "peak_price": 0.0001807,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001807,
+          "liquidity": 32022.0,
+          "volume_24h": 752338.95,
+          "captured_at": "2026-06-26T17:16:17.048184+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HETLzRHxiJZQu5s79HucxXQLRHtujE4qu6kDcaUAbVEu": {
+      "chain": "solana",
+      "pair_address": "HETLzRHxiJZQu5s79HucxXQLRHtujE4qu6kDcaUAbVEu",
+      "symbol": "HODLY",
+      "tier": "T2",
+      "detection_time": "2026-06-26T17:16:08.280363+00:00",
+      "detection_price": 0.0002722,
+      "detection_liq": 37919.71,
+      "peak_price": 0.0002722,
       "captures": {},
       "outcome_label": null,
       "completed": false
