@@ -28359,10 +28359,17 @@
           "volume_24h": 195779.55,
           "captured_at": "2026-06-20T14:11:34.132600+00:00",
           "hours_elapsed": 24.3
+        },
+        "price_7d": {
+          "price": 6.282e-06,
+          "liquidity": 6075.86,
+          "volume_24h": 697.27,
+          "captured_at": "2026-06-26T15:12:09.025172+00:00",
+          "hours_elapsed": 169.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:ACvdA6HU6ZCqDu7RaBhU5T8vhH5HWUfjGH6rxyA8wGq": {
       "chain": "solana",
@@ -30354,6 +30361,27 @@
       "detection_price": 0.0002006,
       "detection_liq": 32075.59,
       "peak_price": 0.0002006,
+      "captures": {
+        "price_1h": {
+          "price": 1.779e-06,
+          "liquidity": 3135.99,
+          "volume_24h": 724495.0,
+          "captured_at": "2026-06-26T15:12:09.025172+00:00",
+          "hours_elapsed": 2.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4btVoSm4PaW3w5yXdCfQRvHhgkkYni1orgTfN1CpjbxH": {
+      "chain": "solana",
+      "pair_address": "4btVoSm4PaW3w5yXdCfQRvHhgkkYni1orgTfN1CpjbxH",
+      "symbol": "Pondeer",
+      "tier": "T1",
+      "detection_time": "2026-06-26T15:11:53.809598+00:00",
+      "detection_price": 0.0004074,
+      "detection_liq": 47026.31,
+      "peak_price": 0.0004074,
       "captures": {},
       "outcome_label": null,
       "completed": false
