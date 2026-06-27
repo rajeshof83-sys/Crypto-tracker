@@ -28716,10 +28716,17 @@
           "volume_24h": 122178.88,
           "captured_at": "2026-06-21T22:37:19.196560+00:00",
           "hours_elapsed": 24.4
+        },
+        "price_7d": {
+          "price": 1.945e-06,
+          "liquidity": 3275.3,
+          "volume_24h": 2360.48,
+          "captured_at": "2026-06-27T22:32:17.520057+00:00",
+          "hours_elapsed": 168.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:DptN7yq3XWjzeFHppzSrC7BctdyXyAz6KWgExzKWKJcF": {
       "chain": "solana",
@@ -31075,6 +31082,32 @@
       "detection_price": 0.000188,
       "detection_liq": 31399.31,
       "peak_price": 0.000188,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CDYnvt8WNsfPnteQhXjAMnoNPCGMNbLgQ5GrRsYxvK4j": {
+      "chain": "solana",
+      "pair_address": "CDYnvt8WNsfPnteQhXjAMnoNPCGMNbLgQ5GrRsYxvK4j",
+      "symbol": "Nagi",
+      "tier": "T1",
+      "detection_time": "2026-06-27T22:31:59.630177+00:00",
+      "detection_price": 0.0003749,
+      "detection_liq": 44720.59,
+      "peak_price": 0.0003749,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:88AnnvD1JwWpMfmGxHUiaG7XN1JrPwzgwWsh6KqFmgfG": {
+      "chain": "solana",
+      "pair_address": "88AnnvD1JwWpMfmGxHUiaG7XN1JrPwzgwWsh6KqFmgfG",
+      "symbol": "NUT",
+      "tier": "T1",
+      "detection_time": "2026-06-27T22:32:05.296641+00:00",
+      "detection_price": 9.808e-05,
+      "detection_liq": 22723.38,
+      "peak_price": 9.808e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
