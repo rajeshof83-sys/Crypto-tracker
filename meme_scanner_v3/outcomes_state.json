@@ -30696,7 +30696,7 @@
       "detection_time": "2026-06-26T23:48:49.859378+00:00",
       "detection_price": 0.000194,
       "detection_liq": 46055.02,
-      "peak_price": 0.0003836,
+      "peak_price": 0.0005069,
       "captures": {
         "price_1h": {
           "price": 0.0003836,
@@ -30704,6 +30704,13 @@
           "volume_24h": 903200.16,
           "captured_at": "2026-06-27T01:29:47.096384+00:00",
           "hours_elapsed": 1.7
+        },
+        "price_6h": {
+          "price": 0.0005069,
+          "liquidity": 75652.24,
+          "volume_24h": 1328868.95,
+          "captured_at": "2026-06-27T07:52:35.306868+00:00",
+          "hours_elapsed": 8.1
         }
       },
       "outcome_label": null,
@@ -30769,6 +30776,19 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5ukdRdkEY8takptjBTgS7vfmoWhKJoRLV8zexF1XFs6p": {
+      "chain": "solana",
+      "pair_address": "5ukdRdkEY8takptjBTgS7vfmoWhKJoRLV8zexF1XFs6p",
+      "symbol": "VOICEBOX",
+      "tier": "T1",
+      "detection_time": "2026-06-27T07:52:17.157606+00:00",
+      "detection_price": 0.0001183,
+      "detection_liq": 26234.34,
+      "peak_price": 0.0001183,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
