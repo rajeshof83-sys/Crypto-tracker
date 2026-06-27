@@ -28513,10 +28513,17 @@
           "volume_24h": 307000.43,
           "captured_at": "2026-06-21T09:08:17.508667+00:00",
           "hours_elapsed": 24.7
+        },
+        "price_7d": {
+          "price": 5.081e-05,
+          "liquidity": 20132.75,
+          "volume_24h": 22732.81,
+          "captured_at": "2026-06-27T10:13:10.994757+00:00",
+          "hours_elapsed": 169.7
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "winner",
+      "completed": true
     },
     "solana:AMTW5KmtiJG7Tzd1YVXip9efyhcbiZ6zYei1Dpq1rSdW": {
       "chain": "solana",
@@ -30788,6 +30795,27 @@
       "detection_price": 0.0001183,
       "detection_liq": 26234.34,
       "peak_price": 0.0001183,
+      "captures": {
+        "price_1h": {
+          "price": 9.539e-05,
+          "liquidity": 23566.16,
+          "volume_24h": 763131.92,
+          "captured_at": "2026-06-27T10:13:10.994757+00:00",
+          "hours_elapsed": 2.3
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9nStgVVCinCyKoBiMGMfCM2iG3TW411EDmUcQqHxL2ek": {
+      "chain": "solana",
+      "pair_address": "9nStgVVCinCyKoBiMGMfCM2iG3TW411EDmUcQqHxL2ek",
+      "symbol": "Pump ICO",
+      "tier": "T1",
+      "detection_time": "2026-06-27T10:13:00.288005+00:00",
+      "detection_price": 0.0001482,
+      "detection_liq": 28967.9,
+      "peak_price": 0.0001482,
       "captures": {},
       "outcome_label": null,
       "completed": false
