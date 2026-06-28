@@ -30998,6 +30998,13 @@
           "volume_24h": 315691.36,
           "captured_at": "2026-06-27T16:38:07.433139+00:00",
           "hours_elapsed": 6.4
+        },
+        "price_24h": {
+          "price": 1.905e-05,
+          "liquidity": 10510.73,
+          "volume_24h": 144253.05,
+          "captured_at": "2026-06-28T11:11:14.668870+00:00",
+          "hours_elapsed": 25.0
         }
       },
       "outcome_label": null,
@@ -31243,6 +31250,13 @@
           "volume_24h": 584168.28,
           "captured_at": "2026-06-28T06:44:13.028182+00:00",
           "hours_elapsed": 2.0
+        },
+        "price_6h": {
+          "price": 1.888e-06,
+          "liquidity": 3235.97,
+          "volume_24h": 584445.41,
+          "captured_at": "2026-06-28T11:11:14.668870+00:00",
+          "hours_elapsed": 6.4
         }
       },
       "outcome_label": null,
@@ -31257,6 +31271,27 @@
       "detection_price": 0.0007793,
       "detection_liq": 65262.21,
       "peak_price": 0.0007793,
+      "captures": {
+        "price_1h": {
+          "price": 0.0007128,
+          "liquidity": 62907.78,
+          "volume_24h": 1053169.11,
+          "captured_at": "2026-06-28T11:11:14.668870+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EpTozQYx4h4dNN9hbvUxQhxwGChzWfCZhrkeenMGCpnn": {
+      "chain": "solana",
+      "pair_address": "EpTozQYx4h4dNN9hbvUxQhxwGChzWfCZhrkeenMGCpnn",
+      "symbol": "WHOOPTY",
+      "tier": "T1",
+      "detection_time": "2026-06-28T11:11:05.199883+00:00",
+      "detection_price": 0.000113,
+      "detection_liq": 24588.4,
+      "peak_price": 0.000113,
       "captures": {},
       "outcome_label": null,
       "completed": false
