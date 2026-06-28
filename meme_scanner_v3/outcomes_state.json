@@ -31425,6 +31425,13 @@
           "volume_24h": 1912849.57,
           "captured_at": "2026-06-28T15:50:41.160426+00:00",
           "hours_elapsed": 1.4
+        },
+        "price_6h": {
+          "price": 0.0003239,
+          "liquidity": 43744.36,
+          "volume_24h": 2150080.82,
+          "captured_at": "2026-06-28T20:47:24.731543+00:00",
+          "hours_elapsed": 6.4
         }
       },
       "outcome_label": null,
@@ -31480,8 +31487,16 @@
       "detection_time": "2026-06-28T18:55:06.566085+00:00",
       "detection_price": 0.0003621,
       "detection_liq": 45227.49,
-      "peak_price": 0.0003621,
-      "captures": {},
+      "peak_price": 0.0004124,
+      "captures": {
+        "price_1h": {
+          "price": 0.0004124,
+          "liquidity": 49464.63,
+          "volume_24h": 1764553.49,
+          "captured_at": "2026-06-28T20:47:24.731543+00:00",
+          "hours_elapsed": 1.9
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -31494,7 +31509,15 @@
       "detection_price": 0.0002086,
       "detection_liq": 32899.01,
       "peak_price": 0.0002086,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 8.865e-05,
+          "liquidity": 21567.18,
+          "volume_24h": 303136.57,
+          "captured_at": "2026-06-28T20:47:24.731543+00:00",
+          "hours_elapsed": 1.9
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -31507,6 +31530,32 @@
       "detection_price": 0.000664,
       "detection_liq": 96968.45,
       "peak_price": 0.000664,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GJA8ec4mGb79zP3cNiz92VDoZP4KHCSQPJ1xKNKaBHW1": {
+      "chain": "solana",
+      "pair_address": "GJA8ec4mGb79zP3cNiz92VDoZP4KHCSQPJ1xKNKaBHW1",
+      "symbol": "WIF2",
+      "tier": "T1",
+      "detection_time": "2026-06-28T20:47:11.043971+00:00",
+      "detection_price": 0.0002311,
+      "detection_liq": 34778.23,
+      "peak_price": 0.0002311,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:C1KHGdzEh3DVr7iE8tUiqUuox9eYigLFBhikpU3rbjwD": {
+      "chain": "solana",
+      "pair_address": "C1KHGdzEh3DVr7iE8tUiqUuox9eYigLFBhikpU3rbjwD",
+      "symbol": "ANSOM",
+      "tier": "T2",
+      "detection_time": "2026-06-28T20:47:13.471498+00:00",
+      "detection_price": 0.0001839,
+      "detection_liq": 31285.2,
+      "peak_price": 0.0001839,
       "captures": {},
       "outcome_label": null,
       "completed": false
