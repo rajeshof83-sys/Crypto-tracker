@@ -31438,7 +31438,41 @@
       "detection_time": "2026-06-28T17:45:26.179765+00:00",
       "detection_price": 9.266e-05,
       "detection_liq": 22289.1,
-      "peak_price": 9.266e-05,
+      "peak_price": 0.0001077,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001077,
+          "liquidity": 24165.64,
+          "volume_24h": 409031.91,
+          "captured_at": "2026-06-28T18:55:15.541187+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:F3k8rD5CSNMbXyD8UBShcn7rBkGdGiJcukvwxRGHS7Tc": {
+      "chain": "solana",
+      "pair_address": "F3k8rD5CSNMbXyD8UBShcn7rBkGdGiJcukvwxRGHS7Tc",
+      "symbol": "YEN",
+      "tier": "T1",
+      "detection_time": "2026-06-28T18:55:06.566085+00:00",
+      "detection_price": 0.0003621,
+      "detection_liq": 45227.49,
+      "peak_price": 0.0003621,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7WKt831KnuXsADyGubFfyoPJUGpuSP1H2T22jwPn2fgR": {
+      "chain": "solana",
+      "pair_address": "7WKt831KnuXsADyGubFfyoPJUGpuSP1H2T22jwPn2fgR",
+      "symbol": "DARKY",
+      "tier": "T2",
+      "detection_time": "2026-06-28T18:55:08.840409+00:00",
+      "detection_price": 0.0002086,
+      "detection_liq": 32899.01,
+      "peak_price": 0.0002086,
       "captures": {},
       "outcome_label": null,
       "completed": false
