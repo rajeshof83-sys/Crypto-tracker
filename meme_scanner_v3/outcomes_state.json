@@ -31313,6 +31313,27 @@
       "detection_price": 8.636e-05,
       "detection_liq": 22009.13,
       "peak_price": 8.636e-05,
+      "captures": {
+        "price_1h": {
+          "price": 5.923e-05,
+          "liquidity": 18225.29,
+          "volume_24h": 228427.69,
+          "captured_at": "2026-06-28T13:06:08.384472+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GdqKuntg47a1cEGPHaS8pSzwiS2U7G8Q3NMAaGitWyYx": {
+      "chain": "solana",
+      "pair_address": "GdqKuntg47a1cEGPHaS8pSzwiS2U7G8Q3NMAaGitWyYx",
+      "symbol": "ALYCIA",
+      "tier": "T1",
+      "detection_time": "2026-06-28T13:05:58.202939+00:00",
+      "detection_price": 0.0001368,
+      "detection_liq": 27445.54,
+      "peak_price": 0.0001368,
       "captures": {},
       "outcome_label": null,
       "completed": false
