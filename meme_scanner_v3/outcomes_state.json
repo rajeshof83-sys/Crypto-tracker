@@ -31103,10 +31103,17 @@
           "volume_24h": 1264313.83,
           "captured_at": "2026-06-27T23:35:18.708819+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 1.664e-05,
+          "liquidity": 10062.44,
+          "volume_24h": 1022957.07,
+          "captured_at": "2026-06-28T17:45:34.071218+00:00",
+          "hours_elapsed": 24.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:7EJ5d4fBJBcVt1AiAyChQHBb16q5wsAQcu3cqFCdqV1Q": {
       "chain": "solana",
@@ -31403,7 +31410,28 @@
       "detection_time": "2026-06-28T16:37:20.007024+00:00",
       "detection_price": 0.0002397,
       "detection_liq": 35873.1,
-      "peak_price": 0.0002397,
+      "peak_price": 0.0002934,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002934,
+          "liquidity": 40404.14,
+          "volume_24h": 799854.48,
+          "captured_at": "2026-06-28T17:45:34.071218+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AFGwFN9jzk9GzTTUVSPwaLxH7HPwry7jocyoxLKyS7vG": {
+      "chain": "solana",
+      "pair_address": "AFGwFN9jzk9GzTTUVSPwaLxH7HPwry7jocyoxLKyS7vG",
+      "symbol": "ANBULL",
+      "tier": "T1",
+      "detection_time": "2026-06-28T17:45:26.179765+00:00",
+      "detection_price": 9.266e-05,
+      "detection_liq": 22289.1,
+      "peak_price": 9.266e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
