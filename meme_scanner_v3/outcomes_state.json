@@ -32181,6 +32181,40 @@
       "detection_price": 0.0001877,
       "detection_liq": 45240.75,
       "peak_price": 0.0001877,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001663,
+          "liquidity": 42640.62,
+          "volume_24h": 372559.16,
+          "captured_at": "2026-06-30T04:36:43.802948+00:00",
+          "hours_elapsed": 3.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HBXrPXKJzUZeJTYepVQ9izCXytJP8RPoSRHsgpG7CCcv": {
+      "chain": "solana",
+      "pair_address": "HBXrPXKJzUZeJTYepVQ9izCXytJP8RPoSRHsgpG7CCcv",
+      "symbol": "BOGE",
+      "tier": "T1",
+      "detection_time": "2026-06-30T04:36:31.266445+00:00",
+      "detection_price": 0.0001969,
+      "detection_liq": 33531.57,
+      "peak_price": 0.0001969,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CyTMmm817GD2fZFwPN31gJc8fHFUDpdzEPLwQyQ97jxN": {
+      "chain": "solana",
+      "pair_address": "CyTMmm817GD2fZFwPN31gJc8fHFUDpdzEPLwQyQ97jxN",
+      "symbol": "Pompliano",
+      "tier": "T1",
+      "detection_time": "2026-06-30T04:36:35.989379+00:00",
+      "detection_price": 0.0001752,
+      "detection_liq": 31945.37,
+      "peak_price": 0.0001752,
       "captures": {},
       "outcome_label": null,
       "completed": false
