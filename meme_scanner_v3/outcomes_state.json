@@ -32279,6 +32279,13 @@
           "volume_24h": 305013.94,
           "captured_at": "2026-06-30T05:47:08.265643+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 0.0001539,
+          "liquidity": 29693.85,
+          "volume_24h": 323238.53,
+          "captured_at": "2026-06-30T11:51:08.450440+00:00",
+          "hours_elapsed": 7.2
         }
       },
       "outcome_label": null,
@@ -32292,7 +32299,7 @@
       "detection_time": "2026-06-30T04:36:35.989379+00:00",
       "detection_price": 0.0001752,
       "detection_liq": 31945.37,
-      "peak_price": 0.0001818,
+      "peak_price": 0.0003436,
       "captures": {
         "price_1h": {
           "price": 0.0001818,
@@ -32300,6 +32307,13 @@
           "volume_24h": 959273.75,
           "captured_at": "2026-06-30T05:47:08.265643+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 0.0003436,
+          "liquidity": 46341.52,
+          "volume_24h": 1588290.54,
+          "captured_at": "2026-06-30T11:51:08.450440+00:00",
+          "hours_elapsed": 7.2
         }
       },
       "outcome_label": null,
@@ -32321,6 +32335,13 @@
           "volume_24h": 873381.37,
           "captured_at": "2026-06-30T08:38:28.984487+00:00",
           "hours_elapsed": 2.9
+        },
+        "price_6h": {
+          "price": 1.835e-06,
+          "liquidity": 3400.31,
+          "volume_24h": 1305082.04,
+          "captured_at": "2026-06-30T11:51:08.450440+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -32335,7 +32356,15 @@
       "detection_price": 8.996e-05,
       "detection_liq": 22057.11,
       "peak_price": 8.996e-05,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 1.8e-06,
+          "liquidity": 3179.64,
+          "volume_24h": 444174.77,
+          "captured_at": "2026-06-30T11:51:08.450440+00:00",
+          "hours_elapsed": 2.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     }
