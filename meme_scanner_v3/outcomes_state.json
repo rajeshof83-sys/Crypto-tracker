@@ -29766,10 +29766,17 @@
           "volume_24h": 49103.1,
           "captured_at": "2026-06-25T05:44:46.516736+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 1.468e-05,
+          "liquidity": 8942.15,
+          "volume_24h": 11582.71,
+          "captured_at": "2026-07-01T06:45:51.313472+00:00",
+          "hours_elapsed": 169.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:8cxpDeh4UqEqvow68tpoAg68Dc7Nowi6NHisCDvUhRrm": {
       "chain": "solana",
@@ -32419,10 +32426,17 @@
           "volume_24h": 1305082.04,
           "captured_at": "2026-06-30T11:51:08.450440+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 1.627e-06,
+          "liquidity": 3214.57,
+          "volume_24h": 725757.26,
+          "captured_at": "2026-07-01T06:45:51.313472+00:00",
+          "hours_elapsed": 25.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:C6gBMDLG57vm4FgE5rfbVkEAfPB2TsFuPbnCcg39JhxS": {
       "chain": "solana",
@@ -32559,7 +32573,15 @@
       "detection_price": 0.0001046,
       "detection_liq": 24589.26,
       "peak_price": 0.0001046,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 1.771e-05,
+          "liquidity": 10108.97,
+          "volume_24h": 595815.33,
+          "captured_at": "2026-07-01T06:45:51.313472+00:00",
+          "hours_elapsed": 2.5
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -32572,7 +32594,15 @@
       "detection_price": 0.0001247,
       "detection_liq": 26395.24,
       "peak_price": 0.0001247,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 1.187e-05,
+          "liquidity": 8181.37,
+          "volume_24h": 449686.34,
+          "captured_at": "2026-07-01T06:45:51.313472+00:00",
+          "hours_elapsed": 1.7
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -32584,8 +32614,16 @@
       "detection_time": "2026-07-01T05:04:33.556869+00:00",
       "detection_price": 0.0001462,
       "detection_liq": 28783.55,
-      "peak_price": 0.0001462,
-      "captures": {},
+      "peak_price": 0.0001662,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001662,
+          "liquidity": 30769.84,
+          "volume_24h": 549301.55,
+          "captured_at": "2026-07-01T06:45:51.313472+00:00",
+          "hours_elapsed": 1.7
+        }
+      },
       "outcome_label": null,
       "completed": false
     }
