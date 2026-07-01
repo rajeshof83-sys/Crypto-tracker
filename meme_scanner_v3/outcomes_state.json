@@ -29885,10 +29885,17 @@
           "volume_24h": 326217.93,
           "captured_at": "2026-06-25T13:21:39.807015+00:00",
           "hours_elapsed": 24.2
+        },
+        "price_7d": {
+          "price": 1.128e-05,
+          "liquidity": 11013.28,
+          "volume_24h": 3345.95,
+          "captured_at": "2026-07-01T13:16:57.113392+00:00",
+          "hours_elapsed": 168.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:9SJarcKcVsStwei27PDxgGH8jpYSeAFrruzGYgs4wZdh": {
       "chain": "solana",
@@ -32706,7 +32713,15 @@
       "detection_price": 0.0001035,
       "detection_liq": 23982.26,
       "peak_price": 0.0001035,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 5.195e-05,
+          "liquidity": 17422.83,
+          "volume_24h": 596972.61,
+          "captured_at": "2026-07-01T13:16:57.113392+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -32718,8 +32733,16 @@
       "detection_time": "2026-07-01T12:11:36.051209+00:00",
       "detection_price": 0.0002006,
       "detection_liq": 34762.05,
-      "peak_price": 0.0002006,
-      "captures": {},
+      "peak_price": 0.000345,
+      "captures": {
+        "price_1h": {
+          "price": 0.000345,
+          "liquidity": 45895.45,
+          "volume_24h": 974439.34,
+          "captured_at": "2026-07-01T13:16:57.113392+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -32732,6 +32755,27 @@
       "detection_price": 0.0001724,
       "detection_liq": 34168.99,
       "peak_price": 0.0001724,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001667,
+          "liquidity": 33714.13,
+          "volume_24h": 417160.74,
+          "captured_at": "2026-07-01T13:16:57.113392+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4PXkZypf1ioB61wp5Dyu4E6KoYqV7ATyQZofyG1HqDp6": {
+      "chain": "solana",
+      "pair_address": "4PXkZypf1ioB61wp5Dyu4E6KoYqV7ATyQZofyG1HqDp6",
+      "symbol": "DAVINCI",
+      "tier": "T1",
+      "detection_time": "2026-07-01T13:16:39.189075+00:00",
+      "detection_price": 0.0004547,
+      "detection_liq": 51331.34,
+      "peak_price": 0.0004547,
       "captures": {},
       "outcome_label": null,
       "completed": false
