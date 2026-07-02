@@ -30473,10 +30473,17 @@
           "volume_24h": 1212622.87,
           "captured_at": "2026-06-26T18:54:46.436647+00:00",
           "hours_elapsed": 24.5
+        },
+        "price_7d": {
+          "price": 0.0001398,
+          "liquidity": 37901.84,
+          "volume_24h": 158259.63,
+          "captured_at": "2026-07-02T18:58:39.347555+00:00",
+          "hours_elapsed": 168.5
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "winner",
+      "completed": true
     },
     "solana:CQCiNRqQohijwKxxHvTzbpFvpKNFWtxeshCWqEJrgbEB": {
       "chain": "solana",
@@ -33301,6 +33308,19 @@
       "detection_price": 0.0001128,
       "detection_liq": 26773.45,
       "peak_price": 0.0001128,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5GbZpQvW2H7SmZgkmwNkGwz53WqTVyFNwVGh5muzU87z": {
+      "chain": "solana",
+      "pair_address": "5GbZpQvW2H7SmZgkmwNkGwz53WqTVyFNwVGh5muzU87z",
+      "symbol": "Chud",
+      "tier": "T2",
+      "detection_time": "2026-07-02T18:58:30.327625+00:00",
+      "detection_price": 0.0002267,
+      "detection_liq": 36671.17,
+      "peak_price": 0.0002267,
       "captures": {},
       "outcome_label": null,
       "completed": false
