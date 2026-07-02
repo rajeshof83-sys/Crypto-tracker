@@ -33469,6 +33469,40 @@
       "detection_price": 0.0001353,
       "detection_liq": 28690.72,
       "peak_price": 0.0001353,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001349,
+          "liquidity": 28664.5,
+          "volume_24h": 220635.93,
+          "captured_at": "2026-07-02T21:54:06.130159+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EWNLAgrs1HmLTLxU9r8wvpgwSfHhCy8CR2bP7wretNxu": {
+      "chain": "solana",
+      "pair_address": "EWNLAgrs1HmLTLxU9r8wvpgwSfHhCy8CR2bP7wretNxu",
+      "symbol": "Mymo",
+      "tier": "T1",
+      "detection_time": "2026-07-02T21:53:56.064722+00:00",
+      "detection_price": 0.0001755,
+      "detection_liq": 32243.48,
+      "peak_price": 0.0001755,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4qEu6L6756Fa46zfB9hk6rFKPJXFbvCzdoVy3gRjqcbr": {
+      "chain": "solana",
+      "pair_address": "4qEu6L6756Fa46zfB9hk6rFKPJXFbvCzdoVy3gRjqcbr",
+      "symbol": "Firework",
+      "tier": "T1",
+      "detection_time": "2026-07-02T21:53:58.805293+00:00",
+      "detection_price": 9.963e-05,
+      "detection_liq": 24172.97,
+      "peak_price": 9.963e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
