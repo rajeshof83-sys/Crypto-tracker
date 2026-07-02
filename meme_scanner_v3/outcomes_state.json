@@ -33084,6 +33084,13 @@
           "volume_24h": 842403.32,
           "captured_at": "2026-07-02T03:53:49.109330+00:00",
           "hours_elapsed": 2.5
+        },
+        "price_6h": {
+          "price": 0.0002523,
+          "liquidity": 39115.65,
+          "volume_24h": 864077.87,
+          "captured_at": "2026-07-02T07:36:10.555167+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -33097,7 +33104,7 @@
       "detection_time": "2026-07-02T01:25:31.006555+00:00",
       "detection_price": 0.0002725,
       "detection_liq": 41192.66,
-      "peak_price": 0.0006216,
+      "peak_price": 0.0006229,
       "captures": {
         "price_1h": {
           "price": 0.0006216,
@@ -33105,6 +33112,13 @@
           "volume_24h": 1747914.63,
           "captured_at": "2026-07-02T03:53:49.109330+00:00",
           "hours_elapsed": 2.5
+        },
+        "price_6h": {
+          "price": 0.0006229,
+          "liquidity": 65356.19,
+          "volume_24h": 2655522.7,
+          "captured_at": "2026-07-02T07:36:10.555167+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -33118,8 +33132,16 @@
       "detection_time": "2026-07-02T05:37:19.946626+00:00",
       "detection_price": 0.0001885,
       "detection_liq": 33020.13,
-      "peak_price": 0.0001885,
-      "captures": {},
+      "peak_price": 0.0008459,
+      "captures": {
+        "price_1h": {
+          "price": 0.0008459,
+          "liquidity": 72570.46,
+          "volume_24h": 1206122.28,
+          "captured_at": "2026-07-02T07:36:10.555167+00:00",
+          "hours_elapsed": 2.0
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -33132,7 +33154,15 @@
       "detection_price": 6.716e-05,
       "detection_liq": 20189.29,
       "peak_price": 6.716e-05,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 2.172e-05,
+          "liquidity": 11567.93,
+          "volume_24h": 685223.12,
+          "captured_at": "2026-07-02T07:36:10.555167+00:00",
+          "hours_elapsed": 2.0
+        }
+      },
       "outcome_label": null,
       "completed": false
     }
