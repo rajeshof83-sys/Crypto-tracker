@@ -33490,7 +33490,15 @@
       "detection_price": 0.0001755,
       "detection_liq": 32243.48,
       "peak_price": 0.0001755,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0001316,
+          "liquidity": 28159.91,
+          "volume_24h": 388972.73,
+          "captured_at": "2026-07-02T23:11:34.492932+00:00",
+          "hours_elapsed": 1.3
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -33503,6 +33511,53 @@
       "detection_price": 9.963e-05,
       "detection_liq": 24172.97,
       "peak_price": 9.963e-05,
+      "captures": {
+        "price_1h": {
+          "price": 4.664e-05,
+          "liquidity": 16743.33,
+          "volume_24h": 337811.84,
+          "captured_at": "2026-07-02T23:11:34.492932+00:00",
+          "hours_elapsed": 1.3
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4JvzXDXEqFbDBamHr95A5kuWKRrqHQJMELVVZhS5sgWF": {
+      "chain": "solana",
+      "pair_address": "4JvzXDXEqFbDBamHr95A5kuWKRrqHQJMELVVZhS5sgWF",
+      "symbol": "ANSEMAIR",
+      "tier": "T1",
+      "detection_time": "2026-07-02T23:11:24.149621+00:00",
+      "detection_price": 9.229e-05,
+      "detection_liq": 23637.46,
+      "peak_price": 9.229e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5cZWvSGmWjXHyN2883p7ThdJHVQqCce6ws5xVWbhh7WN": {
+      "chain": "solana",
+      "pair_address": "5cZWvSGmWjXHyN2883p7ThdJHVQqCce6ws5xVWbhh7WN",
+      "symbol": "Jcat",
+      "tier": "T1",
+      "detection_time": "2026-07-02T23:11:26.788708+00:00",
+      "detection_price": 0.0001155,
+      "detection_liq": 26612.08,
+      "peak_price": 0.0001155,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:45acsB9DR1pN7me74rxUzp6yrVDRdxpcG2iZXoib8xZW": {
+      "chain": "solana",
+      "pair_address": "45acsB9DR1pN7me74rxUzp6yrVDRdxpcG2iZXoib8xZW",
+      "symbol": "popeyes",
+      "tier": "T1",
+      "detection_time": "2026-07-02T23:11:28.760378+00:00",
+      "detection_price": 0.0001419,
+      "detection_liq": 30474.63,
+      "peak_price": 0.0001419,
       "captures": {},
       "outcome_label": null,
       "completed": false
