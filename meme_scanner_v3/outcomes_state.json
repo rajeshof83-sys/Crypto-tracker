@@ -32944,10 +32944,17 @@
           "volume_24h": 1291715.68,
           "captured_at": "2026-07-01T19:18:24.695498+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 7.581e-06,
+          "liquidity": 6932.19,
+          "volume_24h": 24039.47,
+          "captured_at": "2026-07-02T14:40:48.262095+00:00",
+          "hours_elapsed": 25.4
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:8imenxcQAGZapaWz2BaWMrjH9Geio7mQnJz4ugdfCmhw": {
       "chain": "solana",
@@ -33226,6 +33233,32 @@
           "hours_elapsed": 6.4
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8ngm1G3B8GuqvG585tyJreVbmgDsJs8uiJeXwUjZQVqx": {
+      "chain": "solana",
+      "pair_address": "8ngm1G3B8GuqvG585tyJreVbmgDsJs8uiJeXwUjZQVqx",
+      "symbol": "EXCITEDGUY",
+      "tier": "T1",
+      "detection_time": "2026-07-02T14:40:34.411639+00:00",
+      "detection_price": 8.695e-05,
+      "detection_liq": 22853.29,
+      "peak_price": 8.695e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8N544CG9j44dkzu4CjSWHxpwekxHQPTR4R17Kw9y5FBk": {
+      "chain": "solana",
+      "pair_address": "8N544CG9j44dkzu4CjSWHxpwekxHQPTR4R17Kw9y5FBk",
+      "symbol": "NORMIE",
+      "tier": "T1",
+      "detection_time": "2026-07-02T14:40:38.550111+00:00",
+      "detection_price": 0.0003972,
+      "detection_liq": 48688.6,
+      "peak_price": 0.0003972,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
