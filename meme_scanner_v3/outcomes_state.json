@@ -33714,6 +33714,13 @@
           "volume_24h": 602846.53,
           "captured_at": "2026-07-03T05:29:11.698897+00:00",
           "hours_elapsed": 1.9
+        },
+        "price_6h": {
+          "price": 7.528e-05,
+          "liquidity": 25501.18,
+          "volume_24h": 468886.22,
+          "captured_at": "2026-07-03T10:40:21.419392+00:00",
+          "hours_elapsed": 7.1
         }
       },
       "outcome_label": null,
@@ -33735,6 +33742,13 @@
           "volume_24h": 796157.18,
           "captured_at": "2026-07-03T05:29:11.698897+00:00",
           "hours_elapsed": 1.9
+        },
+        "price_6h": {
+          "price": 0.0002088,
+          "liquidity": 37152.12,
+          "volume_24h": 1307351.4,
+          "captured_at": "2026-07-03T10:40:21.419392+00:00",
+          "hours_elapsed": 7.1
         }
       },
       "outcome_label": null,
@@ -33756,6 +33770,13 @@
           "volume_24h": 293140.23,
           "captured_at": "2026-07-03T05:29:11.698897+00:00",
           "hours_elapsed": 1.9
+        },
+        "price_6h": {
+          "price": 3.882e-05,
+          "liquidity": 15347.56,
+          "volume_24h": 338258.07,
+          "captured_at": "2026-07-03T10:40:21.419392+00:00",
+          "hours_elapsed": 7.1
         }
       },
       "outcome_label": null,
@@ -33842,6 +33863,32 @@
           "hours_elapsed": 1.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:A26A5uieEALU3HUacTKRJhsuud2k6M7bEgLhtrjg5ArT": {
+      "chain": "solana",
+      "pair_address": "A26A5uieEALU3HUacTKRJhsuud2k6M7bEgLhtrjg5ArT",
+      "symbol": "BULLION",
+      "tier": "T1",
+      "detection_time": "2026-07-03T10:40:04.684566+00:00",
+      "detection_price": 0.0001255,
+      "detection_liq": 28363.5,
+      "peak_price": 0.0001255,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HXB9ZCptf2fM3DdKzVYkf7A92nfA69CTvhiRovW3xDkc": {
+      "chain": "solana",
+      "pair_address": "HXB9ZCptf2fM3DdKzVYkf7A92nfA69CTvhiRovW3xDkc",
+      "symbol": "STREETART",
+      "tier": "T1",
+      "detection_time": "2026-07-03T10:40:08.020000+00:00",
+      "detection_price": 0.0001291,
+      "detection_liq": 27750.6,
+      "peak_price": 0.0001291,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
