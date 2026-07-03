@@ -33441,6 +33441,13 @@
           "volume_24h": 955165.34,
           "captured_at": "2026-07-03T01:10:59.984514+00:00",
           "hours_elapsed": 7.1
+        },
+        "price_24h": {
+          "price": 1.219e-05,
+          "liquidity": 9005.4,
+          "volume_24h": 211063.24,
+          "captured_at": "2026-07-03T18:47:44.805167+00:00",
+          "hours_elapsed": 24.8
         }
       },
       "outcome_label": null,
@@ -33994,6 +34001,13 @@
           "volume_24h": 567836.76,
           "captured_at": "2026-07-03T12:58:20.042541+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 3.652e-06,
+          "liquidity": 4789.84,
+          "volume_24h": 581392.15,
+          "captured_at": "2026-07-03T18:47:44.805167+00:00",
+          "hours_elapsed": 6.9
         }
       },
       "outcome_label": null,
@@ -34015,6 +34029,13 @@
           "volume_24h": 908664.54,
           "captured_at": "2026-07-03T12:58:20.042541+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 1.058e-05,
+          "liquidity": 8383.52,
+          "volume_24h": 949090.71,
+          "captured_at": "2026-07-03T18:47:44.805167+00:00",
+          "hours_elapsed": 6.9
         }
       },
       "outcome_label": null,
@@ -34091,8 +34112,16 @@
       "detection_time": "2026-07-03T16:53:07.698742+00:00",
       "detection_price": 0.0001052,
       "detection_liq": 25217.88,
-      "peak_price": 0.0001052,
-      "captures": {},
+      "peak_price": 0.0003384,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003384,
+          "liquidity": 46934.15,
+          "volume_24h": 911039.1,
+          "captured_at": "2026-07-03T18:47:44.805167+00:00",
+          "hours_elapsed": 1.9
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -34105,6 +34134,27 @@
       "detection_price": 0.0001644,
       "detection_liq": 32722.94,
       "peak_price": 0.0001644,
+      "captures": {
+        "price_1h": {
+          "price": 7.177e-05,
+          "liquidity": 21793.57,
+          "volume_24h": 942842.75,
+          "captured_at": "2026-07-03T18:47:44.805167+00:00",
+          "hours_elapsed": 1.9
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3bLL74Q3WuXS2fT1URyCzaMbRcpfdm4dpNeDcwUktEr9": {
+      "chain": "solana",
+      "pair_address": "3bLL74Q3WuXS2fT1URyCzaMbRcpfdm4dpNeDcwUktEr9",
+      "symbol": "AnsemAirdrop",
+      "tier": "T1",
+      "detection_time": "2026-07-03T18:47:36.352028+00:00",
+      "detection_price": 0.0001435,
+      "detection_liq": 29715.48,
+      "peak_price": 0.0001435,
       "captures": {},
       "outcome_label": null,
       "completed": false
