@@ -34008,6 +34008,40 @@
       "detection_price": 0.0001358,
       "detection_liq": 28513.19,
       "peak_price": 0.0001358,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001228,
+          "liquidity": 27081.24,
+          "volume_24h": 248238.24,
+          "captured_at": "2026-07-03T15:45:41.604067+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DA16U3HbBY4M2pb347w8aR3pLc5oNc8uRQLZrjoXosPB": {
+      "chain": "solana",
+      "pair_address": "DA16U3HbBY4M2pb347w8aR3pLc5oNc8uRQLZrjoXosPB",
+      "symbol": "TRUMP250",
+      "tier": "T1",
+      "detection_time": "2026-07-03T15:45:26.758782+00:00",
+      "detection_price": 0.0001659,
+      "detection_liq": 31358.36,
+      "peak_price": 0.0001659,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:ED9mpCkq3F3ZtRdbaGVJRboU6ygvXPvUrxrddFMS75aB": {
+      "chain": "solana",
+      "pair_address": "ED9mpCkq3F3ZtRdbaGVJRboU6ygvXPvUrxrddFMS75aB",
+      "symbol": "ansemwifhat",
+      "tier": "T1",
+      "detection_time": "2026-07-03T15:45:29.713792+00:00",
+      "detection_price": 0.0001758,
+      "detection_liq": 32655.66,
+      "peak_price": 0.0001758,
       "captures": {},
       "outcome_label": null,
       "completed": false
