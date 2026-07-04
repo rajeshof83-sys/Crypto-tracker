@@ -35109,6 +35109,32 @@
       "captures": {},
       "outcome_label": null,
       "completed": false
+    },
+    "solana:HwLHzaMFWAXNArBi9qotxfNHw5XZmzyVdpm2p6wAwq4H": {
+      "chain": "solana",
+      "pair_address": "HwLHzaMFWAXNArBi9qotxfNHw5XZmzyVdpm2p6wAwq4H",
+      "symbol": "FCORE",
+      "tier": "T1",
+      "detection_time": "2026-07-04T22:29:01.745552+00:00",
+      "detection_price": 0.0003241,
+      "detection_liq": 45188.76,
+      "peak_price": 0.0003241,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "ethereum:0xb06833Dd843c7be2CD64F7831723AA787c89B596": {
+      "chain": "ethereum",
+      "pair_address": "0xb06833Dd843c7be2CD64F7831723AA787c89B596",
+      "symbol": "VITALIK",
+      "tier": "T2",
+      "detection_time": "2026-07-04T22:29:06.504673+00:00",
+      "detection_price": 0.0001258,
+      "detection_liq": 20834.53,
+      "peak_price": 0.0001258,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
