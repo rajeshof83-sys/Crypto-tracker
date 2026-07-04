@@ -34911,6 +34911,40 @@
       "detection_price": 0.0005592,
       "detection_liq": 59072.8,
       "peak_price": 0.0005592,
+      "captures": {
+        "price_1h": {
+          "price": 0.0005422,
+          "liquidity": 58581.88,
+          "volume_24h": 900574.81,
+          "captured_at": "2026-07-04T17:35:44.016877+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:H3VcwQ41DfXunzq3gYhD2pSVzmE3NH9r3yFEneeH4MXu": {
+      "chain": "solana",
+      "pair_address": "H3VcwQ41DfXunzq3gYhD2pSVzmE3NH9r3yFEneeH4MXu",
+      "symbol": "MemeNote",
+      "tier": "T1",
+      "detection_time": "2026-07-04T17:35:34.004878+00:00",
+      "detection_price": 0.0001624,
+      "detection_liq": 31562.44,
+      "peak_price": 0.0001624,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8eixuojQL5b6ZHbyXX9ABLh6MggV3UoSdxrhbRzrteiF": {
+      "chain": "solana",
+      "pair_address": "8eixuojQL5b6ZHbyXX9ABLh6MggV3UoSdxrhbRzrteiF",
+      "symbol": "spurdo",
+      "tier": "T2",
+      "detection_time": "2026-07-04T17:35:36.603727+00:00",
+      "detection_price": 0.0005855,
+      "detection_liq": 65010.79,
+      "peak_price": 0.0005855,
       "captures": {},
       "outcome_label": null,
       "completed": false
