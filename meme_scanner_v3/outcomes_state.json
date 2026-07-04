@@ -35163,7 +35163,15 @@
       "detection_price": 0.0003241,
       "detection_liq": 45188.76,
       "peak_price": 0.0003241,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 4.163e-06,
+          "liquidity": 5291.68,
+          "volume_24h": 1310080.76,
+          "captured_at": "2026-07-04T23:33:16.059706+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -35176,6 +35184,27 @@
       "detection_price": 0.0001258,
       "detection_liq": 20834.53,
       "peak_price": 0.0001258,
+      "captures": {
+        "price_1h": {
+          "price": 7.448e-05,
+          "liquidity": 16116.13,
+          "volume_24h": 128713.95,
+          "captured_at": "2026-07-04T23:33:16.059706+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:YnsYsogTAE9WmJTBQig9QijEc5Habw3xuPd1rpW4vKZ": {
+      "chain": "solana",
+      "pair_address": "YnsYsogTAE9WmJTBQig9QijEc5Habw3xuPd1rpW4vKZ",
+      "symbol": "HANDSEM",
+      "tier": "T1",
+      "detection_time": "2026-07-04T23:32:58.875084+00:00",
+      "detection_price": 0.0001781,
+      "detection_liq": 33617.32,
+      "peak_price": 0.0001781,
       "captures": {},
       "outcome_label": null,
       "completed": false
