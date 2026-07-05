@@ -35218,7 +35218,41 @@
       "detection_time": "2026-07-04T23:32:58.875084+00:00",
       "detection_price": 0.0001781,
       "detection_liq": 33617.32,
-      "peak_price": 0.0001781,
+      "peak_price": 0.0001865,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001865,
+          "liquidity": 34663.41,
+          "volume_24h": 793754.04,
+          "captured_at": "2026-07-05T01:18:59.137812+00:00",
+          "hours_elapsed": 1.8
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3LHYwhm61rVwPxHJwnkV7zB7tmknAoa6scHXX4nCZfQY": {
+      "chain": "solana",
+      "pair_address": "3LHYwhm61rVwPxHJwnkV7zB7tmknAoa6scHXX4nCZfQY",
+      "symbol": "HeavyPulp",
+      "tier": "T2",
+      "detection_time": "2026-07-05T01:18:37.347746+00:00",
+      "detection_price": 0.001829,
+      "detection_liq": 211345.48,
+      "peak_price": 0.001829,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:38sZ5hn6rYLGomzwTP848BRUPPmBDYy7nAboDwMtqEY4": {
+      "chain": "solana",
+      "pair_address": "38sZ5hn6rYLGomzwTP848BRUPPmBDYy7nAboDwMtqEY4",
+      "symbol": "$ANSEMROCK",
+      "tier": "T2",
+      "detection_time": "2026-07-05T01:18:40.285622+00:00",
+      "detection_price": 0.0001791,
+      "detection_liq": 60663.52,
+      "peak_price": 0.0001791,
       "captures": {},
       "outcome_label": null,
       "completed": false
