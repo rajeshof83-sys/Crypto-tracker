@@ -23262,7 +23262,7 @@
     },
     "solana:2e6zdvsPodsXAAwurt9LnsGFFkZiRRbgLXAzsmMsbaEz": {
       "peak_liq": 8150.82,
-      "peak_vol": 18304.58,
+      "peak_vol": 18340.75,
       "peak_safety": 9
     },
     "ethereum:0x826648F26764f9f6c6461B536fed430f00064674": {
@@ -23279,6 +23279,21 @@
       "peak_liq": 61892.47,
       "peak_vol": 3114276.83,
       "peak_safety": 9
+    },
+    "solana:CodvRvRWgvMUEfXtTCV7SXbbjur8XvVUaLYM6dkyi7Fp": {
+      "peak_liq": 76165.6,
+      "peak_vol": 2046667.02,
+      "peak_safety": 10
+    },
+    "solana:4tSX9Tr8H9RE7iXXKyjMtuMM9i5vyRWZGmLbE3S1Ftii": {
+      "peak_liq": 26204.16,
+      "peak_vol": 506418.14,
+      "peak_safety": 9
+    },
+    "solana:96dfRD1E8roiA6HoEAa4b7kntoX1FtJYCmwjBFP8q4A3": {
+      "peak_liq": 32527.97,
+      "peak_vol": 81245.89,
+      "peak_safety": 7
     }
   },
   "consecutive_negative": {
@@ -27929,15 +27944,18 @@
     "solana:FRxRSCNrS3TbfQKjdf5h6aFJSDqFhHHxq2txo6eg4bdi": 0,
     "solana:DSvwMcTvtJAifJ5wWJmQ2MYPAEj1USdZpxgKeNiCqUgu": 0,
     "solana:GJNvdquZMUmSWoDcQqWZCektzUugvDeAnYpdiFanbHJN": 5,
-    "solana:5cZWvSGmWjXHyN2883p7ThdJHVQqCce6ws5xVWbhh7WN": 3,
+    "solana:5cZWvSGmWjXHyN2883p7ThdJHVQqCce6ws5xVWbhh7WN": 4,
     "solana:DR8xQpJ4XSbEv6Dwbj9rmAgNyganNULUM8xsHfXQUWdV": 2,
     "solana:5k5JD9SjNMAShebDXG3dw1XQW7aEsRAJddqzDYwGB37W": 0,
     "solana:Eyf57SiPPxvvJYA72gyHiH3BBr9hP9CUumdAUv23og3j": 1,
-    "bsc:0x03615Af9BB8F983Eb906B2017EdD5701aeA10c15": 1,
+    "bsc:0x03615Af9BB8F983Eb906B2017EdD5701aeA10c15": 2,
     "solana:2e6zdvsPodsXAAwurt9LnsGFFkZiRRbgLXAzsmMsbaEz": 0,
     "ethereum:0x826648F26764f9f6c6461B536fed430f00064674": 0,
     "solana:6nTrfPScvsay3JX5iop9LhdD7gW9kcwjyEN1X8Dojuij": 0,
-    "solana:3fGANHkT84ZLgg449h1BguQtDdp1NMBXCb1oohAp32Ui": 0
+    "solana:3fGANHkT84ZLgg449h1BguQtDdp1NMBXCb1oohAp32Ui": 0,
+    "solana:CodvRvRWgvMUEfXtTCV7SXbbjur8XvVUaLYM6dkyi7Fp": 0,
+    "solana:4tSX9Tr8H9RE7iXXKyjMtuMM9i5vyRWZGmLbE3S1Ftii": 0,
+    "solana:96dfRD1E8roiA6HoEAa4b7kntoX1FtJYCmwjBFP8q4A3": 0
   },
   "exit_alerts_sent": {}
 }
