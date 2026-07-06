@@ -36331,7 +36331,7 @@
       "detection_time": "2026-07-06T14:05:21.543772+00:00",
       "detection_price": 0.0002474,
       "detection_liq": 38317.51,
-      "peak_price": 0.0002474,
+      "peak_price": 0.0003406,
       "captures": {
         "price_1h": {
           "price": 0.0001315,
@@ -36339,6 +36339,13 @@
           "volume_24h": 640196.8,
           "captured_at": "2026-07-06T16:23:52.976196+00:00",
           "hours_elapsed": 2.3
+        },
+        "price_6h": {
+          "price": 0.0003406,
+          "liquidity": 52396.96,
+          "volume_24h": 3924542.86,
+          "captured_at": "2026-07-06T20:54:15.846578+00:00",
+          "hours_elapsed": 6.8
         }
       },
       "outcome_label": null,
@@ -36404,6 +36411,32 @@
           "hours_elapsed": 1.6
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9EkXWQ8PXYsiqDDWawUW6knybYaPiB7Ga3iyLoxATCBz": {
+      "chain": "solana",
+      "pair_address": "9EkXWQ8PXYsiqDDWawUW6knybYaPiB7Ga3iyLoxATCBz",
+      "symbol": "PATTYICE",
+      "tier": "T2",
+      "detection_time": "2026-07-06T20:54:03.812794+00:00",
+      "detection_price": 0.00136,
+      "detection_liq": 97191.1,
+      "peak_price": 0.00136,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EZcZi9p43EGYrUwcLjN1CCA8kCaPnbkwppVtZf4yV2y8": {
+      "chain": "solana",
+      "pair_address": "EZcZi9p43EGYrUwcLjN1CCA8kCaPnbkwppVtZf4yV2y8",
+      "symbol": "DEGEN",
+      "tier": "T1",
+      "detection_time": "2026-07-06T20:54:06.500410+00:00",
+      "detection_price": 0.0003452,
+      "detection_liq": 46542.92,
+      "peak_price": 0.0003452,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
