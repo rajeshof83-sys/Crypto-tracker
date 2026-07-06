@@ -36241,6 +36241,27 @@
       "detection_price": 0.0001982,
       "detection_liq": 34106.61,
       "peak_price": 0.0001982,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001271,
+          "liquidity": 28291.84,
+          "volume_24h": 853099.11,
+          "captured_at": "2026-07-06T14:05:34.690649+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6pNitpJJXs8aXEPZT3WjHvsWNHWKVRhCxaYn6smfbByy": {
+      "chain": "solana",
+      "pair_address": "6pNitpJJXs8aXEPZT3WjHvsWNHWKVRhCxaYn6smfbByy",
+      "symbol": "SAYLOR",
+      "tier": "T1",
+      "detection_time": "2026-07-06T14:05:21.543772+00:00",
+      "detection_price": 0.0002474,
+      "detection_liq": 38317.51,
+      "peak_price": 0.0002474,
       "captures": {},
       "outcome_label": null,
       "completed": false
