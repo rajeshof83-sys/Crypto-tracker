@@ -36444,10 +36444,17 @@
           "volume_24h": 969647.9,
           "captured_at": "2026-07-06T18:58:17.502496+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 1.626e-06,
+          "liquidity": 3261.1,
+          "volume_24h": 519946.61,
+          "captured_at": "2026-07-07T13:08:09.173256+00:00",
+          "hours_elapsed": 24.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:6pNitpJJXs8aXEPZT3WjHvsWNHWKVRhCxaYn6smfbByy": {
       "chain": "solana",
@@ -36831,6 +36838,32 @@
           "hours_elapsed": 1.8
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3iMrLAbBtooHrkn5jpcRwsuVUJvJxwyoLReavvDu3b7n": {
+      "chain": "solana",
+      "pair_address": "3iMrLAbBtooHrkn5jpcRwsuVUJvJxwyoLReavvDu3b7n",
+      "symbol": "WYNN",
+      "tier": "T1",
+      "detection_time": "2026-07-07T13:07:59.548972+00:00",
+      "detection_price": 7.73e-05,
+      "detection_liq": 21482.27,
+      "peak_price": 7.73e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4VoD1W5isENdXTYJrrPxat9z9T22X52AvSsSxoC5NnKy": {
+      "chain": "solana",
+      "pair_address": "4VoD1W5isENdXTYJrrPxat9z9T22X52AvSsSxoC5NnKy",
+      "symbol": "DONALD",
+      "tier": "T1",
+      "detection_time": "2026-07-07T13:08:02.171664+00:00",
+      "detection_price": 0.0003594,
+      "detection_liq": 47280.93,
+      "peak_price": 0.0003594,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
