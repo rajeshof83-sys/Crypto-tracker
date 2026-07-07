@@ -36304,6 +36304,13 @@
           "volume_24h": 144481.91,
           "captured_at": "2026-07-06T12:52:34.395901+00:00",
           "hours_elapsed": 6.7
+        },
+        "price_24h": {
+          "price": 1.674e-05,
+          "liquidity": 10728.67,
+          "volume_24h": 60289.57,
+          "captured_at": "2026-07-07T08:26:29.535548+00:00",
+          "hours_elapsed": 26.2
         }
       },
       "outcome_label": null,
@@ -36633,6 +36640,13 @@
           "volume_24h": 444778.77,
           "captured_at": "2026-07-07T01:18:15.282287+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 2.568e-05,
+          "liquidity": 12665.18,
+          "volume_24h": 511366.97,
+          "captured_at": "2026-07-07T08:26:29.535548+00:00",
+          "hours_elapsed": 8.2
         }
       },
       "outcome_label": null,
@@ -36654,6 +36668,13 @@
           "volume_24h": 136784.89,
           "captured_at": "2026-07-07T01:18:15.282287+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 1.537e-05,
+          "liquidity": 9494.65,
+          "volume_24h": 174846.54,
+          "captured_at": "2026-07-07T08:26:29.535548+00:00",
+          "hours_elapsed": 8.2
         }
       },
       "outcome_label": null,
@@ -36677,6 +36698,19 @@
           "hours_elapsed": 1.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5smCoCy9FVw3g1APyzyhxD2ozyAseWkozjmtgSpHjSjg": {
+      "chain": "solana",
+      "pair_address": "5smCoCy9FVw3g1APyzyhxD2ozyAseWkozjmtgSpHjSjg",
+      "symbol": "SUNUSI",
+      "tier": "T2",
+      "detection_time": "2026-07-07T08:26:19.523941+00:00",
+      "detection_price": 0.0009636,
+      "detection_liq": 77202.15,
+      "peak_price": 0.0009636,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
