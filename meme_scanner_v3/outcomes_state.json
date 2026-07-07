@@ -36626,6 +36626,13 @@
           "volume_24h": 578954.52,
           "captured_at": "2026-07-07T04:27:28.967418+00:00",
           "hours_elapsed": 7.6
+        },
+        "price_24h": {
+          "price": 0.0004117,
+          "liquidity": 53853.3,
+          "volume_24h": 429692.46,
+          "captured_at": "2026-07-07T21:11:23.716143+00:00",
+          "hours_elapsed": 24.3
         }
       },
       "outcome_label": null,
@@ -36654,6 +36661,13 @@
           "volume_24h": 993998.02,
           "captured_at": "2026-07-07T04:27:28.967418+00:00",
           "hours_elapsed": 7.6
+        },
+        "price_24h": {
+          "price": 0.0002156,
+          "liquidity": 37949.59,
+          "volume_24h": 663030.76,
+          "captured_at": "2026-07-07T21:11:23.716143+00:00",
+          "hours_elapsed": 24.3
         }
       },
       "outcome_label": null,
@@ -37102,7 +37116,15 @@
       "detection_price": 0.0001774,
       "detection_liq": 32512.27,
       "peak_price": 0.0001774,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 1.817e-06,
+          "liquidity": 3340.04,
+          "volume_24h": 560767.38,
+          "captured_at": "2026-07-07T21:11:23.716143+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -37114,7 +37136,28 @@
       "detection_time": "2026-07-07T20:00:38.218565+00:00",
       "detection_price": 0.0003935,
       "detection_liq": 50518.83,
-      "peak_price": 0.0003935,
+      "peak_price": 0.0007352,
+      "captures": {
+        "price_1h": {
+          "price": 0.0007352,
+          "liquidity": 70021.95,
+          "volume_24h": 1555943.21,
+          "captured_at": "2026-07-07T21:11:23.716143+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:LbaABc22fU8rCppEqWgmgpSmdS8icSRTkRU3XcH2UC3": {
+      "chain": "solana",
+      "pair_address": "LbaABc22fU8rCppEqWgmgpSmdS8icSRTkRU3XcH2UC3",
+      "symbol": "ZION",
+      "tier": "T2",
+      "detection_time": "2026-07-07T21:11:17.458453+00:00",
+      "detection_price": 0.001078,
+      "detection_liq": 80529.68,
+      "peak_price": 0.001078,
       "captures": {},
       "outcome_label": null,
       "completed": false
