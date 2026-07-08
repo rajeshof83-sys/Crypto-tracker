@@ -36850,6 +36850,13 @@
           "volume_24h": 1372801.1,
           "captured_at": "2026-07-07T14:43:36.793428+00:00",
           "hours_elapsed": 6.3
+        },
+        "price_24h": {
+          "price": 0.001552,
+          "liquidity": 101986.71,
+          "volume_24h": 2787055.43,
+          "captured_at": "2026-07-08T09:37:59.190028+00:00",
+          "hours_elapsed": 25.2
         }
       },
       "outcome_label": null,
@@ -37384,6 +37391,19 @@
           "hours_elapsed": 6.5
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6T3r9Vrsg5HwThEP19mvEpwk7FUwqLFTqeArtzWE33Ha": {
+      "chain": "solana",
+      "pair_address": "6T3r9Vrsg5HwThEP19mvEpwk7FUwqLFTqeArtzWE33Ha",
+      "symbol": "BLOBLIN",
+      "tier": "T1",
+      "detection_time": "2026-07-08T09:37:51.616154+00:00",
+      "detection_price": 0.00012,
+      "detection_liq": 26257.9,
+      "peak_price": 0.00012,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
