@@ -38159,6 +38159,40 @@
       "detection_price": 7.585e-05,
       "detection_liq": 21421.71,
       "peak_price": 7.585e-05,
+      "captures": {
+        "price_1h": {
+          "price": 2.126e-06,
+          "liquidity": 3613.0,
+          "volume_24h": 637006.24,
+          "captured_at": "2026-07-09T17:29:36.153856+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EGf1RhbTdeLs13oFi9vcBQF89FUQpieJeb8zNQx6uYM4": {
+      "chain": "solana",
+      "pair_address": "EGf1RhbTdeLs13oFi9vcBQF89FUQpieJeb8zNQx6uYM4",
+      "symbol": "BILLCOIN",
+      "tier": "T1",
+      "detection_time": "2026-07-09T17:29:26.596659+00:00",
+      "detection_price": 0.0001302,
+      "detection_liq": 28159.29,
+      "peak_price": 0.0001302,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CLMWpDYwQBkbQ9prSUj3dBkxqXigf6jTrnfbR8vwrQ6e": {
+      "chain": "solana",
+      "pair_address": "CLMWpDYwQBkbQ9prSUj3dBkxqXigf6jTrnfbR8vwrQ6e",
+      "symbol": "ANIF",
+      "tier": "T1",
+      "detection_time": "2026-07-09T17:29:29.847845+00:00",
+      "detection_price": 0.0008077,
+      "detection_liq": 70429.41,
+      "peak_price": 0.0008077,
       "captures": {},
       "outcome_label": null,
       "completed": false
