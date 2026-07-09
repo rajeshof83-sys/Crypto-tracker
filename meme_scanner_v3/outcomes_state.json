@@ -38005,6 +38005,53 @@
       "detection_price": 9.265e-05,
       "detection_liq": 23268.57,
       "peak_price": 9.265e-05,
+      "captures": {
+        "price_1h": {
+          "price": 4.18e-05,
+          "liquidity": 16315.95,
+          "volume_24h": 844876.34,
+          "captured_at": "2026-07-09T13:26:23.621355+00:00",
+          "hours_elapsed": 2.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:B4yc4Mh2zEpCGNZKRbEHQHBfktJ3TaqDUGgDRa2mTHsL": {
+      "chain": "solana",
+      "pair_address": "B4yc4Mh2zEpCGNZKRbEHQHBfktJ3TaqDUGgDRa2mTHsL",
+      "symbol": "Xavier",
+      "tier": "T2",
+      "detection_time": "2026-07-09T13:26:08.926368+00:00",
+      "detection_price": 0.0001711,
+      "detection_liq": 34839.14,
+      "peak_price": 0.0001711,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HWhsKtrmfKDPjRC114HKAyz4LKWW1LRSKJop9ai83Ghn": {
+      "chain": "solana",
+      "pair_address": "HWhsKtrmfKDPjRC114HKAyz4LKWW1LRSKJop9ai83Ghn",
+      "symbol": "OPOS",
+      "tier": "T1",
+      "detection_time": "2026-07-09T13:26:15.055475+00:00",
+      "detection_price": 0.0002096,
+      "detection_liq": 35439.54,
+      "peak_price": 0.0002096,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3nwzFjN3s1hE8CgqQED7S5JtREcCLStdkhRvLJvf7Uwp": {
+      "chain": "solana",
+      "pair_address": "3nwzFjN3s1hE8CgqQED7S5JtREcCLStdkhRvLJvf7Uwp",
+      "symbol": "ANSEMWIFE",
+      "tier": "T2",
+      "detection_time": "2026-07-09T13:26:17.786961+00:00",
+      "detection_price": 0.0003978,
+      "detection_liq": 55636.41,
+      "peak_price": 0.0003978,
       "captures": {},
       "outcome_label": null,
       "completed": false
