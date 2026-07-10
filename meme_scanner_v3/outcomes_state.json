@@ -38502,7 +38502,15 @@
       "detection_price": 0.0001475,
       "detection_liq": 29571.03,
       "peak_price": 0.0001475,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0001331,
+          "liquidity": 28751.96,
+          "volume_24h": 691924.76,
+          "captured_at": "2026-07-10T10:01:21.218205+00:00",
+          "hours_elapsed": 2.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -38514,7 +38522,28 @@
       "detection_time": "2026-07-10T08:48:23.926640+00:00",
       "detection_price": 0.0001047,
       "detection_liq": 24671.1,
-      "peak_price": 0.0001047,
+      "peak_price": 0.0001179,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001179,
+          "liquidity": 26595.05,
+          "volume_24h": 426048.95,
+          "captured_at": "2026-07-10T10:01:21.218205+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7MyqSJvbiKLWPgbNT8bHbDa9da4hN34LAhitoRZjf2rX": {
+      "chain": "solana",
+      "pair_address": "7MyqSJvbiKLWPgbNT8bHbDa9da4hN34LAhitoRZjf2rX",
+      "symbol": "IQ",
+      "tier": "T2",
+      "detection_time": "2026-07-10T10:01:03.339811+00:00",
+      "detection_price": 8.95e-05,
+      "detection_liq": 22669.48,
+      "peak_price": 8.95e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
