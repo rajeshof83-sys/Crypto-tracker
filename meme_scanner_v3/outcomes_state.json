@@ -38887,6 +38887,13 @@
           "volume_24h": 345764.27,
           "captured_at": "2026-07-10T22:06:36.066813+00:00",
           "hours_elapsed": 6.4
+        },
+        "price_24h": {
+          "price": 5.619e-05,
+          "liquidity": 18496.34,
+          "volume_24h": 344062.23,
+          "captured_at": "2026-07-11T15:59:16.424481+00:00",
+          "hours_elapsed": 24.3
         }
       },
       "outcome_label": null,
@@ -38917,6 +38924,19 @@
           "hours_elapsed": 6.8
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7p1LD2vWkRCDBXNHWAk3fKDJ7fcAKUbSZmeAuCgivNgQ": {
+      "chain": "solana",
+      "pair_address": "7p1LD2vWkRCDBXNHWAk3fKDJ7fcAKUbSZmeAuCgivNgQ",
+      "symbol": "POINTLESS",
+      "tier": "T1",
+      "detection_time": "2026-07-11T15:59:03.729425+00:00",
+      "detection_price": 0.0001143,
+      "detection_liq": 26324.05,
+      "peak_price": 0.0001143,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
