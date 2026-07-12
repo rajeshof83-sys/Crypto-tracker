@@ -39173,7 +39173,28 @@
       "detection_time": "2026-07-12T07:40:34.807740+00:00",
       "detection_price": 9.528e-05,
       "detection_liq": 23851.72,
-      "peak_price": 9.528e-05,
+      "peak_price": 0.0001934,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001934,
+          "liquidity": 34995.99,
+          "volume_24h": 955224.16,
+          "captured_at": "2026-07-12T09:04:54.055434+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5US92wEpjqEJtJtQcWGPiLybHGjirQn1hcNJHjQSV25a": {
+      "chain": "solana",
+      "pair_address": "5US92wEpjqEJtJtQcWGPiLybHGjirQn1hcNJHjQSV25a",
+      "symbol": "AGR",
+      "tier": "T2",
+      "detection_time": "2026-07-12T09:04:45.135978+00:00",
+      "detection_price": 0.0001874,
+      "detection_liq": 34289.76,
+      "peak_price": 0.0001874,
       "captures": {},
       "outcome_label": null,
       "completed": false
