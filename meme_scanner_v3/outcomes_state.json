@@ -39131,7 +39131,7 @@
       "detection_time": "2026-07-11T20:53:39.883059+00:00",
       "detection_price": 8.905e-05,
       "detection_liq": 22619.63,
-      "peak_price": 8.905e-05,
+      "peak_price": 0.0001292,
       "captures": {
         "price_1h": {
           "price": 1.126e-05,
@@ -39146,6 +39146,13 @@
           "volume_24h": 334676.47,
           "captured_at": "2026-07-12T03:17:46.419078+00:00",
           "hours_elapsed": 6.4
+        },
+        "price_24h": {
+          "price": 0.0001292,
+          "liquidity": 58418.25,
+          "volume_24h": 74717.81,
+          "captured_at": "2026-07-12T20:54:34.935863+00:00",
+          "hours_elapsed": 24.0
         }
       },
       "outcome_label": null,
@@ -39174,10 +39181,17 @@
           "volume_24h": 334234.03,
           "captured_at": "2026-07-12T03:17:46.419078+00:00",
           "hours_elapsed": 6.4
+        },
+        "price_24h": {
+          "price": 2.882e-06,
+          "liquidity": 4171.44,
+          "volume_24h": 365788.66,
+          "captured_at": "2026-07-12T20:54:34.935863+00:00",
+          "hours_elapsed": 24.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:GKoiCXprgSMmbZysw76L2WeuUafdkb96hPRPY6hozRX": {
       "chain": "solana",
@@ -39316,6 +39330,19 @@
           "hours_elapsed": 6.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6TJuebvz9hqJaybCWpKm7ygmFqcxHxJ3Azi5BJhmHak": {
+      "chain": "solana",
+      "pair_address": "6TJuebvz9hqJaybCWpKm7ygmFqcxHxJ3Azi5BJhmHak",
+      "symbol": "Bison",
+      "tier": "T1",
+      "detection_time": "2026-07-12T20:54:27.625890+00:00",
+      "detection_price": 0.0001046,
+      "detection_liq": 24874.96,
+      "peak_price": 0.0001046,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
