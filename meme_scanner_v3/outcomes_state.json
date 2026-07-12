@@ -39356,6 +39356,27 @@
       "detection_price": 0.0001046,
       "detection_liq": 24874.96,
       "peak_price": 0.0001046,
+      "captures": {
+        "price_1h": {
+          "price": 8.205e-05,
+          "liquidity": 22751.85,
+          "volume_24h": 893904.66,
+          "captured_at": "2026-07-12T21:55:07.696458+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5WA8WJkUKPLYhjW4vyPdi6iWeZtG8MvQhUAXrfvNEp62": {
+      "chain": "solana",
+      "pair_address": "5WA8WJkUKPLYhjW4vyPdi6iWeZtG8MvQhUAXrfvNEp62",
+      "symbol": "Girlcoin",
+      "tier": "T2",
+      "detection_time": "2026-07-12T21:54:58.753885+00:00",
+      "detection_price": 0.0001336,
+      "detection_liq": 27745.38,
+      "peak_price": 0.0001336,
       "captures": {},
       "outcome_label": null,
       "completed": false
