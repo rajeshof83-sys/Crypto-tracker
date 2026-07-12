@@ -39173,7 +39173,7 @@
       "detection_time": "2026-07-12T07:40:34.807740+00:00",
       "detection_price": 9.528e-05,
       "detection_liq": 23851.72,
-      "peak_price": 0.0001934,
+      "peak_price": 0.0002494,
       "captures": {
         "price_1h": {
           "price": 0.0001934,
@@ -39181,6 +39181,13 @@
           "volume_24h": 955224.16,
           "captured_at": "2026-07-12T09:04:54.055434+00:00",
           "hours_elapsed": 1.4
+        },
+        "price_6h": {
+          "price": 0.0002494,
+          "liquidity": 40861.77,
+          "volume_24h": 1356839.58,
+          "captured_at": "2026-07-12T13:43:52.277975+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -39225,6 +39232,19 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:73iPMEJzrfWXPPAHe1Q8tDTNYUL765LfhWKgUmoTu8MA": {
+      "chain": "solana",
+      "pair_address": "73iPMEJzrfWXPPAHe1Q8tDTNYUL765LfhWKgUmoTu8MA",
+      "symbol": "XGOATS",
+      "tier": "T2",
+      "detection_time": "2026-07-12T13:43:43.761358+00:00",
+      "detection_price": 0.0001309,
+      "detection_liq": 27641.4,
+      "peak_price": 0.0001309,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
