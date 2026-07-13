@@ -36934,10 +36934,17 @@
           "volume_24h": 5188604.09,
           "captured_at": "2026-07-07T14:43:36.793428+00:00",
           "hours_elapsed": 24.6
+        },
+        "price_7d": {
+          "price": 7.063e-06,
+          "liquidity": 7823.43,
+          "volume_24h": 1245.43,
+          "captured_at": "2026-07-13T15:11:36.203923+00:00",
+          "hours_elapsed": 169.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:Bk3hAVcSXBWCcj531yZESxa55atgh1siuBo8E7o9bVQd": {
       "chain": "solana",
@@ -39629,6 +39636,40 @@
       "detection_price": 7.515e-05,
       "detection_liq": 20305.72,
       "peak_price": 7.515e-05,
+      "captures": {
+        "price_1h": {
+          "price": 4.045e-05,
+          "liquidity": 15110.45,
+          "volume_24h": 266832.33,
+          "captured_at": "2026-07-13T15:11:36.203923+00:00",
+          "hours_elapsed": 1.3
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EHvSnVxFutQtz1L7ZrvmsdTJ8qmzejtgy4L6zmtFgJk1": {
+      "chain": "solana",
+      "pair_address": "EHvSnVxFutQtz1L7ZrvmsdTJ8qmzejtgy4L6zmtFgJk1",
+      "symbol": "nostalgia",
+      "tier": "T1",
+      "detection_time": "2026-07-13T15:11:26.594850+00:00",
+      "detection_price": 0.0002402,
+      "detection_liq": 38901.15,
+      "peak_price": 0.0002402,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7xpKiH6QBnvwJ5Mjg1xhXV77CZVoRxttSoEg7WgpcUVe": {
+      "chain": "solana",
+      "pair_address": "7xpKiH6QBnvwJ5Mjg1xhXV77CZVoRxttSoEg7WgpcUVe",
+      "symbol": "ANSEMJAK",
+      "tier": "T2",
+      "detection_time": "2026-07-13T15:11:31.162046+00:00",
+      "detection_price": 0.002576,
+      "detection_liq": 121364.69,
+      "peak_price": 0.002576,
       "captures": {},
       "outcome_label": null,
       "completed": false
