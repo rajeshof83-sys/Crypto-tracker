@@ -40223,7 +40223,28 @@
       "detection_time": "2026-07-14T18:06:47.796037+00:00",
       "detection_price": 0.0002948,
       "detection_liq": 42983.77,
-      "peak_price": 0.0002948,
+      "peak_price": 0.00114,
+      "captures": {
+        "price_1h": {
+          "price": 0.00114,
+          "liquidity": 91738.75,
+          "volume_24h": 3997022.52,
+          "captured_at": "2026-07-14T19:43:57.463352+00:00",
+          "hours_elapsed": 1.6
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7891wxE1biVsLUVq2QrhH4AtUZNyFfwcvYG7tUeL81et": {
+      "chain": "solana",
+      "pair_address": "7891wxE1biVsLUVq2QrhH4AtUZNyFfwcvYG7tUeL81et",
+      "symbol": "ANDY",
+      "tier": "T1",
+      "detection_time": "2026-07-14T19:43:52.935962+00:00",
+      "detection_price": 0.0001846,
+      "detection_liq": 33445.58,
+      "peak_price": 0.0001846,
       "captures": {},
       "outcome_label": null,
       "completed": false
