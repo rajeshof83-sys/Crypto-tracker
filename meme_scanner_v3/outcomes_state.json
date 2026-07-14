@@ -39915,8 +39915,16 @@
       "detection_time": "2026-07-14T03:43:05.555518+00:00",
       "detection_price": 0.00103,
       "detection_liq": 103975.85,
-      "peak_price": 0.00103,
-      "captures": {},
+      "peak_price": 0.002474,
+      "captures": {
+        "price_1h": {
+          "price": 0.002474,
+          "liquidity": 153599.62,
+          "volume_24h": 1175183.39,
+          "captured_at": "2026-07-14T05:34:52.865258+00:00",
+          "hours_elapsed": 1.9
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -39929,7 +39937,15 @@
       "detection_price": 0.0001165,
       "detection_liq": 25332.17,
       "peak_price": 0.0001165,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 4.989e-05,
+          "liquidity": 16931.33,
+          "volume_24h": 491527.98,
+          "captured_at": "2026-07-14T05:34:52.865258+00:00",
+          "hours_elapsed": 1.9
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -39942,6 +39958,19 @@
       "detection_price": 0.0004985,
       "detection_liq": 53660.26,
       "peak_price": 0.0004985,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CCGcgW5GcSoP6QeLcEKefogpNuPNK4qGefbLUYWdkkws": {
+      "chain": "solana",
+      "pair_address": "CCGcgW5GcSoP6QeLcEKefogpNuPNK4qGefbLUYWdkkws",
+      "symbol": "McGREJAK",
+      "tier": "T1",
+      "detection_time": "2026-07-14T05:34:44.563947+00:00",
+      "detection_price": 0.0002077,
+      "detection_liq": 34089.39,
+      "peak_price": 0.0002077,
       "captures": {},
       "outcome_label": null,
       "completed": false
