@@ -37795,10 +37795,17 @@
           "volume_24h": 246233.49,
           "captured_at": "2026-07-08T17:39:59.199191+00:00",
           "hours_elapsed": 24.3
+        },
+        "price_7d": {
+          "price": 4.905e-06,
+          "liquidity": 5415.2,
+          "volume_24h": 1574.85,
+          "captured_at": "2026-07-14T18:06:54.298918+00:00",
+          "hours_elapsed": 168.8
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "winner",
+      "completed": true
     },
     "solana:8A26Ff7AXqEV5VPWDBvGxghk1uvV46Nin2UUoCQkDUb4": {
       "chain": "solana",
@@ -40196,6 +40203,27 @@
       "detection_price": 0.0001584,
       "detection_liq": 30611.56,
       "peak_price": 0.0001584,
+      "captures": {
+        "price_1h": {
+          "price": 9.711e-05,
+          "liquidity": 24065.01,
+          "volume_24h": 835908.69,
+          "captured_at": "2026-07-14T18:06:54.298918+00:00",
+          "hours_elapsed": 1.8
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:B7yjosTLeAFkQjTeMdJggSMk5gwicU3LswEH9KA1PJwM": {
+      "chain": "solana",
+      "pair_address": "B7yjosTLeAFkQjTeMdJggSMk5gwicU3LswEH9KA1PJwM",
+      "symbol": "CATTEARS",
+      "tier": "T1",
+      "detection_time": "2026-07-14T18:06:47.796037+00:00",
+      "detection_price": 0.0002948,
+      "detection_liq": 42983.77,
+      "peak_price": 0.0002948,
       "captures": {},
       "outcome_label": null,
       "completed": false
