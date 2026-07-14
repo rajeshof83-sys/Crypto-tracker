@@ -38019,10 +38019,17 @@
           "volume_24h": 33767.02,
           "captured_at": "2026-07-08T23:51:52.700201+00:00",
           "hours_elapsed": 24.2
+        },
+        "price_7d": {
+          "price": 2.98e-06,
+          "liquidity": 4190.2,
+          "volume_24h": 31786.81,
+          "captured_at": "2026-07-14T23:54:40.816826+00:00",
+          "hours_elapsed": 168.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:9cove4xkhWWyXwcTudZoHaxshsRD8YcmgBasjipoUVfu": {
       "chain": "solana",
@@ -40007,6 +40014,13 @@
           "volume_24h": 5178303.6,
           "captured_at": "2026-07-14T06:24:16.893664+00:00",
           "hours_elapsed": 6.8
+        },
+        "price_24h": {
+          "price": 0.0006032,
+          "liquidity": 73248.61,
+          "volume_24h": 6726339.15,
+          "captured_at": "2026-07-14T23:54:40.816826+00:00",
+          "hours_elapsed": 24.3
         }
       },
       "outcome_label": null,
@@ -40287,7 +40301,15 @@
       "detection_price": 9.68e-05,
       "detection_liq": 23884.65,
       "peak_price": 9.68e-05,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 6.47e-05,
+          "liquidity": 19654.66,
+          "volume_24h": 472973.18,
+          "captured_at": "2026-07-14T23:54:40.816826+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -40299,8 +40321,16 @@
       "detection_time": "2026-07-14T22:42:20.441366+00:00",
       "detection_price": 0.0003223,
       "detection_liq": 43899.76,
-      "peak_price": 0.0003223,
-      "captures": {},
+      "peak_price": 0.000384,
+      "captures": {
+        "price_1h": {
+          "price": 0.000384,
+          "liquidity": 48109.89,
+          "volume_24h": 661221.3,
+          "captured_at": "2026-07-14T23:54:40.816826+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
       "outcome_label": null,
       "completed": false
     }
