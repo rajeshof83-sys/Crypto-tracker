@@ -39846,6 +39846,13 @@
           "volume_24h": 1072679.31,
           "captured_at": "2026-07-13T22:40:20.678357+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 7.508e-05,
+          "liquidity": 21939.84,
+          "volume_24h": 1373356.77,
+          "captured_at": "2026-07-14T03:43:18.814446+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -39890,6 +39897,32 @@
           "hours_elapsed": 1.9
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EDX18gJCdijqSLAJA2pp5C2VmA3bTRrx4utxkeJuFRtQ": {
+      "chain": "solana",
+      "pair_address": "EDX18gJCdijqSLAJA2pp5C2VmA3bTRrx4utxkeJuFRtQ",
+      "symbol": "HBULL",
+      "tier": "T2",
+      "detection_time": "2026-07-14T03:43:05.555518+00:00",
+      "detection_price": 0.00103,
+      "detection_liq": 103975.85,
+      "peak_price": 0.00103,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2bkdF94jFofHpkTqbUK5JWipUTTXCFdUt6KTkVyxiYPC": {
+      "chain": "solana",
+      "pair_address": "2bkdF94jFofHpkTqbUK5JWipUTTXCFdUt6KTkVyxiYPC",
+      "symbol": "HIVE",
+      "tier": "T2",
+      "detection_time": "2026-07-14T03:43:10.023024+00:00",
+      "detection_price": 0.0001165,
+      "detection_liq": 25332.17,
+      "peak_price": 0.0001165,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
