@@ -40270,6 +40270,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:9WuXRFcWE3UTYRbDhKVE1go9fRamkKBZS7HRBR4rrGBC": {
+      "chain": "solana",
+      "pair_address": "9WuXRFcWE3UTYRbDhKVE1go9fRamkKBZS7HRBR4rrGBC",
+      "symbol": "Peigengoo",
+      "tier": "T1",
+      "detection_time": "2026-07-14T22:42:17.487650+00:00",
+      "detection_price": 9.68e-05,
+      "detection_liq": 23884.65,
+      "peak_price": 9.68e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:BTafPrEjNu8KMwYSpdvYYHMwJKPWopVg5ByUyYDcNDn": {
+      "chain": "solana",
+      "pair_address": "BTafPrEjNu8KMwYSpdvYYHMwJKPWopVg5ByUyYDcNDn",
+      "symbol": "MIM",
+      "tier": "T1",
+      "detection_time": "2026-07-14T22:42:20.441366+00:00",
+      "detection_price": 0.0003223,
+      "detection_liq": 43899.76,
+      "peak_price": 0.0003223,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
