@@ -40266,6 +40266,13 @@
           "volume_24h": 1161750.96,
           "captured_at": "2026-07-14T16:54:46.765629+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 1.854e-05,
+          "liquidity": 11177.41,
+          "volume_24h": 970524.18,
+          "captured_at": "2026-07-15T10:53:50.856975+00:00",
+          "hours_elapsed": 24.1
         }
       },
       "outcome_label": null,
@@ -40436,6 +40443,32 @@
           "hours_elapsed": 6.6
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:44nJWNSkqvzYQj1932WbLQTFCkQ3czfDopqdEfP3MjJ7": {
+      "chain": "solana",
+      "pair_address": "44nJWNSkqvzYQj1932WbLQTFCkQ3czfDopqdEfP3MjJ7",
+      "symbol": "ansembrain",
+      "tier": "T1",
+      "detection_time": "2026-07-15T10:53:39.857837+00:00",
+      "detection_price": 0.0006431,
+      "detection_liq": 62715.78,
+      "peak_price": 0.0006431,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:D6J8DKfEszfQJ4cY9UL2ru7w5kMhgjBMmZib64qUbvAj": {
+      "chain": "solana",
+      "pair_address": "D6J8DKfEszfQJ4cY9UL2ru7w5kMhgjBMmZib64qUbvAj",
+      "symbol": "BULL",
+      "tier": "T1",
+      "detection_time": "2026-07-15T10:53:44.879853+00:00",
+      "detection_price": 0.0001071,
+      "detection_liq": 24733.16,
+      "peak_price": 0.0001071,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
