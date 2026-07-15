@@ -40606,6 +40606,58 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:CU5oVY5cNCi62CACpz5LVJm6dFrHEQrssuRzwFrDQgqc": {
+      "chain": "solana",
+      "pair_address": "CU5oVY5cNCi62CACpz5LVJm6dFrHEQrssuRzwFrDQgqc",
+      "symbol": "BARRON",
+      "tier": "T1",
+      "detection_time": "2026-07-15T22:32:27.549021+00:00",
+      "detection_price": 8.165e-05,
+      "detection_liq": 22381.79,
+      "peak_price": 8.165e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:436pvkrUpXkhyK1uDbSzpwAeqV1Vi9HzAa6YUSzRJdaz": {
+      "chain": "solana",
+      "pair_address": "436pvkrUpXkhyK1uDbSzpwAeqV1Vi9HzAa6YUSzRJdaz",
+      "symbol": "RELIC",
+      "tier": "T2",
+      "detection_time": "2026-07-15T22:32:31.012076+00:00",
+      "detection_price": 0.000266,
+      "detection_liq": 39613.14,
+      "peak_price": 0.000266,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:s7mPSD6gjL86TLugUoKTH98xDe8DSFRPk6UtMiPWeAT": {
+      "chain": "solana",
+      "pair_address": "s7mPSD6gjL86TLugUoKTH98xDe8DSFRPk6UtMiPWeAT",
+      "symbol": "TCHYON",
+      "tier": "T1",
+      "detection_time": "2026-07-15T22:32:33.961371+00:00",
+      "detection_price": 0.0003174,
+      "detection_liq": 44761.88,
+      "peak_price": 0.0003174,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2SH1N5S79uDeT8Kaid8NPtgpN2cw5fo8iRFeB1aQb2az": {
+      "chain": "solana",
+      "pair_address": "2SH1N5S79uDeT8Kaid8NPtgpN2cw5fo8iRFeB1aQb2az",
+      "symbol": "WIFSEM",
+      "tier": "T1",
+      "detection_time": "2026-07-15T22:32:36.741818+00:00",
+      "detection_price": 0.0001162,
+      "detection_liq": 26163.21,
+      "peak_price": 0.0001162,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
