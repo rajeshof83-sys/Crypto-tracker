@@ -40916,8 +40916,16 @@
       "detection_time": "2026-07-16T09:28:04.269064+00:00",
       "detection_price": 0.0003845,
       "detection_liq": 63870.78,
-      "peak_price": 0.0003845,
-      "captures": {},
+      "peak_price": 0.0004146,
+      "captures": {
+        "price_1h": {
+          "price": 0.0004146,
+          "liquidity": 66440.78,
+          "volume_24h": 651685.78,
+          "captured_at": "2026-07-16T10:28:32.260394+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -40930,6 +40938,27 @@
       "detection_price": 0.0001442,
       "detection_liq": 29310.74,
       "peak_price": 0.0001442,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001437,
+          "liquidity": 29469.68,
+          "volume_24h": 863424.06,
+          "captured_at": "2026-07-16T10:28:32.260394+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3y4tnmjFEKUTaRdG9jhhQUCMExpRT1wWTKzu5ZX1n46B": {
+      "chain": "solana",
+      "pair_address": "3y4tnmjFEKUTaRdG9jhhQUCMExpRT1wWTKzu5ZX1n46B",
+      "symbol": "PROPHECY",
+      "tier": "T1",
+      "detection_time": "2026-07-16T10:28:20.291563+00:00",
+      "detection_price": 8.058e-05,
+      "detection_liq": 21775.35,
+      "peak_price": 8.058e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
