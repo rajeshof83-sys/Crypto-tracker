@@ -40805,6 +40805,13 @@
           "volume_24h": 796277.4,
           "captured_at": "2026-07-16T04:40:03.616109+00:00",
           "hours_elapsed": 1.8
+        },
+        "price_6h": {
+          "price": 1.884e-06,
+          "liquidity": 3403.37,
+          "volume_24h": 1204044.7,
+          "captured_at": "2026-07-16T09:28:20.239886+00:00",
+          "hours_elapsed": 6.6
         }
       },
       "outcome_label": null,
@@ -40826,6 +40833,13 @@
           "volume_24h": 248669.25,
           "captured_at": "2026-07-16T04:40:03.616109+00:00",
           "hours_elapsed": 1.8
+        },
+        "price_6h": {
+          "price": 8.719e-05,
+          "liquidity": 22257.48,
+          "volume_24h": 315123.19,
+          "captured_at": "2026-07-16T09:28:20.239886+00:00",
+          "hours_elapsed": 6.6
         }
       },
       "outcome_label": null,
@@ -40882,6 +40896,40 @@
       "detection_price": 0.000575,
       "detection_liq": 56608.88,
       "peak_price": 0.000575,
+      "captures": {
+        "price_1h": {
+          "price": 0.0004659,
+          "liquidity": 51295.67,
+          "volume_24h": 573087.04,
+          "captured_at": "2026-07-16T09:28:20.239886+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DCZLnE5pnSiLipEtgcLuLJZaHnRxjiqygkb4JBYTDiPq": {
+      "chain": "solana",
+      "pair_address": "DCZLnE5pnSiLipEtgcLuLJZaHnRxjiqygkb4JBYTDiPq",
+      "symbol": "CASHCOW",
+      "tier": "T1",
+      "detection_time": "2026-07-16T09:28:04.269064+00:00",
+      "detection_price": 0.0003845,
+      "detection_liq": 63870.78,
+      "peak_price": 0.0003845,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EhGMAn1uEm5yPAFXPHG5HBZoPzQxvskhuCeUCg7r7Xt7": {
+      "chain": "solana",
+      "pair_address": "EhGMAn1uEm5yPAFXPHG5HBZoPzQxvskhuCeUCg7r7Xt7",
+      "symbol": "bet",
+      "tier": "T1",
+      "detection_time": "2026-07-16T09:28:09.605362+00:00",
+      "detection_price": 0.0001442,
+      "detection_liq": 29310.74,
+      "peak_price": 0.0001442,
       "captures": {},
       "outcome_label": null,
       "completed": false
