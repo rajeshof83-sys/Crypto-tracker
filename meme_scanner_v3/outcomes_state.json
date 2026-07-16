@@ -41091,7 +41091,28 @@
       "detection_time": "2026-07-16T19:42:16.987335+00:00",
       "detection_price": 0.0001957,
       "detection_liq": 33605.76,
-      "peak_price": 0.0001957,
+      "peak_price": 0.0002333,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002333,
+          "liquidity": 37197.14,
+          "volume_24h": 845095.66,
+          "captured_at": "2026-07-16T21:12:46.950041+00:00",
+          "hours_elapsed": 1.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DQNVcA4xcM186PpRjcy6GTJD9KSABL9LhXwt7s3anom7": {
+      "chain": "solana",
+      "pair_address": "DQNVcA4xcM186PpRjcy6GTJD9KSABL9LhXwt7s3anom7",
+      "symbol": "BarronCoin",
+      "tier": "T1",
+      "detection_time": "2026-07-16T21:12:32.294650+00:00",
+      "detection_price": 9.221e-05,
+      "detection_liq": 22868.02,
+      "peak_price": 9.221e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
