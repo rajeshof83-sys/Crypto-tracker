@@ -40826,6 +40826,27 @@
       "detection_price": 0.000184,
       "detection_liq": 32460.08,
       "peak_price": 0.000184,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001506,
+          "liquidity": 29833.62,
+          "volume_24h": 581312.41,
+          "captured_at": "2026-07-16T07:11:16.339376+00:00",
+          "hours_elapsed": 1.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5fg5azit5ed8PaZ12vdtTTMGXw5moNsutYXJWA2w6qDY": {
+      "chain": "solana",
+      "pair_address": "5fg5azit5ed8PaZ12vdtTTMGXw5moNsutYXJWA2w6qDY",
+      "symbol": "HOMIE",
+      "tier": "T2",
+      "detection_time": "2026-07-16T07:11:00.098826+00:00",
+      "detection_price": 0.0005656,
+      "detection_liq": 57212.62,
+      "peak_price": 0.0005656,
       "captures": {},
       "outcome_label": null,
       "completed": false
