@@ -40735,6 +40735,13 @@
           "volume_24h": 728687.23,
           "captured_at": "2026-07-16T02:50:28.851675+00:00",
           "hours_elapsed": 7.2
+        },
+        "price_24h": {
+          "price": 1.875e-05,
+          "liquidity": 10713.71,
+          "volume_24h": 462016.05,
+          "captured_at": "2026-07-16T19:42:24.877843+00:00",
+          "hours_elapsed": 24.1
         }
       },
       "outcome_label": null,
@@ -41073,6 +41080,19 @@
           "hours_elapsed": 6.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EggcKcPFCT4ttTeP1bsHvXYPgC848RXFGsanhC9GeP4u": {
+      "chain": "solana",
+      "pair_address": "EggcKcPFCT4ttTeP1bsHvXYPgC848RXFGsanhC9GeP4u",
+      "symbol": "BeastBull",
+      "tier": "T1",
+      "detection_time": "2026-07-16T19:42:16.987335+00:00",
+      "detection_price": 0.0001957,
+      "detection_liq": 33605.76,
+      "peak_price": 0.0001957,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
