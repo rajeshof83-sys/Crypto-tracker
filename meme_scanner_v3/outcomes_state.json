@@ -40504,6 +40504,13 @@
           "volume_24h": 1261069.8,
           "captured_at": "2026-07-15T09:21:57.766636+00:00",
           "hours_elapsed": 6.6
+        },
+        "price_24h": {
+          "price": 4.22e-05,
+          "liquidity": 16859.86,
+          "volume_24h": 533563.0,
+          "captured_at": "2026-07-16T02:50:28.851675+00:00",
+          "hours_elapsed": 24.1
         }
       },
       "outcome_label": null,
@@ -40637,6 +40644,13 @@
           "volume_24h": 569365.46,
           "captured_at": "2026-07-15T21:14:33.933365+00:00",
           "hours_elapsed": 1.6
+        },
+        "price_6h": {
+          "price": 0.000145,
+          "liquidity": 29524.31,
+          "volume_24h": 728687.23,
+          "captured_at": "2026-07-16T02:50:28.851675+00:00",
+          "hours_elapsed": 7.2
         }
       },
       "outcome_label": null,
@@ -40723,6 +40737,32 @@
           "hours_elapsed": 1.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3wj1PtiQyxFYxTNEf1XdoKD7sN19bnqy7RMKLggeNuta": {
+      "chain": "solana",
+      "pair_address": "3wj1PtiQyxFYxTNEf1XdoKD7sN19bnqy7RMKLggeNuta",
+      "symbol": "BULLSOL",
+      "tier": "T1",
+      "detection_time": "2026-07-16T02:50:06.441089+00:00",
+      "detection_price": 0.0002294,
+      "detection_liq": 36329.25,
+      "peak_price": 0.0002294,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:37HXLLUiA8ZtgzhdEMyaBrneVv94tHUt44hC6RTVH2Xn": {
+      "chain": "solana",
+      "pair_address": "37HXLLUiA8ZtgzhdEMyaBrneVv94tHUt44hC6RTVH2Xn",
+      "symbol": "bul",
+      "tier": "T1",
+      "detection_time": "2026-07-16T02:50:18.809199+00:00",
+      "detection_price": 8.982e-05,
+      "detection_liq": 22500.13,
+      "peak_price": 8.982e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
