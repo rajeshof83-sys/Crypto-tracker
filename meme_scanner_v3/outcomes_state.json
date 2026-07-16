@@ -41113,6 +41113,27 @@
       "detection_price": 9.221e-05,
       "detection_liq": 22868.02,
       "peak_price": 9.221e-05,
+      "captures": {
+        "price_1h": {
+          "price": 6.153e-05,
+          "liquidity": 19013.29,
+          "volume_24h": 512796.87,
+          "captured_at": "2026-07-16T22:15:53.756635+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4WYaV3yqLJDQfUGTySMGe2CoL3pCLTjim3gMoXFGLeuY": {
+      "chain": "solana",
+      "pair_address": "4WYaV3yqLJDQfUGTySMGe2CoL3pCLTjim3gMoXFGLeuY",
+      "symbol": "PUMPVERSITY",
+      "tier": "T2",
+      "detection_time": "2026-07-16T22:15:43.073212+00:00",
+      "detection_price": 4.897e-05,
+      "detection_liq": 16346.62,
+      "peak_price": 4.897e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
