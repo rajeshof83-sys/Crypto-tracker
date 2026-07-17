@@ -39160,10 +39160,17 @@
           "volume_24h": 563612.13,
           "captured_at": "2026-07-11T10:17:49.886664+00:00",
           "hours_elapsed": 24.3
+        },
+        "price_7d": {
+          "price": 4.234e-06,
+          "liquidity": 5045.77,
+          "volume_24h": 100.76,
+          "captured_at": "2026-07-17T11:06:23.060619+00:00",
+          "hours_elapsed": 169.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "winner",
+      "completed": true
     },
     "solana:B5p1EDQmTRPWy5ubMghMYUfvWVeqk3YExuenrPsKrhuV": {
       "chain": "solana",
@@ -41183,6 +41190,13 @@
           "volume_24h": 703905.95,
           "captured_at": "2026-07-16T16:41:05.393539+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 7.533e-05,
+          "liquidity": 21968.2,
+          "volume_24h": 462244.03,
+          "captured_at": "2026-07-17T11:06:23.060619+00:00",
+          "hours_elapsed": 24.6
         }
       },
       "outcome_label": null,
@@ -41325,6 +41339,19 @@
           "hours_elapsed": 6.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2PsXkiGencXfQhibBU1isCUYhvEvAjbNpsPkpQqpU8VV": {
+      "chain": "solana",
+      "pair_address": "2PsXkiGencXfQhibBU1isCUYhvEvAjbNpsPkpQqpU8VV",
+      "symbol": "Trump Coin",
+      "tier": "T2",
+      "detection_time": "2026-07-17T11:06:08.895104+00:00",
+      "detection_price": 0.0002478,
+      "detection_liq": 62051.87,
+      "peak_price": 0.0002478,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
