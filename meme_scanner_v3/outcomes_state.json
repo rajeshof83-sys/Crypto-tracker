@@ -39447,10 +39447,17 @@
           "volume_24h": 510349.23,
           "captured_at": "2026-07-12T19:10:11.214270+00:00",
           "hours_elapsed": 24.0
+        },
+        "price_7d": {
+          "price": 1.276e-05,
+          "liquidity": 9483.75,
+          "volume_24h": 19706.15,
+          "captured_at": "2026-07-18T19:09:32.213403+00:00",
+          "hours_elapsed": 168.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:8hRbfbWayJDGQL9Hk6KrBeDx1PCNaBE69HPPbL6U59NP": {
       "chain": "solana",
@@ -41729,6 +41736,27 @@
       "detection_price": 0.0001042,
       "detection_liq": 24597.95,
       "peak_price": 0.0001042,
+      "captures": {
+        "price_1h": {
+          "price": 8.238e-05,
+          "liquidity": 21898.98,
+          "volume_24h": 514959.85,
+          "captured_at": "2026-07-18T19:09:32.213403+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:B58vQ8Ch2PYH93NfUHWkonVhqEETCHCKRd5dRm96gwBq": {
+      "chain": "solana",
+      "pair_address": "B58vQ8Ch2PYH93NfUHWkonVhqEETCHCKRd5dRm96gwBq",
+      "symbol": "KLEF",
+      "tier": "T1",
+      "detection_time": "2026-07-18T19:09:28.631994+00:00",
+      "detection_price": 0.0001442,
+      "detection_liq": 28789.94,
+      "peak_price": 0.0001442,
       "captures": {},
       "outcome_label": null,
       "completed": false
