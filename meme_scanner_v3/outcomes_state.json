@@ -41428,6 +41428,13 @@
           "volume_24h": 410389.04,
           "captured_at": "2026-07-17T17:15:08.940200+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 0.0001722,
+          "liquidity": 52388.6,
+          "volume_24h": 162172.66,
+          "captured_at": "2026-07-18T11:06:59.304114+00:00",
+          "hours_elapsed": 24.0
         }
       },
       "outcome_label": null,
@@ -41598,6 +41605,19 @@
           "hours_elapsed": 6.9
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5Kc5ssFZhTqUe628NY3D5z22ApPt9AU16HMX94JEXaz5": {
+      "chain": "solana",
+      "pair_address": "5Kc5ssFZhTqUe628NY3D5z22ApPt9AU16HMX94JEXaz5",
+      "symbol": "WINGIT",
+      "tier": "T2",
+      "detection_time": "2026-07-18T11:06:50.047359+00:00",
+      "detection_price": 0.003622,
+      "detection_liq": 156032.05,
+      "peak_price": 0.003622,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
