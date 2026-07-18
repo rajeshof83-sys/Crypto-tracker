@@ -41616,7 +41616,28 @@
       "detection_time": "2026-07-18T11:06:50.047359+00:00",
       "detection_price": 0.003622,
       "detection_liq": 156032.05,
-      "peak_price": 0.003622,
+      "peak_price": 0.007046,
+      "captures": {
+        "price_1h": {
+          "price": 0.007046,
+          "liquidity": 223938.11,
+          "volume_24h": 4087524.91,
+          "captured_at": "2026-07-18T12:07:04.305508+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:wYs4mxXhrbShR66aBKsktyL6eUTEJ2YrqwcLcjb9bZg": {
+      "chain": "solana",
+      "pair_address": "wYs4mxXhrbShR66aBKsktyL6eUTEJ2YrqwcLcjb9bZg",
+      "symbol": "bandit",
+      "tier": "T2",
+      "detection_time": "2026-07-18T12:06:56.365051+00:00",
+      "detection_price": 4.547e-05,
+      "detection_liq": 15706.2,
+      "peak_price": 4.547e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
