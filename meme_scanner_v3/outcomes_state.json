@@ -41869,6 +41869,40 @@
       "detection_price": 0.000356,
       "detection_liq": 45124.21,
       "peak_price": 0.000356,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003295,
+          "liquidity": 43581.67,
+          "volume_24h": 682830.0,
+          "captured_at": "2026-07-19T04:49:40.881105+00:00",
+          "hours_elapsed": 1.6
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4KrWS8fATR7oqK8oVV24horhi6QtoF9GKCKeWt1VssZN": {
+      "chain": "solana",
+      "pair_address": "4KrWS8fATR7oqK8oVV24horhi6QtoF9GKCKeWt1VssZN",
+      "symbol": "Debt ",
+      "tier": "T1",
+      "detection_time": "2026-07-19T04:49:28.242731+00:00",
+      "detection_price": 0.0001378,
+      "detection_liq": 28018.13,
+      "peak_price": 0.0001378,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:D9Kdsbz8va56WPxvDettNEpmaQfoizrBVh7Jt1DKgBqv": {
+      "chain": "solana",
+      "pair_address": "D9Kdsbz8va56WPxvDettNEpmaQfoizrBVh7Jt1DKgBqv",
+      "symbol": "Mouse",
+      "tier": "T1",
+      "detection_time": "2026-07-19T04:49:34.911398+00:00",
+      "detection_price": 0.0001057,
+      "detection_liq": 24874.77,
+      "peak_price": 0.0001057,
       "captures": {},
       "outcome_label": null,
       "completed": false
