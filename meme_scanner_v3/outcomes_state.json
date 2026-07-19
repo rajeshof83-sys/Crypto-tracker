@@ -41659,6 +41659,13 @@
           "volume_24h": 925854.09,
           "captured_at": "2026-07-18T09:38:06.895383+00:00",
           "hours_elapsed": 6.9
+        },
+        "price_24h": {
+          "price": 0.0002903,
+          "liquidity": 41936.21,
+          "volume_24h": 328361.11,
+          "captured_at": "2026-07-19T03:15:15.212765+00:00",
+          "hours_elapsed": 24.5
         }
       },
       "outcome_label": null,
@@ -41833,7 +41840,28 @@
       "detection_time": "2026-07-19T01:02:32.635263+00:00",
       "detection_price": 0.0001353,
       "detection_liq": 27782.67,
-      "peak_price": 0.0001353,
+      "peak_price": 0.000186,
+      "captures": {
+        "price_1h": {
+          "price": 0.000186,
+          "liquidity": 32962.14,
+          "volume_24h": 744896.39,
+          "captured_at": "2026-07-19T03:15:15.212765+00:00",
+          "hours_elapsed": 2.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5Rz87K14BapRJbjkxsmvmWq5VGsdFPEixDtyEpFZvzjW": {
+      "chain": "solana",
+      "pair_address": "5Rz87K14BapRJbjkxsmvmWq5VGsdFPEixDtyEpFZvzjW",
+      "symbol": "PONED",
+      "tier": "T1",
+      "detection_time": "2026-07-19T03:15:08.956031+00:00",
+      "detection_price": 0.000356,
+      "detection_liq": 45124.21,
+      "peak_price": 0.000356,
       "captures": {},
       "outcome_label": null,
       "completed": false
