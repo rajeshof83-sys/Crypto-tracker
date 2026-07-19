@@ -42009,6 +42009,27 @@
       "detection_price": 0.0004084,
       "detection_liq": 49316.17,
       "peak_price": 0.0004084,
+      "captures": {
+        "price_1h": {
+          "price": 1.986e-06,
+          "liquidity": 3487.61,
+          "volume_24h": 1300678.66,
+          "captured_at": "2026-07-19T15:15:46.901295+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:47SpEdY2p4ken9kLsLr31xRD7cdjiA9L4NjGU8aAZt2p": {
+      "chain": "solana",
+      "pair_address": "47SpEdY2p4ken9kLsLr31xRD7cdjiA9L4NjGU8aAZt2p",
+      "symbol": "ODYSSEUS",
+      "tier": "T1",
+      "detection_time": "2026-07-19T15:15:30.482329+00:00",
+      "detection_price": 8.882e-05,
+      "detection_liq": 22272.19,
+      "peak_price": 8.882e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
