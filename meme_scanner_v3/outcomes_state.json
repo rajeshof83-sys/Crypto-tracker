@@ -41966,7 +41966,7 @@
       "detection_time": "2026-07-19T03:15:08.956031+00:00",
       "detection_price": 0.000356,
       "detection_liq": 45124.21,
-      "peak_price": 0.0003713,
+      "peak_price": 0.0005157,
       "captures": {
         "price_1h": {
           "price": 0.0003295,
@@ -41981,6 +41981,13 @@
           "volume_24h": 885335.42,
           "captured_at": "2026-07-19T09:16:02.679738+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 0.0005157,
+          "liquidity": 56287.72,
+          "volume_24h": 760519.45,
+          "captured_at": "2026-07-20T03:30:46.962698+00:00",
+          "hours_elapsed": 24.3
         }
       },
       "outcome_label": null,
@@ -42106,7 +42113,28 @@
       "detection_time": "2026-07-20T01:05:26.223408+00:00",
       "detection_price": 0.0002369,
       "detection_liq": 37018.87,
-      "peak_price": 0.0002369,
+      "peak_price": 0.0007195,
+      "captures": {
+        "price_1h": {
+          "price": 0.0007195,
+          "liquidity": 67090.7,
+          "volume_24h": 1582041.17,
+          "captured_at": "2026-07-20T03:30:46.962698+00:00",
+          "hours_elapsed": 2.4
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EjFGBSpggkoXE9Pzn6bU7CERgfpc5aYviPXpZPPvEZSr": {
+      "chain": "solana",
+      "pair_address": "EjFGBSpggkoXE9Pzn6bU7CERgfpc5aYviPXpZPPvEZSr",
+      "symbol": "BULLZARD",
+      "tier": "T1",
+      "detection_time": "2026-07-20T03:30:37.854773+00:00",
+      "detection_price": 0.0006936,
+      "detection_liq": 66877.5,
+      "peak_price": 0.0006936,
       "captures": {},
       "outcome_label": null,
       "completed": false
