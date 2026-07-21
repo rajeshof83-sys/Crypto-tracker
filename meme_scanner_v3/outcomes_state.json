@@ -42491,7 +42491,7 @@
       "detection_time": "2026-07-21T03:54:32.294510+00:00",
       "detection_price": 0.0003117,
       "detection_liq": 42935.84,
-      "peak_price": 0.0003354,
+      "peak_price": 0.0003536,
       "captures": {
         "price_1h": {
           "price": 0.0003354,
@@ -42499,6 +42499,13 @@
           "volume_24h": 627596.06,
           "captured_at": "2026-07-21T05:54:29.513760+00:00",
           "hours_elapsed": 2.0
+        },
+        "price_6h": {
+          "price": 0.0003536,
+          "liquidity": 46206.65,
+          "volume_24h": 750659.1,
+          "captured_at": "2026-07-21T10:39:13.146095+00:00",
+          "hours_elapsed": 6.7
         }
       },
       "outcome_label": null,
@@ -42520,6 +42527,13 @@
           "volume_24h": 906790.37,
           "captured_at": "2026-07-21T05:54:29.513760+00:00",
           "hours_elapsed": 2.0
+        },
+        "price_6h": {
+          "price": 0.0002141,
+          "liquidity": 36707.59,
+          "volume_24h": 1081969.02,
+          "captured_at": "2026-07-21T10:39:13.146095+00:00",
+          "hours_elapsed": 6.7
         }
       },
       "outcome_label": null,
@@ -42543,6 +42557,32 @@
           "hours_elapsed": 1.8
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AksihdkvTg4jBYyv8V7gEWyPiaU6c7mS9KRNdcFJBs76": {
+      "chain": "solana",
+      "pair_address": "AksihdkvTg4jBYyv8V7gEWyPiaU6c7mS9KRNdcFJBs76",
+      "symbol": "she ",
+      "tier": "T1",
+      "detection_time": "2026-07-21T10:39:01.075715+00:00",
+      "detection_price": 0.0001263,
+      "detection_liq": 27126.42,
+      "peak_price": 0.0001263,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:1u2YgQK7NyqZovEFXLcR3jMxeyPTaov7RgSbEnQQdVj": {
+      "chain": "solana",
+      "pair_address": "1u2YgQK7NyqZovEFXLcR3jMxeyPTaov7RgSbEnQQdVj",
+      "symbol": "USOH",
+      "tier": "T2",
+      "detection_time": "2026-07-21T10:39:05.152806+00:00",
+      "detection_price": 0.04611,
+      "detection_liq": 509201.16,
+      "peak_price": 0.04611,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
