@@ -40518,10 +40518,17 @@
           "volume_24h": 182167.44,
           "captured_at": "2026-07-15T08:18:46.740975+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 1.718e-06,
+          "liquidity": 3198.09,
+          "volume_24h": 28.72,
+          "captured_at": "2026-07-21T08:33:26.278811+00:00",
+          "hours_elapsed": 168.4
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:6R1wSigkcZmGeVUcjUYApHz3zmx714Q6KkV38Ks8n4oT": {
       "chain": "solana",
