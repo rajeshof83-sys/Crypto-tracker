@@ -42431,6 +42431,32 @@
       "captures": {},
       "outcome_label": null,
       "completed": false
+    },
+    "solana:4FgumKjhC8S7zyesLrPPi8XBssTMbYJ9kJbeLZ1wVoUP": {
+      "chain": "solana",
+      "pair_address": "4FgumKjhC8S7zyesLrPPi8XBssTMbYJ9kJbeLZ1wVoUP",
+      "symbol": "CAGE",
+      "tier": "T1",
+      "detection_time": "2026-07-21T03:54:32.294510+00:00",
+      "detection_price": 0.0003117,
+      "detection_liq": 42935.84,
+      "peak_price": 0.0003117,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5YsszVi1235tJSdoxLRz5dXKuXX7cS5D2vLLWqL3jdS": {
+      "chain": "solana",
+      "pair_address": "5YsszVi1235tJSdoxLRz5dXKuXX7cS5D2vLLWqL3jdS",
+      "symbol": "FRED",
+      "tier": "T2",
+      "detection_time": "2026-07-21T03:54:35.081659+00:00",
+      "detection_price": 0.0003784,
+      "detection_liq": 47725.16,
+      "peak_price": 0.0003784,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
