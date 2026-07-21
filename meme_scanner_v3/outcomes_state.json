@@ -42281,7 +42281,7 @@
       "detection_time": "2026-07-20T06:50:34.847527+00:00",
       "detection_price": 0.0001785,
       "detection_liq": 38878.29,
-      "peak_price": 0.0001785,
+      "peak_price": 0.0002671,
       "captures": {
         "price_1h": {
           "price": 0.0001583,
@@ -42296,6 +42296,13 @@
           "volume_24h": 471920.99,
           "captured_at": "2026-07-20T13:08:58.607659+00:00",
           "hours_elapsed": 6.3
+        },
+        "price_24h": {
+          "price": 0.0002671,
+          "liquidity": 49957.7,
+          "volume_24h": 680744.64,
+          "captured_at": "2026-07-21T07:54:25.622063+00:00",
+          "hours_elapsed": 25.1
         }
       },
       "outcome_label": null,
@@ -42494,6 +42501,19 @@
           "hours_elapsed": 2.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2T3LpVt9LTyktAzJANUHFwhyzECXdeJUsk7EruR5TBMB": {
+      "chain": "solana",
+      "pair_address": "2T3LpVt9LTyktAzJANUHFwhyzECXdeJUsk7EruR5TBMB",
+      "symbol": "AVATROLL",
+      "tier": "T1",
+      "detection_time": "2026-07-21T07:54:18.507141+00:00",
+      "detection_price": 0.0001371,
+      "detection_liq": 28413.76,
+      "peak_price": 0.0001371,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
