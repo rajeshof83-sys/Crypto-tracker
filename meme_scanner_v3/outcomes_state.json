@@ -42370,6 +42370,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:Gk4bTMVvhK8PfVx8f5ZSRFGmpzoY1sE1WBu1dsuZkHci": {
+      "chain": "solana",
+      "pair_address": "Gk4bTMVvhK8PfVx8f5ZSRFGmpzoY1sE1WBu1dsuZkHci",
+      "symbol": "OTTO",
+      "tier": "T1",
+      "detection_time": "2026-07-21T02:55:11.981546+00:00",
+      "detection_price": 9.563e-05,
+      "detection_liq": 24062.88,
+      "peak_price": 9.563e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CJVqmykqVaFiwoD951XXV9JtmSAC7A2PaQtXtGCHJa7i": {
+      "chain": "solana",
+      "pair_address": "CJVqmykqVaFiwoD951XXV9JtmSAC7A2PaQtXtGCHJa7i",
+      "symbol": "Cooper",
+      "tier": "T1",
+      "detection_time": "2026-07-21T02:55:15.705226+00:00",
+      "detection_price": 0.0002592,
+      "detection_liq": 39221.77,
+      "peak_price": 0.0002592,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
