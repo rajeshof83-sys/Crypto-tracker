@@ -43003,6 +43003,13 @@
           "volume_24h": 1589006.19,
           "captured_at": "2026-07-22T15:20:30.280138+00:00",
           "hours_elapsed": 1.3
+        },
+        "price_6h": {
+          "price": 0.0001049,
+          "liquidity": 25234.44,
+          "volume_24h": 1853429.68,
+          "captured_at": "2026-07-22T20:31:30.939318+00:00",
+          "hours_elapsed": 6.5
         }
       },
       "outcome_label": null,
@@ -43024,6 +43031,13 @@
           "volume_24h": 743362.6,
           "captured_at": "2026-07-22T15:20:30.280138+00:00",
           "hours_elapsed": 1.3
+        },
+        "price_6h": {
+          "price": 0.0002709,
+          "liquidity": 38771.2,
+          "volume_24h": 789405.1,
+          "captured_at": "2026-07-22T20:31:30.939318+00:00",
+          "hours_elapsed": 6.5
         }
       },
       "outcome_label": null,
@@ -43089,6 +43103,32 @@
           "hours_elapsed": 1.5
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9Q88Wp6FgEab3Q1kU8zBxTYppYcGjMnRk8cLrpgUK4Xk": {
+      "chain": "solana",
+      "pair_address": "9Q88Wp6FgEab3Q1kU8zBxTYppYcGjMnRk8cLrpgUK4Xk",
+      "symbol": "GOATSEM",
+      "tier": "T1",
+      "detection_time": "2026-07-22T20:31:23.060086+00:00",
+      "detection_price": 0.0001219,
+      "detection_liq": 25198.7,
+      "peak_price": 0.0001219,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5mzKcNT1EcmQffeYN7577uv7bEXN7fyUccC2XsJpRNPR": {
+      "chain": "solana",
+      "pair_address": "5mzKcNT1EcmQffeYN7577uv7bEXN7fyUccC2XsJpRNPR",
+      "symbol": "BOUNCE",
+      "tier": "T1",
+      "detection_time": "2026-07-22T20:31:26.370277+00:00",
+      "detection_price": 0.0001367,
+      "detection_liq": 27451.95,
+      "peak_price": 0.0001367,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
