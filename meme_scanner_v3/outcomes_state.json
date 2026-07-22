@@ -42748,6 +42748,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:DaWwgexycTWMQHpFjmHkZ8aonWnnvstH2NHrXgf8t3xC": {
+      "chain": "solana",
+      "pair_address": "DaWwgexycTWMQHpFjmHkZ8aonWnnvstH2NHrXgf8t3xC",
+      "symbol": "ROKO",
+      "tier": "T1",
+      "detection_time": "2026-07-22T01:10:25.509647+00:00",
+      "detection_price": 7.817e-05,
+      "detection_liq": 20332.15,
+      "peak_price": 7.817e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FzCfJAMdi3uWrTEdVVTHVJVsDLvtfLtZsb9ZAQdTeB9M": {
+      "chain": "solana",
+      "pair_address": "FzCfJAMdi3uWrTEdVVTHVJVsDLvtfLtZsb9ZAQdTeB9M",
+      "symbol": "Jumbo",
+      "tier": "T1",
+      "detection_time": "2026-07-22T01:10:29.200187+00:00",
+      "detection_price": 7.619e-05,
+      "detection_liq": 20026.33,
+      "peak_price": 7.619e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
