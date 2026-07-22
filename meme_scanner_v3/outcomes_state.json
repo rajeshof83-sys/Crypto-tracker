@@ -42898,6 +42898,13 @@
           "volume_24h": 774606.18,
           "captured_at": "2026-07-22T12:03:39.946471+00:00",
           "hours_elapsed": 1.4
+        },
+        "price_6h": {
+          "price": 1.539e-06,
+          "liquidity": 1679.21,
+          "volume_24h": 774625.54,
+          "captured_at": "2026-07-22T16:46:06.657473+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -42919,6 +42926,13 @@
           "volume_24h": 3389865.69,
           "captured_at": "2026-07-22T12:03:39.946471+00:00",
           "hours_elapsed": 1.4
+        },
+        "price_6h": {
+          "price": 1.824e-06,
+          "liquidity": 1855.12,
+          "volume_24h": 3390116.68,
+          "captured_at": "2026-07-22T16:46:06.657473+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -42996,6 +43010,27 @@
       "detection_price": 9.001e-05,
       "detection_liq": 21514.22,
       "peak_price": 9.001e-05,
+      "captures": {
+        "price_1h": {
+          "price": 2.876e-05,
+          "liquidity": 11694.89,
+          "volume_24h": 407471.87,
+          "captured_at": "2026-07-22T16:46:06.657473+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Gn8BjiB96TCv9WC9yNeX6j2Va177xCmU5cWrSrVfkAnt": {
+      "chain": "solana",
+      "pair_address": "Gn8BjiB96TCv9WC9yNeX6j2Va177xCmU5cWrSrVfkAnt",
+      "symbol": "SOUNDSBIG",
+      "tier": "T1",
+      "detection_time": "2026-07-22T16:45:57.778742+00:00",
+      "detection_price": 0.0002676,
+      "detection_liq": 38281.18,
+      "peak_price": 0.0002676,
       "captures": {},
       "outcome_label": null,
       "completed": false
