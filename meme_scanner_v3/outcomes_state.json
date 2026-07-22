@@ -42758,6 +42758,13 @@
           "volume_24h": 676850.98,
           "captured_at": "2026-07-21T20:36:12.689029+00:00",
           "hours_elapsed": 6.6
+        },
+        "price_24h": {
+          "price": 0.0001293,
+          "liquidity": 29466.48,
+          "volume_24h": 932618.71,
+          "captured_at": "2026-07-22T14:03:23.579160+00:00",
+          "hours_elapsed": 24.1
         }
       },
       "outcome_label": null,
@@ -42935,6 +42942,32 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9Nqv44KxLfX7M8su2AgeCb8TUMwz1WG785LPQeTYfHrT": {
+      "chain": "solana",
+      "pair_address": "9Nqv44KxLfX7M8su2AgeCb8TUMwz1WG785LPQeTYfHrT",
+      "symbol": "SWOLEDOGE",
+      "tier": "T1",
+      "detection_time": "2026-07-22T14:03:09.198555+00:00",
+      "detection_price": 0.0004017,
+      "detection_liq": 48867.01,
+      "peak_price": 0.0004017,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Evs3QSMeEEdQCEgkYgkwavYVunzuQHtMbsXsNDaBQE4X": {
+      "chain": "solana",
+      "pair_address": "Evs3QSMeEEdQCEgkYgkwavYVunzuQHtMbsXsNDaBQE4X",
+      "symbol": "SAMECAT",
+      "tier": "T1",
+      "detection_time": "2026-07-22T14:03:12.660683+00:00",
+      "detection_price": 0.0001997,
+      "detection_liq": 32932.64,
+      "peak_price": 0.0001997,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
