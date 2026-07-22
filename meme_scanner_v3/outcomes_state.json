@@ -42884,7 +42884,15 @@
       "detection_price": 0.0003319,
       "detection_liq": 42117.86,
       "peak_price": 0.0003319,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 1.549e-06,
+          "liquidity": 1688.26,
+          "volume_24h": 774606.18,
+          "captured_at": "2026-07-22T12:03:39.946471+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -42897,6 +42905,27 @@
       "detection_price": 0.05475,
       "detection_liq": 552659.66,
       "peak_price": 0.05475,
+      "captures": {
+        "price_1h": {
+          "price": 1.558e-06,
+          "liquidity": 1608.13,
+          "volume_24h": 3389865.69,
+          "captured_at": "2026-07-22T12:03:39.946471+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CbYWCCb4aHUmKTyFQTijKyzyZ9rrNG4R3HfEKdmBhNdF": {
+      "chain": "solana",
+      "pair_address": "CbYWCCb4aHUmKTyFQTijKyzyZ9rrNG4R3HfEKdmBhNdF",
+      "symbol": "CASHDOG",
+      "tier": "T1",
+      "detection_time": "2026-07-22T12:03:32.933483+00:00",
+      "detection_price": 0.0001464,
+      "detection_liq": 27608.34,
+      "peak_price": 0.0001464,
       "captures": {},
       "outcome_label": null,
       "completed": false
