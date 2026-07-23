@@ -41477,10 +41477,17 @@
           "volume_24h": 462244.03,
           "captured_at": "2026-07-17T11:06:23.060619+00:00",
           "hours_elapsed": 24.6
+        },
+        "price_7d": {
+          "price": 6.25e-06,
+          "liquidity": 7059.23,
+          "volume_24h": 84.65,
+          "captured_at": "2026-07-23T10:40:18.339141+00:00",
+          "hours_elapsed": 168.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:EggcKcPFCT4ttTeP1bsHvXYPgC848RXFGsanhC9GeP4u": {
       "chain": "solana",
@@ -43010,10 +43017,17 @@
           "volume_24h": 774625.54,
           "captured_at": "2026-07-22T16:46:06.657473+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 1.754e-06,
+          "liquidity": 1885.61,
+          "volume_24h": 392893.38,
+          "captured_at": "2026-07-23T10:40:18.339141+00:00",
+          "hours_elapsed": 24.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:Cu4LQi8RZXFuBDo1rUyYGRVZv1rCtNAMwcD7WXpKTgmG": {
       "chain": "solana",
@@ -43038,10 +43052,17 @@
           "volume_24h": 3390116.68,
           "captured_at": "2026-07-22T16:46:06.657473+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 1.802e-06,
+          "liquidity": 1833.76,
+          "volume_24h": 666343.14,
+          "captured_at": "2026-07-23T10:40:18.339141+00:00",
+          "hours_elapsed": 24.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:CbYWCCb4aHUmKTyFQTijKyzyZ9rrNG4R3HfEKdmBhNdF": {
       "chain": "solana",
@@ -43355,6 +43376,19 @@
           "hours_elapsed": 1.5
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:F3M756rbDnnWbQN5y6zSjCZvztvUf4ZoFMbFg4yd3mat": {
+      "chain": "solana",
+      "pair_address": "F3M756rbDnnWbQN5y6zSjCZvztvUf4ZoFMbFg4yd3mat",
+      "symbol": "MATH",
+      "tier": "T1",
+      "detection_time": "2026-07-23T10:40:09.467885+00:00",
+      "detection_price": 8.915e-05,
+      "detection_liq": 21140.33,
+      "peak_price": 8.915e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
