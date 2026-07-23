@@ -43184,7 +43184,7 @@
       "detection_time": "2026-07-22T20:31:23.060086+00:00",
       "detection_price": 0.0001219,
       "detection_liq": 25198.7,
-      "peak_price": 0.0001219,
+      "peak_price": 0.0001391,
       "captures": {
         "price_1h": {
           "price": 0.0001105,
@@ -43192,6 +43192,13 @@
           "volume_24h": 343242.96,
           "captured_at": "2026-07-22T21:53:21.143287+00:00",
           "hours_elapsed": 1.4
+        },
+        "price_6h": {
+          "price": 0.0001391,
+          "liquidity": 27168.38,
+          "volume_24h": 392383.46,
+          "captured_at": "2026-07-23T03:14:16.575990+00:00",
+          "hours_elapsed": 6.7
         }
       },
       "outcome_label": null,
@@ -43213,8 +43220,28 @@
           "volume_24h": 830548.13,
           "captured_at": "2026-07-22T21:53:21.143287+00:00",
           "hours_elapsed": 1.4
+        },
+        "price_6h": {
+          "price": 4.12e-05,
+          "liquidity": 14922.06,
+          "volume_24h": 1074396.47,
+          "captured_at": "2026-07-23T03:14:16.575990+00:00",
+          "hours_elapsed": 6.7
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4foKbQ9EnnvkSAB4P74omKJiAxyTJHEmy53yi8SiUMGf": {
+      "chain": "solana",
+      "pair_address": "4foKbQ9EnnvkSAB4P74omKJiAxyTJHEmy53yi8SiUMGf",
+      "symbol": "bitcat",
+      "tier": "T1",
+      "detection_time": "2026-07-23T03:14:10.011389+00:00",
+      "detection_price": 8.625e-05,
+      "detection_liq": 21657.81,
+      "peak_price": 8.625e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
