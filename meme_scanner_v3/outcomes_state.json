@@ -43240,7 +43240,28 @@
       "detection_time": "2026-07-23T03:14:10.011389+00:00",
       "detection_price": 8.625e-05,
       "detection_liq": 21657.81,
-      "peak_price": 8.625e-05,
+      "peak_price": 0.000146,
+      "captures": {
+        "price_1h": {
+          "price": 0.000146,
+          "liquidity": 29315.59,
+          "volume_24h": 1056835.79,
+          "captured_at": "2026-07-23T04:53:19.891979+00:00",
+          "hours_elapsed": 1.7
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CheZsCbJq3KAzVFRxVwAknZWJqTUKtvLWWLEDDasrYs3": {
+      "chain": "solana",
+      "pair_address": "CheZsCbJq3KAzVFRxVwAknZWJqTUKtvLWWLEDDasrYs3",
+      "symbol": "NINJIMOTHY",
+      "tier": "T1",
+      "detection_time": "2026-07-23T04:53:08.291583+00:00",
+      "detection_price": 0.0001449,
+      "detection_liq": 27678.22,
+      "peak_price": 0.0001449,
       "captures": {},
       "outcome_label": null,
       "completed": false
