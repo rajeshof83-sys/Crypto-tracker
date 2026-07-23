@@ -43535,6 +43535,27 @@
       "detection_price": 0.000227,
       "detection_liq": 34574.17,
       "peak_price": 0.000227,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002185,
+          "liquidity": 34007.76,
+          "volume_24h": 676008.6,
+          "captured_at": "2026-07-23T20:16:08.622626+00:00",
+          "hours_elapsed": 2.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FyoE7aufG5L1RD1YzGVnCBVp5WfXfYW5Yq29bvKC2RoE": {
+      "chain": "solana",
+      "pair_address": "FyoE7aufG5L1RD1YzGVnCBVp5WfXfYW5Yq29bvKC2RoE",
+      "symbol": "INFINITY",
+      "tier": "T1",
+      "detection_time": "2026-07-23T20:15:59.130211+00:00",
+      "detection_price": 0.0001055,
+      "detection_liq": 23019.17,
+      "peak_price": 0.0001055,
       "captures": {},
       "outcome_label": null,
       "completed": false
