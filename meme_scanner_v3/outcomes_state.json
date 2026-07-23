@@ -43395,6 +43395,40 @@
       "detection_price": 8.915e-05,
       "detection_liq": 21140.33,
       "peak_price": 8.915e-05,
+      "captures": {
+        "price_1h": {
+          "price": 1.738e-05,
+          "liquidity": 8726.07,
+          "volume_24h": 356601.12,
+          "captured_at": "2026-07-23T11:52:48.457321+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3fFF7ptw6itxNYBXziJw93vF2y3z52xzM1p8DRb7CXvp": {
+      "chain": "solana",
+      "pair_address": "3fFF7ptw6itxNYBXziJw93vF2y3z52xzM1p8DRb7CXvp",
+      "symbol": "MEMIPEDE",
+      "tier": "T2",
+      "detection_time": "2026-07-23T11:52:30.916633+00:00",
+      "detection_price": 0.0003177,
+      "detection_liq": 46353.46,
+      "peak_price": 0.0003177,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2MCQwArUMUskMQZivgjdW5zQaXEZfAB1k7bNKXFWSv4p": {
+      "chain": "solana",
+      "pair_address": "2MCQwArUMUskMQZivgjdW5zQaXEZfAB1k7bNKXFWSv4p",
+      "symbol": "LOUIE",
+      "tier": "T2",
+      "detection_time": "2026-07-23T11:52:34.496788+00:00",
+      "detection_price": 5.679e-05,
+      "detection_liq": 22778.35,
+      "peak_price": 5.679e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
