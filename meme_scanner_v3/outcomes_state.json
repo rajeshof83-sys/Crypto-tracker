@@ -41302,10 +41302,17 @@
           "volume_24h": 4953446.13,
           "captured_at": "2026-07-17T07:33:00.650506+00:00",
           "hours_elapsed": 24.4
+        },
+        "price_7d": {
+          "price": 3.062e-06,
+          "liquidity": 5563.52,
+          "volume_24h": 15.89,
+          "captured_at": "2026-07-23T07:56:46.880700+00:00",
+          "hours_elapsed": 168.8
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:4z3ZkJiksBXGr7PVkfSJBuK2GmkHmTTfaGHmGWPAgo8D": {
       "chain": "solana",
@@ -43271,6 +43278,32 @@
           "hours_elapsed": 1.7
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4dAnkTRvMknoRSgdDnFwFR5oHPaebWN35yb9aiJJPwjM": {
+      "chain": "solana",
+      "pair_address": "4dAnkTRvMknoRSgdDnFwFR5oHPaebWN35yb9aiJJPwjM",
+      "symbol": "MrSue",
+      "tier": "T2",
+      "detection_time": "2026-07-23T07:56:31.842499+00:00",
+      "detection_price": 0.0001232,
+      "detection_liq": 32008.26,
+      "peak_price": 0.0001232,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FshxbneSom2LTYooLixiJVax56YhmRkUvLPqkhqNnrXa": {
+      "chain": "solana",
+      "pair_address": "FshxbneSom2LTYooLixiJVax56YhmRkUvLPqkhqNnrXa",
+      "symbol": "Syrax",
+      "tier": "T1",
+      "detection_time": "2026-07-23T07:56:34.924390+00:00",
+      "detection_price": 9.411e-05,
+      "detection_liq": 21629.22,
+      "peak_price": 9.411e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
