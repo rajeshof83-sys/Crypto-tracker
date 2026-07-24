@@ -43675,6 +43675,27 @@
       "detection_price": 0.0004355,
       "detection_liq": 47339.78,
       "peak_price": 0.0004355,
+      "captures": {
+        "price_1h": {
+          "price": 0.0004027,
+          "liquidity": 45554.74,
+          "volume_24h": 160519.43,
+          "captured_at": "2026-07-24T06:29:03.762256+00:00",
+          "hours_elapsed": 1.7
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:ENsSzJQmNVYmPAJUAe1ehP7XLykuHHqPvmqZJuKJBfsr": {
+      "chain": "solana",
+      "pair_address": "ENsSzJQmNVYmPAJUAe1ehP7XLykuHHqPvmqZJuKJBfsr",
+      "symbol": "CAFFI",
+      "tier": "T1",
+      "detection_time": "2026-07-24T06:28:53.829428+00:00",
+      "detection_price": 0.0002798,
+      "detection_liq": 38502.8,
+      "peak_price": 0.0002798,
       "captures": {},
       "outcome_label": null,
       "completed": false
