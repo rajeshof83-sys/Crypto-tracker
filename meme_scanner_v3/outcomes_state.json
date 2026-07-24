@@ -43913,6 +43913,40 @@
       "detection_price": 0.0001481,
       "detection_liq": 27312.37,
       "peak_price": 0.0001481,
+      "captures": {
+        "price_1h": {
+          "price": 1.806e-06,
+          "liquidity": 1926.03,
+          "volume_24h": 645768.97,
+          "captured_at": "2026-07-24T22:46:09.917371+00:00",
+          "hours_elapsed": 1.7
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:E9jJrAi2EMcTftAAjPvbMJecB5e5B5P11Whdd5dC9R1Q": {
+      "chain": "solana",
+      "pair_address": "E9jJrAi2EMcTftAAjPvbMJecB5e5B5P11Whdd5dC9R1Q",
+      "symbol": "SmiskJim",
+      "tier": "T1",
+      "detection_time": "2026-07-24T22:45:56.484208+00:00",
+      "detection_price": 0.0002128,
+      "detection_liq": 34542.2,
+      "peak_price": 0.0002128,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9YSEvy9uagzUd6uN1P79L8LXNVb5NzM6Ej38eiMYhHbY": {
+      "chain": "solana",
+      "pair_address": "9YSEvy9uagzUd6uN1P79L8LXNVb5NzM6Ej38eiMYhHbY",
+      "symbol": "Cricket",
+      "tier": "T2",
+      "detection_time": "2026-07-24T22:46:00.904527+00:00",
+      "detection_price": 0.0001708,
+      "detection_liq": 34015.14,
+      "peak_price": 0.0001708,
       "captures": {},
       "outcome_label": null,
       "completed": false
