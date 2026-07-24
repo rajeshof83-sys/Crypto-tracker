@@ -41764,10 +41764,17 @@
           "volume_24h": 1183406.87,
           "captured_at": "2026-07-18T13:22:43.991248+00:00",
           "hours_elapsed": 24.7
+        },
+        "price_7d": {
+          "price": 0.0003387,
+          "liquidity": 57599.72,
+          "volume_24h": 146293.48,
+          "captured_at": "2026-07-24T13:51:00.048638+00:00",
+          "hours_elapsed": 169.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:6oSLhWB6DDiwZM93JAxcCByi7rxmgytc5h5rjBWJufp4": {
       "chain": "solana",
@@ -41834,10 +41841,17 @@
           "volume_24h": 767810.12,
           "captured_at": "2026-07-18T13:48:43.502008+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 2.138e-05,
+          "liquidity": 12106.1,
+          "volume_24h": 52307.05,
+          "captured_at": "2026-07-24T13:51:00.048638+00:00",
+          "hours_elapsed": 168.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "base:0x96be5fc4701495921fb2a1bcbe6c302621cd8ad7094ec62be5f303ab9d6b90c8": {
       "chain": "base",
@@ -43752,6 +43766,13 @@
           "volume_24h": 751969.29,
           "captured_at": "2026-07-24T07:54:15.681639+00:00",
           "hours_elapsed": 1.4
+        },
+        "price_6h": {
+          "price": 1.937e-06,
+          "liquidity": 2119.66,
+          "volume_24h": 1098870.48,
+          "captured_at": "2026-07-24T13:51:00.048638+00:00",
+          "hours_elapsed": 7.4
         }
       },
       "outcome_label": null,
@@ -43787,7 +43808,15 @@
       "detection_price": 0.0001027,
       "detection_liq": 23102.99,
       "peak_price": 0.0001027,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 2e-05,
+          "liquidity": 9532.62,
+          "volume_24h": 724100.24,
+          "captured_at": "2026-07-24T13:51:00.048638+00:00",
+          "hours_elapsed": 2.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     }
