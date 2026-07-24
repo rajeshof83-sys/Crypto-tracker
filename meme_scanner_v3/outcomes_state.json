@@ -41722,10 +41722,17 @@
           "volume_24h": 162172.66,
           "captured_at": "2026-07-18T11:06:59.304114+00:00",
           "hours_elapsed": 24.0
+        },
+        "price_7d": {
+          "price": 4.117e-05,
+          "liquidity": 27017.56,
+          "volume_24h": 30060.51,
+          "captured_at": "2026-07-24T11:44:29.071108+00:00",
+          "hours_elapsed": 168.6
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:HuqmPUBBdq8w56Y6WGd8LiMbf4zgYXS2ACzLZs8MYLna": {
       "chain": "solana",
@@ -43754,6 +43761,19 @@
           "hours_elapsed": 1.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9hgyiVSzvgfVRmsJLK2XYb9678VitzonbSa2msjZb5iK": {
+      "chain": "solana",
+      "pair_address": "9hgyiVSzvgfVRmsJLK2XYb9678VitzonbSa2msjZb5iK",
+      "symbol": "BIO",
+      "tier": "T1",
+      "detection_time": "2026-07-24T11:44:20.427701+00:00",
+      "detection_price": 0.0001027,
+      "detection_liq": 23102.99,
+      "peak_price": 0.0001027,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
