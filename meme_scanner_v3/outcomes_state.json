@@ -43703,10 +43703,17 @@
           "volume_24h": 447582.55,
           "captured_at": "2026-07-24T03:34:39.474996+00:00",
           "hours_elapsed": 7.3
+        },
+        "price_24h": {
+          "price": 4.242e-06,
+          "liquidity": 3590.94,
+          "volume_24h": 97120.89,
+          "captured_at": "2026-07-24T21:07:07.903681+00:00",
+          "hours_elapsed": 24.9
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:AkncHD8MSZjXKNuwK43E5oaSfXrpes3ASvBb1Gk9CzR5": {
       "chain": "solana",
@@ -43887,6 +43894,19 @@
           "hours_elapsed": 1.5
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EYV5beqrE2WWJprbvemYY9mP2ZSXpATjiqZj9jyJAeL8": {
+      "chain": "solana",
+      "pair_address": "EYV5beqrE2WWJprbvemYY9mP2ZSXpATjiqZj9jyJAeL8",
+      "symbol": "Mr. White",
+      "tier": "T1",
+      "detection_time": "2026-07-24T21:07:01.731751+00:00",
+      "detection_price": 0.0001481,
+      "detection_liq": 27312.37,
+      "peak_price": 0.0001481,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
