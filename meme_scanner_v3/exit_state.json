@@ -28437,7 +28437,7 @@
     },
     "solana:En49PFPrrqm2kxpLufcJrG9xG1EQEqEzdQY9hoZkc3Qc": {
       "peak_liq": 11996.6,
-      "peak_vol": 42675.58,
+      "peak_vol": 43730.14,
       "peak_safety": 9
     },
     "solana:FmMEXqQCBL8QUh2eX9bxqWd8cZ5oJTsRBNVqaTUDXpLs": {
@@ -28453,6 +28453,21 @@
     "solana:1EEaawKr9yejKFnmAsBrdPA2jcU4e34bKTY165W3yBB": {
       "peak_liq": 8497.94,
       "peak_vol": 73345.62,
+      "peak_safety": 8
+    },
+    "solana:EJ7mciUwLpk11iwNu2xyhcVA9HGxdfvwUBzgXSJC3gNY": {
+      "peak_liq": 12597.87,
+      "peak_vol": 31017.86,
+      "peak_safety": 9
+    },
+    "solana:9GY3inTSDM731euLYTfmvsZs8YQPZSAUwkAiectSPd5A": {
+      "peak_liq": 24057.15,
+      "peak_vol": 100709.43,
+      "peak_safety": 8
+    },
+    "solana:9CFKNTC1UBjb9TzZ6zJtDwwVxUt6FgTpUdb2ghVB7D66": {
+      "peak_liq": 0.0,
+      "peak_vol": 86126.27,
       "peak_safety": 8
     }
   },
@@ -33877,7 +33892,7 @@
     "solana:6ZFv9whWa9H1EU7nrEjostZkdHJ7QQMaJKuKrDF8n4hD": 0,
     "solana:7oprv5ekG6wrFoKc7HYNTxy8G5mYuw9SLT23G9QpuVst": 1,
     "solana:4tnqYdHfC42REf8pijicWz68dQ6ww9eP4AwuNsVVTkiJ": 1,
-    "solana:GeiN1JEjhqaDar4HM83HziC4eNFbrsYhzPMbP8PXPgVf": 1,
+    "solana:GeiN1JEjhqaDar4HM83HziC4eNFbrsYhzPMbP8PXPgVf": 2,
     "solana:5RFrwtjo7qsm6Dk3978JGeqtw9sHtq1qug4t1ui5nC39": 2,
     "solana:3FwiN8uzSGqs19pYMNuTjPGtm5Yjn16fbffVydG4YieW": 0,
     "base:0x30d306d8fff7cbbe65fa79ff3c65ae3e5588a76da6160aa884c4fb993536d7dd": 1,
@@ -34144,10 +34159,13 @@
     "solana:AT9qU8mpDiCJvV6aGjBqqhuZNUU3xZAL91JU721rP4MQ": 1,
     "solana:2nSDpNbdTFhzgpeyiq2YRFjtkHvGEdwJRjVBdpAoZnxW": 1,
     "solana:H7XMhg7x4pjmi9bCQqPzgxdoj85Bj6duDpnw6rQWokKS": 1,
-    "solana:En49PFPrrqm2kxpLufcJrG9xG1EQEqEzdQY9hoZkc3Qc": 2,
+    "solana:En49PFPrrqm2kxpLufcJrG9xG1EQEqEzdQY9hoZkc3Qc": 4,
     "solana:FmMEXqQCBL8QUh2eX9bxqWd8cZ5oJTsRBNVqaTUDXpLs": 0,
     "solana:2t7AmbRdQhPHzkZukcMaon9SJEbUXML6zWGpkEdQLFWD": 1,
-    "solana:1EEaawKr9yejKFnmAsBrdPA2jcU4e34bKTY165W3yBB": 1
+    "solana:1EEaawKr9yejKFnmAsBrdPA2jcU4e34bKTY165W3yBB": 1,
+    "solana:EJ7mciUwLpk11iwNu2xyhcVA9HGxdfvwUBzgXSJC3gNY": 0,
+    "solana:9GY3inTSDM731euLYTfmvsZs8YQPZSAUwkAiectSPd5A": 0,
+    "solana:9CFKNTC1UBjb9TzZ6zJtDwwVxUt6FgTpUdb2ghVB7D66": 0
   },
   "exit_alerts_sent": {}
 }
