@@ -43948,10 +43948,17 @@
           "volume_24h": 1220167.44,
           "captured_at": "2026-07-24T23:16:01.998632+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 1.752e-06,
+          "liquidity": 2009.19,
+          "volume_24h": 1211225.13,
+          "captured_at": "2026-07-25T17:15:25.541220+00:00",
+          "hours_elapsed": 24.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:HmVaoCt9AG9JPMxvKe8NBg2iEomREeZS3Yb3BgNa49fa": {
       "chain": "solana",
@@ -44178,8 +44185,16 @@
       "detection_time": "2026-07-25T16:14:05.664371+00:00",
       "detection_price": 9.663e-05,
       "detection_liq": 21504.93,
-      "peak_price": 9.663e-05,
-      "captures": {},
+      "peak_price": 0.0002659,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002659,
+          "liquidity": 37443.84,
+          "volume_24h": 561045.72,
+          "captured_at": "2026-07-25T17:15:25.541220+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -44192,6 +44207,27 @@
       "detection_price": 0.0001485,
       "detection_liq": 28833.68,
       "peak_price": 0.0001485,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001003,
+          "liquidity": 23839.61,
+          "volume_24h": 532900.04,
+          "captured_at": "2026-07-25T17:15:25.541220+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:79Z4t9ByFGV5ghcay26CqXzBKUcHrJM4Jez1Pgdb52wH": {
+      "chain": "solana",
+      "pair_address": "79Z4t9ByFGV5ghcay26CqXzBKUcHrJM4Jez1Pgdb52wH",
+      "symbol": "Cupsey2028",
+      "tier": "T1",
+      "detection_time": "2026-07-25T17:15:12.176556+00:00",
+      "detection_price": 0.0004699,
+      "detection_liq": 50535.6,
+      "peak_price": 0.0004699,
       "captures": {},
       "outcome_label": null,
       "completed": false
