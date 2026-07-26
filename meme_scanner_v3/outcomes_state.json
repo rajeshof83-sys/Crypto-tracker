@@ -44396,6 +44396,13 @@
           "volume_24h": 2202544.88,
           "captured_at": "2026-07-26T03:43:40.208668+00:00",
           "hours_elapsed": 2.6
+        },
+        "price_6h": {
+          "price": 2.328e-06,
+          "liquidity": 2626.08,
+          "volume_24h": 2202851.32,
+          "captured_at": "2026-07-26T07:55:06.878638+00:00",
+          "hours_elapsed": 6.8
         }
       },
       "outcome_label": null,
@@ -44451,7 +44458,28 @@
       "detection_time": "2026-07-26T06:39:49.237723+00:00",
       "detection_price": 0.0001496,
       "detection_liq": 27491.47,
-      "peak_price": 0.0001496,
+      "peak_price": 0.0002391,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002391,
+          "liquidity": 36207.89,
+          "volume_24h": 859606.41,
+          "captured_at": "2026-07-26T07:55:06.878638+00:00",
+          "hours_elapsed": 1.3
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:B7cYHHBvrxi4oV4UTumsK5G4BpKstwudgpWG1pyFsVWM": {
+      "chain": "solana",
+      "pair_address": "B7cYHHBvrxi4oV4UTumsK5G4BpKstwudgpWG1pyFsVWM",
+      "symbol": "DOUG",
+      "tier": "T1",
+      "detection_time": "2026-07-26T07:54:59.791774+00:00",
+      "detection_price": 0.0001846,
+      "detection_liq": 30784.93,
+      "peak_price": 0.0001846,
       "captures": {},
       "outcome_label": null,
       "completed": false
