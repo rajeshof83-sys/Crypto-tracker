@@ -42261,10 +42261,17 @@
           "volume_24h": 212244.02,
           "captured_at": "2026-07-20T01:05:34.328145+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 2.322e-05,
+          "liquidity": 11616.54,
+          "volume_24h": 90.51,
+          "captured_at": "2026-07-26T01:08:27.175105+00:00",
+          "hours_elapsed": 168.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:5Rz87K14BapRJbjkxsmvmWq5VGsdFPEixDtyEpFZvzjW": {
       "chain": "solana",
@@ -44326,6 +44333,27 @@
       "detection_price": 0.0002552,
       "detection_liq": 37171.17,
       "peak_price": 0.0002552,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001626,
+          "liquidity": 30366.95,
+          "volume_24h": 1338626.18,
+          "captured_at": "2026-07-26T01:08:27.175105+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9bHqgcB6DdSKysE67JxJFR7RT5VeJFNk3RKDzinJLuZS": {
+      "chain": "solana",
+      "pair_address": "9bHqgcB6DdSKysE67JxJFR7RT5VeJFNk3RKDzinJLuZS",
+      "symbol": "LJimothy",
+      "tier": "T1",
+      "detection_time": "2026-07-26T01:08:16.714941+00:00",
+      "detection_price": 0.0003955,
+      "detection_liq": 47632.49,
+      "peak_price": 0.0003955,
       "captures": {},
       "outcome_label": null,
       "completed": false
