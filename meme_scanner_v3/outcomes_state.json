@@ -44718,6 +44718,13 @@
           "volume_24h": 328757.59,
           "captured_at": "2026-07-27T04:02:23.247164+00:00",
           "hours_elapsed": 7.0
+        },
+        "price_24h": {
+          "price": 1.319e-05,
+          "liquidity": 7295.86,
+          "volume_24h": 95358.32,
+          "captured_at": "2026-07-27T21:14:32.392519+00:00",
+          "hours_elapsed": 24.2
         }
       },
       "outcome_label": null,
@@ -44935,6 +44942,13 @@
           "volume_24h": 319372.67,
           "captured_at": "2026-07-27T17:08:57.300514+00:00",
           "hours_elapsed": 1.9
+        },
+        "price_6h": {
+          "price": 0.0002121,
+          "liquidity": 33127.28,
+          "volume_24h": 347493.57,
+          "captured_at": "2026-07-27T21:14:32.392519+00:00",
+          "hours_elapsed": 6.0
         }
       },
       "outcome_label": null,
@@ -44956,6 +44970,13 @@
           "volume_24h": 799554.16,
           "captured_at": "2026-07-27T17:08:57.300514+00:00",
           "hours_elapsed": 1.9
+        },
+        "price_6h": {
+          "price": 1.63e-06,
+          "liquidity": 1752.82,
+          "volume_24h": 799554.92,
+          "captured_at": "2026-07-27T21:14:32.392519+00:00",
+          "hours_elapsed": 6.0
         }
       },
       "outcome_label": null,
@@ -44977,6 +44998,13 @@
           "volume_24h": 788958.61,
           "captured_at": "2026-07-27T17:08:57.300514+00:00",
           "hours_elapsed": 1.9
+        },
+        "price_6h": {
+          "price": 2.845e-05,
+          "liquidity": 11546.74,
+          "volume_24h": 894130.02,
+          "captured_at": "2026-07-27T21:14:32.392519+00:00",
+          "hours_elapsed": 6.0
         }
       },
       "outcome_label": null,
@@ -44998,6 +45026,13 @@
           "volume_24h": 1490082.2,
           "captured_at": "2026-07-27T17:08:57.300514+00:00",
           "hours_elapsed": 1.9
+        },
+        "price_6h": {
+          "price": 0.0001486,
+          "liquidity": 33638.88,
+          "volume_24h": 1712607.55,
+          "captured_at": "2026-07-27T21:14:32.392519+00:00",
+          "hours_elapsed": 6.0
         }
       },
       "outcome_label": null,
@@ -45105,6 +45140,19 @@
           "hours_elapsed": 1.5
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "ethereum:0xcb95Fa63836f992B04D2e0599f519852E6970A8f": {
+      "chain": "ethereum",
+      "pair_address": "0xcb95Fa63836f992B04D2e0599f519852E6970A8f",
+      "symbol": "CATE",
+      "tier": "T2",
+      "detection_time": "2026-07-27T21:14:26.396904+00:00",
+      "detection_price": 5.401e-13,
+      "detection_liq": 24916.58,
+      "peak_price": 5.401e-13,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
