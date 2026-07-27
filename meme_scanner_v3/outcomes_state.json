@@ -44529,10 +44529,17 @@
           "volume_24h": 591938.07,
           "captured_at": "2026-07-26T11:22:20.997255+00:00",
           "hours_elapsed": 6.4
+        },
+        "price_24h": {
+          "price": 1.522e-06,
+          "liquidity": 1649.56,
+          "volume_24h": 219804.93,
+          "captured_at": "2026-07-27T05:12:54.557270+00:00",
+          "hours_elapsed": 24.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:652dCXGnd8bRdkfA4UqKHhMcqR2zktHV4rVBisVEFha7": {
       "chain": "solana",
@@ -44690,6 +44697,13 @@
           "volume_24h": 879010.73,
           "captured_at": "2026-07-27T00:09:16.469058+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 3.939e-06,
+          "liquidity": 3547.15,
+          "volume_24h": 882179.15,
+          "captured_at": "2026-07-27T05:12:54.557270+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -44711,6 +44725,13 @@
           "volume_24h": 305669.02,
           "captured_at": "2026-07-27T00:09:16.469058+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 1.577e-06,
+          "liquidity": 1660.76,
+          "volume_24h": 305682.25,
+          "captured_at": "2026-07-27T05:12:54.557270+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -44725,6 +44746,27 @@
       "detection_price": 0.0002732,
       "detection_liq": 39198.02,
       "peak_price": 0.0002732,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002617,
+          "liquidity": 38711.85,
+          "volume_24h": 1101474.95,
+          "captured_at": "2026-07-27T05:12:54.557270+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3FBTfGipX6xxxhNJSxbev2zCaW1b5QYepeKXtZTLEddQ": {
+      "chain": "solana",
+      "pair_address": "3FBTfGipX6xxxhNJSxbev2zCaW1b5QYepeKXtZTLEddQ",
+      "symbol": "BADZ",
+      "tier": "T2",
+      "detection_time": "2026-07-27T05:12:47.953409+00:00",
+      "detection_price": 0.0002235,
+      "detection_liq": 33889.12,
+      "peak_price": 0.0002235,
       "captures": {},
       "outcome_label": null,
       "completed": false
