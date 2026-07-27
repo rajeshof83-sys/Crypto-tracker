@@ -45041,6 +45041,32 @@
       "captures": {},
       "outcome_label": null,
       "completed": false
+    },
+    "solana:2dSHBdTUcfimoPbicnmQuMYCzBSumzgad9f8mJcaKFci": {
+      "chain": "solana",
+      "pair_address": "2dSHBdTUcfimoPbicnmQuMYCzBSumzgad9f8mJcaKFci",
+      "symbol": "JACARE",
+      "tier": "T1",
+      "detection_time": "2026-07-27T18:06:32.563519+00:00",
+      "detection_price": 0.0003739,
+      "detection_liq": 45050.91,
+      "peak_price": 0.0003739,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FxoFh5kkLcDsEEKuHoLhSn26HgWoWBe8ZV7ucub554qg": {
+      "chain": "solana",
+      "pair_address": "FxoFh5kkLcDsEEKuHoLhSn26HgWoWBe8ZV7ucub554qg",
+      "symbol": "ECAT",
+      "tier": "T1",
+      "detection_time": "2026-07-27T18:06:34.963126+00:00",
+      "detection_price": 0.0002227,
+      "detection_liq": 34186.28,
+      "peak_price": 0.0002227,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
