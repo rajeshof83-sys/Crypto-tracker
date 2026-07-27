@@ -28752,7 +28752,7 @@
     },
     "solana:F2Qiryq71XX5vPGEYuGEeC5nEiuWQNajP5xRkqiqBCLy": {
       "peak_liq": 25607.81,
-      "peak_vol": 325563.7,
+      "peak_vol": 326224.56,
       "peak_safety": 9
     },
     "solana:68keVZUDmPNSz2gUm6QrhzWAPLp36LQP2gt9UC99G2ao": {
@@ -28807,7 +28807,7 @@
     },
     "solana:5fuRHZJfb6rBesKCTZECYT1t9uEidvCZ53YFbWc3xn8N": {
       "peak_liq": 19949.91,
-      "peak_vol": 266331.75,
+      "peak_vol": 273317.47,
       "peak_safety": 8
     },
     "solana:BQW2ANceBZY145ZoYBUX9nUPHe1r6SE29jQCj2Cjo3oh": {
@@ -28817,12 +28817,12 @@
     },
     "solana:7LfFJ8vGoerkm9NAKoCfUSPGUG2biSY64vmNtU9VfoSC": {
       "peak_liq": 31501.16,
-      "peak_vol": 1155457.16,
+      "peak_vol": 1160055.23,
       "peak_safety": 8
     },
     "solana:9L47ncdU4PPKojtTZeHb5nWG79LFxJJAs1assSGYTcq4": {
       "peak_liq": 40601.63,
-      "peak_vol": 1189421.4,
+      "peak_vol": 1281650.4,
       "peak_safety": 9
     },
     "solana:2zJ2xsjyb3p7yKtruzuLw3y9nc7KNVQgcvgm8P9y8SMb": {
@@ -28839,6 +28839,41 @@
       "peak_liq": 0.0,
       "peak_vol": 8879.69,
       "peak_safety": 8
+    },
+    "solana:Chw9RFPsdBEVbsbQ7bDTZ3JAA3j2pBJ6H28es9C3RC1p": {
+      "peak_liq": 3024.68,
+      "peak_vol": 3356.59,
+      "peak_safety": 6
+    },
+    "solana:Cstcv65NjdZx18LUCoE3wFzbSx5Wnc8fL4nEkF7U7M2e": {
+      "peak_liq": 38037.14,
+      "peak_vol": 878862.51,
+      "peak_safety": 8
+    },
+    "solana:3MnaqNmQPtdpaEeGR9uTphJu4K4DS7WjVVt8tEnU8WX7": {
+      "peak_liq": 21721.48,
+      "peak_vol": 305669.02,
+      "peak_safety": 9
+    },
+    "solana:EerzVpYQtg9ZVnq3QKqFitpLnYWXByLCV3P5t4ngmwo8": {
+      "peak_liq": 1630.11,
+      "peak_vol": 159504.46,
+      "peak_safety": 7
+    },
+    "solana:CVe5eBmWwKid37trLP6Z6BB7JyZK3GZ5U8epMD6aj6HD": {
+      "peak_liq": 0.0,
+      "peak_vol": 74644.16,
+      "peak_safety": 7
+    },
+    "solana:3dvznin3DqejisrJFTdUrgPwbH6M1V21x4Kh3HrwkoPx": {
+      "peak_liq": 3908.17,
+      "peak_vol": 213901.56,
+      "peak_safety": 9
+    },
+    "solana:xLkYL9j5M8ExXA6aT69FHmEPWQR79jZ2Lpty7J7vAbW": {
+      "peak_liq": 5083.5,
+      "peak_vol": 33739.44,
+      "peak_safety": 9
     }
   },
   "consecutive_negative": {
@@ -34592,7 +34627,7 @@
     "solana:4AgoaezcNGhM48te9Jvw6kysJZsMxEjyecypRfzoM4gd": 1,
     "solana:FmXhx1UMmgG95gw95zATWDHxvV8NPWVafzNGENWSRtK5": 2,
     "solana:GPsV7yC9TP6DjiS5wcxDrinYVHNtiTpovegzMezRsHna": 1,
-    "solana:F2Qiryq71XX5vPGEYuGEeC5nEiuWQNajP5xRkqiqBCLy": 4,
+    "solana:F2Qiryq71XX5vPGEYuGEeC5nEiuWQNajP5xRkqiqBCLy": 5,
     "solana:68keVZUDmPNSz2gUm6QrhzWAPLp36LQP2gt9UC99G2ao": 1,
     "solana:ExfpGGnibUqFecxPWv16PdpsT2VvjnaAryvjJZhtKzeS": 0,
     "solana:CMTFMteZkdec1hNmsgkFnTqxsiAzeNj2vURVAYtvZMee": 0,
@@ -34603,13 +34638,20 @@
     "solana:2KYmx7dJFbv9wgcFSR8htLFWYHDXUDzZMtA3w94tMBui": 0,
     "solana:6HycMSi4CcWbDQJ94Tg76MB5eKkdB2NmpzWZxfqTnH3v": 1,
     "solana:5bypKnYCZk81tX9fDwTToc2E1vgudpcySA4HzmiqaNTh": 0,
-    "solana:5fuRHZJfb6rBesKCTZECYT1t9uEidvCZ53YFbWc3xn8N": 0,
-    "solana:BQW2ANceBZY145ZoYBUX9nUPHe1r6SE29jQCj2Cjo3oh": 2,
-    "solana:7LfFJ8vGoerkm9NAKoCfUSPGUG2biSY64vmNtU9VfoSC": 2,
+    "solana:5fuRHZJfb6rBesKCTZECYT1t9uEidvCZ53YFbWc3xn8N": 1,
+    "solana:BQW2ANceBZY145ZoYBUX9nUPHe1r6SE29jQCj2Cjo3oh": 3,
+    "solana:7LfFJ8vGoerkm9NAKoCfUSPGUG2biSY64vmNtU9VfoSC": 3,
     "solana:9L47ncdU4PPKojtTZeHb5nWG79LFxJJAs1assSGYTcq4": 0,
     "solana:2zJ2xsjyb3p7yKtruzuLw3y9nc7KNVQgcvgm8P9y8SMb": 0,
     "solana:J1PPSKdZc918PBHXKBQ9cvVZU3RKXeaMvppvz1rssHN5": 2,
-    "solana:2PtU4XCX2EZ1k528HaJdHcmW6wHKYhhryMbpCShsUAuw": 0
+    "solana:2PtU4XCX2EZ1k528HaJdHcmW6wHKYhhryMbpCShsUAuw": 0,
+    "solana:Chw9RFPsdBEVbsbQ7bDTZ3JAA3j2pBJ6H28es9C3RC1p": 0,
+    "solana:Cstcv65NjdZx18LUCoE3wFzbSx5Wnc8fL4nEkF7U7M2e": 1,
+    "solana:3MnaqNmQPtdpaEeGR9uTphJu4K4DS7WjVVt8tEnU8WX7": 1,
+    "solana:EerzVpYQtg9ZVnq3QKqFitpLnYWXByLCV3P5t4ngmwo8": 1,
+    "solana:CVe5eBmWwKid37trLP6Z6BB7JyZK3GZ5U8epMD6aj6HD": 1,
+    "solana:3dvznin3DqejisrJFTdUrgPwbH6M1V21x4Kh3HrwkoPx": 1,
+    "solana:xLkYL9j5M8ExXA6aT69FHmEPWQR79jZ2Lpty7J7vAbW": 0
   },
   "exit_alerts_sent": {}
 }
