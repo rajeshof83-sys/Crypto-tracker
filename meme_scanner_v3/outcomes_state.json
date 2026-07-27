@@ -44641,10 +44641,17 @@
           "volume_24h": 1753482.44,
           "captured_at": "2026-07-26T15:30:12.206147+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 2.122e-06,
+          "liquidity": 2513.65,
+          "volume_24h": 630272.5,
+          "captured_at": "2026-07-27T11:39:23.285930+00:00",
+          "hours_elapsed": 26.4
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:EdZ4fJ6rBitX5gkzgr1HnkCxC1F3ADZiJUn5WghK8t5B": {
       "chain": "solana",
@@ -44766,7 +44773,7 @@
       "detection_time": "2026-07-27T04:02:17.621868+00:00",
       "detection_price": 0.0002732,
       "detection_liq": 39198.02,
-      "peak_price": 0.0002732,
+      "peak_price": 0.000338,
       "captures": {
         "price_1h": {
           "price": 0.0002617,
@@ -44774,6 +44781,13 @@
           "volume_24h": 1101474.95,
           "captured_at": "2026-07-27T05:12:54.557270+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 0.000338,
+          "liquidity": 46468.42,
+          "volume_24h": 2096879.92,
+          "captured_at": "2026-07-27T11:39:23.285930+00:00",
+          "hours_elapsed": 7.6
         }
       },
       "outcome_label": null,
@@ -44795,6 +44809,13 @@
           "volume_24h": 303272.35,
           "captured_at": "2026-07-27T07:51:39.239211+00:00",
           "hours_elapsed": 2.6
+        },
+        "price_6h": {
+          "price": 2.918e-06,
+          "liquidity": 2701.51,
+          "volume_24h": 303283.49,
+          "captured_at": "2026-07-27T11:39:23.285930+00:00",
+          "hours_elapsed": 6.4
         }
       },
       "outcome_label": null,
@@ -44818,6 +44839,32 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5fuRHZJfb6rBesKCTZECYT1t9uEidvCZ53YFbWc3xn8N": {
+      "chain": "solana",
+      "pair_address": "5fuRHZJfb6rBesKCTZECYT1t9uEidvCZ53YFbWc3xn8N",
+      "symbol": "BabyT",
+      "tier": "T2",
+      "detection_time": "2026-07-27T11:39:12.999035+00:00",
+      "detection_price": 0.0001649,
+      "detection_liq": 29531.57,
+      "peak_price": 0.0001649,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EVevj5oqhFj3SjC6nYhWd61kYuPwCXbMrx1gLDq2CWvL": {
+      "chain": "solana",
+      "pair_address": "EVevj5oqhFj3SjC6nYhWd61kYuPwCXbMrx1gLDq2CWvL",
+      "symbol": "NPC",
+      "tier": "T2",
+      "detection_time": "2026-07-27T11:39:15.940745+00:00",
+      "detection_price": 9.939e-05,
+      "detection_liq": 25594.26,
+      "peak_price": 9.939e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
