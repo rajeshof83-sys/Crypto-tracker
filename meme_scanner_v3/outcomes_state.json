@@ -45158,7 +45158,54 @@
       "detection_time": "2026-07-27T21:14:26.396904+00:00",
       "detection_price": 5.401e-13,
       "detection_liq": 24916.58,
-      "peak_price": 5.401e-13,
+      "peak_price": 5.683e-13,
+      "captures": {
+        "price_1h": {
+          "price": 5.683e-13,
+          "liquidity": 25503.55,
+          "volume_24h": 103210.47,
+          "captured_at": "2026-07-27T22:19:02.823822+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5PGhKctym6odbHGo2tKMST2AjmJsb2uZBQrKkn4ZuFT5": {
+      "chain": "solana",
+      "pair_address": "5PGhKctym6odbHGo2tKMST2AjmJsb2uZBQrKkn4ZuFT5",
+      "symbol": "Jimothy",
+      "tier": "T2",
+      "detection_time": "2026-07-27T22:18:48.212239+00:00",
+      "detection_price": 0.006979,
+      "detection_liq": 405761.9,
+      "peak_price": 0.006979,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Guz1tBNJQGKuVFRta7oe9NmoRnAPSwZpHr83YG1Sjwpy": {
+      "chain": "solana",
+      "pair_address": "Guz1tBNJQGKuVFRta7oe9NmoRnAPSwZpHr83YG1Sjwpy",
+      "symbol": "PATIENCE",
+      "tier": "T1",
+      "detection_time": "2026-07-27T22:18:50.942342+00:00",
+      "detection_price": 0.0002815,
+      "detection_liq": 38513.96,
+      "peak_price": 0.0002815,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3ukv4k8WEfnuic9tHAXBCSWkLEcQsHCZgh6iBUoFkygm": {
+      "chain": "solana",
+      "pair_address": "3ukv4k8WEfnuic9tHAXBCSWkLEcQsHCZgh6iBUoFkygm",
+      "symbol": "Papoi",
+      "tier": "T1",
+      "detection_time": "2026-07-27T22:18:53.522798+00:00",
+      "detection_price": 0.000177,
+      "detection_liq": 30982.55,
+      "peak_price": 0.000177,
       "captures": {},
       "outcome_label": null,
       "completed": false
