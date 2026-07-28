@@ -42834,7 +42834,7 @@
       "detection_time": "2026-07-21T03:54:32.294510+00:00",
       "detection_price": 0.0003117,
       "detection_liq": 42935.84,
-      "peak_price": 0.0003844,
+      "peak_price": 0.000781,
       "captures": {
         "price_1h": {
           "price": 0.0003354,
@@ -42856,10 +42856,17 @@
           "volume_24h": 551513.83,
           "captured_at": "2026-07-22T03:55:40.095863+00:00",
           "hours_elapsed": 24.0
+        },
+        "price_7d": {
+          "price": 0.000781,
+          "liquidity": 76354.91,
+          "volume_24h": 53704.15,
+          "captured_at": "2026-07-28T04:12:37.791816+00:00",
+          "hours_elapsed": 168.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "winner",
+      "completed": true
     },
     "solana:5YsszVi1235tJSdoxLRz5dXKuXX7cS5D2vLLWqL3jdS": {
       "chain": "solana",
@@ -42891,10 +42898,17 @@
           "volume_24h": 1348635.44,
           "captured_at": "2026-07-22T03:55:40.095863+00:00",
           "hours_elapsed": 24.0
+        },
+        "price_7d": {
+          "price": 6.855e-06,
+          "liquidity": 6850.66,
+          "volume_24h": 3264.51,
+          "captured_at": "2026-07-28T04:12:37.791816+00:00",
+          "hours_elapsed": 168.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:2T3LpVt9LTyktAzJANUHFwhyzECXdeJUsk7EruR5TBMB": {
       "chain": "solana",
@@ -44844,10 +44858,17 @@
           "volume_24h": 2096879.92,
           "captured_at": "2026-07-27T11:39:23.285930+00:00",
           "hours_elapsed": 7.6
+        },
+        "price_24h": {
+          "price": 2.855e-06,
+          "liquidity": 3040.87,
+          "volume_24h": 1305571.13,
+          "captured_at": "2026-07-28T04:12:37.791816+00:00",
+          "hours_elapsed": 24.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:3FBTfGipX6xxxhNJSxbev2zCaW1b5QYepeKXtZTLEddQ": {
       "chain": "solana",
