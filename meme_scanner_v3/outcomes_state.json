@@ -45550,7 +45550,28 @@
       "detection_time": "2026-07-28T14:37:22.183599+00:00",
       "detection_price": 0.001552,
       "detection_liq": 92764.81,
-      "peak_price": 0.001552,
+      "peak_price": 0.001776,
+      "captures": {
+        "price_1h": {
+          "price": 0.001776,
+          "liquidity": 101048.74,
+          "volume_24h": 1025365.66,
+          "captured_at": "2026-07-28T15:43:02.303889+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7SNET71MJdGc7iiJqBzLXL8AejjeiVwGPTdMSaFicTT2": {
+      "chain": "solana",
+      "pair_address": "7SNET71MJdGc7iiJqBzLXL8AejjeiVwGPTdMSaFicTT2",
+      "symbol": "BCAT",
+      "tier": "T1",
+      "detection_time": "2026-07-28T15:42:53.387154+00:00",
+      "detection_price": 0.0002029,
+      "detection_liq": 32719.13,
+      "peak_price": 0.0002029,
       "captures": {},
       "outcome_label": null,
       "completed": false
