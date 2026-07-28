@@ -45516,6 +45516,13 @@
           "volume_24h": 389990.79,
           "captured_at": "2026-07-28T10:57:49.496328+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 4.962e-05,
+          "liquidity": 18760.15,
+          "volume_24h": 257957.09,
+          "captured_at": "2026-07-28T16:51:16.310779+00:00",
+          "hours_elapsed": 7.1
         }
       },
       "outcome_label": null,
@@ -45537,6 +45544,13 @@
           "volume_24h": 697833.75,
           "captured_at": "2026-07-28T10:57:49.496328+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 0.0002532,
+          "liquidity": 38576.87,
+          "volume_24h": 1601037.03,
+          "captured_at": "2026-07-28T16:51:16.310779+00:00",
+          "hours_elapsed": 7.1
         }
       },
       "outcome_label": null,
@@ -45572,6 +45586,53 @@
       "detection_price": 0.0002029,
       "detection_liq": 32719.13,
       "peak_price": 0.0002029,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001483,
+          "liquidity": 28185.4,
+          "volume_24h": 866886.3,
+          "captured_at": "2026-07-28T16:51:16.310779+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:WezJPofhwN4kcNWPpx9EW5ArnMazDSV4kAmCwUd3GhN": {
+      "chain": "solana",
+      "pair_address": "WezJPofhwN4kcNWPpx9EW5ArnMazDSV4kAmCwUd3GhN",
+      "symbol": "BULLCULT",
+      "tier": "T2",
+      "detection_time": "2026-07-28T16:50:52.359044+00:00",
+      "detection_price": 0.0002122,
+      "detection_liq": 32815.25,
+      "peak_price": 0.0002122,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:ApYk52FHc7WKApkUcgvL2QxCHAeSPUHtsoG8vsngyRPR": {
+      "chain": "solana",
+      "pair_address": "ApYk52FHc7WKApkUcgvL2QxCHAeSPUHtsoG8vsngyRPR",
+      "symbol": "Gnomes",
+      "tier": "T1",
+      "detection_time": "2026-07-28T16:51:07.423447+00:00",
+      "detection_price": 0.0001803,
+      "detection_liq": 31131.43,
+      "peak_price": 0.0001803,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CmjqRAnxfYVJqaw9CVB7M267oD7U2wDBHskpHEij1dhw": {
+      "chain": "solana",
+      "pair_address": "CmjqRAnxfYVJqaw9CVB7M267oD7U2wDBHskpHEij1dhw",
+      "symbol": "Nick.exe",
+      "tier": "T2",
+      "detection_time": "2026-07-28T16:51:09.893267+00:00",
+      "detection_price": 7.964e-05,
+      "detection_liq": 21101.5,
+      "peak_price": 7.964e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
