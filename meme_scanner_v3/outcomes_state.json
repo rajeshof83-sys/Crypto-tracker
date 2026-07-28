@@ -44893,10 +44893,17 @@
           "volume_24h": 303283.49,
           "captured_at": "2026-07-27T11:39:23.285930+00:00",
           "hours_elapsed": 6.4
+        },
+        "price_24h": {
+          "price": 2.803e-06,
+          "liquidity": 2592.25,
+          "volume_24h": 81.87,
+          "captured_at": "2026-07-28T06:40:53.279849+00:00",
+          "hours_elapsed": 25.5
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:7zYwwKh2bk5y3VR8Cb8paYaHjjKKfeYJiigykzXUs1S": {
       "chain": "solana",
@@ -45375,7 +45382,28 @@
       "detection_time": "2026-07-28T04:43:37.583094+00:00",
       "detection_price": 0.0001379,
       "detection_liq": 26288.05,
-      "peak_price": 0.0001379,
+      "peak_price": 0.000205,
+      "captures": {
+        "price_1h": {
+          "price": 0.000205,
+          "liquidity": 32741.97,
+          "volume_24h": 575024.88,
+          "captured_at": "2026-07-28T06:40:53.279849+00:00",
+          "hours_elapsed": 2.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7icXpDd688MGgfJaxsXddy9gch4q1jYLiHXqTDDLBGxq": {
+      "chain": "solana",
+      "pair_address": "7icXpDd688MGgfJaxsXddy9gch4q1jYLiHXqTDDLBGxq",
+      "symbol": "ROBINJACK",
+      "tier": "T1",
+      "detection_time": "2026-07-28T06:40:43.555144+00:00",
+      "detection_price": 0.0003953,
+      "detection_liq": 45162.1,
+      "peak_price": 0.0003953,
       "captures": {},
       "outcome_label": null,
       "completed": false
