@@ -29271,8 +29271,8 @@
       "peak_safety": 8
     },
     "solana:25kg8LgHEBFHnMtmE1twLo1cHW3a9ovQiDufYPLhhzTe": {
-      "peak_liq": 36040.2,
-      "peak_vol": 648182.96,
+      "peak_liq": 46738.59,
+      "peak_vol": 1253814.44,
       "peak_safety": 8
     },
     "solana:7xvgNME5uXk1HhobcsD661nRfQw95PihcQHrUBDLqmyB": {
@@ -29304,6 +29304,16 @@
       "peak_liq": 74766.68,
       "peak_vol": 5410043.58,
       "peak_safety": 10
+    },
+    "ethereum:0xc4704f13d5E08b27B039d53873E813dD2fAD99d9": {
+      "peak_liq": 600185.19,
+      "peak_vol": 409324.9,
+      "peak_safety": 10
+    },
+    "solana:Ba7HjCn2BNyeaDsHbj3J9RPaZ12w1MTg9eRcyBDYSYHF": {
+      "peak_liq": 0.0,
+      "peak_vol": 26586.01,
+      "peak_safety": 7
     }
   },
   "consecutive_negative": {
@@ -35167,7 +35177,9 @@
     "solana:CJcuQG5YgWvpjeZgjZqidZgSJfXZLnboLm5F9Eu8oZnY": 0,
     "solana:CJx9ofG2widTmsBjxhSJjKzssaxQEwy3upK82GjZmXwA": 1,
     "solana:1MrWhR8jsszRBWJuJdnaff4UACLJQrEwimdgzHHA6CP": 0,
-    "solana:HHhpBzMbzekTQPMSzf6pT8UxeXi39oZgtxToTh9ivoZ7": 1
+    "solana:HHhpBzMbzekTQPMSzf6pT8UxeXi39oZgtxToTh9ivoZ7": 1,
+    "ethereum:0xc4704f13d5E08b27B039d53873E813dD2fAD99d9": 1,
+    "solana:Ba7HjCn2BNyeaDsHbj3J9RPaZ12w1MTg9eRcyBDYSYHF": 0
   },
   "exit_alerts_sent": {}
 }
