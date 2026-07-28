@@ -45047,6 +45047,13 @@
           "volume_24h": 347493.57,
           "captured_at": "2026-07-27T21:14:32.392519+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 0.0001622,
+          "liquidity": 28481.59,
+          "volume_24h": 111922.01,
+          "captured_at": "2026-07-28T15:22:50.777049+00:00",
+          "hours_elapsed": 24.1
         }
       },
       "outcome_label": null,
@@ -45075,10 +45082,17 @@
           "volume_24h": 799554.92,
           "captured_at": "2026-07-27T21:14:32.392519+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 1.582e-06,
+          "liquidity": 1700.11,
+          "volume_24h": 50512.07,
+          "captured_at": "2026-07-28T15:22:50.777049+00:00",
+          "hours_elapsed": 24.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:3U5Xo2cwWgARdLahcAtitMLrfPyKuJVio1PxJc5BjiMC": {
       "chain": "solana",
@@ -45103,10 +45117,17 @@
           "volume_24h": 894130.02,
           "captured_at": "2026-07-27T21:14:32.392519+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 1.373e-05,
+          "liquidity": 7542.05,
+          "volume_24h": 480952.51,
+          "captured_at": "2026-07-28T15:22:50.777049+00:00",
+          "hours_elapsed": 24.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:6jWdPRRKmW986vSimwHAcY8ssiNXFFZKzHp8pYdiTwJZ": {
       "chain": "solana",
@@ -45131,6 +45152,13 @@
           "volume_24h": 1712607.55,
           "captured_at": "2026-07-27T21:14:32.392519+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 0.0001011,
+          "liquidity": 27805.81,
+          "volume_24h": 716123.52,
+          "captured_at": "2026-07-28T15:22:50.777049+00:00",
+          "hours_elapsed": 24.1
         }
       },
       "outcome_label": null,
