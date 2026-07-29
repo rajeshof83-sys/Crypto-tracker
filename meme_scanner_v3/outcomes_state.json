@@ -45879,7 +45879,7 @@
       "detection_time": "2026-07-28T17:56:09.290744+00:00",
       "detection_price": 0.0001104,
       "detection_liq": 23223.56,
-      "peak_price": 0.0001154,
+      "peak_price": 0.0001547,
       "captures": {
         "price_1h": {
           "price": 0.0001154,
@@ -45894,6 +45894,13 @@
           "volume_24h": 351448.26,
           "captured_at": "2026-07-29T00:03:47.552071+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 0.0001547,
+          "liquidity": 28133.7,
+          "volume_24h": 134755.61,
+          "captured_at": "2026-07-29T18:09:56.921261+00:00",
+          "hours_elapsed": 24.2
         }
       },
       "outcome_label": null,
@@ -46083,6 +46090,13 @@
           "volume_24h": 615525.02,
           "captured_at": "2026-07-29T13:15:44.607077+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 9.088e-06,
+          "liquidity": 5983.35,
+          "volume_24h": 730170.34,
+          "captured_at": "2026-07-29T18:09:56.921261+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -46118,6 +46132,27 @@
       "detection_price": 0.0003114,
       "detection_liq": 41290.33,
       "peak_price": 0.0003114,
+      "captures": {
+        "price_1h": {
+          "price": 6.82e-06,
+          "liquidity": 5399.63,
+          "volume_24h": 1778380.91,
+          "captured_at": "2026-07-29T18:09:56.921261+00:00",
+          "hours_elapsed": 1.8
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5xdVJp6rSZ3TnfcY2SCmefy74TdwhSGewkxJ3yGqkqE6": {
+      "chain": "solana",
+      "pair_address": "5xdVJp6rSZ3TnfcY2SCmefy74TdwhSGewkxJ3yGqkqE6",
+      "symbol": "DrTrump",
+      "tier": "T1",
+      "detection_time": "2026-07-29T18:09:49.522123+00:00",
+      "detection_price": 0.00046,
+      "detection_liq": 49258.88,
+      "peak_price": 0.00046,
       "captures": {},
       "outcome_label": null,
       "completed": false
