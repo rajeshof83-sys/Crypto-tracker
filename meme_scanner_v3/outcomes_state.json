@@ -45747,10 +45747,17 @@
           "volume_24h": 1169078.59,
           "captured_at": "2026-07-28T22:17:29.353049+00:00",
           "hours_elapsed": 6.6
+        },
+        "price_24h": {
+          "price": 1.657e-06,
+          "liquidity": 1876.75,
+          "volume_24h": 370121.23,
+          "captured_at": "2026-07-29T16:24:21.657618+00:00",
+          "hours_elapsed": 24.7
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:WezJPofhwN4kcNWPpx9EW5ArnMazDSV4kAmCwUd3GhN": {
       "chain": "solana",
@@ -46062,6 +46069,27 @@
       "detection_price": 0.0001191,
       "detection_liq": 24143.41,
       "peak_price": 0.0001191,
+      "captures": {
+        "price_1h": {
+          "price": 1.759e-06,
+          "liquidity": 1843.8,
+          "volume_24h": 553556.58,
+          "captured_at": "2026-07-29T16:24:21.657618+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AUuEBmHPC9Xm4yfvUfGvi6kv6Sh57Hmza9zyKqoyGctS": {
+      "chain": "solana",
+      "pair_address": "AUuEBmHPC9Xm4yfvUfGvi6kv6Sh57Hmza9zyKqoyGctS",
+      "symbol": "NiGa",
+      "tier": "T1",
+      "detection_time": "2026-07-29T16:24:12.312341+00:00",
+      "detection_price": 0.0003114,
+      "detection_liq": 41290.33,
+      "peak_price": 0.0003114,
       "captures": {},
       "outcome_label": null,
       "completed": false
