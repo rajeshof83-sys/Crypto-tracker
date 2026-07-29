@@ -43556,10 +43556,17 @@
           "volume_24h": 163605.48,
           "captured_at": "2026-07-23T20:36:17.258902+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 1.998e-06,
+          "liquidity": 2053.91,
+          "volume_24h": 11.11,
+          "captured_at": "2026-07-29T21:13:10.672633+00:00",
+          "hours_elapsed": 168.7
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:5mzKcNT1EcmQffeYN7577uv7bEXN7fyUccC2XsJpRNPR": {
       "chain": "solana",
@@ -43591,10 +43598,17 @@
           "volume_24h": 773090.32,
           "captured_at": "2026-07-23T20:36:17.258902+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 3.366e-06,
+          "liquidity": 3487.65,
+          "volume_24h": 1479.67,
+          "captured_at": "2026-07-29T21:13:10.672633+00:00",
+          "hours_elapsed": 168.7
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:4foKbQ9EnnvkSAB4P74omKJiAxyTJHEmy53yi8SiUMGf": {
       "chain": "solana",
@@ -46169,6 +46183,19 @@
           "hours_elapsed": 1.6
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DUnYaivChfiGCp1pSVMjhrTNpCC8C7Mkv1Jxyy4soRuR": {
+      "chain": "solana",
+      "pair_address": "DUnYaivChfiGCp1pSVMjhrTNpCC8C7Mkv1Jxyy4soRuR",
+      "symbol": "COPIUM",
+      "tier": "T1",
+      "detection_time": "2026-07-29T21:13:02.457401+00:00",
+      "detection_price": 0.001009,
+      "detection_liq": 73741.46,
+      "peak_price": 0.001009,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
