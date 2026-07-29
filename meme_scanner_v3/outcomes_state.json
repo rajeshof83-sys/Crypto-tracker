@@ -45887,6 +45887,13 @@
           "volume_24h": 1092977.08,
           "captured_at": "2026-07-29T00:59:26.585241+00:00",
           "hours_elapsed": 1.7
+        },
+        "price_6h": {
+          "price": 2.633e-06,
+          "liquidity": 2695.17,
+          "volume_24h": 1095440.0,
+          "captured_at": "2026-07-29T06:34:40.697073+00:00",
+          "hours_elapsed": 7.3
         }
       },
       "outcome_label": null,
@@ -45908,6 +45915,13 @@
           "volume_24h": 784430.13,
           "captured_at": "2026-07-29T01:12:07.431692+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 6.313e-05,
+          "liquidity": 18164.38,
+          "volume_24h": 967315.85,
+          "captured_at": "2026-07-29T06:34:40.697073+00:00",
+          "hours_elapsed": 6.4
         }
       },
       "outcome_label": null,
@@ -45921,7 +45935,28 @@
       "detection_time": "2026-07-29T04:48:07.031746+00:00",
       "detection_price": 0.0002492,
       "detection_liq": 36498.89,
-      "peak_price": 0.0002492,
+      "peak_price": 0.0002535,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002535,
+          "liquidity": 37819.06,
+          "volume_24h": 1179657.87,
+          "captured_at": "2026-07-29T06:34:40.697073+00:00",
+          "hours_elapsed": 1.8
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:33acUnoFrDQpzwo6wKQv7YTsbPfRTnyjC9EWyUxcBBDz": {
+      "chain": "solana",
+      "pair_address": "33acUnoFrDQpzwo6wKQv7YTsbPfRTnyjC9EWyUxcBBDz",
+      "symbol": "MOCHI",
+      "tier": "T2",
+      "detection_time": "2026-07-29T06:34:32.373374+00:00",
+      "detection_price": 7.976e-05,
+      "detection_liq": 19268.47,
+      "peak_price": 7.976e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
