@@ -45551,10 +45551,17 @@
           "volume_24h": 874336.74,
           "captured_at": "2026-07-28T10:57:49.496328+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 1.753e-06,
+          "liquidity": 1978.4,
+          "volume_24h": 843494.48,
+          "captured_at": "2026-07-29T04:48:14.438622+00:00",
+          "hours_elapsed": 24.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:7icXpDd688MGgfJaxsXddy9gch4q1jYLiHXqTDDLBGxq": {
       "chain": "solana",
@@ -45852,6 +45859,13 @@
           "volume_24h": 265708.83,
           "captured_at": "2026-07-28T23:31:05.299506+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 5.414e-06,
+          "liquidity": 4162.32,
+          "volume_24h": 319986.7,
+          "captured_at": "2026-07-29T04:48:14.438622+00:00",
+          "hours_elapsed": 6.5
         }
       },
       "outcome_label": null,
@@ -45896,6 +45910,19 @@
           "hours_elapsed": 1.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3GaLUfHJRwaZXWhwaByXrSxZp7ttH4DQ2wkWqCx4fNxu": {
+      "chain": "solana",
+      "pair_address": "3GaLUfHJRwaZXWhwaByXrSxZp7ttH4DQ2wkWqCx4fNxu",
+      "symbol": "PIPEDOG",
+      "tier": "T1",
+      "detection_time": "2026-07-29T04:48:07.031746+00:00",
+      "detection_price": 0.0002492,
+      "detection_liq": 36498.89,
+      "peak_price": 0.0002492,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
