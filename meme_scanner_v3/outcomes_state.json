@@ -45705,6 +45705,13 @@
           "volume_24h": 1902518.32,
           "captured_at": "2026-07-28T20:50:38.896604+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 0.001673,
+          "liquidity": 103022.53,
+          "volume_24h": 4075001.38,
+          "captured_at": "2026-07-29T15:19:39.963402+00:00",
+          "hours_elapsed": 24.7
         }
       },
       "outcome_label": null,
@@ -46036,6 +46043,19 @@
           "hours_elapsed": 1.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Tw3wHZDMvTAWojDxEGpxoSfTPXLYPtkkPwqvm9vePgS": {
+      "chain": "solana",
+      "pair_address": "Tw3wHZDMvTAWojDxEGpxoSfTPXLYPtkkPwqvm9vePgS",
+      "symbol": "PIPETRUMP",
+      "tier": "T1",
+      "detection_time": "2026-07-29T15:19:28.278153+00:00",
+      "detection_price": 0.0001191,
+      "detection_liq": 24143.41,
+      "peak_price": 0.0001191,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
