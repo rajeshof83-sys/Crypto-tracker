@@ -43843,10 +43843,17 @@
           "volume_24h": 224194.96,
           "captured_at": "2026-07-24T11:55:28.852312+00:00",
           "hours_elapsed": 24.0
+        },
+        "price_7d": {
+          "price": 0.0001839,
+          "liquidity": 36729.67,
+          "volume_24h": 99312.59,
+          "captured_at": "2026-07-30T12:04:31.176983+00:00",
+          "hours_elapsed": 168.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:2MCQwArUMUskMQZivgjdW5zQaXEZfAB1k7bNKXFWSv4p": {
       "chain": "solana",
@@ -43878,10 +43885,17 @@
           "volume_24h": 10409.49,
           "captured_at": "2026-07-24T11:55:28.852312+00:00",
           "hours_elapsed": 24.0
+        },
+        "price_7d": {
+          "price": 9.633e-06,
+          "liquidity": 9191.82,
+          "volume_24h": 1.12,
+          "captured_at": "2026-07-30T12:04:31.176983+00:00",
+          "hours_elapsed": 168.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:4b1zh3BgD9sKGy7iPK98VW4eyLDaAxGbF3F9Wb92CzhQ": {
       "chain": "solana",
@@ -46181,10 +46195,17 @@
           "volume_24h": 730170.34,
           "captured_at": "2026-07-29T18:09:56.921261+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 4.858e-06,
+          "liquidity": 4028.16,
+          "volume_24h": 314917.88,
+          "captured_at": "2026-07-30T12:04:31.176983+00:00",
+          "hours_elapsed": 24.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:Tw3wHZDMvTAWojDxEGpxoSfTPXLYPtkkPwqvm9vePgS": {
       "chain": "solana",
@@ -46442,6 +46463,19 @@
           "hours_elapsed": 1.4
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "bsc:0x33e81cD49F26311dea9c5Df53fBCD23f2c7fCF34": {
+      "chain": "bsc",
+      "pair_address": "0x33e81cD49F26311dea9c5Df53fBCD23f2c7fCF34",
+      "symbol": "MARTIANS",
+      "tier": "T1",
+      "detection_time": "2026-07-30T12:04:18.173966+00:00",
+      "detection_price": 0.0001817,
+      "detection_liq": 41345.27,
+      "peak_price": 0.0001817,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
