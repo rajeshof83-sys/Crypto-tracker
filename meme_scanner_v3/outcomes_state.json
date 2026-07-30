@@ -46300,10 +46300,17 @@
           "volume_24h": 1528957.32,
           "captured_at": "2026-07-30T00:11:49.805952+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 4.23e-06,
+          "liquidity": 4109.53,
+          "volume_24h": 3252482.66,
+          "captured_at": "2026-07-30T18:18:33.275166+00:00",
+          "hours_elapsed": 24.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:DUnYaivChfiGCp1pSVMjhrTNpCC8C7Mkv1Jxyy4soRuR": {
       "chain": "solana",
@@ -46517,6 +46524,13 @@
           "volume_24h": 501119.82,
           "captured_at": "2026-07-30T13:07:20.773137+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 0.0001429,
+          "liquidity": 36755.07,
+          "volume_24h": 679980.88,
+          "captured_at": "2026-07-30T18:18:33.275166+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -46531,6 +46545,27 @@
       "detection_price": 0.0001065,
       "detection_liq": 22739.56,
       "peak_price": 0.0001065,
+      "captures": {
+        "price_1h": {
+          "price": 1.672e-06,
+          "liquidity": 1728.09,
+          "volume_24h": 304127.93,
+          "captured_at": "2026-07-30T18:18:33.275166+00:00",
+          "hours_elapsed": 1.7
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EuXyWUcmiwkohbivVk1GSmZLSzshDvvCP7QZYCVYqUuS": {
+      "chain": "solana",
+      "pair_address": "EuXyWUcmiwkohbivVk1GSmZLSzshDvvCP7QZYCVYqUuS",
+      "symbol": "LEOPOLD",
+      "tier": "T1",
+      "detection_time": "2026-07-30T18:18:28.138411+00:00",
+      "detection_price": 0.0004599,
+      "detection_liq": 49495.5,
+      "peak_price": 0.0004599,
       "captures": {},
       "outcome_label": null,
       "completed": false
