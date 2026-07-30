@@ -46125,6 +46125,13 @@
           "volume_24h": 298784.8,
           "captured_at": "2026-07-29T13:15:44.607077+00:00",
           "hours_elapsed": 6.7
+        },
+        "price_24h": {
+          "price": 7.413e-06,
+          "liquidity": 5080.08,
+          "volume_24h": 227937.11,
+          "captured_at": "2026-07-30T06:41:47.553396+00:00",
+          "hours_elapsed": 24.1
         }
       },
       "outcome_label": null,
@@ -46278,7 +46285,7 @@
       "detection_time": "2026-07-30T00:11:38.499021+00:00",
       "detection_price": 0.0001503,
       "detection_liq": 29222.19,
-      "peak_price": 0.0003364,
+      "peak_price": 0.00114,
       "captures": {
         "price_1h": {
           "price": 0.0003364,
@@ -46286,6 +46293,13 @@
           "volume_24h": 745431.1,
           "captured_at": "2026-07-30T02:37:40.272401+00:00",
           "hours_elapsed": 2.4
+        },
+        "price_6h": {
+          "price": 0.00114,
+          "liquidity": 87507.45,
+          "volume_24h": 1934557.41,
+          "captured_at": "2026-07-30T06:41:47.553396+00:00",
+          "hours_elapsed": 6.5
         }
       },
       "outcome_label": null,
@@ -46330,6 +46344,19 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:43LWEFNQKHg49Dg8VikUWNop5YxM5k1xX7sXWxee66iw": {
+      "chain": "solana",
+      "pair_address": "43LWEFNQKHg49Dg8VikUWNop5YxM5k1xX7sXWxee66iw",
+      "symbol": "PIPECATE",
+      "tier": "T1",
+      "detection_time": "2026-07-30T06:41:36.757311+00:00",
+      "detection_price": 0.000209,
+      "detection_liq": 32497.94,
+      "peak_price": 0.000209,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
