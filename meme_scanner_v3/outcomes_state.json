@@ -46257,7 +46257,28 @@
       "detection_time": "2026-07-30T00:11:38.499021+00:00",
       "detection_price": 0.0001503,
       "detection_liq": 29222.19,
-      "peak_price": 0.0001503,
+      "peak_price": 0.0003364,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003364,
+          "liquidity": 45381.26,
+          "volume_24h": 745431.1,
+          "captured_at": "2026-07-30T02:37:40.272401+00:00",
+          "hours_elapsed": 2.4
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:BbRjRaHaYdH68GnDwLvPh6JBL7Gqif7JQpTSG7tULNG8": {
+      "chain": "solana",
+      "pair_address": "BbRjRaHaYdH68GnDwLvPh6JBL7Gqif7JQpTSG7tULNG8",
+      "symbol": "MARV",
+      "tier": "T2",
+      "detection_time": "2026-07-30T02:37:29.196966+00:00",
+      "detection_price": 9.842e-05,
+      "detection_liq": 21922.97,
+      "peak_price": 9.842e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
