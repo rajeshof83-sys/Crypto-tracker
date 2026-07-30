@@ -43640,10 +43640,17 @@
           "volume_24h": 479980.06,
           "captured_at": "2026-07-24T03:34:39.474996+00:00",
           "hours_elapsed": 24.3
+        },
+        "price_7d": {
+          "price": 3.438e-06,
+          "liquidity": 3380.12,
+          "volume_24h": 45.76,
+          "captured_at": "2026-07-30T03:28:56.573659+00:00",
+          "hours_elapsed": 168.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:CheZsCbJq3KAzVFRxVwAknZWJqTUKtvLWWLEDDasrYs3": {
       "chain": "solana",
@@ -46244,6 +46251,13 @@
           "volume_24h": 1260939.59,
           "captured_at": "2026-07-29T22:13:48.586309+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 1.567e-06,
+          "liquidity": 1747.17,
+          "volume_24h": 1348505.97,
+          "captured_at": "2026-07-30T03:28:56.573659+00:00",
+          "hours_elapsed": 6.3
         }
       },
       "outcome_label": null,
@@ -46279,6 +46293,19 @@
       "detection_price": 9.842e-05,
       "detection_liq": 21922.97,
       "peak_price": 9.842e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2D89LyXpkSHGogRqiBTQWVqNNvUk2TmuHjFk3SoaoCg5": {
+      "chain": "solana",
+      "pair_address": "2D89LyXpkSHGogRqiBTQWVqNNvUk2TmuHjFk3SoaoCg5",
+      "symbol": "Bigfoot",
+      "tier": "T1",
+      "detection_time": "2026-07-30T03:28:43.471745+00:00",
+      "detection_price": 0.0002181,
+      "detection_liq": 34674.82,
+      "peak_price": 0.0002181,
       "captures": {},
       "outcome_label": null,
       "completed": false
