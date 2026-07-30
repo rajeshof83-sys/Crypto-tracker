@@ -46335,6 +46335,13 @@
           "volume_24h": 318509.91,
           "captured_at": "2026-07-30T03:39:45.195562+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 9.494e-05,
+          "liquidity": 21576.03,
+          "volume_24h": 331051.55,
+          "captured_at": "2026-07-30T09:42:42.249728+00:00",
+          "hours_elapsed": 7.1
         }
       },
       "outcome_label": null,
@@ -46356,6 +46363,13 @@
           "volume_24h": 1525559.21,
           "captured_at": "2026-07-30T04:36:03.046174+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 9.299e-06,
+          "liquidity": 6543.16,
+          "volume_24h": 1618943.61,
+          "captured_at": "2026-07-30T09:42:42.249728+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -46391,6 +46405,27 @@
       "detection_price": 0.0001069,
       "detection_liq": 23504.67,
       "peak_price": 0.0001069,
+      "captures": {
+        "price_1h": {
+          "price": 7.928e-05,
+          "liquidity": 20669.97,
+          "volume_24h": 753545.28,
+          "captured_at": "2026-07-30T09:42:42.249728+00:00",
+          "hours_elapsed": 1.8
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Ed6rnUPCAUnE89zGfmq1jpjv1VDT1PE82RAHbHmEwyb8": {
+      "chain": "solana",
+      "pair_address": "Ed6rnUPCAUnE89zGfmq1jpjv1VDT1PE82RAHbHmEwyb8",
+      "symbol": "HIPPI",
+      "tier": "T1",
+      "detection_time": "2026-07-30T09:42:34.054161+00:00",
+      "detection_price": 0.0002063,
+      "detection_liq": 32083.83,
+      "peak_price": 0.0002063,
       "captures": {},
       "outcome_label": null,
       "completed": false
