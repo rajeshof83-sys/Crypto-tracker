@@ -46941,6 +46941,45 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:4FA2USKyQqS4kXKJSVdJHUDTn5ubLNFsfn2cHHp1eNQN": {
+      "chain": "solana",
+      "pair_address": "4FA2USKyQqS4kXKJSVdJHUDTn5ubLNFsfn2cHHp1eNQN",
+      "symbol": "TALKCAT",
+      "tier": "T1",
+      "detection_time": "2026-07-31T13:15:26.624214+00:00",
+      "detection_price": 0.0002167,
+      "detection_liq": 33224.77,
+      "peak_price": 0.0002167,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:vH5J2cEdsT7ZsUjLaiZNnSE5ADBoGr1NUvmvNdQ89Eb": {
+      "chain": "solana",
+      "pair_address": "vH5J2cEdsT7ZsUjLaiZNnSE5ADBoGr1NUvmvNdQ89Eb",
+      "symbol": "YAPAPA",
+      "tier": "T1",
+      "detection_time": "2026-07-31T13:15:28.924512+00:00",
+      "detection_price": 0.0002575,
+      "detection_liq": 36437.21,
+      "peak_price": 0.0002575,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3HnP4GjGpMJvhTPNtSJeUKdA3K7UGE9FvbzESH4itcdF": {
+      "chain": "solana",
+      "pair_address": "3HnP4GjGpMJvhTPNtSJeUKdA3K7UGE9FvbzESH4itcdF",
+      "symbol": "urcoin",
+      "tier": "T1",
+      "detection_time": "2026-07-31T13:15:31.574010+00:00",
+      "detection_price": 0.0001233,
+      "detection_liq": 25432.9,
+      "peak_price": 0.0001233,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
