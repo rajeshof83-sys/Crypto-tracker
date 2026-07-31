@@ -47007,6 +47007,13 @@
           "volume_24h": 684158.01,
           "captured_at": "2026-07-31T14:27:15.366127+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 1.534e-06,
+          "liquidity": 1719.46,
+          "volume_24h": 1113331.92,
+          "captured_at": "2026-07-31T20:03:39.536534+00:00",
+          "hours_elapsed": 6.8
         }
       },
       "outcome_label": null,
@@ -47028,6 +47035,13 @@
           "volume_24h": 685236.37,
           "captured_at": "2026-07-31T14:27:15.366127+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 1.671e-06,
+          "liquidity": 1777.07,
+          "volume_24h": 687141.49,
+          "captured_at": "2026-07-31T20:03:39.536534+00:00",
+          "hours_elapsed": 6.8
         }
       },
       "outcome_label": null,
@@ -47049,6 +47063,13 @@
           "volume_24h": 799055.92,
           "captured_at": "2026-07-31T14:27:15.366127+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 2.18e-05,
+          "liquidity": 10122.32,
+          "volume_24h": 913815.02,
+          "captured_at": "2026-07-31T20:03:39.536534+00:00",
+          "hours_elapsed": 6.8
         }
       },
       "outcome_label": null,
@@ -47084,6 +47105,40 @@
       "detection_price": 0.0002595,
       "detection_liq": 36197.28,
       "peak_price": 0.0002595,
+      "captures": {
+        "price_1h": {
+          "price": 6.383e-05,
+          "liquidity": 17443.57,
+          "volume_24h": 388751.09,
+          "captured_at": "2026-07-31T20:03:39.536534+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AtP1tga7A6zUZ9XCwAZemPMxPdDCHHbYqmmmx6etbNuy": {
+      "chain": "solana",
+      "pair_address": "AtP1tga7A6zUZ9XCwAZemPMxPdDCHHbYqmmmx6etbNuy",
+      "symbol": "OnlyDogs",
+      "tier": "T1",
+      "detection_time": "2026-07-31T20:03:26.962243+00:00",
+      "detection_price": 0.0005212,
+      "detection_liq": 52417.45,
+      "peak_price": 0.0005212,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FpfogpztVwc5GbVAVyCep4D8inQxdnHtfLXcX2GcX32i": {
+      "chain": "solana",
+      "pair_address": "FpfogpztVwc5GbVAVyCep4D8inQxdnHtfLXcX2GcX32i",
+      "symbol": "Ibeefa",
+      "tier": "T2",
+      "detection_time": "2026-07-31T20:03:30.006861+00:00",
+      "detection_price": 8.265e-05,
+      "detection_liq": 19730.57,
+      "peak_price": 8.265e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
