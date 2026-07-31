@@ -46370,6 +46370,13 @@
           "volume_24h": 1934557.41,
           "captured_at": "2026-07-30T06:41:47.553396+00:00",
           "hours_elapsed": 6.5
+        },
+        "price_24h": {
+          "price": 0.0002514,
+          "liquidity": 43181.46,
+          "volume_24h": 3010013.57,
+          "captured_at": "2026-07-31T01:06:16.365800+00:00",
+          "hours_elapsed": 24.9
         }
       },
       "outcome_label": null,
@@ -46587,6 +46594,13 @@
           "volume_24h": 524952.25,
           "captured_at": "2026-07-30T20:16:56.712946+00:00",
           "hours_elapsed": 2.0
+        },
+        "price_6h": {
+          "price": 2.167e-06,
+          "liquidity": 2181.81,
+          "volume_24h": 525277.19,
+          "captured_at": "2026-07-31T01:06:16.365800+00:00",
+          "hours_elapsed": 6.8
         }
       },
       "outcome_label": null,
@@ -46631,6 +46645,32 @@
           "hours_elapsed": 1.6
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DbRVBRLni7dk9VQQffn9NEL43LbADf5EJYdJnsiLQWaj": {
+      "chain": "solana",
+      "pair_address": "DbRVBRLni7dk9VQQffn9NEL43LbADf5EJYdJnsiLQWaj",
+      "symbol": "BRICK",
+      "tier": "T1",
+      "detection_time": "2026-07-31T01:06:07.092214+00:00",
+      "detection_price": 0.000461,
+      "detection_liq": 51831.62,
+      "peak_price": 0.000461,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FNZk3jfkVwd1uNn8EmNsyVxou2WpQx8BEEdGnQwv6Qkx": {
+      "chain": "solana",
+      "pair_address": "FNZk3jfkVwd1uNn8EmNsyVxou2WpQx8BEEdGnQwv6Qkx",
+      "symbol": "LINKR",
+      "tier": "T1",
+      "detection_time": "2026-07-31T01:06:10.403236+00:00",
+      "detection_price": 0.0001707,
+      "detection_liq": 29902.24,
+      "peak_price": 0.0001707,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
