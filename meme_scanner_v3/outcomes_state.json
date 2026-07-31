@@ -47147,7 +47147,15 @@
       "detection_price": 0.0005212,
       "detection_liq": 52417.45,
       "peak_price": 0.0005212,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 1.505e-06,
+          "liquidity": 1638.64,
+          "volume_24h": 1035846.12,
+          "captured_at": "2026-07-31T21:39:06.078749+00:00",
+          "hours_elapsed": 1.6
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -47160,6 +47168,27 @@
       "detection_price": 8.265e-05,
       "detection_liq": 19730.57,
       "peak_price": 8.265e-05,
+      "captures": {
+        "price_1h": {
+          "price": 1.547e-05,
+          "liquidity": 7872.3,
+          "volume_24h": 268960.61,
+          "captured_at": "2026-07-31T21:39:06.078749+00:00",
+          "hours_elapsed": 1.6
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2Btg39je99FgGEqffwdaQv8TtzWmLzWuAdbkppsmXQ3K": {
+      "chain": "solana",
+      "pair_address": "2Btg39je99FgGEqffwdaQv8TtzWmLzWuAdbkppsmXQ3K",
+      "symbol": "MySpace",
+      "tier": "T1",
+      "detection_time": "2026-07-31T21:38:58.250907+00:00",
+      "detection_price": 0.0001788,
+      "detection_liq": 31556.16,
+      "peak_price": 0.0001788,
       "captures": {},
       "outcome_label": null,
       "completed": false
