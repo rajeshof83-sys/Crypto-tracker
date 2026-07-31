@@ -46517,6 +46517,13 @@
           "volume_24h": 1082613.72,
           "captured_at": "2026-07-30T14:09:25.155193+00:00",
           "hours_elapsed": 6.3
+        },
+        "price_24h": {
+          "price": 7.335e-05,
+          "liquidity": 20935.26,
+          "volume_24h": 753355.5,
+          "captured_at": "2026-07-31T08:16:30.368148+00:00",
+          "hours_elapsed": 24.4
         }
       },
       "outcome_label": null,
@@ -46806,6 +46813,45 @@
           "hours_elapsed": 1.8
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DSXNwsvmoNpMMGCEH4sXqhVuinyb6aLc2gRPohAZzBbp": {
+      "chain": "solana",
+      "pair_address": "DSXNwsvmoNpMMGCEH4sXqhVuinyb6aLc2gRPohAZzBbp",
+      "symbol": "fomocat",
+      "tier": "T1",
+      "detection_time": "2026-07-31T08:16:18.795733+00:00",
+      "detection_price": 0.0003948,
+      "detection_liq": 48191.6,
+      "peak_price": 0.0003948,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "bsc:0x8009Ea983e72615B9223300f6C0F00dAf0601313": {
+      "chain": "bsc",
+      "pair_address": "0x8009Ea983e72615B9223300f6C0F00dAf0601313",
+      "symbol": "ElonCoin",
+      "tier": "T2",
+      "detection_time": "2026-07-31T08:16:21.556851+00:00",
+      "detection_price": 0.0004242,
+      "detection_liq": 59884.31,
+      "peak_price": 0.0004242,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:sqbEBqTfbxv9vwuvdheuHt7qYx2YCbYZcgFgwJp97jt": {
+      "chain": "solana",
+      "pair_address": "sqbEBqTfbxv9vwuvdheuHt7qYx2YCbYZcgFgwJp97jt",
+      "symbol": "KCAT",
+      "tier": "T1",
+      "detection_time": "2026-07-31T08:16:25.017749+00:00",
+      "detection_price": 0.0001453,
+      "detection_liq": 27052.94,
+      "peak_price": 0.0001453,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
