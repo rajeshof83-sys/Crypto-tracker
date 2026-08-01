@@ -47329,6 +47329,27 @@
       "detection_price": 0.0002471,
       "detection_liq": 35763.76,
       "peak_price": 0.0002471,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002413,
+          "liquidity": 35562.99,
+          "volume_24h": 680116.25,
+          "captured_at": "2026-08-01T10:17:56.443316+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "bsc:0xdD9b3C84AA6e8d8E36AFcF19DBC42f8c0130f512": {
+      "chain": "bsc",
+      "pair_address": "0xdD9b3C84AA6e8d8E36AFcF19DBC42f8c0130f512",
+      "symbol": "SAFEMOON",
+      "tier": "T2",
+      "detection_time": "2026-08-01T10:17:45.412717+00:00",
+      "detection_price": 6.656e-05,
+      "detection_liq": 23320.19,
+      "peak_price": 6.656e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
