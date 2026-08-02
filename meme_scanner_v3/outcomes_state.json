@@ -47725,6 +47725,19 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "bsc:0x7e56c2d8a556828332D4476b6524CE8a0100E26A": {
+      "chain": "bsc",
+      "pair_address": "0x7e56c2d8a556828332D4476b6524CE8a0100E26A",
+      "symbol": "BeeStock",
+      "tier": "T1",
+      "detection_time": "2026-08-02T15:05:13.882990+00:00",
+      "detection_price": 5.248e-05,
+      "detection_liq": 20825.07,
+      "peak_price": 5.248e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
