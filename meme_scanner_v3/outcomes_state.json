@@ -47434,6 +47434,13 @@
           "volume_24h": 1095352.72,
           "captured_at": "2026-08-01T15:19:03.324658+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 0.0001929,
+          "liquidity": 33671.72,
+          "volume_24h": 1205804.71,
+          "captured_at": "2026-08-02T09:11:44.482478+00:00",
+          "hours_elapsed": 24.1
         }
       },
       "outcome_label": null,
@@ -47625,6 +47632,19 @@
           "hours_elapsed": 1.7
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "ethereum:0x9314DfdD02c8269f97B085429BfbBB04D95078c4": {
+      "chain": "ethereum",
+      "pair_address": "0x9314DfdD02c8269f97B085429BfbBB04D95078c4",
+      "symbol": "BabyAsteroid",
+      "tier": "T2",
+      "detection_time": "2026-08-02T09:11:33.144291+00:00",
+      "detection_price": 3.969e-13,
+      "detection_liq": 17464.09,
+      "peak_price": 3.969e-13,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
