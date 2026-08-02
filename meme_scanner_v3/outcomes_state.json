@@ -47399,6 +47399,13 @@
           "volume_24h": 664902.13,
           "captured_at": "2026-08-01T11:19:34.052737+00:00",
           "hours_elapsed": 6.4
+        },
+        "price_24h": {
+          "price": 5.75e-05,
+          "liquidity": 18562.36,
+          "volume_24h": 311161.95,
+          "captured_at": "2026-08-02T04:56:18.893934+00:00",
+          "hours_elapsed": 24.1
         }
       },
       "outcome_label": null,
@@ -47583,6 +47590,19 @@
           "hours_elapsed": 2.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5xstd6cxw2bWGU3wfvCmGZrhRsSBBTQhXGN7iq5gWuGS": {
+      "chain": "solana",
+      "pair_address": "5xstd6cxw2bWGU3wfvCmGZrhRsSBBTQhXGN7iq5gWuGS",
+      "symbol": "JORDAN",
+      "tier": "T1",
+      "detection_time": "2026-08-02T04:56:09.697870+00:00",
+      "detection_price": 0.0006535,
+      "detection_liq": 63068.67,
+      "peak_price": 0.0006535,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
