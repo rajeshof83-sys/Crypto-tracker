@@ -45376,10 +45376,17 @@
           "volume_24h": 2767063.36,
           "captured_at": "2026-07-28T17:12:35.661557+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 9.601e-06,
+          "liquidity": 7372.23,
+          "volume_24h": 2508.19,
+          "captured_at": "2026-08-03T17:11:48.153225+00:00",
+          "hours_elapsed": 168.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "moon",
+      "completed": true
     },
     "solana:6xGE3GbxyuHH62Afezmk49PAc9rkZxE81hBEFUGPeZmp": {
       "chain": "solana",
@@ -48126,7 +48133,41 @@
       "detection_time": "2026-08-03T16:03:28.455374+00:00",
       "detection_price": 0.001389,
       "detection_liq": 123791.9,
-      "peak_price": 0.001389,
+      "peak_price": 0.001511,
+      "captures": {
+        "price_1h": {
+          "price": 0.001511,
+          "liquidity": 130157.77,
+          "volume_24h": 1361141.01,
+          "captured_at": "2026-08-03T17:11:48.153225+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "bsc:0xEae8516795cB6250e8ccaAc1167A6338980E3d32": {
+      "chain": "bsc",
+      "pair_address": "0xEae8516795cB6250e8ccaAc1167A6338980E3d32",
+      "symbol": "GME",
+      "tier": "T2",
+      "detection_time": "2026-08-03T17:11:30.308355+00:00",
+      "detection_price": 7.103e-05,
+      "detection_liq": 26257.31,
+      "peak_price": 7.103e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3XrnFBQ6AvcxY3cBsyhAHahUFmPBV7rvJCp4EmbUQtHX": {
+      "chain": "solana",
+      "pair_address": "3XrnFBQ6AvcxY3cBsyhAHahUFmPBV7rvJCp4EmbUQtHX",
+      "symbol": "BABYCATE",
+      "tier": "T2",
+      "detection_time": "2026-08-03T17:11:37.313320+00:00",
+      "detection_price": 0.00017,
+      "detection_liq": 40021.9,
+      "peak_price": 0.00017,
       "captures": {},
       "outcome_label": null,
       "completed": false
