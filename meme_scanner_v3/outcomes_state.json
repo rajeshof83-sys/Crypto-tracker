@@ -48239,6 +48239,40 @@
       "detection_price": 0.0001712,
       "detection_liq": 30511.52,
       "peak_price": 0.0001712,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001177,
+          "liquidity": 25834.76,
+          "volume_24h": 1243312.92,
+          "captured_at": "2026-08-03T20:13:20.043480+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4HPcicVByFm9sfP8KY2vtguGVG3PkGuqLgrn8nqniD3H": {
+      "chain": "solana",
+      "pair_address": "4HPcicVByFm9sfP8KY2vtguGVG3PkGuqLgrn8nqniD3H",
+      "symbol": "CATE",
+      "tier": "T1",
+      "detection_time": "2026-08-03T20:12:58.656162+00:00",
+      "detection_price": 5.885e-05,
+      "detection_liq": 20918.49,
+      "peak_price": 5.885e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AypFy111g9Nt1JvUNYmtJd9iS2m8C3PbVEosmX9ecHEu": {
+      "chain": "solana",
+      "pair_address": "AypFy111g9Nt1JvUNYmtJd9iS2m8C3PbVEosmX9ecHEu",
+      "symbol": "Fapcoin",
+      "tier": "T2",
+      "detection_time": "2026-08-03T20:13:01.297021+00:00",
+      "detection_price": 0.00147,
+      "detection_liq": 118615.58,
+      "peak_price": 0.00147,
       "captures": {},
       "outcome_label": null,
       "completed": false
