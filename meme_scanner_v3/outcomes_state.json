@@ -48246,6 +48246,13 @@
           "volume_24h": 171524.77,
           "captured_at": "2026-08-03T18:18:03.624632+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 4.441e-05,
+          "liquidity": 20744.43,
+          "volume_24h": 176837.95,
+          "captured_at": "2026-08-03T23:28:30.241935+00:00",
+          "hours_elapsed": 6.3
         }
       },
       "outcome_label": null,
@@ -48267,6 +48274,13 @@
           "volume_24h": 604495.87,
           "captured_at": "2026-08-03T18:18:03.624632+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 2.595e-05,
+          "liquidity": 14225.08,
+          "volume_24h": 718067.2,
+          "captured_at": "2026-08-03T23:28:30.241935+00:00",
+          "hours_elapsed": 6.3
         }
       },
       "outcome_label": null,
@@ -48353,6 +48367,19 @@
           "hours_elapsed": 1.5
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3oZxoXE51Edgkt5oTqirpz9tFYJHb65q41cbrWYC1wVc": {
+      "chain": "solana",
+      "pair_address": "3oZxoXE51Edgkt5oTqirpz9tFYJHb65q41cbrWYC1wVc",
+      "symbol": "WIGLET",
+      "tier": "T1",
+      "detection_time": "2026-08-03T23:28:20.523123+00:00",
+      "detection_price": 0.0001188,
+      "detection_liq": 24684.64,
+      "peak_price": 0.0001188,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
