@@ -48054,6 +48054,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:9aR41QFTPfZKkMjEt8Nsg55JsvCNrpESWA239NBBtdBL": {
+      "chain": "solana",
+      "pair_address": "9aR41QFTPfZKkMjEt8Nsg55JsvCNrpESWA239NBBtdBL",
+      "symbol": "BBQCOIN",
+      "tier": "T1",
+      "detection_time": "2026-08-03T14:46:12.102315+00:00",
+      "detection_price": 0.0001054,
+      "detection_liq": 22465.42,
+      "peak_price": 0.0001054,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FxAk2fgjJXY1e4rpQCJEAamURCnjyjoSHyVgTyQ9ucN9": {
+      "chain": "solana",
+      "pair_address": "FxAk2fgjJXY1e4rpQCJEAamURCnjyjoSHyVgTyQ9ucN9",
+      "symbol": "OnlyMarms",
+      "tier": "T2",
+      "detection_time": "2026-08-03T14:46:17.968508+00:00",
+      "detection_price": 0.0003698,
+      "detection_liq": 53299.54,
+      "peak_price": 0.0003698,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
