@@ -47686,6 +47686,13 @@
           "volume_24h": 4055996.34,
           "captured_at": "2026-08-02T11:19:18.927298+00:00",
           "hours_elapsed": 6.4
+        },
+        "price_24h": {
+          "price": 0.0004721,
+          "liquidity": 61392.82,
+          "volume_24h": 5428858.37,
+          "captured_at": "2026-08-03T05:05:42.479615+00:00",
+          "hours_elapsed": 24.2
         }
       },
       "outcome_label": null,
@@ -47889,7 +47896,15 @@
       "detection_price": 0.0001136,
       "detection_liq": 23970.86,
       "peak_price": 0.0001136,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 6.696e-05,
+          "liquidity": 18294.41,
+          "volume_24h": 676035.09,
+          "captured_at": "2026-08-03T05:05:42.479615+00:00",
+          "hours_elapsed": 1.7
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -47902,6 +47917,27 @@
       "detection_price": 0.000175,
       "detection_liq": 29906.78,
       "peak_price": 0.000175,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001207,
+          "liquidity": 24638.64,
+          "volume_24h": 602823.08,
+          "captured_at": "2026-08-03T05:05:42.479615+00:00",
+          "hours_elapsed": 1.7
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FTemP26mjU2PuK4f7ZtkicKa1zkgkR7HqQPPGkADFCGT": {
+      "chain": "solana",
+      "pair_address": "FTemP26mjU2PuK4f7ZtkicKa1zkgkR7HqQPPGkADFCGT",
+      "symbol": "DECK",
+      "tier": "T1",
+      "detection_time": "2026-08-03T05:05:26.755707+00:00",
+      "detection_price": 0.0002108,
+      "detection_liq": 32815.9,
+      "peak_price": 0.0002108,
       "captures": {},
       "outcome_label": null,
       "completed": false
