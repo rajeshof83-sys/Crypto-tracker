@@ -47837,6 +47837,19 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "ethereum:0x9964122663c62c353a0c5282dcf033d18f4584bdeaf0e239036dd479a9857be9": {
+      "chain": "ethereum",
+      "pair_address": "0x9964122663c62c353a0c5282dcf033d18f4584bdeaf0e239036dd479a9857be9",
+      "symbol": "UNISTREET",
+      "tier": "T2",
+      "detection_time": "2026-08-03T00:01:18.284418+00:00",
+      "detection_price": 0.1143,
+      "detection_liq": 43446.75,
+      "peak_price": 0.1143,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
