@@ -46027,10 +46027,17 @@
           "volume_24h": 2309408.4,
           "captured_at": "2026-07-29T16:59:04.601637+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 8.124e-05,
+          "liquidity": 25959.64,
+          "volume_24h": 217064.97,
+          "captured_at": "2026-08-04T17:03:24.770976+00:00",
+          "hours_elapsed": 168.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "moon",
+      "completed": true
     },
     "solana:CmjqRAnxfYVJqaw9CVB7M267oD7U2wDBHskpHEij1dhw": {
       "chain": "solana",
@@ -46062,10 +46069,17 @@
           "volume_24h": 38684.42,
           "captured_at": "2026-07-29T16:59:04.601637+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 4.306e-05,
+          "liquidity": 15671.98,
+          "volume_24h": 47346.34,
+          "captured_at": "2026-08-04T17:03:24.770976+00:00",
+          "hours_elapsed": 168.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:Fy7xZpWUEDn8Tf5PqC4KCStvunSr5EwR65KtKFPhb3Bv": {
       "chain": "solana",
@@ -48295,6 +48309,13 @@
           "volume_24h": 2051252.42,
           "captured_at": "2026-08-03T22:18:31.235310+00:00",
           "hours_elapsed": 6.3
+        },
+        "price_24h": {
+          "price": 0.001236,
+          "liquidity": 122325.77,
+          "volume_24h": 2386697.47,
+          "captured_at": "2026-08-04T17:03:24.770976+00:00",
+          "hours_elapsed": 25.0
         }
       },
       "outcome_label": null,
@@ -48533,7 +48554,15 @@
       "detection_price": 0.0001755,
       "detection_liq": 29605.86,
       "peak_price": 0.0001755,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0001436,
+          "liquidity": 26931.45,
+          "volume_24h": 484083.95,
+          "captured_at": "2026-08-04T17:03:24.770976+00:00",
+          "hours_elapsed": 2.4
+        }
+      },
       "outcome_label": null,
       "completed": false
     }
