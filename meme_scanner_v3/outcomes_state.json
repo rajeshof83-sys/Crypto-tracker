@@ -46111,10 +46111,17 @@
           "volume_24h": 134755.61,
           "captured_at": "2026-07-29T18:09:56.921261+00:00",
           "hours_elapsed": 24.2
+        },
+        "price_7d": {
+          "price": 3.439e-06,
+          "liquidity": 3110.54,
+          "volume_24h": 133.27,
+          "captured_at": "2026-08-04T18:52:57.547295+00:00",
+          "hours_elapsed": 168.9
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:TGsmJeiHYPMEGUSNjLpr3asFeYf2tJyocRYwUZkB5SH": {
       "chain": "solana",
@@ -48414,6 +48421,13 @@
           "volume_24h": 643307.2,
           "captured_at": "2026-08-04T03:37:24.486384+00:00",
           "hours_elapsed": 9.3
+        },
+        "price_24h": {
+          "price": 0.0004043,
+          "liquidity": 55129.09,
+          "volume_24h": 264890.83,
+          "captured_at": "2026-08-04T18:52:57.547295+00:00",
+          "hours_elapsed": 24.6
         }
       },
       "outcome_label": null,
@@ -48577,6 +48591,19 @@
           "hours_elapsed": 2.4
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5W21DWFcsB4AiEaizL5S1r1utDWGDtUhUengczbYf15P": {
+      "chain": "solana",
+      "pair_address": "5W21DWFcsB4AiEaizL5S1r1utDWGDtUhUengczbYf15P",
+      "symbol": "Instagram ",
+      "tier": "T1",
+      "detection_time": "2026-08-04T18:52:45.138364+00:00",
+      "detection_price": 8.612e-05,
+      "detection_liq": 20310.47,
+      "peak_price": 8.612e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
