@@ -45915,10 +45915,17 @@
           "volume_24h": 4075001.38,
           "captured_at": "2026-07-29T15:19:39.963402+00:00",
           "hours_elapsed": 24.7
+        },
+        "price_7d": {
+          "price": 2.883e-06,
+          "liquidity": 3514.38,
+          "volume_24h": 94.41,
+          "captured_at": "2026-08-04T14:41:34.552926+00:00",
+          "hours_elapsed": 168.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:7SNET71MJdGc7iiJqBzLXL8AejjeiVwGPTdMSaFicTT2": {
       "chain": "solana",
@@ -48500,6 +48507,19 @@
           "hours_elapsed": 6.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9xBzMMoMkNY2SsukRCTM5QJZTtHEyErqpZPFaauXeCde": {
+      "chain": "solana",
+      "pair_address": "9xBzMMoMkNY2SsukRCTM5QJZTtHEyErqpZPFaauXeCde",
+      "symbol": "DOGEWIFHAT",
+      "tier": "T1",
+      "detection_time": "2026-08-04T14:41:28.996358+00:00",
+      "detection_price": 0.0001755,
+      "detection_liq": 29605.86,
+      "peak_price": 0.0001755,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
