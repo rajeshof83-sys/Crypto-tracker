@@ -48491,6 +48491,13 @@
           "volume_24h": 223163.55,
           "captured_at": "2026-08-04T03:37:24.486384+00:00",
           "hours_elapsed": 7.4
+        },
+        "price_24h": {
+          "price": 4.67e-05,
+          "liquidity": 18757.28,
+          "volume_24h": 48203.7,
+          "captured_at": "2026-08-04T20:43:31.492991+00:00",
+          "hours_elapsed": 24.5
         }
       },
       "outcome_label": null,
@@ -48519,6 +48526,13 @@
           "volume_24h": 441472.61,
           "captured_at": "2026-08-04T03:37:24.486384+00:00",
           "hours_elapsed": 7.4
+        },
+        "price_24h": {
+          "price": 0.0009648,
+          "liquidity": 96349.98,
+          "volume_24h": 145589.58,
+          "captured_at": "2026-08-04T20:43:31.492991+00:00",
+          "hours_elapsed": 24.5
         }
       },
       "outcome_label": null,
@@ -48596,6 +48610,13 @@
           "volume_24h": 484083.95,
           "captured_at": "2026-08-04T17:03:24.770976+00:00",
           "hours_elapsed": 2.4
+        },
+        "price_6h": {
+          "price": 9.609e-05,
+          "liquidity": 21958.95,
+          "volume_24h": 536702.4,
+          "captured_at": "2026-08-04T20:43:31.492991+00:00",
+          "hours_elapsed": 6.0
         }
       },
       "outcome_label": null,
@@ -48609,7 +48630,41 @@
       "detection_time": "2026-08-04T18:52:45.138364+00:00",
       "detection_price": 8.612e-05,
       "detection_liq": 20310.47,
-      "peak_price": 8.612e-05,
+      "peak_price": 0.0003709,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003709,
+          "liquidity": 45396.55,
+          "volume_24h": 1013401.04,
+          "captured_at": "2026-08-04T20:43:31.492991+00:00",
+          "hours_elapsed": 1.8
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FyhXmJjb2jqvyWVvcXSPfH3FFXj9wiHF6ZTXfzvsV7pU": {
+      "chain": "solana",
+      "pair_address": "FyhXmJjb2jqvyWVvcXSPfH3FFXj9wiHF6ZTXfzvsV7pU",
+      "symbol": "100x",
+      "tier": "T1",
+      "detection_time": "2026-08-04T20:43:17.280818+00:00",
+      "detection_price": 0.0002622,
+      "detection_liq": 36530.18,
+      "peak_price": 0.0002622,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3CdhrPHxpXM7PDMQx67rj5D8nQzXd54bi3H8ZKXzA3n9": {
+      "chain": "solana",
+      "pair_address": "3CdhrPHxpXM7PDMQx67rj5D8nQzXd54bi3H8ZKXzA3n9",
+      "symbol": "JERRY",
+      "tier": "T2",
+      "detection_time": "2026-08-04T20:43:23.648866+00:00",
+      "detection_price": 6.839e-05,
+      "detection_liq": 17910.27,
+      "peak_price": 6.839e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
