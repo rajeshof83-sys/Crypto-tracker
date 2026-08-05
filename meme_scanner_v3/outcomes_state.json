@@ -48848,6 +48848,13 @@
           "volume_24h": 318929.57,
           "captured_at": "2026-08-05T14:16:06.759998+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 1.579e-06,
+          "liquidity": 1645.27,
+          "volume_24h": 318982.98,
+          "captured_at": "2026-08-05T20:09:34.226230+00:00",
+          "hours_elapsed": 7.0
         }
       },
       "outcome_label": null,
@@ -48988,6 +48995,27 @@
       "detection_price": 0.0001762,
       "detection_liq": 30172.95,
       "peak_price": 0.0001762,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001416,
+          "liquidity": 26996.41,
+          "volume_24h": 663661.94,
+          "captured_at": "2026-08-05T20:09:34.226230+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GgcxoQSz4kwEqUi2uesqX8LrvkbfxEWv23fFHR3pdvpR": {
+      "chain": "solana",
+      "pair_address": "GgcxoQSz4kwEqUi2uesqX8LrvkbfxEWv23fFHR3pdvpR",
+      "symbol": "Youtube",
+      "tier": "T1",
+      "detection_time": "2026-08-05T20:09:24.028401+00:00",
+      "detection_price": 8.69e-05,
+      "detection_liq": 20610.89,
+      "peak_price": 8.69e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
