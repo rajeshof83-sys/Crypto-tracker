@@ -48743,8 +48743,28 @@
           "volume_24h": 880958.95,
           "captured_at": "2026-08-04T23:47:44.626189+00:00",
           "hours_elapsed": 1.3
+        },
+        "price_6h": {
+          "price": 3.09e-05,
+          "liquidity": 12842.4,
+          "volume_24h": 1313038.52,
+          "captured_at": "2026-08-05T04:44:08.441517+00:00",
+          "hours_elapsed": 6.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3Hi3KvnpVotRRRuZ7L8BMYHLiwvZAtUYobBq8pSfZgff": {
+      "chain": "solana",
+      "pair_address": "3Hi3KvnpVotRRRuZ7L8BMYHLiwvZAtUYobBq8pSfZgff",
+      "symbol": "CATIX",
+      "tier": "T1",
+      "detection_time": "2026-08-05T04:43:58.060043+00:00",
+      "detection_price": 0.0001529,
+      "detection_liq": 27974.23,
+      "peak_price": 0.0001529,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
