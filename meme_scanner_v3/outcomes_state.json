@@ -48855,7 +48855,15 @@
       "detection_price": 8.589e-05,
       "detection_liq": 20546.15,
       "peak_price": 8.589e-05,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 7.229e-05,
+          "liquidity": 18921.61,
+          "volume_24h": 428629.64,
+          "captured_at": "2026-08-05T15:39:37.125173+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -48868,6 +48876,40 @@
       "detection_price": 0.0001134,
       "detection_liq": 23584.34,
       "peak_price": 0.0001134,
+      "captures": {
+        "price_1h": {
+          "price": 9.443e-05,
+          "liquidity": 21467.75,
+          "volume_24h": 303059.59,
+          "captured_at": "2026-08-05T15:39:37.125173+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5nHhhV9HXBKz2DQN4nrnxBP7PfBQxmQMRJyEW38M8xj1": {
+      "chain": "solana",
+      "pair_address": "5nHhhV9HXBKz2DQN4nrnxBP7PfBQxmQMRJyEW38M8xj1",
+      "symbol": "BABYCUPSEY",
+      "tier": "T1",
+      "detection_time": "2026-08-05T15:39:17.983437+00:00",
+      "detection_price": 0.0001483,
+      "detection_liq": 29014.0,
+      "peak_price": 0.0001483,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EytAwYZvi3XALNCSufQ6zzPtocNY1F9iEP3duKgbBgee": {
+      "chain": "solana",
+      "pair_address": "EytAwYZvi3XALNCSufQ6zzPtocNY1F9iEP3duKgbBgee",
+      "symbol": "MYSPACE",
+      "tier": "T2",
+      "detection_time": "2026-08-05T15:39:21.111827+00:00",
+      "detection_price": 2.601e-05,
+      "detection_liq": 15273.63,
+      "peak_price": 2.601e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
