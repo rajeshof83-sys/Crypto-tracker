@@ -48785,6 +48785,13 @@
           "volume_24h": 1313038.52,
           "captured_at": "2026-08-05T04:44:08.441517+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 6.322e-06,
+          "liquidity": 5117.78,
+          "volume_24h": 531163.93,
+          "captured_at": "2026-08-05T23:30:42.427815+00:00",
+          "hours_elapsed": 25.0
         }
       },
       "outcome_label": null,
@@ -49067,6 +49074,19 @@
           "hours_elapsed": 1.6
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4KG9xoTVbD7UDGmWEWEpfWFNiYvNPRdAAHAykBqPJg5w": {
+      "chain": "solana",
+      "pair_address": "4KG9xoTVbD7UDGmWEWEpfWFNiYvNPRdAAHAykBqPJg5w",
+      "symbol": "Brian",
+      "tier": "T1",
+      "detection_time": "2026-08-05T23:30:37.040672+00:00",
+      "detection_price": 6.814e-05,
+      "detection_liq": 20282.33,
+      "peak_price": 6.814e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
