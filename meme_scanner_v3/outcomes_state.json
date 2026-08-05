@@ -48929,6 +48929,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:3tMBdoSE63LFSPNaYGrsJ5EafqVLobwsKZL3qU3iMWq5": {
+      "chain": "solana",
+      "pair_address": "3tMBdoSE63LFSPNaYGrsJ5EafqVLobwsKZL3qU3iMWq5",
+      "symbol": "2027",
+      "tier": "T1",
+      "detection_time": "2026-08-05T18:05:49.080524+00:00",
+      "detection_price": 0.0001357,
+      "detection_liq": 26458.87,
+      "peak_price": 0.0001357,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6S8CBEkEfULma37d7TvzuUJJ3LEk2DJ2tvHAGfrYd1vJ": {
+      "chain": "solana",
+      "pair_address": "6S8CBEkEfULma37d7TvzuUJJ3LEk2DJ2tvHAGfrYd1vJ",
+      "symbol": "EMBERCAT",
+      "tier": "T1",
+      "detection_time": "2026-08-05T18:05:51.899499+00:00",
+      "detection_price": 0.0001254,
+      "detection_liq": 24884.21,
+      "peak_price": 0.0001254,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
