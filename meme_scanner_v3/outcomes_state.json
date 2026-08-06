@@ -48834,10 +48834,17 @@
           "volume_24h": 963015.4,
           "captured_at": "2026-08-05T11:01:43.616159+00:00",
           "hours_elapsed": 6.3
+        },
+        "price_24h": {
+          "price": 1.87e-06,
+          "liquidity": 2098.64,
+          "volume_24h": 957920.6,
+          "captured_at": "2026-08-06T04:44:50.782532+00:00",
+          "hours_elapsed": 24.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:BKqw2wWb2Kj6p532SpF3Je6FPWc9J1FqsxqV5dCLQKmb": {
       "chain": "solana",
@@ -49137,6 +49144,19 @@
           "hours_elapsed": 1.4
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GzDaX3zHxDd5KUGKo5fHHg93arcPArrseAoEfP685JGQ": {
+      "chain": "solana",
+      "pair_address": "GzDaX3zHxDd5KUGKo5fHHg93arcPArrseAoEfP685JGQ",
+      "symbol": "MEMOLUTION",
+      "tier": "T1",
+      "detection_time": "2026-08-06T04:44:39.347243+00:00",
+      "detection_price": 0.0001299,
+      "detection_liq": 25599.56,
+      "peak_price": 0.0001299,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
