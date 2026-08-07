@@ -49692,6 +49692,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:2LA27z6QzjFu2hCbJJAWkKyJKhZoWHNoQppm72HCbeR8": {
+      "chain": "solana",
+      "pair_address": "2LA27z6QzjFu2hCbJJAWkKyJKhZoWHNoQppm72HCbeR8",
+      "symbol": "Sherman",
+      "tier": "T1",
+      "detection_time": "2026-08-07T12:31:20.015150+00:00",
+      "detection_price": 0.000103,
+      "detection_liq": 22799.95,
+      "peak_price": 0.000103,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CHEdDwzPVF1UeuCpZ9mXWbj3xbHWnL8NkrHmBqXWe42B": {
+      "chain": "solana",
+      "pair_address": "CHEdDwzPVF1UeuCpZ9mXWbj3xbHWnL8NkrHmBqXWe42B",
+      "symbol": "TINYTANK",
+      "tier": "T1",
+      "detection_time": "2026-08-07T12:31:22.523663+00:00",
+      "detection_price": 0.0001069,
+      "detection_liq": 22914.55,
+      "peak_price": 0.0001069,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
