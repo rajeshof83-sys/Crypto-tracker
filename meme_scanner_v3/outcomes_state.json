@@ -47413,10 +47413,17 @@
           "volume_24h": 217793.88,
           "captured_at": "2026-08-01T13:26:45.344944+00:00",
           "hours_elapsed": 24.2
+        },
+        "price_7d": {
+          "price": 8.929e-06,
+          "liquidity": 6054.22,
+          "volume_24h": 2613.54,
+          "captured_at": "2026-08-07T13:39:58.979478+00:00",
+          "hours_elapsed": 168.4
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:8JbosUsaE9DZHwm5MiyJ2wdJcNvr7C2TPByJ9TRp6Tvj": {
       "chain": "solana",
@@ -49709,7 +49716,15 @@
       "detection_price": 0.000103,
       "detection_liq": 22799.95,
       "peak_price": 0.000103,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 8.137e-05,
+          "liquidity": 20487.17,
+          "volume_24h": 594200.64,
+          "captured_at": "2026-08-07T13:39:58.979478+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -49721,7 +49736,28 @@
       "detection_time": "2026-08-07T12:31:22.523663+00:00",
       "detection_price": 0.0001069,
       "detection_liq": 22914.55,
-      "peak_price": 0.0001069,
+      "peak_price": 0.0001234,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001234,
+          "liquidity": 24781.81,
+          "volume_24h": 295168.61,
+          "captured_at": "2026-08-07T13:39:58.979478+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5ndX93MdKgqxn9AkbSUM6vePEJRCKUcWTDuWTsjvPC17": {
+      "chain": "solana",
+      "pair_address": "5ndX93MdKgqxn9AkbSUM6vePEJRCKUcWTDuWTsjvPC17",
+      "symbol": "TUZKI ",
+      "tier": "T2",
+      "detection_time": "2026-08-07T13:39:52.506166+00:00",
+      "detection_price": 4.4e-05,
+      "detection_liq": 15445.58,
+      "peak_price": 4.4e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
