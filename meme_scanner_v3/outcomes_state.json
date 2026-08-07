@@ -49247,6 +49247,13 @@
           "volume_24h": 348045.4,
           "captured_at": "2026-08-06T06:34:42.498858+00:00",
           "hours_elapsed": 7.1
+        },
+        "price_24h": {
+          "price": 2.715e-05,
+          "liquidity": 12451.81,
+          "volume_24h": 154487.94,
+          "captured_at": "2026-08-07T00:25:17.337735+00:00",
+          "hours_elapsed": 24.9
         }
       },
       "outcome_label": null,
@@ -49373,6 +49380,40 @@
       "detection_price": 0.0001496,
       "detection_liq": 27027.18,
       "peak_price": 0.0001496,
+      "captures": {
+        "price_1h": {
+          "price": 1.43e-06,
+          "liquidity": 1544.28,
+          "volume_24h": 611749.66,
+          "captured_at": "2026-08-07T00:25:17.337735+00:00",
+          "hours_elapsed": 1.9
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:D4ZqhsRbSfw6g9gTb1p4J3wS2uxwEDuMrzcDJGSQUkbn": {
+      "chain": "solana",
+      "pair_address": "D4ZqhsRbSfw6g9gTb1p4J3wS2uxwEDuMrzcDJGSQUkbn",
+      "symbol": "goon",
+      "tier": "T1",
+      "detection_time": "2026-08-07T00:25:09.003766+00:00",
+      "detection_price": 0.0003766,
+      "detection_liq": 45611.0,
+      "peak_price": 0.0003766,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HAT9WLARUt9jzVngDuNe1ikUz8U4Vbs5ELr9t6a7mdTP": {
+      "chain": "solana",
+      "pair_address": "HAT9WLARUt9jzVngDuNe1ikUz8U4Vbs5ELr9t6a7mdTP",
+      "symbol": "Telegram",
+      "tier": "T1",
+      "detection_time": "2026-08-07T00:25:12.253894+00:00",
+      "detection_price": 0.0001216,
+      "detection_liq": 24497.54,
+      "peak_price": 0.0001216,
       "captures": {},
       "outcome_label": null,
       "completed": false
