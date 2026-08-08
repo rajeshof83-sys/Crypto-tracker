@@ -50129,6 +50129,27 @@
       "detection_price": 0.001075,
       "detection_liq": 115263.11,
       "peak_price": 0.001075,
+      "captures": {
+        "price_1h": {
+          "price": 0.001069,
+          "liquidity": 114997.89,
+          "volume_24h": 1307433.6,
+          "captured_at": "2026-08-08T16:52:06.052809+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6C31VtPVCxsvE6GbNUSSXiiig12e2n99uD6xbFFQxzpV": {
+      "chain": "solana",
+      "pair_address": "6C31VtPVCxsvE6GbNUSSXiiig12e2n99uD6xbFFQxzpV",
+      "symbol": "CLAWMBAT",
+      "tier": "T1",
+      "detection_time": "2026-08-08T16:51:56.675068+00:00",
+      "detection_price": 0.0003448,
+      "detection_liq": 43018.56,
+      "peak_price": 0.0003448,
       "captures": {},
       "outcome_label": null,
       "completed": false
