@@ -50177,7 +50177,28 @@
       "detection_time": "2026-08-08T18:41:51.738867+00:00",
       "detection_price": 0.0002675,
       "detection_liq": 38836.17,
-      "peak_price": 0.0002675,
+      "peak_price": 0.0004386,
+      "captures": {
+        "price_1h": {
+          "price": 0.0004386,
+          "liquidity": 51450.96,
+          "volume_24h": 1420972.76,
+          "captured_at": "2026-08-08T19:44:48.741479+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:G7bCfiP4RHe8FqGNt4Cpf5ctwwRJfaQcEUfQkhp9avv3": {
+      "chain": "solana",
+      "pair_address": "G7bCfiP4RHe8FqGNt4Cpf5ctwwRJfaQcEUfQkhp9avv3",
+      "symbol": "Pomeranian",
+      "tier": "T1",
+      "detection_time": "2026-08-08T19:44:40.529091+00:00",
+      "detection_price": 0.0003452,
+      "detection_liq": 44142.86,
+      "peak_price": 0.0003452,
       "captures": {},
       "outcome_label": null,
       "completed": false
