@@ -50198,7 +50198,28 @@
       "detection_time": "2026-08-08T19:44:40.529091+00:00",
       "detection_price": 0.0003452,
       "detection_liq": 44142.86,
-      "peak_price": 0.0003452,
+      "peak_price": 0.0008741,
+      "captures": {
+        "price_1h": {
+          "price": 0.0008741,
+          "liquidity": 74369.42,
+          "volume_24h": 2119013.98,
+          "captured_at": "2026-08-08T20:48:28.446825+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7Y9XtjDGhU6X31MG5J125vmdJ5HW8hg2zXSgcV4fwTLv": {
+      "chain": "solana",
+      "pair_address": "7Y9XtjDGhU6X31MG5J125vmdJ5HW8hg2zXSgcV4fwTLv",
+      "symbol": "PURRBIT",
+      "tier": "T1",
+      "detection_time": "2026-08-08T20:48:19.603252+00:00",
+      "detection_price": 0.0002287,
+      "detection_liq": 34666.98,
+      "peak_price": 0.0002287,
       "captures": {},
       "outcome_label": null,
       "completed": false
