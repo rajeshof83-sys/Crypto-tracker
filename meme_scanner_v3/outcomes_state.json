@@ -49597,10 +49597,17 @@
           "volume_24h": 640342.59,
           "captured_at": "2026-08-07T07:42:07.488953+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 1.536e-06,
+          "liquidity": 1654.83,
+          "volume_24h": 269585.77,
+          "captured_at": "2026-08-08T01:50:16.743782+00:00",
+          "hours_elapsed": 24.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:CdmqMYX8saTzLMyHeZpNtqaPQ7n27TMX9kDmFT9yq6CL": {
       "chain": "solana",
@@ -49907,6 +49914,19 @@
           "hours_elapsed": 6.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Ggz5kQN17V2dQGZFLeP6WerTXvS2wKFgjAupN7TYQEvw": {
+      "chain": "solana",
+      "pair_address": "Ggz5kQN17V2dQGZFLeP6WerTXvS2wKFgjAupN7TYQEvw",
+      "symbol": "Tardimals",
+      "tier": "T1",
+      "detection_time": "2026-08-08T01:50:06.167709+00:00",
+      "detection_price": 7.525e-05,
+      "detection_liq": 22889.36,
+      "peak_price": 7.525e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
