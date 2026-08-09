@@ -32966,8 +32966,8 @@
       "peak_safety": 7
     },
     "solana:USQLxdCTD4vRYCUvZSLh8yFNcTz4Ca1raLSuZLJrsXv": {
-      "peak_liq": 35039.28,
-      "peak_vol": 2453306.16,
+      "peak_liq": 43565.79,
+      "peak_vol": 2609801.91,
       "peak_safety": 9
     },
     "solana:5ZBFHftvPKzZYzUXA2t3AN41TyErtegNvPhnCnEwpr7B": {
@@ -33257,13 +33257,33 @@
     },
     "solana:CqmgKaHXcq6yay71ATMq1VkH668PGTJqra1VbqJFBcM6": {
       "peak_liq": 8393.71,
-      "peak_vol": 89976.85,
+      "peak_vol": 91853.35,
       "peak_safety": 8
     },
     "solana:5hMfMhRxdtSMLxYwvgmajhag48qHznqvfhKV3RD7wTTG": {
       "peak_liq": 19616.54,
-      "peak_vol": 474817.77,
+      "peak_vol": 535638.44,
       "peak_safety": 8
+    },
+    "bsc:0xA61DDb5D7B4aB2F172F08eE7B85A9DC25296fB83": {
+      "peak_liq": 1455.22,
+      "peak_vol": 2753.16,
+      "peak_safety": 7
+    },
+    "solana:rK9cjqL61FcfaZfHwbThC5qrnsqn5fJtRrRYkr5jDRn": {
+      "peak_liq": 22199.77,
+      "peak_vol": 277917.38,
+      "peak_safety": 9
+    },
+    "solana:EHrnxx8hi42mLyzVez2LJpXo446ZtbAynyzNQuix4Xcq": {
+      "peak_liq": 0.0,
+      "peak_vol": 59846.67,
+      "peak_safety": 8
+    },
+    "solana:22EtsVURPiEd9GJ8pvffu9mfuRfDKRMaTM1Z8f99Pike": {
+      "peak_liq": 0.0,
+      "peak_vol": 2396.19,
+      "peak_safety": 7
     }
   },
   "consecutive_negative": {
@@ -39918,8 +39938,12 @@
     "solana:CJWMwu1WhwoFhi9Q7oT13uRJRNLjrKKQkUbTiXCnw7G9": 1,
     "solana:8soRNdtsh9mWuNL9k9PkbkAUYGFDt776joiXaFvmb4gM": 1,
     "solana:D8RJZGevXtKM3S2oD9MZjLPCpkxYz7ZW4fHzQ1U9XEZL": 1,
-    "solana:CqmgKaHXcq6yay71ATMq1VkH668PGTJqra1VbqJFBcM6": 2,
-    "solana:5hMfMhRxdtSMLxYwvgmajhag48qHznqvfhKV3RD7wTTG": 0
+    "solana:CqmgKaHXcq6yay71ATMq1VkH668PGTJqra1VbqJFBcM6": 3,
+    "solana:5hMfMhRxdtSMLxYwvgmajhag48qHznqvfhKV3RD7wTTG": 0,
+    "bsc:0xA61DDb5D7B4aB2F172F08eE7B85A9DC25296fB83": 0,
+    "solana:rK9cjqL61FcfaZfHwbThC5qrnsqn5fJtRrRYkr5jDRn": 2,
+    "solana:EHrnxx8hi42mLyzVez2LJpXo446ZtbAynyzNQuix4Xcq": 0,
+    "solana:22EtsVURPiEd9GJ8pvffu9mfuRfDKRMaTM1Z8f99Pike": 0
   },
   "exit_alerts_sent": {}
 }
