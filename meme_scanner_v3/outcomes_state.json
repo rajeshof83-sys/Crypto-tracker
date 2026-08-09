@@ -47966,10 +47966,17 @@
           "volume_24h": 5428858.37,
           "captured_at": "2026-08-03T05:05:42.479615+00:00",
           "hours_elapsed": 24.2
+        },
+        "price_7d": {
+          "price": 3.252e-05,
+          "liquidity": 16830.3,
+          "volume_24h": 29843.69,
+          "captured_at": "2026-08-09T05:08:20.631264+00:00",
+          "hours_elapsed": 168.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "winner",
+      "completed": true
     },
     "ethereum:0x9314DfdD02c8269f97B085429BfbBB04D95078c4": {
       "chain": "ethereum",
