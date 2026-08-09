@@ -50234,6 +50234,13 @@
           "volume_24h": 1352952.64,
           "captured_at": "2026-08-08T21:55:56.912570+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 0.0006195,
+          "liquidity": 88688.28,
+          "volume_24h": 577715.01,
+          "captured_at": "2026-08-09T15:47:09.020216+00:00",
+          "hours_elapsed": 24.0
         }
       },
       "outcome_label": null,
@@ -50472,6 +50479,19 @@
       "detection_price": 0.0001801,
       "detection_liq": 30472.28,
       "peak_price": 0.0001801,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:28xProuNmTFdY7V8gdMAiZHRnwieYXYXKyqvx5DSb3rG": {
+      "chain": "solana",
+      "pair_address": "28xProuNmTFdY7V8gdMAiZHRnwieYXYXKyqvx5DSb3rG",
+      "symbol": "ROOKNOWS",
+      "tier": "T1",
+      "detection_time": "2026-08-09T15:46:58.159848+00:00",
+      "detection_price": 0.0002179,
+      "detection_liq": 33915.98,
+      "peak_price": 0.0002179,
       "captures": {},
       "outcome_label": null,
       "completed": false
