@@ -50094,6 +50094,13 @@
           "volume_24h": 348858.4,
           "captured_at": "2026-08-08T08:46:22.939436+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 7.598e-05,
+          "liquidity": 19932.65,
+          "volume_24h": 544388.02,
+          "captured_at": "2026-08-09T02:53:45.163094+00:00",
+          "hours_elapsed": 24.1
         }
       },
       "outcome_label": null,
@@ -50283,6 +50290,13 @@
           "volume_24h": 715575.11,
           "captured_at": "2026-08-08T21:55:56.912570+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 1.518e-06,
+          "liquidity": 1648.51,
+          "volume_24h": 784204.65,
+          "captured_at": "2026-08-09T02:53:45.163094+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -50306,6 +50320,19 @@
           "hours_elapsed": 1.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2g6TjsV3EpukoqtJ4BXiedqgmTDeqSEs9awFKR2snHrE": {
+      "chain": "solana",
+      "pair_address": "2g6TjsV3EpukoqtJ4BXiedqgmTDeqSEs9awFKR2snHrE",
+      "symbol": "MIDASTOAD",
+      "tier": "T1",
+      "detection_time": "2026-08-09T02:53:32.803156+00:00",
+      "detection_price": 0.0001731,
+      "detection_liq": 30021.06,
+      "peak_price": 0.0001731,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
