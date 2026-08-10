@@ -50898,7 +50898,28 @@
       "detection_time": "2026-08-10T11:29:48.289396+00:00",
       "detection_price": 0.0001044,
       "detection_liq": 23588.44,
-      "peak_price": 0.0001044,
+      "peak_price": 0.0001137,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001137,
+          "liquidity": 24702.89,
+          "volume_24h": 129800.22,
+          "captured_at": "2026-08-10T12:35:27.337117+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4LfukL1ZgzMcfYpW3Kb5f5SoDNgN4RaiZqz2bzspqLgZ": {
+      "chain": "solana",
+      "pair_address": "4LfukL1ZgzMcfYpW3Kb5f5SoDNgN4RaiZqz2bzspqLgZ",
+      "symbol": "CapyDuck",
+      "tier": "T1",
+      "detection_time": "2026-08-10T12:35:12.430959+00:00",
+      "detection_price": 0.0002752,
+      "detection_liq": 39262.47,
+      "peak_price": 0.0002752,
       "captures": {},
       "outcome_label": null,
       "completed": false
