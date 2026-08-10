@@ -51102,6 +51102,13 @@
           "volume_24h": 855271.25,
           "captured_at": "2026-08-10T16:03:23.665990+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 2.309e-06,
+          "liquidity": 2344.81,
+          "volume_24h": 855271.53,
+          "captured_at": "2026-08-10T21:02:47.177645+00:00",
+          "hours_elapsed": 6.0
         }
       },
       "outcome_label": null,
@@ -51123,6 +51130,13 @@
           "volume_24h": 766352.24,
           "captured_at": "2026-08-10T16:03:23.665990+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 2.597e-06,
+          "liquidity": 2588.23,
+          "volume_24h": 816679.29,
+          "captured_at": "2026-08-10T21:02:47.177645+00:00",
+          "hours_elapsed": 6.0
         }
       },
       "outcome_label": null,
@@ -51188,6 +51202,32 @@
           "hours_elapsed": 1.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:UvymmrULXd6G8sM3ZKWmV5cH6FtWRx17YLrtXgnMfH1": {
+      "chain": "solana",
+      "pair_address": "UvymmrULXd6G8sM3ZKWmV5cH6FtWRx17YLrtXgnMfH1",
+      "symbol": "PONDE",
+      "tier": "T1",
+      "detection_time": "2026-08-10T21:02:32.827733+00:00",
+      "detection_price": 0.0003125,
+      "detection_liq": 40601.85,
+      "peak_price": 0.0003125,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3b9jYaK9muJDDD9VBqE9wEhH9F2SVfawemxVQUnFg7tr": {
+      "chain": "solana",
+      "pair_address": "3b9jYaK9muJDDD9VBqE9wEhH9F2SVfawemxVQUnFg7tr",
+      "symbol": "ZEUS",
+      "tier": "T1",
+      "detection_time": "2026-08-10T21:02:36.019369+00:00",
+      "detection_price": 9.567e-05,
+      "detection_liq": 21856.06,
+      "peak_price": 9.567e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
