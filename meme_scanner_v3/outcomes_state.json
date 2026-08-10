@@ -50738,7 +50738,15 @@
       "detection_price": 8.242e-05,
       "detection_liq": 20437.05,
       "peak_price": 8.242e-05,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 1.611e-06,
+          "liquidity": 1713.14,
+          "volume_24h": 458450.84,
+          "captured_at": "2026-08-10T07:47:33.348675+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -50751,7 +50759,15 @@
       "detection_price": 0.0002261,
       "detection_liq": 34513.68,
       "peak_price": 0.0002261,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0001748,
+          "liquidity": 30656.51,
+          "volume_24h": 695986.82,
+          "captured_at": "2026-08-10T07:47:33.348675+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -50763,7 +50779,41 @@
       "detection_time": "2026-08-10T06:42:24.516019+00:00",
       "detection_price": 8.1e-05,
       "detection_liq": 20295.93,
-      "peak_price": 8.1e-05,
+      "peak_price": 0.0001065,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001065,
+          "liquidity": 23686.08,
+          "volume_24h": 458859.27,
+          "captured_at": "2026-08-10T07:47:33.348675+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GYAyg4jaZ4N2ejncVpNSAQ4NtVdTdMtMgPYyv8yst62A": {
+      "chain": "solana",
+      "pair_address": "GYAyg4jaZ4N2ejncVpNSAQ4NtVdTdMtMgPYyv8yst62A",
+      "symbol": "TOADZ",
+      "tier": "T1",
+      "detection_time": "2026-08-10T07:47:20.724671+00:00",
+      "detection_price": 0.0001915,
+      "detection_liq": 32248.35,
+      "peak_price": 0.0001915,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CcZtjhPFGio2YbBW7jkXMV8jQ7ZYpVDfGTGKyxnVKkbL": {
+      "chain": "solana",
+      "pair_address": "CcZtjhPFGio2YbBW7jkXMV8jQ7ZYpVDfGTGKyxnVKkbL",
+      "symbol": "Toaled",
+      "tier": "T1",
+      "detection_time": "2026-08-10T07:47:23.684942+00:00",
+      "detection_price": 0.0001365,
+      "detection_liq": 26708.98,
+      "peak_price": 0.0001365,
       "captures": {},
       "outcome_label": null,
       "completed": false
