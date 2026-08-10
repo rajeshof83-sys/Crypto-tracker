@@ -48561,10 +48561,17 @@
           "volume_24h": 2386697.47,
           "captured_at": "2026-08-04T17:03:24.770976+00:00",
           "hours_elapsed": 25.0
+        },
+        "price_7d": {
+          "price": 0.0009087,
+          "liquidity": 114562.9,
+          "volume_24h": 520428.47,
+          "captured_at": "2026-08-10T16:09:12.013574+00:00",
+          "hours_elapsed": 168.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "bsc:0xEae8516795cB6250e8ccaAc1167A6338980E3d32": {
       "chain": "bsc",
