@@ -51477,6 +51477,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:Fpwn2iL7kuU3DQF6r2andPxCQrF13wbfUFqz41rgzr1A": {
+      "chain": "solana",
+      "pair_address": "Fpwn2iL7kuU3DQF6r2andPxCQrF13wbfUFqz41rgzr1A",
+      "symbol": "USDUF",
+      "tier": "T1",
+      "detection_time": "2026-08-11T14:07:55.149128+00:00",
+      "detection_price": 0.0001445,
+      "detection_liq": 27251.1,
+      "peak_price": 0.0001445,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DtXgWib7Pgot7JzxTZAD914zAVmsQjeyVAkumGy55boF": {
+      "chain": "solana",
+      "pair_address": "DtXgWib7Pgot7JzxTZAD914zAVmsQjeyVAkumGy55boF",
+      "symbol": "Splash Dog",
+      "tier": "T2",
+      "detection_time": "2026-08-11T14:07:57.954983+00:00",
+      "detection_price": 0.0001252,
+      "detection_liq": 25376.4,
+      "peak_price": 0.0001252,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
