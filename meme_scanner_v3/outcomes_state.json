@@ -51624,6 +51624,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:AeNB69KYveCfkZPncUoEn2hfnKv1rezFF9dGMitSa7Tf": {
+      "chain": "solana",
+      "pair_address": "AeNB69KYveCfkZPncUoEn2hfnKv1rezFF9dGMitSa7Tf",
+      "symbol": "TINYTANK",
+      "tier": "T2",
+      "detection_time": "2026-08-11T23:03:41.691804+00:00",
+      "detection_price": 0.000213,
+      "detection_liq": 49583.69,
+      "peak_price": 0.000213,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3yY4L3oNJ83NyhB7GeuEaayBgGkMmQiS2oU742cL2QRD": {
+      "chain": "solana",
+      "pair_address": "3yY4L3oNJ83NyhB7GeuEaayBgGkMmQiS2oU742cL2QRD",
+      "symbol": "DCN",
+      "tier": "T2",
+      "detection_time": "2026-08-11T23:03:46.745537+00:00",
+      "detection_price": 4.103e-05,
+      "detection_liq": 15215.66,
+      "peak_price": 4.103e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
