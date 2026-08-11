@@ -51305,10 +51305,17 @@
           "volume_24h": 1441918.66,
           "captured_at": "2026-08-10T23:06:37.321208+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 1.607e-06,
+          "liquidity": 1785.94,
+          "volume_24h": 937930.52,
+          "captured_at": "2026-08-11T17:05:03.230627+00:00",
+          "hours_elapsed": 24.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "bsc:0xdabbd019c0174BDAE6354f32b158D42e4A0E7489": {
       "chain": "bsc",
