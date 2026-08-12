@@ -51725,6 +51725,13 @@
           "volume_24h": 691066.53,
           "captured_at": "2026-08-12T03:13:26.041112+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 1.162e-05,
+          "liquidity": 6970.73,
+          "volume_24h": 715274.84,
+          "captured_at": "2026-08-12T08:21:10.505777+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -51746,6 +51753,13 @@
           "volume_24h": 433024.47,
           "captured_at": "2026-08-12T03:13:26.041112+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 0.0003678,
+          "liquidity": 49025.07,
+          "volume_24h": 420906.44,
+          "captured_at": "2026-08-12T08:21:10.505777+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -51767,6 +51781,13 @@
           "volume_24h": 694260.92,
           "captured_at": "2026-08-12T03:13:26.041112+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 8.479e-05,
+          "liquidity": 22018.78,
+          "volume_24h": 1254447.86,
+          "captured_at": "2026-08-12T08:21:10.505777+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -51811,6 +51832,32 @@
           "hours_elapsed": 1.4
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:C3yhhn7YdEyww8os2U725PxKeiSKn4bwSEesFRDJ1CZC": {
+      "chain": "solana",
+      "pair_address": "C3yhhn7YdEyww8os2U725PxKeiSKn4bwSEesFRDJ1CZC",
+      "symbol": "FROG",
+      "tier": "T1",
+      "detection_time": "2026-08-12T08:20:25.424280+00:00",
+      "detection_price": 0.0001553,
+      "detection_liq": 29416.97,
+      "peak_price": 0.0001553,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7PojnJi7ZAMAaNwsbvJ7urQLAKyHyGoLAbwpntR2PaS9": {
+      "chain": "solana",
+      "pair_address": "7PojnJi7ZAMAaNwsbvJ7urQLAKyHyGoLAbwpntR2PaS9",
+      "symbol": "TOADPUNK",
+      "tier": "T2",
+      "detection_time": "2026-08-12T08:20:56.051505+00:00",
+      "detection_price": 0.002542,
+      "detection_liq": 119198.02,
+      "peak_price": 0.002542,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
