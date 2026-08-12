@@ -51743,6 +51743,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:7eYEZSesE86FWqkVxbwP9wKhC3L5UKp4oEt6zUu3f9MD": {
+      "chain": "solana",
+      "pair_address": "7eYEZSesE86FWqkVxbwP9wKhC3L5UKp4oEt6zUu3f9MD",
+      "symbol": "FOMEOW",
+      "tier": "T1",
+      "detection_time": "2026-08-12T04:50:34.790574+00:00",
+      "detection_price": 0.0001941,
+      "detection_liq": 31884.43,
+      "peak_price": 0.0001941,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5Q1arAopbU8oMqBmjCWHFsdUN2ucDxhwdFs8T9tGrUCK": {
+      "chain": "solana",
+      "pair_address": "5Q1arAopbU8oMqBmjCWHFsdUN2ucDxhwdFs8T9tGrUCK",
+      "symbol": "COGE",
+      "tier": "T1",
+      "detection_time": "2026-08-12T04:50:56.128458+00:00",
+      "detection_price": 0.0001265,
+      "detection_liq": 25524.25,
+      "peak_price": 0.0001265,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
