@@ -51690,10 +51690,17 @@
           "volume_24h": 215002.26,
           "captured_at": "2026-08-12T02:10:04.376517+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 1.777e-06,
+          "liquidity": 1837.77,
+          "volume_24h": 202917.08,
+          "captured_at": "2026-08-12T20:56:42.451901+00:00",
+          "hours_elapsed": 24.8
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:AeNB69KYveCfkZPncUoEn2hfnKv1rezFF9dGMitSa7Tf": {
       "chain": "solana",
@@ -51983,7 +51990,7 @@
       "detection_time": "2026-08-12T14:08:40.603478+00:00",
       "detection_price": 0.0005862,
       "detection_liq": 73696.19,
-      "peak_price": 0.0005862,
+      "peak_price": 0.0006696,
       "captures": {
         "price_1h": {
           "price": 0.000553,
@@ -51991,6 +51998,13 @@
           "volume_24h": 790700.29,
           "captured_at": "2026-08-12T15:14:05.666676+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 0.0006696,
+          "liquidity": 79700.4,
+          "volume_24h": 894412.16,
+          "captured_at": "2026-08-12T20:56:42.451901+00:00",
+          "hours_elapsed": 6.8
         }
       },
       "outcome_label": null,
@@ -52060,6 +52074,32 @@
       "detection_price": 0.0002554,
       "detection_liq": 37589.88,
       "peak_price": 0.0002554,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4m3KEuN1RyRyy3Aq9c6jfGs7TFNjyc7NqJjgaaFpjY6w": {
+      "chain": "solana",
+      "pair_address": "4m3KEuN1RyRyy3Aq9c6jfGs7TFNjyc7NqJjgaaFpjY6w",
+      "symbol": "ZAZU",
+      "tier": "T1",
+      "detection_time": "2026-08-12T20:56:27.517143+00:00",
+      "detection_price": 0.0001701,
+      "detection_liq": 29559.57,
+      "peak_price": 0.0001701,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8fodR88Z3N81F2Nh7QCRcLgZxgpsKQdwStSxYt5NBDsj": {
+      "chain": "solana",
+      "pair_address": "8fodR88Z3N81F2Nh7QCRcLgZxgpsKQdwStSxYt5NBDsj",
+      "symbol": "Callooor",
+      "tier": "T1",
+      "detection_time": "2026-08-12T20:56:30.044032+00:00",
+      "detection_price": 0.0001476,
+      "detection_liq": 27874.15,
+      "peak_price": 0.0001476,
       "captures": {},
       "outcome_label": null,
       "completed": false
