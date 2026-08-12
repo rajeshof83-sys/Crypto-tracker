@@ -52037,6 +52037,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:8anuoxbFsAeABWbdZoE2u66kWV52WyiYdjc7DsDYZ2C6": {
+      "chain": "solana",
+      "pair_address": "8anuoxbFsAeABWbdZoE2u66kWV52WyiYdjc7DsDYZ2C6",
+      "symbol": "VALET",
+      "tier": "T1",
+      "detection_time": "2026-08-12T20:03:20.170525+00:00",
+      "detection_price": 0.0003168,
+      "detection_liq": 40918.22,
+      "peak_price": 0.0003168,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CAxngWqxS3ziQsJHSvSNzug4rCb4a6Bt4FKUP8jQ6eBH": {
+      "chain": "solana",
+      "pair_address": "CAxngWqxS3ziQsJHSvSNzug4rCb4a6Bt4FKUP8jQ6eBH",
+      "symbol": "seedcoin",
+      "tier": "T2",
+      "detection_time": "2026-08-12T20:03:26.640660+00:00",
+      "detection_price": 0.0002554,
+      "detection_liq": 37589.88,
+      "peak_price": 0.0002554,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
