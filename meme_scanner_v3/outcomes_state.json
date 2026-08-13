@@ -52187,10 +52187,17 @@
           "volume_24h": 1697801.63,
           "captured_at": "2026-08-13T02:11:50.242487+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 1.639e-06,
+          "liquidity": 1850.62,
+          "volume_24h": 1248910.77,
+          "captured_at": "2026-08-13T20:06:40.417322+00:00",
+          "hours_elapsed": 24.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:CAxngWqxS3ziQsJHSvSNzug4rCb4a6Bt4FKUP8jQ6eBH": {
       "chain": "solana",
@@ -52215,10 +52222,17 @@
           "volume_24h": 770973.27,
           "captured_at": "2026-08-13T02:11:50.242487+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 2.739e-06,
+          "liquidity": 2747.16,
+          "volume_24h": 195552.21,
+          "captured_at": "2026-08-13T20:06:40.417322+00:00",
+          "hours_elapsed": 24.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:4m3KEuN1RyRyy3Aq9c6jfGs7TFNjyc7NqJjgaaFpjY6w": {
       "chain": "solana",
