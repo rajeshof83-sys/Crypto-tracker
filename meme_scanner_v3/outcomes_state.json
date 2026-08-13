@@ -52117,10 +52117,17 @@
           "volume_24h": 607679.15,
           "captured_at": "2026-08-12T22:02:17.332333+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 1.498e-06,
+          "liquidity": 1595.09,
+          "volume_24h": 24908.95,
+          "captured_at": "2026-08-13T16:10:18.328620+00:00",
+          "hours_elapsed": 24.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:EJ8nAKDBkX3mu2B4rHY5rwgHvTRyPgYfySNJ3C8VpHKV": {
       "chain": "solana",
@@ -52376,6 +52383,19 @@
       "detection_price": 0.0006505,
       "detection_liq": 62738.32,
       "peak_price": 0.0006505,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AucKfehkLGovAnWKGQ5uSgYK3B9cCVUKinUA1w2hXtM6": {
+      "chain": "solana",
+      "pair_address": "AucKfehkLGovAnWKGQ5uSgYK3B9cCVUKinUA1w2hXtM6",
+      "symbol": "MINENOW",
+      "tier": "T1",
+      "detection_time": "2026-08-13T16:10:09.017551+00:00",
+      "detection_price": 0.0002671,
+      "detection_liq": 37610.59,
+      "peak_price": 0.0002671,
       "captures": {},
       "outcome_label": null,
       "completed": false
