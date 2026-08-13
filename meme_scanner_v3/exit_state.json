@@ -34541,7 +34541,7 @@
       "peak_safety": 8
     },
     "solana:DtgBo86JY1oyQEgaCuMkALhQ9dH9eA6WSpV2e5nVarbw": {
-      "peak_liq": 485.53,
+      "peak_liq": 853.67,
       "peak_vol": 2114.38,
       "peak_safety": 8
     },
@@ -34782,22 +34782,22 @@
     },
     "solana:BsCrzTYwGnzxQbgML9whVaK2m22Cn6t8A7TWfdmmhDdn": {
       "peak_liq": 27561.97,
-      "peak_vol": 1326492.37,
+      "peak_vol": 1337540.04,
       "peak_safety": 9
     },
     "solana:6QJHxX5bgT37w6sAAYXpCi1SFn3rNp2sGrHikMwq9rms": {
       "peak_liq": 8022.1,
-      "peak_vol": 92053.11,
+      "peak_vol": 92323.48,
       "peak_safety": 9
     },
     "solana:9tguTarabmdGhPjVFixM3oSSYPsYrz1TZzeemWfoLLSA": {
       "peak_liq": 9901.6,
-      "peak_vol": 327659.77,
+      "peak_vol": 336369.89,
       "peak_safety": 9
     },
     "solana:4dLc1yECD1STU1RzE2hVTzp4riKTfo6RTiFA7kgNHUBV": {
-      "peak_liq": 47182.26,
-      "peak_vol": 89354.47,
+      "peak_liq": 48010.18,
+      "peak_vol": 95743.34,
       "peak_safety": 9
     },
     "bsc:0x30e76e2f0C8cB82fc6081Ea064C8c9281525e19C": {
@@ -34809,6 +34809,41 @@
       "peak_liq": 2741.89,
       "peak_vol": 118202.26,
       "peak_safety": 9
+    },
+    "solana:FtW1zxPV7aUtcRPtnpFmiNjainPx6ihAEgyPu1KNFuqZ": {
+      "peak_liq": 12558.75,
+      "peak_vol": 100080.62,
+      "peak_safety": 9
+    },
+    "solana:8NbEBEXu2Rpm5zrcijH9wx1AoGhZT67YGFAVck79sc38": {
+      "peak_liq": 8967.83,
+      "peak_vol": 186301.22,
+      "peak_safety": 8
+    },
+    "solana:8ySEPvcg8b3cxPRgtK6DGcQWpmSWG94dZFR87hEgu4QW": {
+      "peak_liq": 10269.98,
+      "peak_vol": 24416.19,
+      "peak_safety": 9
+    },
+    "solana:3WVMDjoM4GxKSuTLkLNw2wrmy7eyrRE72PqYMFntDVtt": {
+      "peak_liq": 26340.39,
+      "peak_vol": 323440.49,
+      "peak_safety": 9
+    },
+    "solana:Epjo1jQBTjRDBgG2xqSdQQn2Siw7DkN1gbBdAuAujdVq": {
+      "peak_liq": 1738.05,
+      "peak_vol": 692439.02,
+      "peak_safety": 9
+    },
+    "solana:UcZqEgnG3sLEfKszXPwQqZfxFMG5GfP7Y47cfMU8i3L": {
+      "peak_liq": 0.0,
+      "peak_vol": 33498.47,
+      "peak_safety": 6
+    },
+    "solana:AbgS2ze2ix81ntSxD7CcYS8vVQN64JrnJUpRs3jrLgHV": {
+      "peak_liq": 84357.58,
+      "peak_vol": 7494225.51,
+      "peak_safety": 10
     }
   },
   "consecutive_negative": {
@@ -41455,7 +41490,7 @@
     "solana:5VyuX5U9cvgF3xvC1sW33V2ZNk6LkCsdWqTJXxrHxazF": 1,
     "solana:8yW8h9iF2ESwtn3UxFBYX3Cs3F4knqCJG6uBDcrkh1Xr": 1,
     "solana:8KeynQe5Q4NrPHsKYV6Y5JyC1vyDyiwFt6gqKJfXTNvo": 0,
-    "solana:3nFyuuAY1PuShK4QLLiv1fdMeA589zN2pwhziLcW4f7s": 0,
+    "solana:3nFyuuAY1PuShK4QLLiv1fdMeA589zN2pwhziLcW4f7s": 1,
     "solana:2yD8js96RaSNU4PQJQ3ES1FyKVpzPHDjYfPnnKjJ5xBd": 0,
     "solana:28xProuNmTFdY7V8gdMAiZHRnwieYXYXKyqvx5DSb3rG": 0,
     "bsc:0x1bFcCB0ED273d3eB50b59d79eE0bc2A5b8032a64": 1,
@@ -41768,12 +41803,19 @@
     "bsc:0xE31ebD4896df7F7947d2186D581991644a1F7Afe": 0,
     "solana:5efaYLzTUTxR8JE3jTsX2eaYB6N7cZiepccKHKvujHte": 0,
     "solana:DEmkcJRT4WfybQtAJYpLTe4tDvbQRfKrq8NuHuPKFHhV": 2,
-    "solana:BsCrzTYwGnzxQbgML9whVaK2m22Cn6t8A7TWfdmmhDdn": 0,
-    "solana:6QJHxX5bgT37w6sAAYXpCi1SFn3rNp2sGrHikMwq9rms": 1,
-    "solana:9tguTarabmdGhPjVFixM3oSSYPsYrz1TZzeemWfoLLSA": 1,
+    "solana:BsCrzTYwGnzxQbgML9whVaK2m22Cn6t8A7TWfdmmhDdn": 2,
+    "solana:6QJHxX5bgT37w6sAAYXpCi1SFn3rNp2sGrHikMwq9rms": 2,
+    "solana:9tguTarabmdGhPjVFixM3oSSYPsYrz1TZzeemWfoLLSA": 2,
     "solana:4dLc1yECD1STU1RzE2hVTzp4riKTfo6RTiFA7kgNHUBV": 0,
     "bsc:0x30e76e2f0C8cB82fc6081Ea064C8c9281525e19C": 0,
-    "solana:3Se76i5UdLXGRmemYDEtiDtMdp5NgUwBHvrM9hqA9hho": 1
+    "solana:3Se76i5UdLXGRmemYDEtiDtMdp5NgUwBHvrM9hqA9hho": 1,
+    "solana:FtW1zxPV7aUtcRPtnpFmiNjainPx6ihAEgyPu1KNFuqZ": 1,
+    "solana:8NbEBEXu2Rpm5zrcijH9wx1AoGhZT67YGFAVck79sc38": 1,
+    "solana:8ySEPvcg8b3cxPRgtK6DGcQWpmSWG94dZFR87hEgu4QW": 1,
+    "solana:3WVMDjoM4GxKSuTLkLNw2wrmy7eyrRE72PqYMFntDVtt": 1,
+    "solana:Epjo1jQBTjRDBgG2xqSdQQn2Siw7DkN1gbBdAuAujdVq": 1,
+    "solana:UcZqEgnG3sLEfKszXPwQqZfxFMG5GfP7Y47cfMU8i3L": 0,
+    "solana:AbgS2ze2ix81ntSxD7CcYS8vVQN64JrnJUpRs3jrLgHV": 0
   },
   "exit_alerts_sent": {}
 }
