@@ -50213,10 +50213,17 @@
           "volume_24h": 148932.12,
           "captured_at": "2026-08-08T16:12:56.894758+00:00",
           "hours_elapsed": 24.2
+        },
+        "price_7d": {
+          "price": 8.316e-05,
+          "liquidity": 22602.01,
+          "volume_24h": 10558.12,
+          "captured_at": "2026-08-14T16:06:36.002468+00:00",
+          "hours_elapsed": 168.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:Cp4Gu42oVyQWCLKupNiKTnJGerWx5kZr4YvaexH8rRPB": {
       "chain": "solana",
@@ -52747,6 +52754,32 @@
       "detection_price": 6.241e-05,
       "detection_liq": 24831.64,
       "peak_price": 6.241e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3HmXpoWkYxUmGT1i66NAFtrxGGM4w7Z9TG8TdZ9YUDy4": {
+      "chain": "solana",
+      "pair_address": "3HmXpoWkYxUmGT1i66NAFtrxGGM4w7Z9TG8TdZ9YUDy4",
+      "symbol": "Buddy",
+      "tier": "T2",
+      "detection_time": "2026-08-14T16:06:25.008361+00:00",
+      "detection_price": 0.0007932,
+      "detection_liq": 79780.69,
+      "peak_price": 0.0007932,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Fsua1xKtFGi18W6wurRXhucnRui8L1WyAbgyTtQ9VvJ": {
+      "chain": "solana",
+      "pair_address": "Fsua1xKtFGi18W6wurRXhucnRui8L1WyAbgyTtQ9VvJ",
+      "symbol": "GACHAPOP",
+      "tier": "T1",
+      "detection_time": "2026-08-14T16:06:27.861293+00:00",
+      "detection_price": 0.0004972,
+      "detection_liq": 52384.15,
+      "peak_price": 0.0004972,
       "captures": {},
       "outcome_label": null,
       "completed": false
