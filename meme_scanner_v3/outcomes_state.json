@@ -50052,10 +50052,17 @@
           "volume_24h": 978975.47,
           "captured_at": "2026-08-08T12:54:34.291851+00:00",
           "hours_elapsed": 24.4
+        },
+        "price_7d": {
+          "price": 1.166e-05,
+          "liquidity": 7751.63,
+          "volume_24h": 7225.38,
+          "captured_at": "2026-08-14T13:13:03.335198+00:00",
+          "hours_elapsed": 168.7
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:CHEdDwzPVF1UeuCpZ9mXWbj3xbHWnL8NkrHmBqXWe42B": {
       "chain": "solana",
@@ -50087,10 +50094,17 @@
           "volume_24h": 340313.97,
           "captured_at": "2026-08-08T12:54:34.291851+00:00",
           "hours_elapsed": 24.4
+        },
+        "price_7d": {
+          "price": 2.89e-06,
+          "liquidity": 2836.03,
+          "volume_24h": 694.85,
+          "captured_at": "2026-08-14T13:13:03.335198+00:00",
+          "hours_elapsed": 168.7
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:5ndX93MdKgqxn9AkbSUM6vePEJRCKUcWTDuWTsjvPC17": {
       "chain": "solana",
@@ -52679,6 +52693,19 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DSiMBS1ueSLmjpt9WB9XKMFeuUjUK1YKcrSn7R2etQDX": {
+      "chain": "solana",
+      "pair_address": "DSiMBS1ueSLmjpt9WB9XKMFeuUjUK1YKcrSn7R2etQDX",
+      "symbol": "BABYSHIB",
+      "tier": "T2",
+      "detection_time": "2026-08-14T13:12:54.642229+00:00",
+      "detection_price": 0.0004691,
+      "detection_liq": 54163.28,
+      "peak_price": 0.0004691,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
