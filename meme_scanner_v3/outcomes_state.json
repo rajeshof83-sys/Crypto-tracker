@@ -52495,6 +52495,27 @@
       "detection_price": 0.0004511,
       "detection_liq": 49738.9,
       "peak_price": 0.0004511,
+      "captures": {
+        "price_1h": {
+          "price": 1.572e-06,
+          "liquidity": 1698.44,
+          "volume_24h": 857455.64,
+          "captured_at": "2026-08-14T02:10:12.216395+00:00",
+          "hours_elapsed": 2.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8DqtnChFqU6aVMpKKcr5MBkKXjySBFmaQpuaTSLwYCVj": {
+      "chain": "solana",
+      "pair_address": "8DqtnChFqU6aVMpKKcr5MBkKXjySBFmaQpuaTSLwYCVj",
+      "symbol": "LHE",
+      "tier": "T1",
+      "detection_time": "2026-08-14T02:10:06.234549+00:00",
+      "detection_price": 0.0006485,
+      "detection_liq": 60321.9,
+      "peak_price": 0.0006485,
       "captures": {},
       "outcome_label": null,
       "completed": false
