@@ -49863,10 +49863,17 @@
           "volume_24h": 350285.46,
           "captured_at": "2026-08-08T03:35:14.579367+00:00",
           "hours_elapsed": 24.2
+        },
+        "price_7d": {
+          "price": 3.76e-06,
+          "liquidity": 3367.48,
+          "volume_24h": 927.73,
+          "captured_at": "2026-08-14T04:50:36.895811+00:00",
+          "hours_elapsed": 169.4
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:7gRE4sccLwyqX4DTZLbmTgni54fkN7xVF1wCz7p5K13": {
       "chain": "solana",
@@ -52532,6 +52539,32 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3ASkipbjRWfmvFjpDinSjWvRykBuAPZorM6ngLgmAWQ9": {
+      "chain": "solana",
+      "pair_address": "3ASkipbjRWfmvFjpDinSjWvRykBuAPZorM6ngLgmAWQ9",
+      "symbol": "TISUKI",
+      "tier": "T1",
+      "detection_time": "2026-08-14T04:50:26.131008+00:00",
+      "detection_price": 0.0001422,
+      "detection_liq": 26755.58,
+      "peak_price": 0.0001422,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:G3XqqvRkRXBEPQ264FVsUx953nKSZu5SyK5zvokRfbjA": {
+      "chain": "solana",
+      "pair_address": "G3XqqvRkRXBEPQ264FVsUx953nKSZu5SyK5zvokRfbjA",
+      "symbol": "SCHWEN",
+      "tier": "T1",
+      "detection_time": "2026-08-14T04:50:28.901598+00:00",
+      "detection_price": 0.0006307,
+      "detection_liq": 59989.97,
+      "peak_price": 0.0006307,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
