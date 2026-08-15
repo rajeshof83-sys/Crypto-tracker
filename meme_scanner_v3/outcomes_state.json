@@ -53129,6 +53129,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:3UHxMXmVenDwa74T8tR8UzPgK6EFcnNvHbb9xxsPK3nd": {
+      "chain": "solana",
+      "pair_address": "3UHxMXmVenDwa74T8tR8UzPgK6EFcnNvHbb9xxsPK3nd",
+      "symbol": "Popo",
+      "tier": "T1",
+      "detection_time": "2026-08-15T11:34:04.991443+00:00",
+      "detection_price": 9.623e-05,
+      "detection_liq": 21888.33,
+      "peak_price": 9.623e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2EuhLyM28hK6v4wbEM9hz4tg71qqjmaUq9EutaFbrjSU": {
+      "chain": "solana",
+      "pair_address": "2EuhLyM28hK6v4wbEM9hz4tg71qqjmaUq9EutaFbrjSU",
+      "symbol": "FORG",
+      "tier": "T1",
+      "detection_time": "2026-08-15T11:34:07.454121+00:00",
+      "detection_price": 0.0001191,
+      "detection_liq": 24399.04,
+      "peak_price": 0.0001191,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
