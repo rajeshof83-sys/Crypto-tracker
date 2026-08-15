@@ -53059,6 +53059,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:BkL4EnAcFJ6EA51uowApBJ9Z9HAH9T4YAcfKFE8sU7Rz": {
+      "chain": "solana",
+      "pair_address": "BkL4EnAcFJ6EA51uowApBJ9Z9HAH9T4YAcfKFE8sU7Rz",
+      "symbol": "GrokCoin",
+      "tier": "T1",
+      "detection_time": "2026-08-15T08:45:26.838400+00:00",
+      "detection_price": 8.482e-05,
+      "detection_liq": 20184.86,
+      "peak_price": 8.482e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EHh2EzVNij9Bc6a69tySMND2rFWmn6LM33fS7m6RZWsX": {
+      "chain": "solana",
+      "pair_address": "EHh2EzVNij9Bc6a69tySMND2rFWmn6LM33fS7m6RZWsX",
+      "symbol": "Poipoi",
+      "tier": "T2",
+      "detection_time": "2026-08-15T08:45:29.400986+00:00",
+      "detection_price": 8.925e-05,
+      "detection_liq": 21009.18,
+      "peak_price": 8.925e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
