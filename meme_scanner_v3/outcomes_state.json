@@ -53013,10 +53013,17 @@
           "volume_24h": 461523.6,
           "captured_at": "2026-08-15T05:42:06.495247+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 3.432e-06,
+          "liquidity": 3137.04,
+          "volume_24h": 133279.04,
+          "captured_at": "2026-08-15T23:45:29.025137+00:00",
+          "hours_elapsed": 24.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:4GzS5ATRZmBjStLFGQxrDazrb1waBjZnvoF42KDGFGXK": {
       "chain": "solana",
@@ -53041,10 +53048,17 @@
           "volume_24h": 848050.24,
           "captured_at": "2026-08-15T05:42:06.495247+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 1.474e-06,
+          "liquidity": 1600.66,
+          "volume_24h": 75015.62,
+          "captured_at": "2026-08-15T23:45:29.025137+00:00",
+          "hours_elapsed": 24.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:BjvC2vgyUQMLJeNqxiaaqfjd5Fa6a9bh8CvEzYQgvuTy": {
       "chain": "solana",
@@ -53440,7 +53454,15 @@
       "detection_price": 0.0001972,
       "detection_liq": 32005.59,
       "peak_price": 0.0001972,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 5.75e-06,
+          "liquidity": 4379.8,
+          "volume_24h": 405518.63,
+          "captured_at": "2026-08-15T23:45:29.025137+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -53453,7 +53475,15 @@
       "detection_price": 0.0001192,
       "detection_liq": 24730.55,
       "peak_price": 0.0001192,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 5.7e-05,
+          "liquidity": 16864.26,
+          "volume_24h": 522042.39,
+          "captured_at": "2026-08-15T23:45:29.025137+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
