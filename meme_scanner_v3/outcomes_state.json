@@ -53199,6 +53199,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:CQTRSc6NpAvgCqDAYHznP4AmVrJkscC1LuuP2wj1Ke3U": {
+      "chain": "solana",
+      "pair_address": "CQTRSc6NpAvgCqDAYHznP4AmVrJkscC1LuuP2wj1Ke3U",
+      "symbol": "expensive",
+      "tier": "T1",
+      "detection_time": "2026-08-15T13:44:02.890010+00:00",
+      "detection_price": 0.0001093,
+      "detection_liq": 26264.11,
+      "peak_price": 0.0001093,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4H463WSSmoDhYLQu8UgJonesu8mvJAxV4u7TkTU6Ae7W": {
+      "chain": "solana",
+      "pair_address": "4H463WSSmoDhYLQu8UgJonesu8mvJAxV4u7TkTU6Ae7W",
+      "symbol": "BABYANSEM",
+      "tier": "T2",
+      "detection_time": "2026-08-15T13:44:05.553355+00:00",
+      "detection_price": 0.0004638,
+      "detection_liq": 50269.11,
+      "peak_price": 0.0004638,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
