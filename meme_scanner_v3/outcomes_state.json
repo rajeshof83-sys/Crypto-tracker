@@ -52996,6 +52996,45 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:5AQYhuDBkejS4XQb8oKtD2XtV3Wg9Efpk9ca3StA6z3Q": {
+      "chain": "solana",
+      "pair_address": "5AQYhuDBkejS4XQb8oKtD2XtV3Wg9Efpk9ca3StA6z3Q",
+      "symbol": "Marshal",
+      "tier": "T1",
+      "detection_time": "2026-08-15T06:42:49.560016+00:00",
+      "detection_price": 9.134e-05,
+      "detection_liq": 21054.82,
+      "peak_price": 9.134e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "bsc:0xB3698C835612faDDeD6F86F7b5A8C67411e302ef": {
+      "chain": "bsc",
+      "pair_address": "0xB3698C835612faDDeD6F86F7b5A8C67411e302ef",
+      "symbol": "BBROKERS",
+      "tier": "T2",
+      "detection_time": "2026-08-15T06:42:52.328364+00:00",
+      "detection_price": 0.0002335,
+      "detection_liq": 41825.98,
+      "peak_price": 0.0002335,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:JCayTSUBJcPHmoCyDJHRvqapSsQiDmaGQWHTkGhaJfKc": {
+      "chain": "solana",
+      "pair_address": "JCayTSUBJcPHmoCyDJHRvqapSsQiDmaGQWHTkGhaJfKc",
+      "symbol": "GAUNTLET",
+      "tier": "T1",
+      "detection_time": "2026-08-15T06:42:55.032825+00:00",
+      "detection_price": 0.0002122,
+      "detection_liq": 34296.26,
+      "peak_price": 0.0002122,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
