@@ -53132,6 +53132,13 @@
           "volume_24h": 244513.17,
           "captured_at": "2026-08-15T09:50:04.222818+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 4.621e-06,
+          "liquidity": 3732.64,
+          "volume_24h": 247661.71,
+          "captured_at": "2026-08-15T14:49:10.566337+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -53145,7 +53152,7 @@
       "detection_time": "2026-08-15T08:45:29.400986+00:00",
       "detection_price": 8.925e-05,
       "detection_liq": 21009.18,
-      "peak_price": 0.0001934,
+      "peak_price": 0.0002965,
       "captures": {
         "price_1h": {
           "price": 0.0001934,
@@ -53153,6 +53160,13 @@
           "volume_24h": 132903.69,
           "captured_at": "2026-08-15T09:50:04.222818+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 0.0002965,
+          "liquidity": 40141.05,
+          "volume_24h": 345507.74,
+          "captured_at": "2026-08-15T14:49:10.566337+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -53208,8 +53222,16 @@
       "detection_time": "2026-08-15T13:44:02.890010+00:00",
       "detection_price": 0.0001093,
       "detection_liq": 26264.11,
-      "peak_price": 0.0001093,
-      "captures": {},
+      "peak_price": 0.0001351,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001351,
+          "liquidity": 29365.6,
+          "volume_24h": 257215.98,
+          "captured_at": "2026-08-15T14:49:10.566337+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -53222,7 +53244,15 @@
       "detection_price": 0.0004638,
       "detection_liq": 50269.11,
       "peak_price": 0.0004638,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0001931,
+          "liquidity": 32881.47,
+          "volume_24h": 947592.26,
+          "captured_at": "2026-08-15T14:49:10.566337+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     }
