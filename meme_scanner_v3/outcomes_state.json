@@ -53377,6 +53377,13 @@
           "volume_24h": 270436.07,
           "captured_at": "2026-08-15T19:45:49.196097+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 6.291e-05,
+          "liquidity": 19769.42,
+          "volume_24h": 113927.24,
+          "captured_at": "2026-08-16T13:45:21.222675+00:00",
+          "hours_elapsed": 24.0
         }
       },
       "outcome_label": null,
@@ -53405,6 +53412,13 @@
           "volume_24h": 1217202.55,
           "captured_at": "2026-08-15T19:45:49.196097+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 0.0001509,
+          "liquidity": 29957.09,
+          "volume_24h": 1029667.3,
+          "captured_at": "2026-08-16T13:45:21.222675+00:00",
+          "hours_elapsed": 24.0
         }
       },
       "outcome_label": null,
@@ -53657,6 +53671,27 @@
       "detection_price": 0.0001515,
       "detection_liq": 27855.58,
       "peak_price": 0.0001515,
+      "captures": {
+        "price_1h": {
+          "price": 1.646e-06,
+          "liquidity": 1738.38,
+          "volume_24h": 444838.13,
+          "captured_at": "2026-08-16T13:45:21.222675+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "bsc:0x04Bb60bB302931dcbBB13fc25e0d717639399952": {
+      "chain": "bsc",
+      "pair_address": "0x04Bb60bB302931dcbBB13fc25e0d717639399952",
+      "symbol": "VenusCoin",
+      "tier": "T1",
+      "detection_time": "2026-08-16T13:45:13.917966+00:00",
+      "detection_price": 0.00018,
+      "detection_liq": 41316.29,
+      "peak_price": 0.00018,
       "captures": {},
       "outcome_label": null,
       "completed": false
