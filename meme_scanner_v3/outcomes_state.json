@@ -53467,7 +53467,7 @@
       "detection_time": "2026-08-15T16:28:24.446023+00:00",
       "detection_price": 0.0001779,
       "detection_liq": 29846.17,
-      "peak_price": 0.0001779,
+      "peak_price": 0.0002601,
       "captures": {
         "price_1h": {
           "price": 0.0001607,
@@ -53482,6 +53482,13 @@
           "volume_24h": 169216.93,
           "captured_at": "2026-08-15T22:37:44.511837+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 0.0002601,
+          "liquidity": 36889.64,
+          "volume_24h": 231483.41,
+          "captured_at": "2026-08-16T16:28:53.750990+00:00",
+          "hours_elapsed": 24.0
         }
       },
       "outcome_label": null,
@@ -53727,6 +53734,19 @@
       "detection_price": 0.0001686,
       "detection_liq": 33755.99,
       "peak_price": 0.0001686,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:13REcbvvnURGZCjrnL1Z6HV8i8126ooHjdxUJRgCgm2J": {
+      "chain": "solana",
+      "pair_address": "13REcbvvnURGZCjrnL1Z6HV8i8126ooHjdxUJRgCgm2J",
+      "symbol": "KORI404",
+      "tier": "T1",
+      "detection_time": "2026-08-16T16:28:45.543769+00:00",
+      "detection_price": 0.0003149,
+      "detection_liq": 41619.5,
+      "peak_price": 0.0003149,
       "captures": {},
       "outcome_label": null,
       "completed": false
