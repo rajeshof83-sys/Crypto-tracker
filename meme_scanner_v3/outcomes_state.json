@@ -53447,6 +53447,13 @@
           "volume_24h": 811588.02,
           "captured_at": "2026-08-15T21:35:29.330475+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 0.003623,
+          "liquidity": 161385.67,
+          "volume_24h": 903512.45,
+          "captured_at": "2026-08-16T15:35:56.440476+00:00",
+          "hours_elapsed": 24.0
         }
       },
       "outcome_label": null,
@@ -53708,6 +53715,19 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2BQuidPwk81ZCSrDcZmPXjNdXUMMj74pjKV2ZqwoJhAe": {
+      "chain": "solana",
+      "pair_address": "2BQuidPwk81ZCSrDcZmPXjNdXUMMj74pjKV2ZqwoJhAe",
+      "symbol": "SOLCAT",
+      "tier": "T2",
+      "detection_time": "2026-08-16T15:35:45.190726+00:00",
+      "detection_price": 0.0001686,
+      "detection_liq": 33755.99,
+      "peak_price": 0.0001686,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
