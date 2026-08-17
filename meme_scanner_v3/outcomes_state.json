@@ -53706,10 +53706,17 @@
           "volume_24h": 829515.63,
           "captured_at": "2026-08-16T13:53:13.817637+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 1.671e-06,
+          "liquidity": 1793.32,
+          "volume_24h": 54037.85,
+          "captured_at": "2026-08-17T07:55:53.299171+00:00",
+          "hours_elapsed": 24.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:GdiM75G8GJU5dsGmrQqyys9v2fxvyZ336fzbt8oPuB1d": {
       "chain": "solana",
@@ -53981,6 +53988,19 @@
           "hours_elapsed": 1.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9LykhYXs16nrRvJB6wxvVLjkJXmva4v1CcwEhDD4p5oG": {
+      "chain": "solana",
+      "pair_address": "9LykhYXs16nrRvJB6wxvVLjkJXmva4v1CcwEhDD4p5oG",
+      "symbol": "BOMEKILN",
+      "tier": "T1",
+      "detection_time": "2026-08-17T07:55:40.387218+00:00",
+      "detection_price": 0.0003308,
+      "detection_liq": 43142.01,
+      "peak_price": 0.0003308,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
