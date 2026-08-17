@@ -53860,6 +53860,13 @@
           "volume_24h": 410176.67,
           "captured_at": "2026-08-16T19:33:58.329522+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 7.258e-05,
+          "liquidity": 21128.86,
+          "volume_24h": 309265.2,
+          "captured_at": "2026-08-17T01:25:29.369357+00:00",
+          "hours_elapsed": 6.9
         }
       },
       "outcome_label": null,
@@ -53895,6 +53902,27 @@
       "detection_price": 0.0002079,
       "detection_liq": 32437.72,
       "peak_price": 0.0002079,
+      "captures": {
+        "price_1h": {
+          "price": 1.447e-06,
+          "liquidity": 1527.77,
+          "volume_24h": 424634.85,
+          "captured_at": "2026-08-17T01:25:29.369357+00:00",
+          "hours_elapsed": 2.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3J2mVbQQnQF3R34WuTBZHUAuBSm1Z2VdekGQmvEkkwUH": {
+      "chain": "solana",
+      "pair_address": "3J2mVbQQnQF3R34WuTBZHUAuBSm1Z2VdekGQmvEkkwUH",
+      "symbol": "pumpcat",
+      "tier": "T2",
+      "detection_time": "2026-08-17T01:25:19.877672+00:00",
+      "detection_price": 0.0004673,
+      "detection_liq": 63970.87,
+      "peak_price": 0.0004673,
       "captures": {},
       "outcome_label": null,
       "completed": false
