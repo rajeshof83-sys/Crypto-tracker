@@ -54455,6 +54455,13 @@
           "volume_24h": 740446.67,
           "captured_at": "2026-08-18T15:45:56.007453+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 1.601e-06,
+          "liquidity": 1794.38,
+          "volume_24h": 1249688.35,
+          "captured_at": "2026-08-18T20:41:08.269147+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -54476,6 +54483,13 @@
           "volume_24h": 708077.79,
           "captured_at": "2026-08-18T15:45:56.007453+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 1.736e-06,
+          "liquidity": 1884.62,
+          "volume_24h": 1008360.39,
+          "captured_at": "2026-08-18T20:41:08.269147+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -54510,7 +54524,28 @@
       "detection_time": "2026-08-18T19:41:01.586062+00:00",
       "detection_price": 0.0001257,
       "detection_liq": 25420.26,
-      "peak_price": 0.0001257,
+      "peak_price": 0.0001459,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001459,
+          "liquidity": 27965.11,
+          "volume_24h": 553004.82,
+          "captured_at": "2026-08-18T20:41:08.269147+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Hwf7k8jtKJS4gGFg7DTmiaBuGgoejktCSQiXeTkW1S1s": {
+      "chain": "solana",
+      "pair_address": "Hwf7k8jtKJS4gGFg7DTmiaBuGgoejktCSQiXeTkW1S1s",
+      "symbol": "BABYANSEM",
+      "tier": "T1",
+      "detection_time": "2026-08-18T20:40:59.720561+00:00",
+      "detection_price": 0.00025,
+      "detection_liq": 36330.76,
+      "peak_price": 0.00025,
       "captures": {},
       "outcome_label": null,
       "completed": false
