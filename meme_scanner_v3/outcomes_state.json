@@ -54287,6 +54287,27 @@
       "detection_price": 0.0001921,
       "detection_liq": 32007.86,
       "peak_price": 0.0001921,
+      "captures": {
+        "price_1h": {
+          "price": 0.00016,
+          "liquidity": 29892.55,
+          "volume_24h": 1056515.61,
+          "captured_at": "2026-08-18T06:48:49.961569+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2YhCDWPWXV9f4aZTbMhfnnhpWtWnk8nb6ei2uX2xRodK": {
+      "chain": "solana",
+      "pair_address": "2YhCDWPWXV9f4aZTbMhfnnhpWtWnk8nb6ei2uX2xRodK",
+      "symbol": "BULLSEY",
+      "tier": "T1",
+      "detection_time": "2026-08-18T06:48:42.678346+00:00",
+      "detection_price": 0.0001922,
+      "detection_liq": 31627.84,
+      "peak_price": 0.0001922,
       "captures": {},
       "outcome_label": null,
       "completed": false
