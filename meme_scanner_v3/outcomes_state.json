@@ -51669,10 +51669,17 @@
           "volume_24h": 1686046.62,
           "captured_at": "2026-08-12T06:17:20.148914+00:00",
           "hours_elapsed": 24.7
+        },
+        "price_7d": {
+          "price": 0.0008125,
+          "liquidity": 107367.37,
+          "volume_24h": 629918.54,
+          "captured_at": "2026-08-18T05:45:40.031649+00:00",
+          "hours_elapsed": 168.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:HiuD87ULmziZFJg4KR7pUSeKFVPsHvczP5g8KmUEp4Rg": {
       "chain": "solana",
@@ -54217,6 +54224,13 @@
           "volume_24h": 843744.17,
           "captured_at": "2026-08-18T01:22:48.133237+00:00",
           "hours_elapsed": 1.8
+        },
+        "price_6h": {
+          "price": 1.584e-06,
+          "liquidity": 1753.12,
+          "volume_24h": 843766.47,
+          "captured_at": "2026-08-18T05:45:40.031649+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -54261,6 +54275,19 @@
           "hours_elapsed": 1.6
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6jCybPJQRXoZz12sCbxE1VotcpiE6udUC1G5kYe6PT7k": {
+      "chain": "solana",
+      "pair_address": "6jCybPJQRXoZz12sCbxE1VotcpiE6udUC1G5kYe6PT7k",
+      "symbol": "Gorikun",
+      "tier": "T1",
+      "detection_time": "2026-08-18T05:45:32.271151+00:00",
+      "detection_price": 0.0001921,
+      "detection_liq": 32007.86,
+      "peak_price": 0.0001921,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
