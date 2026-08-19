@@ -54987,6 +54987,27 @@
       "detection_price": 0.0002329,
       "detection_liq": 36820.73,
       "peak_price": 0.0002329,
+      "captures": {
+        "price_1h": {
+          "price": 1.634e-06,
+          "liquidity": 1793.64,
+          "volume_24h": 792398.2,
+          "captured_at": "2026-08-19T16:46:53.823189+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Ditdg5TkVkcq8VWP9SuGe76ag63fMKMXdnVnaSZjHanv": {
+      "chain": "solana",
+      "pair_address": "Ditdg5TkVkcq8VWP9SuGe76ag63fMKMXdnVnaSZjHanv",
+      "symbol": "Lloyd",
+      "tier": "T1",
+      "detection_time": "2026-08-19T16:46:44.595402+00:00",
+      "detection_price": 0.0001148,
+      "detection_liq": 25183.0,
+      "peak_price": 0.0001148,
       "captures": {},
       "outcome_label": null,
       "completed": false
