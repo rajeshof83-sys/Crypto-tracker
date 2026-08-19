@@ -54833,8 +54833,41 @@
           "volume_24h": 88983.22,
           "captured_at": "2026-08-19T07:53:18.063286+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 0.0001612,
+          "liquidity": 28475.9,
+          "volume_24h": 49498.71,
+          "captured_at": "2026-08-19T12:52:55.699782+00:00",
+          "hours_elapsed": 6.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FG3Qst1xomFYdPxMWkz988msnUaBCNpub9WcyZ12HzhX": {
+      "chain": "solana",
+      "pair_address": "FG3Qst1xomFYdPxMWkz988msnUaBCNpub9WcyZ12HzhX",
+      "symbol": "BERTBAG",
+      "tier": "T1",
+      "detection_time": "2026-08-19T12:52:39.379858+00:00",
+      "detection_price": 0.0002778,
+      "detection_liq": 38725.96,
+      "peak_price": 0.0002778,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:442C4Xxhf66ydPmA1H5wPxvR86CjrpX7LKfnjvvDwGXR": {
+      "chain": "solana",
+      "pair_address": "442C4Xxhf66ydPmA1H5wPxvR86CjrpX7LKfnjvvDwGXR",
+      "symbol": "BULLBUTT",
+      "tier": "T1",
+      "detection_time": "2026-08-19T12:52:48.026742+00:00",
+      "detection_price": 0.0001723,
+      "detection_liq": 30365.56,
+      "peak_price": 0.0001723,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
