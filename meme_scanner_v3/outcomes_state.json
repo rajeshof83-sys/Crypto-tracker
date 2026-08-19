@@ -55045,6 +55045,45 @@
       "captures": {},
       "outcome_label": null,
       "completed": false
+    },
+    "solana:5CmZMEm5HG9zE4Y5DCqNBLZefv2SRZgfFr4fuEAXAbDp": {
+      "chain": "solana",
+      "pair_address": "5CmZMEm5HG9zE4Y5DCqNBLZefv2SRZgfFr4fuEAXAbDp",
+      "symbol": "SNIPYCAT",
+      "tier": "T1",
+      "detection_time": "2026-08-19T18:39:17.616800+00:00",
+      "detection_price": 0.0003311,
+      "detection_liq": 43608.2,
+      "peak_price": 0.0003311,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HVmhwEqwrZMP4pvzE5qSU4Fh5ZfM7qgjYSdBPJTFFLX6": {
+      "chain": "solana",
+      "pair_address": "HVmhwEqwrZMP4pvzE5qSU4Fh5ZfM7qgjYSdBPJTFFLX6",
+      "symbol": "PANICL8R",
+      "tier": "T1",
+      "detection_time": "2026-08-19T18:39:20.248078+00:00",
+      "detection_price": 0.0002415,
+      "detection_liq": 37039.15,
+      "peak_price": 0.0002415,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GDsW6GGMhQVkGazq8dNCTiPy2wNVcEfscd9Qi5UKTasY": {
+      "chain": "solana",
+      "pair_address": "GDsW6GGMhQVkGazq8dNCTiPy2wNVcEfscd9Qi5UKTasY",
+      "symbol": "Chauvin",
+      "tier": "T2",
+      "detection_time": "2026-08-19T18:39:24.408057+00:00",
+      "detection_price": 4.337e-05,
+      "detection_liq": 16434.24,
+      "peak_price": 4.337e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
