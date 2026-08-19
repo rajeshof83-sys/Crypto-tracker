@@ -55085,7 +55085,15 @@
       "detection_price": 0.0003311,
       "detection_liq": 43608.2,
       "peak_price": 0.0003311,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 1.707e-06,
+          "liquidity": 1858.45,
+          "volume_24h": 775811.34,
+          "captured_at": "2026-08-19T19:40:15.375740+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -55098,7 +55106,15 @@
       "detection_price": 0.0002415,
       "detection_liq": 37039.15,
       "peak_price": 0.0002415,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 1.587e-06,
+          "liquidity": 1705.01,
+          "volume_24h": 672343.11,
+          "captured_at": "2026-08-19T19:40:15.375740+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -55110,7 +55126,41 @@
       "detection_time": "2026-08-19T18:39:24.408057+00:00",
       "detection_price": 4.337e-05,
       "detection_liq": 16434.24,
-      "peak_price": 4.337e-05,
+      "peak_price": 0.0001075,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001075,
+          "liquidity": 26267.04,
+          "volume_24h": 408149.37,
+          "captured_at": "2026-08-19T19:40:15.375740+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GdWcLgzqUd6zhuZdrWXkVAe1z62QSrjobmVC3Jw88vNG": {
+      "chain": "solana",
+      "pair_address": "GdWcLgzqUd6zhuZdrWXkVAe1z62QSrjobmVC3Jw88vNG",
+      "symbol": "HORNS",
+      "tier": "T1",
+      "detection_time": "2026-08-19T19:40:04.698739+00:00",
+      "detection_price": 0.0001415,
+      "detection_liq": 28001.65,
+      "peak_price": 0.0001415,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6KzHvGecJWpUcJe23uYqe7Mtk9uyZA3P8EmNCi6ecUAZ": {
+      "chain": "solana",
+      "pair_address": "6KzHvGecJWpUcJe23uYqe7Mtk9uyZA3P8EmNCi6ecUAZ",
+      "symbol": "mRNA4157",
+      "tier": "T1",
+      "detection_time": "2026-08-19T19:40:08.781417+00:00",
+      "detection_price": 0.0001374,
+      "detection_liq": 27592.01,
+      "peak_price": 0.0001374,
       "captures": {},
       "outcome_label": null,
       "completed": false
