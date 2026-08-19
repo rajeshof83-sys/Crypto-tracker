@@ -54567,10 +54567,17 @@
           "volume_24h": 1249688.35,
           "captured_at": "2026-08-18T20:41:08.269147+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 1.618e-06,
+          "liquidity": 1810.5,
+          "volume_24h": 699820.52,
+          "captured_at": "2026-08-19T14:53:35.076365+00:00",
+          "hours_elapsed": 24.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:BsLf8XVnfE4VgR1FXn82u2CQmattK16pA7Z4zMWHmP4m": {
       "chain": "solana",
@@ -54595,10 +54602,17 @@
           "volume_24h": 1008360.39,
           "captured_at": "2026-08-18T20:41:08.269147+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 1.595e-06,
+          "liquidity": 1750.53,
+          "volume_24h": 425731.16,
+          "captured_at": "2026-08-19T14:53:35.076365+00:00",
+          "hours_elapsed": 24.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:EfZSY5rEbGymT6zfBiovR6ty9GosqjEs6bs6hmTkrv1c": {
       "chain": "solana",
@@ -54891,6 +54905,45 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CbR6d3qmFhttCmKd9LwKdyeZXRPVU2jmtis9Gb2A9KyK": {
+      "chain": "solana",
+      "pair_address": "CbR6d3qmFhttCmKd9LwKdyeZXRPVU2jmtis9Gb2A9KyK",
+      "symbol": "ANSEMBULL",
+      "tier": "T1",
+      "detection_time": "2026-08-19T14:53:20.602518+00:00",
+      "detection_price": 0.000398,
+      "detection_liq": 47401.15,
+      "peak_price": 0.000398,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5GoC2LveSCu47ASfKDX3UjynEvAF78XMg3PfwiomWs8E": {
+      "chain": "solana",
+      "pair_address": "5GoC2LveSCu47ASfKDX3UjynEvAF78XMg3PfwiomWs8E",
+      "symbol": "KEYTRUDA",
+      "tier": "T1",
+      "detection_time": "2026-08-19T14:53:23.247849+00:00",
+      "detection_price": 0.0003759,
+      "detection_liq": 45757.93,
+      "peak_price": 0.0003759,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3dRQCFY2kSKirVERAWFHv1dL4P5h51XLbEZBPMXQbkoM": {
+      "chain": "solana",
+      "pair_address": "3dRQCFY2kSKirVERAWFHv1dL4P5h51XLbEZBPMXQbkoM",
+      "symbol": "CYBERBULL",
+      "tier": "T1",
+      "detection_time": "2026-08-19T14:53:25.966671+00:00",
+      "detection_price": 0.000363,
+      "detection_liq": 45030.52,
+      "peak_price": 0.000363,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
