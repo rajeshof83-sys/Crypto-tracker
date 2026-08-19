@@ -54637,10 +54637,17 @@
           "volume_24h": 2206241.46,
           "captured_at": "2026-08-18T21:38:17.277298+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 3.387e-06,
+          "liquidity": 4053.61,
+          "volume_24h": 3101328.32,
+          "captured_at": "2026-08-19T15:46:53.606253+00:00",
+          "hours_elapsed": 24.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:4d1zHqd7puCebM8jG8KmgK4rYLDc1gcY389WNm5s4xu8": {
       "chain": "solana",
@@ -54943,6 +54950,19 @@
       "detection_price": 0.000363,
       "detection_liq": 45030.52,
       "peak_price": 0.000363,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HUrYHyKKjM6NA4BVTHZz6DLUBoiwfGhciEuC4kWi3gq9": {
+      "chain": "solana",
+      "pair_address": "HUrYHyKKjM6NA4BVTHZz6DLUBoiwfGhciEuC4kWi3gq9",
+      "symbol": "NUBBUMP",
+      "tier": "T1",
+      "detection_time": "2026-08-19T15:46:45.946785+00:00",
+      "detection_price": 0.0002329,
+      "detection_liq": 36820.73,
+      "peak_price": 0.0002329,
       "captures": {},
       "outcome_label": null,
       "completed": false
