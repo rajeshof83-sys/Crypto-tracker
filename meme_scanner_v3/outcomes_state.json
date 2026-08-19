@@ -52138,10 +52138,17 @@
           "volume_24h": 3652127.47,
           "captured_at": "2026-08-13T04:53:45.140755+00:00",
           "hours_elapsed": 24.0
+        },
+        "price_7d": {
+          "price": 1.734e-05,
+          "liquidity": 10943.31,
+          "volume_24h": 12506.87,
+          "captured_at": "2026-08-19T04:52:54.800224+00:00",
+          "hours_elapsed": 168.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "moon",
+      "completed": true
     },
     "solana:C3yhhn7YdEyww8os2U725PxKeiSKn4bwSEesFRDJ1CZC": {
       "chain": "solana",
@@ -54699,6 +54706,19 @@
       "detection_price": 0.0003153,
       "detection_liq": 41383.62,
       "peak_price": 0.0003153,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "bsc:0x78C3dE4b5122E97ab5eFC8DceEFdB29C5a01AB9f": {
+      "chain": "bsc",
+      "pair_address": "0x78C3dE4b5122E97ab5eFC8DceEFdB29C5a01AB9f",
+      "symbol": "\u4e2d\u56fd\u4eba\u80fd\u98de",
+      "tier": "T2",
+      "detection_time": "2026-08-19T04:52:31.043801+00:00",
+      "detection_price": 0.000795,
+      "detection_liq": 100333.6,
+      "peak_price": 0.000795,
       "captures": {},
       "outcome_label": null,
       "completed": false
