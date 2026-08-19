@@ -54448,10 +54448,17 @@
           "volume_24h": 1469916.89,
           "captured_at": "2026-08-18T12:52:08.967384+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 1.747e-06,
+          "liquidity": 2010.12,
+          "volume_24h": 1053001.46,
+          "captured_at": "2026-08-19T06:50:00.397694+00:00",
+          "hours_elapsed": 24.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:Gktfz2vNXKjCnCewNUUStFwuWqL8xfH5Qus6C5TVq7vu": {
       "chain": "solana",
@@ -54751,6 +54758,19 @@
           "hours_elapsed": 1.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7n9drBwKK4LxgW8kVhx8VZw8FaGupjJH6ebhyNDXj9XB": {
+      "chain": "solana",
+      "pair_address": "7n9drBwKK4LxgW8kVhx8VZw8FaGupjJH6ebhyNDXj9XB",
+      "symbol": "CGX",
+      "tier": "T2",
+      "detection_time": "2026-08-19T06:49:50.071465+00:00",
+      "detection_price": 0.0001466,
+      "detection_liq": 26989.41,
+      "peak_price": 0.0001466,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
