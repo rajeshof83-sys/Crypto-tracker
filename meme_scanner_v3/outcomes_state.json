@@ -54692,8 +54692,16 @@
       "detection_time": "2026-08-19T03:59:12.114643+00:00",
       "detection_price": 0.0001421,
       "detection_liq": 26944.61,
-      "peak_price": 0.0001421,
-      "captures": {},
+      "peak_price": 0.0003501,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003501,
+          "liquidity": 43856.48,
+          "volume_24h": 509921.77,
+          "captured_at": "2026-08-19T05:02:41.815194+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -54706,7 +54714,15 @@
       "detection_price": 0.0003153,
       "detection_liq": 41383.62,
       "peak_price": 0.0003153,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.000302,
+          "liquidity": 40907.99,
+          "volume_24h": 799613.95,
+          "captured_at": "2026-08-19T05:02:41.815194+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
