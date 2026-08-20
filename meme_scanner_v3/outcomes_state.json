@@ -55655,6 +55655,32 @@
       "captures": {},
       "outcome_label": null,
       "completed": false
+    },
+    "bsc:0x8b1b1D88E396e2ae63bFfa273829f5D6cD4e4Fc6": {
+      "chain": "bsc",
+      "pair_address": "0x8b1b1D88E396e2ae63bFfa273829f5D6cD4e4Fc6",
+      "symbol": "\u54c8\u592b\u5e01",
+      "tier": "T1",
+      "detection_time": "2026-08-20T07:43:51.628137+00:00",
+      "detection_price": 0.0001942,
+      "detection_liq": 40066.92,
+      "peak_price": 0.0001942,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:PXcZuQFoARaFf7dL3X95wLi4xpe5dTtDTkifBYDVGcg": {
+      "chain": "solana",
+      "pair_address": "PXcZuQFoARaFf7dL3X95wLi4xpe5dTtDTkifBYDVGcg",
+      "symbol": "goober",
+      "tier": "T2",
+      "detection_time": "2026-08-20T07:43:54.692309+00:00",
+      "detection_price": 7.331e-05,
+      "detection_liq": 19800.66,
+      "peak_price": 7.331e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
