@@ -54882,6 +54882,13 @@
           "volume_24h": 1820154.52,
           "captured_at": "2026-08-19T10:53:10.523871+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 0.0002078,
+          "liquidity": 53008.81,
+          "volume_24h": 1068509.99,
+          "captured_at": "2026-08-20T04:53:56.881594+00:00",
+          "hours_elapsed": 24.0
         }
       },
       "outcome_label": null,
@@ -55526,6 +55533,32 @@
       "detection_price": 0.0002924,
       "detection_liq": 41077.77,
       "peak_price": 0.0002924,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CgyKRMYSLaYAzMvZVn4c643Tcd7bHeCzjWW2M8x9GTnG": {
+      "chain": "solana",
+      "pair_address": "CgyKRMYSLaYAzMvZVn4c643Tcd7bHeCzjWW2M8x9GTnG",
+      "symbol": "BULLCHUA",
+      "tier": "T1",
+      "detection_time": "2026-08-20T04:53:44.535881+00:00",
+      "detection_price": 0.0002131,
+      "detection_liq": 34954.17,
+      "peak_price": 0.0002131,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4RhrGL2KB5mSKMh2nBpq67qmNs9gGAz8j642JXeVfJkL": {
+      "chain": "solana",
+      "pair_address": "4RhrGL2KB5mSKMh2nBpq67qmNs9gGAz8j642JXeVfJkL",
+      "symbol": "QENISBULL",
+      "tier": "T1",
+      "detection_time": "2026-08-20T04:53:47.710097+00:00",
+      "detection_price": 0.0003198,
+      "detection_liq": 43372.75,
+      "peak_price": 0.0003198,
       "captures": {},
       "outcome_label": null,
       "completed": false
