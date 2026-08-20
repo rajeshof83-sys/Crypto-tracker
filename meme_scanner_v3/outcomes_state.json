@@ -55379,6 +55379,13 @@
           "volume_24h": 579600.82,
           "captured_at": "2026-08-20T01:51:13.832074+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 4.066e-05,
+          "liquidity": 15110.41,
+          "volume_24h": 278681.31,
+          "captured_at": "2026-08-20T19:45:17.048356+00:00",
+          "hours_elapsed": 24.1
         }
       },
       "outcome_label": null,
@@ -55407,10 +55414,17 @@
           "volume_24h": 521569.2,
           "captured_at": "2026-08-20T01:51:13.832074+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 1.838e-06,
+          "liquidity": 1937.39,
+          "volume_24h": 60589.97,
+          "captured_at": "2026-08-20T19:45:17.048356+00:00",
+          "hours_elapsed": 24.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:6uXc3U8HDRwVcZDvDJuucVNSToiaoRPHMCZtVqPMpBm8": {
       "chain": "solana",
@@ -56218,8 +56232,16 @@
       "detection_time": "2026-08-20T18:42:56.519906+00:00",
       "detection_price": 0.0001973,
       "detection_liq": 34106.92,
-      "peak_price": 0.0001973,
-      "captures": {},
+      "peak_price": 0.0003677,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003677,
+          "liquidity": 48150.45,
+          "volume_24h": 751725.47,
+          "captured_at": "2026-08-20T19:45:17.048356+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -56231,8 +56253,16 @@
       "detection_time": "2026-08-20T18:43:00.441703+00:00",
       "detection_price": 7.431e-05,
       "detection_liq": 20141.08,
-      "peak_price": 7.431e-05,
-      "captures": {},
+      "peak_price": 0.0001356,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001356,
+          "liquidity": 28172.87,
+          "volume_24h": 307131.01,
+          "captured_at": "2026-08-20T19:45:17.048356+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
       "outcome_label": null,
       "completed": false
     }
