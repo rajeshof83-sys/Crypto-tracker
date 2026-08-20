@@ -55379,7 +55379,15 @@
       "detection_price": 0.0003749,
       "detection_liq": 47040.57,
       "peak_price": 0.0003749,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 1.642e-06,
+          "liquidity": 1761.33,
+          "volume_24h": 708979.94,
+          "captured_at": "2026-08-20T02:59:56.481280+00:00",
+          "hours_elapsed": 1.6
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -55391,8 +55399,16 @@
       "detection_time": "2026-08-20T01:23:03.574716+00:00",
       "detection_price": 0.0002959,
       "detection_liq": 42498.82,
-      "peak_price": 0.0002959,
-      "captures": {},
+      "peak_price": 0.0003041,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003041,
+          "liquidity": 44326.27,
+          "volume_24h": 1537318.86,
+          "captured_at": "2026-08-20T02:59:56.481280+00:00",
+          "hours_elapsed": 1.6
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -55405,6 +55421,40 @@
       "detection_price": 8.807e-05,
       "detection_liq": 22925.16,
       "peak_price": 8.807e-05,
+      "captures": {
+        "price_1h": {
+          "price": 5.518e-05,
+          "liquidity": 17824.09,
+          "volume_24h": 121072.58,
+          "captured_at": "2026-08-20T02:59:56.481280+00:00",
+          "hours_elapsed": 1.6
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CwqkkPwKcTXAr4xYw8FKykBYY6x6iaJKrjJdNShiQp8A": {
+      "chain": "solana",
+      "pair_address": "CwqkkPwKcTXAr4xYw8FKykBYY6x6iaJKrjJdNShiQp8A",
+      "symbol": "MADE",
+      "tier": "T1",
+      "detection_time": "2026-08-20T02:59:46.707080+00:00",
+      "detection_price": 0.0001098,
+      "detection_liq": 25490.54,
+      "peak_price": 0.0001098,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FxNzpZQMXyNFzMtVshyHyJJWVRPcqLJBHA5v1uVYnqP1": {
+      "chain": "solana",
+      "pair_address": "FxNzpZQMXyNFzMtVshyHyJJWVRPcqLJBHA5v1uVYnqP1",
+      "symbol": "KEKODYSSEUS",
+      "tier": "T1",
+      "detection_time": "2026-08-20T02:59:49.548984+00:00",
+      "detection_price": 0.000414,
+      "detection_liq": 51239.5,
+      "peak_price": 0.000414,
       "captures": {},
       "outcome_label": null,
       "completed": false
