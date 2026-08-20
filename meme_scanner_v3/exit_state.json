@@ -35961,8 +35961,8 @@
       "peak_safety": 10
     },
     "solana:9LhNWipL83mqHstyrNpNWV8wEHoZuvNh5knmgkajQz4b": {
-      "peak_liq": 103177.97,
-      "peak_vol": 751542.73,
+      "peak_liq": 110762.2,
+      "peak_vol": 751687.08,
       "peak_safety": 9
     },
     "solana:81K7ngaBVXhCYaNFDeEabStgqaJBjJwXjaUcTr7xh8ma": {
@@ -37198,6 +37198,21 @@
     "solana:7Pwd4SAM446P2a59pvAnUaRaiLR6xwWNwe66dqXn4et8": {
       "peak_liq": 43777.22,
       "peak_vol": 677164.64,
+      "peak_safety": 9
+    },
+    "base:0x054cbc9f7ce2081d50bae4f6ccd5f82e1374161fe65e99aa16b53ac1e1c177c8": {
+      "peak_liq": 136579.86,
+      "peak_vol": 469126.06,
+      "peak_safety": 10
+    },
+    "solana:28AMLVEbRMXTYojYnxojqFAUf3qnMpLnKfxPLv7hyxHB": {
+      "peak_liq": 21767.03,
+      "peak_vol": 75936.18,
+      "peak_safety": 8
+    },
+    "solana:9sQbjyEeXxJJcLgFGhPm8gPwrGR2iziN8LFnYdi3RC2c": {
+      "peak_liq": 15890.05,
+      "peak_vol": 18089.37,
       "peak_safety": 9
     }
   },
@@ -43845,7 +43860,7 @@
     "solana:5VyuX5U9cvgF3xvC1sW33V2ZNk6LkCsdWqTJXxrHxazF": 1,
     "solana:8yW8h9iF2ESwtn3UxFBYX3Cs3F4knqCJG6uBDcrkh1Xr": 1,
     "solana:8KeynQe5Q4NrPHsKYV6Y5JyC1vyDyiwFt6gqKJfXTNvo": 0,
-    "solana:3nFyuuAY1PuShK4QLLiv1fdMeA589zN2pwhziLcW4f7s": 7,
+    "solana:3nFyuuAY1PuShK4QLLiv1fdMeA589zN2pwhziLcW4f7s": 8,
     "solana:2yD8js96RaSNU4PQJQ3ES1FyKVpzPHDjYfPnnKjJ5xBd": 0,
     "solana:28xProuNmTFdY7V8gdMAiZHRnwieYXYXKyqvx5DSb3rG": 0,
     "bsc:0x1bFcCB0ED273d3eB50b59d79eE0bc2A5b8032a64": 1,
@@ -44505,7 +44520,7 @@
     "solana:3T26p17vU7Z5kWatmabRxt1LMi9M2khooky5WKScLMz6": 1,
     "solana:8vyig2KEFR3kxw69NV2W8a35KPALMKnPaHrZUCpnz4dy": 0,
     "solana:94RuqYRrToSsdutMe9uFkxj64qzKuXmH2xt99Pqqq8ja": 0,
-    "solana:CcfmG8AruateK12bhMo2BHNYQiQ1JiWLyTBzmMwKuZip": 5,
+    "solana:CcfmG8AruateK12bhMo2BHNYQiQ1JiWLyTBzmMwKuZip": 6,
     "solana:7tnj7f33FGkjsxQiGShGMrMuyMw2i5C7rUvSDxq1SBL3": 1,
     "solana:c1J7zZKjfDph66RW3LgEbFufbGg4i9zS8kmLtXmyAPE": 0,
     "solana:7KZwWnAC7DXpfwgEdMdWRp8WvBghXq8Ek1MrAckXm7Ph": 0,
@@ -44641,7 +44656,10 @@
     "solana:88oHytCgYoMPbELThkzhLFRQ2SFf44xFkZuGf98SDoFR": 1,
     "solana:6ZyNd2Hs72yH46bU5uh3YEHBhm55XEj2RLJRTiGycnzM": 0,
     "solana:H6wLuhg41mKnnwNkRHAGMzsWwUgZpa3Xin3RXKgoyjDX": 0,
-    "solana:7Pwd4SAM446P2a59pvAnUaRaiLR6xwWNwe66dqXn4et8": 1
+    "solana:7Pwd4SAM446P2a59pvAnUaRaiLR6xwWNwe66dqXn4et8": 1,
+    "base:0x054cbc9f7ce2081d50bae4f6ccd5f82e1374161fe65e99aa16b53ac1e1c177c8": 0,
+    "solana:28AMLVEbRMXTYojYnxojqFAUf3qnMpLnKfxPLv7hyxHB": 0,
+    "solana:9sQbjyEeXxJJcLgFGhPm8gPwrGR2iziN8LFnYdi3RC2c": 0
   },
   "exit_alerts_sent": {}
 }
