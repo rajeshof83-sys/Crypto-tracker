@@ -54917,6 +54917,13 @@
           "volume_24h": 49498.71,
           "captured_at": "2026-08-19T12:52:55.699782+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 0.0001392,
+          "liquidity": 27691.21,
+          "volume_24h": 36458.75,
+          "captured_at": "2026-08-20T06:51:42.674263+00:00",
+          "hours_elapsed": 24.0
         }
       },
       "outcome_label": null,
@@ -55603,6 +55610,27 @@
       "detection_price": 0.000107,
       "detection_liq": 24433.6,
       "peak_price": 0.000107,
+      "captures": {
+        "price_1h": {
+          "price": 1.772e-06,
+          "liquidity": 1898.82,
+          "volume_24h": 516545.44,
+          "captured_at": "2026-08-20T06:51:42.674263+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:E3H4To39g5m31DyVUGqr7shi4m3DpXUVLngBStfam7E8": {
+      "chain": "solana",
+      "pair_address": "E3H4To39g5m31DyVUGqr7shi4m3DpXUVLngBStfam7E8",
+      "symbol": "Sakadung",
+      "tier": "T1",
+      "detection_time": "2026-08-20T06:51:32.060882+00:00",
+      "detection_price": 0.000129,
+      "detection_liq": 27740.72,
+      "peak_price": 0.000129,
       "captures": {},
       "outcome_label": null,
       "completed": false
