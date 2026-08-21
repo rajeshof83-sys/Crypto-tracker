@@ -55904,6 +55904,13 @@
           "volume_24h": 810790.91,
           "captured_at": "2026-08-20T12:55:09.795673+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 6.48e-05,
+          "liquidity": 20651.23,
+          "volume_24h": 577336.92,
+          "captured_at": "2026-08-21T06:53:00.096892+00:00",
+          "hours_elapsed": 24.0
         }
       },
       "outcome_label": null,
@@ -56592,6 +56599,32 @@
           "hours_elapsed": 1.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AZVjtqnciAB2EFZDq4T63grPir11zvnor3uBX742CD4h": {
+      "chain": "solana",
+      "pair_address": "AZVjtqnciAB2EFZDq4T63grPir11zvnor3uBX742CD4h",
+      "symbol": "HUMNENUF",
+      "tier": "T1",
+      "detection_time": "2026-08-21T06:52:45.013985+00:00",
+      "detection_price": 0.0003692,
+      "detection_liq": 48366.31,
+      "peak_price": 0.0003692,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DLWYr1di2uDi6FaXve5hBwEPh9k1JXnf239yXAv3G1AF": {
+      "chain": "solana",
+      "pair_address": "DLWYr1di2uDi6FaXve5hBwEPh9k1JXnf239yXAv3G1AF",
+      "symbol": "Moet",
+      "tier": "T1",
+      "detection_time": "2026-08-21T06:52:47.923268+00:00",
+      "detection_price": 0.0002296,
+      "detection_liq": 37650.15,
+      "peak_price": 0.0002296,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
