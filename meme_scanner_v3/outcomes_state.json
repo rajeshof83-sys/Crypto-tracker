@@ -56863,6 +56863,13 @@
           "volume_24h": 1133658.34,
           "captured_at": "2026-08-21T09:51:51.810049+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 1.926e-06,
+          "liquidity": 2172.17,
+          "volume_24h": 1599418.18,
+          "captured_at": "2026-08-21T14:54:08.466024+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -56991,6 +56998,32 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9C4G2PsSukaVcqj86tWMBuYmcSyJxA5Vc5NdqjZYqkr7": {
+      "chain": "solana",
+      "pair_address": "9C4G2PsSukaVcqj86tWMBuYmcSyJxA5Vc5NdqjZYqkr7",
+      "symbol": "BRELLA",
+      "tier": "T1",
+      "detection_time": "2026-08-21T14:53:57.698225+00:00",
+      "detection_price": 0.0002508,
+      "detection_liq": 40005.28,
+      "peak_price": 0.0002508,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Hb97VjbHudGu3HhZUhtfYAhPhfAWahY4N8jL1TYsZTk7": {
+      "chain": "solana",
+      "pair_address": "Hb97VjbHudGu3HhZUhtfYAhPhfAWahY4N8jL1TYsZTk7",
+      "symbol": "Juliano",
+      "tier": "T1",
+      "detection_time": "2026-08-21T14:54:00.497349+00:00",
+      "detection_price": 0.0001417,
+      "detection_liq": 30758.15,
+      "peak_price": 0.0001417,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
