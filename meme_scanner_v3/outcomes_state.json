@@ -55939,6 +55939,13 @@
           "volume_24h": 2209601.86,
           "captured_at": "2026-08-20T13:50:15.793921+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 3.687e-05,
+          "liquidity": 18716.3,
+          "volume_24h": 1157168.02,
+          "captured_at": "2026-08-21T07:46:07.696403+00:00",
+          "hours_elapsed": 24.0
         }
       },
       "outcome_label": null,
@@ -55967,6 +55974,13 @@
           "volume_24h": 244475.31,
           "captured_at": "2026-08-20T13:50:15.793921+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 3.683e-05,
+          "liquidity": 14075.04,
+          "volume_24h": 158377.15,
+          "captured_at": "2026-08-21T07:46:07.696403+00:00",
+          "hours_elapsed": 24.0
         }
       },
       "outcome_label": null,
@@ -56645,6 +56659,32 @@
       "detection_price": 0.0002296,
       "detection_liq": 37650.15,
       "peak_price": 0.0002296,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:E8e5grAnRTDcY667Mau5jX8qXCLNVMVD56Wwi8E2Ghri": {
+      "chain": "solana",
+      "pair_address": "E8e5grAnRTDcY667Mau5jX8qXCLNVMVD56Wwi8E2Ghri",
+      "symbol": "GOKART",
+      "tier": "T1",
+      "detection_time": "2026-08-21T07:45:50.942197+00:00",
+      "detection_price": 0.0002234,
+      "detection_liq": 38200.27,
+      "peak_price": 0.0002234,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "bsc:0xA889388feb8464078583C4dFcb8CDa67b2B7300D": {
+      "chain": "bsc",
+      "pair_address": "0xA889388feb8464078583C4dFcb8CDa67b2B7300D",
+      "symbol": "NLM",
+      "tier": "T1",
+      "detection_time": "2026-08-21T07:45:53.608470+00:00",
+      "detection_price": 0.0001163,
+      "detection_liq": 34046.41,
+      "peak_price": 0.0001163,
       "captures": {},
       "outcome_label": null,
       "completed": false
