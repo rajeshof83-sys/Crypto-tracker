@@ -56503,6 +56503,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:5zVtXjFRh5zWMcbNpfQnXdZucNWHEkuC8uXiphHaHDfW": {
+      "chain": "solana",
+      "pair_address": "5zVtXjFRh5zWMcbNpfQnXdZucNWHEkuC8uXiphHaHDfW",
+      "symbol": "SolFi",
+      "tier": "T1",
+      "detection_time": "2026-08-21T03:56:54.888534+00:00",
+      "detection_price": 0.0002304,
+      "detection_liq": 37372.18,
+      "peak_price": 0.0002304,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4jFdPKSgQoydG9NjwEgvsWJbm2YQGyui848U56UyDKTr": {
+      "chain": "solana",
+      "pair_address": "4jFdPKSgQoydG9NjwEgvsWJbm2YQGyui848U56UyDKTr",
+      "symbol": "UpHouse",
+      "tier": "T2",
+      "detection_time": "2026-08-21T03:57:00.812584+00:00",
+      "detection_price": 4.353e-05,
+      "detection_liq": 15032.2,
+      "peak_price": 4.353e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
