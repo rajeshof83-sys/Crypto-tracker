@@ -56723,6 +56723,13 @@
           "volume_24h": 810255.34,
           "captured_at": "2026-08-21T07:56:50.850349+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 1.937e-06,
+          "liquidity": 2075.07,
+          "volume_24h": 810605.95,
+          "captured_at": "2026-08-21T12:53:53.732380+00:00",
+          "hours_elapsed": 6.0
         }
       },
       "outcome_label": null,
@@ -56744,6 +56751,13 @@
           "volume_24h": 781781.91,
           "captured_at": "2026-08-21T07:56:50.850349+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 1.842e-06,
+          "liquidity": 1986.74,
+          "volume_24h": 781854.19,
+          "captured_at": "2026-08-21T12:53:53.732380+00:00",
+          "hours_elapsed": 6.0
         }
       },
       "outcome_label": null,
@@ -56872,6 +56886,45 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4Wud7AgsNCJp8PBN2jFv6JVNry9MMeYhVmEhr8YFpDdk": {
+      "chain": "solana",
+      "pair_address": "4Wud7AgsNCJp8PBN2jFv6JVNry9MMeYhVmEhr8YFpDdk",
+      "symbol": "ZAZU",
+      "tier": "T1",
+      "detection_time": "2026-08-21T12:53:39.193903+00:00",
+      "detection_price": 0.0001676,
+      "detection_liq": 31807.05,
+      "peak_price": 0.0001676,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DrNXaVwL19auWL4mpUDhMAzvaASoZPrpvHdVRtZuRiC8": {
+      "chain": "solana",
+      "pair_address": "DrNXaVwL19auWL4mpUDhMAzvaASoZPrpvHdVRtZuRiC8",
+      "symbol": "BULLCAT",
+      "tier": "T1",
+      "detection_time": "2026-08-21T12:53:42.699224+00:00",
+      "detection_price": 0.0001825,
+      "detection_liq": 33308.51,
+      "peak_price": 0.0001825,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FVna8k6iQnGorQAc2x9Rb3U2SJwhRj9VDDVhZwuVdu6C": {
+      "chain": "solana",
+      "pair_address": "FVna8k6iQnGorQAc2x9Rb3U2SJwhRj9VDDVhZwuVdu6C",
+      "symbol": "Kroshik",
+      "tier": "T1",
+      "detection_time": "2026-08-21T12:53:45.451774+00:00",
+      "detection_price": 7.791e-05,
+      "detection_liq": 21049.61,
+      "peak_price": 7.791e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
