@@ -57199,6 +57199,13 @@
           "volume_24h": 1087653.31,
           "captured_at": "2026-08-21T19:48:13.039009+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 1.885e-06,
+          "liquidity": 2072.91,
+          "volume_24h": 1087653.34,
+          "captured_at": "2026-08-22T01:22:58.081333+00:00",
+          "hours_elapsed": 6.7
         }
       },
       "outcome_label": null,
@@ -57285,6 +57292,58 @@
           "hours_elapsed": 1.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:48hszk7QJXyiiQcDCD4qHnDaSp5PE69fVGp9uWPtFALS": {
+      "chain": "solana",
+      "pair_address": "48hszk7QJXyiiQcDCD4qHnDaSp5PE69fVGp9uWPtFALS",
+      "symbol": "NENEM",
+      "tier": "T1",
+      "detection_time": "2026-08-22T01:22:42.257093+00:00",
+      "detection_price": 0.0001816,
+      "detection_liq": 33641.06,
+      "peak_price": 0.0001816,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:H3qgazGxMKK6ciqJ22iYMMC4MYb7CkGtXTrSg227Jm9r": {
+      "chain": "solana",
+      "pair_address": "H3qgazGxMKK6ciqJ22iYMMC4MYb7CkGtXTrSg227Jm9r",
+      "symbol": "KERMIT",
+      "tier": "T1",
+      "detection_time": "2026-08-22T01:22:45.031295+00:00",
+      "detection_price": 0.0002704,
+      "detection_liq": 41664.62,
+      "peak_price": 0.0002704,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7WRrvCugP1krT6aq9DQwWbeD92V5LaFm5YkSuof7LpKq": {
+      "chain": "solana",
+      "pair_address": "7WRrvCugP1krT6aq9DQwWbeD92V5LaFm5YkSuof7LpKq",
+      "symbol": "PATE",
+      "tier": "T1",
+      "detection_time": "2026-08-22T01:22:47.490577+00:00",
+      "detection_price": 9.66e-05,
+      "detection_liq": 24337.09,
+      "peak_price": 9.66e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6UnW1k65aXGj7gTDXa9QbMaH5EjQShLUcwafm7RpqSRL": {
+      "chain": "solana",
+      "pair_address": "6UnW1k65aXGj7gTDXa9QbMaH5EjQShLUcwafm7RpqSRL",
+      "symbol": "POORGOAT",
+      "tier": "T2",
+      "detection_time": "2026-08-22T01:22:50.201523+00:00",
+      "detection_price": 4.604e-05,
+      "detection_liq": 20337.18,
+      "peak_price": 4.604e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
