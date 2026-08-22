@@ -56968,10 +56968,17 @@
           "volume_24h": 1299322.31,
           "captured_at": "2026-08-21T13:49:10.605239+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 2.4e-06,
+          "liquidity": 2663.24,
+          "volume_24h": 436431.77,
+          "captured_at": "2026-08-22T07:46:26.829875+00:00",
+          "hours_elapsed": 24.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "bsc:0xA889388feb8464078583C4dFcb8CDa67b2B7300D": {
       "chain": "bsc",
@@ -56996,10 +57003,17 @@
           "volume_24h": 1105034.94,
           "captured_at": "2026-08-21T13:49:10.605239+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 2.686e-06,
+          "liquidity": 5195.98,
+          "volume_24h": 98448.95,
+          "captured_at": "2026-08-22T07:46:26.829875+00:00",
+          "hours_elapsed": 24.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:7udxGJenppXamoYZr8pVxrWbFrum3Kgb9q5u8UTWiRNU": {
       "chain": "solana",
@@ -57607,6 +57621,19 @@
           "hours_elapsed": 1.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:59Vpay1xmhEey4oia2tikeWvvDMARvQ3RGaSpPVKppN5": {
+      "chain": "solana",
+      "pair_address": "59Vpay1xmhEey4oia2tikeWvvDMARvQ3RGaSpPVKppN5",
+      "symbol": "FINGERS",
+      "tier": "T1",
+      "detection_time": "2026-08-22T07:46:12.204557+00:00",
+      "detection_price": 0.0002961,
+      "detection_liq": 43916.77,
+      "peak_price": 0.0002961,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
