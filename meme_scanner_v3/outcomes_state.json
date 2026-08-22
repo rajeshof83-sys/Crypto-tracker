@@ -53636,10 +53636,17 @@
           "volume_24h": 903512.45,
           "captured_at": "2026-08-16T15:35:56.440476+00:00",
           "hours_elapsed": 24.0
+        },
+        "price_7d": {
+          "price": 0.00145,
+          "liquidity": 116424.63,
+          "volume_24h": 137750.55,
+          "captured_at": "2026-08-22T15:35:30.265461+00:00",
+          "hours_elapsed": 168.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:B2cUPqoXnczG6ta3VMba992xcVXUPhzb7N2NVy1t5nU3": {
       "chain": "solana",
@@ -57810,6 +57817,32 @@
           "hours_elapsed": 1.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:BsxKheKSXsp3THb1jciFKgytXTphbn6LDFskd5VLY1ck": {
+      "chain": "solana",
+      "pair_address": "BsxKheKSXsp3THb1jciFKgytXTphbn6LDFskd5VLY1ck",
+      "symbol": "PAWIFI",
+      "tier": "T1",
+      "detection_time": "2026-08-22T15:35:16.962871+00:00",
+      "detection_price": 0.0002059,
+      "detection_liq": 36629.5,
+      "peak_price": 0.0002059,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "bsc:0x8650e3EdE7C2d45F89dbbe108BD6568f414167cb": {
+      "chain": "bsc",
+      "pair_address": "0x8650e3EdE7C2d45F89dbbe108BD6568f414167cb",
+      "symbol": "BNBCAT",
+      "tier": "T2",
+      "detection_time": "2026-08-22T15:35:19.395179+00:00",
+      "detection_price": 0.000233,
+      "detection_liq": 46693.63,
+      "peak_price": 0.000233,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
