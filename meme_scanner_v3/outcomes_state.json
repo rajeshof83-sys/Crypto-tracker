@@ -58136,7 +58136,41 @@
       "detection_time": "2026-08-22T21:24:55.513506+00:00",
       "detection_price": 0.000253,
       "detection_liq": 40265.84,
-      "peak_price": 0.000253,
+      "peak_price": 0.0003012,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003012,
+          "liquidity": 44521.23,
+          "volume_24h": 645132.67,
+          "captured_at": "2026-08-22T22:25:40.372640+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:ALzpihJVdbdhgUQY91jrTBf53fn8yAhP9dBgdyY6NYem": {
+      "chain": "solana",
+      "pair_address": "ALzpihJVdbdhgUQY91jrTBf53fn8yAhP9dBgdyY6NYem",
+      "symbol": "LUCKY",
+      "tier": "T1",
+      "detection_time": "2026-08-22T22:25:30.437403+00:00",
+      "detection_price": 0.000159,
+      "detection_liq": 31916.88,
+      "peak_price": 0.000159,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:91bPjFA3kvdsTARXLit7UpJAABeEdnGqsirYcb1Y7pe": {
+      "chain": "solana",
+      "pair_address": "91bPjFA3kvdsTARXLit7UpJAABeEdnGqsirYcb1Y7pe",
+      "symbol": "POPCATE",
+      "tier": "T1",
+      "detection_time": "2026-08-22T22:25:33.138809+00:00",
+      "detection_price": 0.0002158,
+      "detection_liq": 37148.33,
+      "peak_price": 0.0002158,
       "captures": {},
       "outcome_label": null,
       "completed": false
