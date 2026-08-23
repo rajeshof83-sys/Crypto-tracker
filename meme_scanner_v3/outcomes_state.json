@@ -58430,7 +58430,28 @@
       "detection_time": "2026-08-23T05:45:31.998449+00:00",
       "detection_price": 0.002488,
       "detection_liq": 133000.01,
-      "peak_price": 0.002488,
+      "peak_price": 0.006145,
+      "captures": {
+        "price_1h": {
+          "price": 0.006145,
+          "liquidity": 214711.47,
+          "volume_24h": 3907042.76,
+          "captured_at": "2026-08-23T06:46:14.124675+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FvsZohWNdVpSDQk4gCyU9YrkLRsfeEpSmzVUSQsjDaxG": {
+      "chain": "solana",
+      "pair_address": "FvsZohWNdVpSDQk4gCyU9YrkLRsfeEpSmzVUSQsjDaxG",
+      "symbol": "Dinger",
+      "tier": "T2",
+      "detection_time": "2026-08-23T06:46:05.973795+00:00",
+      "detection_price": 0.0001454,
+      "detection_liq": 29920.21,
+      "peak_price": 0.0001454,
       "captures": {},
       "outcome_label": null,
       "completed": false
