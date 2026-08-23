@@ -54063,10 +54063,17 @@
           "volume_24h": 437930.99,
           "captured_at": "2026-08-17T15:40:29.574518+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 4.679e-05,
+          "liquidity": 21772.91,
+          "volume_24h": 505467.53,
+          "captured_at": "2026-08-23T15:36:41.324106+00:00",
+          "hours_elapsed": 168.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:13REcbvvnURGZCjrnL1Z6HV8i8126ooHjdxUJRgCgm2J": {
       "chain": "solana",
@@ -58011,10 +58018,17 @@
           "volume_24h": 834354.48,
           "captured_at": "2026-08-22T21:47:16.789073+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 1.925e-06,
+          "liquidity": 2080.8,
+          "volume_24h": 72942.61,
+          "captured_at": "2026-08-23T15:36:41.324106+00:00",
+          "hours_elapsed": 24.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "bsc:0x8650e3EdE7C2d45F89dbbe108BD6568f414167cb": {
       "chain": "bsc",
@@ -58039,6 +58053,13 @@
           "volume_24h": 1386490.89,
           "captured_at": "2026-08-22T21:47:16.789073+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 0.0008498,
+          "liquidity": 95101.63,
+          "volume_24h": 3440574.23,
+          "captured_at": "2026-08-23T15:36:41.324106+00:00",
+          "hours_elapsed": 24.0
         }
       },
       "outcome_label": null,
@@ -58633,6 +58654,19 @@
       "detection_price": 0.006981,
       "detection_liq": 228352.83,
       "peak_price": 0.006981,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:A6xuoJnjrzrtXJagMd48LFN6BMC2NVx2dsnBW3WH3apy": {
+      "chain": "solana",
+      "pair_address": "A6xuoJnjrzrtXJagMd48LFN6BMC2NVx2dsnBW3WH3apy",
+      "symbol": "CATELEEK",
+      "tier": "T1",
+      "detection_time": "2026-08-23T15:36:28.371817+00:00",
+      "detection_price": 0.0002227,
+      "detection_liq": 37964.01,
+      "peak_price": 0.0002227,
       "captures": {},
       "outcome_label": null,
       "completed": false
