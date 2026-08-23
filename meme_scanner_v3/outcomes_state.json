@@ -58603,6 +58603,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:6iZLyDGGUEsBMKU9cLaxmxcguL99F6dhSRVcCUysBBTt": {
+      "chain": "solana",
+      "pair_address": "6iZLyDGGUEsBMKU9cLaxmxcguL99F6dhSRVcCUysBBTt",
+      "symbol": "CYBERCAT",
+      "tier": "T2",
+      "detection_time": "2026-08-23T14:40:01.268415+00:00",
+      "detection_price": 0.0003681,
+      "detection_liq": 49778.3,
+      "peak_price": 0.0003681,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FvYok1cEnymtxGPXbLhyMVUBq2iEVGQ18Uj4K7vKoJ5Q": {
+      "chain": "solana",
+      "pair_address": "FvYok1cEnymtxGPXbLhyMVUBq2iEVGQ18Uj4K7vKoJ5Q",
+      "symbol": "CATALORIAN",
+      "tier": "T2",
+      "detection_time": "2026-08-23T14:40:04.000999+00:00",
+      "detection_price": 0.006981,
+      "detection_liq": 228352.83,
+      "peak_price": 0.006981,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
