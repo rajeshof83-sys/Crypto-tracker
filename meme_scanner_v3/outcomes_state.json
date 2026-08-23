@@ -57864,6 +57864,13 @@
           "volume_24h": 1965972.5,
           "captured_at": "2026-08-22T11:46:11.483493+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 0.0006072,
+          "liquidity": 67765.14,
+          "volume_24h": 4639171.62,
+          "captured_at": "2026-08-23T05:45:38.404944+00:00",
+          "hours_elapsed": 24.0
         }
       },
       "outcome_label": null,
@@ -58412,6 +58419,19 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CwBoViDDJjpMwvahCKLyr5wXs3XqxBz8fKDLKKyFek2V": {
+      "chain": "solana",
+      "pair_address": "CwBoViDDJjpMwvahCKLyr5wXs3XqxBz8fKDLKKyFek2V",
+      "symbol": "Dinger",
+      "tier": "T2",
+      "detection_time": "2026-08-23T05:45:31.998449+00:00",
+      "detection_price": 0.002488,
+      "detection_liq": 133000.01,
+      "peak_price": 0.002488,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
