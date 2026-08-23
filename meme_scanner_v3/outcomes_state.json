@@ -57934,10 +57934,17 @@
           "volume_24h": 614005.55,
           "captured_at": "2026-08-22T16:50:54.930208+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 1.959e-06,
+          "liquidity": 2088.11,
+          "volume_24h": 298842.39,
+          "captured_at": "2026-08-23T10:41:20.447671+00:00",
+          "hours_elapsed": 24.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "base:0x863e852fE65a6226bCC7a2cA0a32Aa5435126Cfd": {
       "chain": "base",
