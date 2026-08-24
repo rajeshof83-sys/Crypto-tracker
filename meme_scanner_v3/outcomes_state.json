@@ -58592,6 +58592,13 @@
           "volume_24h": 3643191.59,
           "captured_at": "2026-08-23T10:02:16.945765+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 5.074e-05,
+          "liquidity": 22237.06,
+          "volume_24h": 7420032.67,
+          "captured_at": "2026-08-24T04:07:28.234312+00:00",
+          "hours_elapsed": 24.2
         }
       },
       "outcome_label": null,
@@ -59067,8 +59074,16 @@
       "detection_time": "2026-08-24T03:06:17.026351+00:00",
       "detection_price": 0.0002495,
       "detection_liq": 39928.38,
-      "peak_price": 0.0002495,
-      "captures": {},
+      "peak_price": 0.0003191,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003191,
+          "liquidity": 45650.86,
+          "volume_24h": 574921.89,
+          "captured_at": "2026-08-24T04:07:28.234312+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -59081,6 +59096,40 @@
       "detection_price": 0.0002153,
       "detection_liq": 37038.27,
       "peak_price": 0.0002153,
+      "captures": {
+        "price_1h": {
+          "price": 6.944e-05,
+          "liquidity": 20327.0,
+          "volume_24h": 673182.95,
+          "captured_at": "2026-08-24T04:07:28.234312+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:E1ur46pfaJhiaYiCWUwSH82yjCwKmox1YTCN8K1ERpUu": {
+      "chain": "solana",
+      "pair_address": "E1ur46pfaJhiaYiCWUwSH82yjCwKmox1YTCN8K1ERpUu",
+      "symbol": "YUREI",
+      "tier": "T1",
+      "detection_time": "2026-08-24T04:07:10.219311+00:00",
+      "detection_price": 0.0001278,
+      "detection_liq": 28200.75,
+      "peak_price": 0.0001278,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HHPKaQKQzh6C9ge58X7sNLxFhHnb3U2Uq93Vyijmbp35": {
+      "chain": "solana",
+      "pair_address": "HHPKaQKQzh6C9ge58X7sNLxFhHnb3U2Uq93Vyijmbp35",
+      "symbol": "MoonCoin",
+      "tier": "T1",
+      "detection_time": "2026-08-24T04:07:13.173152+00:00",
+      "detection_price": 0.0001761,
+      "detection_liq": 33778.72,
+      "peak_price": 0.0001761,
       "captures": {},
       "outcome_label": null,
       "completed": false
