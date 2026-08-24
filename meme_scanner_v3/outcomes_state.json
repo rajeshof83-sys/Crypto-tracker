@@ -59320,6 +59320,40 @@
       "detection_price": 0.005202,
       "detection_liq": 200383.67,
       "peak_price": 0.005202,
+      "captures": {
+        "price_1h": {
+          "price": 0.004842,
+          "liquidity": 193616.54,
+          "volume_24h": 2868156.32,
+          "captured_at": "2026-08-24T10:54:13.093220+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3XC6dZYHKMR9s7PfwVaXQfMnSpLc4fbS5E6oxbGRPp3Q": {
+      "chain": "solana",
+      "pair_address": "3XC6dZYHKMR9s7PfwVaXQfMnSpLc4fbS5E6oxbGRPp3Q",
+      "symbol": "VAMPURR",
+      "tier": "T1",
+      "detection_time": "2026-08-24T10:53:57.483348+00:00",
+      "detection_price": 0.0002022,
+      "detection_liq": 36340.57,
+      "peak_price": 0.0002022,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:75kdZN4frvNjvHCirW8TNBJZS7aAi5TNyzwcCYCHhmRH": {
+      "chain": "solana",
+      "pair_address": "75kdZN4frvNjvHCirW8TNBJZS7aAi5TNyzwcCYCHhmRH",
+      "symbol": "MGNOPE",
+      "tier": "T1",
+      "detection_time": "2026-08-24T10:54:01.493989+00:00",
+      "detection_price": 0.0002422,
+      "detection_liq": 40676.96,
+      "peak_price": 0.0002422,
       "captures": {},
       "outcome_label": null,
       "completed": false
