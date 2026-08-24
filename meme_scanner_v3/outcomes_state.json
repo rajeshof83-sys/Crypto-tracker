@@ -59040,6 +59040,40 @@
       "detection_price": 7.828e-05,
       "detection_liq": 21976.17,
       "peak_price": 7.828e-05,
+      "captures": {
+        "price_1h": {
+          "price": 6.83e-05,
+          "liquidity": 20432.69,
+          "volume_24h": 117617.28,
+          "captured_at": "2026-08-24T03:06:28.041578+00:00",
+          "hours_elapsed": 1.6
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6YSboaG39DmM86sFMNP6WaBiPo8LmSEWJ6zkzU4Tr5Yg": {
+      "chain": "solana",
+      "pair_address": "6YSboaG39DmM86sFMNP6WaBiPo8LmSEWJ6zkzU4Tr5Yg",
+      "symbol": "MIRALIE",
+      "tier": "T1",
+      "detection_time": "2026-08-24T03:06:17.026351+00:00",
+      "detection_price": 0.0002495,
+      "detection_liq": 39928.38,
+      "peak_price": 0.0002495,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GtHxtEwPbFG8tKeuKE3DkCFn6Dx8fTEeWptDUsGr9WBv": {
+      "chain": "solana",
+      "pair_address": "GtHxtEwPbFG8tKeuKE3DkCFn6Dx8fTEeWptDUsGr9WBv",
+      "symbol": "Hobbes",
+      "tier": "T1",
+      "detection_time": "2026-08-24T03:06:19.402868+00:00",
+      "detection_price": 0.0002153,
+      "detection_liq": 37038.27,
+      "peak_price": 0.0002153,
       "captures": {},
       "outcome_label": null,
       "completed": false
