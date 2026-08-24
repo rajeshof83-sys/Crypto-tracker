@@ -59492,6 +59492,45 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:59Xr7KCKQg7r5Lq6nRRu47GmS5vXTAJFs7qhh7H2K3HC": {
+      "chain": "solana",
+      "pair_address": "59Xr7KCKQg7r5Lq6nRRu47GmS5vXTAJFs7qhh7H2K3HC",
+      "symbol": "TORQUE",
+      "tier": "T1",
+      "detection_time": "2026-08-24T17:33:23.004491+00:00",
+      "detection_price": 0.0005773,
+      "detection_liq": 62626.92,
+      "peak_price": 0.0005773,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:BTYhUWj6vyz5QvRznz4QGVKVbAcAUHNVyxJedML3jqYP": {
+      "chain": "solana",
+      "pair_address": "BTYhUWj6vyz5QvRznz4QGVKVbAcAUHNVyxJedML3jqYP",
+      "symbol": "csvoss",
+      "tier": "T1",
+      "detection_time": "2026-08-24T17:33:26.237717+00:00",
+      "detection_price": 0.0004448,
+      "detection_liq": 55094.42,
+      "peak_price": 0.0004448,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "ethereum:0xD2Dc0d52e762dFa83F973c46C1dF8e209f25Ed39": {
+      "chain": "ethereum",
+      "pair_address": "0xD2Dc0d52e762dFa83F973c46C1dF8e209f25Ed39",
+      "symbol": "ETHDOG",
+      "tier": "T2",
+      "detection_time": "2026-08-24T17:33:29.403494+00:00",
+      "detection_price": 4.25e-05,
+      "detection_liq": 15177.29,
+      "peak_price": 4.25e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
