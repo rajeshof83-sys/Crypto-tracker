@@ -58732,6 +58732,13 @@
           "volume_24h": 839337.08,
           "captured_at": "2026-08-23T15:45:30.773190+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 1.845e-05,
+          "liquidity": 10707.93,
+          "volume_24h": 399181.28,
+          "captured_at": "2026-08-24T09:51:43.202470+00:00",
+          "hours_elapsed": 24.1
         }
       },
       "outcome_label": null,
@@ -58760,6 +58767,13 @@
           "volume_24h": 214515.2,
           "captured_at": "2026-08-23T15:45:30.773190+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 6.888e-05,
+          "liquidity": 20237.46,
+          "volume_24h": 150935.2,
+          "captured_at": "2026-08-24T09:51:43.202470+00:00",
+          "hours_elapsed": 24.1
         }
       },
       "outcome_label": null,
@@ -59280,6 +59294,19 @@
           "hours_elapsed": 1.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DSX8gY83K3bB7bsgCoBrPVnPWyw7KkVrDmktX6tmNRqs": {
+      "chain": "solana",
+      "pair_address": "DSX8gY83K3bB7bsgCoBrPVnPWyw7KkVrDmktX6tmNRqs",
+      "symbol": "GrokBot",
+      "tier": "T2",
+      "detection_time": "2026-08-24T09:51:34.355414+00:00",
+      "detection_price": 0.005202,
+      "detection_liq": 200383.67,
+      "peak_price": 0.005202,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
