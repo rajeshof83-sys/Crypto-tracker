@@ -59984,7 +59984,28 @@
       "detection_time": "2026-08-25T11:31:18.832540+00:00",
       "detection_price": 0.0005836,
       "detection_liq": 65700.92,
-      "peak_price": 0.0005836,
+      "peak_price": 0.0007532,
+      "captures": {
+        "price_1h": {
+          "price": 0.0007532,
+          "liquidity": 75003.84,
+          "volume_24h": 1605992.69,
+          "captured_at": "2026-08-25T12:53:00.553541+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HMVsN1AdErpcBfvT1bQjmRhe4Bd3VZQnVBZPXu2cm44i": {
+      "chain": "solana",
+      "pair_address": "HMVsN1AdErpcBfvT1bQjmRhe4Bd3VZQnVBZPXu2cm44i",
+      "symbol": "CATVERSAL",
+      "tier": "T1",
+      "detection_time": "2026-08-25T12:52:45.566413+00:00",
+      "detection_price": 0.0002414,
+      "detection_liq": 40274.6,
+      "peak_price": 0.0002414,
       "captures": {},
       "outcome_label": null,
       "completed": false
