@@ -59824,7 +59824,15 @@
       "detection_price": 0.0002344,
       "detection_liq": 40292.87,
       "peak_price": 0.0002344,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 2.113e-06,
+          "liquidity": 2276.08,
+          "volume_24h": 724235.62,
+          "captured_at": "2026-08-25T06:53:24.504010+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -59836,8 +59844,16 @@
       "detection_time": "2026-08-25T05:48:22.306658+00:00",
       "detection_price": 0.0002075,
       "detection_liq": 38134.03,
-      "peak_price": 0.0002075,
-      "captures": {},
+      "peak_price": 0.0002643,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002643,
+          "liquidity": 43172.03,
+          "volume_24h": 638177.31,
+          "captured_at": "2026-08-25T06:53:24.504010+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -59849,7 +59865,28 @@
       "detection_time": "2026-08-25T05:48:24.782452+00:00",
       "detection_price": 0.0002893,
       "detection_liq": 44969.4,
-      "peak_price": 0.0002893,
+      "peak_price": 0.000349,
+      "captures": {
+        "price_1h": {
+          "price": 0.000349,
+          "liquidity": 50062.63,
+          "volume_24h": 901167.64,
+          "captured_at": "2026-08-25T06:53:24.504010+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:C4kwBwoGtpLxMn33JDSRG8WdEdM64MVrjM9sk9ipNk4M": {
+      "chain": "solana",
+      "pair_address": "C4kwBwoGtpLxMn33JDSRG8WdEdM64MVrjM9sk9ipNk4M",
+      "symbol": "Goopy",
+      "tier": "T2",
+      "detection_time": "2026-08-25T06:53:11.046837+00:00",
+      "detection_price": 0.0002319,
+      "detection_liq": 39484.61,
+      "peak_price": 0.0002319,
       "captures": {},
       "outcome_label": null,
       "completed": false
