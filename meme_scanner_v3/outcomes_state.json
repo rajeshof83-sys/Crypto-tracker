@@ -60262,6 +60262,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:AcXgTspdMDmdsGVxrW7e5DicMq7dhzbAHjvBnLtJi8Rs": {
+      "chain": "solana",
+      "pair_address": "AcXgTspdMDmdsGVxrW7e5DicMq7dhzbAHjvBnLtJi8Rs",
+      "symbol": "Luna",
+      "tier": "T1",
+      "detection_time": "2026-08-25T22:30:32.797523+00:00",
+      "detection_price": 6.639e-05,
+      "detection_liq": 20365.64,
+      "peak_price": 6.639e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3b61sQLnm5Km7fvPAjm88vZM4VrEhEexLAPf4ocr9TWw": {
+      "chain": "solana",
+      "pair_address": "3b61sQLnm5Km7fvPAjm88vZM4VrEhEexLAPf4ocr9TWw",
+      "symbol": "MARSCAT",
+      "tier": "T1",
+      "detection_time": "2026-08-25T22:30:36.490012+00:00",
+      "detection_price": 0.0001282,
+      "detection_liq": 28747.42,
+      "peak_price": 0.0001282,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
