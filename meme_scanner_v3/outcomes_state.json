@@ -61042,7 +61042,15 @@
       "detection_price": 0.0001645,
       "detection_liq": 33073.11,
       "peak_price": 0.0001645,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 9.845e-05,
+          "liquidity": 25470.24,
+          "volume_24h": 569793.25,
+          "captured_at": "2026-08-26T21:47:31.345975+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -61054,7 +61062,28 @@
       "detection_time": "2026-08-26T20:37:39.609421+00:00",
       "detection_price": 0.0002096,
       "detection_liq": 36841.06,
-      "peak_price": 0.0002096,
+      "peak_price": 0.0002695,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002695,
+          "liquidity": 42998.91,
+          "volume_24h": 654694.73,
+          "captured_at": "2026-08-26T21:47:31.345975+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EyMnxC8Ciu5WCqpfzcbToQYNrzXADZXC2L9R2ZzJxPe7": {
+      "chain": "solana",
+      "pair_address": "EyMnxC8Ciu5WCqpfzcbToQYNrzXADZXC2L9R2ZzJxPe7",
+      "symbol": "doggy",
+      "tier": "T1",
+      "detection_time": "2026-08-26T21:47:22.759735+00:00",
+      "detection_price": 0.0002698,
+      "detection_liq": 42732.88,
+      "peak_price": 0.0002698,
       "captures": {},
       "outcome_label": null,
       "completed": false
