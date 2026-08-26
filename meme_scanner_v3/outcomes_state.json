@@ -60475,7 +60475,15 @@
       "detection_price": 8.21e-05,
       "detection_liq": 22730.65,
       "peak_price": 8.21e-05,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 2.283e-06,
+          "liquidity": 2458.81,
+          "volume_24h": 770839.6,
+          "captured_at": "2026-08-26T05:08:05.318430+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -60488,6 +60496,27 @@
       "detection_price": 0.0001383,
       "detection_liq": 30912.52,
       "peak_price": 0.0001383,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001021,
+          "liquidity": 26271.3,
+          "volume_24h": 304602.09,
+          "captured_at": "2026-08-26T05:08:05.318430+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3stTj1eMchFFzdfqbRGiUzTeEDbgBaGuZJAswyy7jjxW": {
+      "chain": "solana",
+      "pair_address": "3stTj1eMchFFzdfqbRGiUzTeEDbgBaGuZJAswyy7jjxW",
+      "symbol": "WUF",
+      "tier": "T1",
+      "detection_time": "2026-08-26T05:06:52.831686+00:00",
+      "detection_price": 0.000121,
+      "detection_liq": 27854.66,
+      "peak_price": 0.000121,
       "captures": {},
       "outcome_label": null,
       "completed": false
