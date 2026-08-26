@@ -60167,10 +60167,17 @@
           "volume_24h": 1012444.85,
           "captured_at": "2026-08-25T18:56:17.132034+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 2.143e-06,
+          "liquidity": 2339.72,
+          "volume_24h": 554304.45,
+          "captured_at": "2026-08-26T12:58:28.149892+00:00",
+          "hours_elapsed": 24.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:5yq5jYbc3GXs2MmKW5sCvwRDDnZJi5rQUZVN9iz1iXp2": {
       "chain": "solana",
@@ -60656,7 +60663,7 @@
       "detection_time": "2026-08-26T06:54:29.137567+00:00",
       "detection_price": 0.0001519,
       "detection_liq": 31324.81,
-      "peak_price": 0.0001877,
+      "peak_price": 0.0002681,
       "captures": {
         "price_1h": {
           "price": 0.0001877,
@@ -60664,6 +60671,13 @@
           "volume_24h": 472338.54,
           "captured_at": "2026-08-26T07:59:13.775845+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 0.0002681,
+          "liquidity": 43523.94,
+          "volume_24h": 940409.19,
+          "captured_at": "2026-08-26T12:58:28.149892+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -60687,6 +60701,32 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CNZhuow8qBBLtL746HpqhJcN7G3iWhGhs8KQXhx8zUzm": {
+      "chain": "solana",
+      "pair_address": "CNZhuow8qBBLtL746HpqhJcN7G3iWhGhs8KQXhx8zUzm",
+      "symbol": "BREAKING",
+      "tier": "T2",
+      "detection_time": "2026-08-26T12:58:02.010914+00:00",
+      "detection_price": 0.005821,
+      "detection_liq": 227498.26,
+      "peak_price": 0.005821,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:88wJf9FYZ1CZgZg7KE3GFbQe2wGUacjmK14CGBsdC2Ww": {
+      "chain": "solana",
+      "pair_address": "88wJf9FYZ1CZgZg7KE3GFbQe2wGUacjmK14CGBsdC2Ww",
+      "symbol": "MARPO",
+      "tier": "T1",
+      "detection_time": "2026-08-26T12:58:05.721788+00:00",
+      "detection_price": 0.000273,
+      "detection_liq": 42918.56,
+      "peak_price": 0.000273,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
