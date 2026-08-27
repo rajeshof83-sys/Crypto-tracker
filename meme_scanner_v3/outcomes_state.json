@@ -60664,10 +60664,17 @@
           "volume_24h": 900274.3,
           "captured_at": "2026-08-26T09:11:53.158173+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 2.025e-06,
+          "liquidity": 2199.63,
+          "volume_24h": 301.54,
+          "captured_at": "2026-08-27T03:20:26.788046+00:00",
+          "hours_elapsed": 24.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:4UooykGwqn82f1bMMLYMuJrmtU9dEHdUJosFkLE4Adyt": {
       "chain": "solana",
@@ -61231,6 +61238,27 @@
       "detection_price": 0.0003546,
       "detection_liq": 50702.53,
       "peak_price": 0.0003546,
+      "captures": {
+        "price_1h": {
+          "price": 2.025e-06,
+          "liquidity": 2236.9,
+          "volume_24h": 1308587.99,
+          "captured_at": "2026-08-27T03:20:26.788046+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:J7i1vvqv9brv73zjhGwSjSUg4wHYf8toiswvrhLXKNGi": {
+      "chain": "solana",
+      "pair_address": "J7i1vvqv9brv73zjhGwSjSUg4wHYf8toiswvrhLXKNGi",
+      "symbol": "trumpfone",
+      "tier": "T1",
+      "detection_time": "2026-08-27T03:20:19.080751+00:00",
+      "detection_price": 0.0002181,
+      "detection_liq": 39581.73,
+      "peak_price": 0.0002181,
       "captures": {},
       "outcome_label": null,
       "completed": false
