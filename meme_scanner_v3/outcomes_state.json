@@ -61406,10 +61406,17 @@
           "volume_24h": 738816.4,
           "captured_at": "2026-08-27T10:04:51.296286+00:00",
           "hours_elapsed": 12.3
+        },
+        "price_24h": {
+          "price": 2.216e-06,
+          "liquidity": 2410.31,
+          "volume_24h": 61.33,
+          "captured_at": "2026-08-27T22:30:30.893191+00:00",
+          "hours_elapsed": 24.7
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:EspNG9qfX5272yDEU24p2sUuBRFWdn7dXsXZBD1AwSxQ": {
       "chain": "solana",
@@ -61657,7 +61664,54 @@
       "detection_time": "2026-08-27T20:38:33.660201+00:00",
       "detection_price": 8.899e-05,
       "detection_liq": 24612.18,
-      "peak_price": 8.899e-05,
+      "peak_price": 9.953e-05,
+      "captures": {
+        "price_1h": {
+          "price": 9.953e-05,
+          "liquidity": 26242.29,
+          "volume_24h": 236810.13,
+          "captured_at": "2026-08-27T22:30:30.893191+00:00",
+          "hours_elapsed": 1.9
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Cs2gxj8pvk2z5hVLLXHwrvvBiDCmrbz7SgBTqPt5jP82": {
+      "chain": "solana",
+      "pair_address": "Cs2gxj8pvk2z5hVLLXHwrvvBiDCmrbz7SgBTqPt5jP82",
+      "symbol": "COUGH",
+      "tier": "T1",
+      "detection_time": "2026-08-27T22:30:15.846652+00:00",
+      "detection_price": 0.0001902,
+      "detection_liq": 37191.24,
+      "peak_price": 0.0001902,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GgJy6qA3S451ijKJxNEbZgEFZgdYrhKP89hUvW2zmQiQ": {
+      "chain": "solana",
+      "pair_address": "GgJy6qA3S451ijKJxNEbZgEFZgdYrhKP89hUvW2zmQiQ",
+      "symbol": "TOGETHER",
+      "tier": "T1",
+      "detection_time": "2026-08-27T22:30:20.188005+00:00",
+      "detection_price": 0.0001515,
+      "detection_liq": 33604.49,
+      "peak_price": 0.0001515,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:E1bh2ZzXCjhuseDSsqVx1fHWcxwBgKGceQgiXjmPbxuZ": {
+      "chain": "solana",
+      "pair_address": "E1bh2ZzXCjhuseDSsqVx1fHWcxwBgKGceQgiXjmPbxuZ",
+      "symbol": "Grokstreet",
+      "tier": "T1",
+      "detection_time": "2026-08-27T22:30:24.351555+00:00",
+      "detection_price": 0.0001178,
+      "detection_liq": 28916.46,
+      "peak_price": 0.0001178,
       "captures": {},
       "outcome_label": null,
       "completed": false
