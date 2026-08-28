@@ -62057,6 +62057,27 @@
       "detection_price": 0.000264,
       "detection_liq": 43178.03,
       "peak_price": 0.000264,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001855,
+          "liquidity": 36025.93,
+          "volume_24h": 565403.27,
+          "captured_at": "2026-08-28T22:20:29.660895+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5zXWvYHWS4cvUxotxQsADf1d7XDioLh43CJ4vGSCee12": {
+      "chain": "solana",
+      "pair_address": "5zXWvYHWS4cvUxotxQsADf1d7XDioLh43CJ4vGSCee12",
+      "symbol": "CATOTC",
+      "tier": "T1",
+      "detection_time": "2026-08-28T22:20:24.707715+00:00",
+      "detection_price": 0.0004228,
+      "detection_liq": 55343.45,
+      "peak_price": 0.0004228,
       "captures": {},
       "outcome_label": null,
       "completed": false
