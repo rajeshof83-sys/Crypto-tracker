@@ -57325,10 +57325,17 @@
           "volume_24h": 447750.43,
           "captured_at": "2026-08-22T10:41:10.963496+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 5.743e-06,
+          "liquidity": 5029.44,
+          "volume_24h": 3655.4,
+          "captured_at": "2026-08-28T11:24:30.594339+00:00",
+          "hours_elapsed": 168.8
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:3DVem7tZK2ATDHuDmU157ZHe5wNgyq9HxNnHmJEvKBPf": {
       "chain": "solana",
@@ -61833,6 +61840,27 @@
       "detection_price": 0.0005105,
       "detection_liq": 61735.74,
       "peak_price": 0.0005105,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003468,
+          "liquidity": 51145.91,
+          "volume_24h": 944093.24,
+          "captured_at": "2026-08-28T11:24:30.594339+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2Pj2VSpgDmdrZMUtU4U9GckA82YYQ4Y2v2Yj66m4ouJc": {
+      "chain": "solana",
+      "pair_address": "2Pj2VSpgDmdrZMUtU4U9GckA82YYQ4Y2v2Yj66m4ouJc",
+      "symbol": "kash",
+      "tier": "T1",
+      "detection_time": "2026-08-28T11:24:24.332539+00:00",
+      "detection_price": 0.0002705,
+      "detection_liq": 44242.92,
+      "peak_price": 0.0002705,
       "captures": {},
       "outcome_label": null,
       "completed": false
