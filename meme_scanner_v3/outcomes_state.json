@@ -61812,6 +61812,27 @@
       "detection_price": 0.0001828,
       "detection_liq": 36202.21,
       "peak_price": 0.0001828,
+      "captures": {
+        "price_1h": {
+          "price": 4.205e-05,
+          "liquidity": 16450.94,
+          "volume_24h": 579469.71,
+          "captured_at": "2026-08-28T10:19:35.866990+00:00",
+          "hours_elapsed": 3.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HYTPSzjvLtmH2TP6mCyFN1WCEVbFy8pDAfSjaiur3cfj": {
+      "chain": "solana",
+      "pair_address": "HYTPSzjvLtmH2TP6mCyFN1WCEVbFy8pDAfSjaiur3cfj",
+      "symbol": "GTAAPE",
+      "tier": "T2",
+      "detection_time": "2026-08-28T10:19:23.514636+00:00",
+      "detection_price": 0.0005105,
+      "detection_liq": 61735.74,
+      "peak_price": 0.0005105,
       "captures": {},
       "outcome_label": null,
       "completed": false
