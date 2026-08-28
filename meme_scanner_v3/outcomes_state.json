@@ -61784,10 +61784,17 @@
           "volume_24h": 389830.89,
           "captured_at": "2026-08-28T06:14:37.230124+00:00",
           "hours_elapsed": 9.6
+        },
+        "price_24h": {
+          "price": 2.403e-06,
+          "liquidity": 2519.24,
+          "volume_24h": 269386.62,
+          "captured_at": "2026-08-28T21:13:13.151564+00:00",
+          "hours_elapsed": 24.6
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:Cs2gxj8pvk2z5hVLLXHwrvvBiDCmrbz7SgBTqPt5jP82": {
       "chain": "solana",
@@ -62029,6 +62036,27 @@
       "detection_price": 9.938e-05,
       "detection_liq": 25752.43,
       "peak_price": 9.938e-05,
+      "captures": {
+        "price_1h": {
+          "price": 4.312e-06,
+          "liquidity": 4008.55,
+          "volume_24h": 544898.14,
+          "captured_at": "2026-08-28T21:13:13.151564+00:00",
+          "hours_elapsed": 2.3
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5iCJADECZmTEsYujUeBwk4bKDti9KG2hScxtr3eVWpEw": {
+      "chain": "solana",
+      "pair_address": "5iCJADECZmTEsYujUeBwk4bKDti9KG2hScxtr3eVWpEw",
+      "symbol": "APEGUN",
+      "tier": "T2",
+      "detection_time": "2026-08-28T21:12:59.374771+00:00",
+      "detection_price": 0.000264,
+      "detection_liq": 43178.03,
+      "peak_price": 0.000264,
       "captures": {},
       "outcome_label": null,
       "completed": false
