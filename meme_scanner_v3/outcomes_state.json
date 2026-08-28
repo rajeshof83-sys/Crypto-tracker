@@ -57038,10 +57038,17 @@
           "volume_24h": 63428.02,
           "captured_at": "2026-08-22T03:57:16.183101+00:00",
           "hours_elapsed": 24.0
+        },
+        "price_7d": {
+          "price": 2.482e-06,
+          "liquidity": 2464.01,
+          "volume_24h": 0.18,
+          "captured_at": "2026-08-28T06:14:37.230124+00:00",
+          "hours_elapsed": 170.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:Dzm3yYVo3ztTPdguZ85aDGQEcGdDQRL14X7Ns3xK31EE": {
       "chain": "solana",
@@ -61441,10 +61448,17 @@
           "volume_24h": 1308589.11,
           "captured_at": "2026-08-27T10:04:51.296286+00:00",
           "hours_elapsed": 7.8
+        },
+        "price_24h": {
+          "price": 2.194e-06,
+          "liquidity": 2422.89,
+          "volume_24h": 1.38,
+          "captured_at": "2026-08-28T06:14:37.230124+00:00",
+          "hours_elapsed": 28.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:J7i1vvqv9brv73zjhGwSjSUg4wHYf8toiswvrhLXKNGi": {
       "chain": "solana",
@@ -61469,10 +61483,17 @@
           "volume_24h": 1477799.91,
           "captured_at": "2026-08-27T10:04:51.296286+00:00",
           "hours_elapsed": 6.7
+        },
+        "price_24h": {
+          "price": 2.362e-06,
+          "liquidity": 2688.5,
+          "volume_24h": 504.01,
+          "captured_at": "2026-08-28T06:14:37.230124+00:00",
+          "hours_elapsed": 26.9
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:Rt6eRVcvsZ26Bfam5ifjVtadbMu1xHBGurBnxXz2Pz3": {
       "chain": "solana",
@@ -61686,6 +61707,13 @@
           "volume_24h": 236810.13,
           "captured_at": "2026-08-27T22:30:30.893191+00:00",
           "hours_elapsed": 1.9
+        },
+        "price_6h": {
+          "price": 8.996e-05,
+          "liquidity": 24951.44,
+          "volume_24h": 389830.89,
+          "captured_at": "2026-08-28T06:14:37.230124+00:00",
+          "hours_elapsed": 9.6
         }
       },
       "outcome_label": null,
@@ -61699,7 +61727,7 @@
       "detection_time": "2026-08-27T22:30:15.846652+00:00",
       "detection_price": 0.0001902,
       "detection_liq": 37191.24,
-      "peak_price": 0.0001902,
+      "peak_price": 0.0001912,
       "captures": {
         "price_1h": {
           "price": 0.0001512,
@@ -61707,6 +61735,13 @@
           "volume_24h": 439446.38,
           "captured_at": "2026-08-27T23:40:34.809654+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 0.0001912,
+          "liquidity": 37409.16,
+          "volume_24h": 570133.0,
+          "captured_at": "2026-08-28T06:14:37.230124+00:00",
+          "hours_elapsed": 7.7
         }
       },
       "outcome_label": null,
@@ -61728,6 +61763,13 @@
           "volume_24h": 940825.9,
           "captured_at": "2026-08-27T23:40:34.809654+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 2.214e-06,
+          "liquidity": 2458.76,
+          "volume_24h": 1010479.42,
+          "captured_at": "2026-08-28T06:14:37.230124+00:00",
+          "hours_elapsed": 7.7
         }
       },
       "outcome_label": null,
@@ -61741,7 +61783,7 @@
       "detection_time": "2026-08-27T22:30:24.351555+00:00",
       "detection_price": 0.0001178,
       "detection_liq": 28916.46,
-      "peak_price": 0.0001821,
+      "peak_price": 0.0002019,
       "captures": {
         "price_1h": {
           "price": 0.0001821,
@@ -61749,6 +61791,13 @@
           "volume_24h": 691904.32,
           "captured_at": "2026-08-27T23:40:34.809654+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 0.0002019,
+          "liquidity": 39112.81,
+          "volume_24h": 909162.98,
+          "captured_at": "2026-08-28T06:14:37.230124+00:00",
+          "hours_elapsed": 7.7
         }
       },
       "outcome_label": null,
