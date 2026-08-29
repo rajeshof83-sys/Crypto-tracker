@@ -62337,6 +62337,13 @@
           "volume_24h": 641969.68,
           "captured_at": "2026-08-29T10:55:31.617622+00:00",
           "hours_elapsed": 1.6
+        },
+        "price_6h": {
+          "price": 2.305e-06,
+          "liquidity": 2553.23,
+          "volume_24h": 1369993.52,
+          "captured_at": "2026-08-29T15:32:38.839353+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -62358,6 +62365,13 @@
           "volume_24h": 1021753.09,
           "captured_at": "2026-08-29T10:55:31.617622+00:00",
           "hours_elapsed": 1.6
+        },
+        "price_6h": {
+          "price": 2.27e-06,
+          "liquidity": 2552.44,
+          "volume_24h": 1021782.16,
+          "captured_at": "2026-08-29T15:32:38.839353+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -62379,6 +62393,13 @@
           "volume_24h": 708784.54,
           "captured_at": "2026-08-29T10:55:31.617622+00:00",
           "hours_elapsed": 1.6
+        },
+        "price_6h": {
+          "price": 0.0001648,
+          "liquidity": 137151.29,
+          "volume_24h": 927903.28,
+          "captured_at": "2026-08-29T15:32:38.839353+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -62406,6 +62427,19 @@
       "detection_price": 8.557e-05,
       "detection_liq": 23914.95,
       "peak_price": 8.557e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Cd7LkG5SBqo46BgKSG75MzeM9ZU96o3DgEi5aBF1FAzB": {
+      "chain": "solana",
+      "pair_address": "Cd7LkG5SBqo46BgKSG75MzeM9ZU96o3DgEi5aBF1FAzB",
+      "symbol": "CopperApe",
+      "tier": "T1",
+      "detection_time": "2026-08-29T15:32:31.719374+00:00",
+      "detection_price": 0.0001179,
+      "detection_liq": 28432.62,
+      "peak_price": 0.0001179,
       "captures": {},
       "outcome_label": null,
       "completed": false

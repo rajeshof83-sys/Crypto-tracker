@@ -17071,7 +17071,7 @@
       "peak_safety": 9
     },
     "solana:J7DKJjzuUUYbodFMFjomy7aG3bW93DEJKSUYvbLsBoeN": {
-      "peak_liq": 67355.78,
+      "peak_liq": 67849.5,
       "peak_vol": 35519.78,
       "peak_safety": 10
     },
@@ -39899,6 +39899,16 @@
       "peak_liq": 0.0,
       "peak_vol": 3186.27,
       "peak_safety": 6
+    },
+    "bsc:0xEFf4f155Be6F23FF1F540f994BCD54E3271Cb646": {
+      "peak_liq": 12840.87,
+      "peak_vol": 49272.75,
+      "peak_safety": 9
+    },
+    "ethereum:0x0cd2d57c9dc8a8205e81ef505c781fb0702a95ce8e3350adf9cc367d74e2b534": {
+      "peak_liq": 19791.36,
+      "peak_vol": 125211.72,
+      "peak_safety": 9
     }
   },
   "consecutive_negative": {
@@ -47853,7 +47863,7 @@
     "solana:EYtdjhQiSRQJ2cgH71mxcstTQQhZdJTX3zufb7qGonzp": 0,
     "solana:CacJuv1hk4NmAYZv7fGoiV5AiECbEQYvarEXk8wqVn8H": 0,
     "solana:CugMDQyL8qsN5FEQ21ew3udfkq6LDicX5Yx7RinLKr8J": 1,
-    "solana:Cs2gxj8pvk2z5hVLLXHwrvvBiDCmrbz7SgBTqPt5jP82": 3,
+    "solana:Cs2gxj8pvk2z5hVLLXHwrvvBiDCmrbz7SgBTqPt5jP82": 4,
     "solana:HYTPSzjvLtmH2TP6mCyFN1WCEVbFy8pDAfSjaiur3cfj": 0,
     "solana:5poXhFXocjhhL3ku3X9nDR2iE8R1k8DspcKGD1hGtwB7": 1,
     "solana:J258FQqmUqf2ApkZv5yM7uHYRmj1CF5Xoxo7h9H27YUp": 2,
@@ -47864,7 +47874,7 @@
     "solana:GCbqindK6zYHdhyaiFdtXzqB2r2TqqWaBKnn4YR3KtLP": 2,
     "solana:8GVRfLfxHDoXgJ1kuoNwy4e5DArfcZrscujLz4zW61bW": 1,
     "solana:5aXDQ436noGzscBKsbVxk68TjbRB3LNtFzq23ZChFPMi": 0,
-    "solana:77JQoGiwz2APJQ6qfqCwwsFwHA1LSMGCfsPLMPidgfd6": 1,
+    "solana:77JQoGiwz2APJQ6qfqCwwsFwHA1LSMGCfsPLMPidgfd6": 2,
     "solana:628LSMCUbyA4VMw2CaSP3v6eEMD5cCQ75nTwvUUtAy7E": 2,
     "solana:GkuESNNHMCGZbCBpHsDcJoXUSGLTMe9QBmWkPmk1rYda": 1,
     "solana:9WiXtmaEtTuHL2rxvZWNHRnvYjpmbjM5s7LW81HTEc9p": 1,
@@ -47881,7 +47891,9 @@
     "solana:34xNjT7oV1YSYQGbsrtWp16MiokkRR996Xib6mC6Akj1": 1,
     "solana:8GAP6fgcUMbjwM15RDgxkthZsGaqq3z7ha3CXS3fQfpS": 1,
     "solana:BvKwJShseACdYxH663gvaPp6KbLmQddzfhbf1N1LDhLJ": 1,
-    "solana:4jYBgTKsViBA4MTvaYvRB1EsBkXDkjn4dNJoMCAPfXSn": 1
+    "solana:4jYBgTKsViBA4MTvaYvRB1EsBkXDkjn4dNJoMCAPfXSn": 1,
+    "bsc:0xEFf4f155Be6F23FF1F540f994BCD54E3271Cb646": 1,
+    "ethereum:0x0cd2d57c9dc8a8205e81ef505c781fb0702a95ce8e3350adf9cc367d74e2b534": 1
   },
   "exit_alerts_sent": {}
 }
