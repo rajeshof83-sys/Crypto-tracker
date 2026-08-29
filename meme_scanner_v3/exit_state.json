@@ -36096,7 +36096,7 @@
       "peak_safety": 6
     },
     "solana:79vWPbJPdj6iPGkP3FwhKYmEt7GJyyTCRnYVRq3sqzNF": {
-      "peak_liq": 39157.45,
+      "peak_liq": 40766.89,
       "peak_vol": 8266.07,
       "peak_safety": 8
     },
@@ -39902,12 +39902,22 @@
     },
     "bsc:0xEFf4f155Be6F23FF1F540f994BCD54E3271Cb646": {
       "peak_liq": 12840.87,
-      "peak_vol": 49272.75,
+      "peak_vol": 50626.93,
       "peak_safety": 9
     },
     "ethereum:0x0cd2d57c9dc8a8205e81ef505c781fb0702a95ce8e3350adf9cc367d74e2b534": {
       "peak_liq": 19791.36,
       "peak_vol": 125211.72,
+      "peak_safety": 9
+    },
+    "solana:3q869rUiJW25WK4GKnX2Qq6VHMnBy6jHDsSRk5qfBW5d": {
+      "peak_liq": 0.0,
+      "peak_vol": 184418.18,
+      "peak_safety": 7
+    },
+    "solana:HcvqoqvyKwpWFwYY8SnrTeLYUS1cMzrwZZp8jmZ52EPt": {
+      "peak_liq": 50331.41,
+      "peak_vol": 994049.76,
       "peak_safety": 9
     }
   },
@@ -46356,7 +46366,7 @@
     "solana:5EjhAj3kbzE7ymEjdk2T1RbEzNPQ1arhwSP6fo1cxRxj": 4,
     "solana:FFbKLZjpc8FgLBsM2CzdFTuovaZQ1nc3d6hTZpyUpQ6d": 1,
     "base:0x2E98A10b626B3D26434E686f6c0DB33ee75A7BB9": 0,
-    "solana:FvsZohWNdVpSDQk4gCyU9YrkLRsfeEpSmzVUSQsjDaxG": 5,
+    "solana:FvsZohWNdVpSDQk4gCyU9YrkLRsfeEpSmzVUSQsjDaxG": 6,
     "solana:7gRE4sccLwyqX4DTZLbmTgni54fkN7xVF1wCz7p5K13": 0,
     "solana:BZQbbqCUEa6TJUoopoJvEo725SxbXGgPYmgMWh6rCoMt": 5,
     "solana:F3SuijHt7XTZyGGVmruz2VzUu3SWz4JiEozAum1DMqyJ": 0,
@@ -47892,8 +47902,10 @@
     "solana:8GAP6fgcUMbjwM15RDgxkthZsGaqq3z7ha3CXS3fQfpS": 1,
     "solana:BvKwJShseACdYxH663gvaPp6KbLmQddzfhbf1N1LDhLJ": 1,
     "solana:4jYBgTKsViBA4MTvaYvRB1EsBkXDkjn4dNJoMCAPfXSn": 1,
-    "bsc:0xEFf4f155Be6F23FF1F540f994BCD54E3271Cb646": 1,
-    "ethereum:0x0cd2d57c9dc8a8205e81ef505c781fb0702a95ce8e3350adf9cc367d74e2b534": 1
+    "bsc:0xEFf4f155Be6F23FF1F540f994BCD54E3271Cb646": 2,
+    "ethereum:0x0cd2d57c9dc8a8205e81ef505c781fb0702a95ce8e3350adf9cc367d74e2b534": 2,
+    "solana:3q869rUiJW25WK4GKnX2Qq6VHMnBy6jHDsSRk5qfBW5d": 0,
+    "solana:HcvqoqvyKwpWFwYY8SnrTeLYUS1cMzrwZZp8jmZ52EPt": 1
   },
   "exit_alerts_sent": {}
 }
