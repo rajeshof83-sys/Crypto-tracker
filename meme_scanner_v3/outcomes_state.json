@@ -62252,7 +62252,7 @@
       "detection_time": "2026-08-29T02:23:40.661429+00:00",
       "detection_price": 0.0002208,
       "detection_liq": 45264.16,
-      "peak_price": 0.0002233,
+      "peak_price": 0.0002345,
       "captures": {
         "price_1h": {
           "price": 0.0002233,
@@ -62260,6 +62260,13 @@
           "volume_24h": 433040.26,
           "captured_at": "2026-08-29T03:34:39.958415+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 0.0002345,
+          "liquidity": 46244.59,
+          "volume_24h": 441562.29,
+          "captured_at": "2026-08-29T09:18:47.249586+00:00",
+          "hours_elapsed": 6.9
         }
       },
       "outcome_label": null,
@@ -62274,6 +62281,53 @@
       "detection_price": 0.0001128,
       "detection_liq": 27402.07,
       "peak_price": 0.0001128,
+      "captures": {
+        "price_1h": {
+          "price": 1.986e-06,
+          "liquidity": 2063.84,
+          "volume_24h": 348744.24,
+          "captured_at": "2026-08-29T09:18:47.249586+00:00",
+          "hours_elapsed": 2.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:J76thqRVr7ioMKj4ryJEif5e28my98CZVdvZxcMTY4mE": {
+      "chain": "solana",
+      "pair_address": "J76thqRVr7ioMKj4ryJEif5e28my98CZVdvZxcMTY4mE",
+      "symbol": "CHILLAPE",
+      "tier": "T1",
+      "detection_time": "2026-08-29T09:18:30.205724+00:00",
+      "detection_price": 0.0001761,
+      "detection_liq": 34631.63,
+      "peak_price": 0.0001761,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9WVFXmV5YPPNvZpduRd27gXbomju21AikruixzThfASC": {
+      "chain": "solana",
+      "pair_address": "9WVFXmV5YPPNvZpduRd27gXbomju21AikruixzThfASC",
+      "symbol": "Pigtasio",
+      "tier": "T1",
+      "detection_time": "2026-08-29T09:18:34.414381+00:00",
+      "detection_price": 8.986e-05,
+      "detection_liq": 24806.14,
+      "peak_price": 8.986e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2Z14AvZbWRDup6YdRpXSmJQm9EG7AjsGTCAhQyKMRBKo": {
+      "chain": "solana",
+      "pair_address": "2Z14AvZbWRDup6YdRpXSmJQm9EG7AjsGTCAhQyKMRBKo",
+      "symbol": "nothing",
+      "tier": "T2",
+      "detection_time": "2026-08-29T09:18:36.782388+00:00",
+      "detection_price": 0.00014,
+      "detection_liq": 123229.91,
+      "peak_price": 0.00014,
       "captures": {},
       "outcome_label": null,
       "completed": false
