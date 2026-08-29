@@ -62183,6 +62183,13 @@
           "volume_24h": 754414.93,
           "captured_at": "2026-08-29T02:23:49.485101+00:00",
           "hours_elapsed": 7.5
+        },
+        "price_24h": {
+          "price": 1.075e-05,
+          "liquidity": 7549.02,
+          "volume_24h": 264375.76,
+          "captured_at": "2026-08-29T19:17:45.364352+00:00",
+          "hours_elapsed": 24.4
         }
       },
       "outcome_label": null,
@@ -62511,8 +62518,16 @@
       "detection_time": "2026-08-29T17:55:58.595534+00:00",
       "detection_price": 8.631e-05,
       "detection_liq": 23732.58,
-      "peak_price": 8.631e-05,
-      "captures": {},
+      "peak_price": 9.153e-05,
+      "captures": {
+        "price_1h": {
+          "price": 9.153e-05,
+          "liquidity": 24625.33,
+          "volume_24h": 225177.19,
+          "captured_at": "2026-08-29T19:17:45.364352+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -62524,7 +62539,28 @@
       "detection_time": "2026-08-29T17:56:01.685625+00:00",
       "detection_price": 0.0006348,
       "detection_liq": 69560.64,
-      "peak_price": 0.0006348,
+      "peak_price": 0.0007001,
+      "captures": {
+        "price_1h": {
+          "price": 0.0007001,
+          "liquidity": 74183.69,
+          "volume_24h": 1439753.24,
+          "captured_at": "2026-08-29T19:17:45.364352+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4Qg7fcGsCJZPUrFWf8sND93ZU9yFqDQkU67PMfuhaxAG": {
+      "chain": "solana",
+      "pair_address": "4Qg7fcGsCJZPUrFWf8sND93ZU9yFqDQkU67PMfuhaxAG",
+      "symbol": "POKEMON",
+      "tier": "T2",
+      "detection_time": "2026-08-29T19:17:35.866521+00:00",
+      "detection_price": 0.0002181,
+      "detection_liq": 46339.93,
+      "peak_price": 0.0002181,
       "captures": {},
       "outcome_label": null,
       "completed": false
