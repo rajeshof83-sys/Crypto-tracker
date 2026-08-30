@@ -62852,6 +62852,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:2NV2XDZ1DXURJgDmNKVvDJWL3aw622j4Kypq2YbDvM66": {
+      "chain": "solana",
+      "pair_address": "2NV2XDZ1DXURJgDmNKVvDJWL3aw622j4Kypq2YbDvM66",
+      "symbol": "Popsem",
+      "tier": "T1",
+      "detection_time": "2026-08-30T12:08:36.645218+00:00",
+      "detection_price": 0.0001105,
+      "detection_liq": 27377.14,
+      "peak_price": 0.0001105,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:64YZrEraFyBGtpWQAjc9bi6mGy7oh4g9jbDYbV31gLDx": {
+      "chain": "solana",
+      "pair_address": "64YZrEraFyBGtpWQAjc9bi6mGy7oh4g9jbDYbV31gLDx",
+      "symbol": "stonkape",
+      "tier": "T1",
+      "detection_time": "2026-08-30T12:08:40.153096+00:00",
+      "detection_price": 0.0002353,
+      "detection_liq": 41095.74,
+      "peak_price": 0.0002353,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
