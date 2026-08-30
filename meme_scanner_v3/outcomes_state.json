@@ -62784,7 +62784,28 @@
       "detection_time": "2026-08-30T06:41:10.080643+00:00",
       "detection_price": 0.0001469,
       "detection_liq": 32495.24,
-      "peak_price": 0.0001469,
+      "peak_price": 0.0002302,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002302,
+          "liquidity": 42091.56,
+          "volume_24h": 1189032.18,
+          "captured_at": "2026-08-30T08:03:29.240553+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FmmkBKHiHUzfMxASPfzkkbMv92J1CUco7vnUW9sJTdS1": {
+      "chain": "solana",
+      "pair_address": "FmmkBKHiHUzfMxASPfzkkbMv92J1CUco7vnUW9sJTdS1",
+      "symbol": "TRUMPSTACY",
+      "tier": "T2",
+      "detection_time": "2026-08-30T08:03:20.290899+00:00",
+      "detection_price": 0.0002709,
+      "detection_liq": 44636.73,
+      "peak_price": 0.0002709,
       "captures": {},
       "outcome_label": null,
       "completed": false
