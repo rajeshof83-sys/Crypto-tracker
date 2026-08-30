@@ -62771,6 +62771,13 @@
           "volume_24h": 230044.41,
           "captured_at": "2026-08-30T05:36:57.974046+00:00",
           "hours_elapsed": 10.3
+        },
+        "price_24h": {
+          "price": 0.0001045,
+          "liquidity": 31802.08,
+          "volume_24h": 158020.89,
+          "captured_at": "2026-08-30T19:58:57.584705+00:00",
+          "hours_elapsed": 24.7
         }
       },
       "outcome_label": null,
@@ -63053,6 +63060,45 @@
           "hours_elapsed": 2.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:42cLgy3EDs7X8k3qqgJwNgiNPNooQjTLreQCwRwQ46Gf": {
+      "chain": "solana",
+      "pair_address": "42cLgy3EDs7X8k3qqgJwNgiNPNooQjTLreQCwRwQ46Gf",
+      "symbol": "GTA",
+      "tier": "T2",
+      "detection_time": "2026-08-30T19:58:41.852912+00:00",
+      "detection_price": 9.981e-05,
+      "detection_liq": 34821.41,
+      "peak_price": 9.981e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8rgMfM2tBv8pRYF1sctCoyRcBtpLaPGqZ6DaYMtx63RH": {
+      "chain": "solana",
+      "pair_address": "8rgMfM2tBv8pRYF1sctCoyRcBtpLaPGqZ6DaYMtx63RH",
+      "symbol": "ApeChad",
+      "tier": "T1",
+      "detection_time": "2026-08-30T19:58:45.574145+00:00",
+      "detection_price": 0.0001997,
+      "detection_liq": 37602.9,
+      "peak_price": 0.0001997,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2xyW4PASSqzqWzhvQRF5nyPGrFTahdP8qEfcdwhdQjXC": {
+      "chain": "solana",
+      "pair_address": "2xyW4PASSqzqWzhvQRF5nyPGrFTahdP8qEfcdwhdQjXC",
+      "symbol": "apefone",
+      "tier": "T1",
+      "detection_time": "2026-08-30T19:58:50.386522+00:00",
+      "detection_price": 0.0002898,
+      "detection_liq": 46704.25,
+      "peak_price": 0.0002898,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
