@@ -62295,6 +62295,13 @@
           "volume_24h": 2263589.59,
           "captured_at": "2026-08-29T07:14:42.642898+00:00",
           "hours_elapsed": 7.2
+        },
+        "price_24h": {
+          "price": 3.002e-05,
+          "liquidity": 14585.17,
+          "volume_24h": 755272.74,
+          "captured_at": "2026-08-30T00:35:14.104022+00:00",
+          "hours_elapsed": 24.5
         }
       },
       "outcome_label": null,
@@ -62323,10 +62330,17 @@
           "volume_24h": 1184427.05,
           "captured_at": "2026-08-29T07:14:42.642898+00:00",
           "hours_elapsed": 7.2
+        },
+        "price_24h": {
+          "price": 3.302e-06,
+          "liquidity": 3424.66,
+          "volume_24h": 1935.66,
+          "captured_at": "2026-08-30T00:35:14.104022+00:00",
+          "hours_elapsed": 24.5
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "bsc:0x6dbB3E0fa62EF38a0FbA98bdF6402A1086acae17": {
       "chain": "bsc",
@@ -62560,7 +62574,7 @@
       "detection_time": "2026-08-29T17:55:58.595534+00:00",
       "detection_price": 8.631e-05,
       "detection_liq": 23732.58,
-      "peak_price": 9.153e-05,
+      "peak_price": 0.0001062,
       "captures": {
         "price_1h": {
           "price": 9.153e-05,
@@ -62568,6 +62582,13 @@
           "volume_24h": 225177.19,
           "captured_at": "2026-08-29T19:17:45.364352+00:00",
           "hours_elapsed": 1.4
+        },
+        "price_6h": {
+          "price": 0.0001062,
+          "liquidity": 26942.55,
+          "volume_24h": 350539.92,
+          "captured_at": "2026-08-30T00:35:14.104022+00:00",
+          "hours_elapsed": 6.7
         }
       },
       "outcome_label": null,
@@ -62589,6 +62610,13 @@
           "volume_24h": 1439753.24,
           "captured_at": "2026-08-29T19:17:45.364352+00:00",
           "hours_elapsed": 1.4
+        },
+        "price_6h": {
+          "price": 3.023e-06,
+          "liquidity": 3275.46,
+          "volume_24h": 2012684.54,
+          "captured_at": "2026-08-30T00:35:14.104022+00:00",
+          "hours_elapsed": 6.7
         }
       },
       "outcome_label": null,
@@ -62654,6 +62682,19 @@
           "hours_elapsed": 1.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5i54CuGdkbYjPDLjEP99pf7dZtLoxxiUNSZ6ogGTWi1t": {
+      "chain": "solana",
+      "pair_address": "5i54CuGdkbYjPDLjEP99pf7dZtLoxxiUNSZ6ogGTWi1t",
+      "symbol": "APESTACY",
+      "tier": "T1",
+      "detection_time": "2026-08-30T00:35:04.551421+00:00",
+      "detection_price": 0.0001339,
+      "detection_liq": 30742.75,
+      "peak_price": 0.0001339,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
