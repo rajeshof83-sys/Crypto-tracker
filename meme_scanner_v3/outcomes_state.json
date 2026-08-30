@@ -58851,10 +58851,17 @@
           "volume_24h": 8656935.94,
           "captured_at": "2026-08-24T05:54:42.385452+00:00",
           "hours_elapsed": 24.2
+        },
+        "price_7d": {
+          "price": 4.377e-05,
+          "liquidity": 20672.87,
+          "volume_24h": 4238.4,
+          "captured_at": "2026-08-30T06:41:17.153980+00:00",
+          "hours_elapsed": 168.9
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:FvsZohWNdVpSDQk4gCyU9YrkLRsfeEpSmzVUSQsjDaxG": {
       "chain": "solana",
@@ -62743,8 +62750,28 @@
           "volume_24h": 665737.24,
           "captured_at": "2026-08-30T01:46:08.961718+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 2.132e-06,
+          "liquidity": 2288.61,
+          "volume_24h": 665876.27,
+          "captured_at": "2026-08-30T06:41:17.153980+00:00",
+          "hours_elapsed": 6.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FKP4Q3kYDSXS76zpft8cWcwh91peh34h8XbrR8ojzPij": {
+      "chain": "solana",
+      "pair_address": "FKP4Q3kYDSXS76zpft8cWcwh91peh34h8XbrR8ojzPij",
+      "symbol": "apetrench",
+      "tier": "T1",
+      "detection_time": "2026-08-30T06:41:10.080643+00:00",
+      "detection_price": 0.0001469,
+      "detection_liq": 32495.24,
+      "peak_price": 0.0001469,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
