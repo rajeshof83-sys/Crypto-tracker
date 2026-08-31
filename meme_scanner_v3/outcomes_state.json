@@ -59438,7 +59438,7 @@
       "detection_time": "2026-08-24T01:27:34.977484+00:00",
       "detection_price": 7.828e-05,
       "detection_liq": 21976.17,
-      "peak_price": 7.828e-05,
+      "peak_price": 0.0003988,
       "captures": {
         "price_1h": {
           "price": 6.83e-05,
@@ -59460,10 +59460,17 @@
           "volume_24h": 38056.33,
           "captured_at": "2026-08-25T01:52:03.427922+00:00",
           "hours_elapsed": 24.4
+        },
+        "price_7d": {
+          "price": 0.0003988,
+          "liquidity": 69915.62,
+          "volume_24h": 118739.63,
+          "captured_at": "2026-08-31T01:30:04.412536+00:00",
+          "hours_elapsed": 168.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "moon",
+      "completed": true
     },
     "solana:6YSboaG39DmM86sFMNP6WaBiPo8LmSEWJ6zkzU4Tr5Yg": {
       "chain": "solana",
@@ -62883,10 +62890,17 @@
           "volume_24h": 665876.27,
           "captured_at": "2026-08-30T06:41:17.153980+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 2.143e-06,
+          "liquidity": 2290.91,
+          "volume_24h": 172.44,
+          "captured_at": "2026-08-31T01:30:04.412536+00:00",
+          "hours_elapsed": 24.9
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:FKP4Q3kYDSXS76zpft8cWcwh91peh34h8XbrR8ojzPij": {
       "chain": "solana",
@@ -63172,6 +63186,19 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7kjC66EpSt32FFde3tgoPd5i63P7zJ4gcaGwKqTCyCSj": {
+      "chain": "solana",
+      "pair_address": "7kjC66EpSt32FFde3tgoPd5i63P7zJ4gcaGwKqTCyCSj",
+      "symbol": "BABYFONE",
+      "tier": "T1",
+      "detection_time": "2026-08-31T01:29:58.025241+00:00",
+      "detection_price": 8.902e-05,
+      "detection_liq": 24579.12,
+      "peak_price": 8.902e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
