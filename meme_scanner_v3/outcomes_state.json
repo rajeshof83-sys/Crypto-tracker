@@ -63596,8 +63596,16 @@
       "detection_time": "2026-09-01T06:37:27.775991+00:00",
       "detection_price": 8.869e-05,
       "detection_liq": 24227.95,
-      "peak_price": 8.869e-05,
-      "captures": {},
+      "peak_price": 0.0001213,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001213,
+          "liquidity": 29252.29,
+          "volume_24h": 720079.73,
+          "captured_at": "2026-09-01T09:49:52.024580+00:00",
+          "hours_elapsed": 3.2
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -63609,7 +63617,54 @@
       "detection_time": "2026-09-01T06:37:31.090006+00:00",
       "detection_price": 0.0004555,
       "detection_liq": 59066.43,
-      "peak_price": 0.0004555,
+      "peak_price": 0.001426,
+      "captures": {
+        "price_1h": {
+          "price": 0.001426,
+          "liquidity": 106444.23,
+          "volume_24h": 2088188.11,
+          "captured_at": "2026-09-01T09:49:52.024580+00:00",
+          "hours_elapsed": 3.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:79TnQYELT9np1iUuueYU5rmuiBwHLX5TJCn3x3dAan5a": {
+      "chain": "solana",
+      "pair_address": "79TnQYELT9np1iUuueYU5rmuiBwHLX5TJCn3x3dAan5a",
+      "symbol": "084BEAR",
+      "tier": "T1",
+      "detection_time": "2026-09-01T09:49:39.924878+00:00",
+      "detection_price": 0.0001103,
+      "detection_liq": 27369.92,
+      "peak_price": 0.0001103,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3dcwhqJp6JBTJPq8ga335HWgSQVS7uQmdmeX7iGjMNpj": {
+      "chain": "solana",
+      "pair_address": "3dcwhqJp6JBTJPq8ga335HWgSQVS7uQmdmeX7iGjMNpj",
+      "symbol": "fone",
+      "tier": "T2",
+      "detection_time": "2026-09-01T09:49:42.964264+00:00",
+      "detection_price": 0.01585,
+      "detection_liq": 682303.33,
+      "peak_price": 0.01585,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3HCKRmDnU3Fy43uaK99EtBvfyEevbCC1c8GkD9srs85C": {
+      "chain": "solana",
+      "pair_address": "3HCKRmDnU3Fy43uaK99EtBvfyEevbCC1c8GkD9srs85C",
+      "symbol": "OLDWEB",
+      "tier": "T1",
+      "detection_time": "2026-09-01T09:49:45.586877+00:00",
+      "detection_price": 0.0002036,
+      "detection_liq": 37861.11,
+      "peak_price": 0.0002036,
       "captures": {},
       "outcome_label": null,
       "completed": false
