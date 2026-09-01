@@ -40271,9 +40271,14 @@
       "peak_safety": 8
     },
     "solana:BQbTiZJ9D9ADe97Up94n2RSC6iP9sCeaKpt81VdWriN1": {
-      "peak_liq": 43099.63,
+      "peak_liq": 54124.44,
       "peak_vol": 129504.19,
-      "peak_safety": 8
+      "peak_safety": 9
+    },
+    "solana:9VxbYWfh5JM7Yz9LwXKokN4ymZZQPUcD7ME9ER2zKyCw": {
+      "peak_liq": 9888.59,
+      "peak_vol": 145215.09,
+      "peak_safety": 9
     }
   },
   "consecutive_negative": {
@@ -48331,7 +48336,8 @@
     "solana:4NVqSnpDZ1U28sPZrFZDKYNBs5WJucDjSr9AfCE7ezj4": 0,
     "solana:BE5iVDY2XT2VHFSxwpkZcLgQpwJQVPWcgfrHAUt1Gxpw": 0,
     "solana:BD2381TaQhPFjzn1t6NDqb6KJYY9nmosFXFCdE4XbbEW": 0,
-    "solana:BQbTiZJ9D9ADe97Up94n2RSC6iP9sCeaKpt81VdWriN1": 0
+    "solana:BQbTiZJ9D9ADe97Up94n2RSC6iP9sCeaKpt81VdWriN1": 0,
+    "solana:9VxbYWfh5JM7Yz9LwXKokN4ymZZQPUcD7ME9ER2zKyCw": 1
   },
   "exit_alerts_sent": {}
 }
