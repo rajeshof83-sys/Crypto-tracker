@@ -60692,10 +60692,17 @@
           "volume_24h": 273256.98,
           "captured_at": "2026-08-26T20:37:47.682859+00:00",
           "hours_elapsed": 25.1
+        },
+        "price_7d": {
+          "price": 5.497e-06,
+          "liquidity": 5026.91,
+          "volume_24h": 3734.51,
+          "captured_at": "2026-09-01T20:04:44.250894+00:00",
+          "hours_elapsed": 168.5
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:F6WFZRJh4LACeHLe1iUihzrDYES1nq8uGE2xcMpE5byf": {
       "chain": "solana",
@@ -63555,10 +63562,17 @@
           "volume_24h": 806943.97,
           "captured_at": "2026-09-01T04:15:04.127677+00:00",
           "hours_elapsed": 9.3
+        },
+        "price_24h": {
+          "price": 2.015e-06,
+          "liquidity": 2172.0,
+          "volume_24h": 187.49,
+          "captured_at": "2026-09-01T20:04:44.250894+00:00",
+          "hours_elapsed": 25.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:Db4QLY2j3mqzsmBAJgzhrvANhmakQ94tAbmaTXm8Qr4N": {
       "chain": "solana",
@@ -63814,7 +63828,15 @@
       "detection_price": 0.0001987,
       "detection_liq": 36525.96,
       "peak_price": 0.0001987,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 1.972e-06,
+          "liquidity": 2122.28,
+          "volume_24h": 634084.07,
+          "captured_at": "2026-09-01T20:04:44.250894+00:00",
+          "hours_elapsed": 1.8
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -63827,6 +63849,27 @@
       "detection_price": 0.0001643,
       "detection_liq": 33461.34,
       "peak_price": 0.0001643,
+      "captures": {
+        "price_1h": {
+          "price": 9.371e-05,
+          "liquidity": 25729.29,
+          "volume_24h": 1059901.94,
+          "captured_at": "2026-09-01T20:04:44.250894+00:00",
+          "hours_elapsed": 1.8
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CcFsrzqsMXLsQ6bBtmy6d1JnUsTu9Xg18ogR13tE9tZ6": {
+      "chain": "solana",
+      "pair_address": "CcFsrzqsMXLsQ6bBtmy6d1JnUsTu9Xg18ogR13tE9tZ6",
+      "symbol": "stonkape",
+      "tier": "T1",
+      "detection_time": "2026-09-01T20:04:38.328198+00:00",
+      "detection_price": 0.0003502,
+      "detection_liq": 50016.04,
+      "peak_price": 0.0003502,
       "captures": {},
       "outcome_label": null,
       "completed": false
