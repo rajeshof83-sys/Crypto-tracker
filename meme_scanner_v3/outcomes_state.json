@@ -63587,6 +63587,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:D2zTncxfojkVWFMh2Mfch2avug35VeypdaN9Xqni3aJ9": {
+      "chain": "solana",
+      "pair_address": "D2zTncxfojkVWFMh2Mfch2avug35VeypdaN9Xqni3aJ9",
+      "symbol": "MICRO",
+      "tier": "T1",
+      "detection_time": "2026-09-01T06:37:27.775991+00:00",
+      "detection_price": 8.869e-05,
+      "detection_liq": 24227.95,
+      "peak_price": 8.869e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CztvdCZgL4zeY8BbbupUi2FQf3zLG3U7dR6p5m9TXaAE": {
+      "chain": "solana",
+      "pair_address": "CztvdCZgL4zeY8BbbupUi2FQf3zLG3U7dR6p5m9TXaAE",
+      "symbol": "NICKGPRO",
+      "tier": "T1",
+      "detection_time": "2026-09-01T06:37:31.090006+00:00",
+      "detection_price": 0.0004555,
+      "detection_liq": 59066.43,
+      "peak_price": 0.0004555,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
