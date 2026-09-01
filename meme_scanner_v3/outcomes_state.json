@@ -63912,7 +63912,15 @@
       "detection_price": 0.0001915,
       "detection_liq": 36237.42,
       "peak_price": 0.0001915,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 2.352e-06,
+          "liquidity": 2507.19,
+          "volume_24h": 813020.6,
+          "captured_at": "2026-09-01T22:44:55.595318+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -63925,7 +63933,15 @@
       "detection_price": 0.0001814,
       "detection_liq": 35344.07,
       "peak_price": 0.0001814,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 7.452e-05,
+          "liquidity": 22237.31,
+          "volume_24h": 854228.65,
+          "captured_at": "2026-09-01T22:44:55.595318+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -63938,6 +63954,27 @@
       "detection_price": 0.0005095,
       "detection_liq": 59766.58,
       "peak_price": 0.0005095,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003972,
+          "liquidity": 52856.84,
+          "volume_24h": 723218.29,
+          "captured_at": "2026-09-01T22:44:55.595318+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "bsc:0x7f7Cac531DFAD516B9Bd55e63de2F773d00999cc": {
+      "chain": "bsc",
+      "pair_address": "0x7f7Cac531DFAD516B9Bd55e63de2F773d00999cc",
+      "symbol": "BNBO",
+      "tier": "T2",
+      "detection_time": "2026-09-01T22:44:51.541230+00:00",
+      "detection_price": 0.0001465,
+      "detection_liq": 36981.38,
+      "peak_price": 0.0001465,
       "captures": {},
       "outcome_label": null,
       "completed": false
