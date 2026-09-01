@@ -63436,10 +63436,17 @@
           "volume_24h": 467227.77,
           "captured_at": "2026-08-31T20:05:50.466049+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 1.981e-06,
+          "liquidity": 2082.22,
+          "volume_24h": 195.56,
+          "captured_at": "2026-09-01T14:38:22.362741+00:00",
+          "hours_elapsed": 24.8
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:9tRhYxaMru2XpWZWD9nbrZ7rQwZUeXpzzBkRcn7U2Jxp": {
       "chain": "solana",
@@ -63725,6 +63732,19 @@
           "hours_elapsed": 2.9
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HMR64yjyRB9WirVJy3KnxnS7uTy6jMZtPJcRvfSjSvgb": {
+      "chain": "solana",
+      "pair_address": "HMR64yjyRB9WirVJy3KnxnS7uTy6jMZtPJcRvfSjSvgb",
+      "symbol": "PEPEFART",
+      "tier": "T1",
+      "detection_time": "2026-09-01T14:38:03.721048+00:00",
+      "detection_price": 0.0003317,
+      "detection_liq": 48660.25,
+      "peak_price": 0.0003317,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
