@@ -63804,6 +63804,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:HSYnJt1vhEnY3RvcTZi3GLFofXccQ3NKDoYCDZGHeoZ6": {
+      "chain": "solana",
+      "pair_address": "HSYnJt1vhEnY3RvcTZi3GLFofXccQ3NKDoYCDZGHeoZ6",
+      "symbol": "PUMPACIA",
+      "tier": "T1",
+      "detection_time": "2026-09-01T18:15:45.673506+00:00",
+      "detection_price": 0.0001987,
+      "detection_liq": 36525.96,
+      "peak_price": 0.0001987,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DP4EepMvtXC8dxmMstVssaGH4u2GJZMVW6p8TgPFMhG4": {
+      "chain": "solana",
+      "pair_address": "DP4EepMvtXC8dxmMstVssaGH4u2GJZMVW6p8TgPFMhG4",
+      "symbol": "GAMESTONK",
+      "tier": "T1",
+      "detection_time": "2026-09-01T18:15:49.377632+00:00",
+      "detection_price": 0.0001643,
+      "detection_liq": 33461.34,
+      "peak_price": 0.0001643,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
