@@ -63975,6 +63975,40 @@
       "detection_price": 0.0001465,
       "detection_liq": 36981.38,
       "peak_price": 0.0001465,
+      "captures": {
+        "price_1h": {
+          "price": 9.709e-05,
+          "liquidity": 30217.37,
+          "volume_24h": 139552.83,
+          "captured_at": "2026-09-01T23:52:53.044701+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2jv9HvgV4U9LxWtNqSVDro75Fynsdd66LZP7i7dr6E4p": {
+      "chain": "solana",
+      "pair_address": "2jv9HvgV4U9LxWtNqSVDro75Fynsdd66LZP7i7dr6E4p",
+      "symbol": "Rubert",
+      "tier": "T1",
+      "detection_time": "2026-09-01T23:52:43.342002+00:00",
+      "detection_price": 0.000216,
+      "detection_liq": 38711.81,
+      "peak_price": 0.000216,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DhgmeHTaEp4PShLfhoQHNW7cifGF1KuPeUkkoaWXzzS1": {
+      "chain": "solana",
+      "pair_address": "DhgmeHTaEp4PShLfhoQHNW7cifGF1KuPeUkkoaWXzzS1",
+      "symbol": "APEWIF",
+      "tier": "T2",
+      "detection_time": "2026-09-01T23:52:46.282395+00:00",
+      "detection_price": 0.0001468,
+      "detection_liq": 32447.16,
+      "peak_price": 0.0001468,
       "captures": {},
       "outcome_label": null,
       "completed": false
