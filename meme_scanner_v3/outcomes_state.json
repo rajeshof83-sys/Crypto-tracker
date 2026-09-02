@@ -61609,10 +61609,17 @@
           "volume_24h": 617461.43,
           "captured_at": "2026-08-27T20:38:41.801760+00:00",
           "hours_elapsed": 24.0
+        },
+        "price_7d": {
+          "price": 6.425e-06,
+          "liquidity": 5816.93,
+          "volume_24h": 395.65,
+          "captured_at": "2026-09-02T20:44:46.346807+00:00",
+          "hours_elapsed": 168.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:9uBTitBSeov1hJqP24vr28SEeeWCFtxajR8PsMp2gzWq": {
       "chain": "solana",
@@ -64017,10 +64024,17 @@
           "volume_24h": 1353122.13,
           "captured_at": "2026-09-02T03:37:49.438484+00:00",
           "hours_elapsed": 7.6
+        },
+        "price_24h": {
+          "price": 2.311e-06,
+          "liquidity": 2687.59,
+          "volume_24h": 2084946.34,
+          "captured_at": "2026-09-02T20:44:46.346807+00:00",
+          "hours_elapsed": 24.7
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:A63fGdro6zxAhgfqvzjfatCJHjvoTYsmNXEemGfJKuFv": {
       "chain": "solana",
@@ -64346,6 +64360,13 @@
           "volume_24h": 1084486.39,
           "captured_at": "2026-09-02T16:47:26.601354+00:00",
           "hours_elapsed": 2.3
+        },
+        "price_6h": {
+          "price": 2.403e-06,
+          "liquidity": 2652.56,
+          "volume_24h": 1382863.02,
+          "captured_at": "2026-09-02T20:44:46.346807+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -64367,6 +64388,13 @@
           "volume_24h": 1364252.5,
           "captured_at": "2026-09-02T16:47:26.601354+00:00",
           "hours_elapsed": 2.3
+        },
+        "price_6h": {
+          "price": 0.0002243,
+          "liquidity": 41801.15,
+          "volume_24h": 2261554.09,
+          "captured_at": "2026-09-02T20:44:46.346807+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
