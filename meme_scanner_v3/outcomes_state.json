@@ -61427,10 +61427,17 @@
           "volume_24h": 96425.19,
           "captured_at": "2026-08-27T16:39:12.072753+00:00",
           "hours_elapsed": 24.7
+        },
+        "price_7d": {
+          "price": 8.39e-06,
+          "liquidity": 6470.74,
+          "volume_24h": 1387.66,
+          "captured_at": "2026-09-02T16:47:26.601354+00:00",
+          "hours_elapsed": 168.9
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:CRYwFjoyQQTMAYR9SBAfy6poF6FBtyAW2qDwvM6a1Dij": {
       "chain": "solana",
@@ -64296,8 +64303,16 @@
       "detection_time": "2026-09-02T14:30:04.191133+00:00",
       "detection_price": 0.0002186,
       "detection_liq": 38258.5,
-      "peak_price": 0.0002186,
-      "captures": {},
+      "peak_price": 0.0002965,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002965,
+          "liquidity": 46281.22,
+          "volume_24h": 1084486.39,
+          "captured_at": "2026-09-02T16:47:26.601354+00:00",
+          "hours_elapsed": 2.3
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -64309,7 +64324,28 @@
       "detection_time": "2026-09-02T14:31:04.053529+00:00",
       "detection_price": 0.0003069,
       "detection_liq": 46350.33,
-      "peak_price": 0.0003069,
+      "peak_price": 0.0006515,
+      "captures": {
+        "price_1h": {
+          "price": 0.0006515,
+          "liquidity": 69819.73,
+          "volume_24h": 1364252.5,
+          "captured_at": "2026-09-02T16:47:26.601354+00:00",
+          "hours_elapsed": 2.3
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:D9EZbnN7UrEARoUCdmkLzyerj2uiE539f5PayKRNuHPT": {
+      "chain": "solana",
+      "pair_address": "D9EZbnN7UrEARoUCdmkLzyerj2uiE539f5PayKRNuHPT",
+      "symbol": "FONELESS",
+      "tier": "T1",
+      "detection_time": "2026-09-02T16:47:18.418841+00:00",
+      "detection_price": 0.0003128,
+      "detection_liq": 46306.2,
+      "peak_price": 0.0003128,
       "captures": {},
       "outcome_label": null,
       "completed": false
