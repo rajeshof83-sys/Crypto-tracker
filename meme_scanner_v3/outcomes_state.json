@@ -61028,10 +61028,17 @@
           "volume_24h": 53888.29,
           "captured_at": "2026-08-27T10:04:51.296286+00:00",
           "hours_elapsed": 30.0
+        },
+        "price_7d": {
+          "price": 2.797e-05,
+          "liquidity": 13307.95,
+          "volume_24h": 3363.01,
+          "captured_at": "2026-09-02T04:34:44.535409+00:00",
+          "hours_elapsed": 168.5
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:3stTj1eMchFFzdfqbRGiUzTeEDbgBaGuZJAswyy7jjxW": {
       "chain": "solana",
@@ -63681,10 +63688,17 @@
           "volume_24h": 251135.33,
           "captured_at": "2026-09-01T10:19:21.137236+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 2.146e-06,
+          "liquidity": 2184.24,
+          "volume_24h": 135.12,
+          "captured_at": "2026-09-02T04:34:44.535409+00:00",
+          "hours_elapsed": 24.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:D2zTncxfojkVWFMh2Mfch2avug35VeypdaN9Xqni3aJ9": {
       "chain": "solana",
@@ -63954,6 +63968,13 @@
           "volume_24h": 813020.6,
           "captured_at": "2026-09-01T22:44:55.595318+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 2.362e-06,
+          "liquidity": 2517.76,
+          "volume_24h": 813053.22,
+          "captured_at": "2026-09-02T04:34:44.535409+00:00",
+          "hours_elapsed": 6.9
         }
       },
       "outcome_label": null,
@@ -63975,6 +63996,13 @@
           "volume_24h": 854228.65,
           "captured_at": "2026-09-01T22:44:55.595318+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 0.0001148,
+          "liquidity": 28433.27,
+          "volume_24h": 1000004.62,
+          "captured_at": "2026-09-02T04:34:44.535409+00:00",
+          "hours_elapsed": 6.9
         }
       },
       "outcome_label": null,
@@ -63996,6 +64024,13 @@
           "volume_24h": 723218.29,
           "captured_at": "2026-09-01T22:44:55.595318+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 7.124e-05,
+          "liquidity": 21723.38,
+          "volume_24h": 986755.74,
+          "captured_at": "2026-09-02T04:34:44.535409+00:00",
+          "hours_elapsed": 6.9
         }
       },
       "outcome_label": null,
