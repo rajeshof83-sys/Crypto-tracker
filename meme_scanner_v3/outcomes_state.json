@@ -61210,10 +61210,17 @@
           "volume_24h": 15303553.56,
           "captured_at": "2026-08-27T13:08:07.734506+00:00",
           "hours_elapsed": 24.2
+        },
+        "price_7d": {
+          "price": 0.001188,
+          "liquidity": 119347.5,
+          "volume_24h": 1038643.96,
+          "captured_at": "2026-09-02T13:24:26.514400+00:00",
+          "hours_elapsed": 168.4
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "moon",
+      "completed": true
     },
     "solana:88wJf9FYZ1CZgZg7KE3GFbQe2wGUacjmK14CGBsdC2Ww": {
       "chain": "solana",
@@ -64199,8 +64206,54 @@
           "volume_24h": 672565.47,
           "captured_at": "2026-09-02T08:34:50.206101+00:00",
           "hours_elapsed": 2.3
+        },
+        "price_6h": {
+          "price": 9.057e-05,
+          "liquidity": 29795.57,
+          "volume_24h": 909050.23,
+          "captured_at": "2026-09-02T13:24:26.514400+00:00",
+          "hours_elapsed": 7.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AD2n4EaUVzdnqkSXKbrbBjLTWgTKDi8LgF72gXRUwYBL": {
+      "chain": "solana",
+      "pair_address": "AD2n4EaUVzdnqkSXKbrbBjLTWgTKDi8LgF72gXRUwYBL",
+      "symbol": "PumpCity",
+      "tier": "T1",
+      "detection_time": "2026-09-02T13:24:12.339501+00:00",
+      "detection_price": 0.0001487,
+      "detection_liq": 31136.06,
+      "peak_price": 0.0001487,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Bc41Ped2cpQyzFvFUzsTN9Rkq3Ggcsav4JjGyYfLWdvr": {
+      "chain": "solana",
+      "pair_address": "Bc41Ped2cpQyzFvFUzsTN9Rkq3Ggcsav4JjGyYfLWdvr",
+      "symbol": "FBROS",
+      "tier": "T1",
+      "detection_time": "2026-09-02T13:24:16.247112+00:00",
+      "detection_price": 0.0005113,
+      "detection_liq": 59986.23,
+      "peak_price": 0.0005113,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:BEWyqHiSL8cQHUGTt8TLWNsYrwKwZHJgLKYnezP5twYh": {
+      "chain": "solana",
+      "pair_address": "BEWyqHiSL8cQHUGTt8TLWNsYrwKwZHJgLKYnezP5twYh",
+      "symbol": "LOM COIN",
+      "tier": "T1",
+      "detection_time": "2026-09-02T13:24:20.062782+00:00",
+      "detection_price": 0.0001131,
+      "detection_liq": 28019.16,
+      "peak_price": 0.0001131,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
