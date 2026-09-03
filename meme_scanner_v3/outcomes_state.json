@@ -64772,8 +64772,16 @@
       "detection_time": "2026-09-03T17:38:50.804771+00:00",
       "detection_price": 0.0001834,
       "detection_liq": 35780.35,
-      "peak_price": 0.0001834,
-      "captures": {},
+      "peak_price": 0.0002097,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002097,
+          "liquidity": 38666.15,
+          "volume_24h": 518798.4,
+          "captured_at": "2026-09-03T18:39:47.062476+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -64785,7 +64793,41 @@
       "detection_time": "2026-09-03T17:38:54.925561+00:00",
       "detection_price": 0.0001307,
       "detection_liq": 29990.73,
-      "peak_price": 0.0001307,
+      "peak_price": 0.0003531,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003531,
+          "liquidity": 51200.02,
+          "volume_24h": 646143.62,
+          "captured_at": "2026-09-03T18:39:47.062476+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Enp7yucHi2DcSGHwhjHxCR4moPYnKchJQo3w1nuePML1": {
+      "chain": "solana",
+      "pair_address": "Enp7yucHi2DcSGHwhjHxCR4moPYnKchJQo3w1nuePML1",
+      "symbol": "cat bull",
+      "tier": "T1",
+      "detection_time": "2026-09-03T18:39:32.793146+00:00",
+      "detection_price": 0.0003538,
+      "detection_liq": 50602.43,
+      "peak_price": 0.0003538,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DMTX1QdsEPN1XBDxBUWEAJJpURDsRtxX8Fo4MJrYcXzu": {
+      "chain": "solana",
+      "pair_address": "DMTX1QdsEPN1XBDxBUWEAJJpURDsRtxX8Fo4MJrYcXzu",
+      "symbol": "SOLBROS",
+      "tier": "T1",
+      "detection_time": "2026-09-03T18:39:36.783590+00:00",
+      "detection_price": 0.0002085,
+      "detection_liq": 38581.86,
+      "peak_price": 0.0002085,
       "captures": {},
       "outcome_label": null,
       "completed": false
