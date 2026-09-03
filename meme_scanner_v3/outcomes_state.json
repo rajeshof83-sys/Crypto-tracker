@@ -61896,10 +61896,17 @@
           "volume_24h": 1467236.91,
           "captured_at": "2026-08-28T17:36:35.908952+00:00",
           "hours_elapsed": 28.5
+        },
+        "price_7d": {
+          "price": 0.000113,
+          "liquidity": 31818.46,
+          "volume_24h": 39427.43,
+          "captured_at": "2026-09-03T13:22:50.131376+00:00",
+          "hours_elapsed": 168.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "moon",
+      "completed": true
     },
     "solana:BKemNMSsd9bhn7frex64p68ztkpuYF8Xd5v1zB5GH9xc": {
       "chain": "solana",
@@ -64661,7 +64668,15 @@
       "detection_price": 0.0002607,
       "detection_liq": 42749.8,
       "peak_price": 0.0002607,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 2.214e-06,
+          "liquidity": 2396.73,
+          "volume_24h": 1065783.53,
+          "captured_at": "2026-09-03T13:22:50.131376+00:00",
+          "hours_elapsed": 1.8
+        }
+      },
       "outcome_label": null,
       "completed": false
     }
