@@ -62085,10 +62085,17 @@
           "volume_24h": 336443.76,
           "captured_at": "2026-08-29T00:03:59.184262+00:00",
           "hours_elapsed": 25.6
+        },
+        "price_7d": {
+          "price": 4.993e-05,
+          "liquidity": 18959.16,
+          "volume_24h": 39729.36,
+          "captured_at": "2026-09-03T23:04:21.726988+00:00",
+          "hours_elapsed": 168.6
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:GgJy6qA3S451ijKJxNEbZgEFZgdYrhKP89hUvW2zmQiQ": {
       "chain": "solana",
@@ -62155,10 +62162,17 @@
           "volume_24h": 670439.12,
           "captured_at": "2026-08-29T00:03:59.184262+00:00",
           "hours_elapsed": 25.6
+        },
+        "price_7d": {
+          "price": 7.399e-06,
+          "liquidity": 6477.75,
+          "volume_24h": 2431.14,
+          "captured_at": "2026-09-03T23:04:21.726988+00:00",
+          "hours_elapsed": 168.6
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "winner",
+      "completed": true
     },
     "solana:5poXhFXocjhhL3ku3X9nDR2iE8R1k8DspcKGD1hGtwB7": {
       "chain": "solana",
@@ -64929,6 +64943,19 @@
           "hours_elapsed": 1.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5CUk3C2Kb7MFwauoH4Hmoe2a6jwcC9PiF2UY4V9PPrum": {
+      "chain": "solana",
+      "pair_address": "5CUk3C2Kb7MFwauoH4Hmoe2a6jwcC9PiF2UY4V9PPrum",
+      "symbol": "SHITLESS",
+      "tier": "T1",
+      "detection_time": "2026-09-03T23:04:16.552931+00:00",
+      "detection_price": 0.000172,
+      "detection_liq": 34501.93,
+      "peak_price": 0.000172,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
