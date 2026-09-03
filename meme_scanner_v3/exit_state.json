@@ -40622,7 +40622,7 @@
     },
     "solana:GFV2aCRaRMjbJbY8j2Q4t31JG9t3kPg5PMUSwPo1Svf7": {
       "peak_liq": 0.0,
-      "peak_vol": 25707.28,
+      "peak_vol": 32554.47,
       "peak_safety": 6
     },
     "solana:DpH8KdigpmfRtwSA2mJn46uBnKGkmzc1GLirPWwiuqkx": {
@@ -40634,6 +40634,21 @@
       "peak_liq": 2513.75,
       "peak_vol": 66422.2,
       "peak_safety": 9
+    },
+    "solana:7VWYBJwwYRgCxaMH6BP4riHYxfTs1oiTPQY4RXnRxZpv": {
+      "peak_liq": 2355.46,
+      "peak_vol": 85443.17,
+      "peak_safety": 8
+    },
+    "solana:4uwpANdpKHjRingaHwUTTaPLNZehUMdjp5Zt4uBDos5s": {
+      "peak_liq": 0.0,
+      "peak_vol": 7112.92,
+      "peak_safety": 8
+    },
+    "solana:5jhouGRQvxchZagntRviZfYYsA2sFJLXC6YcjvEibGQF": {
+      "peak_liq": 22394.15,
+      "peak_vol": 101024.25,
+      "peak_safety": 8
     }
   },
   "consecutive_negative": {
@@ -48709,7 +48724,7 @@
     "solana:5x8yNjmyeMPm6XHmrHeQTRiA6UGJaTTtw3N39yW4Vmrm": 1,
     "solana:9kziZ9qFMDxDJYBM5ZGyvG5Gbh3WCMB8ibF1Lk1Qoaxs": 1,
     "solana:8n6qYGKq6wGGqcSERBKkp436HVJJBqZAgr2sjaKSp9JJ": 0,
-    "bsc:0x7f7Cac531DFAD516B9Bd55e63de2F773d00999cc": 0,
+    "bsc:0x7f7Cac531DFAD516B9Bd55e63de2F773d00999cc": 1,
     "solana:HSYnJt1vhEnY3RvcTZi3GLFofXccQ3NKDoYCDZGHeoZ6": 1,
     "solana:DP4EepMvtXC8dxmMstVssaGH4u2GJZMVW6p8TgPFMhG4": 1,
     "solana:CJcr2ZtQXaDTVWz7Uy7uD9qqitMqXHUAF2X4BzXSps5": 1,
@@ -48761,9 +48776,12 @@
     "solana:H5g9Khxc6FMTVPhVag5V6uNjSkv9Pr12MwJ3oqwtEYsv": 0,
     "solana:NPKA336ny82GqVoWxbqKzM8iXbjx5qKdmtFGDcjbRfr": 1,
     "solana:DFZbrb18VWVohhChtcsozSW1emjnwVbXDNQ6rX6sqSEf": 1,
-    "solana:GFV2aCRaRMjbJbY8j2Q4t31JG9t3kPg5PMUSwPo1Svf7": 0,
+    "solana:GFV2aCRaRMjbJbY8j2Q4t31JG9t3kPg5PMUSwPo1Svf7": 1,
     "solana:DpH8KdigpmfRtwSA2mJn46uBnKGkmzc1GLirPWwiuqkx": 0,
-    "solana:5So71YFaAQeVn2wWSUnDAXCRZ5YoajfBmkKRauvJtd4J": 1
+    "solana:5So71YFaAQeVn2wWSUnDAXCRZ5YoajfBmkKRauvJtd4J": 1,
+    "solana:7VWYBJwwYRgCxaMH6BP4riHYxfTs1oiTPQY4RXnRxZpv": 1,
+    "solana:4uwpANdpKHjRingaHwUTTaPLNZehUMdjp5Zt4uBDos5s": 0,
+    "solana:5jhouGRQvxchZagntRviZfYYsA2sFJLXC6YcjvEibGQF": 0
   },
   "exit_alerts_sent": {}
 }
