@@ -64927,6 +64927,13 @@
           "volume_24h": 669677.3,
           "captured_at": "2026-09-03T21:43:08.794661+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 2.928e-06,
+          "liquidity": 3047.06,
+          "volume_24h": 792956.43,
+          "captured_at": "2026-09-04T04:34:05.276635+00:00",
+          "hours_elapsed": 7.9
         }
       },
       "outcome_label": null,
@@ -64948,6 +64955,13 @@
           "volume_24h": 338745.36,
           "captured_at": "2026-09-03T21:43:08.794661+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 6.817e-06,
+          "liquidity": 5406.29,
+          "volume_24h": 351949.13,
+          "captured_at": "2026-09-04T04:34:05.276635+00:00",
+          "hours_elapsed": 7.9
         }
       },
       "outcome_label": null,
@@ -64969,6 +64983,13 @@
           "volume_24h": 1096739.11,
           "captured_at": "2026-09-03T21:43:08.794661+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 2.241e-06,
+          "liquidity": 2550.06,
+          "volume_24h": 1895230.52,
+          "captured_at": "2026-09-04T04:34:05.276635+00:00",
+          "hours_elapsed": 7.8
         }
       },
       "outcome_label": null,
@@ -65003,7 +65024,28 @@
       "detection_time": "2026-09-04T00:06:53.204293+00:00",
       "detection_price": 0.0001486,
       "detection_liq": 33071.98,
-      "peak_price": 0.0001486,
+      "peak_price": 0.0002367,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002367,
+          "liquidity": 42648.62,
+          "volume_24h": 1025211.09,
+          "captured_at": "2026-09-04T04:34:05.276635+00:00",
+          "hours_elapsed": 4.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "base:0x68fe20569d4d2462f92c0bfce39afb938ffc7e73ba0051f3394231baf303fa7c": {
+      "chain": "base",
+      "pair_address": "0x68fe20569d4d2462f92c0bfce39afb938ffc7e73ba0051f3394231baf303fa7c",
+      "symbol": "RTD",
+      "tier": "T1",
+      "detection_time": "2026-09-04T04:33:59.668230+00:00",
+      "detection_price": 3.751e-05,
+      "detection_liq": 20845.17,
+      "peak_price": 3.751e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
