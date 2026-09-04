@@ -65130,10 +65130,17 @@
           "volume_24h": 675624.85,
           "captured_at": "2026-09-04T05:09:12.576354+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 1.996e-06,
+          "liquidity": 2158.75,
+          "volume_24h": 303256.42,
+          "captured_at": "2026-09-04T23:11:52.500769+00:00",
+          "hours_elapsed": 24.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:13EFs1jcGbNom7pCYyNKEfjgzri5Rm9dSNZSvxwYzakR": {
       "chain": "solana",
@@ -65314,6 +65321,32 @@
           "hours_elapsed": 3.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GQmqZU8YmX44dD8RcefFokLsMs73WEZqffHaqj7RFozD": {
+      "chain": "solana",
+      "pair_address": "GQmqZU8YmX44dD8RcefFokLsMs73WEZqffHaqj7RFozD",
+      "symbol": "BONZI",
+      "tier": "T1",
+      "detection_time": "2026-09-04T23:11:43.248561+00:00",
+      "detection_price": 0.0002255,
+      "detection_liq": 40769.95,
+      "peak_price": 0.0002255,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8b1B8uFyYuwfqq48haJBDZMGZG5rybrAmMgHxM6wKYhn": {
+      "chain": "solana",
+      "pair_address": "8b1B8uFyYuwfqq48haJBDZMGZG5rybrAmMgHxM6wKYhn",
+      "symbol": "MEMELESS",
+      "tier": "T1",
+      "detection_time": "2026-09-04T23:11:46.721952+00:00",
+      "detection_price": 0.0003815,
+      "detection_liq": 52171.03,
+      "peak_price": 0.0003815,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
