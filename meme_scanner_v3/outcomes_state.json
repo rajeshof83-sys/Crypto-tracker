@@ -64822,10 +64822,17 @@
           "volume_24h": 1065864.21,
           "captured_at": "2026-09-03T17:39:01.948755+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 2.083e-06,
+          "liquidity": 2270.03,
+          "volume_24h": 89.2,
+          "captured_at": "2026-09-04T14:22:20.090914+00:00",
+          "hours_elapsed": 26.8
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:5k2jYn4g53ghDiHfJK3fnpt9r2QdxJGUdCtpq4z1DHuu": {
       "chain": "solana",
@@ -65137,6 +65144,27 @@
       "detection_price": 0.0002388,
       "detection_liq": 41053.87,
       "peak_price": 0.0002388,
+      "captures": {
+        "price_1h": {
+          "price": 2.246e-06,
+          "liquidity": 2350.67,
+          "volume_24h": 619941.76,
+          "captured_at": "2026-09-04T14:22:20.090914+00:00",
+          "hours_elapsed": 3.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3EBoUbDUcqDpBEzUXERuxDb7gqXhAM1eE9hxjp7py4CM": {
+      "chain": "solana",
+      "pair_address": "3EBoUbDUcqDpBEzUXERuxDb7gqXhAM1eE9hxjp7py4CM",
+      "symbol": "WTT",
+      "tier": "T1",
+      "detection_time": "2026-09-04T14:22:03.963279+00:00",
+      "detection_price": 0.0002602,
+      "detection_liq": 42587.99,
+      "peak_price": 0.0002602,
       "captures": {},
       "outcome_label": null,
       "completed": false
