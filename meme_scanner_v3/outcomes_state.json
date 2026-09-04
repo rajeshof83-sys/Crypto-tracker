@@ -64815,6 +64815,13 @@
           "volume_24h": 518798.4,
           "captured_at": "2026-09-03T18:39:47.062476+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 2.077e-06,
+          "liquidity": 2244.28,
+          "volume_24h": 763180.65,
+          "captured_at": "2026-09-04T00:06:57.388241+00:00",
+          "hours_elapsed": 6.5
         }
       },
       "outcome_label": null,
@@ -64836,6 +64843,13 @@
           "volume_24h": 646143.62,
           "captured_at": "2026-09-03T18:39:47.062476+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 2.176e-06,
+          "liquidity": 2439.75,
+          "volume_24h": 1471194.15,
+          "captured_at": "2026-09-04T00:06:57.388241+00:00",
+          "hours_elapsed": 6.5
         }
       },
       "outcome_label": null,
@@ -64955,6 +64969,27 @@
       "detection_price": 0.000172,
       "detection_liq": 34501.93,
       "peak_price": 0.000172,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001311,
+          "liquidity": 29954.76,
+          "volume_24h": 478087.71,
+          "captured_at": "2026-09-04T00:06:57.388241+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:13EFs1jcGbNom7pCYyNKEfjgzri5Rm9dSNZSvxwYzakR": {
+      "chain": "solana",
+      "pair_address": "13EFs1jcGbNom7pCYyNKEfjgzri5Rm9dSNZSvxwYzakR",
+      "symbol": "Magatard",
+      "tier": "T1",
+      "detection_time": "2026-09-04T00:06:53.204293+00:00",
+      "detection_price": 0.0001486,
+      "detection_liq": 33071.98,
+      "peak_price": 0.0001486,
       "captures": {},
       "outcome_label": null,
       "completed": false
