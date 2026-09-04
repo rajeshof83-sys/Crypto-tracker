@@ -64682,10 +64682,17 @@
           "volume_24h": 1021614.0,
           "captured_at": "2026-09-03T15:08:36.969433+00:00",
           "hours_elapsed": 6.4
+        },
+        "price_24h": {
+          "price": 2.38e-06,
+          "liquidity": 2563.45,
+          "volume_24h": 972565.76,
+          "captured_at": "2026-09-04T09:39:45.270351+00:00",
+          "hours_elapsed": 24.9
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:L9prH6aQgpA4M1ecA89q5tpExAnF7155UxST9LwQ1V7": {
       "chain": "solana",
@@ -64710,10 +64717,17 @@
           "volume_24h": 577309.12,
           "captured_at": "2026-09-03T15:08:36.969433+00:00",
           "hours_elapsed": 6.4
+        },
+        "price_24h": {
+          "price": 2.07e-06,
+          "liquidity": 2213.41,
+          "volume_24h": 439.76,
+          "captured_at": "2026-09-04T09:39:45.270351+00:00",
+          "hours_elapsed": 24.9
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:AmWvkLnibe3kuxHrssQwrfTZS5nfj5MvCFCSLSZ5z6up": {
       "chain": "solana",
@@ -64738,10 +64752,17 @@
           "volume_24h": 985394.92,
           "captured_at": "2026-09-03T15:08:36.969433+00:00",
           "hours_elapsed": 6.4
+        },
+        "price_24h": {
+          "price": 2.304e-06,
+          "liquidity": 2499.61,
+          "volume_24h": 502184.33,
+          "captured_at": "2026-09-04T09:39:45.270351+00:00",
+          "hours_elapsed": 24.9
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "bsc:0x1CDA6AFdd823c6E007874108853D5A8f7f502AaA": {
       "chain": "bsc",
@@ -64766,6 +64787,13 @@
           "volume_24h": 966839.73,
           "captured_at": "2026-09-03T15:08:36.969433+00:00",
           "hours_elapsed": 6.4
+        },
+        "price_24h": {
+          "price": 0.0001318,
+          "liquidity": 36525.07,
+          "volume_24h": 335040.68,
+          "captured_at": "2026-09-04T09:39:45.270351+00:00",
+          "hours_elapsed": 24.9
         }
       },
       "outcome_label": null,
@@ -65039,6 +65067,13 @@
           "volume_24h": 1025211.09,
           "captured_at": "2026-09-04T04:34:05.276635+00:00",
           "hours_elapsed": 4.5
+        },
+        "price_6h": {
+          "price": 0.0002277,
+          "liquidity": 42091.53,
+          "volume_24h": 908957.07,
+          "captured_at": "2026-09-04T09:39:45.270351+00:00",
+          "hours_elapsed": 9.5
         }
       },
       "outcome_label": null,
@@ -65062,6 +65097,19 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Bw9tj6m8pVW5nRCJQm8owju4ys5bvPieKG2t5f4pTZaL": {
+      "chain": "solana",
+      "pair_address": "Bw9tj6m8pVW5nRCJQm8owju4ys5bvPieKG2t5f4pTZaL",
+      "symbol": "MEMESZN",
+      "tier": "T1",
+      "detection_time": "2026-09-04T09:39:38.043262+00:00",
+      "detection_price": 0.0002092,
+      "detection_liq": 38336.17,
+      "peak_price": 0.0002092,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
