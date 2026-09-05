@@ -65354,10 +65354,17 @@
           "volume_24h": 1082044.82,
           "captured_at": "2026-09-04T23:48:24.952928+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 2.486e-06,
+          "liquidity": 2714.12,
+          "volume_24h": 219734.9,
+          "captured_at": "2026-09-05T18:00:10.706432+00:00",
+          "hours_elapsed": 24.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:E7JUYYXtUTT4swBXYvt1Y3ineuc1YHw6BKmQTGzXCesj": {
       "chain": "solana",
@@ -65382,10 +65389,17 @@
           "volume_24h": 517847.64,
           "captured_at": "2026-09-04T23:48:24.952928+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 1.97e-06,
+          "liquidity": 2070.76,
+          "volume_24h": 143706.34,
+          "captured_at": "2026-09-05T18:00:10.706432+00:00",
+          "hours_elapsed": 24.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:GQmqZU8YmX44dD8RcefFokLsMs73WEZqffHaqj7RFozD": {
       "chain": "solana",
@@ -65570,7 +65584,41 @@
       "detection_time": "2026-09-05T16:54:34.916589+00:00",
       "detection_price": 0.0005538,
       "detection_liq": 62535.6,
-      "peak_price": 0.0005538,
+      "peak_price": 0.0006371,
+      "captures": {
+        "price_1h": {
+          "price": 0.0006371,
+          "liquidity": 67528.52,
+          "volume_24h": 285498.96,
+          "captured_at": "2026-09-05T18:00:10.706432+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7cVxjTKeAUxUS7RrCaGwtStxZEboQZTiHg8Y9AcV28h5": {
+      "chain": "solana",
+      "pair_address": "7cVxjTKeAUxUS7RrCaGwtStxZEboQZTiHg8Y9AcV28h5",
+      "symbol": "STONKCHUMP",
+      "tier": "T1",
+      "detection_time": "2026-09-05T17:59:54.726726+00:00",
+      "detection_price": 0.0003667,
+      "detection_liq": 51859.22,
+      "peak_price": 0.0003667,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Hia82EKZND9vefHjxkLFPrMaCu9kNPJzHBwJzUf954fn": {
+      "chain": "solana",
+      "pair_address": "Hia82EKZND9vefHjxkLFPrMaCu9kNPJzHBwJzUf954fn",
+      "symbol": "FONELESS",
+      "tier": "T1",
+      "detection_time": "2026-09-05T17:59:58.290036+00:00",
+      "detection_price": 0.000438,
+      "detection_liq": 56603.72,
+      "peak_price": 0.000438,
       "captures": {},
       "outcome_label": null,
       "completed": false
