@@ -65484,6 +65484,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:CmZefRkzjhF9mz96kFXeFEZ5gzEMbsfgN8m7zPne36uQ": {
+      "chain": "solana",
+      "pair_address": "CmZefRkzjhF9mz96kFXeFEZ5gzEMbsfgN8m7zPne36uQ",
+      "symbol": "Paperbag",
+      "tier": "T1",
+      "detection_time": "2026-09-05T12:29:22.631940+00:00",
+      "detection_price": 0.0001562,
+      "detection_liq": 32747.46,
+      "peak_price": 0.0001562,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HnxL43bw7S6k3WGGZywxpoX5kgGoMw1deLjX3C2Y3PTe": {
+      "chain": "solana",
+      "pair_address": "HnxL43bw7S6k3WGGZywxpoX5kgGoMw1deLjX3C2Y3PTe",
+      "symbol": "PUMPANY",
+      "tier": "T2",
+      "detection_time": "2026-09-05T12:29:25.518720+00:00",
+      "detection_price": 0.0001893,
+      "detection_liq": 36240.41,
+      "peak_price": 0.0001893,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
