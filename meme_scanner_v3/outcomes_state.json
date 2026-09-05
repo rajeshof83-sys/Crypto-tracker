@@ -65319,10 +65319,17 @@
           "volume_24h": 651235.71,
           "captured_at": "2026-09-04T20:56:28.978414+00:00",
           "hours_elapsed": 6.6
+        },
+        "price_24h": {
+          "price": 2.011e-06,
+          "liquidity": 2146.06,
+          "volume_24h": 52.45,
+          "captured_at": "2026-09-05T15:51:30.038673+00:00",
+          "hours_elapsed": 25.5
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:9RjpArNWE9FY8XxRgGAjwDohXee3a7gBbiWYEmaTpBcn": {
       "chain": "solana",
@@ -65480,6 +65487,13 @@
           "volume_24h": 734498.97,
           "captured_at": "2026-09-05T09:12:25.291126+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 2.223e-06,
+          "liquidity": 2399.32,
+          "volume_24h": 734562.26,
+          "captured_at": "2026-09-05T15:51:30.038673+00:00",
+          "hours_elapsed": 7.7
         }
       },
       "outcome_label": null,
@@ -65524,6 +65538,19 @@
           "hours_elapsed": 1.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Co3KAoJ4JedvH5RXMJjHiadTDpiaTQ7aiPNV9Z7q3bAg": {
+      "chain": "solana",
+      "pair_address": "Co3KAoJ4JedvH5RXMJjHiadTDpiaTQ7aiPNV9Z7q3bAg",
+      "symbol": "memefi",
+      "tier": "T1",
+      "detection_time": "2026-09-05T15:51:24.704401+00:00",
+      "detection_price": 0.0002826,
+      "detection_liq": 44555.89,
+      "peak_price": 0.0002826,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
