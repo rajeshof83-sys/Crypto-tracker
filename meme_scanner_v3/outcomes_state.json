@@ -65549,7 +65549,28 @@
       "detection_time": "2026-09-05T15:51:24.704401+00:00",
       "detection_price": 0.0002826,
       "detection_liq": 44555.89,
-      "peak_price": 0.0002826,
+      "peak_price": 0.0004784,
+      "captures": {
+        "price_1h": {
+          "price": 0.0004784,
+          "liquidity": 59322.57,
+          "volume_24h": 758813.34,
+          "captured_at": "2026-09-05T16:54:41.548801+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6hzdUCkrzgoJ5ugz2vWwKd56odxziZwyMEN7CCF7hSKy": {
+      "chain": "solana",
+      "pair_address": "6hzdUCkrzgoJ5ugz2vWwKd56odxziZwyMEN7CCF7hSKy",
+      "symbol": "SAAR",
+      "tier": "T2",
+      "detection_time": "2026-09-05T16:54:34.916589+00:00",
+      "detection_price": 0.0005538,
+      "detection_liq": 62535.6,
+      "peak_price": 0.0005538,
       "captures": {},
       "outcome_label": null,
       "completed": false

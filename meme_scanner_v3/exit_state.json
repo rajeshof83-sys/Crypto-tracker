@@ -38061,7 +38061,7 @@
       "peak_safety": 8
     },
     "bsc:0x8650e3EdE7C2d45F89dbbe108BD6568f414167cb": {
-      "peak_liq": 224180.63,
+      "peak_liq": 226227.86,
       "peak_vol": 5757173.81,
       "peak_safety": 10
     },
@@ -38956,7 +38956,7 @@
       "peak_safety": 10
     },
     "solana:J28smrHeDLYHPZCJLVHExsiMifEDswFHobHpEQrYHdjL": {
-      "peak_liq": 545533.77,
+      "peak_liq": 557529.93,
       "peak_vol": 258110.24,
       "peak_safety": 10
     },
@@ -40886,9 +40886,9 @@
       "peak_safety": 7
     },
     "solana:6hzdUCkrzgoJ5ugz2vWwKd56odxziZwyMEN7CCF7hSKy": {
-      "peak_liq": 22118.32,
-      "peak_vol": 30391.94,
-      "peak_safety": 7
+      "peak_liq": 62535.6,
+      "peak_vol": 260255.1,
+      "peak_safety": 10
     },
     "solana:CJ4tXZpK9XUk4Hv2Li9DjGiLBqzoc9mVUU96H9E1zWPK": {
       "peak_liq": 39244.26,
@@ -40969,6 +40969,11 @@
       "peak_liq": 232435.82,
       "peak_vol": 88042.99,
       "peak_safety": 10
+    },
+    "solana:Co3KAoJ4JedvH5RXMJjHiadTDpiaTQ7aiPNV9Z7q3bAg": {
+      "peak_liq": 57876.64,
+      "peak_vol": 757198.36,
+      "peak_safety": 9
     }
   },
   "consecutive_negative": {
@@ -48901,7 +48906,7 @@
     "solana:HGLNerWyoFjKWJDh28o948g1m5wWPFkry7DZaBgEGvPe": 1,
     "solana:53ANP2QVQ5PmQMa7NZrKuxu1btkfNsqQY4UzCzsSnsvD": 0,
     "solana:3XKUuj14ZHEei6QS1xX1QZtAcuNwSxmFPh1eeYyFPiNh": 0,
-    "solana:71vbgq6LUSWDEYA4wqTnGJALgnEvEMUtNCPpTR3mTzGE": 2,
+    "solana:71vbgq6LUSWDEYA4wqTnGJALgnEvEMUtNCPpTR3mTzGE": 3,
     "solana:5btfjMMJYEvET5G9rDtmJaMm6WBpxWs1nw79izTn9DQ": 1,
     "solana:1PAjsZWNwHoeV6Rp7jUHKLiND9StZMki3HQjHs5DRCf": 0,
     "solana:5gmVoyoj9M8ohFCu3B34wKhQkr6DCMQ43dfhsRP3Lvog": 0,
@@ -49165,7 +49170,8 @@
     "solana:HnxL43bw7S6k3WGGZywxpoX5kgGoMw1deLjX3C2Y3PTe": 0,
     "solana:HftsxYHT1gTSuL3bXMUoBDtf79wgcC1RGU5jZrau2wCc": 0,
     "bsc:0xB0aD4D0c48a5E983e2Ba15feAe30d62348ed0D4c": 0,
-    "bsc:0x30000a407FabeBe29439F8E437050512fF6661bE": 1
+    "bsc:0x30000a407FabeBe29439F8E437050512fF6661bE": 1,
+    "solana:Co3KAoJ4JedvH5RXMJjHiadTDpiaTQ7aiPNV9Z7q3bAg": 0
   },
   "exit_alerts_sent": {}
 }
