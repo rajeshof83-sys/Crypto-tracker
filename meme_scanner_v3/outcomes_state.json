@@ -62547,10 +62547,17 @@
           "volume_24h": 755272.74,
           "captured_at": "2026-08-30T00:35:14.104022+00:00",
           "hours_elapsed": 24.5
+        },
+        "price_7d": {
+          "price": 6.542e-06,
+          "liquidity": 5757.24,
+          "volume_24h": 255.17,
+          "captured_at": "2026-09-05T00:06:57.599914+00:00",
+          "hours_elapsed": 168.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:8GVRfLfxHDoXgJ1kuoNwy4e5DArfcZrscujLz4zW61bW": {
       "chain": "solana",
@@ -65165,6 +65172,13 @@
           "volume_24h": 908957.07,
           "captured_at": "2026-09-04T09:39:45.270351+00:00",
           "hours_elapsed": 9.5
+        },
+        "price_24h": {
+          "price": 0.0001542,
+          "liquidity": 34791.8,
+          "volume_24h": 772375.41,
+          "captured_at": "2026-09-05T00:06:57.599914+00:00",
+          "hours_elapsed": 24.0
         }
       },
       "outcome_label": null,
@@ -65360,6 +65374,19 @@
       "detection_price": 0.0003815,
       "detection_liq": 52171.03,
       "peak_price": 0.0003815,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:BXpGXikNEXa6G7v81crDGka5vcHw6SUfbyy22HXnfCRi": {
+      "chain": "solana",
+      "pair_address": "BXpGXikNEXa6G7v81crDGka5vcHw6SUfbyy22HXnfCRi",
+      "symbol": "PUMPLIFE",
+      "tier": "T1",
+      "detection_time": "2026-09-05T00:06:51.163456+00:00",
+      "detection_price": 0.0003871,
+      "detection_liq": 53493.61,
+      "peak_price": 0.0003871,
       "captures": {},
       "outcome_label": null,
       "completed": false
