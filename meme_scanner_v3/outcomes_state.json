@@ -65792,6 +65792,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:6oNsWvGVV3BqJZshnhRGbKoJgFhtFrPjoN7XAsWnguaq": {
+      "chain": "solana",
+      "pair_address": "6oNsWvGVV3BqJZshnhRGbKoJgFhtFrPjoN7XAsWnguaq",
+      "symbol": "NERU",
+      "tier": "T1",
+      "detection_time": "2026-09-06T10:33:34.921091+00:00",
+      "detection_price": 0.0001714,
+      "detection_liq": 34670.03,
+      "peak_price": 0.0001714,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "base:0x163c9d517BB963E441c63efB285BC6616e05CE43": {
+      "chain": "base",
+      "pair_address": "0x163c9d517BB963E441c63efB285BC6616e05CE43",
+      "symbol": "BLUESCREEN",
+      "tier": "T2",
+      "detection_time": "2026-09-06T10:33:37.339025+00:00",
+      "detection_price": 0.0002687,
+      "detection_liq": 64991.75,
+      "peak_price": 0.0002687,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
