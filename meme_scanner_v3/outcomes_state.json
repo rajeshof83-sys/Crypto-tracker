@@ -66250,6 +66250,27 @@
       "detection_price": 0.0003212,
       "detection_liq": 49201.49,
       "peak_price": 0.0003212,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001991,
+          "liquidity": 38705.96,
+          "volume_24h": 1209083.1,
+          "captured_at": "2026-09-07T04:42:17.223914+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7BhGhJN71rbnUh9D22xqTC6BYxuCP7iyir7aEeEUnY9u": {
+      "chain": "solana",
+      "pair_address": "7BhGhJN71rbnUh9D22xqTC6BYxuCP7iyir7aEeEUnY9u",
+      "symbol": "WHIRL",
+      "tier": "T1",
+      "detection_time": "2026-09-07T04:42:11.718640+00:00",
+      "detection_price": 0.0002081,
+      "detection_liq": 38427.22,
+      "peak_price": 0.0002081,
       "captures": {},
       "outcome_label": null,
       "completed": false
