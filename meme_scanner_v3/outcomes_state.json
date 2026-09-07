@@ -66180,10 +66180,17 @@
           "volume_24h": 1343080.9,
           "captured_at": "2026-09-06T23:04:58.849986+00:00",
           "hours_elapsed": 6.3
+        },
+        "price_24h": {
+          "price": 1.92e-05,
+          "liquidity": 10923.65,
+          "volume_24h": 307872.89,
+          "captured_at": "2026-09-07T18:20:21.520182+00:00",
+          "hours_elapsed": 25.5
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:8JRNGxkJY7pHtWcCdkidu6gBFvmXukzV1pppMcnidV8A": {
       "chain": "solana",
@@ -66621,6 +66628,66 @@
       "detection_price": 0.0001689,
       "detection_liq": 34409.46,
       "peak_price": 0.0001689,
+      "captures": {
+        "price_1h": {
+          "price": 2.081e-06,
+          "liquidity": 2213.02,
+          "volume_24h": 669227.72,
+          "captured_at": "2026-09-07T18:20:21.520182+00:00",
+          "hours_elapsed": 2.7
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:B9cnHYqDXzTKSXUL9TUCZStby3iduTuqQmf2g3nxsNTV": {
+      "chain": "solana",
+      "pair_address": "B9cnHYqDXzTKSXUL9TUCZStby3iduTuqQmf2g3nxsNTV",
+      "symbol": "NVDA6900",
+      "tier": "T1",
+      "detection_time": "2026-09-07T18:20:03.198271+00:00",
+      "detection_price": 0.0002156,
+      "detection_liq": 38677.91,
+      "peak_price": 0.0002156,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3JsgNeV6SKszbWoDZT5fVr9qAXXapDuFcoK6avzpSJDD": {
+      "chain": "solana",
+      "pair_address": "3JsgNeV6SKszbWoDZT5fVr9qAXXapDuFcoK6avzpSJDD",
+      "symbol": "CATIFY",
+      "tier": "T1",
+      "detection_time": "2026-09-07T18:20:05.590113+00:00",
+      "detection_price": 0.0003072,
+      "detection_liq": 48089.04,
+      "peak_price": 0.0003072,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DEtQimGAufEv2Evt8wJiahnnwfzC2DhGGsYEbs3mZ5Y2": {
+      "chain": "solana",
+      "pair_address": "DEtQimGAufEv2Evt8wJiahnnwfzC2DhGGsYEbs3mZ5Y2",
+      "symbol": "TESLASS",
+      "tier": "T1",
+      "detection_time": "2026-09-07T18:20:08.345455+00:00",
+      "detection_price": 0.0001126,
+      "detection_liq": 28134.56,
+      "peak_price": 0.0001126,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2RmBs1KYzkDuaRR4F8zU9rPR6KT16eCgJ9YS1c8XXZgQ": {
+      "chain": "solana",
+      "pair_address": "2RmBs1KYzkDuaRR4F8zU9rPR6KT16eCgJ9YS1c8XXZgQ",
+      "symbol": "BTC",
+      "tier": "T2",
+      "detection_time": "2026-09-07T18:20:11.443536+00:00",
+      "detection_price": 0.002761,
+      "detection_liq": 222241.05,
+      "peak_price": 0.002761,
       "captures": {},
       "outcome_label": null,
       "completed": false
