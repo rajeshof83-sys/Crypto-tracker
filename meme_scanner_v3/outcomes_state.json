@@ -66313,7 +66313,15 @@
       "detection_price": 0.0002507,
       "detection_liq": 42110.12,
       "peak_price": 0.0002507,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 3.088e-06,
+          "liquidity": 3181.72,
+          "volume_24h": 1004327.6,
+          "captured_at": "2026-09-07T09:06:40.991629+00:00",
+          "hours_elapsed": 2.6
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -66326,6 +66334,66 @@
       "detection_price": 0.0002842,
       "detection_liq": 47324.94,
       "peak_price": 0.0002842,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001829,
+          "liquidity": 37911.77,
+          "volume_24h": 598422.56,
+          "captured_at": "2026-09-07T09:06:40.991629+00:00",
+          "hours_elapsed": 2.6
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:81vc19rYPjRNc7aQf2uw4kkqvoQqNvLfFLeZ8B9triYc": {
+      "chain": "solana",
+      "pair_address": "81vc19rYPjRNc7aQf2uw4kkqvoQqNvLfFLeZ8B9triYc",
+      "symbol": "NVIDOG",
+      "tier": "T1",
+      "detection_time": "2026-09-07T09:06:19.458634+00:00",
+      "detection_price": 0.0002567,
+      "detection_liq": 43677.4,
+      "peak_price": 0.0002567,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GaG721FQFfKq2UhkLmjbHDWuQKs5cQ9t9Z3CESLXEeM5": {
+      "chain": "solana",
+      "pair_address": "GaG721FQFfKq2UhkLmjbHDWuQKs5cQ9t9Z3CESLXEeM5",
+      "symbol": "NASCAT",
+      "tier": "T1",
+      "detection_time": "2026-09-07T09:06:26.602947+00:00",
+      "detection_price": 0.0002616,
+      "detection_liq": 43412.72,
+      "peak_price": 0.0002616,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Gm7JZvEHvMFQBcNNV4jxPEVTme3LkPXHDXJbFXxpJZDm": {
+      "chain": "solana",
+      "pair_address": "Gm7JZvEHvMFQBcNNV4jxPEVTme3LkPXHDXJbFXxpJZDm",
+      "symbol": "BRAINLET",
+      "tier": "T1",
+      "detection_time": "2026-09-07T09:06:29.863418+00:00",
+      "detection_price": 0.0001436,
+      "detection_liq": 30872.95,
+      "peak_price": 0.0001436,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "bsc:0xE4a0049828b013d1E8dFC3c2613eC8ca0F17ea7a": {
+      "chain": "bsc",
+      "pair_address": "0xE4a0049828b013d1E8dFC3c2613eC8ca0F17ea7a",
+      "symbol": "\u65fa\u67f4",
+      "tier": "T1",
+      "detection_time": "2026-09-07T09:06:33.145461+00:00",
+      "detection_price": 0.0001359,
+      "detection_liq": 43045.88,
+      "peak_price": 0.0001359,
       "captures": {},
       "outcome_label": null,
       "completed": false
