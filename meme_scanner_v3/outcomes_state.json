@@ -63842,10 +63842,17 @@
           "volume_24h": 610562.05,
           "captured_at": "2026-09-02T08:34:50.206101+00:00",
           "hours_elapsed": 26.0
+        },
+        "price_7d": {
+          "price": 4.393e-06,
+          "liquidity": 4300.66,
+          "volume_24h": 1496.86,
+          "captured_at": "2026-09-08T09:56:24.162370+00:00",
+          "hours_elapsed": 171.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:CztvdCZgL4zeY8BbbupUi2FQf3zLG3U7dR6p5m9TXaAE": {
       "chain": "solana",
@@ -63947,10 +63954,17 @@
           "volume_24h": 11636276.38,
           "captured_at": "2026-09-02T09:57:25.032895+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 0.006777,
+          "liquidity": 522547.1,
+          "volume_24h": 4003509.45,
+          "captured_at": "2026-09-08T09:56:24.162370+00:00",
+          "hours_elapsed": 168.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:3HCKRmDnU3Fy43uaK99EtBvfyEevbCC1c8GkD9srs85C": {
       "chain": "solana",
@@ -66530,10 +66544,17 @@
           "volume_24h": 1707558.56,
           "captured_at": "2026-09-07T15:36:44.898219+00:00",
           "hours_elapsed": 6.5
+        },
+        "price_24h": {
+          "price": 2.408e-06,
+          "liquidity": 2741.86,
+          "volume_24h": 133.51,
+          "captured_at": "2026-09-08T09:56:24.162370+00:00",
+          "hours_elapsed": 24.8
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:GaG721FQFfKq2UhkLmjbHDWuQKs5cQ9t9Z3CESLXEeM5": {
       "chain": "solana",
@@ -66558,10 +66579,17 @@
           "volume_24h": 957443.04,
           "captured_at": "2026-09-07T15:36:44.898219+00:00",
           "hours_elapsed": 6.5
+        },
+        "price_24h": {
+          "price": 2.452e-06,
+          "liquidity": 2609.07,
+          "volume_24h": 145666.66,
+          "captured_at": "2026-09-08T09:56:24.162370+00:00",
+          "hours_elapsed": 24.8
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:Gm7JZvEHvMFQBcNNV4jxPEVTme3LkPXHDXJbFXxpJZDm": {
       "chain": "solana",
@@ -66586,6 +66614,13 @@
           "volume_24h": 426341.46,
           "captured_at": "2026-09-07T15:36:44.898219+00:00",
           "hours_elapsed": 6.5
+        },
+        "price_24h": {
+          "price": 0.0001348,
+          "liquidity": 30565.69,
+          "volume_24h": 201392.36,
+          "captured_at": "2026-09-08T09:56:24.162370+00:00",
+          "hours_elapsed": 24.8
         }
       },
       "outcome_label": null,
@@ -66614,6 +66649,13 @@
           "volume_24h": 596375.3,
           "captured_at": "2026-09-07T15:36:44.898219+00:00",
           "hours_elapsed": 6.5
+        },
+        "price_24h": {
+          "price": 6.429e-05,
+          "liquidity": 30272.59,
+          "volume_24h": 439174.45,
+          "captured_at": "2026-09-08T09:56:24.162370+00:00",
+          "hours_elapsed": 24.8
         }
       },
       "outcome_label": null,
@@ -66943,6 +66985,13 @@
           "volume_24h": 2097417.51,
           "captured_at": "2026-09-08T04:58:00.286728+00:00",
           "hours_elapsed": 4.0
+        },
+        "price_6h": {
+          "price": 0.0006382,
+          "liquidity": 71797.88,
+          "volume_24h": 3163980.22,
+          "captured_at": "2026-09-08T09:56:24.162370+00:00",
+          "hours_elapsed": 8.9
         }
       },
       "outcome_label": null,
@@ -66964,6 +67013,13 @@
           "volume_24h": 1678976.12,
           "captured_at": "2026-09-08T04:58:00.286728+00:00",
           "hours_elapsed": 4.0
+        },
+        "price_6h": {
+          "price": 2.323e-06,
+          "liquidity": 2680.9,
+          "volume_24h": 1678976.8,
+          "captured_at": "2026-09-08T09:56:24.162370+00:00",
+          "hours_elapsed": 8.9
         }
       },
       "outcome_label": null,
@@ -66985,6 +67041,13 @@
           "volume_24h": 189579.26,
           "captured_at": "2026-09-08T04:58:00.286728+00:00",
           "hours_elapsed": 4.0
+        },
+        "price_6h": {
+          "price": 0.0001268,
+          "liquidity": 33886.61,
+          "volume_24h": 215190.6,
+          "captured_at": "2026-09-08T09:56:24.162370+00:00",
+          "hours_elapsed": 8.9
         }
       },
       "outcome_label": null,
@@ -67008,6 +67071,45 @@
           "hours_elapsed": 1.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9tNrk5k2WDN3n3MPNqFrCAYAe6CsmC5rrXuuk1wjtbux": {
+      "chain": "solana",
+      "pair_address": "9tNrk5k2WDN3n3MPNqFrCAYAe6CsmC5rrXuuk1wjtbux",
+      "symbol": "haMSTR",
+      "tier": "T1",
+      "detection_time": "2026-09-08T09:56:13.702472+00:00",
+      "detection_price": 0.0001974,
+      "detection_liq": 37145.52,
+      "peak_price": 0.0001974,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HQLCmU3MqnVKuVPgB5UoxW8x9DFFpZogJ58QLh7atG8y": {
+      "chain": "solana",
+      "pair_address": "HQLCmU3MqnVKuVPgB5UoxW8x9DFFpZogJ58QLh7atG8y",
+      "symbol": "FAT",
+      "tier": "T1",
+      "detection_time": "2026-09-08T09:56:16.412688+00:00",
+      "detection_price": 0.000296,
+      "detection_liq": 45870.17,
+      "peak_price": 0.000296,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HxaoMaQrpZH947ujX9hbN16jhWAjdbBScgTqZApeNrMb": {
+      "chain": "solana",
+      "pair_address": "HxaoMaQrpZH947ujX9hbN16jhWAjdbBScgTqZApeNrMb",
+      "symbol": "UHI",
+      "tier": "T1",
+      "detection_time": "2026-09-08T09:56:19.424591+00:00",
+      "detection_price": 0.0001098,
+      "detection_liq": 28968.73,
+      "peak_price": 0.0001098,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
