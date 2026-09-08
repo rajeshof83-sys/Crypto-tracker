@@ -67061,7 +67061,7 @@
       "detection_time": "2026-09-08T04:57:53.964709+00:00",
       "detection_price": 7.849e-05,
       "detection_liq": 22556.65,
-      "peak_price": 7.849e-05,
+      "peak_price": 9.894e-05,
       "captures": {
         "price_1h": {
           "price": 6.948e-05,
@@ -67069,6 +67069,13 @@
           "volume_24h": 281713.68,
           "captured_at": "2026-09-08T05:59:13.530652+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 9.894e-05,
+          "liquidity": 25832.32,
+          "volume_24h": 425415.0,
+          "captured_at": "2026-09-08T11:18:50.994228+00:00",
+          "hours_elapsed": 6.3
         }
       },
       "outcome_label": null,
@@ -67083,7 +67090,15 @@
       "detection_price": 0.0001974,
       "detection_liq": 37145.52,
       "peak_price": 0.0001974,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 2.123e-06,
+          "liquidity": 2316.27,
+          "volume_24h": 944034.68,
+          "captured_at": "2026-09-08T11:18:50.994228+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -67096,7 +67111,15 @@
       "detection_price": 0.000296,
       "detection_liq": 45870.17,
       "peak_price": 0.000296,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 2.541e-06,
+          "liquidity": 2704.15,
+          "volume_24h": 1057211.15,
+          "captured_at": "2026-09-08T11:18:50.994228+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -67109,7 +67132,15 @@
       "detection_price": 0.0001098,
       "detection_liq": 28968.73,
       "peak_price": 0.0001098,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 9.605e-05,
+          "liquidity": 27147.93,
+          "volume_24h": 432380.78,
+          "captured_at": "2026-09-08T11:18:50.994228+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
       "outcome_label": null,
       "completed": false
     }
