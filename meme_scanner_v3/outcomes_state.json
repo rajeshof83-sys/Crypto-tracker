@@ -64360,10 +64360,17 @@
           "volume_24h": 822003.0,
           "captured_at": "2026-09-03T00:16:27.490719+00:00",
           "hours_elapsed": 24.4
+        },
+        "price_7d": {
+          "price": 0.0002154,
+          "liquidity": 50805.0,
+          "volume_24h": 1014169.63,
+          "captured_at": "2026-09-08T23:56:07.324541+00:00",
+          "hours_elapsed": 168.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "winner",
+      "completed": true
     },
     "solana:5B8Z7kne1dzT8ESgdjCaVNz2uhc7eM3iJohZU3DZQ5Sy": {
       "chain": "solana",
@@ -67594,6 +67601,27 @@
       "detection_price": 0.0002961,
       "detection_liq": 45766.66,
       "peak_price": 0.0002961,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002952,
+          "liquidity": 45729.47,
+          "volume_24h": 587670.03,
+          "captured_at": "2026-09-08T23:56:07.324541+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7LZq9kUVWMeKrJT8zPGWi9nAFKNbSbZ39NQKW4CUqYL6": {
+      "chain": "solana",
+      "pair_address": "7LZq9kUVWMeKrJT8zPGWi9nAFKNbSbZ39NQKW4CUqYL6",
+      "symbol": "FUZED",
+      "tier": "T1",
+      "detection_time": "2026-09-08T23:55:58.315377+00:00",
+      "detection_price": 0.0001006,
+      "detection_liq": 26147.16,
+      "peak_price": 0.0001006,
       "captures": {},
       "outcome_label": null,
       "completed": false
