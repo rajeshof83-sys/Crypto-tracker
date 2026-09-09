@@ -67748,7 +67748,15 @@
       "detection_price": 0.0001528,
       "detection_liq": 32447.82,
       "peak_price": 0.0001528,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 2.504e-06,
+          "liquidity": 2687.44,
+          "volume_24h": 849436.44,
+          "captured_at": "2026-09-09T08:49:35.558271+00:00",
+          "hours_elapsed": 2.4
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -67760,7 +67768,41 @@
       "detection_time": "2026-09-09T06:28:16.686187+00:00",
       "detection_price": 0.0001269,
       "detection_liq": 30193.99,
-      "peak_price": 0.0001269,
+      "peak_price": 0.0001721,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001721,
+          "liquidity": 35181.79,
+          "volume_24h": 473186.08,
+          "captured_at": "2026-09-09T08:49:35.558271+00:00",
+          "hours_elapsed": 2.4
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "bsc:0x99219a385eC01eD3b2a422dbc1C5a988ef3461c6": {
+      "chain": "bsc",
+      "pair_address": "0x99219a385eC01eD3b2a422dbc1C5a988ef3461c6",
+      "symbol": "TICKR",
+      "tier": "T1",
+      "detection_time": "2026-09-09T08:49:24.912519+00:00",
+      "detection_price": 0.0001515,
+      "detection_liq": 41089.27,
+      "peak_price": 0.0001515,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7o9iEUewrsgzkSa9hieqKBZjNDbofo5dZqaZ5woE6Kqj": {
+      "chain": "solana",
+      "pair_address": "7o9iEUewrsgzkSa9hieqKBZjNDbofo5dZqaZ5woE6Kqj",
+      "symbol": "PurpDrop",
+      "tier": "T1",
+      "detection_time": "2026-09-09T08:49:27.773986+00:00",
+      "detection_price": 6.412e-05,
+      "detection_liq": 20198.91,
+      "peak_price": 6.412e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
