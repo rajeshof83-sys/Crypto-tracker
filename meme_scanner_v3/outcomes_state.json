@@ -67090,10 +67090,17 @@
           "volume_24h": 3163980.22,
           "captured_at": "2026-09-08T09:56:24.162370+00:00",
           "hours_elapsed": 8.9
+        },
+        "price_24h": {
+          "price": 2.403e-06,
+          "liquidity": 2757.31,
+          "volume_24h": 2758621.55,
+          "captured_at": "2026-09-09T01:24:16.757138+00:00",
+          "hours_elapsed": 24.4
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:Aen8qLsuAHiWjew2d246GhPuN4n2tGcv8AnTtn3rWpUB": {
       "chain": "solana",
@@ -67118,10 +67125,17 @@
           "volume_24h": 1678976.8,
           "captured_at": "2026-09-08T09:56:24.162370+00:00",
           "hours_elapsed": 8.9
+        },
+        "price_24h": {
+          "price": 2.332e-06,
+          "liquidity": 2690.66,
+          "volume_24h": 600677.14,
+          "captured_at": "2026-09-09T01:24:16.757138+00:00",
+          "hours_elapsed": 24.4
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:AkBXJt2pZoSaTXz4iX38oDtv7ga3Zm3azAna4QebF3CJ": {
       "chain": "solana",
@@ -67146,6 +67160,13 @@
           "volume_24h": 215190.6,
           "captured_at": "2026-09-08T09:56:24.162370+00:00",
           "hours_elapsed": 8.9
+        },
+        "price_24h": {
+          "price": 0.0001136,
+          "liquidity": 32087.38,
+          "volume_24h": 154912.42,
+          "captured_at": "2026-09-09T01:24:16.757138+00:00",
+          "hours_elapsed": 24.4
         }
       },
       "outcome_label": null,
@@ -67656,8 +67677,16 @@
       "detection_time": "2026-09-08T23:55:58.315377+00:00",
       "detection_price": 0.0001006,
       "detection_liq": 26147.16,
-      "peak_price": 0.0001006,
-      "captures": {},
+      "peak_price": 0.0001646,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001646,
+          "liquidity": 34029.21,
+          "volume_24h": 487521.46,
+          "captured_at": "2026-09-09T01:24:16.757138+00:00",
+          "hours_elapsed": 1.5
+        }
+      },
       "outcome_label": null,
       "completed": false
     }
