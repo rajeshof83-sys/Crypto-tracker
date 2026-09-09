@@ -67906,6 +67906,45 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:6dsv1QT3Y1oWxfZ8uN5bxkT4P7L22VaWMLYuqgNyYPxa": {
+      "chain": "solana",
+      "pair_address": "6dsv1QT3Y1oWxfZ8uN5bxkT4P7L22VaWMLYuqgNyYPxa",
+      "symbol": "LEPTEP",
+      "tier": "T1",
+      "detection_time": "2026-09-09T14:36:33.457036+00:00",
+      "detection_price": 0.0002326,
+      "detection_liq": 41266.79,
+      "peak_price": 0.0002326,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:A3gGB2RzAxAum8dSTYVHiWzqZ5rSxmt1sP5mTXLptpFw": {
+      "chain": "solana",
+      "pair_address": "A3gGB2RzAxAum8dSTYVHiWzqZ5rSxmt1sP5mTXLptpFw",
+      "symbol": "SPCX",
+      "tier": "T1",
+      "detection_time": "2026-09-09T14:36:36.704784+00:00",
+      "detection_price": 0.0003668,
+      "detection_liq": 51886.84,
+      "peak_price": 0.0003668,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "base:0x99cf3E8bfB02c300312c53Aac5D0B082e3D5975C": {
+      "chain": "base",
+      "pair_address": "0x99cf3E8bfB02c300312c53Aac5D0B082e3D5975C",
+      "symbol": "LAPTOP",
+      "tier": "T2",
+      "detection_time": "2026-09-09T14:36:40.906208+00:00",
+      "detection_price": 2.6,
+      "detection_liq": 1367594.92,
+      "peak_price": 2.6,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
