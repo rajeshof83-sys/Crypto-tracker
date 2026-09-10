@@ -41604,6 +41604,31 @@
       "peak_liq": 0.0,
       "peak_vol": 22580.83,
       "peak_safety": 6
+    },
+    "solana:9TymA5XepTVna5DcEuq4dGePRidYbvdQoySvWcyVAY6W": {
+      "peak_liq": 21989.48,
+      "peak_vol": 3427095.28,
+      "peak_safety": 9
+    },
+    "solana:BxxMzPqnFqNQkwz49XH3WuKwkBmmf7upNU7iCnyxk5d2": {
+      "peak_liq": 0.0,
+      "peak_vol": 0.0,
+      "peak_safety": 8
+    },
+    "solana:6AxyN8NUxe6bJS1gHRPvtQVDEFEtfagDpPHzjQjsVZGm": {
+      "peak_liq": 19879.43,
+      "peak_vol": 183632.15,
+      "peak_safety": 8
+    },
+    "bsc:0x7C077ff87005C2cd3A4320a3589BB60e4c2B5E3E": {
+      "peak_liq": 36969.26,
+      "peak_vol": 130600.22,
+      "peak_safety": 8
+    },
+    "solana:4PJyAQrCJ6dKuGrDSs5GUiyDcXKRr3RRPqz27gZhbXMz": {
+      "peak_liq": 0.0,
+      "peak_vol": 138590.07,
+      "peak_safety": 7
     }
   },
   "consecutive_negative": {
@@ -49433,7 +49458,7 @@
     "solana:CnwLrNwJonAL7uwwNUrGUtgzC8PXH8JGNFR5p7vRqad8": 1,
     "solana:3qMd5S3hzN7TpMKm6QhgmDUFtGG6Xz4LnwyhZj8jCniR": 2,
     "solana:13fUtfvg8y8vearwQCNBez7mERBoBVNebuvdfhAkrjLd": 0,
-    "bsc:0x7a1b5F9e71E497f6265c63108D0f314d23c6deb4": 2,
+    "bsc:0x7a1b5F9e71E497f6265c63108D0f314d23c6deb4": 3,
     "solana:AeS6CwWNAN1pk3XuUCJ1vmWg4Ys97Qd4hRFFde25mgnR": 0,
     "base:0x368f10ab57d991b033f846099c7e0af67773c1741996d8d2d6fe33fac63e88a5": 0,
     "solana:rfrssNQnwLM85GenAJ1AMKDzpCJiotuRVckniKfz76d": 1,
@@ -49927,7 +49952,12 @@
     "solana:iZn7TApuJA2V68Bq4DCEvoqCxUgaFzBroBKJLgF8fTc": 1,
     "solana:CDtGtE7MaiqnjxgCPd32hs1aLzWFKqjdbTHGWfboFq9z": 1,
     "base:0x4cbf20a1be5ca97216d0b63e0dda52f27e2423ee5aa867e3502ee3e1923af11d": 0,
-    "solana:AcXYsN89GgduXCcavjpec5tw2sjBFQEXCae5zVKEtAc4": 1
+    "solana:AcXYsN89GgduXCcavjpec5tw2sjBFQEXCae5zVKEtAc4": 1,
+    "solana:9TymA5XepTVna5DcEuq4dGePRidYbvdQoySvWcyVAY6W": 1,
+    "solana:BxxMzPqnFqNQkwz49XH3WuKwkBmmf7upNU7iCnyxk5d2": 0,
+    "solana:6AxyN8NUxe6bJS1gHRPvtQVDEFEtfagDpPHzjQjsVZGm": 0,
+    "bsc:0x7C077ff87005C2cd3A4320a3589BB60e4c2B5E3E": 1,
+    "solana:4PJyAQrCJ6dKuGrDSs5GUiyDcXKRr3RRPqz27gZhbXMz": 0
   },
   "exit_alerts_sent": {}
 }
