@@ -39936,7 +39936,7 @@
       "peak_safety": 8
     },
     "solana:56qfhmpdTjJgHGE6khKDFDxrPnbmDa3dSWVf6ikwbwVi": {
-      "peak_liq": 64162.63,
+      "peak_liq": 96614.93,
       "peak_vol": 102304.34,
       "peak_safety": 10
     },
@@ -40861,8 +40861,8 @@
       "peak_safety": 9
     },
     "solana:4Ro3pG1XZgSJENfgCccNgQqrHYVqhHjwcL27oHmXMMTG": {
-      "peak_liq": 321089.51,
-      "peak_vol": 146572.44,
+      "peak_liq": 380185.1,
+      "peak_vol": 307130.34,
       "peak_safety": 10
     },
     "solana:ETeJ3wFGNhpmUhAb3s8u4Ct76JzznfrGUhC5o76euF9A": {
@@ -41739,6 +41739,16 @@
       "peak_liq": 4995.72,
       "peak_vol": 27260.56,
       "peak_safety": 9
+    },
+    "solana:3364H2G3Kt536qgfV4az9HhN42i4owXGpcs4LuenHCBA": {
+      "peak_liq": 24311.28,
+      "peak_vol": 230024.13,
+      "peak_safety": 9
+    },
+    "solana:EhxUce43jGUu8eGzLPFQweQXSwhbmhnBQBU4iAmn4CxH": {
+      "peak_liq": 49737.56,
+      "peak_vol": 1325306.85,
+      "peak_safety": 8
     }
   },
   "consecutive_negative": {
@@ -49914,7 +49924,7 @@
     "solana:8b1B8uFyYuwfqq48haJBDZMGZG5rybrAmMgHxM6wKYhn": 1,
     "solana:CwLwWREa3JXmRZYmbRAgp8kwJWPoMQcKyqXaYX5FoqEj": 0,
     "solana:4FnqQfZLJeWQoMHYNNGto16J28oFWSbWeCoKazSkmho2": 1,
-    "solana:4Ro3pG1XZgSJENfgCccNgQqrHYVqhHjwcL27oHmXMMTG": 0,
+    "solana:4Ro3pG1XZgSJENfgCccNgQqrHYVqhHjwcL27oHmXMMTG": 1,
     "solana:ETeJ3wFGNhpmUhAb3s8u4Ct76JzznfrGUhC5o76euF9A": 0,
     "base:0xe0d295dda6e376012092753c520aac990f3cd5a8f50d53294e7b9a92689eacda": 0,
     "solana:BXpGXikNEXa6G7v81crDGka5vcHw6SUfbyy22HXnfCRi": 0,
@@ -50089,7 +50099,9 @@
     "solana:DBThSUgqr9PSy18LSG35B4LjweVJbPttVWPH5Mi7ehEh": 1,
     "ethereum:0x36307fed492c0389d1e4c8a6d40f06c35ed6fd1d3d7e442e590d14698ed5f1f5": 1,
     "solana:8iUZBKeXCuHDxjbHVFPqhXy14Wk6ZPtC572g7GAtgRVE": 0,
-    "solana:71b9FV6rx56muK6xV9f6naUVLaP8U9hKyS9hfQHj9uED": 1
+    "solana:71b9FV6rx56muK6xV9f6naUVLaP8U9hKyS9hfQHj9uED": 1,
+    "solana:3364H2G3Kt536qgfV4az9HhN42i4owXGpcs4LuenHCBA": 0,
+    "solana:EhxUce43jGUu8eGzLPFQweQXSwhbmhnBQBU4iAmn4CxH": 2
   },
   "exit_alerts_sent": {}
 }
