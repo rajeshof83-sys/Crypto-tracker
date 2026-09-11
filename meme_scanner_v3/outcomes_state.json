@@ -68837,6 +68837,45 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:GEWMxE7HNudCAifajHqLvhctbHPefSL2S62kAu3Vw96h": {
+      "chain": "solana",
+      "pair_address": "GEWMxE7HNudCAifajHqLvhctbHPefSL2S62kAu3Vw96h",
+      "symbol": "AMD",
+      "tier": "T1",
+      "detection_time": "2026-09-11T09:42:10.133050+00:00",
+      "detection_price": 0.0002919,
+      "detection_liq": 44457.84,
+      "peak_price": 0.0002919,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5ud18WMyAKJRBaAxrRVgb7osMii5jHoymueU7P3o85sU": {
+      "chain": "solana",
+      "pair_address": "5ud18WMyAKJRBaAxrRVgb7osMii5jHoymueU7P3o85sU",
+      "symbol": "PUMPCAT",
+      "tier": "T1",
+      "detection_time": "2026-09-11T09:42:13.222363+00:00",
+      "detection_price": 0.0001791,
+      "detection_liq": 34269.14,
+      "peak_price": 0.0001791,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6gQTdHry76sCzBAeCR8f2EkNYpgWrJjwb9352mF9ts5i": {
+      "chain": "solana",
+      "pair_address": "6gQTdHry76sCzBAeCR8f2EkNYpgWrJjwb9352mF9ts5i",
+      "symbol": "LOOP",
+      "tier": "T2",
+      "detection_time": "2026-09-11T09:42:15.654450+00:00",
+      "detection_price": 0.005553,
+      "detection_liq": 275940.77,
+      "peak_price": 0.005553,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
