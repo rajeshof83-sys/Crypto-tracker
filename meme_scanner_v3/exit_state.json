@@ -41984,6 +41984,26 @@
       "peak_liq": 23923.28,
       "peak_vol": 438460.66,
       "peak_safety": 8
+    },
+    "solana:JDAY2ptw6QikC4PHvsbL4VBGnFKRCc2XpKj2NcQjpZAS": {
+      "peak_liq": 25326.41,
+      "peak_vol": 323319.92,
+      "peak_safety": 9
+    },
+    "solana:8q4PSWg6XEZ2XxUsziU87hXrzQzKGbGpBddc6ofoQyrs": {
+      "peak_liq": 0.0,
+      "peak_vol": 14092.75,
+      "peak_safety": 8
+    },
+    "solana:Edg76Fp4Z4iT4xwuT6jseCTHafqPQkCxVEcdMHshNy5D": {
+      "peak_liq": 5794.52,
+      "peak_vol": 2360.06,
+      "peak_safety": 9
+    },
+    "solana:Ay1REFMoUtpJ8hyAoSq5foanqY7Z1BU2Jh8A7wCohpWa": {
+      "peak_liq": 2198.6,
+      "peak_vol": 792370.14,
+      "peak_safety": 9
     }
   },
   "consecutive_negative": {
@@ -50383,7 +50403,11 @@
     "solana:DMRU5sbFSVRBDpzaDDRdkdfgMgaptyw8w6WbnQBRwP4S": 0,
     "ethereum:0x6c2b607bF0A8edE629d58Ba5e05d0448fF7f890A": 0,
     "solana:AzA9GfDFwvAVoUZC83kAm7gGUU27SiwADV8nJZ6Uu8QV": 0,
-    "solana:A9tsTcTzQ8rLrvCBwWdsVCfcJnZvoe79y6uwgcfAAxNX": 0
+    "solana:A9tsTcTzQ8rLrvCBwWdsVCfcJnZvoe79y6uwgcfAAxNX": 0,
+    "solana:JDAY2ptw6QikC4PHvsbL4VBGnFKRCc2XpKj2NcQjpZAS": 0,
+    "solana:8q4PSWg6XEZ2XxUsziU87hXrzQzKGbGpBddc6ofoQyrs": 0,
+    "solana:Edg76Fp4Z4iT4xwuT6jseCTHafqPQkCxVEcdMHshNy5D": 0,
+    "solana:Ay1REFMoUtpJ8hyAoSq5foanqY7Z1BU2Jh8A7wCohpWa": 1
   },
   "exit_alerts_sent": {}
 }
