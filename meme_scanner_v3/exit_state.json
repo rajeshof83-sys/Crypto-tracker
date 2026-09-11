@@ -41793,7 +41793,7 @@
     "solana:8NVFB1unNk9aDtL5hooF8Hahf2rt4GLPWx9ctEadikHg": {
       "peak_liq": 52054.4,
       "peak_vol": 72684.43,
-      "peak_safety": 9
+      "peak_safety": 10
     },
     "solana:ByKfqBGyHQj1hmEUouXfueLJEU1SHdJz3uMtd1yXGunS": {
       "peak_liq": 138191.93,
@@ -41956,7 +41956,7 @@
       "peak_safety": 9
     },
     "solana:AbXLP7NmNiPn7iJiRJKRVoQ8Vs6SNzkuBRMFiRVygvtY": {
-      "peak_liq": 52187.56,
+      "peak_liq": 121172.45,
       "peak_vol": 541520.29,
       "peak_safety": 10
     },
@@ -41966,9 +41966,24 @@
       "peak_safety": 10
     },
     "solana:DMRU5sbFSVRBDpzaDDRdkdfgMgaptyw8w6WbnQBRwP4S": {
-      "peak_liq": 62927.08,
-      "peak_vol": 1259116.41,
+      "peak_liq": 68291.48,
+      "peak_vol": 1399877.81,
       "peak_safety": 9
+    },
+    "ethereum:0x6c2b607bF0A8edE629d58Ba5e05d0448fF7f890A": {
+      "peak_liq": 508760.98,
+      "peak_vol": 49865.87,
+      "peak_safety": 10
+    },
+    "solana:AzA9GfDFwvAVoUZC83kAm7gGUU27SiwADV8nJZ6Uu8QV": {
+      "peak_liq": 84310.2,
+      "peak_vol": 1275421.58,
+      "peak_safety": 9
+    },
+    "solana:A9tsTcTzQ8rLrvCBwWdsVCfcJnZvoe79y6uwgcfAAxNX": {
+      "peak_liq": 23923.28,
+      "peak_vol": 438460.66,
+      "peak_safety": 8
     }
   },
   "consecutive_negative": {
@@ -50185,7 +50200,7 @@
     "solana:8R6tu7iSrsabc4VEU8Q6BkHSBhw2Z8RiS1kq6HohFm7w": 0,
     "solana:1G1SQZZCJMAV4V4xN7bQJ3EjYfg3ZVz8isyPeZjKVAV": 0,
     "solana:13EFs1jcGbNom7pCYyNKEfjgzri5Rm9dSNZSvxwYzakR": 2,
-    "base:0x163c9d517BB963E441c63efB285BC6616e05CE43": 0,
+    "base:0x163c9d517BB963E441c63efB285BC6616e05CE43": 1,
     "solana:5tEQjMLohdDVqu9G8DShLkLXHjYBeGWfbdML8SBffHdu": 0,
     "solana:9TRKbpkWfbR6dmFAX1kGx1MReZ48K1j9VPcjUBMM4Toq": 2,
     "solana:8N8Cbh9BC6mjahJWPjnP8MkzsrWACEwDz7wWfN5AKskR": 1,
@@ -50365,7 +50380,10 @@
     "bsc:0xA9b460c1c704471c76b25D6954EF47340b24b18c": 0,
     "solana:AbXLP7NmNiPn7iJiRJKRVoQ8Vs6SNzkuBRMFiRVygvtY": 0,
     "solana:AmzJQtcJfxqNZeRkhGr4B9uSWj5Mtb3N5DHah5zbMRiz": 0,
-    "solana:DMRU5sbFSVRBDpzaDDRdkdfgMgaptyw8w6WbnQBRwP4S": 0
+    "solana:DMRU5sbFSVRBDpzaDDRdkdfgMgaptyw8w6WbnQBRwP4S": 0,
+    "ethereum:0x6c2b607bF0A8edE629d58Ba5e05d0448fF7f890A": 0,
+    "solana:AzA9GfDFwvAVoUZC83kAm7gGUU27SiwADV8nJZ6Uu8QV": 0,
+    "solana:A9tsTcTzQ8rLrvCBwWdsVCfcJnZvoe79y6uwgcfAAxNX": 0
   },
   "exit_alerts_sent": {}
 }
