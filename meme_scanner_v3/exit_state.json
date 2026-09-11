@@ -41909,6 +41909,31 @@
       "peak_liq": 46179.51,
       "peak_vol": 284999.75,
       "peak_safety": 9
+    },
+    "solana:CPYDbPFoe4247Uh731Md3ZDJ2e7RoauYbNtGbfaiEp4g": {
+      "peak_liq": 43847.74,
+      "peak_vol": 375941.75,
+      "peak_safety": 9
+    },
+    "solana:3Zd9sgoqxMfaDi6kdoo3sGZfXusDJigDxmX6gXzhWbvp": {
+      "peak_liq": 5290.21,
+      "peak_vol": 8489.59,
+      "peak_safety": 7
+    },
+    "bsc:0x9f10Fcd4b6fD8644fd254D6b85B1c62C22EA9D30": {
+      "peak_liq": 8054.43,
+      "peak_vol": 33774.32,
+      "peak_safety": 7
+    },
+    "solana:AasQQ1BoJu9NjvrAeus8aaCw9GAr5HygUfrscDovGqLe": {
+      "peak_liq": 6737.56,
+      "peak_vol": 2560.75,
+      "peak_safety": 6
+    },
+    "solana:BvEdhStWjBUr5dDXBF9AdN2vSJYzU7YijCCLyw3RyLeH": {
+      "peak_liq": 2444.92,
+      "peak_vol": 1305932.98,
+      "peak_safety": 9
     }
   },
   "consecutive_negative": {
@@ -43302,7 +43327,7 @@
     "solana:2UmcmoiqxPDayvNKpkEX82mk2UDVAbisLbmzqrJdxqYy": 2,
     "solana:BoB3Dvi5eLGFr86BexBPNY2ZXwMNjWhx3FVCep3X2Vj6": 0,
     "solana:8EYE7ykjBjFCUcRV3D3tgsd7F2nGUjaCKvSf9Ka8EFWv": 0,
-    "solana:AxVCxaLwG9oyRxqnFAo8FomNBbNzqZtQZETF4yqrasJZ": 1,
+    "solana:AxVCxaLwG9oyRxqnFAo8FomNBbNzqZtQZETF4yqrasJZ": 0,
     "solana:eFNjQm47KDyBSrfxjs257cHdpE2QAayXZRJNjxtJiCK": 4,
     "solana:7dHnvcbCbNQnXCvZqJpRct5cKFdkK3qpnk1n9wHax4AW": 2,
     "solana:8UEPfcG2Jz6Zzy63hDSStBBxygEZCmHCongdtTCPga3m": 1,
@@ -50293,7 +50318,12 @@
     "solana:GcBQeSEPdnN3hBdB7ZnviVmPsogE5A4JeRDPHYQ6wVxB": 1,
     "solana:6gQTdHry76sCzBAeCR8f2EkNYpgWrJjwb9352mF9ts5i": 0,
     "solana:6HkGoF7xsq6sGrh7MD2BT27pQCoZsofffc3g2z4KpWWd": 1,
-    "solana:85aGuq5zEUUU6n16FbRLHBA8Y2GpN1rXnr5RZLgnsZmq": 0
+    "solana:85aGuq5zEUUU6n16FbRLHBA8Y2GpN1rXnr5RZLgnsZmq": 0,
+    "solana:CPYDbPFoe4247Uh731Md3ZDJ2e7RoauYbNtGbfaiEp4g": 1,
+    "solana:3Zd9sgoqxMfaDi6kdoo3sGZfXusDJigDxmX6gXzhWbvp": 0,
+    "bsc:0x9f10Fcd4b6fD8644fd254D6b85B1c62C22EA9D30": 0,
+    "solana:AasQQ1BoJu9NjvrAeus8aaCw9GAr5HygUfrscDovGqLe": 0,
+    "solana:BvEdhStWjBUr5dDXBF9AdN2vSJYzU7YijCCLyw3RyLeH": 1
   },
   "exit_alerts_sent": {}
 }
