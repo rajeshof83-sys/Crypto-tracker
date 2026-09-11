@@ -69161,7 +69161,28 @@
       "detection_time": "2026-09-11T18:33:49.326308+00:00",
       "detection_price": 0.0001906,
       "detection_liq": 36710.0,
-      "peak_price": 0.0001906,
+      "peak_price": 0.0003176,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003176,
+          "liquidity": 49203.5,
+          "volume_24h": 1232556.88,
+          "captured_at": "2026-09-11T19:57:20.996351+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6pvBaeq7eR9e56V63aYqJPLup5YnjrSDEnUYTWPZPqoX": {
+      "chain": "solana",
+      "pair_address": "6pvBaeq7eR9e56V63aYqJPLup5YnjrSDEnUYTWPZPqoX",
+      "symbol": "OMEN",
+      "tier": "T1",
+      "detection_time": "2026-09-11T19:57:16.747691+00:00",
+      "detection_price": 5.751e-05,
+      "detection_liq": 20605.75,
+      "peak_price": 5.751e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
