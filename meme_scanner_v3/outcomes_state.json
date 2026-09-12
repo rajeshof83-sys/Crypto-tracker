@@ -65718,10 +65718,17 @@
           "volume_24h": 425762.54,
           "captured_at": "2026-09-06T13:44:57.541446+00:00",
           "hours_elapsed": 25.3
+        },
+        "price_7d": {
+          "price": 2.214e-05,
+          "liquidity": 11888.53,
+          "volume_24h": 13883.99,
+          "captured_at": "2026-09-12T13:37:24.751295+00:00",
+          "hours_elapsed": 169.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:Co3KAoJ4JedvH5RXMJjHiadTDpiaTQ7aiPNV9Z7q3bAg": {
       "chain": "solana",
@@ -69071,6 +69078,13 @@
           "volume_24h": 125865.73,
           "captured_at": "2026-09-11T17:56:36.750704+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 0.0001237,
+          "liquidity": 29269.52,
+          "volume_24h": 27875.99,
+          "captured_at": "2026-09-12T13:37:24.751295+00:00",
+          "hours_elapsed": 25.9
         }
       },
       "outcome_label": null,
@@ -69337,6 +69351,27 @@
       "detection_price": 6.251e-05,
       "detection_liq": 23323.5,
       "peak_price": 6.251e-05,
+      "captures": {
+        "price_1h": {
+          "price": 2.203e-05,
+          "liquidity": 14063.19,
+          "volume_24h": 494258.6,
+          "captured_at": "2026-09-12T13:37:24.751295+00:00",
+          "hours_elapsed": 3.3
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4LjaUegi6MsaEedZrNrZwZHV32UYqsCbJF1YSwSLRurq": {
+      "chain": "solana",
+      "pair_address": "4LjaUegi6MsaEedZrNrZwZHV32UYqsCbJF1YSwSLRurq",
+      "symbol": "NEKO",
+      "tier": "T1",
+      "detection_time": "2026-09-12T13:37:15.357503+00:00",
+      "detection_price": 0.0006192,
+      "detection_liq": 67287.32,
+      "peak_price": 0.0006192,
       "captures": {},
       "outcome_label": null,
       "completed": false
