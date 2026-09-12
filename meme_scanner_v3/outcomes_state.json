@@ -68966,10 +68966,17 @@
           "volume_24h": 1492763.37,
           "captured_at": "2026-09-11T16:41:32.192206+00:00",
           "hours_elapsed": 7.0
+        },
+        "price_24h": {
+          "price": 2.122e-06,
+          "liquidity": 2361.37,
+          "volume_24h": 141527.28,
+          "captured_at": "2026-09-12T10:20:29.921438+00:00",
+          "hours_elapsed": 24.6
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:5ud18WMyAKJRBaAxrRVgb7osMii5jHoymueU7P3o85sU": {
       "chain": "solana",
@@ -68994,10 +69001,17 @@
           "volume_24h": 415546.77,
           "captured_at": "2026-09-11T16:41:32.192206+00:00",
           "hours_elapsed": 7.0
+        },
+        "price_24h": {
+          "price": 1.947e-06,
+          "liquidity": 2044.63,
+          "volume_24h": 7.65,
+          "captured_at": "2026-09-12T10:20:29.921438+00:00",
+          "hours_elapsed": 24.6
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:6gQTdHry76sCzBAeCR8f2EkNYpgWrJjwb9352mF9ts5i": {
       "chain": "solana",
@@ -69022,10 +69036,17 @@
           "volume_24h": 3273538.21,
           "captured_at": "2026-09-11T16:41:32.192206+00:00",
           "hours_elapsed": 7.0
+        },
+        "price_24h": {
+          "price": 0.001091,
+          "liquidity": 51160.21,
+          "volume_24h": 1967421.54,
+          "captured_at": "2026-09-12T10:20:29.921438+00:00",
+          "hours_elapsed": 24.6
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:7GA65yufYGnzdRaJCjy7QPPrivEsf4f85uaTwy4DQaQL": {
       "chain": "solana",
@@ -69304,6 +69325,19 @@
           "hours_elapsed": 6.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "bsc:0x86056e040DC0c709b673B894c09cE6dABd43bC43": {
+      "chain": "bsc",
+      "pair_address": "0x86056e040DC0c709b673B894c09cE6dABd43bC43",
+      "symbol": "NeuroFly",
+      "tier": "T1",
+      "detection_time": "2026-09-12T10:20:19.445582+00:00",
+      "detection_price": 6.251e-05,
+      "detection_liq": 23323.5,
+      "peak_price": 6.251e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
