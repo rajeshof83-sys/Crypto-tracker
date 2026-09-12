@@ -69260,6 +69260,13 @@
           "volume_24h": 590440.36,
           "captured_at": "2026-09-12T00:19:13.374091+00:00",
           "hours_elapsed": 6.7
+        },
+        "price_24h": {
+          "price": 8.065e-05,
+          "liquidity": 28387.52,
+          "volume_24h": 421406.96,
+          "captured_at": "2026-09-12T17:47:08.375976+00:00",
+          "hours_elapsed": 24.1
         }
       },
       "outcome_label": null,
@@ -69461,6 +69468,19 @@
       "detection_price": 0.0005255,
       "detection_liq": 62191.41,
       "peak_price": 0.0005255,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AM4kSZUTaSC1tnewHtdxzsWrEGGrQk4cjkHxzXgXF7Kf": {
+      "chain": "solana",
+      "pair_address": "AM4kSZUTaSC1tnewHtdxzsWrEGGrQk4cjkHxzXgXF7Kf",
+      "symbol": "GEMI",
+      "tier": "T1",
+      "detection_time": "2026-09-12T17:47:01.456195+00:00",
+      "detection_price": 0.0001167,
+      "detection_liq": 28550.13,
+      "peak_price": 0.0001167,
       "captures": {},
       "outcome_label": null,
       "completed": false
