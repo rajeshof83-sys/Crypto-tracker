@@ -65773,7 +65773,7 @@
       "detection_time": "2026-09-05T16:54:34.916589+00:00",
       "detection_price": 0.0005538,
       "detection_liq": 62535.6,
-      "peak_price": 0.0007582,
+      "peak_price": 0.00108,
       "captures": {
         "price_1h": {
           "price": 0.0006371,
@@ -65795,10 +65795,17 @@
           "volume_24h": 487914.97,
           "captured_at": "2026-09-06T17:02:34.545176+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 0.00108,
+          "liquidity": 91308.78,
+          "volume_24h": 233675.12,
+          "captured_at": "2026-09-12T17:10:14.084659+00:00",
+          "hours_elapsed": 168.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "winner",
+      "completed": true
     },
     "solana:7cVxjTKeAUxUS7RrCaGwtStxZEboQZTiHg8Y9AcV28h5": {
       "chain": "solana",
