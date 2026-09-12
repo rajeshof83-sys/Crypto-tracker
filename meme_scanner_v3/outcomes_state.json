@@ -69175,7 +69175,7 @@
       "detection_time": "2026-09-11T17:38:21.115812+00:00",
       "detection_price": 7.992e-05,
       "detection_liq": 35467.75,
-      "peak_price": 0.0001319,
+      "peak_price": 0.0002177,
       "captures": {
         "price_1h": {
           "price": 0.0001319,
@@ -69183,6 +69183,13 @@
           "volume_24h": 419564.18,
           "captured_at": "2026-09-11T18:41:08.524802+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 0.0002177,
+          "liquidity": 60456.63,
+          "volume_24h": 590440.36,
+          "captured_at": "2026-09-12T00:19:13.374091+00:00",
+          "hours_elapsed": 6.7
         }
       },
       "outcome_label": null,
@@ -69227,6 +69234,32 @@
           "hours_elapsed": 1.4
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HmYdcKn6WEV6zaChGu9DLF3uwQNrnmQ5UYLjSU6ZKrBd": {
+      "chain": "solana",
+      "pair_address": "HmYdcKn6WEV6zaChGu9DLF3uwQNrnmQ5UYLjSU6ZKrBd",
+      "symbol": "ORECAT",
+      "tier": "T1",
+      "detection_time": "2026-09-12T00:19:04.298118+00:00",
+      "detection_price": 0.0001468,
+      "detection_liq": 31216.76,
+      "peak_price": 0.0001468,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8XXnvNEMU3UoMRPWY2KJBW5z1T2KKj6vH9WYJfcGDqYQ": {
+      "chain": "solana",
+      "pair_address": "8XXnvNEMU3UoMRPWY2KJBW5z1T2KKj6vH9WYJfcGDqYQ",
+      "symbol": "PAIRZ",
+      "tier": "T2",
+      "detection_time": "2026-09-12T00:19:06.872164+00:00",
+      "detection_price": 0.002464,
+      "detection_liq": 138028.21,
+      "peak_price": 0.002464,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
