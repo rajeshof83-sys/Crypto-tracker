@@ -66432,10 +66432,17 @@
           "volume_24h": 63801.17,
           "captured_at": "2026-09-07T21:43:02.677365+00:00",
           "hours_elapsed": 24.6
+        },
+        "price_7d": {
+          "price": 1.094e-05,
+          "liquidity": 8017.5,
+          "volume_24h": 1223.83,
+          "captured_at": "2026-09-13T21:47:07.458021+00:00",
+          "hours_elapsed": 168.6
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:B5hDDxTTrxtZNJm4CmF1uw7cz1qZ5jnisWD8UBpQimo2": {
       "chain": "solana",
@@ -69855,6 +69862,40 @@
       "detection_price": 0.0003059,
       "detection_liq": 47005.25,
       "peak_price": 0.0003059,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001474,
+          "liquidity": 33063.85,
+          "volume_24h": 902664.24,
+          "captured_at": "2026-09-13T21:47:07.458021+00:00",
+          "hours_elapsed": 1.3
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:BCg4X1wm4sHF5UbA86yxmsEzrMdvY91rZR6BfT63QTKT": {
+      "chain": "solana",
+      "pair_address": "BCg4X1wm4sHF5UbA86yxmsEzrMdvY91rZR6BfT63QTKT",
+      "symbol": "ENDAI",
+      "tier": "T1",
+      "detection_time": "2026-09-13T21:46:57.626186+00:00",
+      "detection_price": 0.0001482,
+      "detection_liq": 32050.65,
+      "peak_price": 0.0001482,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EmcQyL137VPZs4czpgjTMtPcr4SVNWAJENQLKQGgyvUN": {
+      "chain": "solana",
+      "pair_address": "EmcQyL137VPZs4czpgjTMtPcr4SVNWAJENQLKQGgyvUN",
+      "symbol": "MARINE",
+      "tier": "T1",
+      "detection_time": "2026-09-13T21:47:00.509266+00:00",
+      "detection_price": 8.01e-05,
+      "detection_liq": 23013.15,
+      "peak_price": 8.01e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
