@@ -66054,10 +66054,17 @@
           "volume_24h": 362774.08,
           "captured_at": "2026-09-07T10:35:28.680946+00:00",
           "hours_elapsed": 24.0
+        },
+        "price_7d": {
+          "price": 4.73e-05,
+          "liquidity": 23570.25,
+          "volume_24h": 6990.42,
+          "captured_at": "2026-09-13T12:20:51.592502+00:00",
+          "hours_elapsed": 169.8
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:BDPbm7JE9jHKMVc8Wr8vhttpHcngtEj4VBRRKa7aRwqi": {
       "chain": "solana",
@@ -69696,6 +69703,19 @@
           "hours_elapsed": 3.5
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3CrSfcLW2b8d5LwR8sq8C6eHUL2V5DnrQHZZYHRHq9YX": {
+      "chain": "solana",
+      "pair_address": "3CrSfcLW2b8d5LwR8sq8C6eHUL2V5DnrQHZZYHRHq9YX",
+      "symbol": "APU",
+      "tier": "T1",
+      "detection_time": "2026-09-13T12:20:46.519323+00:00",
+      "detection_price": 5.635e-05,
+      "detection_liq": 20831.62,
+      "peak_price": 5.635e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
