@@ -65977,10 +65977,17 @@
           "volume_24h": 689939.82,
           "captured_at": "2026-09-07T06:30:18.830335+00:00",
           "hours_elapsed": 24.5
+        },
+        "price_7d": {
+          "price": 0.003658,
+          "liquidity": 186534.96,
+          "volume_24h": 235178.03,
+          "captured_at": "2026-09-13T06:50:09.214723+00:00",
+          "hours_elapsed": 168.9
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:6oNsWvGVV3BqJZshnhRGbKoJgFhtFrPjoN7XAsWnguaq": {
       "chain": "solana",
@@ -69654,6 +69661,19 @@
           "hours_elapsed": 2.5
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GnE9n8VquZ7ZRFmLT9hYB7xzHBJq5AkderpneVVbo67N": {
+      "chain": "solana",
+      "pair_address": "GnE9n8VquZ7ZRFmLT9hYB7xzHBJq5AkderpneVVbo67N",
+      "symbol": "batonwif",
+      "tier": "T1",
+      "detection_time": "2026-09-13T06:49:23.411137+00:00",
+      "detection_price": 0.000161,
+      "detection_liq": 32747.49,
+      "peak_price": 0.000161,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
