@@ -69365,10 +69365,17 @@
           "volume_24h": 592235.04,
           "captured_at": "2026-09-12T06:33:19.662474+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 2.015e-06,
+          "liquidity": 2148.8,
+          "volume_24h": 29.75,
+          "captured_at": "2026-09-13T01:27:43.757278+00:00",
+          "hours_elapsed": 25.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:8XXnvNEMU3UoMRPWY2KJBW5z1T2KKj6vH9WYJfcGDqYQ": {
       "chain": "solana",
@@ -69393,6 +69400,13 @@
           "volume_24h": 1322343.02,
           "captured_at": "2026-09-12T06:33:19.662474+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 0.000578,
+          "liquidity": 66456.91,
+          "volume_24h": 406868.23,
+          "captured_at": "2026-09-13T01:27:43.757278+00:00",
+          "hours_elapsed": 25.1
         }
       },
       "outcome_label": null,
@@ -69582,6 +69596,13 @@
           "volume_24h": 1131391.15,
           "captured_at": "2026-09-12T21:21:18.224121+00:00",
           "hours_elapsed": 2.3
+        },
+        "price_6h": {
+          "price": 2.149e-06,
+          "liquidity": 2397.1,
+          "volume_24h": 1582480.21,
+          "captured_at": "2026-09-13T01:27:43.757278+00:00",
+          "hours_elapsed": 6.4
         }
       },
       "outcome_label": null,
@@ -69605,6 +69626,19 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:29Mb1iF9Whpm2G1SXQkiZut9zs5NDBsgcf9bz9TzuFhC": {
+      "chain": "solana",
+      "pair_address": "29Mb1iF9Whpm2G1SXQkiZut9zs5NDBsgcf9bz9TzuFhC",
+      "symbol": "CATFLIGHT",
+      "tier": "T1",
+      "detection_time": "2026-09-13T01:27:34.002052+00:00",
+      "detection_price": 0.000394,
+      "detection_liq": 54331.02,
+      "peak_price": 0.000394,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
