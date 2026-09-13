@@ -69722,6 +69722,13 @@
           "volume_24h": 672996.95,
           "captured_at": "2026-09-13T04:50:18.461073+00:00",
           "hours_elapsed": 6.5
+        },
+        "price_24h": {
+          "price": 9.234e-05,
+          "liquidity": 23442.8,
+          "volume_24h": 241802.38,
+          "captured_at": "2026-09-13T23:00:33.901756+00:00",
+          "hours_elapsed": 24.7
         }
       },
       "outcome_label": null,
@@ -69883,7 +69890,15 @@
       "detection_price": 0.0001482,
       "detection_liq": 32050.65,
       "peak_price": 0.0001482,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 2.012e-06,
+          "liquidity": 2214.84,
+          "volume_24h": 993547.14,
+          "captured_at": "2026-09-13T23:00:33.901756+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -69896,6 +69911,27 @@
       "detection_price": 8.01e-05,
       "detection_liq": 23013.15,
       "peak_price": 8.01e-05,
+      "captures": {
+        "price_1h": {
+          "price": 6.502e-05,
+          "liquidity": 21199.27,
+          "volume_24h": 698226.77,
+          "captured_at": "2026-09-13T23:00:33.901756+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "base:0x4768d50673a8920e634129ae569c2f4eb9345b1f660845e7b7730423f6997cb8": {
+      "chain": "base",
+      "pair_address": "0x4768d50673a8920e634129ae569c2f4eb9345b1f660845e7b7730423f6997cb8",
+      "symbol": "ZKAT",
+      "tier": "T2",
+      "detection_time": "2026-09-13T23:00:24.267539+00:00",
+      "detection_price": 0.0008102,
+      "detection_liq": 97364.69,
+      "peak_price": 0.0008102,
       "captures": {},
       "outcome_label": null,
       "completed": false
