@@ -69806,10 +69806,17 @@
           "volume_24h": 364381.3,
           "captured_at": "2026-09-13T14:10:22.324059+00:00",
           "hours_elapsed": 7.3
+        },
+        "price_24h": {
+          "price": 1.908e-06,
+          "liquidity": 1989.88,
+          "volume_24h": 19.78,
+          "captured_at": "2026-09-14T07:11:45.260029+00:00",
+          "hours_elapsed": 24.4
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:3CrSfcLW2b8d5LwR8sq8C6eHUL2V5DnrQHZZYHRHq9YX": {
       "chain": "solana",
@@ -70092,6 +70099,19 @@
       "detection_price": 7.51e-05,
       "detection_liq": 23966.22,
       "peak_price": 7.51e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:G6pVQH9y4KxsbvJaqEN5CcUpCJBnQ6VeRrvEjWdK98Kh": {
+      "chain": "solana",
+      "pair_address": "G6pVQH9y4KxsbvJaqEN5CcUpCJBnQ6VeRrvEjWdK98Kh",
+      "symbol": "FakeTaxi",
+      "tier": "T1",
+      "detection_time": "2026-09-14T07:11:37.189118+00:00",
+      "detection_price": 0.0001558,
+      "detection_liq": 33083.57,
+      "peak_price": 0.0001558,
       "captures": {},
       "outcome_label": null,
       "completed": false
