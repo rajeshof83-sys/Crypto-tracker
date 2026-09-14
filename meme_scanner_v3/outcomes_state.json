@@ -69967,6 +69967,13 @@
           "volume_24h": 1128792.04,
           "captured_at": "2026-09-14T05:14:02.761742+00:00",
           "hours_elapsed": 8.7
+        },
+        "price_24h": {
+          "price": 3.525e-05,
+          "liquidity": 16784.55,
+          "volume_24h": 246445.98,
+          "captured_at": "2026-09-14T22:21:05.737697+00:00",
+          "hours_elapsed": 25.8
         }
       },
       "outcome_label": null,
@@ -69995,10 +70002,17 @@
           "volume_24h": 993547.5,
           "captured_at": "2026-09-14T05:14:02.761742+00:00",
           "hours_elapsed": 7.5
+        },
+        "price_24h": {
+          "price": 2.063e-06,
+          "liquidity": 2272.4,
+          "volume_24h": 181.15,
+          "captured_at": "2026-09-14T22:21:05.737697+00:00",
+          "hours_elapsed": 24.6
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:EmcQyL137VPZs4czpgjTMtPcr4SVNWAJENQLKQGgyvUN": {
       "chain": "solana",
@@ -70023,6 +70037,13 @@
           "volume_24h": 753331.46,
           "captured_at": "2026-09-14T05:14:02.761742+00:00",
           "hours_elapsed": 7.5
+        },
+        "price_24h": {
+          "price": 8.119e-06,
+          "liquidity": 7617.7,
+          "volume_24h": 167950.08,
+          "captured_at": "2026-09-14T22:21:05.737697+00:00",
+          "hours_elapsed": 24.6
         }
       },
       "outcome_label": null,
@@ -70366,6 +70387,27 @@
       "detection_price": 0.0002884,
       "detection_liq": 46055.82,
       "peak_price": 0.0002884,
+      "captures": {
+        "price_1h": {
+          "price": 2.143e-06,
+          "liquidity": 2373.49,
+          "volume_24h": 1245414.27,
+          "captured_at": "2026-09-14T22:21:05.737697+00:00",
+          "hours_elapsed": 2.8
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6xRJbNNwpZxQ7kSgufpiJbKFvR2j3pGbRcHkKjnWphAC": {
+      "chain": "solana",
+      "pair_address": "6xRJbNNwpZxQ7kSgufpiJbKFvR2j3pGbRcHkKjnWphAC",
+      "symbol": "TOEROGAN",
+      "tier": "T2",
+      "detection_time": "2026-09-14T22:21:00.944193+00:00",
+      "detection_price": 0.0004944,
+      "detection_liq": 61908.18,
+      "peak_price": 0.0004944,
       "captures": {},
       "outcome_label": null,
       "completed": false
