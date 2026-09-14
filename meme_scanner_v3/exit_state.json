@@ -39081,7 +39081,7 @@
       "peak_safety": 9
     },
     "ethereum:0x0a900074fbFd3200bD33f3d81F7F56C77487bb1B": {
-      "peak_liq": 3248210.69,
+      "peak_liq": 3248769.86,
       "peak_vol": 79415.81,
       "peak_safety": 10
     },
@@ -42317,7 +42317,7 @@
     },
     "solana:8snTi39Q5kyC82MBmaoc81FX4jyjXN8f2h9UYXyZi7pA": {
       "peak_liq": 0.0,
-      "peak_vol": 5275.07,
+      "peak_vol": 5693.36,
       "peak_safety": 8
     },
     "solana:5Fa9X4whJVKtyyQRzArRda8oJ1ouT2m5LvnqtxiawKxQ": {
@@ -42349,6 +42349,21 @@
       "peak_liq": 3993.85,
       "peak_vol": 55082.22,
       "peak_safety": 8
+    },
+    "solana:5ed9z7iFb3hffJprNmaw7gTxcXAzWpJhXzLyTPUniMso": {
+      "peak_liq": 0.0,
+      "peak_vol": 1214.85,
+      "peak_safety": 6
+    },
+    "ethereum:0xd3109da2a1338ccd4b58e22dde815c275264f530047bd16669e98801e58a34ef": {
+      "peak_liq": 66244.47,
+      "peak_vol": 58125.49,
+      "peak_safety": 9
+    },
+    "ethereum:0x031804b9dc7dd6efa4abc3f17f4f3e7b4f9bd20daa2d404bb69928adafe2c8b7": {
+      "peak_liq": 31342.35,
+      "peak_vol": 129133.84,
+      "peak_safety": 9
     }
   },
   "consecutive_negative": {
@@ -50815,13 +50830,16 @@
     "solana:8K6tpmhAawCcfeBBuqDBH8WeUsZC2nd8FDVLDbgMdSam": 0,
     "solana:7bSVnqtU2CWSby3jXzwKnEYGZKZMv6JTZBDVATeoMo2J": 0,
     "solana:Bg9DC5rDRBqtCZM9YTWxnisehoUooZ19SenaxEzDYfiV": 2,
-    "solana:8snTi39Q5kyC82MBmaoc81FX4jyjXN8f2h9UYXyZi7pA": 0,
+    "solana:8snTi39Q5kyC82MBmaoc81FX4jyjXN8f2h9UYXyZi7pA": 1,
     "solana:5Fa9X4whJVKtyyQRzArRda8oJ1ouT2m5LvnqtxiawKxQ": 0,
     "solana:4e8nUMuLrD4y4YbrS4nVtFkbp9fnb5Y2Y4wtXCH1kQ2D": 1,
     "bsc:0x34A61820FcdB6BFc5f1c663f0a4dE032a0A22C87": 0,
     "base:0x4768d50673a8920e634129ae569c2f4eb9345b1f660845e7b7730423f6997cb8": 0,
     "solana:5752ia7jC3ZU1c8ycytaSyi5D4nVhApSKvreGbs7pwWL": 0,
-    "solana:2DzzNsC6VMUc5MUnm6Uh6UuAxowcMaGC4M6JZMy3scEF": 1
+    "solana:2DzzNsC6VMUc5MUnm6Uh6UuAxowcMaGC4M6JZMy3scEF": 1,
+    "solana:5ed9z7iFb3hffJprNmaw7gTxcXAzWpJhXzLyTPUniMso": 0,
+    "ethereum:0xd3109da2a1338ccd4b58e22dde815c275264f530047bd16669e98801e58a34ef": 0,
+    "ethereum:0x031804b9dc7dd6efa4abc3f17f4f3e7b4f9bd20daa2d404bb69928adafe2c8b7": 1
   },
   "exit_alerts_sent": {}
 }
