@@ -70803,6 +70803,32 @@
       "captures": {},
       "outcome_label": null,
       "completed": false
+    },
+    "solana:EJ6MgdxxvCY5Fu5aSkAzMMwQL9KfmjgHdQREXGyxeigy": {
+      "chain": "solana",
+      "pair_address": "EJ6MgdxxvCY5Fu5aSkAzMMwQL9KfmjgHdQREXGyxeigy",
+      "symbol": "BULLISHCAT",
+      "tier": "T1",
+      "detection_time": "2026-09-15T18:11:57.859674+00:00",
+      "detection_price": 0.0002149,
+      "detection_liq": 38528.65,
+      "peak_price": 0.0002149,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AcwsDGc5wn3L4Nt1YvJau4HN7g89rhuich6MVCm6cfRY": {
+      "chain": "solana",
+      "pair_address": "AcwsDGc5wn3L4Nt1YvJau4HN7g89rhuich6MVCm6cfRY",
+      "symbol": "CASHCAT",
+      "tier": "T1",
+      "detection_time": "2026-09-15T18:12:01.071059+00:00",
+      "detection_price": 0.000342,
+      "detection_liq": 49700.39,
+      "peak_price": 0.000342,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
