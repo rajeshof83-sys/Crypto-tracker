@@ -67356,10 +67356,17 @@
           "volume_24h": 648568.71,
           "captured_at": "2026-09-09T05:22:33.668741+00:00",
           "hours_elapsed": 24.4
+        },
+        "price_7d": {
+          "price": 6.461e-05,
+          "liquidity": 22736.65,
+          "volume_24h": 98112.07,
+          "captured_at": "2026-09-15T05:07:26.694945+00:00",
+          "hours_elapsed": 168.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "moon",
+      "completed": true
     },
     "solana:9tNrk5k2WDN3n3MPNqFrCAYAe6CsmC5rrXuuk1wjtbux": {
       "chain": "solana",
@@ -70463,7 +70470,7 @@
       "detection_time": "2026-09-14T22:21:00.944193+00:00",
       "detection_price": 0.0004944,
       "detection_liq": 61908.18,
-      "peak_price": 0.001235,
+      "peak_price": 0.002188,
       "captures": {
         "price_1h": {
           "price": 0.001235,
@@ -70471,6 +70478,13 @@
           "volume_24h": 1492773.66,
           "captured_at": "2026-09-15T00:59:23.948883+00:00",
           "hours_elapsed": 2.6
+        },
+        "price_6h": {
+          "price": 0.002188,
+          "liquidity": 131863.71,
+          "volume_24h": 1877999.27,
+          "captured_at": "2026-09-15T05:07:26.694945+00:00",
+          "hours_elapsed": 6.8
         }
       },
       "outcome_label": null,
@@ -70485,7 +70499,15 @@
       "detection_price": 8.466e-05,
       "detection_liq": 31037.1,
       "peak_price": 8.466e-05,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 3.72e-05,
+          "liquidity": 16659.91,
+          "volume_24h": 769944.24,
+          "captured_at": "2026-09-15T05:07:26.694945+00:00",
+          "hours_elapsed": 4.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -70498,6 +70520,40 @@
       "detection_price": 0.0002995,
       "detection_liq": 47441.96,
       "peak_price": 0.0002995,
+      "captures": {
+        "price_1h": {
+          "price": 2.214e-06,
+          "liquidity": 2540.37,
+          "volume_24h": 1684262.82,
+          "captured_at": "2026-09-15T05:07:26.694945+00:00",
+          "hours_elapsed": 4.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4CbBs29aUPeEAatSu1eLrHoX6KEQnefGyLUjdFv5B3eU": {
+      "chain": "solana",
+      "pair_address": "4CbBs29aUPeEAatSu1eLrHoX6KEQnefGyLUjdFv5B3eU",
+      "symbol": "LELD",
+      "tier": "T1",
+      "detection_time": "2026-09-15T05:06:53.233571+00:00",
+      "detection_price": 0.0002604,
+      "detection_liq": 43232.46,
+      "peak_price": 0.0002604,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FNFAKndFFyNzJ9o6VwVBtXXQHVUGVMAwRRoXCgB4Dk1y": {
+      "chain": "solana",
+      "pair_address": "FNFAKndFFyNzJ9o6VwVBtXXQHVUGVMAwRRoXCgB4Dk1y",
+      "symbol": "NINA",
+      "tier": "T1",
+      "detection_time": "2026-09-15T05:07:18.829619+00:00",
+      "detection_price": 0.0002581,
+      "detection_liq": 52428.85,
+      "peak_price": 0.0002581,
       "captures": {},
       "outcome_label": null,
       "completed": false
