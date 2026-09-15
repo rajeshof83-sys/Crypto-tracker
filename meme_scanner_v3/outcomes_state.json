@@ -70674,6 +70674,13 @@
           "volume_24h": 775884.44,
           "captured_at": "2026-09-15T07:58:00.618339+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 2.153e-06,
+          "liquidity": 2410.49,
+          "volume_24h": 1157642.08,
+          "captured_at": "2026-09-15T13:18:02.255522+00:00",
+          "hours_elapsed": 6.5
         }
       },
       "outcome_label": null,
@@ -70695,6 +70702,13 @@
           "volume_24h": 871650.99,
           "captured_at": "2026-09-15T07:58:00.618339+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 2.2e-06,
+          "liquidity": 2402.86,
+          "volume_24h": 871654.06,
+          "captured_at": "2026-09-15T13:18:02.255522+00:00",
+          "hours_elapsed": 6.5
         }
       },
       "outcome_label": null,
@@ -70718,6 +70732,32 @@
           "hours_elapsed": 2.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:BEY8tHpFpVkv5hrS4tK2HgcYd9NvsA12iE9mkqHZ9aXG": {
+      "chain": "solana",
+      "pair_address": "BEY8tHpFpVkv5hrS4tK2HgcYd9NvsA12iE9mkqHZ9aXG",
+      "symbol": "CATY",
+      "tier": "T1",
+      "detection_time": "2026-09-15T13:17:52.905018+00:00",
+      "detection_price": 0.0002875,
+      "detection_liq": 44500.66,
+      "peak_price": 0.0002875,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:TMjyYk94wPVek8tnqrnBVT7sY8BQY4tr4AvQKWVG4Pc": {
+      "chain": "solana",
+      "pair_address": "TMjyYk94wPVek8tnqrnBVT7sY8BQY4tr4AvQKWVG4Pc",
+      "symbol": "STONKHOUSE",
+      "tier": "T2",
+      "detection_time": "2026-09-15T13:17:56.378039+00:00",
+      "detection_price": 4.74e-05,
+      "detection_liq": 15258.02,
+      "peak_price": 4.74e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
