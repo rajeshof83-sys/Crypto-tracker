@@ -67468,10 +67468,17 @@
           "volume_24h": 104987.93,
           "captured_at": "2026-09-09T09:58:32.807232+00:00",
           "hours_elapsed": 24.0
+        },
+        "price_7d": {
+          "price": 2.195e-05,
+          "liquidity": 13233.66,
+          "volume_24h": 6366.1,
+          "captured_at": "2026-09-15T10:17:23.971661+00:00",
+          "hours_elapsed": 168.4
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:BPYnXJCDgWY3UjqnQdW87pMhwxPAYC9hv1v1LLsqiqte": {
       "chain": "solana",
@@ -70669,6 +70676,19 @@
           "hours_elapsed": 1.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "bsc:0x3cE97D052C48096b4074b21d6F01E04efC3BA402": {
+      "chain": "bsc",
+      "pair_address": "0x3cE97D052C48096b4074b21d6F01E04efC3BA402",
+      "symbol": "FLIES",
+      "tier": "T1",
+      "detection_time": "2026-09-15T10:17:13.805942+00:00",
+      "detection_price": 4.223e-05,
+      "detection_liq": 27585.15,
+      "peak_price": 4.223e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
