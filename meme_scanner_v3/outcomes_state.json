@@ -70373,6 +70373,13 @@
           "volume_24h": 270505.66,
           "captured_at": "2026-09-14T22:30:25.295585+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 3.772e-06,
+          "liquidity": 5996.68,
+          "volume_24h": 1524.73,
+          "captured_at": "2026-09-15T17:19:13.476602+00:00",
+          "hours_elapsed": 24.9
         }
       },
       "outcome_label": null,
@@ -70730,6 +70737,13 @@
           "volume_24h": 312344.59,
           "captured_at": "2026-09-15T12:14:32.043912+00:00",
           "hours_elapsed": 2.0
+        },
+        "price_6h": {
+          "price": 3.236e-05,
+          "liquidity": 22779.27,
+          "volume_24h": 385532.1,
+          "captured_at": "2026-09-15T17:19:13.476602+00:00",
+          "hours_elapsed": 7.0
         }
       },
       "outcome_label": null,
@@ -70774,6 +70788,19 @@
           "hours_elapsed": 1.9
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:97NU8cToyhkypeE8stzR19huduypKfM7xxpoEmUtAWrv": {
+      "chain": "solana",
+      "pair_address": "97NU8cToyhkypeE8stzR19huduypKfM7xxpoEmUtAWrv",
+      "symbol": "JENSENHUH",
+      "tier": "T1",
+      "detection_time": "2026-09-15T17:19:00.055284+00:00",
+      "detection_price": 0.0002389,
+      "detection_liq": 41742.6,
+      "peak_price": 0.0002389,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
