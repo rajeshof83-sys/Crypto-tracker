@@ -68056,10 +68056,17 @@
           "volume_24h": 221141.21,
           "captured_at": "2026-09-10T04:44:02.488350+00:00",
           "hours_elapsed": 24.9
+        },
+        "price_7d": {
+          "price": 4.594e-05,
+          "liquidity": 19420.68,
+          "volume_24h": 57568.65,
+          "captured_at": "2026-09-16T04:38:20.890248+00:00",
+          "hours_elapsed": 168.8
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:waRESUMW1ouD9tWpqGmA95FAdhCsaunySm58jhsXUNd": {
       "chain": "solana",
@@ -71019,6 +71026,19 @@
           "hours_elapsed": 6.6
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "bsc:0x82332cc5847E3b5AFca97a49496116eBcE36C37B": {
+      "chain": "bsc",
+      "pair_address": "0x82332cc5847E3b5AFca97a49496116eBcE36C37B",
+      "symbol": "ARCL",
+      "tier": "T1",
+      "detection_time": "2026-09-16T04:38:12.836523+00:00",
+      "detection_price": 9.045e-05,
+      "detection_liq": 29755.03,
+      "peak_price": 9.045e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
