@@ -71143,7 +71143,15 @@
       "detection_price": 0.006441,
       "detection_liq": 238589.82,
       "peak_price": 0.006441,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.003362,
+          "liquidity": 173174.19,
+          "volume_24h": 2628997.75,
+          "captured_at": "2026-09-16T16:56:39.205605+00:00",
+          "hours_elapsed": 2.2
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -71155,7 +71163,93 @@
       "detection_time": "2026-09-16T14:42:49.264934+00:00",
       "detection_price": 7.274e-05,
       "detection_liq": 20939.66,
-      "peak_price": 7.274e-05,
+      "peak_price": 9.15e-05,
+      "captures": {
+        "price_1h": {
+          "price": 9.15e-05,
+          "liquidity": 23819.81,
+          "volume_24h": 313317.01,
+          "captured_at": "2026-09-16T16:56:39.205605+00:00",
+          "hours_elapsed": 2.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EGgYtp94iBgxVW7jTHn6kiNxWCE6nQRdggXUm5sfkTch": {
+      "chain": "solana",
+      "pair_address": "EGgYtp94iBgxVW7jTHn6kiNxWCE6nQRdggXUm5sfkTch",
+      "symbol": "CLOD INU",
+      "tier": "T1",
+      "detection_time": "2026-09-16T16:56:05.667077+00:00",
+      "detection_price": 0.0001043,
+      "detection_liq": 25866.58,
+      "peak_price": 0.0001043,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7LCNhCXbB7L91wxX1s2tqQT7mfk5yqeJry6y2UfSQDH9": {
+      "chain": "solana",
+      "pair_address": "7LCNhCXbB7L91wxX1s2tqQT7mfk5yqeJry6y2UfSQDH9",
+      "symbol": "ELONIUS",
+      "tier": "T1",
+      "detection_time": "2026-09-16T16:56:09.766794+00:00",
+      "detection_price": 0.0001279,
+      "detection_liq": 29289.27,
+      "peak_price": 0.0001279,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:F7Ec4mc9RcRGYFEyHB1gFxJXeGsCo87dELpXNDKa4JZA": {
+      "chain": "solana",
+      "pair_address": "F7Ec4mc9RcRGYFEyHB1gFxJXeGsCo87dELpXNDKa4JZA",
+      "symbol": "\u30cb\u30fc\u30ca",
+      "tier": "T2",
+      "detection_time": "2026-09-16T16:56:23.782534+00:00",
+      "detection_price": 0.0003755,
+      "detection_liq": 52785.7,
+      "peak_price": 0.0003755,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6m5D4TwmRKyAJrUYmHTRGgjunneaqFifUuczA17Wy6op": {
+      "chain": "solana",
+      "pair_address": "6m5D4TwmRKyAJrUYmHTRGgjunneaqFifUuczA17Wy6op",
+      "symbol": "PAIDLON",
+      "tier": "T1",
+      "detection_time": "2026-09-16T16:56:26.176274+00:00",
+      "detection_price": 0.0007032,
+      "detection_liq": 69765.2,
+      "peak_price": 0.0007032,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3uyKGJV1oF42QYKebPYkMYcfrw6U4k4fH11FKep2KkXR": {
+      "chain": "solana",
+      "pair_address": "3uyKGJV1oF42QYKebPYkMYcfrw6U4k4fH11FKep2KkXR",
+      "symbol": "CRYPTOTRUMP",
+      "tier": "T1",
+      "detection_time": "2026-09-16T16:56:29.181429+00:00",
+      "detection_price": 0.0003017,
+      "detection_liq": 46696.59,
+      "peak_price": 0.0003017,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4SUtVpavGV34ZA5J6u1Zah6K8TMie7QefRF5AcrDss58": {
+      "chain": "solana",
+      "pair_address": "4SUtVpavGV34ZA5J6u1Zah6K8TMie7QefRF5AcrDss58",
+      "symbol": "lockcat",
+      "tier": "T1",
+      "detection_time": "2026-09-16T16:56:32.653510+00:00",
+      "detection_price": 0.0002693,
+      "detection_liq": 43586.7,
+      "peak_price": 0.0002693,
       "captures": {},
       "outcome_label": null,
       "completed": false
