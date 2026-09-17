@@ -71689,6 +71689,13 @@
           "volume_24h": 1930304.31,
           "captured_at": "2026-09-17T16:33:03.487456+00:00",
           "hours_elapsed": 1.4
+        },
+        "price_6h": {
+          "price": 2.286e-06,
+          "liquidity": 2663.26,
+          "volume_24h": 1976286.7,
+          "captured_at": "2026-09-17T21:23:04.981436+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -71710,6 +71717,13 @@
           "volume_24h": 701851.59,
           "captured_at": "2026-09-17T16:33:03.487456+00:00",
           "hours_elapsed": 1.4
+        },
+        "price_6h": {
+          "price": 2.069e-06,
+          "liquidity": 2239.36,
+          "volume_24h": 701852.15,
+          "captured_at": "2026-09-17T21:23:04.981436+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -71796,6 +71810,19 @@
           "hours_elapsed": 1.4
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2wvQRSdrYDcWBhTHHncG7rxLVUraQKZZ4tn9mjTBQ9vf": {
+      "chain": "solana",
+      "pair_address": "2wvQRSdrYDcWBhTHHncG7rxLVUraQKZZ4tn9mjTBQ9vf",
+      "symbol": "XCHAN",
+      "tier": "T1",
+      "detection_time": "2026-09-17T21:22:58.411992+00:00",
+      "detection_price": 0.000167,
+      "detection_liq": 34675.01,
+      "peak_price": 0.000167,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
