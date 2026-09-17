@@ -71626,6 +71626,13 @@
           "volume_24h": 1347623.22,
           "captured_at": "2026-09-17T13:28:32.554968+00:00",
           "hours_elapsed": 1.3
+        },
+        "price_6h": {
+          "price": 0.00243,
+          "liquidity": 175193.21,
+          "volume_24h": 1349124.23,
+          "captured_at": "2026-09-17T18:16:21.506774+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -71703,6 +71710,40 @@
       "detection_price": 0.0004181,
       "detection_liq": 54947.43,
       "peak_price": 0.0004181,
+      "captures": {
+        "price_1h": {
+          "price": 2.227e-06,
+          "liquidity": 2573.92,
+          "volume_24h": 2432170.6,
+          "captured_at": "2026-09-17T18:16:21.506774+00:00",
+          "hours_elapsed": 1.7
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8VHW6kEBHC3aRVDw8diSYFEpCGXtzZT4SnHNFsg19F4Q": {
+      "chain": "solana",
+      "pair_address": "8VHW6kEBHC3aRVDw8diSYFEpCGXtzZT4SnHNFsg19F4Q",
+      "symbol": "WINNIE",
+      "tier": "T1",
+      "detection_time": "2026-09-17T18:15:26.028850+00:00",
+      "detection_price": 0.0001435,
+      "detection_liq": 30971.02,
+      "peak_price": 0.0001435,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:ECcdtLPLMrkmLqSWBvEML61mVZKXrSKkDg1AyH2X11MD": {
+      "chain": "solana",
+      "pair_address": "ECcdtLPLMrkmLqSWBvEML61mVZKXrSKkDg1AyH2X11MD",
+      "symbol": "SVEN",
+      "tier": "T1",
+      "detection_time": "2026-09-17T18:15:56.707235+00:00",
+      "detection_price": 9.148e-05,
+      "detection_liq": 24657.41,
+      "peak_price": 9.148e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
