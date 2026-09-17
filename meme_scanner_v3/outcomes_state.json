@@ -68861,10 +68861,17 @@
           "volume_24h": 185324.75,
           "captured_at": "2026-09-11T13:23:10.081312+00:00",
           "hours_elapsed": 25.5
+        },
+        "price_7d": {
+          "price": 1.565e-05,
+          "liquidity": 6432.58,
+          "volume_24h": 4027.75,
+          "captured_at": "2026-09-17T12:12:42.513119+00:00",
+          "hours_elapsed": 168.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:7fxJosiDRRAKGLFoXsHti2bSH5xqv6xWEPre2LqBNZcp": {
       "chain": "solana",
@@ -71509,6 +71516,19 @@
           "hours_elapsed": 1.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Bof2XL9zAbLZ15kzAXcXy39wDeZFgKwyvb3UVkv3FhsX": {
+      "chain": "solana",
+      "pair_address": "Bof2XL9zAbLZ15kzAXcXy39wDeZFgKwyvb3UVkv3FhsX",
+      "symbol": "pill",
+      "tier": "T2",
+      "detection_time": "2026-09-17T12:12:11.242560+00:00",
+      "detection_price": 0.002858,
+      "detection_liq": 187999.7,
+      "peak_price": 0.002858,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
