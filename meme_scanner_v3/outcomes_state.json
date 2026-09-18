@@ -71626,6 +71626,13 @@
           "volume_24h": 4542447.83,
           "captured_at": "2026-09-17T16:33:03.487456+00:00",
           "hours_elapsed": 6.3
+        },
+        "price_24h": {
+          "price": 0.0003185,
+          "liquidity": 143034.71,
+          "volume_24h": 2929705.61,
+          "captured_at": "2026-09-18T11:39:51.960612+00:00",
+          "hours_elapsed": 25.4
         }
       },
       "outcome_label": null,
@@ -71908,6 +71915,19 @@
           "hours_elapsed": 6.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FYKkMngiuWhFqpErhdXNg6yVdQQg4dKRxmqmrwTEMKnK": {
+      "chain": "solana",
+      "pair_address": "FYKkMngiuWhFqpErhdXNg6yVdQQg4dKRxmqmrwTEMKnK",
+      "symbol": "Norman",
+      "tier": "T1",
+      "detection_time": "2026-09-18T11:39:30.005926+00:00",
+      "detection_price": 0.000136,
+      "detection_liq": 30541.91,
+      "peak_price": 0.000136,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
