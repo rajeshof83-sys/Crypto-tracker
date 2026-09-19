@@ -69659,10 +69659,17 @@
           "volume_24h": 406868.23,
           "captured_at": "2026-09-13T01:27:43.757278+00:00",
           "hours_elapsed": 25.1
+        },
+        "price_7d": {
+          "price": 4.262e-06,
+          "liquidity": 4190.48,
+          "volume_24h": 1228.88,
+          "captured_at": "2026-09-19T00:21:51.324472+00:00",
+          "hours_elapsed": 168.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "bsc:0x86056e040DC0c709b673B894c09cE6dABd43bC43": {
       "chain": "bsc",
@@ -71997,6 +72004,13 @@
           "volume_24h": 187596.36,
           "captured_at": "2026-09-18T04:51:15.614086+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 2.498e-05,
+          "liquidity": 14424.99,
+          "volume_24h": 135975.04,
+          "captured_at": "2026-09-19T00:21:51.324472+00:00",
+          "hours_elapsed": 25.5
         }
       },
       "outcome_label": null,
@@ -72080,7 +72094,41 @@
       "detection_time": "2026-09-18T22:45:33.404401+00:00",
       "detection_price": 0.000491,
       "detection_liq": 63873.58,
-      "peak_price": 0.000491,
+      "peak_price": 0.001534,
+      "captures": {
+        "price_1h": {
+          "price": 0.001534,
+          "liquidity": 115284.31,
+          "volume_24h": 1961165.58,
+          "captured_at": "2026-09-19T00:21:51.324472+00:00",
+          "hours_elapsed": 1.6
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3sW4Kc55jbVVAQ3TUJLdXrhiC5UNKJdCtWJrkCGF4xDC": {
+      "chain": "solana",
+      "pair_address": "3sW4Kc55jbVVAQ3TUJLdXrhiC5UNKJdCtWJrkCGF4xDC",
+      "symbol": "bullworld",
+      "tier": "T1",
+      "detection_time": "2026-09-19T00:21:37.043101+00:00",
+      "detection_price": 7.684e-05,
+      "detection_liq": 22980.22,
+      "peak_price": 7.684e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Dj3LKxwR5NEajJBG9qcZgi5MeXnigVBAcJinYY6AuvKw": {
+      "chain": "solana",
+      "pair_address": "Dj3LKxwR5NEajJBG9qcZgi5MeXnigVBAcJinYY6AuvKw",
+      "symbol": "ETAC",
+      "tier": "T2",
+      "detection_time": "2026-09-19T00:21:40.311832+00:00",
+      "detection_price": 0.000149,
+      "detection_liq": 41245.64,
+      "peak_price": 0.000149,
       "captures": {},
       "outcome_label": null,
       "completed": false
