@@ -69701,10 +69701,17 @@
           "volume_24h": 97120.77,
           "captured_at": "2026-09-13T10:28:45.783604+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 1.527e-05,
+          "liquidity": 12711.09,
+          "volume_24h": 1930.46,
+          "captured_at": "2026-09-19T10:33:10.231058+00:00",
+          "hours_elapsed": 168.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:4LjaUegi6MsaEedZrNrZwZHV32UYqsCbJF1YSwSLRurq": {
       "chain": "solana",
@@ -72202,6 +72209,19 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:A6h4FGP3AAtGfXX5VZQhCcyZmctHZir2a1VooFtbcfD3": {
+      "chain": "solana",
+      "pair_address": "A6h4FGP3AAtGfXX5VZQhCcyZmctHZir2a1VooFtbcfD3",
+      "symbol": "BITDOG",
+      "tier": "T2",
+      "detection_time": "2026-09-19T10:33:02.027323+00:00",
+      "detection_price": 0.0003551,
+      "detection_liq": 52040.89,
+      "peak_price": 0.0003551,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
