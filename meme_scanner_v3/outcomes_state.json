@@ -72263,6 +72263,27 @@
       "detection_price": 0.0002796,
       "detection_liq": 47298.84,
       "peak_price": 0.0002796,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002537,
+          "liquidity": 45474.82,
+          "volume_24h": 1522552.45,
+          "captured_at": "2026-09-19T17:51:09.326252+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GXfCipFFhsaDyXxNQdePK5MLfXUpVkbCBHxWj1BwfRKA": {
+      "chain": "solana",
+      "pair_address": "GXfCipFFhsaDyXxNQdePK5MLfXUpVkbCBHxWj1BwfRKA",
+      "symbol": "NVINU",
+      "tier": "T1",
+      "detection_time": "2026-09-19T17:51:00.453062+00:00",
+      "detection_price": 0.0001895,
+      "detection_liq": 37931.87,
+      "peak_price": 0.0001895,
       "captures": {},
       "outcome_label": null,
       "completed": false
