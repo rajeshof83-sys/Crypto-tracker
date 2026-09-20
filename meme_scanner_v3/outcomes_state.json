@@ -72522,6 +72522,27 @@
       "detection_price": 4.91e-05,
       "detection_liq": 19574.28,
       "peak_price": 4.91e-05,
+      "captures": {
+        "price_1h": {
+          "price": 4.566e-05,
+          "liquidity": 18808.92,
+          "volume_24h": 208691.49,
+          "captured_at": "2026-09-20T14:18:33.675094+00:00",
+          "hours_elapsed": 1.7
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Ev8gpNM4vK4jYoR8T37p9d5x1xi4DMXwTcitBWMfspZG": {
+      "chain": "solana",
+      "pair_address": "Ev8gpNM4vK4jYoR8T37p9d5x1xi4DMXwTcitBWMfspZG",
+      "symbol": "TIKCAT",
+      "tier": "T1",
+      "detection_time": "2026-09-20T14:18:24.719288+00:00",
+      "detection_price": 0.0001056,
+      "detection_liq": 27123.24,
+      "peak_price": 0.0001056,
       "captures": {},
       "outcome_label": null,
       "completed": false
