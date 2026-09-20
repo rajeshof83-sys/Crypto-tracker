@@ -70303,10 +70303,17 @@
           "volume_24h": 182961.74,
           "captured_at": "2026-09-15T00:59:23.948883+00:00",
           "hours_elapsed": 26.0
+        },
+        "price_7d": {
+          "price": 7.056e-05,
+          "liquidity": 23395.54,
+          "volume_24h": 32901.67,
+          "captured_at": "2026-09-20T23:57:59.313035+00:00",
+          "hours_elapsed": 169.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:89PieZz9CT5HJqnwRMBgKE2mScBUSHovqU57fC4XLvk8": {
       "chain": "solana",
@@ -72634,6 +72641,13 @@
           "volume_24h": 671561.49,
           "captured_at": "2026-09-20T18:06:37.172667+00:00",
           "hours_elapsed": 2.0
+        },
+        "price_6h": {
+          "price": 2.095e-06,
+          "liquidity": 2223.47,
+          "volume_24h": 671578.62,
+          "captured_at": "2026-09-20T23:57:59.313035+00:00",
+          "hours_elapsed": 7.8
         }
       },
       "outcome_label": null,
@@ -72720,6 +72734,19 @@
           "hours_elapsed": 2.3
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4JmrLPuxBTYg2nArbcjkgSKKC69DgaNYM3dRHdPAa5Y2": {
+      "chain": "solana",
+      "pair_address": "4JmrLPuxBTYg2nArbcjkgSKKC69DgaNYM3dRHdPAa5Y2",
+      "symbol": "JEAN",
+      "tier": "T1",
+      "detection_time": "2026-09-20T23:57:52.367933+00:00",
+      "detection_price": 0.0002654,
+      "detection_liq": 46197.66,
+      "peak_price": 0.0002654,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
