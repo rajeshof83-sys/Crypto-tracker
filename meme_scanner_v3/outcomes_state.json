@@ -70828,10 +70828,17 @@
           "volume_24h": 2223201.62,
           "captured_at": "2026-09-15T23:12:29.457259+00:00",
           "hours_elapsed": 24.9
+        },
+        "price_7d": {
+          "price": 0.0003391,
+          "liquidity": 59808.97,
+          "volume_24h": 152903.72,
+          "captured_at": "2026-09-21T23:55:07.964912+00:00",
+          "hours_elapsed": 169.6
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "moon",
+      "completed": true
     },
     "solana:6MPGodFxvn2NrtXZyyVt7stm7yyNmz3aJZLLjM1AabPA": {
       "chain": "solana",
@@ -73011,7 +73018,7 @@
       "detection_time": "2026-09-21T16:19:26.742458+00:00",
       "detection_price": 0.0001704,
       "detection_liq": 42819.6,
-      "peak_price": 0.0001704,
+      "peak_price": 0.0002165,
       "captures": {
         "price_1h": {
           "price": 0.0001682,
@@ -73019,6 +73026,13 @@
           "volume_24h": 993436.08,
           "captured_at": "2026-09-21T20:05:45.733771+00:00",
           "hours_elapsed": 3.8
+        },
+        "price_6h": {
+          "price": 0.0002165,
+          "liquidity": 48447.36,
+          "volume_24h": 1072673.11,
+          "captured_at": "2026-09-21T23:55:07.964912+00:00",
+          "hours_elapsed": 7.6
         }
       },
       "outcome_label": null,
@@ -73040,6 +73054,13 @@
           "volume_24h": 1117129.03,
           "captured_at": "2026-09-21T20:05:45.733771+00:00",
           "hours_elapsed": 2.9
+        },
+        "price_6h": {
+          "price": 2.556e-06,
+          "liquidity": 2793.55,
+          "volume_24h": 1117129.04,
+          "captured_at": "2026-09-21T23:55:07.964912+00:00",
+          "hours_elapsed": 6.7
         }
       },
       "outcome_label": null,
@@ -73084,6 +73105,19 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CsNyED2z5PBBo4MpVumKLrhFnzCSmCEbNVWXre28bE2c": {
+      "chain": "solana",
+      "pair_address": "CsNyED2z5PBBo4MpVumKLrhFnzCSmCEbNVWXre28bE2c",
+      "symbol": "JEANCAT",
+      "tier": "T1",
+      "detection_time": "2026-09-21T23:55:03.654110+00:00",
+      "detection_price": 0.0002244,
+      "detection_liq": 42065.1,
+      "peak_price": 0.0002244,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
