@@ -70485,10 +70485,17 @@
           "volume_24h": 325446.03,
           "captured_at": "2026-09-15T06:48:24.165522+00:00",
           "hours_elapsed": 24.5
+        },
+        "price_7d": {
+          "price": 0.0001464,
+          "liquidity": 37693.79,
+          "volume_24h": 29689.5,
+          "captured_at": "2026-09-21T09:51:04.073513+00:00",
+          "hours_elapsed": 171.5
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "moon",
+      "completed": true
     },
     "solana:G6pVQH9y4KxsbvJaqEN5CcUpCJBnQ6VeRrvEjWdK98Kh": {
       "chain": "solana",
@@ -72802,8 +72809,67 @@
           "volume_24h": 1203687.08,
           "captured_at": "2026-09-21T04:03:10.959058+00:00",
           "hours_elapsed": 4.1
+        },
+        "price_6h": {
+          "price": 2.363e-06,
+          "liquidity": 2624.11,
+          "volume_24h": 1204306.4,
+          "captured_at": "2026-09-21T09:51:04.073513+00:00",
+          "hours_elapsed": 9.9
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:BLWcwm78E92c2gQV8ijua1ktRTxCUfspDvLp1xguSVjq": {
+      "chain": "solana",
+      "pair_address": "BLWcwm78E92c2gQV8ijua1ktRTxCUfspDvLp1xguSVjq",
+      "symbol": "REMARC",
+      "tier": "T1",
+      "detection_time": "2026-09-21T09:50:50.252964+00:00",
+      "detection_price": 5.892e-05,
+      "detection_liq": 22815.73,
+      "peak_price": 5.892e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7fi3yiWus2LFW7ccmqwtAGxFiubwr8MLgsJemu12WRp8": {
+      "chain": "solana",
+      "pair_address": "7fi3yiWus2LFW7ccmqwtAGxFiubwr8MLgsJemu12WRp8",
+      "symbol": "Concho",
+      "tier": "T1",
+      "detection_time": "2026-09-21T09:50:52.748789+00:00",
+      "detection_price": 0.0001256,
+      "detection_liq": 36124.03,
+      "peak_price": 0.0001256,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5xQqvk73tzLJWqVUJw3JKojj9AaW9hLoLk73vqizA8aV": {
+      "chain": "solana",
+      "pair_address": "5xQqvk73tzLJWqVUJw3JKojj9AaW9hLoLk73vqizA8aV",
+      "symbol": "cashless",
+      "tier": "T1",
+      "detection_time": "2026-09-21T09:50:55.168446+00:00",
+      "detection_price": 0.0001461,
+      "detection_liq": 33469.06,
+      "peak_price": 0.0001461,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4WzfxBthxkz3YdFrJV9VUwN3pPXGRnCojLCUrMeyLcjR": {
+      "chain": "solana",
+      "pair_address": "4WzfxBthxkz3YdFrJV9VUwN3pPXGRnCojLCUrMeyLcjR",
+      "symbol": "SALVOR",
+      "tier": "T2",
+      "detection_time": "2026-09-21T09:50:57.710517+00:00",
+      "detection_price": 0.0005917,
+      "detection_liq": 67034.74,
+      "peak_price": 0.0005917,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
