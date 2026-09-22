@@ -70975,10 +70975,17 @@
           "volume_24h": 423489.5,
           "captured_at": "2026-09-16T06:02:55.062943+00:00",
           "hours_elapsed": 24.9
+        },
+        "price_7d": {
+          "price": 1.371e-05,
+          "liquidity": 11749.11,
+          "volume_24h": 9676.91,
+          "captured_at": "2026-09-22T05:12:55.961884+00:00",
+          "hours_elapsed": 168.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:DqveSvVVeePepNUsWwbGcP5e57geCQ9tjwdtFadvGz78": {
       "chain": "solana",
@@ -73159,7 +73166,15 @@
       "detection_price": 0.0002367,
       "detection_liq": 45437.65,
       "peak_price": 0.0002367,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0002297,
+          "liquidity": 44758.83,
+          "volume_24h": 1390962.67,
+          "captured_at": "2026-09-22T05:12:55.961884+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
       "outcome_label": null,
       "completed": false
     }
