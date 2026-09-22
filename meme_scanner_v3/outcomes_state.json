@@ -73152,6 +73152,13 @@
           "volume_24h": 977366.23,
           "captured_at": "2026-09-22T04:00:05.935231+00:00",
           "hours_elapsed": 4.1
+        },
+        "price_6h": {
+          "price": 0.0003355,
+          "liquidity": 53486.47,
+          "volume_24h": 1491257.25,
+          "captured_at": "2026-09-22T09:10:48.024980+00:00",
+          "hours_elapsed": 9.3
         }
       },
       "outcome_label": null,
@@ -73175,6 +73182,19 @@
           "hours_elapsed": 1.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7qRBf6Y64H87rPAz5knDQdVtJAvir891vXsuJxA9b4Tu": {
+      "chain": "solana",
+      "pair_address": "7qRBf6Y64H87rPAz5knDQdVtJAvir891vXsuJxA9b4Tu",
+      "symbol": "KITTY ",
+      "tier": "T1",
+      "detection_time": "2026-09-22T09:10:35.992631+00:00",
+      "detection_price": 0.0002549,
+      "detection_liq": 45007.3,
+      "peak_price": 0.0002549,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
