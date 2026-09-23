@@ -73844,7 +73844,28 @@
       "detection_time": "2026-09-23T19:09:11.903726+00:00",
       "detection_price": 0.000321,
       "detection_liq": 50141.56,
-      "peak_price": 0.000321,
+      "peak_price": 0.0004853,
+      "captures": {
+        "price_1h": {
+          "price": 0.0004853,
+          "liquidity": 62490.71,
+          "volume_24h": 692272.56,
+          "captured_at": "2026-09-23T20:22:38.287274+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DnBjqJ5TVWAr8hXs9i1eP4mb44a1poxo1nv3KQJuoJBe": {
+      "chain": "solana",
+      "pair_address": "DnBjqJ5TVWAr8hXs9i1eP4mb44a1poxo1nv3KQJuoJBe",
+      "symbol": "HYPERINU",
+      "tier": "T1",
+      "detection_time": "2026-09-23T20:22:31.253699+00:00",
+      "detection_price": 0.0002479,
+      "detection_liq": 44871.37,
+      "peak_price": 0.0002479,
       "captures": {},
       "outcome_label": null,
       "completed": false
