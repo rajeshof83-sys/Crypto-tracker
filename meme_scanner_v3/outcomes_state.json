@@ -73586,6 +73586,13 @@
           "volume_24h": 468988.94,
           "captured_at": "2026-09-23T05:59:22.634483+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 0.0004217,
+          "liquidity": 63745.29,
+          "volume_24h": 527608.23,
+          "captured_at": "2026-09-23T11:04:09.608285+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -73621,6 +73628,19 @@
       "detection_price": 0.0001492,
       "detection_liq": 42088.04,
       "peak_price": 0.0001492,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:72tZoSAHAutvD7dP2fNC56aASLxbPXro9jBPohZ8aAvY": {
+      "chain": "solana",
+      "pair_address": "72tZoSAHAutvD7dP2fNC56aASLxbPXro9jBPohZ8aAvY",
+      "symbol": "GIGACAT",
+      "tier": "T1",
+      "detection_time": "2026-09-23T11:03:58.525313+00:00",
+      "detection_price": 0.0002501,
+      "detection_liq": 45665.74,
+      "peak_price": 0.0002501,
       "captures": {},
       "outcome_label": null,
       "completed": false
