@@ -73306,10 +73306,17 @@
           "volume_24h": 1557711.99,
           "captured_at": "2026-09-22T15:11:18.426920+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 2.945e-06,
+          "liquidity": 3233.15,
+          "volume_24h": 818930.68,
+          "captured_at": "2026-09-23T10:12:39.838312+00:00",
+          "hours_elapsed": 25.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:4tY8ALwLgUXU89qrkSbm7h1KL3Nc7GsS8zC8ZxiZ9vUy": {
       "chain": "solana",
@@ -73593,6 +73600,27 @@
       "detection_price": 0.001068,
       "detection_liq": 97631.2,
       "peak_price": 0.001068,
+      "captures": {
+        "price_1h": {
+          "price": 2.927e-06,
+          "liquidity": 3285.41,
+          "volume_24h": 2271332.37,
+          "captured_at": "2026-09-23T10:12:39.838312+00:00",
+          "hours_elapsed": 4.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6HLorrkY3vqPsyTZDFvTGTnwnZsLM343Jxw6XvEPTKRt": {
+      "chain": "solana",
+      "pair_address": "6HLorrkY3vqPsyTZDFvTGTnwnZsLM343Jxw6XvEPTKRt",
+      "symbol": "PUMPCAT",
+      "tier": "T2",
+      "detection_time": "2026-09-23T10:12:30.542344+00:00",
+      "detection_price": 0.0001492,
+      "detection_liq": 42088.04,
+      "peak_price": 0.0001492,
       "captures": {},
       "outcome_label": null,
       "completed": false
