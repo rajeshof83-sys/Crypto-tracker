@@ -74041,10 +74041,17 @@
           "volume_24h": 1377496.36,
           "captured_at": "2026-09-24T04:51:40.532802+00:00",
           "hours_elapsed": 8.5
+        },
+        "price_24h": {
+          "price": 2.445e-06,
+          "liquidity": 2699.18,
+          "volume_24h": 39938.84,
+          "captured_at": "2026-09-24T20:48:50.668094+00:00",
+          "hours_elapsed": 24.4
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:25PvsPm2Tm9DrgE9FqJn3yZT9RtYCrPYBsKaCsDPy2RA": {
       "chain": "solana",
@@ -74216,7 +74223,15 @@
       "detection_price": 7.143e-05,
       "detection_liq": 22629.81,
       "peak_price": 7.143e-05,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 5.51e-05,
+          "liquidity": 19630.94,
+          "volume_24h": 254262.32,
+          "captured_at": "2026-09-24T20:48:50.668094+00:00",
+          "hours_elapsed": 1.6
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -74229,6 +74244,40 @@
       "detection_price": 0.0004251,
       "detection_liq": 86519.36,
       "peak_price": 0.0004251,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003945,
+          "liquidity": 83194.39,
+          "volume_24h": 535331.82,
+          "captured_at": "2026-09-24T20:48:50.668094+00:00",
+          "hours_elapsed": 1.6
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:ChXGE62na8CodVVSr8GUGMD4GtLWedpUc5RL169fHQ42": {
+      "chain": "solana",
+      "pair_address": "ChXGE62na8CodVVSr8GUGMD4GtLWedpUc5RL169fHQ42",
+      "symbol": "ASSCAT",
+      "tier": "T1",
+      "detection_time": "2026-09-24T20:48:33.504892+00:00",
+      "detection_price": 0.0002231,
+      "detection_liq": 42075.19,
+      "peak_price": 0.0002231,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5bygWtGSL5fvvat3pPTVdwMyT5VLBvhoHqifVmyfhRbs": {
+      "chain": "solana",
+      "pair_address": "5bygWtGSL5fvvat3pPTVdwMyT5VLBvhoHqifVmyfhRbs",
+      "symbol": "CMC",
+      "tier": "T1",
+      "detection_time": "2026-09-24T20:48:36.480164+00:00",
+      "detection_price": 0.0001347,
+      "detection_liq": 32189.18,
+      "peak_price": 0.0001347,
       "captures": {},
       "outcome_label": null,
       "completed": false
