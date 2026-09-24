@@ -72081,10 +72081,17 @@
           "volume_24h": 717367.02,
           "captured_at": "2026-09-18T19:14:05.158341+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 7.367e-06,
+          "liquidity": 6520.95,
+          "volume_24h": 233.52,
+          "captured_at": "2026-09-24T19:10:47.579294+00:00",
+          "hours_elapsed": 168.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:2wvQRSdrYDcWBhTHHncG7rxLVUraQKZZ4tn9mjTBQ9vf": {
       "chain": "solana",
@@ -73984,7 +73991,7 @@
       "detection_time": "2026-09-23T19:09:11.903726+00:00",
       "detection_price": 0.000321,
       "detection_liq": 50141.56,
-      "peak_price": 0.0005198,
+      "peak_price": 0.004212,
       "captures": {
         "price_1h": {
           "price": 0.0004853,
@@ -73999,6 +74006,13 @@
           "volume_24h": 1179648.24,
           "captured_at": "2026-09-24T01:14:35.149577+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 0.004212,
+          "liquidity": 200272.31,
+          "volume_24h": 2955676.84,
+          "captured_at": "2026-09-24T19:10:47.579294+00:00",
+          "hours_elapsed": 24.0
         }
       },
       "outcome_label": null,
@@ -74167,6 +74181,40 @@
       "detection_price": 0.0005277,
       "detection_liq": 66695.68,
       "peak_price": 0.0005277,
+      "captures": {
+        "price_1h": {
+          "price": 7.331e-05,
+          "liquidity": 23996.64,
+          "volume_24h": 1536786.6,
+          "captured_at": "2026-09-24T19:10:47.579294+00:00",
+          "hours_elapsed": 1.6
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7LgDUm7jmZ2TQc7GBzVuGSBPscWGtph4sQXrKZZ22ztg": {
+      "chain": "solana",
+      "pair_address": "7LgDUm7jmZ2TQc7GBzVuGSBPscWGtph4sQXrKZZ22ztg",
+      "symbol": "SuperBowl",
+      "tier": "T1",
+      "detection_time": "2026-09-24T19:10:30.205011+00:00",
+      "detection_price": 7.143e-05,
+      "detection_liq": 22629.81,
+      "peak_price": 7.143e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "ethereum:0x8038e43ed1ba32c4259ce1cc537a08fa4b2a86d2616c22482a3af1641306d1a9": {
+      "chain": "ethereum",
+      "pair_address": "0x8038e43ed1ba32c4259ce1cc537a08fa4b2a86d2616c22482a3af1641306d1a9",
+      "symbol": "STREET",
+      "tier": "T2",
+      "detection_time": "2026-09-24T19:10:38.059700+00:00",
+      "detection_price": 0.0004251,
+      "detection_liq": 86519.36,
+      "peak_price": 0.0004251,
       "captures": {},
       "outcome_label": null,
       "completed": false
