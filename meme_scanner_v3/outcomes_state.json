@@ -74153,6 +74153,13 @@
           "volume_24h": 725661.01,
           "captured_at": "2026-09-24T17:35:31.712341+00:00",
           "hours_elapsed": 7.6
+        },
+        "price_24h": {
+          "price": 0.0001636,
+          "liquidity": 32527.85,
+          "volume_24h": 325059.23,
+          "captured_at": "2026-09-25T10:24:56.019650+00:00",
+          "hours_elapsed": 24.4
         }
       },
       "outcome_label": null,
@@ -74435,6 +74442,32 @@
           "hours_elapsed": 6.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Ftjga524YrS7RPzGCcezMuQnFDYa8PcvWDY5mFmZk5dy": {
+      "chain": "solana",
+      "pair_address": "Ftjga524YrS7RPzGCcezMuQnFDYa8PcvWDY5mFmZk5dy",
+      "symbol": "SWARM",
+      "tier": "T1",
+      "detection_time": "2026-09-25T10:24:44.002785+00:00",
+      "detection_price": 0.0001915,
+      "detection_liq": 39854.96,
+      "peak_price": 0.0001915,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CDZMG8hza43irMPes1mXnKdCByt13hdcHZMbztXaRP9j": {
+      "chain": "solana",
+      "pair_address": "CDZMG8hza43irMPes1mXnKdCByt13hdcHZMbztXaRP9j",
+      "symbol": "Shurikane",
+      "tier": "T2",
+      "detection_time": "2026-09-25T10:24:46.839469+00:00",
+      "detection_price": 0.0003635,
+      "detection_liq": 270894.71,
+      "peak_price": 0.0003635,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
