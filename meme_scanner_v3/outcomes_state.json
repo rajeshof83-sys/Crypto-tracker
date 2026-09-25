@@ -74363,10 +74363,17 @@
           "volume_24h": 930781.49,
           "captured_at": "2026-09-25T05:10:17.032242+00:00",
           "hours_elapsed": 8.4
+        },
+        "price_24h": {
+          "price": 2.382e-06,
+          "liquidity": 2599.98,
+          "volume_24h": 11.02,
+          "captured_at": "2026-09-25T22:04:45.938771+00:00",
+          "hours_elapsed": 25.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:5bygWtGSL5fvvat3pPTVdwMyT5VLBvhoHqifVmyfhRbs": {
       "chain": "solana",
@@ -74391,10 +74398,17 @@
           "volume_24h": 596812.99,
           "captured_at": "2026-09-25T05:10:17.032242+00:00",
           "hours_elapsed": 8.4
+        },
+        "price_24h": {
+          "price": 2.405e-06,
+          "liquidity": 2544.27,
+          "volume_24h": 75.98,
+          "captured_at": "2026-09-25T22:04:45.938771+00:00",
+          "hours_elapsed": 25.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:CwQRYv4iyze3zFxsF8YrF3pPZ5wiVfNPoSzieRU569eL": {
       "chain": "solana",
@@ -74552,6 +74566,13 @@
           "volume_24h": 571710.36,
           "captured_at": "2026-09-25T18:20:18.698881+00:00",
           "hours_elapsed": 2.9
+        },
+        "price_6h": {
+          "price": 2.387e-06,
+          "liquidity": 2527.2,
+          "volume_24h": 571710.36,
+          "captured_at": "2026-09-25T22:04:45.938771+00:00",
+          "hours_elapsed": 6.7
         }
       },
       "outcome_label": null,
@@ -74659,6 +74680,32 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EcPhfKmJkQ7GTbtvcrnbuEwN331f9aAhoxyts6HhUCgt": {
+      "chain": "solana",
+      "pair_address": "EcPhfKmJkQ7GTbtvcrnbuEwN331f9aAhoxyts6HhUCgt",
+      "symbol": "GHOSTGUY",
+      "tier": "T1",
+      "detection_time": "2026-09-25T22:04:36.549868+00:00",
+      "detection_price": 0.0001002,
+      "detection_liq": 28136.69,
+      "peak_price": 0.0001002,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "bsc:0x4e6C1b501657D29fA220CBE27330f758CaCbeA0f": {
+      "chain": "bsc",
+      "pair_address": "0x4e6C1b501657D29fA220CBE27330f758CaCbeA0f",
+      "symbol": "GME",
+      "tier": "T1",
+      "detection_time": "2026-09-25T22:04:39.033742+00:00",
+      "detection_price": 0.000276,
+      "detection_liq": 52201.76,
+      "peak_price": 0.000276,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
