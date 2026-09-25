@@ -74118,6 +74118,13 @@
           "volume_24h": 2600341.1,
           "captured_at": "2026-09-24T12:20:15.963185+00:00",
           "hours_elapsed": 7.5
+        },
+        "price_24h": {
+          "price": 0.0002585,
+          "liquidity": 50051.2,
+          "volume_24h": 2555346.61,
+          "captured_at": "2026-09-25T05:10:17.032242+00:00",
+          "hours_elapsed": 24.3
         }
       },
       "outcome_label": null,
@@ -74307,6 +74314,13 @@
           "volume_24h": 930770.8,
           "captured_at": "2026-09-24T22:07:07.342058+00:00",
           "hours_elapsed": 1.3
+        },
+        "price_6h": {
+          "price": 2.362e-06,
+          "liquidity": 2579.13,
+          "volume_24h": 930781.49,
+          "captured_at": "2026-09-25T05:10:17.032242+00:00",
+          "hours_elapsed": 8.4
         }
       },
       "outcome_label": null,
@@ -74328,6 +74342,13 @@
           "volume_24h": 596808.36,
           "captured_at": "2026-09-24T22:07:07.342058+00:00",
           "hours_elapsed": 1.3
+        },
+        "price_6h": {
+          "price": 2.27e-06,
+          "liquidity": 2404.2,
+          "volume_24h": 596812.99,
+          "captured_at": "2026-09-25T05:10:17.032242+00:00",
+          "hours_elapsed": 8.4
         }
       },
       "outcome_label": null,
@@ -74363,7 +74384,15 @@
       "detection_price": 0.0002595,
       "detection_liq": 45340.9,
       "peak_price": 0.0002595,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 2.373e-06,
+          "liquidity": 2608.63,
+          "volume_24h": 1150892.57,
+          "captured_at": "2026-09-25T05:10:17.032242+00:00",
+          "hours_elapsed": 3.9
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -74376,7 +74405,15 @@
       "detection_price": 6.513e-05,
       "detection_liq": 23797.75,
       "peak_price": 6.513e-05,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 4.457e-05,
+          "liquidity": 19745.18,
+          "volume_24h": 311384.02,
+          "captured_at": "2026-09-25T05:10:17.032242+00:00",
+          "hours_elapsed": 3.9
+        }
+      },
       "outcome_label": null,
       "completed": false
     }
