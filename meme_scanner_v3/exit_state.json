@@ -16636,8 +16636,8 @@
       "peak_safety": 9
     },
     "base:0x8453e8a37505e6172b00Ef2878A5869c313F3e7D": {
-      "peak_liq": 3588.01,
-      "peak_vol": 333.46,
+      "peak_liq": 6314.28,
+      "peak_vol": 572.18,
       "peak_safety": 9
     },
     "solana:5wE9YJzPeQxCYL4jN9KhjTSR48Xzyh47xTAR9kg3wy1p": {
@@ -43536,7 +43536,7 @@
       "peak_safety": 10
     },
     "solana:Apy5FShcDSLdyYSH4HWgY8zSFj4At8FbKeHZF3D72e9k": {
-      "peak_liq": 117169.2,
+      "peak_liq": 123369.96,
       "peak_vol": 1630019.77,
       "peak_safety": 10
     },
@@ -44031,8 +44031,8 @@
       "peak_safety": 9
     },
     "solana:RbHYPnS9j1WYBsSsvorm9NXt8hLvsDV3YECZwGMV68T": {
-      "peak_liq": 55886.89,
-      "peak_vol": 815728.93,
+      "peak_liq": 61236.18,
+      "peak_vol": 1000582.84,
       "peak_safety": 9
     },
     "solana:3ioDsTFU18uxoGgMMjud6TztkVw72uQapDdBJES42PPK": {
@@ -44158,6 +44158,16 @@
     "ethereum:0xb12ae2b24b07843045575359175b9d6d113d8738bc1f79fd25f2f8ec392130c2": {
       "peak_liq": 24666.37,
       "peak_vol": 17666.76,
+      "peak_safety": 8
+    },
+    "solana:ETb7yi7yrDsLbzUNiXzK3zLcX8Jznmd5Bz9vG6iRuf2x": {
+      "peak_liq": 0.0,
+      "peak_vol": 8995.16,
+      "peak_safety": 7
+    },
+    "bsc:0xD9F4410139e9be3234FcdC555fF1f17d637304b2": {
+      "peak_liq": 21228.58,
+      "peak_vol": 55447.93,
       "peak_safety": 8
     }
   },
@@ -52939,7 +52949,7 @@
     "bsc:0xD327E721A33A38DC7C30d8985Eaa7CB88AFc93e6": 0,
     "solana:5LKzR7y9KHjgiosGLuBoNzpwW5Nxj1CdWMr8wvJkCfjC": 0,
     "solana:8TqyBEPyFRNg3khB2Gr2uvDdUp6FGRYevwe66Z5QE47R": 0,
-    "solana:5kCLMA7J61yW48EF1MAp54deaQdMWNTSSzbUf1BEge6G": 2,
+    "solana:5kCLMA7J61yW48EF1MAp54deaQdMWNTSSzbUf1BEge6G": 3,
     "solana:4ZrX14t9gBPMvUwUJi4xfn3K2y5zyBo6m7h32VpTEUwm": 0,
     "solana:2zd8zQNaYdE4ZJarKVHFE12pAAdshc9siFBUKrDnDJfA": 0,
     "solana:C5uZKi88AZThB8DhLgkkvFhmiagHZko2g4TZ7xcCvNug": 0,
@@ -52993,7 +53003,9 @@
     "solana:ADJ419bDTy2NXWPwydH2sDR3axWsPvgW86J45ecL88ow": 0,
     "solana:HvfeJQEiL34fHosSY4t3xGfuevbbAhaTHq3pcr2t896m": 0,
     "solana:3gMmxS2vE6RwT5syfULkw4c57aUDtnFtb5iapGcMDJ6x": 2,
-    "ethereum:0xb12ae2b24b07843045575359175b9d6d113d8738bc1f79fd25f2f8ec392130c2": 0
+    "ethereum:0xb12ae2b24b07843045575359175b9d6d113d8738bc1f79fd25f2f8ec392130c2": 0,
+    "solana:ETb7yi7yrDsLbzUNiXzK3zLcX8Jznmd5Bz9vG6iRuf2x": 0,
+    "bsc:0xD9F4410139e9be3234FcdC555fF1f17d637304b2": 0
   },
   "exit_alerts_sent": {}
 }
