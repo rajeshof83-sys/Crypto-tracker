@@ -74832,6 +74832,13 @@
           "volume_24h": 799426.86,
           "captured_at": "2026-09-26T01:35:13.637439+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 5.067e-05,
+          "liquidity": 19618.02,
+          "volume_24h": 860849.65,
+          "captured_at": "2026-09-26T07:41:57.361757+00:00",
+          "hours_elapsed": 7.2
         }
       },
       "outcome_label": null,
@@ -74853,8 +74860,28 @@
           "volume_24h": 619560.49,
           "captured_at": "2026-09-26T01:35:13.637439+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 0.0001596,
+          "liquidity": 36553.77,
+          "volume_24h": 1031256.34,
+          "captured_at": "2026-09-26T07:41:57.361757+00:00",
+          "hours_elapsed": 7.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HEvXUg2aX6C8pLWxsycb9pMjG7U8QwVsywo3PMPxHQXS": {
+      "chain": "solana",
+      "pair_address": "HEvXUg2aX6C8pLWxsycb9pMjG7U8QwVsywo3PMPxHQXS",
+      "symbol": "ALX",
+      "tier": "T2",
+      "detection_time": "2026-09-26T07:41:51.292781+00:00",
+      "detection_price": 0.0007534,
+      "detection_liq": 90782.84,
+      "peak_price": 0.0007534,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
