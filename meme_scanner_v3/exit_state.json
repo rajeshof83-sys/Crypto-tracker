@@ -43936,9 +43936,9 @@
       "peak_safety": 10
     },
     "base:0x5a83468425850d5c16163c5a4fdff092774b311aecc59fd99aeed087fdbcea0c": {
-      "peak_liq": 3047.73,
+      "peak_liq": 4174.22,
       "peak_vol": 7998.38,
-      "peak_safety": 8
+      "peak_safety": 9
     },
     "solana:9dyeuZaENy1TfKwkR4rV8mGZcAWWw4pkubyHBkUG85oZ": {
       "peak_liq": 40665.44,
@@ -44232,18 +44232,23 @@
     },
     "solana:AAvcCSg6FsnbHnZvzuvLqRTXaeza47GFSexWEFcfUHxx": {
       "peak_liq": 0.0,
-      "peak_vol": 3044.57,
+      "peak_vol": 3081.95,
       "peak_safety": 5
     },
     "solana:146jcXtJs7P14y1voPFxNFQoUDqZDca78kpnTHtZpugD": {
       "peak_liq": 85981.12,
-      "peak_vol": 29805.35,
-      "peak_safety": 9
+      "peak_vol": 42321.96,
+      "peak_safety": 10
     },
     "solana:3gcFdPjJF2ZS6udTywbVhaSx2yaH1HpWqU7LzgKKVAUx": {
       "peak_liq": 18079.31,
       "peak_vol": 306625.61,
       "peak_safety": 8
+    },
+    "solana:DQtVxwBsWHQMCX7TfUjxRugehA4vFeLxAKCWAgC8YTuL": {
+      "peak_liq": 14769.62,
+      "peak_vol": 137582.81,
+      "peak_safety": 7
     }
   },
   "consecutive_negative": {
@@ -53094,8 +53099,9 @@
     "solana:EcPhfKmJkQ7GTbtvcrnbuEwN331f9aAhoxyts6HhUCgt": 1,
     "solana:FT3ZunFDezgdzTmjgLbzg47fg7vKj77fACu8Jps53Tmq": 1,
     "solana:AAvcCSg6FsnbHnZvzuvLqRTXaeza47GFSexWEFcfUHxx": 0,
-    "solana:146jcXtJs7P14y1voPFxNFQoUDqZDca78kpnTHtZpugD": 1,
-    "solana:3gcFdPjJF2ZS6udTywbVhaSx2yaH1HpWqU7LzgKKVAUx": 1
+    "solana:146jcXtJs7P14y1voPFxNFQoUDqZDca78kpnTHtZpugD": 2,
+    "solana:3gcFdPjJF2ZS6udTywbVhaSx2yaH1HpWqU7LzgKKVAUx": 1,
+    "solana:DQtVxwBsWHQMCX7TfUjxRugehA4vFeLxAKCWAgC8YTuL": 1
   },
   "exit_alerts_sent": {}
 }
