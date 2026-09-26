@@ -74909,6 +74909,13 @@
           "volume_24h": 1775122.36,
           "captured_at": "2026-09-26T10:04:14.624672+00:00",
           "hours_elapsed": 2.4
+        },
+        "price_6h": {
+          "price": 0.0003332,
+          "liquidity": 61080.54,
+          "volume_24h": 2012301.04,
+          "captured_at": "2026-09-26T14:38:59.968080+00:00",
+          "hours_elapsed": 7.0
         }
       },
       "outcome_label": null,
@@ -74923,6 +74930,27 @@
       "detection_price": 5.769e-05,
       "detection_liq": 20374.11,
       "peak_price": 5.769e-05,
+      "captures": {
+        "price_1h": {
+          "price": 1.676e-05,
+          "liquidity": 10021.75,
+          "volume_24h": 262109.07,
+          "captured_at": "2026-09-26T14:38:59.968080+00:00",
+          "hours_elapsed": 1.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EQSZN8RfTGNwQ7c4LLn1xqPGo1UrT6QiB42vLiSTDoRK": {
+      "chain": "solana",
+      "pair_address": "EQSZN8RfTGNwQ7c4LLn1xqPGo1UrT6QiB42vLiSTDoRK",
+      "symbol": "PAIDHOUSE",
+      "tier": "T1",
+      "detection_time": "2026-09-26T14:38:50.066504+00:00",
+      "detection_price": 8.136e-05,
+      "detection_liq": 25308.31,
+      "peak_price": 8.136e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
