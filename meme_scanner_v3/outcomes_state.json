@@ -75056,6 +75056,13 @@
           "volume_24h": 814167.8,
           "captured_at": "2026-09-26T18:26:03.166622+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 0.000662,
+          "liquidity": 77750.11,
+          "volume_24h": 755527.84,
+          "captured_at": "2026-09-27T00:21:21.968196+00:00",
+          "hours_elapsed": 7.2
         }
       },
       "outcome_label": null,
@@ -75077,6 +75084,13 @@
           "volume_24h": 1584065.62,
           "captured_at": "2026-09-26T18:26:03.166622+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 3.871e-06,
+          "liquidity": 4044.28,
+          "volume_24h": 1962407.79,
+          "captured_at": "2026-09-27T00:21:21.968196+00:00",
+          "hours_elapsed": 7.2
         }
       },
       "outcome_label": null,
@@ -75091,7 +75105,15 @@
       "detection_price": 0.0001537,
       "detection_liq": 36440.46,
       "peak_price": 0.0001537,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0001343,
+          "liquidity": 34077.11,
+          "volume_24h": 122244.72,
+          "captured_at": "2026-09-27T00:21:21.968196+00:00",
+          "hours_elapsed": 1.5
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -75103,7 +75125,41 @@
       "detection_time": "2026-09-26T22:51:38.598878+00:00",
       "detection_price": 0.0002793,
       "detection_liq": 49090.46,
-      "peak_price": 0.0002793,
+      "peak_price": 0.0007618,
+      "captures": {
+        "price_1h": {
+          "price": 0.0007618,
+          "liquidity": 85303.97,
+          "volume_24h": 2217294.17,
+          "captured_at": "2026-09-27T00:21:21.968196+00:00",
+          "hours_elapsed": 1.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3CzusXdobzQzrH9hSBhDAwsgU7SX8PKiSEHAF1iBQbM4": {
+      "chain": "solana",
+      "pair_address": "3CzusXdobzQzrH9hSBhDAwsgU7SX8PKiSEHAF1iBQbM4",
+      "symbol": "HEISENCAT",
+      "tier": "T1",
+      "detection_time": "2026-09-27T00:21:11.228651+00:00",
+      "detection_price": 0.0002837,
+      "detection_liq": 48393.46,
+      "peak_price": 0.0002837,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Fvb8qd3VWS8TkAqFQWrDuvDA6uDefSASJwxST9qxmomx": {
+      "chain": "solana",
+      "pair_address": "Fvb8qd3VWS8TkAqFQWrDuvDA6uDefSASJwxST9qxmomx",
+      "symbol": "H/ACC",
+      "tier": "T1",
+      "detection_time": "2026-09-27T00:21:13.898988+00:00",
+      "detection_price": 0.0002385,
+      "detection_liq": 45171.34,
+      "peak_price": 0.0002385,
       "captures": {},
       "outcome_label": null,
       "completed": false
