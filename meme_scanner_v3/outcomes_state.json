@@ -75420,7 +75420,15 @@
       "detection_price": 2.377e-05,
       "detection_liq": 16237.14,
       "peak_price": 2.377e-05,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 2.184e-05,
+          "liquidity": 15626.7,
+          "volume_24h": 123572.87,
+          "captured_at": "2026-09-27T18:36:33.856975+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -75433,6 +75441,27 @@
       "detection_price": 0.0001446,
       "detection_liq": 33877.76,
       "peak_price": 0.0001446,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001044,
+          "liquidity": 28773.71,
+          "volume_24h": 499341.62,
+          "captured_at": "2026-09-27T18:36:33.856975+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EXiFdYnwHEZ38rRZ68X8T81BVgFHc9kuYc7cd5eq4JEQ": {
+      "chain": "solana",
+      "pair_address": "EXiFdYnwHEZ38rRZ68X8T81BVgFHc9kuYc7cd5eq4JEQ",
+      "symbol": "BOARD",
+      "tier": "T1",
+      "detection_time": "2026-09-27T18:36:23.418217+00:00",
+      "detection_price": 7.648e-05,
+      "detection_liq": 24101.22,
+      "peak_price": 7.648e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
