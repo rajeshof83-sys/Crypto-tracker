@@ -75266,6 +75266,53 @@
       "detection_price": 0.0002655,
       "detection_liq": 49974.76,
       "peak_price": 0.0002655,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001819,
+          "liquidity": 41012.48,
+          "volume_24h": 1387034.66,
+          "captured_at": "2026-09-27T10:40:44.843862+00:00",
+          "hours_elapsed": 2.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2yddqh43Qu3dK38JC5pHdDu6o5UUbrPmKG2u8WbjwyWc": {
+      "chain": "solana",
+      "pair_address": "2yddqh43Qu3dK38JC5pHdDu6o5UUbrPmKG2u8WbjwyWc",
+      "symbol": "REPLIGATE",
+      "tier": "T1",
+      "detection_time": "2026-09-27T10:40:32.319940+00:00",
+      "detection_price": 6.73e-05,
+      "detection_liq": 22560.69,
+      "peak_price": 6.73e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8v6b3CtoP5BVQWXeRSRUEUjDcFeMDYqJKJ7tUtsxQ1CM": {
+      "chain": "solana",
+      "pair_address": "8v6b3CtoP5BVQWXeRSRUEUjDcFeMDYqJKJ7tUtsxQ1CM",
+      "symbol": "TEXTIT",
+      "tier": "T2",
+      "detection_time": "2026-09-27T10:40:35.491553+00:00",
+      "detection_price": 0.03713,
+      "detection_liq": 721265.62,
+      "peak_price": 0.03713,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9TT3NbWogWjbQh7b3s1hfcqYF7VJHmg8uNcXDjtPRnh4": {
+      "chain": "solana",
+      "pair_address": "9TT3NbWogWjbQh7b3s1hfcqYF7VJHmg8uNcXDjtPRnh4",
+      "symbol": "AQUA",
+      "tier": "T2",
+      "detection_time": "2026-09-27T10:40:37.976691+00:00",
+      "detection_price": 0.003815,
+      "detection_liq": 407101.02,
+      "peak_price": 0.003815,
       "captures": {},
       "outcome_label": null,
       "completed": false
