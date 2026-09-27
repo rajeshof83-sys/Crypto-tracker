@@ -74923,6 +74923,13 @@
           "volume_24h": 860849.65,
           "captured_at": "2026-09-26T07:41:57.361757+00:00",
           "hours_elapsed": 7.2
+        },
+        "price_24h": {
+          "price": 4.177e-05,
+          "liquidity": 17732.83,
+          "volume_24h": 159230.89,
+          "captured_at": "2026-09-27T01:28:03.141409+00:00",
+          "hours_elapsed": 24.9
         }
       },
       "outcome_label": null,
@@ -74951,10 +74958,17 @@
           "volume_24h": 1031256.34,
           "captured_at": "2026-09-26T07:41:57.361757+00:00",
           "hours_elapsed": 7.2
+        },
+        "price_24h": {
+          "price": 2.663e-06,
+          "liquidity": 3037.24,
+          "volume_24h": 1410915.33,
+          "captured_at": "2026-09-27T01:28:03.141409+00:00",
+          "hours_elapsed": 24.9
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:HEvXUg2aX6C8pLWxsycb9pMjG7U8QwVsywo3PMPxHQXS": {
       "chain": "solana",
@@ -75147,7 +75161,15 @@
       "detection_price": 0.0002837,
       "detection_liq": 48393.46,
       "peak_price": 0.0002837,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 2.318e-06,
+          "liquidity": 2465.71,
+          "volume_24h": 714461.7,
+          "captured_at": "2026-09-27T01:28:03.141409+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -75160,6 +75182,27 @@
       "detection_price": 0.0002385,
       "detection_liq": 45171.34,
       "peak_price": 0.0002385,
+      "captures": {
+        "price_1h": {
+          "price": 2.471e-06,
+          "liquidity": 2727.33,
+          "volume_24h": 1368548.61,
+          "captured_at": "2026-09-27T01:28:03.141409+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2Rombpuq85UBCfLLidaQEqg8kod2qnWzqkrY74zHebQP": {
+      "chain": "solana",
+      "pair_address": "2Rombpuq85UBCfLLidaQEqg8kod2qnWzqkrY74zHebQP",
+      "symbol": "BABYASTEROID",
+      "tier": "T1",
+      "detection_time": "2026-09-27T01:27:54.208546+00:00",
+      "detection_price": 0.00033,
+      "detection_liq": 52038.43,
+      "peak_price": 0.00033,
       "captures": {},
       "outcome_label": null,
       "completed": false
