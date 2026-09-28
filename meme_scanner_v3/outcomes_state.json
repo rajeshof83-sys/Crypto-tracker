@@ -75854,6 +75854,27 @@
       "detection_price": 0.0001159,
       "detection_liq": 29645.37,
       "peak_price": 0.0001159,
+      "captures": {
+        "price_1h": {
+          "price": 2.334e-06,
+          "liquidity": 2494.98,
+          "volume_24h": 686152.4,
+          "captured_at": "2026-09-28T20:51:38.922820+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AvF6mHTXDcSLuq7NUWyTffaRopRkM9Sjh7ruFPNGnZqs": {
+      "chain": "solana",
+      "pair_address": "AvF6mHTXDcSLuq7NUWyTffaRopRkM9Sjh7ruFPNGnZqs",
+      "symbol": "SNOWBALL",
+      "tier": "T1",
+      "detection_time": "2026-09-28T20:51:30.699087+00:00",
+      "detection_price": 0.000115,
+      "detection_liq": 29860.77,
+      "peak_price": 0.000115,
       "captures": {},
       "outcome_label": null,
       "completed": false
