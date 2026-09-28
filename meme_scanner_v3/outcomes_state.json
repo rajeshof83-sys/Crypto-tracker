@@ -75595,6 +75595,13 @@
           "volume_24h": 307805.6,
           "captured_at": "2026-09-28T00:47:13.625952+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 8.201e-05,
+          "liquidity": 24740.21,
+          "volume_24h": 10539.97,
+          "captured_at": "2026-09-28T19:25:45.818703+00:00",
+          "hours_elapsed": 24.8
         }
       },
       "outcome_label": null,
@@ -75825,7 +75832,28 @@
       "detection_time": "2026-09-28T18:13:23.965721+00:00",
       "detection_price": 0.0002205,
       "detection_liq": 42039.17,
-      "peak_price": 0.0002205,
+      "peak_price": 0.0003317,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003317,
+          "liquidity": 53794.87,
+          "volume_24h": 1261590.59,
+          "captured_at": "2026-09-28T19:25:45.818703+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7VzEdZJ4cQW6ymXk6MNv3mijtokia6FC3aRLw5ZsGj6o": {
+      "chain": "solana",
+      "pair_address": "7VzEdZJ4cQW6ymXk6MNv3mijtokia6FC3aRLw5ZsGj6o",
+      "symbol": "FROINKCAT",
+      "tier": "T1",
+      "detection_time": "2026-09-28T19:25:37.605582+00:00",
+      "detection_price": 0.0001159,
+      "detection_liq": 29645.37,
+      "peak_price": 0.0001159,
       "captures": {},
       "outcome_label": null,
       "completed": false
