@@ -73215,10 +73215,17 @@
           "volume_24h": 302150.72,
           "captured_at": "2026-09-22T18:36:58.460784+00:00",
           "hours_elapsed": 26.3
+        },
+        "price_7d": {
+          "price": 4.354e-05,
+          "liquidity": 23597.18,
+          "volume_24h": 13604.05,
+          "captured_at": "2026-09-28T18:13:30.079417+00:00",
+          "hours_elapsed": 169.9
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:G1mVgnG1Q8DdNgbj2o3h2JnqGW5GrT6om7mKut3GqBW": {
       "chain": "solana",
@@ -75518,6 +75525,13 @@
           "volume_24h": 135455.21,
           "captured_at": "2026-09-27T23:46:51.969091+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 8.754e-06,
+          "liquidity": 9788.49,
+          "volume_24h": 20347.95,
+          "captured_at": "2026-09-28T18:13:30.079417+00:00",
+          "hours_elapsed": 24.6
         }
       },
       "outcome_label": null,
@@ -75546,6 +75560,13 @@
           "volume_24h": 621895.13,
           "captured_at": "2026-09-27T23:46:51.969091+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 3.576e-05,
+          "liquidity": 16008.71,
+          "volume_24h": 315291.8,
+          "captured_at": "2026-09-28T18:13:30.079417+00:00",
+          "hours_elapsed": 24.6
         }
       },
       "outcome_label": null,
@@ -75763,6 +75784,13 @@
           "volume_24h": 345237.99,
           "captured_at": "2026-09-28T14:33:57.406892+00:00",
           "hours_elapsed": 3.0
+        },
+        "price_6h": {
+          "price": 0.0001012,
+          "liquidity": 27889.97,
+          "volume_24h": 398861.4,
+          "captured_at": "2026-09-28T18:13:30.079417+00:00",
+          "hours_elapsed": 6.7
         }
       },
       "outcome_label": null,
@@ -75777,6 +75805,27 @@
       "detection_price": 0.0002833,
       "detection_liq": 48210.53,
       "peak_price": 0.0002833,
+      "captures": {
+        "price_1h": {
+          "price": 2.635e-06,
+          "liquidity": 2867.16,
+          "volume_24h": 1239604.21,
+          "captured_at": "2026-09-28T18:13:30.079417+00:00",
+          "hours_elapsed": 2.7
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FJW4WoiBUMTowTjMu7D8pXdfPRTg3viFnp897xron4z6": {
+      "chain": "solana",
+      "pair_address": "FJW4WoiBUMTowTjMu7D8pXdfPRTg3viFnp897xron4z6",
+      "symbol": "POUNCELOT",
+      "tier": "T1",
+      "detection_time": "2026-09-28T18:13:23.965721+00:00",
+      "detection_price": 0.0002205,
+      "detection_liq": 42039.17,
+      "peak_price": 0.0002205,
       "captures": {},
       "outcome_label": null,
       "completed": false
