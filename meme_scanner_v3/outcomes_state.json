@@ -75979,7 +75979,28 @@
       "detection_time": "2026-09-29T00:16:03.370358+00:00",
       "detection_price": 0.0002554,
       "detection_liq": 45067.23,
-      "peak_price": 0.0002554,
+      "peak_price": 0.0003232,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003232,
+          "liquidity": 50889.74,
+          "volume_24h": 542066.95,
+          "captured_at": "2026-09-29T01:18:40.297792+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HhnhZTbXzzEmYLNNzyQSBXWD5s4AEQptqJkBC8N5SGCZ": {
+      "chain": "solana",
+      "pair_address": "HhnhZTbXzzEmYLNNzyQSBXWD5s4AEQptqJkBC8N5SGCZ",
+      "symbol": "SITRUMP",
+      "tier": "T1",
+      "detection_time": "2026-09-29T01:18:29.075957+00:00",
+      "detection_price": 0.0001631,
+      "detection_liq": 35547.6,
+      "peak_price": 0.0001631,
       "captures": {},
       "outcome_label": null,
       "completed": false
