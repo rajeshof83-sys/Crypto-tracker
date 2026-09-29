@@ -75840,6 +75840,13 @@
           "volume_24h": 398861.4,
           "captured_at": "2026-09-28T18:13:30.079417+00:00",
           "hours_elapsed": 6.7
+        },
+        "price_24h": {
+          "price": 7.845e-05,
+          "liquidity": 25794.25,
+          "volume_24h": 770463.54,
+          "captured_at": "2026-09-29T13:52:17.110462+00:00",
+          "hours_elapsed": 26.3
         }
       },
       "outcome_label": null,
@@ -76066,6 +76073,19 @@
           "hours_elapsed": 6.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:92RqWvHW4dmmyTkuTWoYghCjTzf5LLN2DDy2Gujg2cFL": {
+      "chain": "solana",
+      "pair_address": "92RqWvHW4dmmyTkuTWoYghCjTzf5LLN2DDy2Gujg2cFL",
+      "symbol": "inu",
+      "tier": "T1",
+      "detection_time": "2026-09-29T13:52:09.855205+00:00",
+      "detection_price": 0.0001295,
+      "detection_liq": 29580.68,
+      "peak_price": 0.0001295,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
