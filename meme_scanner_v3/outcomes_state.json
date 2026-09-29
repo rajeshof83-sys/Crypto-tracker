@@ -76141,6 +76141,13 @@
           "volume_24h": 746155.13,
           "captured_at": "2026-09-29T15:52:28.503054+00:00",
           "hours_elapsed": 2.0
+        },
+        "price_6h": {
+          "price": 4.021e-05,
+          "liquidity": 16784.35,
+          "volume_24h": 856440.47,
+          "captured_at": "2026-09-29T20:06:36.187116+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -76181,6 +76188,19 @@
       "detection_price": 0.0001082,
       "detection_liq": 35147.32,
       "peak_price": 0.0001082,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GZwsYYmc2a54HhX9ZGYTzo7LBChq1SSRDiV6RvvCBXzx": {
+      "chain": "solana",
+      "pair_address": "GZwsYYmc2a54HhX9ZGYTzo7LBChq1SSRDiV6RvvCBXzx",
+      "symbol": "DELREY",
+      "tier": "T2",
+      "detection_time": "2026-09-29T20:06:28.348469+00:00",
+      "detection_price": 7.024e-05,
+      "detection_liq": 24668.94,
+      "peak_price": 7.024e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
