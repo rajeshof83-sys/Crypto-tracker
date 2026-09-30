@@ -73894,10 +73894,17 @@
           "volume_24h": 771654.78,
           "captured_at": "2026-09-24T10:20:22.857563+00:00",
           "hours_elapsed": 24.1
+        },
+        "price_7d": {
+          "price": 1.426e-05,
+          "liquidity": 12741.18,
+          "volume_24h": 2211.49,
+          "captured_at": "2026-09-30T11:00:29.708428+00:00",
+          "hours_elapsed": 168.8
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "winner",
+      "completed": true
     },
     "solana:72tZoSAHAutvD7dP2fNC56aASLxbPXro9jBPohZ8aAvY": {
       "chain": "solana",
@@ -76574,7 +76581,28 @@
       "detection_time": "2026-09-30T09:02:36.630594+00:00",
       "detection_price": 6.873e-05,
       "detection_liq": 24586.89,
-      "peak_price": 6.873e-05,
+      "peak_price": 7.332e-05,
+      "captures": {
+        "price_1h": {
+          "price": 7.332e-05,
+          "liquidity": 26007.37,
+          "volume_24h": 570027.39,
+          "captured_at": "2026-09-30T11:00:29.708428+00:00",
+          "hours_elapsed": 2.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "ethereum:0xf884f15815c943e08daebb0c8945d5b27cc7bfa4ed2880be1195048a9aad9f74": {
+      "chain": "ethereum",
+      "pair_address": "0xf884f15815c943e08daebb0c8945d5b27cc7bfa4ed2880be1195048a9aad9f74",
+      "symbol": "ZC",
+      "tier": "T2",
+      "detection_time": "2026-09-30T11:00:19.460169+00:00",
+      "detection_price": 0.00813,
+      "detection_liq": 354843.48,
+      "peak_price": 0.00813,
       "captures": {},
       "outcome_label": null,
       "completed": false
