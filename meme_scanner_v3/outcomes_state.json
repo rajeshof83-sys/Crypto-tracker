@@ -74222,7 +74222,7 @@
       "detection_time": "2026-09-23T22:49:35.033087+00:00",
       "detection_price": 0.000216,
       "detection_liq": 42686.89,
-      "peak_price": 0.0004526,
+      "peak_price": 0.0005038,
       "captures": {
         "price_1h": {
           "price": 0.0004526,
@@ -74244,10 +74244,17 @@
           "volume_24h": 684513.98,
           "captured_at": "2026-09-24T23:34:43.477514+00:00",
           "hours_elapsed": 24.8
+        },
+        "price_7d": {
+          "price": 0.0005038,
+          "liquidity": 65776.32,
+          "volume_24h": 134962.51,
+          "captured_at": "2026-09-30T23:04:32.583083+00:00",
+          "hours_elapsed": 168.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "winner",
+      "completed": true
     },
     "solana:3odkxoFB7KvujaRFoLbCQbbZv93R9njJr9KQTH5cKDKT": {
       "chain": "solana",
@@ -76714,7 +76721,7 @@
       "detection_time": "2026-09-30T16:07:08.764129+00:00",
       "detection_price": 9.12e-05,
       "detection_liq": 45564.3,
-      "peak_price": 9.45e-05,
+      "peak_price": 9.737e-05,
       "captures": {
         "price_1h": {
           "price": 9.45e-05,
@@ -76722,6 +76729,13 @@
           "volume_24h": 164778.31,
           "captured_at": "2026-09-30T19:20:46.093654+00:00",
           "hours_elapsed": 3.2
+        },
+        "price_6h": {
+          "price": 9.737e-05,
+          "liquidity": 46973.83,
+          "volume_24h": 161957.86,
+          "captured_at": "2026-09-30T23:04:32.583083+00:00",
+          "hours_elapsed": 7.0
         }
       },
       "outcome_label": null,
@@ -76743,6 +76757,13 @@
           "volume_24h": 1129912.95,
           "captured_at": "2026-09-30T19:20:46.093654+00:00",
           "hours_elapsed": 3.2
+        },
+        "price_6h": {
+          "price": 4.553e-05,
+          "liquidity": 21535.46,
+          "volume_24h": 1192669.52,
+          "captured_at": "2026-09-30T23:04:32.583083+00:00",
+          "hours_elapsed": 7.0
         }
       },
       "outcome_label": null,
@@ -76777,7 +76798,28 @@
       "detection_time": "2026-09-30T21:19:14.872477+00:00",
       "detection_price": 0.0001986,
       "detection_liq": 40221.88,
-      "peak_price": 0.0001986,
+      "peak_price": 0.0002425,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002425,
+          "liquidity": 44858.7,
+          "volume_24h": 737929.13,
+          "captured_at": "2026-09-30T23:04:32.583083+00:00",
+          "hours_elapsed": 1.8
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:mKsfYFwc1RNNQCtQozdiUtVHnGBEZuzxMgduojVdUqQ": {
+      "chain": "solana",
+      "pair_address": "mKsfYFwc1RNNQCtQozdiUtVHnGBEZuzxMgduojVdUqQ",
+      "symbol": "DIGINU",
+      "tier": "T1",
+      "detection_time": "2026-09-30T23:04:25.491182+00:00",
+      "detection_price": 6.055e-05,
+      "detection_liq": 20999.79,
+      "peak_price": 6.055e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
