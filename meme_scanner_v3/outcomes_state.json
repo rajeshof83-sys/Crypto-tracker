@@ -76999,6 +76999,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:3Z2hA6bWTLd8uBATbFPV4QgbvWeBhG9NQFjZznj7eKgw": {
+      "chain": "solana",
+      "pair_address": "3Z2hA6bWTLd8uBATbFPV4QgbvWeBhG9NQFjZznj7eKgw",
+      "symbol": "JANE",
+      "tier": "T1",
+      "detection_time": "2026-10-01T16:39:21.655711+00:00",
+      "detection_price": 0.0001625,
+      "detection_liq": 36128.21,
+      "peak_price": 0.0001625,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:BraoeZS1ZhzdQwQWKwNH3z4ouyLxvLCvgLpfHhBVZChT": {
+      "chain": "solana",
+      "pair_address": "BraoeZS1ZhzdQwQWKwNH3z4ouyLxvLCvgLpfHhBVZChT",
+      "symbol": "Pinata",
+      "tier": "T2",
+      "detection_time": "2026-10-01T16:39:24.272896+00:00",
+      "detection_price": 0.0002586,
+      "detection_liq": 47761.17,
+      "peak_price": 0.0002586,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
