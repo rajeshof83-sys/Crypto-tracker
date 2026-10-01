@@ -74286,10 +74286,17 @@
           "volume_24h": 2555346.61,
           "captured_at": "2026-09-25T05:10:17.032242+00:00",
           "hours_elapsed": 24.3
+        },
+        "price_7d": {
+          "price": 2.926e-05,
+          "liquidity": 16831.65,
+          "volume_24h": 94584.24,
+          "captured_at": "2026-10-01T06:17:28.820519+00:00",
+          "hours_elapsed": 169.4
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "moon",
+      "completed": true
     },
     "solana:5kCLMA7J61yW48EF1MAp54deaQdMWNTSSzbUf1BEge6G": {
       "chain": "solana",
@@ -76602,7 +76609,7 @@
       "detection_time": "2026-09-30T02:27:50.106058+00:00",
       "detection_price": 0.0001747,
       "detection_liq": 37699.56,
-      "peak_price": 0.0001843,
+      "peak_price": 0.0004121,
       "captures": {
         "price_1h": {
           "price": 0.0001477,
@@ -76617,6 +76624,13 @@
           "volume_24h": 708018.26,
           "captured_at": "2026-09-30T09:02:47.626628+00:00",
           "hours_elapsed": 6.6
+        },
+        "price_24h": {
+          "price": 0.0004121,
+          "liquidity": 60378.52,
+          "volume_24h": 337018.29,
+          "captured_at": "2026-10-01T06:17:28.820519+00:00",
+          "hours_elapsed": 27.8
         }
       },
       "outcome_label": null,
@@ -76645,10 +76659,17 @@
           "volume_24h": 529107.26,
           "captured_at": "2026-09-30T09:02:47.626628+00:00",
           "hours_elapsed": 6.6
+        },
+        "price_24h": {
+          "price": 3.29e-06,
+          "liquidity": 3327.97,
+          "volume_24h": 58811.69,
+          "captured_at": "2026-10-01T06:17:28.820519+00:00",
+          "hours_elapsed": 27.8
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:GnpvosiacUQbkxPPTFo2C79CX2qTuKgXAwHekyLJoDbe": {
       "chain": "solana",
@@ -76658,7 +76679,7 @@
       "detection_time": "2026-09-30T02:27:59.922431+00:00",
       "detection_price": 0.0001932,
       "detection_liq": 40489.38,
-      "peak_price": 0.0003066,
+      "peak_price": 0.001223,
       "captures": {
         "price_1h": {
           "price": 0.0003066,
@@ -76673,6 +76694,13 @@
           "volume_24h": 1159603.22,
           "captured_at": "2026-09-30T09:02:47.626628+00:00",
           "hours_elapsed": 6.6
+        },
+        "price_24h": {
+          "price": 0.001223,
+          "liquidity": 111991.71,
+          "volume_24h": 3078404.08,
+          "captured_at": "2026-10-01T06:17:28.820519+00:00",
+          "hours_elapsed": 27.8
         }
       },
       "outcome_label": null,
@@ -76826,7 +76854,7 @@
       "detection_time": "2026-09-30T21:19:14.872477+00:00",
       "detection_price": 0.0001986,
       "detection_liq": 40221.88,
-      "peak_price": 0.0002425,
+      "peak_price": 0.0002835,
       "captures": {
         "price_1h": {
           "price": 0.0002425,
@@ -76834,6 +76862,13 @@
           "volume_24h": 737929.13,
           "captured_at": "2026-09-30T23:04:32.583083+00:00",
           "hours_elapsed": 1.8
+        },
+        "price_6h": {
+          "price": 0.0002835,
+          "liquidity": 49071.16,
+          "volume_24h": 816294.1,
+          "captured_at": "2026-10-01T06:17:28.820519+00:00",
+          "hours_elapsed": 9.0
         }
       },
       "outcome_label": null,
@@ -76847,7 +76882,7 @@
       "detection_time": "2026-09-30T23:04:25.491182+00:00",
       "detection_price": 6.055e-05,
       "detection_liq": 20999.79,
-      "peak_price": 6.055e-05,
+      "peak_price": 6.15e-05,
       "captures": {
         "price_1h": {
           "price": 6.005e-05,
@@ -76855,6 +76890,13 @@
           "volume_24h": 370153.07,
           "captured_at": "2026-10-01T00:52:12.986812+00:00",
           "hours_elapsed": 1.8
+        },
+        "price_6h": {
+          "price": 6.15e-05,
+          "liquidity": 21260.26,
+          "volume_24h": 370524.64,
+          "captured_at": "2026-10-01T06:17:28.820519+00:00",
+          "hours_elapsed": 7.2
         }
       },
       "outcome_label": null,
