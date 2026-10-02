@@ -77275,6 +77275,40 @@
       "detection_price": 0.0001046,
       "detection_liq": 29198.98,
       "peak_price": 0.0001046,
+      "captures": {
+        "price_1h": {
+          "price": 3.653e-05,
+          "liquidity": 16302.77,
+          "volume_24h": 804570.31,
+          "captured_at": "2026-10-02T15:32:17.812315+00:00",
+          "hours_elapsed": 2.3
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5jBRk6XtWk3zmeU2TajcvXsko2EpdNtqNPNUvpc5NYwd": {
+      "chain": "solana",
+      "pair_address": "5jBRk6XtWk3zmeU2TajcvXsko2EpdNtqNPNUvpc5NYwd",
+      "symbol": "SUPPERINU",
+      "tier": "T1",
+      "detection_time": "2026-10-02T15:32:07.161193+00:00",
+      "detection_price": 0.0002788,
+      "detection_liq": 48531.24,
+      "peak_price": 0.0002788,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2MowcSAPsumAC5u6cbo17SwVzrTvCcuvvkRRsTibE1zt": {
+      "chain": "solana",
+      "pair_address": "2MowcSAPsumAC5u6cbo17SwVzrTvCcuvvkRRsTibE1zt",
+      "symbol": "BROKE",
+      "tier": "T1",
+      "detection_time": "2026-10-02T15:32:09.738865+00:00",
+      "detection_price": 7.049e-05,
+      "detection_liq": 22577.19,
+      "peak_price": 7.049e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
