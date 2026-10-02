@@ -77254,8 +77254,28 @@
           "volume_24h": 1120470.99,
           "captured_at": "2026-10-02T08:08:22.433866+00:00",
           "hours_elapsed": 2.2
+        },
+        "price_6h": {
+          "price": 2.503e-06,
+          "liquidity": 2774.05,
+          "volume_24h": 1120522.09,
+          "captured_at": "2026-10-02T13:15:37.952713+00:00",
+          "hours_elapsed": 7.3
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CAzLDRhe6v8taMbrqCrqgtdPhbrjHdoWrCE1hpoWRHrQ": {
+      "chain": "solana",
+      "pair_address": "CAzLDRhe6v8taMbrqCrqgtdPhbrjHdoWrCE1hpoWRHrQ",
+      "symbol": "Library",
+      "tier": "T1",
+      "detection_time": "2026-10-02T13:15:32.025589+00:00",
+      "detection_price": 0.0001046,
+      "detection_liq": 29198.98,
+      "peak_price": 0.0001046,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
