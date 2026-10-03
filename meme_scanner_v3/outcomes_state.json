@@ -77491,8 +77491,16 @@
       "detection_time": "2026-10-02T22:37:12.556324+00:00",
       "detection_price": 0.0004623,
       "detection_liq": 62189.68,
-      "peak_price": 0.0004623,
-      "captures": {},
+      "peak_price": 0.001049,
+      "captures": {
+        "price_1h": {
+          "price": 0.001049,
+          "liquidity": 95508.49,
+          "volume_24h": 1170520.25,
+          "captured_at": "2026-10-03T00:16:11.657524+00:00",
+          "hours_elapsed": 1.6
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -77505,6 +77513,27 @@
       "detection_price": 0.0002114,
       "detection_liq": 41510.43,
       "peak_price": 0.0002114,
+      "captures": {
+        "price_1h": {
+          "price": 5.2e-06,
+          "liquidity": 4811.73,
+          "volume_24h": 785960.23,
+          "captured_at": "2026-10-03T00:16:11.657524+00:00",
+          "hours_elapsed": 1.6
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2qWF4dn1JnqhCpAYJQnKVaKezzuUiG4xdnbnCSK1Pgcw": {
+      "chain": "solana",
+      "pair_address": "2qWF4dn1JnqhCpAYJQnKVaKezzuUiG4xdnbnCSK1Pgcw",
+      "symbol": "ABU",
+      "tier": "T1",
+      "detection_time": "2026-10-03T00:16:02.468710+00:00",
+      "detection_price": 0.0001833,
+      "detection_liq": 38300.22,
+      "peak_price": 0.0001833,
       "captures": {},
       "outcome_label": null,
       "completed": false
