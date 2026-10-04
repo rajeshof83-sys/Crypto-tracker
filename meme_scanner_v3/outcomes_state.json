@@ -77737,10 +77737,17 @@
           "volume_24h": 813544.83,
           "captured_at": "2026-10-03T12:20:06.801096+00:00",
           "hours_elapsed": 6.8
+        },
+        "price_24h": {
+          "price": 2.41e-06,
+          "liquidity": 2613.98,
+          "volume_24h": 24.25,
+          "captured_at": "2026-10-04T06:08:54.426175+00:00",
+          "hours_elapsed": 24.6
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:4cftQSYQhW2RcASwQR3hW3J4UVGc4u2YCvY4PmZ4B86j": {
       "chain": "solana",
@@ -77765,6 +77772,13 @@
           "volume_24h": 697125.96,
           "captured_at": "2026-10-03T12:20:06.801096+00:00",
           "hours_elapsed": 6.8
+        },
+        "price_24h": {
+          "price": 9.318e-06,
+          "liquidity": 7169.28,
+          "volume_24h": 156948.25,
+          "captured_at": "2026-10-04T06:08:54.426175+00:00",
+          "hours_elapsed": 24.6
         }
       },
       "outcome_label": null,
@@ -77863,6 +77877,40 @@
       "detection_price": 0.000168,
       "detection_liq": 36888.55,
       "peak_price": 0.000168,
+      "captures": {
+        "price_1h": {
+          "price": 1.04e-05,
+          "liquidity": 7627.63,
+          "volume_24h": 617762.13,
+          "captured_at": "2026-10-04T06:08:54.426175+00:00",
+          "hours_elapsed": 4.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2DmW3RhBeSyXBQypBcfvyAcySEw8AZh4Vhvu1PWgLLoV": {
+      "chain": "solana",
+      "pair_address": "2DmW3RhBeSyXBQypBcfvyAcySEw8AZh4Vhvu1PWgLLoV",
+      "symbol": "SLEUTHY",
+      "tier": "T1",
+      "detection_time": "2026-10-04T06:08:46.068413+00:00",
+      "detection_price": 0.0001769,
+      "detection_liq": 38721.68,
+      "peak_price": 0.0001769,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:867dKvaCcyRrUDP66bqNXbujXfjaxsNB9wTpc4CmBdAD": {
+      "chain": "solana",
+      "pair_address": "867dKvaCcyRrUDP66bqNXbujXfjaxsNB9wTpc4CmBdAD",
+      "symbol": "MISTAKE",
+      "tier": "T2",
+      "detection_time": "2026-10-04T06:08:49.530298+00:00",
+      "detection_price": 0.01885,
+      "detection_liq": 469687.76,
+      "peak_price": 0.01885,
       "captures": {},
       "outcome_label": null,
       "completed": false
