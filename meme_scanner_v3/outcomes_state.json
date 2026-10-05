@@ -78108,6 +78108,13 @@
           "volume_24h": 295196.15,
           "captured_at": "2026-10-05T01:08:57.941373+00:00",
           "hours_elapsed": 6.4
+        },
+        "price_24h": {
+          "price": 4.216e-05,
+          "liquidity": 21300.79,
+          "volume_24h": 284600.64,
+          "captured_at": "2026-10-05T19:22:06.594223+00:00",
+          "hours_elapsed": 24.6
         }
       },
       "outcome_label": null,
@@ -78255,7 +78262,15 @@
       "detection_price": 0.0001015,
       "detection_liq": 28398.06,
       "peak_price": 0.0001015,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 2.783e-06,
+          "liquidity": 3023.72,
+          "volume_24h": 877579.67,
+          "captured_at": "2026-10-05T19:22:06.594223+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -78268,7 +78283,15 @@
       "detection_price": 0.0001238,
       "detection_liq": 31385.95,
       "peak_price": 0.0001238,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 8.515e-05,
+          "liquidity": 25934.04,
+          "volume_24h": 768316.5,
+          "captured_at": "2026-10-05T19:22:06.594223+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -78281,6 +78304,40 @@
       "detection_price": 0.0002977,
       "detection_liq": 49608.66,
       "peak_price": 0.0002977,
+      "captures": {
+        "price_1h": {
+          "price": 2.538e-06,
+          "liquidity": 2741.68,
+          "volume_24h": 965833.08,
+          "captured_at": "2026-10-05T19:22:06.594223+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9gJHwbyEn3U7eZyf61sTX31mqPNNhwnyDoA9Fn3pMqdq": {
+      "chain": "solana",
+      "pair_address": "9gJHwbyEn3U7eZyf61sTX31mqPNNhwnyDoA9Fn3pMqdq",
+      "symbol": "INCOGNITO",
+      "tier": "T1",
+      "detection_time": "2026-10-05T19:21:54.057765+00:00",
+      "detection_price": 0.0001353,
+      "detection_liq": 36372.94,
+      "peak_price": 0.0001353,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HNhq9ZFywxceKsNqH6e7h9446tEQwVsu4YwzxxC9VzCt": {
+      "chain": "solana",
+      "pair_address": "HNhq9ZFywxceKsNqH6e7h9446tEQwVsu4YwzxxC9VzCt",
+      "symbol": "WIFSWORD",
+      "tier": "T1",
+      "detection_time": "2026-10-05T19:21:58.438350+00:00",
+      "detection_price": 6.453e-05,
+      "detection_liq": 21897.95,
+      "peak_price": 6.453e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
