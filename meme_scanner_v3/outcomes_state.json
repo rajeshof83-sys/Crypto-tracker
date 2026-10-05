@@ -78234,6 +78234,53 @@
       "detection_price": 0.0002486,
       "detection_liq": 46660.31,
       "peak_price": 0.0002486,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001584,
+          "liquidity": 38085.19,
+          "volume_24h": 1884140.45,
+          "captured_at": "2026-10-05T18:07:40.254974+00:00",
+          "hours_elapsed": 1.8
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:J8194aC1cqTNcAJTxCpN8Cm4nnUBdskWUrfHrEsCYCuF": {
+      "chain": "solana",
+      "pair_address": "J8194aC1cqTNcAJTxCpN8Cm4nnUBdskWUrfHrEsCYCuF",
+      "symbol": "launchpad",
+      "tier": "T1",
+      "detection_time": "2026-10-05T18:07:29.164794+00:00",
+      "detection_price": 0.0001015,
+      "detection_liq": 28398.06,
+      "peak_price": 0.0001015,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9gvxh5FY3eYNHY2UyeRt3LJD1TPBq2sryPN2zCMNrJYy": {
+      "chain": "solana",
+      "pair_address": "9gvxh5FY3eYNHY2UyeRt3LJD1TPBq2sryPN2zCMNrJYy",
+      "symbol": "swordcali",
+      "tier": "T1",
+      "detection_time": "2026-10-05T18:07:31.894132+00:00",
+      "detection_price": 0.0001238,
+      "detection_liq": 31385.95,
+      "peak_price": 0.0001238,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DWzo8ptUBvXU8Eh3z5TDGLRXQrzrVqj9ap52rnjJWfMK": {
+      "chain": "solana",
+      "pair_address": "DWzo8ptUBvXU8Eh3z5TDGLRXQrzrVqj9ap52rnjJWfMK",
+      "symbol": "SOL",
+      "tier": "T1",
+      "detection_time": "2026-10-05T18:07:34.680861+00:00",
+      "detection_price": 0.0002977,
+      "detection_liq": 49608.66,
+      "peak_price": 0.0002977,
       "captures": {},
       "outcome_label": null,
       "completed": false
