@@ -46206,8 +46206,8 @@
       "peak_safety": 9
     },
     "solana:7vXSFb9tUBL4qAEmJ3FXcG6mUzrr2TpnPHwyS9q1EcGS": {
-      "peak_liq": 22605.49,
-      "peak_vol": 223132.58,
+      "peak_liq": 44327.22,
+      "peak_vol": 569076.23,
       "peak_safety": 9
     },
     "bsc:0x4907946236Cb46bb66EC699f9B894b65548A981F": {
@@ -46329,6 +46329,36 @@
       "peak_liq": 0.0,
       "peak_vol": 11308.14,
       "peak_safety": 6
+    },
+    "solana:3V8GA1z5vWfCYGJMq2NBXCbLty5A382t6qLX6qGa6UFM": {
+      "peak_liq": 21059.35,
+      "peak_vol": 1262.32,
+      "peak_safety": 8
+    },
+    "solana:6YGWhv6mWhixavktXkLx1W61PRL4kUB4ySMfQgqzq5vQ": {
+      "peak_liq": 0.0,
+      "peak_vol": 3673.95,
+      "peak_safety": 8
+    },
+    "solana:G4ac6W2sJgqojixx27b9ioDa6hW6tGm9ZVRXHSZNjWzm": {
+      "peak_liq": 40671.99,
+      "peak_vol": 23624.03,
+      "peak_safety": 9
+    },
+    "solana:12jc1DzJpzbCDaKuM4brAKh9jcFry2TLG1FfGsL4ftCG": {
+      "peak_liq": 31415.35,
+      "peak_vol": 461925.32,
+      "peak_safety": 9
+    },
+    "solana:3WzF2jWdLjZPNKocrjDRQ89TQTAVkfPxabnCYF4KHTtL": {
+      "peak_liq": 0.0,
+      "peak_vol": 63295.1,
+      "peak_safety": 5
+    },
+    "solana:22xA6CUfEKSrcftsDzEuRsDCVNeAAwh43k8fpRLZJMFB": {
+      "peak_liq": 0.0,
+      "peak_vol": 49403.3,
+      "peak_safety": 8
     }
   },
   "consecutive_negative": {
@@ -55597,7 +55627,13 @@
     "solana:DoPvoTMCnPUuzcQRv5wXSiNGwG8TYt63SJmzY6Timo7e": 0,
     "solana:745ATaSSWxvry5qt1XVv9eXuG884hDvNJfvA2o82dNBi": 0,
     "solana:5MmNWmBrywUAvLb6fPUgYK4FZ2HvertVb8FpJxTPenJ2": 0,
-    "solana:R2jUPjJs8oVDYiFCwagkU8obxoXaqrCPSY8sUexchKg": 0
+    "solana:R2jUPjJs8oVDYiFCwagkU8obxoXaqrCPSY8sUexchKg": 0,
+    "solana:3V8GA1z5vWfCYGJMq2NBXCbLty5A382t6qLX6qGa6UFM": 0,
+    "solana:6YGWhv6mWhixavktXkLx1W61PRL4kUB4ySMfQgqzq5vQ": 0,
+    "solana:G4ac6W2sJgqojixx27b9ioDa6hW6tGm9ZVRXHSZNjWzm": 0,
+    "solana:12jc1DzJpzbCDaKuM4brAKh9jcFry2TLG1FfGsL4ftCG": 0,
+    "solana:3WzF2jWdLjZPNKocrjDRQ89TQTAVkfPxabnCYF4KHTtL": 0,
+    "solana:22xA6CUfEKSrcftsDzEuRsDCVNeAAwh43k8fpRLZJMFB": 0
   },
   "exit_alerts_sent": {}
 }
