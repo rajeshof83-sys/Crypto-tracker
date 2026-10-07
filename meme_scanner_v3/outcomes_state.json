@@ -77086,10 +77086,17 @@
           "volume_24h": 661186.14,
           "captured_at": "2026-10-01T16:07:52.016669+00:00",
           "hours_elapsed": 24.0
+        },
+        "price_7d": {
+          "price": 1.486e-05,
+          "liquidity": 13143.74,
+          "volume_24h": 10145.39,
+          "captured_at": "2026-10-07T16:49:23.177552+00:00",
+          "hours_elapsed": 168.7
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:3Qniv1KQjeredfait1yrbNwxn5hDYAYThMzhqoPYNZuB": {
       "chain": "solana",
@@ -78724,6 +78731,13 @@
           "volume_24h": 1021273.44,
           "captured_at": "2026-10-06T21:49:35.451584+00:00",
           "hours_elapsed": 6.9
+        },
+        "price_24h": {
+          "price": 0.0002432,
+          "liquidity": 47763.09,
+          "volume_24h": 1205232.06,
+          "captured_at": "2026-10-07T16:49:23.177552+00:00",
+          "hours_elapsed": 25.9
         }
       },
       "outcome_label": null,
@@ -78737,7 +78751,7 @@
       "detection_time": "2026-10-06T14:53:42.700742+00:00",
       "detection_price": 0.0009233,
       "detection_liq": 89800.78,
-      "peak_price": 0.001519,
+      "peak_price": 0.002327,
       "captures": {
         "price_1h": {
           "price": 0.001519,
@@ -78752,6 +78766,13 @@
           "volume_24h": 1775360.7,
           "captured_at": "2026-10-06T21:49:35.451584+00:00",
           "hours_elapsed": 6.9
+        },
+        "price_24h": {
+          "price": 0.002327,
+          "liquidity": 147060.44,
+          "volume_24h": 2359998.06,
+          "captured_at": "2026-10-07T16:49:23.177552+00:00",
+          "hours_elapsed": 25.9
         }
       },
       "outcome_label": null,
@@ -79062,6 +79083,19 @@
           "hours_elapsed": 6.3
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8sbe1R1tZiBGoJe85SrgPv3PkapnTBBJ1WN7sToo2Wht": {
+      "chain": "solana",
+      "pair_address": "8sbe1R1tZiBGoJe85SrgPv3PkapnTBBJ1WN7sToo2Wht",
+      "symbol": "UI",
+      "tier": "T1",
+      "detection_time": "2026-10-07T16:49:12.069234+00:00",
+      "detection_price": 0.000235,
+      "detection_liq": 42748.39,
+      "peak_price": 0.000235,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
