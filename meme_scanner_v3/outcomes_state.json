@@ -79102,6 +79102,27 @@
       "detection_price": 0.000235,
       "detection_liq": 42748.39,
       "peak_price": 0.000235,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001332,
+          "liquidity": 31951.99,
+          "volume_24h": 616202.28,
+          "captured_at": "2026-10-07T18:39:22.982675+00:00",
+          "hours_elapsed": 1.8
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6e4wZ83xEmcj3LP9JNwzncW2hu3qXDEKLQUw3G6LKT8U": {
+      "chain": "solana",
+      "pair_address": "6e4wZ83xEmcj3LP9JNwzncW2hu3qXDEKLQUw3G6LKT8U",
+      "symbol": "Ash",
+      "tier": "T1",
+      "detection_time": "2026-10-07T18:39:16.214708+00:00",
+      "detection_price": 0.0001717,
+      "detection_liq": 46285.45,
+      "peak_price": 0.0001717,
       "captures": {},
       "outcome_label": null,
       "completed": false
