@@ -77275,10 +77275,17 @@
           "volume_24h": 984.85,
           "captured_at": "2026-10-02T08:08:22.433866+00:00",
           "hours_elapsed": 24.3
+        },
+        "price_7d": {
+          "price": 4.745e-05,
+          "liquidity": 19846.36,
+          "volume_24h": 91.22,
+          "captured_at": "2026-10-08T09:21:38.778535+00:00",
+          "hours_elapsed": 169.5
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:3Z2hA6bWTLd8uBATbFPV4QgbvWeBhG9NQFjZznj7eKgw": {
       "chain": "solana",
@@ -79298,8 +79305,28 @@
           "volume_24h": 369606.27,
           "captured_at": "2026-10-08T05:13:50.163206+00:00",
           "hours_elapsed": 3.0
+        },
+        "price_6h": {
+          "price": 2.324e-06,
+          "liquidity": 2412.13,
+          "volume_24h": 369606.27,
+          "captured_at": "2026-10-08T09:21:38.778535+00:00",
+          "hours_elapsed": 7.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:52Qg1oPv3YUScwK8Z4887fwuRWRGr1H2XtcpvETfyCbT": {
+      "chain": "solana",
+      "pair_address": "52Qg1oPv3YUScwK8Z4887fwuRWRGr1H2XtcpvETfyCbT",
+      "symbol": "Organisme",
+      "tier": "T1",
+      "detection_time": "2026-10-08T09:21:21.970111+00:00",
+      "detection_price": 0.0001537,
+      "detection_liq": 35176.75,
+      "peak_price": 0.0001537,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
