@@ -79549,7 +79549,7 @@
       "detection_time": "2026-10-09T00:12:38.201784+00:00",
       "detection_price": 0.0001714,
       "detection_liq": 35124.89,
-      "peak_price": 0.0001714,
+      "peak_price": 0.0002093,
       "captures": {
         "price_1h": {
           "price": 0.0001693,
@@ -79557,6 +79557,13 @@
           "volume_24h": 507550.05,
           "captured_at": "2026-10-09T02:26:37.157496+00:00",
           "hours_elapsed": 2.2
+        },
+        "price_6h": {
+          "price": 0.0002093,
+          "liquidity": 40066.31,
+          "volume_24h": 740680.94,
+          "captured_at": "2026-10-09T06:27:09.364719+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -79571,6 +79578,27 @@
       "detection_price": 0.0001867,
       "detection_liq": 37324.73,
       "peak_price": 0.0001867,
+      "captures": {
+        "price_1h": {
+          "price": 2.197e-06,
+          "liquidity": 2345.2,
+          "volume_24h": 711850.84,
+          "captured_at": "2026-10-09T06:27:09.364719+00:00",
+          "hours_elapsed": 4.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8rWhkLVMVUZVnDgD76Qz79wkvi8CehFgsa6j6CULCmmV": {
+      "chain": "solana",
+      "pair_address": "8rWhkLVMVUZVnDgD76Qz79wkvi8CehFgsa6j6CULCmmV",
+      "symbol": "TESLASI",
+      "tier": "T1",
+      "detection_time": "2026-10-09T06:26:58.986706+00:00",
+      "detection_price": 6.197e-05,
+      "detection_liq": 21662.42,
+      "peak_price": 6.197e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
