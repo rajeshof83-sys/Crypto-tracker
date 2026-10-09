@@ -79662,6 +79662,13 @@
           "volume_24h": 1282063.41,
           "captured_at": "2026-10-09T12:02:09.872375+00:00",
           "hours_elapsed": 2.6
+        },
+        "price_6h": {
+          "price": 3.367e-06,
+          "liquidity": 3556.27,
+          "volume_24h": 1282661.18,
+          "captured_at": "2026-10-09T16:28:15.138097+00:00",
+          "hours_elapsed": 7.0
         }
       },
       "outcome_label": null,
@@ -79683,6 +79690,13 @@
           "volume_24h": 387217.55,
           "captured_at": "2026-10-09T12:02:09.872375+00:00",
           "hours_elapsed": 2.5
+        },
+        "price_6h": {
+          "price": 1.834e-05,
+          "liquidity": 10300.16,
+          "volume_24h": 396071.35,
+          "captured_at": "2026-10-09T16:28:15.138097+00:00",
+          "hours_elapsed": 7.0
         }
       },
       "outcome_label": null,
@@ -79706,6 +79720,19 @@
           "hours_elapsed": 1.9
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:89QZ1Y8EAswxM39uMh35UJ1eRJdjNkUnNcWYx5bk7adh": {
+      "chain": "solana",
+      "pair_address": "89QZ1Y8EAswxM39uMh35UJ1eRJdjNkUnNcWYx5bk7adh",
+      "symbol": "PANDA",
+      "tier": "T1",
+      "detection_time": "2026-10-09T16:28:06.439414+00:00",
+      "detection_price": 0.0001219,
+      "detection_liq": 31058.27,
+      "peak_price": 0.0001219,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
