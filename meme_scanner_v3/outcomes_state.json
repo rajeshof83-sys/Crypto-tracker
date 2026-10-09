@@ -79396,10 +79396,17 @@
           "volume_24h": 1138556.89,
           "captured_at": "2026-10-08T16:49:18.032219+00:00",
           "hours_elapsed": 7.5
+        },
+        "price_24h": {
+          "price": 3.348e-06,
+          "liquidity": 3514.71,
+          "volume_24h": 104198.09,
+          "captured_at": "2026-10-09T09:29:31.071077+00:00",
+          "hours_elapsed": 24.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:2Jt75f3jpm8VynWU5VixMRuWkwf6qULurSesfh7hkpLG": {
       "chain": "solana",
@@ -79585,6 +79592,13 @@
           "volume_24h": 711850.84,
           "captured_at": "2026-10-09T06:27:09.364719+00:00",
           "hours_elapsed": 4.0
+        },
+        "price_6h": {
+          "price": 2.176e-06,
+          "liquidity": 2325.63,
+          "volume_24h": 711851.06,
+          "captured_at": "2026-10-09T09:29:31.071077+00:00",
+          "hours_elapsed": 7.1
         }
       },
       "outcome_label": null,
@@ -79598,7 +79612,41 @@
       "detection_time": "2026-10-09T06:26:58.986706+00:00",
       "detection_price": 6.197e-05,
       "detection_liq": 21662.42,
-      "peak_price": 6.197e-05,
+      "peak_price": 0.0001044,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001044,
+          "liquidity": 28861.81,
+          "volume_24h": 582287.84,
+          "captured_at": "2026-10-09T09:29:31.071077+00:00",
+          "hours_elapsed": 3.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FusPEfrJiQDXGMyL4ZkXKxVmUFe5HSa7sMvaTjAB7wx2": {
+      "chain": "solana",
+      "pair_address": "FusPEfrJiQDXGMyL4ZkXKxVmUFe5HSa7sMvaTjAB7wx2",
+      "symbol": "Slime",
+      "tier": "T1",
+      "detection_time": "2026-10-09T09:29:05.686317+00:00",
+      "detection_price": 0.000123,
+      "detection_liq": 30567.84,
+      "peak_price": 0.000123,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Cp4FaXT9U4Lki9N27dzHkWeM5Eky5EdZXJipgi71NUD7": {
+      "chain": "solana",
+      "pair_address": "Cp4FaXT9U4Lki9N27dzHkWeM5Eky5EdZXJipgi71NUD7",
+      "symbol": "AWZF",
+      "tier": "T1",
+      "detection_time": "2026-10-09T09:29:15.789413+00:00",
+      "detection_price": 6.286e-05,
+      "detection_liq": 20769.45,
+      "peak_price": 6.286e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
