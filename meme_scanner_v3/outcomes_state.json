@@ -79431,6 +79431,13 @@
           "volume_24h": 739087.42,
           "captured_at": "2026-10-08T19:14:59.355682+00:00",
           "hours_elapsed": 2.4
+        },
+        "price_6h": {
+          "price": 2.509e-06,
+          "liquidity": 2631.31,
+          "volume_24h": 741727.39,
+          "captured_at": "2026-10-09T00:12:46.361883+00:00",
+          "hours_elapsed": 7.4
         }
       },
       "outcome_label": null,
@@ -79496,6 +79503,19 @@
           "hours_elapsed": 1.5
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:BwQva2dXcsG5VZ7fixaWidFqpHUhip8FwAzKSkFsENV8": {
+      "chain": "solana",
+      "pair_address": "BwQva2dXcsG5VZ7fixaWidFqpHUhip8FwAzKSkFsENV8",
+      "symbol": "SC",
+      "tier": "T1",
+      "detection_time": "2026-10-09T00:12:38.201784+00:00",
+      "detection_price": 0.0001714,
+      "detection_liq": 35124.89,
+      "peak_price": 0.0001714,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
