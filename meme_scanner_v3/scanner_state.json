@@ -584842,17 +584842,6 @@
     ],
     "bsc:0x3DC2878f9F60476dbBb18aF7531fbe1A603c8Dc0": [
       {
-        "timestamp": "2026-08-27T14:18:27.104525+00:00",
-        "liquidity": 104102.43,
-        "volume_24h": 323197.48,
-        "vol_liq_ratio": 3.104610334264051,
-        "price_change_6h": -4.21,
-        "safety_score": 10,
-        "price_usd": 0.0002015,
-        "buys_24h": 1523,
-        "sells_24h": 2061
-      },
-      {
         "timestamp": "2026-08-27T16:38:18.561498+00:00",
         "liquidity": 106094.17,
         "volume_24h": 314889.91,
@@ -585060,6 +585049,17 @@
         "price_usd": 0.0002057,
         "buys_24h": 2523,
         "sells_24h": 1174
+      },
+      {
+        "timestamp": "2026-10-09T15:04:40.334230+00:00",
+        "liquidity": 115754.08,
+        "volume_24h": 67071.06,
+        "vol_liq_ratio": 0.5794271787223396,
+        "price_change_6h": 2.88,
+        "safety_score": 9,
+        "price_usd": 0.0002061,
+        "buys_24h": 2869,
+        "sells_24h": 1293
       }
     ],
     "solana:A9M22XmA5g1bQh6tXkUDvJ6PDqvBzudHwaqLToGqPQWn": [
@@ -637480,17 +637480,6 @@
     ],
     "solana:F7Ec4mc9RcRGYFEyHB1gFxJXeGsCo87dELpXNDKa4JZA": [
       {
-        "timestamp": "2026-09-16T12:51:02.491113+00:00",
-        "liquidity": 17916.42,
-        "volume_24h": 83850.06,
-        "vol_liq_ratio": 4.680067781398293,
-        "price_change_6h": -25.2,
-        "safety_score": 8,
-        "price_usd": 4.941e-05,
-        "buys_24h": 1593,
-        "sells_24h": 1246
-      },
-      {
         "timestamp": "2026-09-16T14:42:08.749419+00:00",
         "liquidity": 21206.49,
         "volume_24h": 89803.52,
@@ -637698,6 +637687,17 @@
         "price_usd": 4.179e-05,
         "buys_24h": 286,
         "sells_24h": 187
+      },
+      {
+        "timestamp": "2026-10-09T15:04:42.576728+00:00",
+        "liquidity": 19029.25,
+        "volume_24h": 18626.73,
+        "vol_liq_ratio": 0.9788473008657724,
+        "price_change_6h": 18.03,
+        "safety_score": 9,
+        "price_usd": 4.264e-05,
+        "buys_24h": 338,
+        "sells_24h": 214
       }
     ],
     "solana:4M69UQhHEWs42AqF2r1bvsN9kzQMsge32RsnCkMi1H5y": [
@@ -643677,6 +643677,17 @@
         "volume_24h": 4973.58,
         "vol_liq_ratio": 0.1662677886288502,
         "price_change_6h": -1.11,
+        "safety_score": 8,
+        "price_usd": 8.136e-05,
+        "buys_24h": 55,
+        "sells_24h": 19
+      },
+      {
+        "timestamp": "2026-10-09T15:04:46.826156+00:00",
+        "liquidity": 29913.07,
+        "volume_24h": 4973.58,
+        "vol_liq_ratio": 0.1662677886288502,
+        "price_change_6h": -4.33,
         "safety_score": 8,
         "price_usd": 8.136e-05,
         "buys_24h": 55,
@@ -664561,6 +664572,17 @@
         "price_usd": 9.273e-06,
         "buys_24h": 43,
         "sells_24h": 15
+      },
+      {
+        "timestamp": "2026-10-09T15:04:29.382745+00:00",
+        "liquidity": 0.0,
+        "volume_24h": 1311.47,
+        "vol_liq_ratio": 0,
+        "price_change_6h": 4.68,
+        "safety_score": 8,
+        "price_usd": 1.078e-05,
+        "buys_24h": 34,
+        "sells_24h": 25
       }
     ],
     "solana:9PYormkWiWYAALGWkNNBjSEqKk79HPoRaLgQhMfY4fuv": [
@@ -670869,6 +670891,28 @@
         "price_usd": 0.0001859,
         "buys_24h": 659,
         "sells_24h": 552
+      },
+      {
+        "timestamp": "2026-10-09T15:04:24.398438+00:00",
+        "liquidity": 53371.88,
+        "volume_24h": 67585.67,
+        "vol_liq_ratio": 1.266316082551336,
+        "price_change_6h": 86.7,
+        "safety_score": 10,
+        "price_usd": 0.000243,
+        "buys_24h": 763,
+        "sells_24h": 635
+      },
+      {
+        "timestamp": "2026-10-09T15:04:44.801662+00:00",
+        "liquidity": 53371.88,
+        "volume_24h": 67585.67,
+        "vol_liq_ratio": 1.266316082551336,
+        "price_change_6h": 86.7,
+        "safety_score": 10,
+        "price_usd": 0.000243,
+        "buys_24h": 763,
+        "sells_24h": 635
       }
     ],
     "solana:DR538pGAshWv56uihJck7o6GD4yiDPayD5tP2buX3aVF": [
@@ -676594,6 +676638,17 @@
         "price_usd": 9.751e-05,
         "buys_24h": 100,
         "sells_24h": 59
+      },
+      {
+        "timestamp": "2026-10-09T15:04:25.320898+00:00",
+        "liquidity": 31478.52,
+        "volume_24h": 8320.42,
+        "vol_liq_ratio": 0.26432055890810624,
+        "price_change_6h": 0.86,
+        "safety_score": 9,
+        "price_usd": 0.0001245,
+        "buys_24h": 50,
+        "sells_24h": 42
       }
     ],
     "solana:2cYkH5MLLaUh9K1776DAjQisXo6iAJRdeJJKWqi3A7US": [
@@ -681003,6 +681058,17 @@
         "price_usd": 2.259e-05,
         "buys_24h": 405,
         "sells_24h": 355
+      },
+      {
+        "timestamp": "2026-10-09T15:04:53.588325+00:00",
+        "liquidity": 12216.57,
+        "volume_24h": 23071.57,
+        "vol_liq_ratio": 1.888547276363169,
+        "price_change_6h": 10.5,
+        "safety_score": 9,
+        "price_usd": 2.166e-05,
+        "buys_24h": 396,
+        "sells_24h": 331
       }
     ],
     "solana:ZrPoJGjw3YYwvmqJk6XYo4RW9TiMxawsG9o8HwRbmPe": [
@@ -682349,6 +682415,17 @@
         "price_usd": 0.0001288,
         "buys_24h": 531,
         "sells_24h": 308
+      },
+      {
+        "timestamp": "2026-10-09T15:04:27.202308+00:00",
+        "liquidity": 32969.92,
+        "volume_24h": 19694.83,
+        "vol_liq_ratio": 0.5973575307431744,
+        "price_change_6h": 15.77,
+        "safety_score": 9,
+        "price_usd": 0.0001552,
+        "buys_24h": 700,
+        "sells_24h": 419
       }
     ],
     "base:0xb6b5b355e79fbdf3c14f2f998abde62c0f4379b05aae095056f7d1d4ba2c6ae9": [
@@ -685364,6 +685441,17 @@
         "price_usd": 0.0007496,
         "buys_24h": 1237,
         "sells_24h": 895
+      },
+      {
+        "timestamp": "2026-10-09T15:05:06.850734+00:00",
+        "liquidity": 87112.1,
+        "volume_24h": 363039.08,
+        "vol_liq_ratio": 4.167493149631337,
+        "price_change_6h": 4.41,
+        "safety_score": 10,
+        "price_usd": 0.0007979,
+        "buys_24h": 1342,
+        "sells_24h": 1088
       }
     ],
     "solana:7GnXYByz4K5DXpvCGSr62TyYhtVHSvqzq5hCsa4W2yCX": [
@@ -689179,17 +689267,6 @@
     ],
     "solana:745ATaSSWxvry5qt1XVv9eXuG884hDvNJfvA2o82dNBi": [
       {
-        "timestamp": "2026-10-07T13:24:23.801100+00:00",
-        "liquidity": 47271.01,
-        "volume_24h": 1497382.22,
-        "vol_liq_ratio": 31.67654382675555,
-        "price_change_6h": 9.51,
-        "safety_score": 8,
-        "price_usd": 0.0002405,
-        "buys_24h": 15595,
-        "sells_24h": 14189
-      },
-      {
         "timestamp": "2026-10-07T19:59:06.146278+00:00",
         "liquidity": 72854.48,
         "volume_24h": 1212647.15,
@@ -689397,6 +689474,17 @@
         "price_usd": 0.000569,
         "buys_24h": 32783,
         "sells_24h": 19782
+      },
+      {
+        "timestamp": "2026-10-09T15:04:57.980417+00:00",
+        "liquidity": 71715.62,
+        "volume_24h": 1558572.71,
+        "vol_liq_ratio": 21.732681248520198,
+        "price_change_6h": -20.62,
+        "safety_score": 9,
+        "price_usd": 0.0004814,
+        "buys_24h": 33400,
+        "sells_24h": 20227
       }
     ],
     "solana:G9e6FjtwjtS6HChcKuF8mwRo4KZ1av7Loqvts11FEcdR": [
@@ -694456,6 +694544,17 @@
         "price_usd": 3.621e-05,
         "buys_24h": 1007,
         "sells_24h": 775
+      },
+      {
+        "timestamp": "2026-10-09T15:04:32.642255+00:00",
+        "liquidity": 20237.48,
+        "volume_24h": 17403.44,
+        "vol_liq_ratio": 0.8599608251620261,
+        "price_change_6h": 41.3,
+        "safety_score": 9,
+        "price_usd": 6.291e-05,
+        "buys_24h": 458,
+        "sells_24h": 234
       }
     ],
     "solana:B6JuWD62c7fc8yVvWKwQnUQeF3XPZEXWFuctecg6r9qj": [
@@ -695019,6 +695118,17 @@
         "price_usd": 0.01883,
         "buys_24h": 107,
         "sells_24h": 38
+      },
+      {
+        "timestamp": "2026-10-09T15:04:51.400037+00:00",
+        "liquidity": 13147.01,
+        "volume_24h": 8974.03,
+        "vol_liq_ratio": 0.6825909465346113,
+        "price_change_6h": 3.06,
+        "safety_score": 8,
+        "price_usd": 0.01805,
+        "buys_24h": 94,
+        "sells_24h": 32
       }
     ],
     "solana:2Jt75f3jpm8VynWU5VixMRuWkwf6qULurSesfh7hkpLG": [
@@ -695371,6 +695481,17 @@
         "price_usd": 1.245e-05,
         "buys_24h": 987,
         "sells_24h": 646
+      },
+      {
+        "timestamp": "2026-10-09T15:04:34.100996+00:00",
+        "liquidity": 0.0,
+        "volume_24h": 72619.58,
+        "vol_liq_ratio": 0,
+        "price_change_6h": 31.04,
+        "safety_score": 6,
+        "price_usd": 1.438e-05,
+        "buys_24h": 1015,
+        "sells_24h": 661
       }
     ],
     "ethereum:0x532d388215f7f111c53b7dedb592aab486d241f70d168249c9dc90a5e918fc4b": [
@@ -697295,6 +697416,17 @@
         "price_usd": 2.05e-06,
         "buys_24h": 1474,
         "sells_24h": 1344
+      },
+      {
+        "timestamp": "2026-10-09T15:05:00.198411+00:00",
+        "liquidity": 2107.74,
+        "volume_24h": 236371.65,
+        "vol_liq_ratio": 112.1445956332375,
+        "price_change_6h": -98.65,
+        "safety_score": 9,
+        "price_usd": 2.05e-06,
+        "buys_24h": 1474,
+        "sells_24h": 1344
       }
     ],
     "solana:FusPEfrJiQDXGMyL4ZkXKxVmUFe5HSa7sMvaTjAB7wx2": [
@@ -697330,6 +697462,17 @@
         "price_usd": 3.352e-06,
         "buys_24h": 8809,
         "sells_24h": 6419
+      },
+      {
+        "timestamp": "2026-10-09T15:05:02.472160+00:00",
+        "liquidity": 3596.5,
+        "volume_24h": 1282650.44,
+        "vol_liq_ratio": 356.63852078409565,
+        "price_change_6h": -98.42,
+        "safety_score": 9,
+        "price_usd": 3.415e-06,
+        "buys_24h": 8814,
+        "sells_24h": 6424
       }
     ],
     "solana:4vLbGLm65voFNBq2UQPQixdDHi3wYaWeQdWTURUuGViK": [
@@ -697365,6 +697508,17 @@
         "price_usd": 4.661e-06,
         "buys_24h": 87,
         "sells_24h": 55
+      },
+      {
+        "timestamp": "2026-10-09T15:05:04.647679+00:00",
+        "liquidity": 0.0,
+        "volume_24h": 4130.03,
+        "vol_liq_ratio": 0,
+        "price_change_6h": -19.68,
+        "safety_score": 6,
+        "price_usd": 4.632e-06,
+        "buys_24h": 88,
+        "sells_24h": 56
       }
     ],
     "solana:Cp4FaXT9U4Lki9N27dzHkWeM5Eky5EdZXJipgi71NUD7": [
@@ -697400,6 +697554,17 @@
         "price_usd": 1.988e-05,
         "buys_24h": 3765,
         "sells_24h": 2996
+      },
+      {
+        "timestamp": "2026-10-09T15:05:09.067680+00:00",
+        "liquidity": 9990.51,
+        "volume_24h": 394483.97,
+        "vol_liq_ratio": 39.48586908976618,
+        "price_change_6h": -69.9,
+        "safety_score": 9,
+        "price_usd": 1.737e-05,
+        "buys_24h": 3789,
+        "sells_24h": 3045
       }
     ],
     "solana:LTstqPCtDfe7hK21ozkTPL9nN2FV6bGQ7eqFRCKaxcY": [
@@ -697424,6 +697589,17 @@
         "price_usd": 8.518e-05,
         "buys_24h": 663,
         "sells_24h": 397
+      },
+      {
+        "timestamp": "2026-10-09T15:04:49.172759+00:00",
+        "liquidity": 29811.55,
+        "volume_24h": 12460.65,
+        "vol_liq_ratio": 0.41798061489590443,
+        "price_change_6h": -2.36,
+        "safety_score": 9,
+        "price_usd": 8.451e-05,
+        "buys_24h": 589,
+        "sells_24h": 353
       }
     ],
     "solana:2h59QWesujZ6Tb8dWr9K6ruSjeLk7MRSovLQQVYjigdB": [
@@ -697448,6 +697624,17 @@
         "price_usd": 2.259e-06,
         "buys_24h": 6295,
         "sells_24h": 6042
+      },
+      {
+        "timestamp": "2026-10-09T15:04:55.788771+00:00",
+        "liquidity": 2703.92,
+        "volume_24h": 562341.12,
+        "vol_liq_ratio": 207.9725435663777,
+        "price_change_6h": -98.13,
+        "safety_score": 9,
+        "price_usd": 2.629e-06,
+        "buys_24h": 6309,
+        "sells_24h": 6058
       }
     ],
     "solana:YxtU1GoobqDhTbF96hGonyfAJfJ6xKiAfcG6jUG6y58": [
@@ -697461,6 +697648,17 @@
         "price_usd": 6.496e-05,
         "buys_24h": 222,
         "sells_24h": 109
+      },
+      {
+        "timestamp": "2026-10-09T15:04:36.046787+00:00",
+        "liquidity": 21617.47,
+        "volume_24h": 70471.01,
+        "vol_liq_ratio": 3.259910155998828,
+        "price_change_6h": 48.46,
+        "safety_score": 9,
+        "price_usd": 7.073e-05,
+        "buys_24h": 1236,
+        "sells_24h": 790
       }
     ],
     "bsc:0xE24458492b02f3fdF8f86bf6C2ff594Dac802e31": [
@@ -697474,10 +697672,99 @@
         "price_usd": 3.326e-05,
         "buys_24h": 1013,
         "sells_24h": 675
+      },
+      {
+        "timestamp": "2026-10-09T15:04:38.208248+00:00",
+        "liquidity": 24912.23,
+        "volume_24h": 163680.89,
+        "vol_liq_ratio": 6.570302618432795,
+        "price_change_6h": 308.0,
+        "safety_score": 8,
+        "price_usd": 3.664e-05,
+        "buys_24h": 1085,
+        "sells_24h": 733
+      }
+    ],
+    "solana:9FZmmYVRRBJhhnQmzkG6JRseynXkGhHekeCd43AVMaDo": [
+      {
+        "timestamp": "2026-10-09T15:04:24.093088+00:00",
+        "liquidity": 9079.38,
+        "volume_24h": 19503.4,
+        "vol_liq_ratio": 2.1480982181602712,
+        "price_change_6h": 163.0,
+        "safety_score": 8,
+        "price_usd": 1.504e-05,
+        "buys_24h": 232,
+        "sells_24h": 187
+      }
+    ],
+    "solana:5C915ztXoNLi1KKNE5spGxV6dBEZtGJ9Y5kg3x5EDYr9": [
+      {
+        "timestamp": "2026-10-09T15:04:25.004296+00:00",
+        "liquidity": 17112.73,
+        "volume_24h": 54645.87,
+        "vol_liq_ratio": 3.1932876870026,
+        "price_change_6h": 15.16,
+        "safety_score": 7,
+        "price_usd": 4.687e-05,
+        "buys_24h": 453,
+        "sells_24h": 288
+      }
+    ],
+    "solana:7EFyp2o67aH85CAMLY5xjssHrUvJUcN8YoQkfDeLgePb": [
+      {
+        "timestamp": "2026-10-09T15:04:31.652100+00:00",
+        "liquidity": 41172.41,
+        "volume_24h": 124524.12,
+        "vol_liq_ratio": 3.0244554545143214,
+        "price_change_6h": 17.34,
+        "safety_score": 8,
+        "price_usd": 0.0001646,
+        "buys_24h": 14686,
+        "sells_24h": 12934
+      }
+    ],
+    "solana:etQZHVPoLutAXHpDM2xxvgUJYbc48FdgEa32bYVCvqw": [
+      {
+        "timestamp": "2026-10-09T15:04:32.006045+00:00",
+        "liquidity": 0.0,
+        "volume_24h": 16050.16,
+        "vol_liq_ratio": 0,
+        "price_change_6h": 169.0,
+        "safety_score": 7,
+        "price_usd": 8.417e-06,
+        "buys_24h": 214,
+        "sells_24h": 160
+      }
+    ],
+    "solana:9GBfMSmuMEnjjgqsm9ZDZroecFt7Q5N8XPUN9eGdLgv1": [
+      {
+        "timestamp": "2026-10-09T15:04:32.312340+00:00",
+        "liquidity": 23349.41,
+        "volume_24h": 25092.69,
+        "vol_liq_ratio": 1.0746605588749352,
+        "price_change_6h": 47.77,
+        "safety_score": 7,
+        "price_usd": 7.232e-05,
+        "buys_24h": 225,
+        "sells_24h": 149
+      }
+    ],
+    "bsc:0x669BCc7ae7B20374cF366B730f1260FCdC741E75": [
+      {
+        "timestamp": "2026-10-09T15:04:33.796202+00:00",
+        "liquidity": 13715.55,
+        "volume_24h": 181463.18,
+        "vol_liq_ratio": 13.230470524331873,
+        "price_change_6h": 93.88,
+        "safety_score": 9,
+        "price_usd": 1.518e-05,
+        "buys_24h": 1289,
+        "sells_24h": 1102
       }
     ]
   },
-  "last_scan": "2026-10-09T13:52:59.134448+00:00",
+  "last_scan": "2026-10-09T15:05:26.872852+00:00",
   "narrative_history": {
     "\ud83c\udfb2 Uncategorized": [
       "2026-09-10",
