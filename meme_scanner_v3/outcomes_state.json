@@ -79634,7 +79634,15 @@
       "detection_price": 0.000123,
       "detection_liq": 30567.84,
       "peak_price": 0.000123,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 2.985e-06,
+          "liquidity": 3243.52,
+          "volume_24h": 1282063.41,
+          "captured_at": "2026-10-09T12:02:09.872375+00:00",
+          "hours_elapsed": 2.6
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -79647,6 +79655,27 @@
       "detection_price": 6.286e-05,
       "detection_liq": 20769.45,
       "peak_price": 6.286e-05,
+      "captures": {
+        "price_1h": {
+          "price": 1.925e-05,
+          "liquidity": 10664.29,
+          "volume_24h": 387217.55,
+          "captured_at": "2026-10-09T12:02:09.872375+00:00",
+          "hours_elapsed": 2.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2h59QWesujZ6Tb8dWr9K6ruSjeLk7MRSovLQQVYjigdB": {
+      "chain": "solana",
+      "pair_address": "2h59QWesujZ6Tb8dWr9K6ruSjeLk7MRSovLQQVYjigdB",
+      "symbol": "TRUMPSI",
+      "tier": "T1",
+      "detection_time": "2026-10-09T12:01:50.895056+00:00",
+      "detection_price": 0.0002656,
+      "detection_liq": 44639.58,
+      "peak_price": 0.0002656,
       "captures": {},
       "outcome_label": null,
       "completed": false
