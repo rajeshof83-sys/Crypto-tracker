@@ -79886,6 +79886,13 @@
           "volume_24h": 630995.82,
           "captured_at": "2026-10-10T05:01:55.639603+00:00",
           "hours_elapsed": 9.2
+        },
+        "price_24h": {
+          "price": 9.461e-06,
+          "liquidity": 7058.4,
+          "volume_24h": 94361.78,
+          "captured_at": "2026-10-10T20:32:13.303479+00:00",
+          "hours_elapsed": 24.7
         }
       },
       "outcome_label": null,
@@ -79914,6 +79921,13 @@
           "volume_24h": 408737.12,
           "captured_at": "2026-10-10T05:01:55.639603+00:00",
           "hours_elapsed": 9.2
+        },
+        "price_24h": {
+          "price": 1.857e-05,
+          "liquidity": 10339.13,
+          "volume_24h": 235962.43,
+          "captured_at": "2026-10-10T20:32:13.303479+00:00",
+          "hours_elapsed": 24.7
         }
       },
       "outcome_label": null,
@@ -80154,6 +80168,19 @@
           "hours_elapsed": 1.6
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FkkNXVYbRt22BQEf9mbmSwiW35oiG5ion2QmnAsfvRAt": {
+      "chain": "solana",
+      "pair_address": "FkkNXVYbRt22BQEf9mbmSwiW35oiG5ion2QmnAsfvRAt",
+      "symbol": "QT",
+      "tier": "T2",
+      "detection_time": "2026-10-10T20:32:03.781327+00:00",
+      "detection_price": 0.0008204,
+      "detection_liq": 79647.59,
+      "peak_price": 0.0008204,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
