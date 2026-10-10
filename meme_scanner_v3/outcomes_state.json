@@ -79872,7 +79872,15 @@
       "detection_price": 0.0001345,
       "detection_liq": 31320.73,
       "peak_price": 0.0001345,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 2.097e-06,
+          "liquidity": 2235.93,
+          "volume_24h": 624697.53,
+          "captured_at": "2026-10-10T01:08:46.325688+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -79885,7 +79893,15 @@
       "detection_price": 9.723e-05,
       "detection_liq": 25787.8,
       "peak_price": 9.723e-05,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 7.12e-05,
+          "liquidity": 21850.91,
+          "volume_24h": 359361.42,
+          "captured_at": "2026-10-10T01:08:46.325688+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -79898,6 +79914,27 @@
       "detection_price": 9.541e-05,
       "detection_liq": 26188.23,
       "peak_price": 9.541e-05,
+      "captures": {
+        "price_1h": {
+          "price": 8.344e-05,
+          "liquidity": 24459.64,
+          "volume_24h": 566173.83,
+          "captured_at": "2026-10-10T01:08:46.325688+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7RGMvPcURomfyBwW5DHQ7fiFMs4NQ2FucER3ef5iWrs9": {
+      "chain": "solana",
+      "pair_address": "7RGMvPcURomfyBwW5DHQ7fiFMs4NQ2FucER3ef5iWrs9",
+      "symbol": "CATFLIX",
+      "tier": "T2",
+      "detection_time": "2026-10-10T01:08:39.010834+00:00",
+      "detection_price": 0.0008165,
+      "detection_liq": 79867.73,
+      "peak_price": 0.0008165,
       "captures": {},
       "outcome_label": null,
       "completed": false
