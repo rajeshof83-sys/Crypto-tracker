@@ -80422,6 +80422,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:C5okyQBfcdyUqogN2fFFMMyR7PdEZW17vdnBqQMuxW4U": {
+      "chain": "solana",
+      "pair_address": "C5okyQBfcdyUqogN2fFFMMyR7PdEZW17vdnBqQMuxW4U",
+      "symbol": "DOGEPAY",
+      "tier": "T1",
+      "detection_time": "2026-10-11T23:52:10.326967+00:00",
+      "detection_price": 0.000297,
+      "detection_liq": 47510.1,
+      "peak_price": 0.000297,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3yvBGUSj2cPmtMJHVBPJCJUVNE1nLB463JZxTwjQKqro": {
+      "chain": "solana",
+      "pair_address": "3yvBGUSj2cPmtMJHVBPJCJUVNE1nLB463JZxTwjQKqro",
+      "symbol": "trenchcat",
+      "tier": "T1",
+      "detection_time": "2026-10-11T23:52:12.779049+00:00",
+      "detection_price": 0.0001261,
+      "detection_liq": 32309.61,
+      "peak_price": 0.0001261,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
