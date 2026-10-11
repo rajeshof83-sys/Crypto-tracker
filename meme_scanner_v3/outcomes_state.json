@@ -78262,10 +78262,17 @@
           "volume_24h": 105239.2,
           "captured_at": "2026-10-05T09:04:33.774826+00:00",
           "hours_elapsed": 24.2
+        },
+        "price_7d": {
+          "price": 1.172e-05,
+          "liquidity": 9137.08,
+          "volume_24h": 1602.45,
+          "captured_at": "2026-10-11T09:12:39.315357+00:00",
+          "hours_elapsed": 168.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "winner",
+      "completed": true
     },
     "bsc:0x6608c1D744634064FDc223417B4ac74C625FEc2a": {
       "chain": "bsc",
