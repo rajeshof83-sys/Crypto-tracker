@@ -80446,6 +80446,13 @@
           "volume_24h": 1147995.21,
           "captured_at": "2026-10-12T02:10:43.605920+00:00",
           "hours_elapsed": 2.3
+        },
+        "price_6h": {
+          "price": 2.374e-06,
+          "liquidity": 2607.92,
+          "volume_24h": 1147995.32,
+          "captured_at": "2026-10-12T06:16:50.833753+00:00",
+          "hours_elapsed": 6.4
         }
       },
       "outcome_label": null,
@@ -80467,6 +80474,13 @@
           "volume_24h": 1053558.18,
           "captured_at": "2026-10-12T02:10:43.605920+00:00",
           "hours_elapsed": 2.3
+        },
+        "price_6h": {
+          "price": 0.0001139,
+          "liquidity": 31076.7,
+          "volume_24h": 1104229.89,
+          "captured_at": "2026-10-12T06:16:50.833753+00:00",
+          "hours_elapsed": 6.4
         }
       },
       "outcome_label": null,
@@ -80481,6 +80495,27 @@
       "detection_price": 0.0002952,
       "detection_liq": 47219.96,
       "peak_price": 0.0002952,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002207,
+          "liquidity": 41282.13,
+          "volume_24h": 819853.73,
+          "captured_at": "2026-10-12T06:16:50.833753+00:00",
+          "hours_elapsed": 4.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "bsc:0x580C2086df353F707C85719F561Bb23e141898f5": {
+      "chain": "bsc",
+      "pair_address": "0x580C2086df353F707C85719F561Bb23e141898f5",
+      "symbol": "\ubf40\ub85c\ub85c",
+      "tier": "T1",
+      "detection_time": "2026-10-12T06:16:43.049001+00:00",
+      "detection_price": 0.0001114,
+      "detection_liq": 35094.86,
+      "peak_price": 0.0001114,
       "captures": {},
       "outcome_label": null,
       "completed": false
