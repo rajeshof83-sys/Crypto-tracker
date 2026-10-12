@@ -78647,10 +78647,17 @@
           "volume_24h": 312694.89,
           "captured_at": "2026-10-06T20:04:57.782385+00:00",
           "hours_elapsed": 24.7
+        },
+        "price_7d": {
+          "price": 3.244e-05,
+          "liquidity": 15667.65,
+          "volume_24h": 5166.32,
+          "captured_at": "2026-10-12T19:25:01.687959+00:00",
+          "hours_elapsed": 168.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "winner",
+      "completed": true
     },
     "solana:HNhq9ZFywxceKsNqH6e7h9446tEQwVsu4YwzxxC9VzCt": {
       "chain": "solana",
@@ -80558,6 +80565,53 @@
       "detection_price": 8.245e-05,
       "detection_liq": 26143.42,
       "peak_price": 8.245e-05,
+      "captures": {
+        "price_1h": {
+          "price": 1.071e-05,
+          "liquidity": 9190.49,
+          "volume_24h": 340651.08,
+          "captured_at": "2026-10-12T19:25:01.687959+00:00",
+          "hours_elapsed": 3.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2J7Ejmcq4aDhJdSVA2ki3J3Hqq3hPW5QwhJhBAvjWr5D": {
+      "chain": "solana",
+      "pair_address": "2J7Ejmcq4aDhJdSVA2ki3J3Hqq3hPW5QwhJhBAvjWr5D",
+      "symbol": "MARSINU",
+      "tier": "T1",
+      "detection_time": "2026-10-12T19:24:48.402337+00:00",
+      "detection_price": 0.0002281,
+      "detection_liq": 40550.63,
+      "peak_price": 0.0002281,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:BH3Y39QvZmufKtWDS6MgU82F9B3sWecsFD6nHLcr4zwd": {
+      "chain": "solana",
+      "pair_address": "BH3Y39QvZmufKtWDS6MgU82F9B3sWecsFD6nHLcr4zwd",
+      "symbol": "COINPUTER",
+      "tier": "T1",
+      "detection_time": "2026-10-12T19:24:51.639960+00:00",
+      "detection_price": 0.0002168,
+      "detection_liq": 39512.91,
+      "peak_price": 0.0002168,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EFdGSX5rBfVFmtqqPiiDZiArpede653mNWfvx3Tig8wC": {
+      "chain": "solana",
+      "pair_address": "EFdGSX5rBfVFmtqqPiiDZiArpede653mNWfvx3Tig8wC",
+      "symbol": "ALIVE",
+      "tier": "T1",
+      "detection_time": "2026-10-12T19:24:55.532908+00:00",
+      "detection_price": 9.957e-05,
+      "detection_liq": 27334.88,
+      "peak_price": 9.957e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
