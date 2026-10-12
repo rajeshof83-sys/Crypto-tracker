@@ -80418,10 +80418,17 @@
           "volume_24h": 683635.31,
           "captured_at": "2026-10-11T06:54:22.773191+00:00",
           "hours_elapsed": 6.7
+        },
+        "price_24h": {
+          "price": 2.26e-06,
+          "liquidity": 2420.06,
+          "volume_24h": 57.65,
+          "captured_at": "2026-10-12T02:10:43.605920+00:00",
+          "hours_elapsed": 26.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:C5okyQBfcdyUqogN2fFFMMyR7PdEZW17vdnBqQMuxW4U": {
       "chain": "solana",
@@ -80432,7 +80439,15 @@
       "detection_price": 0.000297,
       "detection_liq": 47510.1,
       "peak_price": 0.000297,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 2.343e-06,
+          "liquidity": 2574.58,
+          "volume_24h": 1147995.21,
+          "captured_at": "2026-10-12T02:10:43.605920+00:00",
+          "hours_elapsed": 2.3
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -80445,6 +80460,27 @@
       "detection_price": 0.0001261,
       "detection_liq": 32309.61,
       "peak_price": 0.0001261,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001183,
+          "liquidity": 31460.84,
+          "volume_24h": 1053558.18,
+          "captured_at": "2026-10-12T02:10:43.605920+00:00",
+          "hours_elapsed": 2.3
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2JU6tUmem5LrSA3SNpTrSYjqGysjqTgs4RwX858sVN3A": {
+      "chain": "solana",
+      "pair_address": "2JU6tUmem5LrSA3SNpTrSYjqGysjqTgs4RwX858sVN3A",
+      "symbol": "GOMODOGE",
+      "tier": "T1",
+      "detection_time": "2026-10-12T02:10:36.123716+00:00",
+      "detection_price": 0.0002952,
+      "detection_liq": 47219.96,
+      "peak_price": 0.0002952,
       "captures": {},
       "outcome_label": null,
       "completed": false
