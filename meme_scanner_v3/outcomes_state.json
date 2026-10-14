@@ -81068,8 +81068,16 @@
       "detection_time": "2026-10-14T18:23:49.489356+00:00",
       "detection_price": 0.000196,
       "detection_liq": 38555.48,
-      "peak_price": 0.000196,
-      "captures": {},
+      "peak_price": 0.0002117,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002117,
+          "liquidity": 40303.46,
+          "volume_24h": 1163332.72,
+          "captured_at": "2026-10-14T19:34:29.852577+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -81081,7 +81089,28 @@
       "detection_time": "2026-10-14T18:23:52.801976+00:00",
       "detection_price": 8.72e-05,
       "detection_liq": 22942.21,
-      "peak_price": 8.72e-05,
+      "peak_price": 0.0003499,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003499,
+          "liquidity": 46104.33,
+          "volume_24h": 320841.52,
+          "captured_at": "2026-10-14T19:34:29.852577+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8pyKurKSjLwAG3D2csXuvtJcvAR3jSrzA9m5ShQPBdJq": {
+      "chain": "solana",
+      "pair_address": "8pyKurKSjLwAG3D2csXuvtJcvAR3jSrzA9m5ShQPBdJq",
+      "symbol": "REVERSO",
+      "tier": "T1",
+      "detection_time": "2026-10-14T19:34:17.489432+00:00",
+      "detection_price": 0.0001018,
+      "detection_liq": 26629.04,
+      "peak_price": 0.0001018,
       "captures": {},
       "outcome_label": null,
       "completed": false
