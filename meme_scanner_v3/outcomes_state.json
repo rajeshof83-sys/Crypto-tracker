@@ -80957,10 +80957,17 @@
           "volume_24h": 85150.72,
           "captured_at": "2026-10-14T00:39:32.024940+00:00",
           "hours_elapsed": 7.0
+        },
+        "price_24h": {
+          "price": 1.69e-22,
+          "liquidity": 156.25,
+          "volume_24h": 137.17,
+          "captured_at": "2026-10-14T18:24:00.398010+00:00",
+          "hours_elapsed": 24.8
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:4n7RLQG2ubXQTnCUWyhcxQVSz7wDaRMX12i8P6DVNcpZ": {
       "chain": "solana",
@@ -81043,6 +81050,32 @@
           "hours_elapsed": 6.6
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AmJYXEDj5Q9BJscXMXXnDcNKrT39ZX4JqZ9NWp8hudrn": {
+      "chain": "solana",
+      "pair_address": "AmJYXEDj5Q9BJscXMXXnDcNKrT39ZX4JqZ9NWp8hudrn",
+      "symbol": "DIKSHIT",
+      "tier": "T1",
+      "detection_time": "2026-10-14T18:23:49.489356+00:00",
+      "detection_price": 0.000196,
+      "detection_liq": 38555.48,
+      "peak_price": 0.000196,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8sAcR5tMPmuFK8KcGGBxHZ517Yqg1M2xj2JCA7BzpCuT": {
+      "chain": "solana",
+      "pair_address": "8sAcR5tMPmuFK8KcGGBxHZ517Yqg1M2xj2JCA7BzpCuT",
+      "symbol": "1EDGE",
+      "tier": "T1",
+      "detection_time": "2026-10-14T18:23:52.801976+00:00",
+      "detection_price": 8.72e-05,
+      "detection_liq": 22942.21,
+      "peak_price": 8.72e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
