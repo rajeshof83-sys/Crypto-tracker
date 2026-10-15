@@ -81181,10 +81181,17 @@
           "volume_24h": 300585.82,
           "captured_at": "2026-10-15T04:58:34.821258+00:00",
           "hours_elapsed": 9.4
+        },
+        "price_24h": {
+          "price": 2.716e-06,
+          "liquidity": 2752.02,
+          "volume_24h": 31513.31,
+          "captured_at": "2026-10-15T20:21:35.069766+00:00",
+          "hours_elapsed": 24.8
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:2Qzh29yjEcKzXYpBo9sa2KD25WsuxHqCvSLcAZtgTnaS": {
       "chain": "solana",
