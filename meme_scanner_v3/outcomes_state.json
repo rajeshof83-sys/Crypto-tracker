@@ -81237,6 +81237,27 @@
       "detection_price": 0.0008845,
       "detection_liq": 102262.13,
       "peak_price": 0.0008845,
+      "captures": {
+        "price_1h": {
+          "price": 0.0007472,
+          "liquidity": 95673.78,
+          "volume_24h": 473725.91,
+          "captured_at": "2026-10-15T17:01:58.963468+00:00",
+          "hours_elapsed": 1.9
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GHfRSdC54YLVwRWN83EvKkENh2ahyAMMfv1tQN1fiKDh": {
+      "chain": "solana",
+      "pair_address": "GHfRSdC54YLVwRWN83EvKkENh2ahyAMMfv1tQN1fiKDh",
+      "symbol": "DADOGE",
+      "tier": "T1",
+      "detection_time": "2026-10-15T17:01:47.016065+00:00",
+      "detection_price": 0.0003338,
+      "detection_liq": 49388.97,
+      "peak_price": 0.0003338,
       "captures": {},
       "outcome_label": null,
       "completed": false
