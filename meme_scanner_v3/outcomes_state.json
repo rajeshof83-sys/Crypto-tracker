@@ -81258,6 +81258,27 @@
       "detection_price": 0.0003338,
       "detection_liq": 49388.97,
       "peak_price": 0.0003338,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001152,
+          "liquidity": 28923.1,
+          "volume_24h": 1136859.86,
+          "captured_at": "2026-10-15T18:06:31.017221+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7n3BMktqd2sJTkrpJSkxfpVKrmUybwLqWC8FCQq6oe7M": {
+      "chain": "solana",
+      "pair_address": "7n3BMktqd2sJTkrpJSkxfpVKrmUybwLqWC8FCQq6oe7M",
+      "symbol": "$OTCATWALK",
+      "tier": "T1",
+      "detection_time": "2026-10-15T18:06:19.418070+00:00",
+      "detection_price": 0.0002628,
+      "detection_liq": 44622.72,
+      "peak_price": 0.0002628,
       "captures": {},
       "outcome_label": null,
       "completed": false
