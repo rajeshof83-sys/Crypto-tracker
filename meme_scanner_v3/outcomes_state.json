@@ -81265,6 +81265,13 @@
           "volume_24h": 473725.91,
           "captured_at": "2026-10-15T17:01:58.963468+00:00",
           "hours_elapsed": 1.9
+        },
+        "price_6h": {
+          "price": 0.0007219,
+          "liquidity": 96090.42,
+          "volume_24h": 394462.94,
+          "captured_at": "2026-10-15T22:01:09.936931+00:00",
+          "hours_elapsed": 6.8
         }
       },
       "outcome_label": null,
@@ -81309,6 +81316,19 @@
           "hours_elapsed": 1.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AW1NPKi2JC6zw17hUv4GttiMDECoengd6eWG62WRusFy": {
+      "chain": "solana",
+      "pair_address": "AW1NPKi2JC6zw17hUv4GttiMDECoengd6eWG62WRusFy",
+      "symbol": "Starman",
+      "tier": "T1",
+      "detection_time": "2026-10-15T22:00:52.592412+00:00",
+      "detection_price": 0.0004903,
+      "detection_liq": 60101.42,
+      "peak_price": 0.0004903,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
