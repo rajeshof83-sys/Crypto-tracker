@@ -81216,6 +81216,13 @@
           "volume_24h": 900052.93,
           "captured_at": "2026-10-15T07:08:55.353704+00:00",
           "hours_elapsed": 6.6
+        },
+        "price_24h": {
+          "price": 2.466e-05,
+          "liquidity": 12926.91,
+          "volume_24h": 389693.03,
+          "captured_at": "2026-10-16T01:35:44.904642+00:00",
+          "hours_elapsed": 25.0
         }
       },
       "outcome_label": null,
@@ -81363,6 +81370,27 @@
       "detection_price": 0.0001419,
       "detection_liq": 30996.15,
       "peak_price": 0.0001419,
+      "captures": {
+        "price_1h": {
+          "price": 5.077e-05,
+          "liquidity": 18561.94,
+          "volume_24h": 356655.98,
+          "captured_at": "2026-10-16T01:35:44.904642+00:00",
+          "hours_elapsed": 1.4
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9iYHxmWTDtQszSkx1Kc6MBkcpu6wncwkbYvbAYi3oc2E": {
+      "chain": "solana",
+      "pair_address": "9iYHxmWTDtQszSkx1Kc6MBkcpu6wncwkbYvbAYi3oc2E",
+      "symbol": "grokazon",
+      "tier": "T1",
+      "detection_time": "2026-10-16T01:35:37.734239+00:00",
+      "detection_price": 0.0001096,
+      "detection_liq": 27438.0,
+      "peak_price": 0.0001096,
       "captures": {},
       "outcome_label": null,
       "completed": false
