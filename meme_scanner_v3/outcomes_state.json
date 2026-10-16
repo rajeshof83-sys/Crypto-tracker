@@ -81321,6 +81321,13 @@
           "volume_24h": 1593916.86,
           "captured_at": "2026-10-15T19:18:49.918032+00:00",
           "hours_elapsed": 1.2
+        },
+        "price_6h": {
+          "price": 2.437e-06,
+          "liquidity": 2692.55,
+          "volume_24h": 1593920.8,
+          "captured_at": "2026-10-16T00:09:30.621784+00:00",
+          "hours_elapsed": 6.1
         }
       },
       "outcome_label": null,
@@ -81344,6 +81351,19 @@
           "hours_elapsed": 1.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4NbxvcDGHifLLaLoEJffaDqhQQAF4eZBgo3j8b57B7ve": {
+      "chain": "solana",
+      "pair_address": "4NbxvcDGHifLLaLoEJffaDqhQQAF4eZBgo3j8b57B7ve",
+      "symbol": "FINUL",
+      "tier": "T1",
+      "detection_time": "2026-10-16T00:09:20.682331+00:00",
+      "detection_price": 0.0001419,
+      "detection_liq": 30996.15,
+      "peak_price": 0.0001419,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
