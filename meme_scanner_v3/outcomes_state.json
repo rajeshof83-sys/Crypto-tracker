@@ -80012,10 +80012,17 @@
           "volume_24h": 31037.16,
           "captured_at": "2026-10-10T17:52:44.687524+00:00",
           "hours_elapsed": 25.4
+        },
+        "price_7d": {
+          "price": 6.535e-05,
+          "liquidity": 22018.04,
+          "volume_24h": 14708.04,
+          "captured_at": "2026-10-16T16:52:36.162798+00:00",
+          "hours_elapsed": 168.4
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:DsfGm497pwzuVqrTLRzZTRpW8dSS78aJCxouv7Ct9aCh": {
       "chain": "solana",
@@ -81498,6 +81505,32 @@
           "hours_elapsed": 2.9
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GKVfZiv4EUNViMRfUejEn5QJN29oXGCyk7FY2iUv3bGi": {
+      "chain": "solana",
+      "pair_address": "GKVfZiv4EUNViMRfUejEn5QJN29oXGCyk7FY2iUv3bGi",
+      "symbol": "Pepper",
+      "tier": "T2",
+      "detection_time": "2026-10-16T16:52:24.003719+00:00",
+      "detection_price": 0.001195,
+      "detection_liq": 114931.15,
+      "peak_price": 0.001195,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HoLeDRmwBeaYVy51iVsw9nepo5hpeof4HgccxWAUiBGW": {
+      "chain": "solana",
+      "pair_address": "HoLeDRmwBeaYVy51iVsw9nepo5hpeof4HgccxWAUiBGW",
+      "symbol": "SR",
+      "tier": "T1",
+      "detection_time": "2026-10-16T16:52:27.497145+00:00",
+      "detection_price": 0.0005932,
+      "detection_liq": 65897.68,
+      "peak_price": 0.0005932,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
