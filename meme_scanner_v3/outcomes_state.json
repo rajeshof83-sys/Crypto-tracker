@@ -81818,6 +81818,13 @@
           "volume_24h": 436758.29,
           "captured_at": "2026-10-17T04:47:00.239192+00:00",
           "hours_elapsed": 6.7
+        },
+        "price_24h": {
+          "price": 9.789e-05,
+          "liquidity": 25729.47,
+          "volume_24h": 72748.68,
+          "captured_at": "2026-10-17T22:19:58.781146+00:00",
+          "hours_elapsed": 24.2
         }
       },
       "outcome_label": null,
@@ -81925,6 +81932,32 @@
           "hours_elapsed": 1.9
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:334GmnHZmUU15vzsnj7jnTm42DpXjiUXzQ7vDcZhbgu8": {
+      "chain": "solana",
+      "pair_address": "334GmnHZmUU15vzsnj7jnTm42DpXjiUXzQ7vDcZhbgu8",
+      "symbol": "Chaton",
+      "tier": "T1",
+      "detection_time": "2026-10-17T22:19:43.844370+00:00",
+      "detection_price": 0.0004979,
+      "detection_liq": 60657.73,
+      "peak_price": 0.0004979,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:ALNPAbQbgLApREFRDuJoBYJNvKePHbL7Lu6ru7zTeL85": {
+      "chain": "solana",
+      "pair_address": "ALNPAbQbgLApREFRDuJoBYJNvKePHbL7Lu6ru7zTeL85",
+      "symbol": "CAPE",
+      "tier": "T2",
+      "detection_time": "2026-10-17T22:19:46.629033+00:00",
+      "detection_price": 0.0001405,
+      "detection_liq": 33026.09,
+      "peak_price": 0.0001405,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
