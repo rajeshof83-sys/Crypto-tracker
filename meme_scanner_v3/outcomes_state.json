@@ -81587,6 +81587,13 @@
           "volume_24h": 839029.35,
           "captured_at": "2026-10-16T18:49:30.794759+00:00",
           "hours_elapsed": 6.9
+        },
+        "price_24h": {
+          "price": 3.204e-05,
+          "liquidity": 13801.96,
+          "volume_24h": 127886.04,
+          "captured_at": "2026-10-17T13:50:37.345660+00:00",
+          "hours_elapsed": 25.9
         }
       },
       "outcome_label": null,
@@ -81806,6 +81813,19 @@
           "hours_elapsed": 1.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HErYH7bfYntTKXfkpv7GkghryTpw57X6SPsBUi7pepKL": {
+      "chain": "solana",
+      "pair_address": "HErYH7bfYntTKXfkpv7GkghryTpw57X6SPsBUi7pepKL",
+      "symbol": "OP",
+      "tier": "T2",
+      "detection_time": "2026-10-17T13:50:29.261023+00:00",
+      "detection_price": 5.981e-05,
+      "detection_liq": 19829.83,
+      "peak_price": 5.981e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
