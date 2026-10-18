@@ -82112,7 +82112,15 @@
       "detection_price": 6.748e-05,
       "detection_liq": 20802.07,
       "peak_price": 6.748e-05,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 2.267e-06,
+          "liquidity": 2366.56,
+          "volume_24h": 310967.36,
+          "captured_at": "2026-10-18T19:19:24.308960+00:00",
+          "hours_elapsed": 1.9
+        }
+      },
       "outcome_label": null,
       "completed": false
     }
