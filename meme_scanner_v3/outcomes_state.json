@@ -82090,8 +82090,16 @@
       "detection_time": "2026-10-18T16:28:44.512395+00:00",
       "detection_price": 9.575e-05,
       "detection_liq": 26517.69,
-      "peak_price": 9.575e-05,
-      "captures": {},
+      "peak_price": 0.0001312,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001312,
+          "liquidity": 31396.73,
+          "volume_24h": 695676.34,
+          "captured_at": "2026-10-18T18:13:54.447531+00:00",
+          "hours_elapsed": 1.8
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
