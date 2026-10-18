@@ -82140,7 +82140,15 @@
       "detection_price": 8.699e-05,
       "detection_liq": 23537.98,
       "peak_price": 8.699e-05,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 6.167e-05,
+          "liquidity": 19782.43,
+          "volume_24h": 357926.37,
+          "captured_at": "2026-10-18T21:46:33.235982+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
       "outcome_label": null,
       "completed": false
     }
