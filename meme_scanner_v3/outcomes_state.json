@@ -82245,6 +82245,27 @@
       "detection_price": 6.019e-05,
       "detection_liq": 20240.08,
       "peak_price": 6.019e-05,
+      "captures": {
+        "price_1h": {
+          "price": 2.319e-06,
+          "liquidity": 2505.75,
+          "volume_24h": 670692.13,
+          "captured_at": "2026-10-19T06:15:21.671873+00:00",
+          "hours_elapsed": 1.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CqrNXPDarHZEksSiTFbBaVvVJrJLtBRbpUZRudURhssu": {
+      "chain": "solana",
+      "pair_address": "CqrNXPDarHZEksSiTFbBaVvVJrJLtBRbpUZRudURhssu",
+      "symbol": "LSCW",
+      "tier": "T1",
+      "detection_time": "2026-10-19T06:15:10.771485+00:00",
+      "detection_price": 0.000112,
+      "detection_liq": 27770.3,
+      "peak_price": 0.000112,
       "captures": {},
       "outcome_label": null,
       "completed": false
