@@ -82364,6 +82364,13 @@
           "volume_24h": 99223.8,
           "captured_at": "2026-10-19T15:01:31.911785+00:00",
           "hours_elapsed": 2.5
+        },
+        "price_6h": {
+          "price": 5.923e-05,
+          "liquidity": 20267.7,
+          "volume_24h": 82041.62,
+          "captured_at": "2026-10-19T19:08:43.084980+00:00",
+          "hours_elapsed": 6.6
         }
       },
       "outcome_label": null,
@@ -82378,6 +82385,27 @@
       "detection_price": 0.0006235,
       "detection_liq": 70670.91,
       "peak_price": 0.0006235,
+      "captures": {
+        "price_1h": {
+          "price": 0.0005704,
+          "liquidity": 67437.58,
+          "volume_24h": 1092997.15,
+          "captured_at": "2026-10-19T19:08:43.084980+00:00",
+          "hours_elapsed": 2.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HxpAghxcjfymaDagAudiTWGVJ4k6A4x8LJRsaHahE7KY": {
+      "chain": "solana",
+      "pair_address": "HxpAghxcjfymaDagAudiTWGVJ4k6A4x8LJRsaHahE7KY",
+      "symbol": "SNACKS",
+      "tier": "T1",
+      "detection_time": "2026-10-19T19:08:35.657894+00:00",
+      "detection_price": 0.0003504,
+      "detection_liq": 51707.12,
+      "peak_price": 0.0003504,
       "captures": {},
       "outcome_label": null,
       "completed": false
