@@ -82587,8 +82587,16 @@
       "detection_time": "2026-10-20T17:26:22.620113+00:00",
       "detection_price": 0.00011,
       "detection_liq": 28043.66,
-      "peak_price": 0.00011,
-      "captures": {},
+      "peak_price": 0.0001251,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001251,
+          "liquidity": 30126.11,
+          "volume_24h": 361010.71,
+          "captured_at": "2026-10-20T18:28:55.572341+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -82601,6 +82609,53 @@
       "detection_price": 0.0003981,
       "detection_liq": 57243.13,
       "peak_price": 0.0003981,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003659,
+          "liquidity": 54769.09,
+          "volume_24h": 241699.25,
+          "captured_at": "2026-10-20T18:28:55.572341+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "ethereum:0x78aea8ec8ff19f6bb49dfe74deeee9b0cfcbc1b5333486a4a56cd1604a4a4a4a": {
+      "chain": "ethereum",
+      "pair_address": "0x78aea8ec8ff19f6bb49dfe74deeee9b0cfcbc1b5333486a4a56cd1604a4a4a4a",
+      "symbol": "DEFERENCE",
+      "tier": "T1",
+      "detection_time": "2026-10-20T18:28:41.839291+00:00",
+      "detection_price": 0.0001477,
+      "detection_liq": 34646.57,
+      "peak_price": 0.0001477,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CBF3pvJBtKaveUQoAVM2rs2sWgUyYxqacMuf5Hjb1oSg": {
+      "chain": "solana",
+      "pair_address": "CBF3pvJBtKaveUQoAVM2rs2sWgUyYxqacMuf5Hjb1oSg",
+      "symbol": "DACITY",
+      "tier": "T1",
+      "detection_time": "2026-10-20T18:28:44.886365+00:00",
+      "detection_price": 7.165e-05,
+      "detection_liq": 21884.6,
+      "peak_price": 7.165e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6LUerSVtNqSbHhTXJtR346RvoUaZhtZbTwZvrBTN1LLJ": {
+      "chain": "solana",
+      "pair_address": "6LUerSVtNqSbHhTXJtR346RvoUaZhtZbTwZvrBTN1LLJ",
+      "symbol": "EVYN",
+      "tier": "T2",
+      "detection_time": "2026-10-20T18:28:47.345401+00:00",
+      "detection_price": 0.0001199,
+      "detection_liq": 28325.18,
+      "peak_price": 0.0001199,
       "captures": {},
       "outcome_label": null,
       "completed": false
