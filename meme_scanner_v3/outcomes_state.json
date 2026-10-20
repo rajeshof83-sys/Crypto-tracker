@@ -80978,10 +80978,17 @@
           "volume_24h": 64525.64,
           "captured_at": "2026-10-14T05:10:07.643929+00:00",
           "hours_elapsed": 25.4
+        },
+        "price_7d": {
+          "price": 3.919e-06,
+          "liquidity": 3999.83,
+          "volume_24h": 202.84,
+          "captured_at": "2026-10-20T04:04:50.160901+00:00",
+          "hours_elapsed": 168.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:GkHQ1oBfjDsZ65ydm5xjpjBEA8aDck88viCWtnum8iYX": {
       "chain": "solana",
@@ -82462,6 +82469,27 @@
       "detection_price": 0.0004132,
       "detection_liq": 55468.79,
       "peak_price": 0.0004132,
+      "captures": {
+        "price_1h": {
+          "price": 2.156e-06,
+          "liquidity": 2442.38,
+          "volume_24h": 2091773.22,
+          "captured_at": "2026-10-20T04:04:50.160901+00:00",
+          "hours_elapsed": 2.9
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:BYFpqnfqqs2wYZgX3Vxm6V5Hk8PE6FJi62MtyKz5Hp2D": {
+      "chain": "solana",
+      "pair_address": "BYFpqnfqqs2wYZgX3Vxm6V5Hk8PE6FJi62MtyKz5Hp2D",
+      "symbol": "DUST",
+      "tier": "T1",
+      "detection_time": "2026-10-20T04:04:39.134440+00:00",
+      "detection_price": 0.0001535,
+      "detection_liq": 32889.61,
+      "peak_price": 0.0001535,
       "captures": {},
       "outcome_label": null,
       "completed": false
