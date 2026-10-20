@@ -82343,10 +82343,17 @@
           "volume_24h": 670731.39,
           "captured_at": "2026-10-19T11:04:07.636222+00:00",
           "hours_elapsed": 6.0
+        },
+        "price_24h": {
+          "price": 2.352e-06,
+          "liquidity": 2534.85,
+          "volume_24h": 57529.52,
+          "captured_at": "2026-10-20T05:05:27.935695+00:00",
+          "hours_elapsed": 24.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:CqrNXPDarHZEksSiTFbBaVvVJrJLtBRbpUZRudURhssu": {
       "chain": "solana",
@@ -82489,7 +82496,28 @@
       "detection_time": "2026-10-20T04:04:39.134440+00:00",
       "detection_price": 0.0001535,
       "detection_liq": 32889.61,
-      "peak_price": 0.0001535,
+      "peak_price": 0.0002107,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002107,
+          "liquidity": 38786.82,
+          "volume_24h": 430607.32,
+          "captured_at": "2026-10-20T05:05:27.935695+00:00",
+          "hours_elapsed": 1.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4SL4sitZUAWzgSTKNx8XyEtRCMt8RyvMvfSmXKpgkoH1": {
+      "chain": "solana",
+      "pair_address": "4SL4sitZUAWzgSTKNx8XyEtRCMt8RyvMvfSmXKpgkoH1",
+      "symbol": "TROAD",
+      "tier": "T1",
+      "detection_time": "2026-10-20T05:05:17.469358+00:00",
+      "detection_price": 0.0001064,
+      "detection_liq": 26796.47,
+      "peak_price": 0.0001064,
       "captures": {},
       "outcome_label": null,
       "completed": false
