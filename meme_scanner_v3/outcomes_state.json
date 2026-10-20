@@ -81055,10 +81055,17 @@
           "volume_24h": 145521.77,
           "captured_at": "2026-10-14T13:26:42.910714+00:00",
           "hours_elapsed": 25.4
+        },
+        "price_7d": {
+          "price": 1.242e-05,
+          "liquidity": 9742.13,
+          "volume_24h": 1916.29,
+          "captured_at": "2026-10-20T13:34:27.932863+00:00",
+          "hours_elapsed": 169.5
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "bsc:0x767f360987Dd81E8Ce9fde0e5c8C67c4F1BFcBEb": {
       "chain": "bsc",
@@ -82413,6 +82420,13 @@
           "volume_24h": 82041.62,
           "captured_at": "2026-10-19T19:08:43.084980+00:00",
           "hours_elapsed": 6.6
+        },
+        "price_24h": {
+          "price": 7.724e-05,
+          "liquidity": 23540.63,
+          "volume_24h": 82805.19,
+          "captured_at": "2026-10-20T13:34:27.932863+00:00",
+          "hours_elapsed": 25.0
         }
       },
       "outcome_label": null,
