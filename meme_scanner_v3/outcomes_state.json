@@ -82455,6 +82455,13 @@
           "volume_24h": 1443303.13,
           "captured_at": "2026-10-19T23:27:13.771663+00:00",
           "hours_elapsed": 6.4
+        },
+        "price_24h": {
+          "price": 6.996e-05,
+          "liquidity": 23364.1,
+          "volume_24h": 1040879.48,
+          "captured_at": "2026-10-20T17:26:31.161223+00:00",
+          "hours_elapsed": 24.4
         }
       },
       "outcome_label": null,
@@ -82569,6 +82576,32 @@
           "hours_elapsed": 6.9
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:wzohYKBxguzztkr6GNCXCqTUxLShsT7u4YrGUjJAsm5": {
+      "chain": "solana",
+      "pair_address": "wzohYKBxguzztkr6GNCXCqTUxLShsT7u4YrGUjJAsm5",
+      "symbol": "GTAa",
+      "tier": "T1",
+      "detection_time": "2026-10-20T17:26:22.620113+00:00",
+      "detection_price": 0.00011,
+      "detection_liq": 28043.66,
+      "peak_price": 0.00011,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CzcFVsc2hQvf1ZwU6ya2vRF7g29aNu4nNrHw7JVVD3Vw": {
+      "chain": "solana",
+      "pair_address": "CzcFVsc2hQvf1ZwU6ya2vRF7g29aNu4nNrHw7JVVD3Vw",
+      "symbol": "texcat",
+      "tier": "T2",
+      "detection_time": "2026-10-20T17:26:24.734241+00:00",
+      "detection_price": 0.0003981,
+      "detection_liq": 57243.13,
+      "peak_price": 0.0003981,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
