@@ -82490,10 +82490,17 @@
           "volume_24h": 1256632.0,
           "captured_at": "2026-10-20T01:12:54.345302+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 5.368e-06,
+          "liquidity": 4903.6,
+          "volume_24h": 191958.13,
+          "captured_at": "2026-10-20T19:28:05.588397+00:00",
+          "hours_elapsed": 24.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:JBQoRRrWrHK8jbxUXogVigU3gva6hbrw4d6wi1UHN2yA": {
       "chain": "solana",
@@ -82656,6 +82663,19 @@
       "detection_price": 0.0001199,
       "detection_liq": 28325.18,
       "peak_price": 0.0001199,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:6wwtB1qkyubqwSGCk7dj35nTU8oD2S5v1NUy8Y6cLkiE": {
+      "chain": "solana",
+      "pair_address": "6wwtB1qkyubqwSGCk7dj35nTU8oD2S5v1NUy8Y6cLkiE",
+      "symbol": "DTC",
+      "tier": "T1",
+      "detection_time": "2026-10-20T19:27:56.219849+00:00",
+      "detection_price": 0.0007467,
+      "detection_liq": 74819.55,
+      "peak_price": 0.0007467,
       "captures": {},
       "outcome_label": null,
       "completed": false
