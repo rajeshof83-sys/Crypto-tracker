@@ -82567,6 +82567,13 @@
           "volume_24h": 479276.43,
           "captured_at": "2026-10-20T10:17:50.426177+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 7.11e-05,
+          "liquidity": 22381.82,
+          "volume_24h": 276652.44,
+          "captured_at": "2026-10-21T05:06:37.021072+00:00",
+          "hours_elapsed": 25.0
         }
       },
       "outcome_label": null,
@@ -82595,10 +82602,17 @@
           "volume_24h": 610038.1,
           "captured_at": "2026-10-20T11:58:38.774518+00:00",
           "hours_elapsed": 6.9
+        },
+        "price_24h": {
+          "price": 2.262e-06,
+          "liquidity": 2447.37,
+          "volume_24h": 332493.55,
+          "captured_at": "2026-10-21T05:06:37.021072+00:00",
+          "hours_elapsed": 24.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:wzohYKBxguzztkr6GNCXCqTUxLShsT7u4YrGUjJAsm5": {
       "chain": "solana",
@@ -82756,6 +82770,13 @@
           "volume_24h": 1789900.28,
           "captured_at": "2026-10-20T20:47:55.292408+00:00",
           "hours_elapsed": 1.3
+        },
+        "price_6h": {
+          "price": 2.492e-06,
+          "liquidity": 2871.97,
+          "volume_24h": 3966682.14,
+          "captured_at": "2026-10-21T05:06:37.021072+00:00",
+          "hours_elapsed": 9.6
         }
       },
       "outcome_label": null,
@@ -82770,6 +82791,27 @@
       "detection_price": 0.0006923,
       "detection_liq": 72770.39,
       "peak_price": 0.0006923,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003357,
+          "liquidity": 51236.25,
+          "volume_24h": 1895549.08,
+          "captured_at": "2026-10-21T05:06:37.021072+00:00",
+          "hours_elapsed": 4.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FA3LxEBT2jirDLt63Dc16fjNniG9FuCCtZou1RuZid7W": {
+      "chain": "solana",
+      "pair_address": "FA3LxEBT2jirDLt63Dc16fjNniG9FuCCtZou1RuZid7W",
+      "symbol": "CPU",
+      "tier": "T1",
+      "detection_time": "2026-10-21T05:06:26.450052+00:00",
+      "detection_price": 6.281e-05,
+      "detection_liq": 20875.48,
+      "peak_price": 6.281e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
