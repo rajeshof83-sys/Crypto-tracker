@@ -82963,6 +82963,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:5E3dXLXGwmTDCokA51WYYaKttjFZBwqCoyUHBUi5gt2m": {
+      "chain": "solana",
+      "pair_address": "5E3dXLXGwmTDCokA51WYYaKttjFZBwqCoyUHBUi5gt2m",
+      "symbol": "GATO",
+      "tier": "T2",
+      "detection_time": "2026-10-21T22:12:45.494766+00:00",
+      "detection_price": 0.002718,
+      "detection_liq": 157586.11,
+      "peak_price": 0.002718,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GmovhhSuaFxxsUTVFAyXL7BPhfwbSAi8utkS5SfBkKLJ": {
+      "chain": "solana",
+      "pair_address": "GmovhhSuaFxxsUTVFAyXL7BPhfwbSAi8utkS5SfBkKLJ",
+      "symbol": "KATCHI",
+      "tier": "T1",
+      "detection_time": "2026-10-21T22:12:48.999266+00:00",
+      "detection_price": 7.14e-05,
+      "detection_liq": 22082.59,
+      "peak_price": 7.14e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
