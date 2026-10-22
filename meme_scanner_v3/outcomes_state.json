@@ -83092,6 +83092,27 @@
       "detection_price": 8.972e-05,
       "detection_liq": 24863.8,
       "peak_price": 8.972e-05,
+      "captures": {
+        "price_1h": {
+          "price": 6.687e-05,
+          "liquidity": 22140.29,
+          "volume_24h": 1277520.63,
+          "captured_at": "2026-10-22T07:18:31.902114+00:00",
+          "hours_elapsed": 2.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:F6iMAncvXAj539FFf3r6w1J5Mpff1XLcrksEWtP5NvAP": {
+      "chain": "solana",
+      "pair_address": "F6iMAncvXAj539FFf3r6w1J5Mpff1XLcrksEWtP5NvAP",
+      "symbol": "FRENS",
+      "tier": "T2",
+      "detection_time": "2026-10-22T07:18:22.982716+00:00",
+      "detection_price": 0.0002545,
+      "detection_liq": 41716.12,
+      "peak_price": 0.0002545,
       "captures": {},
       "outcome_label": null,
       "completed": false
