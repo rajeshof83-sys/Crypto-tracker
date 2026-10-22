@@ -83120,6 +83120,27 @@
       "detection_price": 0.0002545,
       "detection_liq": 41716.12,
       "peak_price": 0.0002545,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002427,
+          "liquidity": 40765.57,
+          "volume_24h": 246758.89,
+          "captured_at": "2026-10-22T10:12:03.416430+00:00",
+          "hours_elapsed": 2.9
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:C73M9QWLSAY16TKQEsEjSThBVXwMpbg94ijZRzYCxbiR": {
+      "chain": "solana",
+      "pair_address": "C73M9QWLSAY16TKQEsEjSThBVXwMpbg94ijZRzYCxbiR",
+      "symbol": "BLACKTOBER",
+      "tier": "T1",
+      "detection_time": "2026-10-22T10:11:49.686555+00:00",
+      "detection_price": 7.194e-05,
+      "detection_liq": 21498.98,
+      "peak_price": 7.194e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
