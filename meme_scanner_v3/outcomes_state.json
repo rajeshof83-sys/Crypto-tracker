@@ -82987,6 +82987,13 @@
           "volume_24h": 1618080.95,
           "captured_at": "2026-10-22T00:01:03.193991+00:00",
           "hours_elapsed": 6.8
+        },
+        "price_24h": {
+          "price": 6.731e-05,
+          "liquidity": 26952.45,
+          "volume_24h": 569243.43,
+          "captured_at": "2026-10-22T18:25:07.278637+00:00",
+          "hours_elapsed": 25.2
         }
       },
       "outcome_label": null,
@@ -83168,7 +83175,7 @@
       "detection_time": "2026-10-22T10:11:49.686555+00:00",
       "detection_price": 7.194e-05,
       "detection_liq": 21498.98,
-      "peak_price": 0.0001374,
+      "peak_price": 0.0005635,
       "captures": {
         "price_1h": {
           "price": 0.0001374,
@@ -83176,6 +83183,13 @@
           "volume_24h": 298590.38,
           "captured_at": "2026-10-22T13:37:02.419620+00:00",
           "hours_elapsed": 3.4
+        },
+        "price_6h": {
+          "price": 0.0005635,
+          "liquidity": 67080.16,
+          "volume_24h": 1955906.44,
+          "captured_at": "2026-10-22T18:25:07.278637+00:00",
+          "hours_elapsed": 8.2
         }
       },
       "outcome_label": null,
@@ -83189,7 +83203,41 @@
       "detection_time": "2026-10-22T15:17:29.113690+00:00",
       "detection_price": 8.921e-05,
       "detection_liq": 28448.83,
-      "peak_price": 8.921e-05,
+      "peak_price": 9.22e-05,
+      "captures": {
+        "price_1h": {
+          "price": 9.22e-05,
+          "liquidity": 28847.3,
+          "volume_24h": 98806.92,
+          "captured_at": "2026-10-22T18:25:07.278637+00:00",
+          "hours_elapsed": 3.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:73CtbTMdv3SQiyhTWKncWc1HN1rVnExuApAzu14jRq9D": {
+      "chain": "solana",
+      "pair_address": "73CtbTMdv3SQiyhTWKncWc1HN1rVnExuApAzu14jRq9D",
+      "symbol": "KIMCHAI",
+      "tier": "T1",
+      "detection_time": "2026-10-22T18:24:52.053552+00:00",
+      "detection_price": 9.997e-05,
+      "detection_liq": 26672.52,
+      "peak_price": 9.997e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:C4Tw9XHMUKqLHou9QTQrF8wZCvuxGdQ6Eq5FnsBFWeVA": {
+      "chain": "solana",
+      "pair_address": "C4Tw9XHMUKqLHou9QTQrF8wZCvuxGdQ6Eq5FnsBFWeVA",
+      "symbol": "CLOUT",
+      "tier": "T1",
+      "detection_time": "2026-10-22T18:24:55.250927+00:00",
+      "detection_price": 0.0001379,
+      "detection_liq": 31363.28,
+      "peak_price": 0.0001379,
       "captures": {},
       "outcome_label": null,
       "completed": false
