@@ -83218,6 +83218,13 @@
           "volume_24h": 98806.92,
           "captured_at": "2026-10-22T18:25:07.278637+00:00",
           "hours_elapsed": 3.1
+        },
+        "price_6h": {
+          "price": 8.62e-05,
+          "liquidity": 27885.97,
+          "volume_24h": 95935.29,
+          "captured_at": "2026-10-22T22:12:27.086834+00:00",
+          "hours_elapsed": 6.9
         }
       },
       "outcome_label": null,
@@ -83273,7 +83280,28 @@
       "detection_time": "2026-10-22T19:20:56.943858+00:00",
       "detection_price": 0.0001061,
       "detection_liq": 27128.38,
-      "peak_price": 0.0001061,
+      "peak_price": 0.00012,
+      "captures": {
+        "price_1h": {
+          "price": 0.00012,
+          "liquidity": 29084.41,
+          "volume_24h": 581696.79,
+          "captured_at": "2026-10-22T22:12:27.086834+00:00",
+          "hours_elapsed": 2.9
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4UPijxPh3AcSHtXzLFHSjbDibZUNnFFYVhzTjpCqDBbH": {
+      "chain": "solana",
+      "pair_address": "4UPijxPh3AcSHtXzLFHSjbDibZUNnFFYVhzTjpCqDBbH",
+      "symbol": "BTC",
+      "tier": "T1",
+      "detection_time": "2026-10-22T22:12:19.434917+00:00",
+      "detection_price": 0.0005895,
+      "detection_liq": 67047.46,
+      "peak_price": 0.0005895,
       "captures": {},
       "outcome_label": null,
       "completed": false
