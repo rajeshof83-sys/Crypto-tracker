@@ -83512,6 +83512,13 @@
           "volume_24h": 357076.82,
           "captured_at": "2026-10-23T17:30:55.617988+00:00",
           "hours_elapsed": 2.2
+        },
+        "price_6h": {
+          "price": 2.139e-06,
+          "liquidity": 2201.72,
+          "volume_24h": 357175.98,
+          "captured_at": "2026-10-23T21:56:35.130999+00:00",
+          "hours_elapsed": 6.6
         }
       },
       "outcome_label": null,
@@ -83535,6 +83542,19 @@
           "hours_elapsed": 1.3
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GUPFU34b2msSwPkuBvefUETs8rgwmUX25oN95GXbaBhB": {
+      "chain": "solana",
+      "pair_address": "GUPFU34b2msSwPkuBvefUETs8rgwmUX25oN95GXbaBhB",
+      "symbol": "YMBCOIN",
+      "tier": "T1",
+      "detection_time": "2026-10-23T21:56:22.695473+00:00",
+      "detection_price": 0.0003055,
+      "detection_liq": 47218.94,
+      "peak_price": 0.0003055,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
