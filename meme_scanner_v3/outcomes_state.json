@@ -83266,7 +83266,7 @@
       "detection_time": "2026-10-22T15:17:29.113690+00:00",
       "detection_price": 8.921e-05,
       "detection_liq": 28448.83,
-      "peak_price": 9.22e-05,
+      "peak_price": 0.0001034,
       "captures": {
         "price_1h": {
           "price": 9.22e-05,
@@ -83281,6 +83281,13 @@
           "volume_24h": 95935.29,
           "captured_at": "2026-10-22T22:12:27.086834+00:00",
           "hours_elapsed": 6.9
+        },
+        "price_24h": {
+          "price": 0.0001034,
+          "liquidity": 30900.77,
+          "volume_24h": 72177.14,
+          "captured_at": "2026-10-23T15:19:36.491478+00:00",
+          "hours_elapsed": 24.0
         }
       },
       "outcome_label": null,
@@ -83444,6 +83451,19 @@
           "hours_elapsed": 1.8
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:34fNBLUkuhYLSdhprTGMk6ZYoqajvGBhUJ6VMLoqUwpi": {
+      "chain": "solana",
+      "pair_address": "34fNBLUkuhYLSdhprTGMk6ZYoqajvGBhUJ6VMLoqUwpi",
+      "symbol": "CHUNKEE",
+      "tier": "T1",
+      "detection_time": "2026-10-23T15:19:28.715852+00:00",
+      "detection_price": 0.0001392,
+      "detection_liq": 30683.3,
+      "peak_price": 0.0001392,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
