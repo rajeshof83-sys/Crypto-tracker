@@ -83239,6 +83239,13 @@
           "volume_24h": 1955906.44,
           "captured_at": "2026-10-22T18:25:07.278637+00:00",
           "hours_elapsed": 8.2
+        },
+        "price_24h": {
+          "price": 0.0004413,
+          "liquidity": 62382.56,
+          "volume_24h": 3168527.57,
+          "captured_at": "2026-10-23T10:22:59.861699+00:00",
+          "hours_elapsed": 24.2
         }
       },
       "outcome_label": null,
@@ -83402,6 +83409,19 @@
           "hours_elapsed": 1.4
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FNYUadkhuYaNvbr25VxRhT2s3n9S3TKcJ3NBvy7sqJWJ": {
+      "chain": "solana",
+      "pair_address": "FNYUadkhuYaNvbr25VxRhT2s3n9S3TKcJ3NBvy7sqJWJ",
+      "symbol": "Au",
+      "tier": "T1",
+      "detection_time": "2026-10-23T10:22:49.779363+00:00",
+      "detection_price": 0.0001508,
+      "detection_liq": 37217.72,
+      "peak_price": 0.0001508,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
