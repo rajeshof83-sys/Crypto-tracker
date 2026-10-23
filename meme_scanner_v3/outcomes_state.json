@@ -83169,10 +83169,17 @@
           "volume_24h": 1858636.56,
           "captured_at": "2026-10-22T13:37:02.419620+00:00",
           "hours_elapsed": 8.8
+        },
+        "price_24h": {
+          "price": 2.647e-06,
+          "liquidity": 3151.09,
+          "volume_24h": 1043349.94,
+          "captured_at": "2026-10-23T05:09:35.250597+00:00",
+          "hours_elapsed": 24.4
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:F6iMAncvXAj539FFf3r6w1J5Mpff1XLcrksEWtP5NvAP": {
       "chain": "solana",
@@ -83358,8 +83365,28 @@
           "volume_24h": 2824752.54,
           "captured_at": "2026-10-23T01:02:51.306228+00:00",
           "hours_elapsed": 2.8
+        },
+        "price_6h": {
+          "price": 2.575e-06,
+          "liquidity": 2940.28,
+          "volume_24h": 2967343.39,
+          "captured_at": "2026-10-23T05:09:35.250597+00:00",
+          "hours_elapsed": 7.0
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:HQxwqV7ubzdj2fppxVvRoKw8Bykcg5rpJe1Aa1t5npEm": {
+      "chain": "solana",
+      "pair_address": "HQxwqV7ubzdj2fppxVvRoKw8Bykcg5rpJe1Aa1t5npEm",
+      "symbol": "zonki",
+      "tier": "T1",
+      "detection_time": "2026-10-23T05:09:21.381184+00:00",
+      "detection_price": 0.0001766,
+      "detection_liq": 35025.63,
+      "peak_price": 0.0001766,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
