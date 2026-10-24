@@ -83561,10 +83561,17 @@
           "volume_24h": 357175.98,
           "captured_at": "2026-10-23T21:56:35.130999+00:00",
           "hours_elapsed": 6.6
+        },
+        "price_24h": {
+          "price": 2.039e-06,
+          "liquidity": 2102.98,
+          "volume_24h": 140.84,
+          "captured_at": "2026-10-24T16:17:49.337236+00:00",
+          "hours_elapsed": 25.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:9nc82YaQaGPHDeUmA1JgERbqCQz69HvCkn2gzEC43Rua": {
       "chain": "solana",
@@ -83675,6 +83682,45 @@
           "hours_elapsed": 6.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4VT3CNTMyf2pxXnXL8g1rEUFMJtVKWfK1JY4M4FF4Qjj": {
+      "chain": "solana",
+      "pair_address": "4VT3CNTMyf2pxXnXL8g1rEUFMJtVKWfK1JY4M4FF4Qjj",
+      "symbol": "Leonida",
+      "tier": "T1",
+      "detection_time": "2026-10-24T16:17:28.892400+00:00",
+      "detection_price": 0.0001517,
+      "detection_liq": 31873.18,
+      "peak_price": 0.0001517,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AU5eQdjHKeHo4E7Ub78p2DBdjUReBsKEYr9dMphwGbRh": {
+      "chain": "solana",
+      "pair_address": "AU5eQdjHKeHo4E7Ub78p2DBdjUReBsKEYr9dMphwGbRh",
+      "symbol": "GDC",
+      "tier": "T1",
+      "detection_time": "2026-10-24T16:17:38.477260+00:00",
+      "detection_price": 0.0006969,
+      "detection_liq": 73386.81,
+      "peak_price": 0.0006969,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DS4HutcWzM14aAoCJ15yedyXpPdqmd32PKmUGPL9ojim": {
+      "chain": "solana",
+      "pair_address": "DS4HutcWzM14aAoCJ15yedyXpPdqmd32PKmUGPL9ojim",
+      "symbol": "TRUMPE",
+      "tier": "T1",
+      "detection_time": "2026-10-24T16:17:41.901917+00:00",
+      "detection_price": 0.0001201,
+      "detection_liq": 27903.19,
+      "peak_price": 0.0001201,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
