@@ -83658,7 +83658,7 @@
       "detection_time": "2026-10-24T04:52:24.450061+00:00",
       "detection_price": 0.0002785,
       "detection_liq": 45280.22,
-      "peak_price": 0.0003442,
+      "peak_price": 0.0007124,
       "captures": {
         "price_1h": {
           "price": 0.0002729,
@@ -83673,6 +83673,13 @@
           "volume_24h": 1104565.73,
           "captured_at": "2026-10-24T11:01:18.161736+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 0.0007124,
+          "liquidity": 77885.71,
+          "volume_24h": 1851523.1,
+          "captured_at": "2026-10-25T05:03:14.397794+00:00",
+          "hours_elapsed": 24.2
         }
       },
       "outcome_label": null,
@@ -83701,10 +83708,17 @@
           "volume_24h": 2916279.79,
           "captured_at": "2026-10-24T11:01:18.161736+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 3.31e-06,
+          "liquidity": 3876.89,
+          "volume_24h": 2855584.61,
+          "captured_at": "2026-10-25T05:03:14.397794+00:00",
+          "hours_elapsed": 24.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:4VT3CNTMyf2pxXnXL8g1rEUFMJtVKWfK1JY4M4FF4Qjj": {
       "chain": "solana",
@@ -83798,7 +83812,28 @@
       "detection_time": "2026-10-25T01:31:33.285677+00:00",
       "detection_price": 0.0001377,
       "detection_liq": 30147.08,
-      "peak_price": 0.0001377,
+      "peak_price": 0.0001484,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001484,
+          "liquidity": 31482.15,
+          "volume_24h": 275721.5,
+          "captured_at": "2026-10-25T05:03:14.397794+00:00",
+          "hours_elapsed": 3.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Bozb9ALBQf4JBayYXKYHA7KmsRk5vKYaBPn75oZFK8mV": {
+      "chain": "solana",
+      "pair_address": "Bozb9ALBQf4JBayYXKYHA7KmsRk5vKYaBPn75oZFK8mV",
+      "symbol": "REACHY",
+      "tier": "T2",
+      "detection_time": "2026-10-25T05:03:07.391824+00:00",
+      "detection_price": 0.000366,
+      "detection_liq": 51224.22,
+      "peak_price": 0.000366,
       "captures": {},
       "outcome_label": null,
       "completed": false
