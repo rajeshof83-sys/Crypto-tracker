@@ -83925,6 +83925,27 @@
       "detection_price": 0.0001268,
       "detection_liq": 29368.88,
       "peak_price": 0.0001268,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001175,
+          "liquidity": 28271.59,
+          "volume_24h": 453729.29,
+          "captured_at": "2026-10-25T17:54:21.216382+00:00",
+          "hours_elapsed": 1.6
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DRULB9DEGc6tYU6pHx8x6WLxUy95Te4af4kPDqrzzkCN": {
+      "chain": "solana",
+      "pair_address": "DRULB9DEGc6tYU6pHx8x6WLxUy95Te4af4kPDqrzzkCN",
+      "symbol": "PUMP",
+      "tier": "T1",
+      "detection_time": "2026-10-25T17:54:12.582741+00:00",
+      "detection_price": 0.0002996,
+      "detection_liq": 45930.69,
+      "peak_price": 0.0002996,
       "captures": {},
       "outcome_label": null,
       "completed": false
