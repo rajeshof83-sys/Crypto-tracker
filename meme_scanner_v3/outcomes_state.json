@@ -82524,7 +82524,7 @@
       "detection_time": "2026-10-19T12:34:25.686021+00:00",
       "detection_price": 5.531e-05,
       "detection_liq": 19558.82,
-      "peak_price": 8.471e-05,
+      "peak_price": 0.0001584,
       "captures": {
         "price_1h": {
           "price": 8.471e-05,
@@ -82546,10 +82546,17 @@
           "volume_24h": 82805.19,
           "captured_at": "2026-10-20T13:34:27.932863+00:00",
           "hours_elapsed": 25.0
+        },
+        "price_7d": {
+          "price": 0.0001584,
+          "liquidity": 34493.16,
+          "volume_24h": 34626.73,
+          "captured_at": "2026-10-26T13:04:01.468084+00:00",
+          "hours_elapsed": 168.5
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "winner",
+      "completed": true
     },
     "solana:HNJY1mVocFbPNxWtAnscCeqnR5t2aCkYfYUSKWjHEE3J": {
       "chain": "solana",
@@ -83939,6 +83946,13 @@
           "volume_24h": 785019.17,
           "captured_at": "2026-10-25T19:06:51.866914+00:00",
           "hours_elapsed": 6.4
+        },
+        "price_24h": {
+          "price": 5.528e-05,
+          "liquidity": 19908.02,
+          "volume_24h": 222792.74,
+          "captured_at": "2026-10-26T13:04:01.468084+00:00",
+          "hours_elapsed": 24.4
         }
       },
       "outcome_label": null,
@@ -84053,6 +84067,19 @@
           "hours_elapsed": 8.4
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9kAhPmrRiBLcujM9jhWNMwcZ6QVwJUYyLCxeUspwXd9w": {
+      "chain": "solana",
+      "pair_address": "9kAhPmrRiBLcujM9jhWNMwcZ6QVwJUYyLCxeUspwXd9w",
+      "symbol": "Shitcoin",
+      "tier": "T1",
+      "detection_time": "2026-10-26T13:03:40.800257+00:00",
+      "detection_price": 0.0001603,
+      "detection_liq": 35168.18,
+      "peak_price": 0.0001603,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
