@@ -84233,6 +84233,13 @@
           "volume_24h": 799650.89,
           "captured_at": "2026-10-27T05:21:51.696680+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 0.0001005,
+          "liquidity": 27176.54,
+          "volume_24h": 385987.13,
+          "captured_at": "2026-10-27T23:38:34.127905+00:00",
+          "hours_elapsed": 24.5
         }
       },
       "outcome_label": null,
@@ -84310,8 +84317,28 @@
           "volume_24h": 99329.37,
           "captured_at": "2026-10-27T19:56:04.815010+00:00",
           "hours_elapsed": 4.0
+        },
+        "price_6h": {
+          "price": 4.976e-05,
+          "liquidity": 17256.8,
+          "volume_24h": 109710.17,
+          "captured_at": "2026-10-27T23:38:34.127905+00:00",
+          "hours_elapsed": 7.7
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:EWjia2Nk268HowctfiTp8cHQSkeC8Z6aZAhciMkPpXfi": {
+      "chain": "solana",
+      "pair_address": "EWjia2Nk268HowctfiTp8cHQSkeC8Z6aZAhciMkPpXfi",
+      "symbol": "N64",
+      "tier": "T2",
+      "detection_time": "2026-10-27T23:38:26.331223+00:00",
+      "detection_price": 0.0001364,
+      "detection_liq": 30723.44,
+      "peak_price": 0.0001364,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
