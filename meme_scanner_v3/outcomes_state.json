@@ -83092,10 +83092,17 @@
           "volume_24h": 135760.38,
           "captured_at": "2026-10-22T13:37:02.419620+00:00",
           "hours_elapsed": 24.0
+        },
+        "price_7d": {
+          "price": 9.253e-06,
+          "liquidity": 6583.35,
+          "volume_24h": 84.02,
+          "captured_at": "2026-10-28T14:20:27.672567+00:00",
+          "hours_elapsed": 168.7
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "moon",
+      "completed": true
     },
     "bsc:0xe19A77b2e102e4dA337927b8465739bDaD4f77d0": {
       "chain": "bsc",
