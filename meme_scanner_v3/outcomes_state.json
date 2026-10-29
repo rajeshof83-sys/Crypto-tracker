@@ -83407,10 +83407,17 @@
           "volume_24h": 3168527.57,
           "captured_at": "2026-10-23T10:22:59.861699+00:00",
           "hours_elapsed": 24.2
+        },
+        "price_7d": {
+          "price": 3.883e-05,
+          "liquidity": 18640.3,
+          "volume_24h": 47445.5,
+          "captured_at": "2026-10-29T10:26:35.771531+00:00",
+          "hours_elapsed": 168.2
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "moon",
+      "completed": true
     },
     "solana:4eR3ddyPzgrLgwbgfEA2MP1XUsQpYCvMT2zGgwY5XaQt": {
       "chain": "solana",
