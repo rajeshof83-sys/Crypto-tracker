@@ -83365,10 +83365,17 @@
           "volume_24h": 289754.22,
           "captured_at": "2026-10-23T07:33:30.829882+00:00",
           "hours_elapsed": 24.3
+        },
+        "price_7d": {
+          "price": 5.262e-06,
+          "liquidity": 4510.84,
+          "volume_24h": 1780.65,
+          "captured_at": "2026-10-29T09:37:03.288583+00:00",
+          "hours_elapsed": 170.3
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:C73M9QWLSAY16TKQEsEjSThBVXwMpbg94ijZRzYCxbiR": {
       "chain": "solana",
@@ -84527,8 +84534,28 @@
           "volume_24h": 1126678.54,
           "captured_at": "2026-10-29T06:08:48.225871+00:00",
           "hours_elapsed": 3.9
+        },
+        "price_6h": {
+          "price": 2.054e-06,
+          "liquidity": 2252.75,
+          "volume_24h": 1126681.81,
+          "captured_at": "2026-10-29T09:37:03.288583+00:00",
+          "hours_elapsed": 7.4
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:JCXWfcZGjgJC8NZa5Qb6JP3cgvqW4vGUg4Tqj87G5ZnY": {
+      "chain": "solana",
+      "pair_address": "JCXWfcZGjgJC8NZa5Qb6JP3cgvqW4vGUg4Tqj87G5ZnY",
+      "symbol": "jeff",
+      "tier": "T2",
+      "detection_time": "2026-10-29T09:36:52.928814+00:00",
+      "detection_price": 0.001498,
+      "detection_liq": 92478.67,
+      "peak_price": 0.001498,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
