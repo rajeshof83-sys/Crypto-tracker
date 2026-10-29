@@ -83526,10 +83526,17 @@
           "volume_24h": 22468.54,
           "captured_at": "2026-10-23T18:36:56.800993+00:00",
           "hours_elapsed": 24.2
+        },
+        "price_7d": {
+          "price": 3.555e-05,
+          "liquidity": 15064.8,
+          "volume_24h": 2561.93,
+          "captured_at": "2026-10-29T19:09:13.228115+00:00",
+          "hours_elapsed": 168.7
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:F22JVg2DwbmLyEJhH4CtVdgULASYX3QTp3MrEiytqSP2": {
       "chain": "solana",
@@ -84597,7 +84604,15 @@
       "detection_price": 0.0003328,
       "detection_liq": 48262.49,
       "peak_price": 0.0003328,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 0.0002022,
+          "liquidity": 37269.81,
+          "volume_24h": 595865.3,
+          "captured_at": "2026-10-29T19:09:13.228115+00:00",
+          "hours_elapsed": 2.4
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -84609,7 +84624,41 @@
       "detection_time": "2026-10-29T16:44:44.425023+00:00",
       "detection_price": 6.744e-05,
       "detection_liq": 23183.4,
-      "peak_price": 6.744e-05,
+      "peak_price": 7.699e-05,
+      "captures": {
+        "price_1h": {
+          "price": 7.699e-05,
+          "liquidity": 24284.05,
+          "volume_24h": 286391.99,
+          "captured_at": "2026-10-29T19:09:13.228115+00:00",
+          "hours_elapsed": 2.4
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Dq8682mcB9JVgsqCHTp9e8BbSQFhMGPNjuGbgncB6xq7": {
+      "chain": "solana",
+      "pair_address": "Dq8682mcB9JVgsqCHTp9e8BbSQFhMGPNjuGbgncB6xq7",
+      "symbol": "HYPERCAT",
+      "tier": "T1",
+      "detection_time": "2026-10-29T19:09:01.160625+00:00",
+      "detection_price": 0.0004019,
+      "detection_liq": 53311.69,
+      "peak_price": 0.0004019,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:5aw8oMKNbwWtecNWL2WWSca4bMaatveZoRyc7EUJjoaT": {
+      "chain": "solana",
+      "pair_address": "5aw8oMKNbwWtecNWL2WWSca4bMaatveZoRyc7EUJjoaT",
+      "symbol": "HOUSEWORM",
+      "tier": "T1",
+      "detection_time": "2026-10-29T19:09:04.320816+00:00",
+      "detection_price": 0.0005174,
+      "detection_liq": 62407.49,
+      "peak_price": 0.0005174,
       "captures": {},
       "outcome_label": null,
       "completed": false
