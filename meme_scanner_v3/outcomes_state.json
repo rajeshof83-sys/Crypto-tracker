@@ -84765,8 +84765,28 @@
           "volume_24h": 654516.41,
           "captured_at": "2026-10-30T08:18:38.190364+00:00",
           "hours_elapsed": 2.2
+        },
+        "price_6h": {
+          "price": 1.92e-06,
+          "liquidity": 2041.6,
+          "volume_24h": 674719.1,
+          "captured_at": "2026-10-30T15:42:35.514943+00:00",
+          "hours_elapsed": 9.6
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GU2ajBKEBpvXumm27t41XEteVUsbvrwGhDmJW7FDc4BN": {
+      "chain": "solana",
+      "pair_address": "GU2ajBKEBpvXumm27t41XEteVUsbvrwGhDmJW7FDc4BN",
+      "symbol": "CATPAD",
+      "tier": "T1",
+      "detection_time": "2026-10-30T15:42:21.065847+00:00",
+      "detection_price": 0.0001002,
+      "detection_liq": 24700.37,
+      "peak_price": 0.0001002,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
