@@ -84884,6 +84884,27 @@
       "detection_price": 0.001083,
       "detection_liq": 87308.89,
       "peak_price": 0.001083,
+      "captures": {
+        "price_1h": {
+          "price": 0.000944,
+          "liquidity": 81716.87,
+          "volume_24h": 1243473.85,
+          "captured_at": "2026-10-31T15:29:07.606606+00:00",
+          "hours_elapsed": 2.0
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DEXTCER4k9dwbxTMU8zNVVwGevVmvHMB183pF2xxZwvH": {
+      "chain": "solana",
+      "pair_address": "DEXTCER4k9dwbxTMU8zNVVwGevVmvHMB183pF2xxZwvH",
+      "symbol": "DESSA",
+      "tier": "T2",
+      "detection_time": "2026-10-31T15:28:54.574456+00:00",
+      "detection_price": 0.0301,
+      "detection_liq": 499471.26,
+      "peak_price": 0.0301,
       "captures": {},
       "outcome_label": null,
       "completed": false
