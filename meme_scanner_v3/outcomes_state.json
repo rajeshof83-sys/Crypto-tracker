@@ -84996,10 +84996,17 @@
           "volume_24h": 2416774.84,
           "captured_at": "2026-11-01T01:31:16.147039+00:00",
           "hours_elapsed": 6.1
+        },
+        "price_24h": {
+          "price": 3.897e-06,
+          "liquidity": 4329.61,
+          "volume_24h": 3288342.46,
+          "captured_at": "2026-11-01T19:51:42.881663+00:00",
+          "hours_elapsed": 24.4
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:CWBjTNheu2rX8k49pAU5ZqfEi7FvSUu2Lg8L8CTNCgWY": {
       "chain": "solana",
@@ -85138,6 +85145,19 @@
           "hours_elapsed": 7.3
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3unG5b7czBspnmjFRZzzNyQVpk8q3LERr6BAYnFohdfz": {
+      "chain": "solana",
+      "pair_address": "3unG5b7czBspnmjFRZzzNyQVpk8q3LERr6BAYnFohdfz",
+      "symbol": "CHOO",
+      "tier": "T2",
+      "detection_time": "2026-11-01T19:51:35.195496+00:00",
+      "detection_price": 0.002305,
+      "detection_liq": 145659.72,
+      "peak_price": 0.002305,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
