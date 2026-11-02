@@ -84310,10 +84310,17 @@
           "volume_24h": 252032.88,
           "captured_at": "2026-10-27T19:56:04.815010+00:00",
           "hours_elapsed": 24.6
+        },
+        "price_7d": {
+          "price": 2.616e-06,
+          "liquidity": 2783.47,
+          "volume_24h": 66.08,
+          "captured_at": "2026-11-02T20:28:10.925516+00:00",
+          "hours_elapsed": 169.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:7uQqLaNyahzkmt6ydMZgLAbmfy7SFik3mg13HP9x8hiH": {
       "chain": "solana",
@@ -85213,6 +85220,13 @@
           "volume_24h": 1403563.44,
           "captured_at": "2026-11-02T06:34:20.328233+00:00",
           "hours_elapsed": 10.7
+        },
+        "price_24h": {
+          "price": 0.001837,
+          "liquidity": 130567.58,
+          "volume_24h": 595099.03,
+          "captured_at": "2026-11-02T20:28:10.925516+00:00",
+          "hours_elapsed": 24.6
         }
       },
       "outcome_label": null,
@@ -85243,6 +85257,19 @@
           "hours_elapsed": 9.8
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Fby8NV8FRJZnZriiHUdVANBadTLJfBNT9MVkkN61FoLY": {
+      "chain": "solana",
+      "pair_address": "Fby8NV8FRJZnZriiHUdVANBadTLJfBNT9MVkkN61FoLY",
+      "symbol": "RICO",
+      "tier": "T2",
+      "detection_time": "2026-11-02T20:28:02.502429+00:00",
+      "detection_price": 0.0003087,
+      "detection_liq": 44090.87,
+      "peak_price": 0.0003087,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
