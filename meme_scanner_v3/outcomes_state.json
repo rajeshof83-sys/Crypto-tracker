@@ -85353,6 +85353,13 @@
           "volume_24h": 1580907.64,
           "captured_at": "2026-11-03T07:04:36.820980+00:00",
           "hours_elapsed": 7.9
+        },
+        "price_24h": {
+          "price": 0.0008352,
+          "liquidity": 88269.88,
+          "volume_24h": 1447975.28,
+          "captured_at": "2026-11-03T23:24:28.139270+00:00",
+          "hours_elapsed": 24.2
         }
       },
       "outcome_label": null,
@@ -85383,6 +85390,19 @@
           "hours_elapsed": 8.4
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AF3P8v8EoWqUmKfasM47JBxE6PxXNibHXiPC2PWp2REu": {
+      "chain": "solana",
+      "pair_address": "AF3P8v8EoWqUmKfasM47JBxE6PxXNibHXiPC2PWp2REu",
+      "symbol": "MEMECOIN",
+      "tier": "T1",
+      "detection_time": "2026-11-03T23:24:18.305799+00:00",
+      "detection_price": 0.00018,
+      "detection_liq": 33672.22,
+      "peak_price": 0.00018,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
