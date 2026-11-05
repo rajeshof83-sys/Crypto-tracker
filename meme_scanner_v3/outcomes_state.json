@@ -85486,6 +85486,13 @@
           "volume_24h": 523881.5,
           "captured_at": "2026-11-04T22:28:51.273091+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 0.0001723,
+          "liquidity": 34023.99,
+          "volume_24h": 703787.68,
+          "captured_at": "2026-11-05T07:08:44.442982+00:00",
+          "hours_elapsed": 9.7
         }
       },
       "outcome_label": null,
@@ -85499,7 +85506,7 @@
       "detection_time": "2026-11-05T00:29:25.470409+00:00",
       "detection_price": 0.0005276,
       "detection_liq": 60970.52,
-      "peak_price": 0.0006089,
+      "peak_price": 0.0007257,
       "captures": {
         "price_1h": {
           "price": 0.0006089,
@@ -85507,6 +85514,13 @@
           "volume_24h": 1685254.19,
           "captured_at": "2026-11-05T02:29:24.142787+00:00",
           "hours_elapsed": 2.0
+        },
+        "price_6h": {
+          "price": 0.0007257,
+          "liquidity": 73810.29,
+          "volume_24h": 2297792.97,
+          "captured_at": "2026-11-05T07:08:44.442982+00:00",
+          "hours_elapsed": 6.7
         }
       },
       "outcome_label": null,
@@ -85520,7 +85534,7 @@
       "detection_time": "2026-11-05T00:29:44.846088+00:00",
       "detection_price": 0.0007094,
       "detection_liq": 70086.54,
-      "peak_price": 0.000807,
+      "peak_price": 0.0009795,
       "captures": {
         "price_1h": {
           "price": 0.000807,
@@ -85528,8 +85542,28 @@
           "volume_24h": 1190874.24,
           "captured_at": "2026-11-05T02:29:24.142787+00:00",
           "hours_elapsed": 2.0
+        },
+        "price_6h": {
+          "price": 0.0009795,
+          "liquidity": 83985.56,
+          "volume_24h": 1570372.43,
+          "captured_at": "2026-11-05T07:08:44.442982+00:00",
+          "hours_elapsed": 6.6
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9u7XfTZnCUjQ2NLExE4LZ93Z8dBuzWaRJvPAaeezEbpK": {
+      "chain": "solana",
+      "pair_address": "9u7XfTZnCUjQ2NLExE4LZ93Z8dBuzWaRJvPAaeezEbpK",
+      "symbol": "MINTED",
+      "tier": "T1",
+      "detection_time": "2026-11-05T07:08:33.366991+00:00",
+      "detection_price": 0.0001659,
+      "detection_liq": 34296.14,
+      "peak_price": 0.0001659,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
