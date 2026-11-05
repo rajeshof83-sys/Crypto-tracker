@@ -85415,7 +85415,7 @@
       "detection_time": "2026-11-03T23:24:18.305799+00:00",
       "detection_price": 0.00018,
       "detection_liq": 33672.22,
-      "peak_price": 0.0001842,
+      "peak_price": 0.0002254,
       "captures": {
         "price_1h": {
           "price": 0.0001842,
@@ -85430,6 +85430,13 @@
           "volume_24h": 337451.33,
           "captured_at": "2026-11-04T06:22:55.170338+00:00",
           "hours_elapsed": 7.0
+        },
+        "price_24h": {
+          "price": 0.0002254,
+          "liquidity": 38382.65,
+          "volume_24h": 31826.34,
+          "captured_at": "2026-11-05T00:30:01.193701+00:00",
+          "hours_elapsed": 25.1
         }
       },
       "outcome_label": null,
@@ -85481,6 +85488,32 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GgGoctYNusmGdFpqmrC9pv8JX6JPG4mkm4RkeNzkakTo": {
+      "chain": "solana",
+      "pair_address": "GgGoctYNusmGdFpqmrC9pv8JX6JPG4mkm4RkeNzkakTo",
+      "symbol": "GAVELDROP",
+      "tier": "T1",
+      "detection_time": "2026-11-05T00:29:25.470409+00:00",
+      "detection_price": 0.0005276,
+      "detection_liq": 60970.52,
+      "peak_price": 0.0005276,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:ET3NWniYfoisP8WRpicCF5AT4dzX6Qwxu8do4bTP8Jwb": {
+      "chain": "solana",
+      "pair_address": "ET3NWniYfoisP8WRpicCF5AT4dzX6Qwxu8do4bTP8Jwb",
+      "symbol": "Democat",
+      "tier": "T1",
+      "detection_time": "2026-11-05T00:29:44.846088+00:00",
+      "detection_price": 0.0007094,
+      "detection_liq": 70086.54,
+      "peak_price": 0.0007094,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
