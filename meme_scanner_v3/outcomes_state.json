@@ -85010,10 +85010,17 @@
           "volume_24h": 1351118.45,
           "captured_at": "2026-11-01T15:29:50.569423+00:00",
           "hours_elapsed": 26.0
+        },
+        "price_7d": {
+          "price": 2.228e-06,
+          "liquidity": 2720.57,
+          "volume_24h": 5.03,
+          "captured_at": "2026-11-07T14:02:40.977966+00:00",
+          "hours_elapsed": 168.6
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:DEXTCER4k9dwbxTMU8zNVVwGevVmvHMB183pF2xxZwvH": {
       "chain": "solana",
@@ -85688,7 +85695,7 @@
       "detection_time": "2026-11-07T06:20:21.550226+00:00",
       "detection_price": 0.0001074,
       "detection_liq": 24741.87,
-      "peak_price": 0.0001231,
+      "peak_price": 0.0001773,
       "captures": {
         "price_1h": {
           "price": 0.0001231,
@@ -85696,8 +85703,28 @@
           "volume_24h": 121546.26,
           "captured_at": "2026-11-07T07:49:20.105363+00:00",
           "hours_elapsed": 1.5
+        },
+        "price_6h": {
+          "price": 0.0001773,
+          "liquidity": 32394.52,
+          "volume_24h": 203775.6,
+          "captured_at": "2026-11-07T14:02:40.977966+00:00",
+          "hours_elapsed": 7.7
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Ab2T5DnxAJRmkUd7T636Ey4m4nvV8XWiwtS5vvPSxE2s": {
+      "chain": "solana",
+      "pair_address": "Ab2T5DnxAJRmkUd7T636Ey4m4nvV8XWiwtS5vvPSxE2s",
+      "symbol": "DACITY",
+      "tier": "T1",
+      "detection_time": "2026-11-07T14:02:25.981493+00:00",
+      "detection_price": 0.0001733,
+      "detection_liq": 32427.6,
+      "peak_price": 0.0001733,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
