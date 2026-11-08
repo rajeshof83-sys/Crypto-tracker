@@ -85814,7 +85814,7 @@
       "detection_time": "2026-11-08T02:30:29.199231+00:00",
       "detection_price": 0.0003865,
       "detection_liq": 48938.45,
-      "peak_price": 0.0004125,
+      "peak_price": 0.0004795,
       "captures": {
         "price_1h": {
           "price": 0.0004125,
@@ -85822,8 +85822,28 @@
           "volume_24h": 767405.26,
           "captured_at": "2026-11-08T05:11:10.720385+00:00",
           "hours_elapsed": 2.7
+        },
+        "price_6h": {
+          "price": 0.0004795,
+          "liquidity": 55937.16,
+          "volume_24h": 1058231.29,
+          "captured_at": "2026-11-08T09:35:02.895585+00:00",
+          "hours_elapsed": 7.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:A3fhWV6SPymErGADebYr3BTHRkrRys6FbFQ9HGapVrVu": {
+      "chain": "solana",
+      "pair_address": "A3fhWV6SPymErGADebYr3BTHRkrRys6FbFQ9HGapVrVu",
+      "symbol": "Puddgy",
+      "tier": "T1",
+      "detection_time": "2026-11-08T09:34:51.697578+00:00",
+      "detection_price": 8.788e-05,
+      "detection_liq": 30797.78,
+      "peak_price": 8.788e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
