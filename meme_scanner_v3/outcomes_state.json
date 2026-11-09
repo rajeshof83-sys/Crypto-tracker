@@ -85892,10 +85892,17 @@
           "volume_24h": 1136550.85,
           "captured_at": "2026-11-08T16:23:45.410373+00:00",
           "hours_elapsed": 6.8
+        },
+        "price_24h": {
+          "price": 1.983e-06,
+          "liquidity": 2204.21,
+          "volume_24h": 583.38,
+          "captured_at": "2026-11-09T11:04:48.926412+00:00",
+          "hours_elapsed": 25.5
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:6N2gGKsJfETWP9YYRvhcrzAcmSFq4PbSWxiaKffjJv66": {
       "chain": "solana",
@@ -85950,6 +85957,19 @@
           "hours_elapsed": 6.7
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8j1kh1iYRaTkbTvgdLhs6aNKnMhzFj7Ym6MveqpPAYZv": {
+      "chain": "solana",
+      "pair_address": "8j1kh1iYRaTkbTvgdLhs6aNKnMhzFj7Ym6MveqpPAYZv",
+      "symbol": "Steve",
+      "tier": "T1",
+      "detection_time": "2026-11-09T11:04:40.344259+00:00",
+      "detection_price": 8.09e-05,
+      "detection_liq": 21157.6,
+      "peak_price": 8.09e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
