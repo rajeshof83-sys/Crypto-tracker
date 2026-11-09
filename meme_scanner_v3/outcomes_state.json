@@ -85409,10 +85409,17 @@
           "volume_24h": 1154765.34,
           "captured_at": "2026-11-03T21:11:36.042642+00:00",
           "hours_elapsed": 24.7
+        },
+        "price_7d": {
+          "price": 2.872e-05,
+          "liquidity": 13431.43,
+          "volume_24h": 7721.75,
+          "captured_at": "2026-11-09T20:55:28.538859+00:00",
+          "hours_elapsed": 168.5
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "winner",
+      "completed": true
     },
     "solana:TT7DKs9YjJZj1fwMGoPmKBmDreZzyMAMrHoDCGdfwqN": {
       "chain": "solana",
@@ -85999,6 +86006,19 @@
           "hours_elapsed": 6.7
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:54GEDRRdaYFg4zCavCrYmcvVZzFMEak3LuWhr7Q8qWi1": {
+      "chain": "solana",
+      "pair_address": "54GEDRRdaYFg4zCavCrYmcvVZzFMEak3LuWhr7Q8qWi1",
+      "symbol": "HWAN",
+      "tier": "T1",
+      "detection_time": "2026-11-09T20:55:15.655549+00:00",
+      "detection_price": 0.0002326,
+      "detection_liq": 49180.41,
+      "peak_price": 0.0002326,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
