@@ -86207,8 +86207,41 @@
           "volume_24h": 1641084.92,
           "captured_at": "2026-11-11T09:01:02.069450+00:00",
           "hours_elapsed": 2.7
+        },
+        "price_6h": {
+          "price": 3.25e-06,
+          "liquidity": 3356.15,
+          "volume_24h": 2062656.78,
+          "captured_at": "2026-11-11T12:54:01.333556+00:00",
+          "hours_elapsed": 6.5
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:D5YSMfk2Rzjm2SW4d6ZX9ge6jnNfMhpHB6JpF6NDu7XL": {
+      "chain": "solana",
+      "pair_address": "D5YSMfk2Rzjm2SW4d6ZX9ge6jnNfMhpHB6JpF6NDu7XL",
+      "symbol": "woohao",
+      "tier": "T2",
+      "detection_time": "2026-11-11T12:53:27.868726+00:00",
+      "detection_price": 0.0001725,
+      "detection_liq": 31517.04,
+      "peak_price": 0.0001725,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4AFZ7XzcbmeyBoiy6XEoswJBG8WyjLXr6fAYsJsuVMKw": {
+      "chain": "solana",
+      "pair_address": "4AFZ7XzcbmeyBoiy6XEoswJBG8WyjLXr6fAYsJsuVMKw",
+      "symbol": "CatFu",
+      "tier": "T2",
+      "detection_time": "2026-11-11T12:53:52.486815+00:00",
+      "detection_price": 0.0001048,
+      "detection_liq": 32272.06,
+      "peak_price": 0.0001048,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
