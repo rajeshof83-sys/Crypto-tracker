@@ -86108,7 +86108,7 @@
       "detection_time": "2026-11-10T20:20:35.824211+00:00",
       "detection_price": 0.0001081,
       "detection_liq": 24262.35,
-      "peak_price": 0.0001175,
+      "peak_price": 0.0003301,
       "captures": {
         "price_1h": {
           "price": 0.0001175,
@@ -86116,6 +86116,13 @@
           "volume_24h": 274297.24,
           "captured_at": "2026-11-10T21:23:11.203733+00:00",
           "hours_elapsed": 1.0
+        },
+        "price_6h": {
+          "price": 0.0003301,
+          "liquidity": 44457.98,
+          "volume_24h": 739477.67,
+          "captured_at": "2026-11-11T06:21:16.284159+00:00",
+          "hours_elapsed": 10.0
         }
       },
       "outcome_label": null,
@@ -86129,7 +86136,7 @@
       "detection_time": "2026-11-10T22:33:56.434468+00:00",
       "detection_price": 0.0002137,
       "detection_liq": 34644.16,
-      "peak_price": 0.0002137,
+      "peak_price": 0.0003652,
       "captures": {
         "price_1h": {
           "price": 0.0002029,
@@ -86137,6 +86144,13 @@
           "volume_24h": 156168.7,
           "captured_at": "2026-11-10T23:39:32.642223+00:00",
           "hours_elapsed": 1.1
+        },
+        "price_6h": {
+          "price": 0.0003652,
+          "liquidity": 45877.84,
+          "volume_24h": 235860.96,
+          "captured_at": "2026-11-11T06:21:16.284159+00:00",
+          "hours_elapsed": 7.8
         }
       },
       "outcome_label": null,
@@ -86150,7 +86164,28 @@
       "detection_time": "2026-11-11T02:18:10.916206+00:00",
       "detection_price": 0.0003495,
       "detection_liq": 44925.38,
-      "peak_price": 0.0003495,
+      "peak_price": 0.0004844,
+      "captures": {
+        "price_1h": {
+          "price": 0.0004844,
+          "liquidity": 53647.94,
+          "volume_24h": 699540.94,
+          "captured_at": "2026-11-11T06:21:16.284159+00:00",
+          "hours_elapsed": 4.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GWwUAoAMBZnLe9PJqEsaXKFzmnufbWuNS9iwLBQFgVJ": {
+      "chain": "solana",
+      "pair_address": "GWwUAoAMBZnLe9PJqEsaXKFzmnufbWuNS9iwLBQFgVJ",
+      "symbol": "VEYL",
+      "tier": "T1",
+      "detection_time": "2026-11-11T06:21:05.228994+00:00",
+      "detection_price": 0.0007444,
+      "detection_liq": 67528.33,
+      "peak_price": 0.0007444,
       "captures": {},
       "outcome_label": null,
       "completed": false
