@@ -86284,6 +86284,13 @@
           "volume_24h": 715232.46,
           "captured_at": "2026-11-11T21:58:46.683743+00:00",
           "hours_elapsed": 9.1
+        },
+        "price_24h": {
+          "price": 1.145e-05,
+          "liquidity": 7095.05,
+          "volume_24h": 266142.19,
+          "captured_at": "2026-11-12T13:55:48.310866+00:00",
+          "hours_elapsed": 25.0
         }
       },
       "outcome_label": null,
@@ -86312,6 +86319,13 @@
           "volume_24h": 130821.49,
           "captured_at": "2026-11-11T21:58:46.683743+00:00",
           "hours_elapsed": 9.1
+        },
+        "price_24h": {
+          "price": 7.851e-05,
+          "liquidity": 27643.89,
+          "volume_24h": 68811.49,
+          "captured_at": "2026-11-12T13:55:48.310866+00:00",
+          "hours_elapsed": 25.0
         }
       },
       "outcome_label": null,
@@ -86391,6 +86405,19 @@
           "hours_elapsed": 2.3
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:9ovaDmtnzr164fJVBpypehiQ9a5FZMLaCaTTAprM8xxJ": {
+      "chain": "solana",
+      "pair_address": "9ovaDmtnzr164fJVBpypehiQ9a5FZMLaCaTTAprM8xxJ",
+      "symbol": "Shitcoin",
+      "tier": "T2",
+      "detection_time": "2026-11-12T13:55:37.149798+00:00",
+      "detection_price": 6.764e-05,
+      "detection_liq": 18651.91,
+      "peak_price": 6.764e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
