@@ -86403,6 +86403,13 @@
           "volume_24h": 1254974.28,
           "captured_at": "2026-11-12T11:10:29.017825+00:00",
           "hours_elapsed": 2.3
+        },
+        "price_6h": {
+          "price": 0.0009316,
+          "liquidity": 77773.17,
+          "volume_24h": 1617407.73,
+          "captured_at": "2026-11-12T15:51:40.700086+00:00",
+          "hours_elapsed": 7.0
         }
       },
       "outcome_label": null,
@@ -86417,6 +86424,27 @@
       "detection_price": 6.764e-05,
       "detection_liq": 18651.91,
       "peak_price": 6.764e-05,
+      "captures": {
+        "price_1h": {
+          "price": 6.307e-05,
+          "liquidity": 17956.91,
+          "volume_24h": 323037.17,
+          "captured_at": "2026-11-12T15:51:40.700086+00:00",
+          "hours_elapsed": 1.9
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FJ1Y3drK5Z715mj8Hk512ekk3rQhTAhgRv6HMhnPCN2u": {
+      "chain": "solana",
+      "pair_address": "FJ1Y3drK5Z715mj8Hk512ekk3rQhTAhgRv6HMhnPCN2u",
+      "symbol": "Huang",
+      "tier": "T1",
+      "detection_time": "2026-11-12T15:51:28.834783+00:00",
+      "detection_price": 0.0004875,
+      "detection_liq": 56128.36,
+      "peak_price": 0.0004875,
       "captures": {},
       "outcome_label": null,
       "completed": false
