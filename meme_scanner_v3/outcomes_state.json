@@ -86578,8 +86578,28 @@
           "volume_24h": 268982.74,
           "captured_at": "2026-11-13T13:20:06.700352+00:00",
           "hours_elapsed": 1.7
+        },
+        "price_6h": {
+          "price": 0.004203,
+          "liquidity": 16325.79,
+          "volume_24h": 286500.89,
+          "captured_at": "2026-11-13T17:57:35.908890+00:00",
+          "hours_elapsed": 6.3
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:AdjVvfSvLELAfuBxvDLH5KhuwmXHXFPbQY7hvi9GHcwf": {
+      "chain": "solana",
+      "pair_address": "AdjVvfSvLELAfuBxvDLH5KhuwmXHXFPbQY7hvi9GHcwf",
+      "symbol": "WANTED",
+      "tier": "T1",
+      "detection_time": "2026-11-13T17:57:25.097395+00:00",
+      "detection_price": 0.0006245,
+      "detection_liq": 59903.22,
+      "peak_price": 0.0006245,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
