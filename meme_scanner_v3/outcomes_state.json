@@ -87081,8 +87081,16 @@
       "detection_time": "2026-11-15T19:38:18.066608+00:00",
       "detection_price": 8.944e-05,
       "detection_liq": 20787.48,
-      "peak_price": 8.944e-05,
-      "captures": {},
+      "peak_price": 9.544e-05,
+      "captures": {
+        "price_1h": {
+          "price": 9.544e-05,
+          "liquidity": 21793.43,
+          "volume_24h": 429292.02,
+          "captured_at": "2026-11-15T21:50:16.122568+00:00",
+          "hours_elapsed": 2.2
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -87095,6 +87103,27 @@
       "detection_price": 0.000112,
       "detection_liq": 31589.87,
       "peak_price": 0.000112,
+      "captures": {
+        "price_1h": {
+          "price": 4.559e-06,
+          "liquidity": 4368.54,
+          "volume_24h": 274069.65,
+          "captured_at": "2026-11-15T21:50:16.122568+00:00",
+          "hours_elapsed": 2.2
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DPBu18FhAg2wtb94TqnKA4DS9ExVFGgy5p7iZqvztwCp": {
+      "chain": "solana",
+      "pair_address": "DPBu18FhAg2wtb94TqnKA4DS9ExVFGgy5p7iZqvztwCp",
+      "symbol": "FiveM",
+      "tier": "T1",
+      "detection_time": "2026-11-15T21:50:08.154029+00:00",
+      "detection_price": 0.0001465,
+      "detection_liq": 26628.11,
+      "peak_price": 0.0001465,
       "captures": {},
       "outcome_label": null,
       "completed": false
