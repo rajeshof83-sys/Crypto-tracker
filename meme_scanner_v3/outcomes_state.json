@@ -86977,6 +86977,27 @@
       "detection_price": 0.0001612,
       "detection_liq": 33563.85,
       "peak_price": 0.0001612,
+      "captures": {
+        "price_1h": {
+          "price": 0.0001581,
+          "liquidity": 33394.53,
+          "volume_24h": 358254.22,
+          "captured_at": "2026-11-15T12:54:44.894370+00:00",
+          "hours_elapsed": 1.3
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:B1MJhdYiP3T6UqYhoiPJ1HZA1g3YxJBVFYsNJUCB5CgD": {
+      "chain": "solana",
+      "pair_address": "B1MJhdYiP3T6UqYhoiPJ1HZA1g3YxJBVFYsNJUCB5CgD",
+      "symbol": "PumpMas",
+      "tier": "T2",
+      "detection_time": "2026-11-15T12:54:32.633413+00:00",
+      "detection_price": 6.308e-05,
+      "detection_liq": 16959.73,
+      "peak_price": 6.308e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
