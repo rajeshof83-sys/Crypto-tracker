@@ -86795,6 +86795,13 @@
           "volume_24h": 289033.71,
           "captured_at": "2026-11-14T16:41:09.716183+00:00",
           "hours_elapsed": 6.2
+        },
+        "price_24h": {
+          "price": 0.0003165,
+          "liquidity": 42668.7,
+          "volume_24h": 137561.07,
+          "captured_at": "2026-11-15T11:34:06.227469+00:00",
+          "hours_elapsed": 25.1
         }
       },
       "outcome_label": null,
@@ -86958,6 +86965,19 @@
           "hours_elapsed": 2.5
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3mxDjdZ1gAe5HziC4dj4UnLdXJ5DBcC9jsSYq55mFyKg": {
+      "chain": "solana",
+      "pair_address": "3mxDjdZ1gAe5HziC4dj4UnLdXJ5DBcC9jsSYq55mFyKg",
+      "symbol": "DIGS",
+      "tier": "T2",
+      "detection_time": "2026-11-15T11:33:48.101756+00:00",
+      "detection_price": 0.0001612,
+      "detection_liq": 33563.85,
+      "peak_price": 0.0001612,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
