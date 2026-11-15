@@ -86760,10 +86760,17 @@
           "volume_24h": 1534471.96,
           "captured_at": "2026-11-14T14:34:10.382156+00:00",
           "hours_elapsed": 7.7
+        },
+        "price_24h": {
+          "price": 1.794e-06,
+          "liquidity": 2137.05,
+          "volume_24h": 992080.36,
+          "captured_at": "2026-11-15T06:55:42.866678+00:00",
+          "hours_elapsed": 24.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:5UsJJXRJZyvZSa5mYS6MfeXmrFQmU5CzF9aeCmQs1m4y": {
       "chain": "solana",
@@ -86923,6 +86930,19 @@
           "hours_elapsed": 1.2
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:Gdav29YtrdhQo9QW6LCbDbwsxoteZtdbeAjQ6nC3feQ3": {
+      "chain": "solana",
+      "pair_address": "Gdav29YtrdhQo9QW6LCbDbwsxoteZtdbeAjQ6nC3feQ3",
+      "symbol": "FUTA",
+      "tier": "T2",
+      "detection_time": "2026-11-15T06:55:26.085523+00:00",
+      "detection_price": 8.417e-05,
+      "detection_liq": 20818.9,
+      "peak_price": 8.417e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
