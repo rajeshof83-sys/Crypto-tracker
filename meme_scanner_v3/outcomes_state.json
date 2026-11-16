@@ -87131,10 +87131,17 @@
           "volume_24h": 444483.0,
           "captured_at": "2026-11-16T02:08:34.871036+00:00",
           "hours_elapsed": 6.5
+        },
+        "price_24h": {
+          "price": 3.518e-06,
+          "liquidity": 3175.94,
+          "volume_24h": 40428.65,
+          "captured_at": "2026-11-16T20:29:49.369093+00:00",
+          "hours_elapsed": 24.9
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:4DEtjTot1rhe24ikc6XynjXLu9CZ7EoMGkDBgZiLky6U": {
       "chain": "solana",
@@ -87159,10 +87166,17 @@
           "volume_24h": 274498.75,
           "captured_at": "2026-11-16T02:08:34.871036+00:00",
           "hours_elapsed": 6.5
+        },
+        "price_24h": {
+          "price": 3.673e-06,
+          "liquidity": 3663.93,
+          "volume_24h": 2630.65,
+          "captured_at": "2026-11-16T20:29:49.369093+00:00",
+          "hours_elapsed": 24.9
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:DPBu18FhAg2wtb94TqnKA4DS9ExVFGgy5p7iZqvztwCp": {
       "chain": "solana",
@@ -87236,6 +87250,13 @@
           "volume_24h": 3139875.26,
           "captured_at": "2026-11-16T12:06:59.056724+00:00",
           "hours_elapsed": 2.4
+        },
+        "price_6h": {
+          "price": 0.01339,
+          "liquidity": 306448.64,
+          "volume_24h": 4218263.54,
+          "captured_at": "2026-11-16T20:29:49.369093+00:00",
+          "hours_elapsed": 10.8
         }
       },
       "outcome_label": null,
@@ -87250,6 +87271,27 @@
       "detection_price": 0.0001198,
       "detection_liq": 24107.54,
       "peak_price": 0.0001198,
+      "captures": {
+        "price_1h": {
+          "price": 2.282e-05,
+          "liquidity": 9995.82,
+          "volume_24h": 502880.16,
+          "captured_at": "2026-11-16T20:29:49.369093+00:00",
+          "hours_elapsed": 5.3
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:2midW8Ymq8HCUAGCk2R1C62F9qbjAnxgizeQ4Pm9FxyH": {
+      "chain": "solana",
+      "pair_address": "2midW8Ymq8HCUAGCk2R1C62F9qbjAnxgizeQ4Pm9FxyH",
+      "symbol": "FLOTI",
+      "tier": "T1",
+      "detection_time": "2026-11-16T20:29:40.782220+00:00",
+      "detection_price": 1.42e-05,
+      "detection_liq": 24709.03,
+      "peak_price": 1.42e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
