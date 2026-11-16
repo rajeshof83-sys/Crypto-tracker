@@ -86123,10 +86123,17 @@
           "volume_24h": 304219.26,
           "captured_at": "2026-11-10T21:23:11.203733+00:00",
           "hours_elapsed": 24.5
+        },
+        "price_7d": {
+          "price": 0.0001257,
+          "liquidity": 30051.68,
+          "volume_24h": 244313.69,
+          "captured_at": "2026-11-16T22:34:30.486603+00:00",
+          "hours_elapsed": 169.7
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:F66UVPJ1bpQrknxE99BJTUQmG9SmiPnPrQiRUe96YcFg": {
       "chain": "solana",
@@ -87201,10 +87208,17 @@
           "volume_24h": 484830.08,
           "captured_at": "2026-11-16T05:32:20.371942+00:00",
           "hours_elapsed": 7.7
+        },
+        "price_24h": {
+          "price": 3.964e-06,
+          "liquidity": 3409.7,
+          "volume_24h": 110443.81,
+          "captured_at": "2026-11-16T22:34:30.486603+00:00",
+          "hours_elapsed": 24.7
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:5NopLqBDdWXeWCmZrHctgvFboozrjHJzSLwfkyTg2rqw": {
       "chain": "solana",
@@ -87278,6 +87292,13 @@
           "volume_24h": 502880.16,
           "captured_at": "2026-11-16T20:29:49.369093+00:00",
           "hours_elapsed": 5.3
+        },
+        "price_6h": {
+          "price": 4.363e-06,
+          "liquidity": 3664.68,
+          "volume_24h": 514835.62,
+          "captured_at": "2026-11-16T22:34:30.486603+00:00",
+          "hours_elapsed": 7.4
         }
       },
       "outcome_label": null,
@@ -87292,7 +87313,15 @@
       "detection_price": 1.42e-05,
       "detection_liq": 24709.03,
       "peak_price": 1.42e-05,
-      "captures": {},
+      "captures": {
+        "price_1h": {
+          "price": 1.238e-05,
+          "liquidity": 23072.91,
+          "volume_24h": 370111.02,
+          "captured_at": "2026-11-16T22:34:30.486603+00:00",
+          "hours_elapsed": 2.1
+        }
+      },
       "outcome_label": null,
       "completed": false
     }
