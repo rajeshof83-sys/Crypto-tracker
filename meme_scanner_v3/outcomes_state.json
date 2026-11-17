@@ -87270,7 +87270,7 @@
       "detection_time": "2026-11-16T09:44:20.936184+00:00",
       "detection_price": 0.01308,
       "detection_liq": 298531.06,
-      "peak_price": 0.01435,
+      "peak_price": 0.01488,
       "captures": {
         "price_1h": {
           "price": 0.01435,
@@ -87285,6 +87285,13 @@
           "volume_24h": 4218263.54,
           "captured_at": "2026-11-16T20:29:49.369093+00:00",
           "hours_elapsed": 10.8
+        },
+        "price_24h": {
+          "price": 0.01488,
+          "liquidity": 337962.82,
+          "volume_24h": 5632071.41,
+          "captured_at": "2026-11-17T13:27:50.110710+00:00",
+          "hours_elapsed": 27.7
         }
       },
       "outcome_label": null,
@@ -87343,6 +87350,19 @@
           "hours_elapsed": 7.4
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DuRQxRJ4gDL7fPWLEo2FK1qaKL11w8SafjDhx6JXS2Hp": {
+      "chain": "solana",
+      "pair_address": "DuRQxRJ4gDL7fPWLEo2FK1qaKL11w8SafjDhx6JXS2Hp",
+      "symbol": "iFruit",
+      "tier": "T2",
+      "detection_time": "2026-11-17T13:27:37.100165+00:00",
+      "detection_price": 9.557e-05,
+      "detection_liq": 21341.17,
+      "peak_price": 9.557e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
