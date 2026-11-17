@@ -86207,10 +86207,17 @@
           "volume_24h": 821023.24,
           "captured_at": "2026-11-11T21:58:46.683743+00:00",
           "hours_elapsed": 25.6
+        },
+        "price_7d": {
+          "price": 4.897e-06,
+          "liquidity": 4104.24,
+          "volume_24h": 379.63,
+          "captured_at": "2026-11-17T22:25:11.576561+00:00",
+          "hours_elapsed": 170.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:BKaAgFUMhQVgXA3BQzyabMibSMvietUiaPU95praUhx7": {
       "chain": "solana",
@@ -87355,6 +87362,13 @@
           "volume_24h": 4225.79,
           "captured_at": "2026-11-17T03:54:41.541521+00:00",
           "hours_elapsed": 7.4
+        },
+        "price_24h": {
+          "price": 1.167e-05,
+          "liquidity": 22406.52,
+          "volume_24h": 730.36,
+          "captured_at": "2026-11-17T22:25:11.576561+00:00",
+          "hours_elapsed": 25.9
         }
       },
       "outcome_label": null,
@@ -87368,7 +87382,7 @@
       "detection_time": "2026-11-17T13:27:37.100165+00:00",
       "detection_price": 9.557e-05,
       "detection_liq": 21341.17,
-      "peak_price": 9.557e-05,
+      "peak_price": 0.0001089,
       "captures": {
         "price_1h": {
           "price": 9.286e-05,
@@ -87376,6 +87390,13 @@
           "volume_24h": 78941.42,
           "captured_at": "2026-11-17T14:46:34.512672+00:00",
           "hours_elapsed": 1.3
+        },
+        "price_6h": {
+          "price": 0.0001089,
+          "liquidity": 22859.37,
+          "volume_24h": 78921.62,
+          "captured_at": "2026-11-17T22:25:11.576561+00:00",
+          "hours_elapsed": 9.0
         }
       },
       "outcome_label": null,
@@ -87389,8 +87410,16 @@
       "detection_time": "2026-11-17T19:16:10.445647+00:00",
       "detection_price": 0.0001952,
       "detection_liq": 31892.94,
-      "peak_price": 0.0001952,
-      "captures": {},
+      "peak_price": 0.0002819,
+      "captures": {
+        "price_1h": {
+          "price": 0.0002819,
+          "liquidity": 39119.36,
+          "volume_24h": 829133.56,
+          "captured_at": "2026-11-17T22:25:11.576561+00:00",
+          "hours_elapsed": 3.2
+        }
+      },
       "outcome_label": null,
       "completed": false
     },
@@ -87403,6 +87432,53 @@
       "detection_price": 0.0005501,
       "detection_liq": 53129.98,
       "peak_price": 0.0005501,
+      "captures": {
+        "price_1h": {
+          "price": 1.829e-06,
+          "liquidity": 1941.8,
+          "volume_24h": 1160717.18,
+          "captured_at": "2026-11-17T22:25:11.576561+00:00",
+          "hours_elapsed": 3.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:sVVcu9n1FbKwYS39gWw76NAE2jWBckCBdbC6jquaWC6": {
+      "chain": "solana",
+      "pair_address": "sVVcu9n1FbKwYS39gWw76NAE2jWBckCBdbC6jquaWC6",
+      "symbol": "LUNO",
+      "tier": "T1",
+      "detection_time": "2026-11-17T22:24:45.029249+00:00",
+      "detection_price": 0.0002802,
+      "detection_liq": 38551.7,
+      "peak_price": 0.0002802,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:GnwWXPwh9VyYT9e7tj7dADkuU95Q5CC2VTBpQERECvfy": {
+      "chain": "solana",
+      "pair_address": "GnwWXPwh9VyYT9e7tj7dADkuU95Q5CC2VTBpQERECvfy",
+      "symbol": "JALU",
+      "tier": "T1",
+      "detection_time": "2026-11-17T22:24:52.884182+00:00",
+      "detection_price": 0.0006583,
+      "detection_liq": 59878.2,
+      "peak_price": 0.0006583,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:8NxiZK7Z9Bu3bTKyb5nrn1UEU9wXYznMAb3ttu2sKZvG": {
+      "chain": "solana",
+      "pair_address": "8NxiZK7Z9Bu3bTKyb5nrn1UEU9wXYznMAb3ttu2sKZvG",
+      "symbol": "WANTED ",
+      "tier": "T1",
+      "detection_time": "2026-11-17T22:24:55.734324+00:00",
+      "detection_price": 7.47e-05,
+      "detection_liq": 22659.91,
+      "peak_price": 7.47e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
