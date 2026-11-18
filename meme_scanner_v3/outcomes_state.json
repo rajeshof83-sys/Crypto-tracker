@@ -87576,6 +87576,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:7CNC9gGegzEfFK8fLXiYUhdtMEeFPQZoND56U1Mxhnor": {
+      "chain": "solana",
+      "pair_address": "7CNC9gGegzEfFK8fLXiYUhdtMEeFPQZoND56U1Mxhnor",
+      "symbol": "HOGE",
+      "tier": "T2",
+      "detection_time": "2026-11-18T14:26:35.742632+00:00",
+      "detection_price": 0.001826,
+      "detection_liq": 164136.96,
+      "peak_price": 0.001826,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:E9JonByCR2Eb8f7oDjFzN1muXiYAUaqTgFRU4ig6cjvp": {
+      "chain": "solana",
+      "pair_address": "E9JonByCR2Eb8f7oDjFzN1muXiYAUaqTgFRU4ig6cjvp",
+      "symbol": "Tom\u00e1s",
+      "tier": "T1",
+      "detection_time": "2026-11-18T14:26:39.874785+00:00",
+      "detection_price": 7.138e-05,
+      "detection_liq": 22736.21,
+      "peak_price": 7.138e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
