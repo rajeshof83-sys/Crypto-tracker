@@ -86536,10 +86536,17 @@
           "volume_24h": 1334150.9,
           "captured_at": "2026-11-13T11:38:57.410671+00:00",
           "hours_elapsed": 26.8
+        },
+        "price_7d": {
+          "price": 1.858e-06,
+          "liquidity": 2195.16,
+          "volume_24h": 7.85,
+          "captured_at": "2026-11-19T12:01:17.731524+00:00",
+          "hours_elapsed": 171.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:9ovaDmtnzr164fJVBpypehiQ9a5FZMLaCaTTAprM8xxJ": {
       "chain": "solana",
@@ -87719,6 +87726,27 @@
       "detection_price": 5.189e-05,
       "detection_liq": 18783.06,
       "peak_price": 5.189e-05,
+      "captures": {
+        "price_1h": {
+          "price": 3.195e-05,
+          "liquidity": 14057.19,
+          "volume_24h": 319102.64,
+          "captured_at": "2026-11-19T12:01:17.731524+00:00",
+          "hours_elapsed": 5.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3d4SzgvyhhwDo3dnDzkQNppdqp1ffNvrZFVLRN94j1bP": {
+      "chain": "solana",
+      "pair_address": "3d4SzgvyhhwDo3dnDzkQNppdqp1ffNvrZFVLRN94j1bP",
+      "symbol": "jingyu",
+      "tier": "T1",
+      "detection_time": "2026-11-19T12:01:06.007998+00:00",
+      "detection_price": 9.93e-05,
+      "detection_liq": 22091.12,
+      "peak_price": 9.93e-05,
       "captures": {},
       "outcome_label": null,
       "completed": false
