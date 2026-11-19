@@ -87733,6 +87733,13 @@
           "volume_24h": 319102.64,
           "captured_at": "2026-11-19T12:01:17.731524+00:00",
           "hours_elapsed": 5.1
+        },
+        "price_6h": {
+          "price": 2.235e-05,
+          "liquidity": 11470.65,
+          "volume_24h": 322363.62,
+          "captured_at": "2026-11-19T13:07:49.675505+00:00",
+          "hours_elapsed": 6.2
         }
       },
       "outcome_label": null,
@@ -87747,6 +87754,27 @@
       "detection_price": 9.93e-05,
       "detection_liq": 22091.12,
       "peak_price": 9.93e-05,
+      "captures": {
+        "price_1h": {
+          "price": 9.8e-05,
+          "liquidity": 21973.84,
+          "volume_24h": 252215.75,
+          "captured_at": "2026-11-19T13:07:49.675505+00:00",
+          "hours_elapsed": 1.1
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:CDUUhndBkYXCKsHMJYRUXpVVrCjo6giKB6HP9Z9zYQwk": {
+      "chain": "solana",
+      "pair_address": "CDUUhndBkYXCKsHMJYRUXpVVrCjo6giKB6HP9Z9zYQwk",
+      "symbol": "Mandy",
+      "tier": "T1",
+      "detection_time": "2026-11-19T13:07:35.157419+00:00",
+      "detection_price": 0.0002205,
+      "detection_liq": 42245.21,
+      "peak_price": 0.0002205,
       "captures": {},
       "outcome_label": null,
       "completed": false
