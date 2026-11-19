@@ -86578,10 +86578,17 @@
           "volume_24h": 335480.24,
           "captured_at": "2026-11-13T16:24:32.731376+00:00",
           "hours_elapsed": 26.5
+        },
+        "price_7d": {
+          "price": 6.128e-06,
+          "liquidity": 4809.4,
+          "volume_24h": 991.8,
+          "captured_at": "2026-11-19T14:37:46.629934+00:00",
+          "hours_elapsed": 168.7
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "moon",
+      "completed": true
     },
     "solana:FJ1Y3drK5Z715mj8Hk512ekk3rQhTAhgRv6HMhnPCN2u": {
       "chain": "solana",
@@ -87656,6 +87663,13 @@
           "volume_24h": 2514589.19,
           "captured_at": "2026-11-18T21:32:00.231646+00:00",
           "hours_elapsed": 7.1
+        },
+        "price_24h": {
+          "price": 0.00113,
+          "liquidity": 130950.59,
+          "volume_24h": 1314428.0,
+          "captured_at": "2026-11-19T14:37:46.629934+00:00",
+          "hours_elapsed": 24.2
         }
       },
       "outcome_label": null,
@@ -87684,6 +87698,13 @@
           "volume_24h": 522754.69,
           "captured_at": "2026-11-18T21:32:00.231646+00:00",
           "hours_elapsed": 7.1
+        },
+        "price_24h": {
+          "price": 1.194e-05,
+          "liquidity": 8257.99,
+          "volume_24h": 106377.2,
+          "captured_at": "2026-11-19T14:37:46.629934+00:00",
+          "hours_elapsed": 24.2
         }
       },
       "outcome_label": null,
@@ -87774,7 +87795,28 @@
       "detection_time": "2026-11-19T13:07:35.157419+00:00",
       "detection_price": 0.0002205,
       "detection_liq": 42245.21,
-      "peak_price": 0.0002205,
+      "peak_price": 0.0003287,
+      "captures": {
+        "price_1h": {
+          "price": 0.0003287,
+          "liquidity": 53258.44,
+          "volume_24h": 1032590.46,
+          "captured_at": "2026-11-19T14:37:46.629934+00:00",
+          "hours_elapsed": 1.5
+        }
+      },
+      "outcome_label": null,
+      "completed": false
+    },
+    "ethereum:0x2405E4C5417321976256018B683B31383cD9acBa": {
+      "chain": "ethereum",
+      "pair_address": "0x2405E4C5417321976256018B683B31383cD9acBa",
+      "symbol": "DCTY",
+      "tier": "T2",
+      "detection_time": "2026-11-19T14:37:34.084698+00:00",
+      "detection_price": 0.0009186,
+      "detection_liq": 75409.94,
+      "peak_price": 0.0009186,
       "captures": {},
       "outcome_label": null,
       "completed": false
