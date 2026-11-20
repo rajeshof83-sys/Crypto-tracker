@@ -86662,10 +86662,17 @@
           "volume_24h": 835082.89,
           "captured_at": "2026-11-14T00:45:59.466270+00:00",
           "hours_elapsed": 24.4
+        },
+        "price_7d": {
+          "price": 5.61e-06,
+          "liquidity": 4707.07,
+          "volume_24h": 12100.9,
+          "captured_at": "2026-11-20T02:31:00.200484+00:00",
+          "hours_elapsed": 170.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:88sMwAF7twYij1PbLT9tSZZGPrdqG17B7j5b54aVuDSD": {
       "chain": "solana",
@@ -86697,10 +86704,17 @@
           "volume_24h": 253528.93,
           "captured_at": "2026-11-14T00:45:59.466270+00:00",
           "hours_elapsed": 24.4
+        },
+        "price_7d": {
+          "price": 0.000158,
+          "liquidity": 28566.15,
+          "volume_24h": 30085.62,
+          "captured_at": "2026-11-20T02:31:00.200484+00:00",
+          "hours_elapsed": 170.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "bsc:0x5a3835f05Cbee9B2DADa969e55E92B54D203D1B0": {
       "chain": "bsc",
@@ -87861,6 +87875,19 @@
           "hours_elapsed": 6.3
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:31D1mtFZEi4XV6SXQJ5GbNaeW6J1PLHbyXvkinQbiYdN": {
+      "chain": "solana",
+      "pair_address": "31D1mtFZEi4XV6SXQJ5GbNaeW6J1PLHbyXvkinQbiYdN",
+      "symbol": "scat",
+      "tier": "T2",
+      "detection_time": "2026-11-20T02:30:49.764076+00:00",
+      "detection_price": 0.0001152,
+      "detection_liq": 23644.29,
+      "peak_price": 0.0001152,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
