@@ -86942,10 +86942,17 @@
           "volume_24h": 137561.07,
           "captured_at": "2026-11-15T11:34:06.227469+00:00",
           "hours_elapsed": 25.1
+        },
+        "price_7d": {
+          "price": 9.77e-05,
+          "liquidity": 16478.89,
+          "volume_24h": 25055.7,
+          "captured_at": "2026-11-21T12:16:54.318124+00:00",
+          "hours_elapsed": 169.8
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:6TS4LyZUUuC59MJjiSKZdHA4BEwdEcaMpaa547YLG3fu": {
       "chain": "solana",
@@ -87959,6 +87966,19 @@
           "hours_elapsed": 25.3
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:4s8CAbVgaDHoPkkbitjdQZ4TfqXKuczHWdfy8HLVUbdQ": {
+      "chain": "solana",
+      "pair_address": "4s8CAbVgaDHoPkkbitjdQZ4TfqXKuczHWdfy8HLVUbdQ",
+      "symbol": "greg",
+      "tier": "T2",
+      "detection_time": "2026-11-21T12:16:45.469544+00:00",
+      "detection_price": 0.0002982,
+      "detection_liq": 42710.6,
+      "peak_price": 0.0002982,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
