@@ -88076,8 +88076,28 @@
           "volume_24h": 917075.73,
           "captured_at": "2026-11-23T07:58:29.529406+00:00",
           "hours_elapsed": 5.6
+        },
+        "price_6h": {
+          "price": 0.0005617,
+          "liquidity": 54916.34,
+          "volume_24h": 977250.14,
+          "captured_at": "2026-11-23T09:05:55.670525+00:00",
+          "hours_elapsed": 6.7
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:7yJDP2VmgazVEa6usbXM61uSk5AT3J4dZFaJQvq2LnfZ": {
+      "chain": "solana",
+      "pair_address": "7yJDP2VmgazVEa6usbXM61uSk5AT3J4dZFaJQvq2LnfZ",
+      "symbol": "MINELIUS",
+      "tier": "T2",
+      "detection_time": "2026-11-23T09:05:46.259853+00:00",
+      "detection_price": 0.01644,
+      "detection_liq": 307825.38,
+      "peak_price": 0.01644,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
