@@ -87894,10 +87894,17 @@
           "volume_24h": 816197.56,
           "captured_at": "2026-11-19T21:33:33.807001+00:00",
           "hours_elapsed": 24.0
+        },
+        "price_7d": {
+          "price": 1.292e-05,
+          "liquidity": 3542.17,
+          "volume_24h": 4707.27,
+          "captured_at": "2026-11-25T22:33:00.138738+00:00",
+          "hours_elapsed": 169.0
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:31ZhFwyrs1cjjcKLoKVFaG24oHgeo7y142hvKrK83VaT": {
       "chain": "solana",
@@ -88239,6 +88246,19 @@
           "hours_elapsed": 7.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FUzScAtZzSt9rzMtt2pCDLPpJ1ikYC5LgDNjYtfWyqdj": {
+      "chain": "solana",
+      "pair_address": "FUzScAtZzSt9rzMtt2pCDLPpJ1ikYC5LgDNjYtfWyqdj",
+      "symbol": "NORFEATH",
+      "tier": "T1",
+      "detection_time": "2026-11-25T22:32:49.642792+00:00",
+      "detection_price": 0.0004985,
+      "detection_liq": 49904.37,
+      "peak_price": 0.0004985,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
