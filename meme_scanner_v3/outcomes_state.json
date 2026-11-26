@@ -87936,10 +87936,17 @@
           "volume_24h": 58255.95,
           "captured_at": "2026-11-20T07:35:50.567576+00:00",
           "hours_elapsed": 24.7
+        },
+        "price_7d": {
+          "price": 4.078e-06,
+          "liquidity": 3943.03,
+          "volume_24h": 44.74,
+          "captured_at": "2026-11-26T08:43:43.538301+00:00",
+          "hours_elapsed": 169.8
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "flat",
+      "completed": true
     },
     "solana:3d4SzgvyhhwDo3dnDzkQNppdqp1ffNvrZFVLRN94j1bP": {
       "chain": "solana",
@@ -88316,6 +88323,19 @@
           "hours_elapsed": 1.8
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:DDcyemq9bkyqtC93djkwaH6VaMKCjVsoCUVGV29q7teB": {
+      "chain": "solana",
+      "pair_address": "DDcyemq9bkyqtC93djkwaH6VaMKCjVsoCUVGV29q7teB",
+      "symbol": "PUMPCHAN",
+      "tier": "T2",
+      "detection_time": "2026-11-26T08:43:31.096781+00:00",
+      "detection_price": 0.006105,
+      "detection_liq": 179442.01,
+      "peak_price": 0.006105,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
