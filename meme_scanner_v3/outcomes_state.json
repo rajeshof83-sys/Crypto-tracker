@@ -88020,10 +88020,17 @@
           "volume_24h": 935339.89,
           "captured_at": "2026-11-20T14:16:11.546532+00:00",
           "hours_elapsed": 25.1
+        },
+        "price_7d": {
+          "price": 4.328e-06,
+          "liquidity": 5634.03,
+          "volume_24h": 5731.07,
+          "captured_at": "2026-11-26T13:13:22.577768+00:00",
+          "hours_elapsed": 168.1
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "ethereum:0x2405E4C5417321976256018B683B31383cD9acBa": {
       "chain": "ethereum",
