@@ -88269,6 +88269,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:7wNXypS79Whx7vX8NCrkdhQAFiYVbQZbBuqrRdKMRbve": {
+      "chain": "solana",
+      "pair_address": "7wNXypS79Whx7vX8NCrkdhQAFiYVbQZbBuqrRdKMRbve",
+      "symbol": "Grodia",
+      "tier": "T1",
+      "detection_time": "2026-11-26T02:59:54.964212+00:00",
+      "detection_price": 0.0007166,
+      "detection_liq": 61616.75,
+      "peak_price": 0.0007166,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:A17d9VrouAwb9xi6kt4Mrq5zapTegcNqZNJzLfiVHiVQ": {
+      "chain": "solana",
+      "pair_address": "A17d9VrouAwb9xi6kt4Mrq5zapTegcNqZNJzLfiVHiVQ",
+      "symbol": "$XMAS",
+      "tier": "T2",
+      "detection_time": "2026-11-26T02:59:58.292875+00:00",
+      "detection_price": 0.000123,
+      "detection_liq": 23897.59,
+      "peak_price": 0.000123,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
