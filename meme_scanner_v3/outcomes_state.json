@@ -88454,6 +88454,13 @@
           "volume_24h": 1246863.99,
           "captured_at": "2026-11-27T04:26:37.389435+00:00",
           "hours_elapsed": 8.7
+        },
+        "price_24h": {
+          "price": 0.0001114,
+          "liquidity": 26292.59,
+          "volume_24h": 398218.23,
+          "captured_at": "2026-11-27T22:52:50.953210+00:00",
+          "hours_elapsed": 27.1
         }
       },
       "outcome_label": null,
@@ -88505,6 +88512,19 @@
           "hours_elapsed": 1.1
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:3BgwENzrwq4WcHwxJENuVXE2CDKpTJ6QRqGDxzyLUgDQ": {
+      "chain": "solana",
+      "pair_address": "3BgwENzrwq4WcHwxJENuVXE2CDKpTJ6QRqGDxzyLUgDQ",
+      "symbol": "WINTER",
+      "tier": "T1",
+      "detection_time": "2026-11-27T22:52:40.150075+00:00",
+      "detection_price": 9.186e-05,
+      "detection_liq": 20871.99,
+      "peak_price": 9.186e-05,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
