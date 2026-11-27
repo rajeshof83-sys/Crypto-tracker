@@ -88104,10 +88104,17 @@
           "volume_24h": 90699.61,
           "captured_at": "2026-11-21T03:51:13.093881+00:00",
           "hours_elapsed": 25.3
+        },
+        "price_7d": {
+          "price": 2.966e-06,
+          "liquidity": 2802.34,
+          "volume_24h": 230.99,
+          "captured_at": "2026-11-27T04:26:37.389435+00:00",
+          "hours_elapsed": 169.9
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:4s8CAbVgaDHoPkkbitjdQZ4TfqXKuczHWdfy8HLVUbdQ": {
       "chain": "solana",
@@ -88342,10 +88349,17 @@
           "volume_24h": 2453197.33,
           "captured_at": "2026-11-26T13:01:06.602500+00:00",
           "hours_elapsed": 10.0
+        },
+        "price_24h": {
+          "price": 1.532e-06,
+          "liquidity": 1746.2,
+          "volume_24h": 666704.83,
+          "captured_at": "2026-11-27T04:26:37.389435+00:00",
+          "hours_elapsed": 25.4
         }
       },
-      "outcome_label": null,
-      "completed": false
+      "outcome_label": "rug",
+      "completed": true
     },
     "solana:A17d9VrouAwb9xi6kt4Mrq5zapTegcNqZNJzLfiVHiVQ": {
       "chain": "solana",
@@ -88370,6 +88384,13 @@
           "volume_24h": 98041.36,
           "captured_at": "2026-11-26T13:01:06.602500+00:00",
           "hours_elapsed": 10.0
+        },
+        "price_24h": {
+          "price": 8.516e-05,
+          "liquidity": 19921.14,
+          "volume_24h": 33785.05,
+          "captured_at": "2026-11-27T04:26:37.389435+00:00",
+          "hours_elapsed": 25.4
         }
       },
       "outcome_label": null,
@@ -88419,8 +88440,28 @@
           "volume_24h": 1140115.92,
           "captured_at": "2026-11-26T22:31:00.971081+00:00",
           "hours_elapsed": 2.8
+        },
+        "price_6h": {
+          "price": 0.0003061,
+          "liquidity": 43186.3,
+          "volume_24h": 1246863.99,
+          "captured_at": "2026-11-27T04:26:37.389435+00:00",
+          "hours_elapsed": 8.7
         }
       },
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:FbJUkdYU6DeDKnKUm4dJQkTZ5Y6U6939XbwWozDQqfzz": {
+      "chain": "solana",
+      "pair_address": "FbJUkdYU6DeDKnKUm4dJQkTZ5Y6U6939XbwWozDQqfzz",
+      "symbol": "Santaball",
+      "tier": "T1",
+      "detection_time": "2026-11-27T04:26:24.829511+00:00",
+      "detection_price": 0.0007764,
+      "detection_liq": 64072.32,
+      "peak_price": 0.0007764,
+      "captures": {},
       "outcome_label": null,
       "completed": false
     }
