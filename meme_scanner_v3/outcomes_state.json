@@ -88556,6 +88556,32 @@
       },
       "outcome_label": null,
       "completed": false
+    },
+    "solana:D7yg57fPBWJYzMiJQYe4kMizuoZ8SeSVTbqMMcsxu9Pu": {
+      "chain": "solana",
+      "pair_address": "D7yg57fPBWJYzMiJQYe4kMizuoZ8SeSVTbqMMcsxu9Pu",
+      "symbol": "FINGART",
+      "tier": "T1",
+      "detection_time": "2026-11-28T08:14:27.159255+00:00",
+      "detection_price": 8.692e-05,
+      "detection_liq": 20325.89,
+      "peak_price": 8.692e-05,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
+    },
+    "solana:G57CFXEDFWpUSMyURZZsjYCKZykXrmU6CSxFZaoJGoT7": {
+      "chain": "solana",
+      "pair_address": "G57CFXEDFWpUSMyURZZsjYCKZykXrmU6CSxFZaoJGoT7",
+      "symbol": "BITCOINU",
+      "tier": "T1",
+      "detection_time": "2026-11-28T08:14:29.088308+00:00",
+      "detection_price": 0.0009094,
+      "detection_liq": 68628.95,
+      "peak_price": 0.0009094,
+      "captures": {},
+      "outcome_label": null,
+      "completed": false
     }
   }
 }
